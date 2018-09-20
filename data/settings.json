@@ -118,13 +118,13 @@
     "short": "Calgary, Alberta",
     "address": "-",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 51.037020,
+      "longitude": -114.190584,
       "zoom": 5
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 51,
+      "longitude": -114
     },
     "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
   },
