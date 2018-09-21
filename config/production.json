@@ -1,15 +1,15 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-master.firebaseapp.com/",
-  "analytics": "UA-43643469-9",
+  "url": "http://devfest-calgary.firebaseapp.com/",
+  "analytics": "UA-00000000-8",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
-    "authDomain": "hoverboard-master.firebaseapp.com",
-    "databaseURL": "https://hoverboard-master.firebaseio.com",
-    "projectId": "hoverboard-master",
-    "storageBucket": "hoverboard-master.appspot.com",
-    "messagingSenderId": "516409946568"
+    "apiKey": "AIzaSyBu9LI-hY4NfUOPJJKuV3BfQm7edLr2-aE",
+    "authDomain": "hoverboard-dev.firebaseapp.com",
+    "databaseURL": "https://devfest-calgary.firebaseio.com",
+    "projectId": "devfest-calgary",
+    "storageBucket": "devfest-calgary.appspot.com",
+    "messagingSenderId": "826487843465"
   },
-  "googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw"
+  "googleMapApiKey": "AIzaSyBM1l4HNoRWIw9Qv7GrlAbpUkWBAwS7JtM"
 }
