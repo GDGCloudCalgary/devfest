@@ -5,7 +5,7 @@
   "prefix": "/",
   "firebase": {
     "apiKey": "AIzaSyBu9LI-hY4NfUOPJJKuV3BfQm7edLr2-aE",
-    "authDomain": "hoverboard-dev.firebaseapp.com",
+    "authDomain": "devfest-calgary.firebaseapp.com",
     "databaseURL": "https://devfest-calgary.firebaseio.com",
     "projectId": "devfest-calgary",
     "storageBucket": "devfest-calgary.appspot.com",
