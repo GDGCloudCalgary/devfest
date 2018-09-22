@@ -11,7 +11,7 @@
 ## Overview
 Project Hoverboard is the conference website template that helps you to set up mobile first conference website with blog, speakers and schedule management in a few minutes.
 
-The template is created based on 7 years of [GDG Lviv](https://www.meetup.com/GDG-Lviv/) team experience of running conferences and feedback from more than 500 event organizers from all around the world who were using previous Hoverboard versions.
+The template is created based on 7 years of [GDG Lviv](https://www.meetup.com/GDG/) team experience of running conferences and feedback from more than 500 event organizers from all around the world who were using previous Hoverboard versions.
 
 Our goal is to allow event organizers to set up professional conference website with minimum resources. To get started you need only basic knowledge of web technologies and a free Firebase account.
 
