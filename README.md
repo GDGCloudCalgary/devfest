@@ -9,7 +9,7 @@
 [![Build Status](https://travis-ci.org/gdg-x/hoverboard.svg?branch=master)](https://travis-ci.org/gdg-x/hoverboard) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgdg-x%2Fhoverboard.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgdg-x%2Fhoverboard?ref=badge_shield)
 
 ## Overview
-Project Hoverboard is the conference website template that helps you to set up mobile first conference website with blog, speakers and schedule management in a few minutes.
+1. Project Hoverboard is the conference website template that helps you to set up mobile first conference website with blog, speakers and schedule management in a few minutes.
 
 The template is created based on 7 years of [GDG Lviv](https://www.meetup.com/GDG/) team experience of running conferences and feedback from more than 500 event organizers from all around the world who were using previous Hoverboard versions.
 
