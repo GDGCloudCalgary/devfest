@@ -2,11 +2,11 @@
 
 ### Dates and location
 
-GDG DevFest Calgary will take place on the 12-13th of October in [Planeta Kino (King Cross),]( https://goo.gl/Zwi76g) Lviv.
+GDG DevFest Calgary will take place on the 3rd of November in [Riddle Library (Mount Royal University),]( https://goo.gl/Zwi76g) Calgary.
 
 ### Stay Informed
 
-To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [DevFest website](https://devfest.gdg.org.ua/), RSVP on [Meetup]( https://www.meetup.com/GDG-Lviv/events/244342635/) and follow us on [Facebook](https://www.facebook.com/devfest.Calgary/) and [Twitter](https://twitter.com/devfest_ukraine). You can also follow and join the social conversation about GDG DevFest Calgary via official hashtags #dfua and #Devfest18. In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
+To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [DevFest website](https://devfest-calgary.firebaseapp.com/), and RSVP on [Meetup]( https://www.meetup.com/gdgcloudcalgary/). In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
 
 ### Content Formats
 
@@ -14,7 +14,7 @@ During two conference days attendees will be able to attend sessions and hands-o
 
 ### Livestream & Recordings
 
-If you’re unable to attend DevFest in-person, you can still be part of the magic. All the lectures from the sessions will be available for free on GDG Lviv [youtube channel](https://www.youtube.com/channel/UC5nknQj-2llSNd-jqXr4d_w) few weeks after the conference. Workshops won’t be recorded. Also, there could be a livestream provided by participants which you can find via #dfua and #Devfest18 hashtags.
+If you’re unable to attend DevFest in-person, you can still be part of the magic. All the lectures from the sessions will be available for free on GDG Cloud Calgary [youtube channel](https://www.youtube.com/channel/UCALXb4vyoj--zR_0q7oJUWg) few weeks after the conference. Workshops won’t be recorded. Also, there could be a livestream provided by participants which you can find via #dfua and #Devfest18 hashtags.
 
   
 ## Registration
@@ -77,10 +77,10 @@ Special tickets for real supporters of our conference. As we’re organizing the
 - Ticket purchases can be refunded before October 4th, 2018 via your profile at the [ticket service website]( https://2event.com/events/1027108). 
 - After October 4th, 2018, all ticket sales are final. There will be no refunds or exchanges regardless of weather conditions, session availability, or any other circumstance. 
 - Attendees aren’t permitted to bring guests to GDG DevFest Calgary or to the after hours party. If you have someone traveling with you, they’ll need to register themselves and purchase an attendee ticket. 
-- Photographs and/or video taken at GDG DevFest Calgary by GDG Lviv, or others on behalf of the conference organizers, may include your image or likeness. You agree that GDG Lviv may use such photographs and/or video for any purpose without any compensation to you. 
+- Photographs and/or video taken at GDG DevFest Calgary by GDG Cloud Calgary, or others on behalf of the conference organizers, may include your image or likeness. You agree that GDG Cloud Calgary may use such photographs and/or video for any purpose without any compensation to you. 
 - All information entered into the registration form must be correct and accurate to the best of your knowledge. All information expected to be entered in English. Some of the information entered (such as name, company and title), will be displayed on the attendee badge. 
 - By registering for a ticket you acknowledge that your information will be used in accordance with [Tickets provider Terms of Service](https://2event.com/en/agreement). 
-- All registered attendees agree to allow GDG Lviv to contact them regarding their registration and attendance at the event. By registering for a ticket, you agree to allow GDG Lviv to communicate with you via email with information regarding the event. 
+- All registered attendees agree to allow GDG Cloud Calgary to contact them regarding their registration and attendance at the event. By registering for a ticket, you agree to allow GDG Cloud Calgary to communicate with you via email with information regarding the event. 
 - You agree to be solely responsible for your own safety, belongings and well-being while participating in GDG DevFest Calgary. Organizers won't be liable for your participation in GDG DevFest Calgary. 
 - Applicants and attendees can request the deletion of their registration data after the event ends by emailing [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua). 
   
@@ -88,8 +88,8 @@ Special tickets for real supporters of our conference. As we’re organizing the
 ### More Registration Details
 
 - Please make sure to register using the name that matches the government-issued photo ID you’ll be presenting when you check in to the festival. 
-- Registration for GDG DevFest Calgary includes two full days of sessions, product demos, admission to the after hours party, and attendance at the keynotes. We also provide complimentary snacks each day. In addition, attendees receive a conference badge and may be offered additional gifts.  
-- If you aren’t a resident of Calgary, you should check with your local government to determine the required documents and arrangements needed for your travel to Calgary. If you require a visa letter regarding your GDG DevFest Calgary attendance please indicate so when completing the registration form and we’ll email it to you within 7 business days. If you haven’t received your letter or have questions regarding the process, you can contact [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua). GDG Lviv won’t be able to contact an embassy on your behalf. 
+- Registration for GDG DevFest Calgary includes one full day of sessions, product demos, admission to the after hours party, and attendance at the keynotes. We also provide complimentary snacks each day. In addition, attendees receive a conference badge and may be offered additional gifts.  
+- If you aren’t a resident of Calgary, you should check with your local government to determine the required documents and arrangements needed for your travel to Calgary. If you require a visa letter regarding your GDG DevFest Calgary attendance please indicate so when completing the registration form and we’ll email it to you within 7 business days. If you haven’t received your letter or have questions regarding the process, you can contact [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua). GDG Calgary won’t be able to contact an embassy on your behalf. 
   
 
 ## Attendance Details
