@@ -10,3 +10,5 @@ functions/lib/
 /appengine/dist/
 serviceAccount.json
 package-lock.json
+yarn.lock
+package-lock.json
