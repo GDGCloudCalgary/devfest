@@ -113,20 +113,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
+    "name": "Riddell Library, Mount Royal University",
     "city": "Calgary",
     "short": "Calgary, Alberta",
     "address": "-",
     "pointer": {
       "latitude": 51.0121776,
       "longitude": -114.127813,
-      "zoom": 5
+      "zoom": 10
     },
     "mapCenter": {
       "latitude": 51,
       "longitude": -114
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "The ultra modern Riddell Library at Mount Royal University" 
   },
   "mediaQueries": {
     "xs": {
