@@ -40,7 +40,7 @@ Conditions: Available until November 1st
 
 ####General Admission: $70
 
-Conditions: Mar 7 - Jun 30 or first 200 tickets
+Conditions: Available until November 1st
 
 #### **Lazy birds tickets**
 
@@ -48,7 +48,7 @@ Conditions: Mar 7 - Jun 30 or first 200 tickets
 
 ###Conditions: Jul 1 - Sep 30 or until tickets will be sold out
 
-Conditions: Mar 7 - Jun 30 or first 200 tickets
+Conditions: Available until November 1st
 
 #### **EDU (Students/lecturers) Tickets**
 
