@@ -89,7 +89,7 @@ Special tickets for real supporters of our conference. As we’re organizing the
 
 - Please make sure to register using the name that matches the government-issued photo ID you’ll be presenting when you check in to the festival. 
 - Registration for GDG DevFest Calgary includes one full day of sessions, product demos, admission to the after hours party, and attendance at the keynotes. We also provide complimentary snacks each day. In addition, attendees receive a conference badge and may be offered additional gifts.  
-- If you aren’t a resident of Calgary, you should check with your local government to determine the required documents and arrangements needed for your travel to Calgary. If you require a visa letter regarding your GDG DevFest Calgary attendance please indicate so when completing the registration form and we’ll email it to you within 7 business days. If you haven’t received your letter or have questions regarding the process, you can contact [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua). GDG Calgary won’t be able to contact an embassy on your behalf. 
+- If you aren’t a resident of Calgary, you should check with your local government to determine the required documents and arrangements needed for your travel to Calgary. If you require a visa letter regarding your GDG DevFest Calgary attendance please indicate so when completing the registration form and we’ll email it to you within 7 business days. If you haven’t received your letter or have questions regarding the process, you can contact [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua). GDG Cloud Calgary won’t be able to contact an embassy on your behalf. 
   
 
 ## Attendance Details
