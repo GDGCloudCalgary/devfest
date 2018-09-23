@@ -260,7 +260,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Calgary is proud organizer of DevFest Calgary",
+        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Calgary</a> with support of 10 GDGs from all around Calgary is proud organizer of DevFest Calgary",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
