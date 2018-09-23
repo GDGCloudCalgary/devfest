@@ -4,12 +4,12 @@
   "analytics": "UA-00000000-8",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyBu9LI-hY4NfUOPJJKuV3BfQm7edLr2-aE",
+    "apiKey": "AIzaSyAldKUqDmAva8_4RiIDLyB2tenn21czlE8",
     "authDomain": "devfest-calgary.firebaseapp.com",
     "databaseURL": "https://devfest-calgary.firebaseio.com",
     "projectId": "devfest-calgary",
     "storageBucket": "devfest-calgary.appspot.com",
     "messagingSenderId": "826487843465"
   },
-  "googleMapApiKey": "AIzaSyBM1l4HNoRWIw9Qv7GrlAbpUkWBAwS7JtM"
+  "googleMapApiKey": ""
 }
