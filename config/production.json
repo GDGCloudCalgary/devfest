@@ -4,7 +4,7 @@
   "analytics": "UA-00000000-8",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyAldKUqDmAva8_4RiIDLyB2tenn21czlE8",
+    "apiKey": "AIzaSyD9d9ekICQtF_doCArahNoEE9J8R6cuYoA",
     "authDomain": "devfest-calgary.firebaseapp.com",
     "databaseURL": "https://devfest-calgary.firebaseio.com",
     "projectId": "devfest-calgary",
