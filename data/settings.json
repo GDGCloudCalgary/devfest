@@ -120,7 +120,7 @@
     "pointer": {
       "latitude": 51.0121776,
       "longitude": -114.127813,
-      "zoom": 50
+      "zoom":35
     },
     "mapCenter": {
       "latitude": 51,
