@@ -48,5 +48,5 @@ We expect all community participants to abide by this Code of Conduct in all com
 
 ### 7. Contact info
 
-- Greg Bennett, +38 093 486 64 60, [o.zasadnyy@gdg.org.ua](mailto:gbennett@gdgcloudcalgary.com)
-- Mike Hoff, +38 093 486 14 25, [s.huts@gdg.org.ua](mailto:mhoff@gdgcloudcalgary.com)
+- Greg Bennett, 1.403.993.9426, [greg@gdgcloudcalgary.com](mailto:gbennett@gdgcloudcalgary.com)
+- Mike Hoff, 403.966.3694, [mike@gdgcloudcalgary.com](mailto:mike@gdgcloudcalgary.com)
