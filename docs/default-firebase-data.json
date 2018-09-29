@@ -745,8 +745,8 @@
     "members" : [
     {
       "name" : "Greg Bennett",
-      "photo" : "https://drive.google.com/open?id=0B__hx7thmLB0alMyenprTzBJQ1U",
-      "photoUrl" : "https://drive.google.com/open?id=1ykmIdFQ_m6BnOPW_vc_URfmRk3bnVtnp",
+      "photo" : "/images/people/greg.bennett.png",
+      "photoUrl" : "https://devfest-calgary.firebaseapp.com/images/people/greg.bennett.png",
       "socials" : [ {
       "icon" : "gplus",
       "link" : "https://devfest-calgary.firebaseapp.com/team",
@@ -764,12 +764,12 @@
       "link" : "https://www.gregbennett.io",
       "name" : "Blog"
       } ],
-      "title" : "Program and sponsors"
+      "title" : "Founder and Program Manager"
       },
     {
       "name" : "Mos Saleh",
       "photo" : "/images/people/mos.saleh.png",
-      "photoUrl" : "https://devfest-calgary.firebaseapp.com",
+      "photoUrl" : "https://devfest-calgary.firebaseapp.com/images/people/mos.saleh.png",
       "socials" : [ {
       "icon" : "gplus",
       "link" : "https://plus.google.com/u/0/111210719993935219678",
@@ -779,12 +779,12 @@
       "link" : "https://www.linkedin.com/in/fermisk/",
       "name" : "Linkedin"
       } ],
-      "title" : "Cloud Architect"
+      "title" : "Cloud Architect and Full Stack Developer"
       },
     {
       "name" : "Mike Hoff",
-      "photo" : "https://drive.google.com/open?id=1xy3HetMK-96xLZ7T9n6dw7xrrqajAHjP",
-      "photoUrl" : "https://drive.google.com/open?id=1xy3HetMK-96xLZ7T9n6dw7xrrqajAHjP",
+      "photo" : "/images/people/mike.hoff.png",
+      "photoUrl" : "https://devfest-calgary.firebaseapp.com/images/people/mike.hoff.png",
       "socials" : [ {
       "icon" : "linkedin",
       "link" : "https://www.linkedin.com/in/zasadnyy",
@@ -802,8 +802,8 @@
       },
     {
       "name" : "Kiley Carson",
-      "photo" : "https://drive.google.com/open?id=1Ju8JUMKIuFUC9UEfGk7kOgMntYMENUAP",
-      "photoUrl" : "https://drive.google.com/open?id=1Ju8JUMKIuFUC9UEfGk7kOgMntYMENUAP",
+      "photo" : "/images/people/kiley.carson.png",
+      "photoUrl" : "https://devfest-calgary.firebaseapp.com/images/people/kiley.carson.png",
       "socials" : [ {
       "icon" : "gplus",
       "link" : "https://devfest-calgary.firebaseapp.com/team",
@@ -817,8 +817,8 @@
       },
     {
       "name" : "David Shen",
-      "photo" : "/images/people/ostap_andrusiv.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/ostap_andrusiv.jpg",
+      "photo" : "/images/people/david.shen.png",
+      "photoUrl" : "https://devfest-calgary.firebaseapp.com/images/people/david.shen.png",
       "socials" : [ {
         "icon" : "gplus",
         "link" : "https://google.com/+OstapAndrusiv",
@@ -837,10 +837,86 @@
         "name" : "Blog"
       } ],
       "title" : "Sponsors"
-    }, {
+    }, 
+    {
+      "name" : "Laura Grant",
+      "photo" : "/images/people/laura.grant.png",
+      "photoUrl" : "https://devfest-calgary.firebaseapp.com/images/people/laura.grant.png",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://google.com/+OstapAndrusiv",
+        "name" : "Google+"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/ostap.andrusiv",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/p1f",
+        "name" : "Twitter"
+      }, {
+        "icon" : "website",
+        "link" : "http://andrusiv.com/",
+        "name" : "Blog"
+      } ],
+      "title" : "Sponsors"
+    },
+    
+
+    {
+      "name" : "Stefania Sanson",
+      "photo" : "/images/people/stefania.sanson.png",
+      "photoUrl" : "https://devfest-calgary.firebaseapp.com/images/people/stefania.sanson.png",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://google.com/+OstapAndrusiv",
+        "name" : "Google+"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/ostap.andrusiv",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/p1f",
+        "name" : "Twitter"
+      }, {
+        "icon" : "website",
+        "link" : "http://andrusiv.com/",
+        "name" : "Blog"
+      } ],
+      "title" : "Sponsors"
+    }
+    
+    ,
+    {
+      "name" : "Jenney Ye",
+      "photo" : "/images/people/jenny.ye.png",
+      "photoUrl" : "https://devfest-calgary.firebaseapp.com/images/people/jenny.ye.png",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://google.com/+OstapAndrusiv",
+        "name" : "Google+"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/ostap.andrusiv",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/p1f",
+        "name" : "Twitter"
+      }, {
+        "icon" : "website",
+        "link" : "http://andrusiv.com/",
+        "name" : "Blog"
+      } ],
+      "title" : "Sponsors"
+    }
+    ,
+    
+    {
       "name" : "Raymond Efegoma",
-      "photo" : "/images/people/diana_pinchuk.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fdiana_pinchuk.jpg?alt=media&token=189d67d1-004f-4a3c-9e0c-13bc992bbaf7",
+      "photo" : "/images/people/raymond.efegoma.png",
+      "photoUrl" : "https://devfest-calgary.firebaseapp.com/images/people/raymond.efegoma.png",
       "socials" : [ {
         "icon" : "gplus",
         "link" : "https://plus.google.com/+DianaPinchuk",
@@ -851,7 +927,38 @@
         "name" : "Facebook"
       } ],
       "title" : "Social and media"
-    } ],
+    } 
+    ,
+    
+    {
+      "name" : "Stephanie McGuire",
+      "photo" : "/images/people/stephanie.mcguire.png",
+      "photoUrl" : "https://devfest-calgary.firebaseapp.com/images/people/stephanie.mcguire.png",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+DianaPinchuk",
+        "name" : "Google+"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/stephanie.mcguire.98",
+        "name" : "Facebook"
+      },
+      {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/stephtastique",
+        "name" : "Twitter"
+      },
+      {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/stephanie-mcguire-50401347/",
+        "name" : "Linkedin"
+        }
+    ],
+      "title" : "Social and media"
+    } 
+  
+  
+  ],
     "title" : "Core Team"
   }, {
     "members" : [ {
