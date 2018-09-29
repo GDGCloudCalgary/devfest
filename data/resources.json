@@ -11,7 +11,7 @@
   "emailUs": "Email us",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
-  "buyTicket": "Buy ticket",
+  "buyTicket": "Register",
   "signIn": "Sign in",
   "signOut": "Sign out",
   "viewHighlights": "View Highlights",
@@ -36,7 +36,7 @@
       "title": "About",
       "links": [
         {
-          "name": "GDG Calgary",
+          "name": "GDG Cloud Calgary",
           "url": "https://www.gdgcloudcalgary.com/welcome/",
           "newTab": true
         },
@@ -99,15 +99,15 @@
     "title": "What you need to know, before you ask.",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Calgary brings together the world class experts in Android, Web and Cloud technologies to Mount Royal University, Riddell Library for 2 days of sessions, workshops and showcases.",
+        "description": "GDG DevFest Calgary brings together the world class experts in Android, Web and Cloud technologies to Mount Royal University, Riddell Library for 1 day of sessions, workshops and showcases.",
         "label": "Explore featured session",
-        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "link": ""
       },
       "howItWas": {
         "description": "Described by many as 'Google I/O of Calgary', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
-        "label": "See how it was in 2016",
+        "label": "See How it Was",
         "youtubeId": "TdpbgRgz6eE"
-      }
+     }
     },
     "statisticsBlock": {
       "attendees": {
@@ -120,7 +120,7 @@
       },
       "sessions": {
         "label": "Sessions",
-        "number": "15"
+        "number": "8"
       },
       "tracks": {
         "label": "Tracks",
@@ -130,7 +130,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+    "ticketsDetails": "Tickets grant access to coffee, all conference sections, and hands on workshops, and lunch! Register on our Meet-up page today!",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
