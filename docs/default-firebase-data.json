@@ -67,14 +67,7 @@
     "users" : { }
   },
   "partners" : [ 
-    {
-    "logos" : [ {
-      "logoUrl" : "../images/logos/gdg-lviv.svg",
-      "name" : "GDG Lviv",
-      "url" : "https://plus.google.com/102444623953913144164"
-    } ],
-    "title" : "Template Creator"
-  }, 
+  
   {
     "logos" : [
        {
@@ -745,62 +738,20 @@
   } 
 
 ],
-"tickets" : [ {
-  "available" : false,
-  "currency" : "",
-  "ends" : "Oct 30",
-  "info" : "Requires valid student/lecturer ID",
-  "name" : "EDU",
-  "price" : "FREE",
-  "soldOut" : true,
-  "starts" : "Oct 01",
-  "url" : "https://www.meetup.com/gdgcloudcalgary/events/255123878/"
-}, {
-  "available" : false,
-  "currency" : "",
-  "ends" : "Oct 30",
-  "inDemand" : false,
-  "info" : "Or first 100 tickets",
-  "name" : "Pre Early Bird",
-  "price" : "FREE",
-  "regular" : true,
-  "soldOut" : true,
-  "starts" : "Oct 01",
-  "url" : "https://www.meetup.com/gdgcloudcalgary/events/255123878/"
-}, {
+"tickets" : [{
   "available" : true,
   "currency" : "",
-  "ends" : "Oct 30",
-  "inDemand" : true,
-  "info" : "Or first 100 tickets",
-  "name" : "Early Bird",
-  "price" : "FREE",
-  "regular" : true,
-  "soldOut" : false,
-  "starts" : "Oct 01",
-  "url" : "https://www.meetup.com/gdgcloudcalgary/events/255123878/"
-}, {
-  "available" : false,
-  "currency" : "",
-  "ends" : "Oct 30",
+  "ends" : "November 1st",
   "inDemand" : false,
   "info" : "Or first 100 tickets",
   "name" : "Regular",
   "price" : "FREE",
   "primary" : true,
   "regular" : true,
-  "soldOut" : true,
+  "soldOut" : false,
   "starts" : "Oct 01",
   "url" : "https://www.meetup.com/gdgcloudcalgary/events/255123878/"
-}, {
-  "available" : true,
-  "currency" : "",
-  "info" : "Money worth nothing when you love it",
-  "name" : "I Love GDGYYC",
-  "price" : "FREE",
-  "soldOut" : true,
-  "url" : "https://www.meetup.com/gdgcloudcalgary/events/255123878/"
-} ]
+}]
   
   ,
   "triggers" : {
