@@ -740,77 +740,156 @@
       "title" : "Front-end Engineer"
     }
   },
-  "team" : [ {
-    "members" : [ 
-      {
+  "team" : [
+    {
+    "members" : [
+    //   {
+    //   "name" : "Greg Bennett",
+    //   "photo" : "/images/people/oleh_zasadnyy.jpg",
+    //   "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
+    //   "socials" : [ {
+    //     "icon" : "gplus",
+    //     "link" : "https://plus.google.com/+OlehZasadnyy",
+    //     "name" : "Google+"
+    //   }, {
+    //     "icon" : "facebook",
+    //     "link" : "https://www.facebook.com/oleh.zasadnyy",
+    //     "name" : "Facebook"
+    //   }, {
+    //     "icon" : "twitter",
+    //     "link" : "https://twitter.com/ozasadnyy",
+    //     "name" : "Twitter"
+    //   }, {
+    //     "icon" : "website",
+    //     "link" : "http://o.zasadnyy.com/",
+    //     "name" : "Blog"
+    //   } ],
+    //   "title" : "Website and sponsors"
+    // }
+    {
       "name" : "Greg Bennett",
-      "photo" : "/images/people/oleh_zasadnyy.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
+      "photo" : "https://drive.google.com/open?id=0B__hx7thmLB0alMyenprTzBJQ1U",
+      "photoUrl" : "https://drive.google.com/open?id=1ykmIdFQ_m6BnOPW_vc_URfmRk3bnVtnp",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/+OlehZasadnyy",
-        "name" : "Google+"
+      "icon" : "gplus",
+      "link" : "https://devfest-calgary.firebaseapp.com/team",
+      "name" : "Google+"
       }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/oleh.zasadnyy",
-        "name" : "Facebook"
+      "icon" : "facebook",
+      "link" : "https://www.facebook.com/recrdx",
+      "name" : "Facebook"
       }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/ozasadnyy",
-        "name" : "Twitter"
+      "icon" : "twitter",
+      "link" : "https://twitter.com/recrdx",
+      "name" : "Twitter"
       }, {
-        "icon" : "website",
-        "link" : "http://o.zasadnyy.com/",
-        "name" : "Blog"
+      "icon" : "website",
+      "link" : "https://www.gregbennett.io",
+      "name" : "Blog"
       } ],
-      "title" : "Website and sponsors"
-    }, {
+      "title" : "Program and sponsors"
+      },
+    //  {
+    //   "name" : "Mos Saleh",
+    //   "photo" : "/images/people/sofiya_huts.jpg",
+    //   "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fsofiya_huts.jpg?alt=media&token=a911eafb-f709-4af7-b1cb-58a6604b70d1",
+    //   "socials" : [ {
+    //     "icon" : "gplus",
+    //     "link" : "https://plus.google.com/+SofiaHuts",
+    //     "name" : "Google+"
+    //   }, {
+    //     "icon" : "facebook",
+    //     "link" : "https://www.facebook.com/sophie.huts.7",
+    //     "name" : "Facebook"
+    //   } ],
+    //   "title" : "Social and media"
+    // },
+    {
       "name" : "Mos Saleh",
-      "photo" : "/images/people/sofiya_huts.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fsofiya_huts.jpg?alt=media&token=a911eafb-f709-4af7-b1cb-58a6604b70d1",
+      "photo" : "https://drive.google.com/open?id=0B__hx7thmLB0alMyenprTzBJQ1U",
+      "photoUrl" : "https://drive.google.com/open?id=1-R52lC8GlUmVQ8C8EV4iHdJUIXrd26VQ",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/+SofiaHuts",
-        "name" : "Google+"
+      "icon" : "gplus",
+      "link" : "https://devfest-calgary.firebaseapp.com/team",
+      "name" : "Google+"
       }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/sophie.huts.7",
-        "name" : "Facebook"
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/moslemsaleh/",
+      "name" : "Linkedin"
       } ],
-      "title" : "Social and media"
-    }, {
+      "title" : "Website administrator"
+      },
+    
+    // {
+    //   "name" : "Mike Hoff",
+    //   "photo" : "/images/people/vitaliy_zasadnyy.jpg",
+    //   "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvitaliy_zasadnyy.jpg?alt=media&token=930e05c8-ae43-4628-8d4c-3e8f5193cda3",
+    //   "socials" : [ {
+    //     "icon" : "linkedin",
+    //     "link" : "https://www.linkedin.com/in/zasadnyy",
+    //     "name" : "Linkedin"
+    //   }, {
+    //     "icon" : "twitter",
+    //     "link" : "https://twitter.com/zasadnyy",
+    //     "name" : "Twitter"
+    //   }, {
+    //     "icon" : "website",
+    //     "link" : "http://v.zasadnyy.com/",
+    //     "name" : "Blog"
+    //   } ],
+    //   "title" : "Speakers"
+    // },
+    {
       "name" : "Mike Hoff",
-      "photo" : "/images/people/vitaliy_zasadnyy.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvitaliy_zasadnyy.jpg?alt=media&token=930e05c8-ae43-4628-8d4c-3e8f5193cda3",
+      "photo" : "https://drive.google.com/open?id=1xy3HetMK-96xLZ7T9n6dw7xrrqajAHjP",
+      "photoUrl" : "https://drive.google.com/open?id=1xy3HetMK-96xLZ7T9n6dw7xrrqajAHjP",
       "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/zasadnyy",
-        "name" : "Linkedin"
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/zasadnyy",
+      "name" : "Linkedin"
       }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/zasadnyy",
-        "name" : "Twitter"
+      "icon" : "twitter",
+      "link" : "https://twitter.com/zasadnyy",
+      "name" : "Twitter"
       }, {
-        "icon" : "website",
-        "link" : "http://v.zasadnyy.com/",
-        "name" : "Blog"
+      "icon" : "website",
+      "link" : "https://www.onx.com/",
+      "name" : "Blog"
       } ],
-      "title" : "Speakers"
-    }, {
+      "title" : "Event Organizers"
+      },
+    
+    // {
+    //   "name" : "Kiley Carson",
+    //   "photo" : "/images/people/marta_maxymiak.jpg",
+    //   "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fmarta_maxymiak.jpg?alt=media&token=6532f039-7f86-4304-8558-dbfbb3ae8d68",
+    //   "socials" : [ {
+    //     "icon" : "gplus",
+    //     "link" : "https://plus.google.com/104036874811391520583",
+    //     "name" : "Google+"
+    //   }, {
+    //     "icon" : "facebook",
+    //     "link" : "https://www.facebook.com/marta.maxymiak",
+    //     "name" : "Facebook"
+    //   } ],
+    //   "title" : "Party and happiness"
+    // }, 
+    {
       "name" : "Kiley Carson",
-      "photo" : "/images/people/marta_maxymiak.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fmarta_maxymiak.jpg?alt=media&token=6532f039-7f86-4304-8558-dbfbb3ae8d68",
+      "photo" : "https://drive.google.com/open?id=1Ju8JUMKIuFUC9UEfGk7kOgMntYMENUAP",
+      "photoUrl" : "https://drive.google.com/open?id=1Ju8JUMKIuFUC9UEfGk7kOgMntYMENUAP",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/104036874811391520583",
-        "name" : "Google+"
+      "icon" : "gplus",
+      "link" : "https://devfest-calgary.firebaseapp.com/team",
+      "name" : "Google+"
       }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/marta.maxymiak",
-        "name" : "Facebook"
+      "icon" : "facebook",
+      "link" : "https://www.facebook.com/kiley.carson?viewas=100000686899395&privacy_source=timeline_gear_menu#_",
+      "name" : "Facebook"
       } ],
-      "title" : "Party and happiness"
-    }, {
+      "title" : "Web Developer"
+      },
+    {
       "name" : "David Shen",
       "photo" : "/images/people/ostap_andrusiv.jpg",
       "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/ostap_andrusiv.jpg",
@@ -865,7 +944,9 @@
       "title" : "Cloud stream"
     } ],
     "title" : "Program Committee"
-  } ],
+  } 
+
+],
   "tickets" : [ {
     "available" : false,
     "currency" : "",
@@ -899,27 +980,6 @@
     "regular" : true,
     "soldOut" : false,
     "starts" : "Oct 01",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : false,
-    "currency" : "",
-    "ends" : "Oct 30",
-    "inDemand" : false,
-    "info" : "",
-    "name" : "Regular",
-    "price" : "FREE",
-    "primary" : true,
-    "regular" : true,
-    "soldOut" : true,
-    "starts" : "Oct 01",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : true,
-    "currency" : "",
-    "info" : "",
-    "name" : "I Love GDGYYC",
-    "price" : "FREE",
-    "soldOut" : true,
     "url" : "https://2event.com/events/1027108"
   } ],
   "triggers" : {
