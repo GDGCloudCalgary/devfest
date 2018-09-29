@@ -339,7 +339,7 @@
       "tags" : [ "Cloud" ],
       "title" : "Microservices in Google App Engine"
     },
-    "118" : {
+    "119" : {
       "complexity" : "Intermediate",
       "description" : "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful—and underrated—account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
       "language" : "English",
