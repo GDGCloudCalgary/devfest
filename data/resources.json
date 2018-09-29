@@ -248,7 +248,7 @@
         "description": "<a href='https://www.gdgcloudcalgary.com/welcome' target='_blank'>GDG Cloud Calgary</a> is a proud organizer of DevFest 2018",
         "callToAction": {
           "label": "Open team page",
-          "link": "/gdg-team"
+          "link": "/team"
         }
       },
       {
