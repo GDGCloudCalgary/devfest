@@ -16,3 +16,4 @@ config/
 .firebase/
 config/production.json
 config/development.json
+yarn.lock

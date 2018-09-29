@@ -339,7 +339,7 @@
       "tags" : [ "Cloud" ],
       "title" : "Microservices in Google App Engine"
     },
-    "118" : {
+    "119" : {
       "complexity" : "Intermediate",
       "description" : "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful—and underrated—account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
       "language" : "English",
@@ -762,41 +762,64 @@
   } 
 
 ],
-  "tickets" : [ {
-    "available" : false,
-    "currency" : "",
-    "ends" : "Oct 30",
-    "info" : "Requires valid student/lecturer ID",
-    "name" : "EDU",
-    "price" : "FREE",
-    "soldOut" : true,
-    "starts" : "Oct 01",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : false,
-    "currency" : "",
-    "ends" : "Oct 30",
-    "inDemand" : false,
-    "info" : "",
-    "name" : "Pre Early Bird",
-    "price" : "FREE",
-    "regular" : true,
-    "soldOut" : true,
-    "starts" : "Oct 01",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : true,
-    "currency" : "",
-    "ends" : "Oct 30",
-    "inDemand" : true,
-    "info" : "",
-    "name" : "Early Bird",
-    "price" : "FREE",
-    "regular" : true,
-    "soldOut" : false,
-    "starts" : "Oct 01",
-    "url" : "https://2event.com/events/1027108"
-  } ],
+"tickets" : [ {
+  "available" : false,
+  "currency" : "",
+  "ends" : "Oct 30",
+  "info" : "Requires valid student/lecturer ID",
+  "name" : "EDU",
+  "price" : "FREE",
+  "soldOut" : true,
+  "starts" : "Oct 01",
+  "url" : "https://2event.com/events/1027108"
+}, {
+  "available" : false,
+  "currency" : "",
+  "ends" : "Oct 30",
+  "inDemand" : false,
+  "info" : "Or first 100 tickets",
+  "name" : "Pre Early Bird",
+  "price" : "FREE",
+  "regular" : true,
+  "soldOut" : true,
+  "starts" : "Oct 01",
+  "url" : "https://2event.com/events/1027108"
+}, {
+  "available" : true,
+  "currency" : "",
+  "ends" : "Oct 30",
+  "inDemand" : true,
+  "info" : "Or first 100 tickets",
+  "name" : "Early Bird",
+  "price" : "FREE",
+  "regular" : true,
+  "soldOut" : false,
+  "starts" : "Oct 01",
+  "url" : "https://2event.com/events/1027108"
+}, {
+  "available" : false,
+  "currency" : "",
+  "ends" : "Oct 30",
+  "inDemand" : false,
+  "info" : "Or first 100 tickets",
+  "name" : "Regular",
+  "price" : "FREE",
+  "primary" : true,
+  "regular" : true,
+  "soldOut" : true,
+  "starts" : "Oct 01",
+  "url" : "https://2event.com/events/1027108"
+}, {
+  "available" : true,
+  "currency" : "",
+  "info" : "Money worth nothing when you love it",
+  "name" : "I Love GDGYYC",
+  "price" : "FREE",
+  "soldOut" : true,
+  "url" : "https://2event.com/events/1027108"
+} ]
+  
+  ,
   "triggers" : {
     "images" : false
   },
