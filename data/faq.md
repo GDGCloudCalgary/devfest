@@ -6,7 +6,7 @@ GDG DevFest Calgary will take place on the 3rd of November in [Riddle Library (M
 
 ### Stay Informed
 
-To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [DevFest website](https://devfest-calgary.firebaseapp.com/), and RSVP on [Meetup]( https://www.meetup.com/gdgcloudcalgary/). In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
+To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [DevFest website](https://devfest-yyc.firebaseapp.com/), and RSVP on [Meetup]( https://www.meetup.com/gdgcloudcalgary/). In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
 
 ### Content Formats
 
