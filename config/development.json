@@ -1,15 +1,15 @@
 {
   "basepath": "/",
-  "url": "http://devfest-calgary.firebaseapp.com/",
+  "url": "http://devfest-yyc.firebaseapp.com/",
   "analytics": "UA-00000000-8",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyD9d9ekICQtF_doCArahNoEE9J8R6cuYoA",
-    "authDomain": "devfest-calgary.firebaseapp.com",
-    "databaseURL": "https://devfest-calgary.firebaseio.com",
-    "projectId": "devfest-calgary",
-    "storageBucket": "devfest-calgary.appspot.com",
-    "messagingSenderId": "826487843465"
+    "apiKey": "AIzaSyDl23V-Oq-nw9ZCEGcUGdqqYIlObgnOc6Y",
+    "authDomain": "devfest-yyc.firebaseapp.com",
+    "databaseURL": "https://devfest-yyc.firebaseio.com",
+    "projectId": "devfest-yyc",
+    "storageBucket": "devfest-yyc.appspot.com",
+    "messagingSenderId": "457908822319"
   },
-  "googleMapApiKey": "AIzaSyB2HBU3aNLp7Cwqp1gLucHl4ssAZed5Hio"
+  "googleMapApiKey": "AIzaSyD7ieAIwZbHZwlesG5q9xQb2N3G56WEF5s"
 }
