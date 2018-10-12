@@ -718,8 +718,8 @@
     },
     {
       "name" : "Sylvain Robichaud",
-      "photo" : "", 
-      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/stephanie.mcguire.png",
+      "photo" : "/images/people/sylvain.robichaud.gif", 
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/sylvain.robichaud.gif",
       "socials" : [ {
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/sylvainrobichaud/",
