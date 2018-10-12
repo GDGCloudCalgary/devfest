@@ -542,7 +542,12 @@
       "icon" : "linkedin",
       "link" : "https://www.linkedin.com/in/mikehoff321/",
       "name" : "Linkedin"
-      }, {
+      },{ 
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/111727949510542626222",
+        "name" : "Google+"
+        },
+      {
       "icon" : "twitter",
       "link" : "https://twitter.com/gdgcloudyyc",
       "name" : "Twitter"
@@ -561,7 +566,11 @@
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/kiley-carson/",
         "name" : "Linkedin"
-        },{
+        },{ 
+          "icon" : "gplus",
+          "link" : "https://plus.google.com/u/0/106537843298738395920",
+          "name" : "Google+"
+          },{
         "icon" : "facebook",
         "link" : "https://www.facebook.com/kiley.carson",
         "name" : "Facebook"
@@ -605,7 +614,7 @@
         "name" : "Linkedin"
         },{
         "icon" : "gplus",
-        "link" : "https://devfest-yyc.firebaseapp.com/team/",
+        "link" : "https://plus.google.com/u/0/105187113408342822441",
         "name" : "Google+"
       }, {
         "icon" : "facebook",
@@ -633,6 +642,10 @@
         "link" : "https://www.linkedin.com/in/stefaniasanson/",
         "name" : "Linkedin"
       }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/115296974125316814676",
+        "name" : "Google+"
+      },{
         "icon" : "twitter",
         "link" : "https://twitter.com/gdgcloudyyc",
         "name" : "Twitter"
@@ -654,6 +667,10 @@
         "link" : "https://www.linkedin.com/in/jenny-ye-5362562/",
         "name" : "Linkedin+"
       }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/107228585683101293797",
+        "name" : "Google+"
+      },{
         "icon" : "facebook",
         "link" : "https://www.facebook.com/jenny.ye",
         "name" : "Facebook"
@@ -682,6 +699,10 @@
         "icon" : "facebook",
         "link" : "https://www.facebook.com/raymond.efegoma/",
         "name" : "Facebook"
+      },{
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/103170819600463615289",
+        "name" : "Google+"
       },
       {
         "icon" : "twitter",
@@ -694,8 +715,31 @@
       }
        ],
       "title" : "Social and media"
-    } 
-    ,
+    },
+    {
+      "name" : "Sylvain Robichaud",
+      "photo" : "", 
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/stephanie.mcguire.png",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/sylvainrobichaud/",
+        "name" : "Linkedin"
+        },{
+          "icon" : "gplus",
+          "link" : "https://plus.google.com/u/0/113821029490767745772",
+          "name" : "Google+"
+        },
+      {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/gdgcloudyyc",
+        "name" : "Twitter"
+      },{
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+      }],
+      "title" : "Social and media"
+    }, 
     
     {
       "name" : "Stephanie McGuire",
@@ -705,6 +749,10 @@
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/stephanie-mcguire-50401347/",
         "name" : "Linkedin"
+        },{
+          "icon" : "gplus",
+          "link" : "https://plus.google.com/u/0/100127602250656056397",
+          "name" : "Google+"
         },{
         "icon" : "facebook",
         "link" : "https://www.facebook.com/stephanie.mcguire.98",
