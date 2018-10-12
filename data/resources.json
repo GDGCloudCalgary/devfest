@@ -1,6 +1,6 @@
 {
-  "title": "GDG DevFest Season 2018",
-  "description": "Be a hero. Be a GDG!",
+  "title": "GDG Cloud Calgary DevFest Season 2018",
+  "description": "Let's Build What's Next!",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "November 3, 2018",
@@ -48,16 +48,6 @@
         {
           "name": "Meet the Team",
           "url": "https://www.gdgcloudcalgary.com/welcome/gdg-team",
-          "newTab": true
-        }
-      ]
-    },
-    {
-      "title": "Explore Past DevFests",
-      "links": [
-        {
-          "name": "",
-          "url": "",
           "newTab": true
         }
       ]

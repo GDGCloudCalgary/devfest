@@ -489,7 +489,7 @@
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/greg.bennett.png",
       "socials" : [ {
       "icon" : "gplus",
-      "link" : "https://devfest-yyc.firebaseapp.com/team",
+      "link" : "https://plus.google.com/113957084984388645066",
       "name" : "Google+"
       }, {
       "icon" : "facebook",
@@ -540,28 +540,32 @@
       } ],
       "title" : "Event Organizers"
       },
-    {
-      "name" : "Kiley Carson",
-      "photo" : "/images/people/kiley.carson.png",
-      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/kiley.carson.png",
-      "socials" : [ {
-      "icon" : "gplus",
-      "link" : "https://devfest-yyc.firebaseapp.com/team",
-      "name" : "Google+"
-      }, {
-      "icon" : "facebook",
-      "link" : "https://www.facebook.com/kiley.carson?viewas=100000686899395&privacy_source=timeline_gear_menu#_",
-      "name" : "Facebook"
-      } ],
-      "title" : "Web Developer"
-      },
+      {
+        "name" : "Kiley Carson",
+        "photo" : "/images/people/kiley.carson.png",
+        "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/kiley.carson.png",
+        "socials" : [ {
+          "icon" : "gplus",
+          "link" : "https://devfest-yyc.firebaseapp.com/team/",
+          "name" : "Google+"
+          }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/kiley-carson/",
+        "name" : "Linkedin"
+        }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/kiley.carson",
+        "name" : "Facebook"
+        } ],
+        "title" : "Web Developer"
+        },
     {
       "name" : "David Shen",
       "photo" : "/images/people/david.shen.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/david.shen.png",
       "socials" : [ {
         "icon" : "gplus",
-        "link" : "https://google.com/+OstapAndrusiv",
+        "link" : "https://devfest-yyc.firebaseapp.com/team/",
         "name" : "Google+"
       }, {
         "icon" : "facebook",
@@ -588,7 +592,7 @@
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/laura.grant.png",
       "socials" : [ {
         "icon" : "gplus",
-        "link" : "https://google.com/+OstapAndrusiv",
+        "link" : "https://devfest-yyc.firebaseapp.com/team/",
         "name" : "Google+"
       }, {
         "icon" : "facebook",
@@ -722,7 +726,7 @@
     "members" : [ {
       "name" : "Greg Bennett",
       "photo" : "/images/people/greg.bennett.png",
-      "photoUrl" : "",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/greg.bennett.png",
       "socials" : [ {
         "icon" : "facebook",
         "link" : "https://www.facebook.com/",
