@@ -488,10 +488,14 @@
       "photo" : "/images/people/greg.bennett.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/greg.bennett.png",
       "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/gregbennettio/",
+      "name" : "Linkedin+"
+      }, { 
       "icon" : "gplus",
       "link" : "https://plus.google.com/113957084984388645066",
       "name" : "Google+"
-      }, {
+      },{
       "icon" : "facebook",
       "link" : "https://www.facebook.com/recrdx",
       "name" : "Facebook"
@@ -499,7 +503,7 @@
       "icon" : "twitter",
       "link" : "https://twitter.com/recrdx",
       "name" : "Twitter"
-      }, {
+      },{
       "icon" : "website",
       "link" : "https://www.gregbennett.io",
       "name" : "Blog"
@@ -511,14 +515,23 @@
       "photo" : "/images/people/mos.saleh.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/mos.saleh.png",
       "socials" : [ {
-      "icon" : "gplus",
-      "link" : "https://plus.google.com/u/0/111210719993935219678",
-      "name" : "Google+"
-      }, {
       "icon" : "linkedin",
       "link" : "https://www.linkedin.com/in/fermisk/",
       "name" : "Linkedin"
-      } ],
+      },{
+      "icon" : "gplus",
+      "link" : "https://plus.google.com/u/0/111210719993935219678",
+      "name" : "Google+"
+      },{
+      "icon" : "twitter",
+      "link" : "https://twitter.com/gdgcloudyyc",
+      "name" : "Twitter"
+      }, {
+      "icon" : "website",
+      "link" : "https://www.gdgcloudcalgary.com/",
+      "name" : "Blog"
+      }
+     ],
       "title" : "Cloud Architect and Full Stack Developer"
       },
     {
@@ -544,19 +557,23 @@
         "name" : "Kiley Carson",
         "photo" : "/images/people/kiley.carson.png",
         "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/kiley.carson.png",
-        "socials" : [ {
-          "icon" : "gplus",
-          "link" : "https://devfest-yyc.firebaseapp.com/team/",
-          "name" : "Google+"
-          }, {
+        "socials" : [{
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/kiley-carson/",
         "name" : "Linkedin"
-        }, {
+        },{
         "icon" : "facebook",
         "link" : "https://www.facebook.com/kiley.carson",
         "name" : "Facebook"
-        } ],
+        },{
+        "icon" : "twitter",
+        "link" : "https://twitter.com/gdgcloudyyc",
+        "name" : "Twitter"
+        },{
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+        }],
         "title" : "Web Developer"
         },
     {
@@ -564,26 +581,18 @@
       "photo" : "/images/people/david.shen.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/david.shen.png",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://devfest-yyc.firebaseapp.com/team/",
-        "name" : "Google+"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/ostap.andrusiv",
-        "name" : "Facebook"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/p1f",
-        "name" : "Twitter"
-      }, {
-        "icon" : "website",
-        "link" : "http://andrusiv.com/",
-        "name" : "Blog"
-      },{
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/david-shen-02662369/",
         "name" : "Linkedin"
-        } ],
+        }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/gdgcloudyyc",
+        "name" : "Twitter"
+        },{
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+      }],
       "title" : "Sponsors"
     }, 
     {
@@ -591,6 +600,10 @@
       "photo" : "/images/people/laura.grant.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/laura.grant.png",
       "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/laura-grant-967b8a32/",
+        "name" : "Linkedin"
+        },{
         "icon" : "gplus",
         "link" : "https://devfest-yyc.firebaseapp.com/team/",
         "name" : "Google+"
@@ -602,11 +615,7 @@
         "icon" : "twitter",
         "link" : "https://twitter.com/gdgcloudyyc",
         "name" : "Twitter"
-      },{
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/laura-grant-967b8a32/",
-        "name" : "Linkedin"
-        }, {
+      }, {
         "icon" : "website",
         "link" : "http://www.gdgcloudcalgary.com/",
         "name" : "Blog"
@@ -620,13 +629,9 @@
       "photo" : "/images/people/stefania.sanson.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/stefania.sanson.png",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://google.com/",
-        "name" : "Google+"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/ostap.andrusiv",
-        "name" : "Facebook"
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/stefaniasanson/",
+        "name" : "Linkedin"
       }, {
         "icon" : "twitter",
         "link" : "https://twitter.com/gdgcloudyyc",
@@ -645,9 +650,9 @@
       "photo" : "/images/people/jenny.ye.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/jenny.ye.png",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://google.com/",
-        "name" : "Google+"
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/jenny-ye-5362562/",
+        "name" : "Linkedin+"
       }, {
         "icon" : "facebook",
         "link" : "https://www.facebook.com/jenny.ye",
@@ -670,10 +675,10 @@
       "photo" : "/images/people/raymond.efegoma.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/raymond.efegoma.png",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/",
-        "name" : "Google+"
-      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/raymond-efegoma/",
+        "name" : "Linkedin"
+        }, {
         "icon" : "facebook",
         "link" : "https://www.facebook.com/raymond.efegoma/",
         "name" : "Facebook"
@@ -682,12 +687,12 @@
         "icon" : "twitter",
         "link" : "https://twitter.com/koolrays2000?s=09",
         "name" : "Twitter"
-      },
-      {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/raymond-efegoma/",
-        "name" : "Linkedin"
-        } ],
+      },{
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+      }
+       ],
       "title" : "Social and media"
     } 
     ,
@@ -697,10 +702,10 @@
       "photo" : "/images/people/stephanie.mcguire.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/stephanie.mcguire.png",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/",
-        "name" : "Google+"
-      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/stephanie-mcguire-50401347/",
+        "name" : "Linkedin"
+        },{
         "icon" : "facebook",
         "link" : "https://www.facebook.com/stephanie.mcguire.98",
         "name" : "Facebook"
@@ -709,13 +714,11 @@
         "icon" : "twitter",
         "link" : "https://twitter.com/stephtastique",
         "name" : "Twitter"
-      },
-      {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/stephanie-mcguire-50401347/",
-        "name" : "Linkedin"
-        }
-    ],
+      },{
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+      }],
       "title" : "Social and media"
     } 
   
@@ -728,16 +731,29 @@
       "photo" : "/images/people/greg.bennett.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/greg.bennett.png",
       "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/",
-        "name" : "Facebook"
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/gregbennettio/",
+      "name" : "Linkedin+"
       }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/idvoretskyi",
-        "name" : "Twitter"
+      "icon" : "facebook",
+      "link" : "https://www.facebook.com/recrdx",
+      "name" : "Facebook"
+      }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/recrdx",
+      "name" : "Twitter"
+      },{ 
+      "icon" : "gplus",
+      "link" : "https://plus.google.com/113957084984388645066",
+      "name" : "Google+"
+      },{
+      "icon" : "website",
+      "link" : "https://www.gregbennett.io",
+      "name" : "Blog"
       } ],
-      "title" : "Cloud stream"
-    } ],
+      "title" : "Founder and Program Manager"
+      }
+     ],
     "title" : "Program Committee"
   } 
 
