@@ -1,0 +1,18 @@
+[debug] [2018-10-13T21:50:28.494Z] ----------------------------------------------------------------------
+[debug] [2018-10-13T21:50:28.497Z] Command:       C:\Program Files\nodejs\node.exe C:\repos\devfest\hoverboard\node_modules\firebase-tools\bin\firebase firestore:delete -r --all-collections
+[debug] [2018-10-13T21:50:28.497Z] CLI Version:   3.19.3
+[debug] [2018-10-13T21:50:28.497Z] Platform:      win32
+[debug] [2018-10-13T21:50:28.497Z] Node Version:  v8.11.2
+[debug] [2018-10-13T21:50:28.498Z] Time:          Sat Oct 13 2018 15:50:28 GMT-0600 (Mountain Daylight Time)
+[debug] [2018-10-13T21:50:28.498Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-13T21:50:28.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-13T21:50:28.517Z] > authorizing via signed-in user
+[debug] [2018-10-13T21:50:28.519Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/devfest-yyc  
+  
+ Sat Oct 13 2018 15:50:28 GMT-0600 (Mountain Daylight Time)
+[debug] [2018-10-13T21:50:28.944Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-13T21:50:28.946Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/devfest-yyc/tokens  
+  
+ Sat Oct 13 2018 15:50:28 GMT-0600 (Mountain Daylight Time)
+[debug] [2018-10-13T21:50:29.223Z] <<< HTTP RESPONSE 200
