@@ -59,7 +59,7 @@
   "notifications" : {
     "config" : {
       "icon" : "",
-      "timezone" : "+03:00"
+      "timezone" : "-07:00"
     },
     "messages" : { },
     "subscribers" : { },
@@ -383,14 +383,14 @@
     }
   },
   "speakers" : {
-    "adrian_kajda" : {
+    "Alp_B" : {
       "bio" : "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.",
       "company" : "Sygic",
       "companyLogo" : "/images/logos/gdg-lviv.svg",
       "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
       "country" : "Creator of Fuelio app. Fuelio blah blah, Poland",
       "featured" : true,
-      "name" : "Adrian Kajda",
+      "name" : "Alp B",
       "photo" : "/images/people/adrian_kajda.jpg",
       "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/adrian_kajda.jpg",
       "shortBio" : "need a new guy here ",
@@ -401,21 +401,21 @@
       } ],
       "title" : "Product Manager/Developer"
     },
-    "aleksander_piotrowski" : {
+    "Karin_Winia" : {
       "bio" : "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)",
       "company" : "Applause",
       "companyLogo" : "/images/logos/gdg-lviv.svg",
       "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
       "country" : "Warsaw, Poland",
       "featured" : false,
-      "name" : "Aleksander Piotrowski",
+      "name" : "Karin Winia",
       "photo" : "/images/people/aleksander_piotrowski.jpg",
       "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/aleksander_piotrowski.jpg",
       "shortBio" : "Became a mobile developer after long run as a backend developer. Because of age, holding senior p...",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/pelotasplus",
-        "name" : "Twitter"
+        "name" : "Twittyer"
       }, {
         "icon" : "facebook",
         "link" : "http://facebook.com/pelotasplus",
@@ -431,16 +431,16 @@
       } ],
       "title" : "Code Monkey"
     },
-    "anton__minashkin" : {
+    "Mos_Saleh" : {
       "bio" : "Android developer, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars.",
       "company" : "EPAM",
       "companyLogo" : "/images/logos/gdg-lviv.svg",
-      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "https://devfest-yyc.firebaseapp.com/images/logos/01_Logo.svg",
       "country" : "Lviv, Calgary",
       "featured" : false,
-      "name" : "Anton  Minashkin",
-      "photo" : "/images/people/anton_minashkin.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/anton_minashkin.jpg",
+      "name" : "Mos Saleh",
+      "photo" : "/images/people/mos.saleh.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/mos.saleh.png",
       "shortBio" : "Android developer, currently works at EPAM. Have experience in both server and mobile side develo...",
       "socials" : [ {
         "icon" : "facebook",

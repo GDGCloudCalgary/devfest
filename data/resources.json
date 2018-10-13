@@ -56,7 +56,7 @@
       "title": "Event Resources",
       "links": [
         {
-          "name": "Partnership Proposition",
+          "name": "Sponsorship Proposition",
           "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
           "newTab": true
         },
@@ -96,7 +96,7 @@
       "howItWas": {
         "description": "Described by many as 'Google I/O of Calgary', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
         "label": "See How it Was",
-        "youtubeId": "TdpbgRgz6eE"
+        "youtubeId": "rogFr-B4pnM"
      }
     },
     "statisticsBlock": {
@@ -137,10 +137,10 @@
     "toast": "We will contact you soon!"
   },
   "featuredVideos": {
-    "title": "DFYYC'16 featured videos",
+    "title": "DFYYC featured videos",
     "callToAction": {
       "label": "See all videos",
-      "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+      "link": "http://gdgyyc.link/devfestishere"
     }
   },
   "blog": {
@@ -174,11 +174,11 @@
     }
   },
   "galleryBlock": {
-    "title": "#dfyyc17 highlights",
+    "title": "#dfyyc18 highlights",
     "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
     "callToAction": {
       "label": "See all photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "link": "http://gdgyyc.link/devfestphotos"
     }
   },
   "mapBlock": {
