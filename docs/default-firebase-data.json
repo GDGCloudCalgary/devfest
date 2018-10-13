@@ -437,7 +437,7 @@
       "companyLogo" : "/images/logos/gdg-lviv.svg",
       "companyLogoUrl" : "https://devfest-yyc.firebaseapp.com/images/logos/01_Logo.svg",
       "country" : "Lviv, Calgary",
-      "featured" : false,
+      "featured" : true,
       "name" : "Mos Saleh",
       "photo" : "/images/people/mos.saleh.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/mos.saleh.png",
