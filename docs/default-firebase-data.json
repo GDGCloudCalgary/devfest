@@ -432,30 +432,22 @@
       "title" : "Code Monkey"
     },
     "Mos_Saleh" : {
-      "bio" : "Android developer, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars.",
-      "company" : "EPAM",
-      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "bio" : "Google Cloud Architect, currently works at VistaVU. Full Stack Developer. All my free time I spend on learning Flutter and Kotlin!",
+      "company" : "VistaVu",
+      "companyLogo" : "https://devfest-yyc.firebaseapp.com/images/logos/01_Logo.svg",
       "companyLogoUrl" : "https://devfest-yyc.firebaseapp.com/images/logos/01_Logo.svg",
-      "country" : "Lviv, Calgary",
+      "country" : "Calgary, Canada",
       "featured" : true,
       "name" : "Mos Saleh",
       "photo" : "/images/people/mos.saleh.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/mos.saleh.png",
-      "shortBio" : "Android developer, currently works at EPAM. Have experience in both server and mobile side develo...",
-      "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/anton.minashkin.1",
-        "name" : "Facebook"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/AntonMinashkin",
-        "name" : "Twitter"
-      }, {
+      "shortBio" : "Full Stack developer, currently works at VistaVu. Have experience in both server and mobile side develo...",
+      "socials" : [{
         "icon" : "linkedin",
-        "link" : "https://ua.linkedin.com/in/anton-minashkin-606a1b4b",
+        "link" : "https://www.linkedin.com/in/fermisk/",
         "name" : "LinkedIn"
       } ],
-      "title" : "Lead Software Developer"
+      "title" : "Full Stack Developer"
     },
     "carmen_popovicu" : {
       "bio" : "Carmen is a front-end engineer and a #1 fan of dev communities. She loves Angular but has since recently developed feelings for Polymer too. She strongly believes that adding at least one ASCII smiley in your emails will make the world a better place and hopes to one day make a difference for the web with the code she writes. If she had super powers, she would smiley all the things.",
