@@ -118,15 +118,15 @@
     "short": "Calgary, Alberta",
     "address": "Riddell Library at MRU",
     "pointer": {
-      "latitude": 51.011951,
-      "longitude": -114.127899,
-      "zoom":13
+      "latitude": 51.0120222,
+      "longitude": -114.1277546,
+      "zoom":15.8
     },
     "mapCenter": {
-      "latitude": 51.0,
-      "longitude": -114.1
+      "latitude": 51.011,
+      "longitude": -114.127
     },
-    "description": "The ultra modern Riddell Library at Mount Royal University" 
+    "description": "GDG Cloud Calgary will be hosting DevFest 2018 at the ultra modern Riddell Library at Mount Royal University. 74 Mt Royal Cir SW, Calgary" 
   },
   "mediaQueries": {
     "xs": {
