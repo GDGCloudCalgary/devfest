@@ -147,16 +147,8 @@
   "socialNetwork": {
     "follow": [
       {
-        "name": "facebook",
-        "url": "https://www.facebook.com/devfest.calgary/"
-      },
-      {
         "name": "twitter",
         "url": "https://twitter.com/gdgcloudyyc/"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/gdgcloudyyc"
       },
       {
         "name": "youtube",
