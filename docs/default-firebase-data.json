@@ -65,25 +65,25 @@
       "dateReadable" : "November 03",
       "timeslots" : [
          {
-        "endTime" : "10:20",
+        "endTime" : "10:15",
         "sessions" : [ {
           "items" : [ 101 ]
         } ],
         "startTime" : "10:00"
       }, {
-        "endTime" : "11:30",
+        "endTime" : "10:30",
         "sessions" : [ {
           "items" : [ 102 ]
         } ],
-        "startTime" : "10:30"
+        "startTime" : "10:15"
       }, {
-        "endTime" : "12:30",
+        "endTime" : "11:00",
         "sessions" : [ {
           "items" : [ 103 ]
         } ],
-        "startTime" : "11:30"
+        "startTime" : "10:30"
       }, {
-        "endTime" : "13:15",
+        "endTime" : "11:45",
         "sessions" : [ {
           "items" : [ 104, 105 ]
         }, {
@@ -92,23 +92,23 @@
           "extend" : 3,
           "items" : [ 107 ]
         } ],
-        "startTime" : "12:30"
+        "startTime" : "11:00"
       }, {
-        "endTime" : "14:15",
+        "endTime" : "12:00",
         "sessions" : [ {
           "items" : [ 108 ]
         }, {
           "items" : [ 109 ]
         } ],
-        "startTime" : "13:15"
+        "startTime" : "11:50"
       }, {
-        "endTime" : "14:30",
+        "endTime" : "13:00",
         "sessions" : [ {
           "items" : [ 110 ]
         } ],
-        "startTime" : "14:15"
+        "startTime" : "12:15"
       }, {
-        "endTime" : "15:30",
+        "endTime" : "13:10",
         "sessions" : [ {
           "items" : [ 111 ]
         }, {
@@ -117,22 +117,66 @@
           "extend" : 2,
           "items" : [ 113 ]
         } ],
-        "startTime" : "14:30"
+        "startTime" : "13:00"
       }, {
-        "endTime" : "15:15",
+        "endTime" : "14:00",
         "sessions" : [ {
           "items" : [ 114 ]
         }, {
           "items" : [ 115 ]
         } ],
-        "startTime" : "15:30"
+        "startTime" : "13:15"
       }, {
-        "endTime" : "17:00",
+        "endTime" : "14:15",
+        "sessions" : [ {
+          "items" : [ 116 ]
+        } ],
+        "startTime" : "14:00"
+      }
+      , {
+        "endTime" : "14:45",
+        "sessions" : [ {
+          "items" : [ 116 ]
+        } ],
+        "startTime" : "14:15"
+      }
+      , {
+        "endTime" : "15:00",
+        "sessions" : [ {
+          "items" : [ 116 ]
+        } ],
+        "startTime" : "14:50"
+      }
+      , {
+        "endTime" : "15:30",
+        "sessions" : [ {
+          "items" : [ 116 ]
+        } ],
+        "startTime" : "15:05"
+      }
+      , {
+        "endTime" : "15:35",
         "sessions" : [ {
           "items" : [ 116 ]
         } ],
         "startTime" : "15:30"
-      }],
+      }
+      , {
+        "endTime" : "15:45",
+        "sessions" : [ {
+          "items" : [ 116 ]
+        } ],
+        "startTime" : "15:35"
+      }
+      , {
+        "endTime" : "16:00",
+        "sessions" : [ {
+          "items" : [ 116 ]
+        } ],
+        "startTime" : "15:45"
+      }
+    
+    ],
       "tracks" : [ {
         "title" : "Expo hall"
       }, {
@@ -177,8 +221,6 @@
       "language" : "English",
       "title" : "GDG DevFest Calgary 2016 Opening"
     }
-
-
     ,"106" : {
       "complexity" : "Beginner",
       "description" : "In this session, we will take a look at Windows and .NET support on Google Cloud Platform. We will build a simple ASP.NET app, deploy to Google Compute Engine and take a look at some of the tools and APIs available to .NET developers on Google Cloud Platform. ",
