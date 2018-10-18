@@ -67,111 +67,117 @@
          {
         "endTime" : "10:15",
         "sessions" : [ {
-          "items" : [ 101 ]
+          "items" : [ 100 ]
         } ],
         "startTime" : "10:00"
       }, {
         "endTime" : "10:30",
         "sessions" : [ {
-          "items" : [ 102 ]
+          "items" : [ 105 ]
         } ],
         "startTime" : "10:15"
       }, {
         "endTime" : "11:00",
         "sessions" : [ {
-          "items" : [ 103 ]
+          "items" : [ 110 ]
         } ],
         "startTime" : "10:30"
-      }, {
+      }, 
+      {
         "endTime" : "11:45",
-        "sessions" : [ {
-          "items" : [ 104, 105 ]
-        }, {
-          "items" : [ 106 ]
-        }, {
-          "extend" : 3,
-          "items" : [ 107 ]
-        } ],
+        "sessions" : [ 
+          {
+            "items" : [ 115 ]
+          }, 
+          {
+            "extend" : 2,
+            "items" : [ 117 ]
+          }, 
+          {
+            "extend" : 2,
+            "items" : [ 119 ]
+          } 
+        ],
         "startTime" : "11:00"
-      }, {
+      },
+      {
         "endTime" : "12:00",
-        "sessions" : [ {
-          "items" : [ 108 ]
-        }, {
-          "items" : [ 109 ]
-        } ],
+        "sessions" : 
+        [ 
+          {
+          "items" : [ 120 ]
+          }  
+        ],
         "startTime" : "11:50"
       }, {
         "endTime" : "13:00",
         "sessions" : [ {
-          "items" : [ 110 ]
+          "items" : [ 125 ]
         } ],
         "startTime" : "12:15"
       }, {
         "endTime" : "13:10",
         "sessions" : [ {
-          "items" : [ 111 ]
-        }, {
-          "items" : [ 112 ]
+          "items" : [ 130 ]
         }, {
           "extend" : 2,
-          "items" : [ 113 ]
-        } ],
+          "items" : [ 117 ]
+        }],
         "startTime" : "13:00"
       }, {
         "endTime" : "14:00",
         "sessions" : [ {
-          "items" : [ 114 ]
+          "items" : [ 165 ]
         }, {
-          "items" : [ 115 ]
+          "items" : [ 170 ]
         } ],
         "startTime" : "13:15"
       }, {
         "endTime" : "14:15",
         "sessions" : [ {
-          "items" : [ 116 ]
+          "items" : [ 175 ]
         } ],
         "startTime" : "14:00"
       }
       , {
         "endTime" : "14:45",
         "sessions" : [ {
-          "items" : [ 116 ]
+          "items" : [ 180 ]
         } ],
         "startTime" : "14:15"
       }
       , {
         "endTime" : "15:00",
         "sessions" : [ {
-          "items" : [ 116 ]
+          "items" : [ 185 ]
         } ],
         "startTime" : "14:50"
       }
       , {
         "endTime" : "15:30",
         "sessions" : [ {
-          "items" : [ 116 ]
+          "items" : [ 190 ]
         } ],
         "startTime" : "15:05"
       }
       , {
         "endTime" : "15:35",
         "sessions" : [ {
-          "items" : [ 116 ]
+          "items" : [ 195 ]
         } ],
         "startTime" : "15:30"
       }
       , {
         "endTime" : "15:45",
         "sessions" : [ {
-          "items" : [ 116 ]
+          "items" : [ 200 ]
         } ],
         "startTime" : "15:35"
       }
       , {
         "endTime" : "16:00",
         "sessions" : [ {
-          "items" : [ 116 ]
+          "items" : [ 205 ]
         } ],
         "startTime" : "15:45"
       }
@@ -190,148 +196,172 @@
   ,
 
   "sessions" : {
-    "101" : {
+    "100" : {
       "description" : "Get your badge, coffee, enjoy talking with tech edicts around",
       "icon" : "registration",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
-      "title" : "Registration & morning Coffee"
+      "title" : "Doors Open"
     },
-    "102" : {
+    "105" : {
       "description" : "Foooooooood!",
       "icon" : "lunch",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
-      "title" : "Lunch"
+      "title" : "Welcome to DevFest!"
     },
-    "103" : {
+    "110" : {
       "description" : "Coffeeeeeee!",
       "icon" : "coffee-break",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
-      "title" : "Coffee break"
+      "title" : "Keynote"
     },
-    "104" : {
+    "115" : {
       "description" : "Coffeeeeeee!",
       "icon" : "coffee-break",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-      "title" : "Morning coffee"
+      "title" : "Presentation 1"
     },
-    "105" : {
+    "117" : {
+      "description" : "Coffeeeeeee!",
+      "icon" : "coffee-break",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title" : "Hands On Lab 1"
+    },
+    "119" : {
+      "description" : "Google Cloud Certification,Women Techmakers,Google for Startups,Google Developer Experts,Qwiklabs Setup Help!",
+      "icon" : "coffee-break",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title" : "Track 3"
+    },
+    "120" : {
       "description" : "Official start of the conference. Greetings from the organizers, sponsors and partners.",
       "icon" : "opening",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
       "language" : "English",
-      "title" : "GDG DevFest Calgary 2016 Opening"
+      "title" : "Lightning Talk 1"
     }
-    ,"106" : {
+    ,"125" : {
       "complexity" : "Beginner",
       "description" : "In this session, we will take a look at Windows and .NET support on Google Cloud Platform. We will build a simple ASP.NET app, deploy to Google Compute Engine and take a look at some of the tools and APIs available to .NET developers on Google Cloud Platform. ",
       "language" : "English",
       "presentation" : "https://speakerdeck.com/gdglviv/mete-atamel-windows-and-net-on-google-cloud-platform",
       "speakers" : [ "mete_atamel", "adrian_kajda" ],
       "tags" : [ "Cloud" ],
-      "title" : "Windows and .NET on Google Cloud Platform "
+      "title" : "Lunch"
     },
-    "107" : {
+    "130" : {
       "complexity" : "Beginner",
       "description" : "Do you remember the game Simon says from the 80s? I don’t know about you, but I know many that spent hours trying to press those specific sequences of red, green, blue and yellow buttons in the correct order. But why play on your own? We’ve implemented a gRPC server that allows you to play Simon with other players over the internet!\n\nIn this workshop we will dive into the toolset and libraries to build your very own Simon Says client for this server. We will have a message description in Protocol Buffers format and some stub code in several languages ready for you to play with. The goal for this workshop is for you to have a working client that you can use to play (and beat!) other attendees of the workshop.",
       "language" : "English",
       "speakers" : [ "mete_atamel" ],
       "tags" : [ "Cloud" ],
-      "title" : "Hands-on gRPC experience building your own multiplayer game client"
+      "title" : "Lightning Talk 2"
     },
-    "108" : {
+    "132" : {
+      "description" : "Coffeeeeeee!",
+      "icon" : "coffee-break",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title" : "Hands On Lab 2"
+    },    
+    "135" : {
       "complexity" : "Intermediate",
       "description" : "Doze mode is just around the corner. \nIntroduced in Marshmallow, as the shy guy that was allowed to step in only when your device went to sleep. ZzzZzzzz\nWith the new N release, Doze mode becomes the rockstar. He rushes into the room with a big shabang by shooting all background services and network requests that forgot to get away. \nHe should no longer be shy. He just shoots and dances on bones of your scheduled alarms, while you wonder why this particular task is no longer running.\nWith the new Doze mode, you require to adapt your app architecture to the new reality.\nOn this talk, we will learn how to survive Doze mode using Job Scheduler, Content Provider and stay in one piece.",
       "language" : "English",
       "presentation" : "https://speakerdeck.com/gdglviv/yonatan-levin-knock-knock-whos-there-doze",
       "speakers" : [ "yonatan_levin" ],
       "tags" : [ "Android" ],
-      "title" : "Knock knock! Who's there? Doze."
+      "title" : "Presentaiton 2"
     },
-    "109" : {
+    "138" : {
+      "description" : "Coffeeeeeee!",
+      "icon" : "coffee-break",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title" : "Hands On Lab 3"
+    },
+    "140" : {
       "complexity" : "Beginner",
       "description" : "It's no longer just about digitizing our environment. It’s rather about pervasive and ubiquitous computing. Almost all everyday things will turn into connected devices soon. This “Internet of Things” will allow the Web to be physically tangible. But what is the value, and how can one prevent IoT applications which just seem to be only more expensive and complicated than conventional solutions. Sascha will discuss the purpose and guide you through this complex topic showing inspiring solutions, tips from practice, and code samples in a variety of technologies from simple Bluetooth Eddystone Beacons to more sophisticated IoT platforms like Eclipse SmartHome.",
       "language" : "English",
       "presentation" : "https://speakerdeck.com/gdglviv/sascha-wolter-the-physical-web-context-is-king",
       "speakers" : [ "sascha_wolter" ],
       "tags" : [ "Web" ],
-      "title" : "The Physical Web: Context is King!",
+      "title" : "Break",
       "videoId" : "fLfQNp75kbc"
     },
-    "110" : {
+    "145" : {
       "complexity" : "Intermediate",
       "description" : "TBD",
       "language" : "English",
       "presentation" : "https://speakerdeck.com/gdglviv/rustem-arzymbetov-intro-to-tensorflow",
       "speakers" : [ "rustem_arzymbetov" ],
       "tags" : [ "Cloud" ],
-      "title" : "Intro to TensorFlow",
+      "title" : "Presentaion 3",
       "videoId" : "e3cuSz1hEPs"
     },
-    "111" : {
+    "150" : {
       "complexity" : "Beginner",
       "description" : "Fuelio. Success story (I'll write more info later)",
       "language" : "English",
       "presentation" : "https://speakerdeck.com/gdglviv/adrian-kajda-fuelio-success-story",
       "speakers" : [ "adrian_kajda" ],
       "tags" : [ "Android" ],
-      "title" : "Fuelio. Success story",
+      "title" : "Lightning Talk 3",
       "videoId" : "qK7ysoohsaM"
     },
-    "112" : {
+    "155" : {
       "complexity" : "Beginner",
       "description" : "There's been much discussion about Progressive Web Apps. They're still a relatively new model. In this talk, I'll summarise few options and techniques for getting started with your own Progressive Web App",
       "extend" : 2,
       "language" : "English",
       "speakers" : [ "gerard_sans" ],
       "tags" : [ "Web" ],
-      "title" : "Introduction to Progressive Web Apps in Angular 2"
+      "title" : "Closing Keynote"
     },
-    "113" : {
+    "160" : {
       "complexity" : "Intermediate",
       "description" : "Angular 2 introduces a new Data Architecture based on Reactive Programming using RxJS 5. We are really excited to see the new approach using Observable sequences aka Observables. We will cover a basic introduction of Angular 2 followed by RxJS 5 and the new HTTP API covering some basic use cases.",
       "language" : "English",
       "presentation" : "https://speakerdeck.com/gdglviv/gerard-sans-new-data-architecture-in-angular-2",
       "speakers" : [ "gerard_sans" ],
       "tags" : [ "Web" ],
-      "title" : "New Data Architecture in Angular 2",
+      "title" : "Closing Comments",
       "videoId" : "pgmLkwD-mqM"
     },
-    "114" : {
+    "165" : {
       "complexity" : "Beginner",
       "description" : "TBD",
       "language" : "English",
       "presentation" : "https://speakerdeck.com/gdglviv/jozef-vodicka-how-much-money-firebase-can-save-you",
       "speakers" : [ "jozef_vodicka" ],
       "tags" : [ "Cloud" ],
-      "title" : "How much money Firebase can save you"
+      "title" : "Giveaways"
     },
-    "115" : {
+    "170" : {
       "complexity" : "Intermediate",
       "description" : "There's a lot of hype around MVP pattern in the Android world. Now it's time for concretes. During his presentation Mateusz will tell you how IG divided responsibilities between pattern's different components, how they tied Presenters' and Views' lifecycles and what they did to make it all testable. If you'd love to make your Fragments' and Activities' code simpler and increase your coverage, but you're confused how to glue it all together - don't miss Mateusz's talk.",
       "language" : "English",
       "presentation" : "https://speakerdeck.com/gdglviv/mateusz-herych-the-ultimate-guide-to-mvp-pattern-on-android",
       "speakers" : [ "mateusz_herych" ],
       "tags" : [ "Android" ],
-      "title" : "The ultimate guide to MVP pattern on Android"
+      "title" : "Group photo"
     },
-    "116" : {
+    "175" : {
       "complexity" : "Intermediate",
       "description" : "It's beauty, it's handy, it's fast, it's easy - all about Dagger 2",
       "language" : "English",
       "presentation" : "https://speakerdeck.com/gdglviv/kseniia-shumelchyk-building-modular-architecture-apps-with-dagger-2",
       "speakers" : [ "david_mayboroda" ],
       "tags" : [ "Android" ],
-      "title" : "Building modular architecture apps with Dagger 2"
+      "title" : "Clean up"
     },
-    "117" : {
+    "180" : {
       "complexity" : "Intermediate",
       "description" : "Last year brought a lot of new capabilities to browsers, fundamentally changing the way we will build web apps in 2016. 60FPS, push messages, offline support and background sync became a reality marking the birth of Progressive Web Apps.",
       "language" : "English",
       "speakers" : [ "konrad_dzwinel" ],
       "tags" : [ "Web" ],
-      "title" : "Building web apps in 2016"
+      "title" : "Cloud Drinks Location: TBD"
     },
-    "118" : {
+    "185" : {
       "complexity" : "Intermediate",
       "description" : "Microservices is coming with a certain workload and constraints. Let's try to see how Google Cloud Platform and App Engine can help the overall microservices implementation.",
       "language" : "English",
@@ -340,7 +370,7 @@
       "tags" : [ "Cloud" ],
       "title" : "Microservices in Google App Engine"
     },
-    "119" : {
+    "190" : {
       "complexity" : "Intermediate",
       "description" : "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful—and underrated—account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
       "language" : "English",
@@ -348,7 +378,7 @@
       "tags" : [ "Android" ],
       "title" : "I’ve been doing some syncing…"
     },
-    "120" : {
+    "195" : {
       "complexity" : "Beginner",
       "description" : "Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll see how many awesome tricks are needed to make our apps start fast and run smoothly on modern Android devices. Hopefully we'll also answer the most important question -- what's next for Android after Java.",
       "language" : "English",
@@ -358,7 +388,7 @@
       "title" : "Android tool-chain and run-time improvements in N",
       "videoId" : "WqULb6bdwwg"
     },
-    "121" : {
+    "200" : {
       "complexity" : "Beginner",
       "description" : "One of my favourite things about the web are ASCII smileys. They're sweet, fun and simply make the web a better place. How could anyone not like them ¯(ツ)/¯?\n\nThis talk is an overdose of smileys, because they're the perfect excuse to get started with Polymer. Polymer is a library built on top of the Web Components standards that helps developers create reusable components for the modern web. And since I know that everybody has been wondering how one could take over the world by creating a suite of Polymer animated emoticon components, we're going to do exactly that.",
       "language" : "English",
@@ -368,23 +398,23 @@
       "title" : "On Polymer and smileys... or Polysmileys"
     },
     
-    "122" : {
+    "205" : {
       "description" : "Afterparty is a great time to have some fun and meet new people",
       "icon" : "party",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fparty.jpg?alt=media&token=8e413f01-373a-40bf-bb87-1dcf1d8e6af1",
       "title" : "Afterparty & Networking"
     },
-    "123" : {
+    "210" : {
       "description" : "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
       "title" : "Conference closing and contest winners announcements"
     },
-    "124" : {
+    "215" : {
       "description" : "",
       "language" : "English",
       "title" : "Keynote"
     },
-    "125" : {
+    "220" : {
       "description" : "TBD",
       "language" : "English",
       "title" : "TBD"
@@ -408,36 +438,6 @@
         "name" : "Google+"
       } ],
       "title" : "Product Manager/Developer"
-    },
-    "Karin_Winia" : {
-      "bio" : "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)",
-      "company" : "Applause",
-      "companyLogo" : "/images/logos/gdg-lviv.svg",
-      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-      "country" : "Warsaw, Poland",
-      "featured" : false,
-      "name" : "Karin Winia",
-      "photo" : "/images/people/aleksander_piotrowski.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/aleksander_piotrowski.jpg",
-      "shortBio" : "Became a mobile developer after long run as a backend developer. Because of age, holding senior p...",
-      "socials" : [ {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/pelotasplus",
-        "name" : "Twittyer"
-      }, {
-        "icon" : "facebook",
-        "link" : "http://facebook.com/pelotasplus",
-        "name" : "Facebook"
-      }, {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/pelotasplus",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "gplus",
-        "link" : "https://www.instagram.com/pelotasplus/",
-        "name" : "Google+"
-      } ],
-      "title" : "Code Monkey"
     },
     "Mos_Saleh" : {
       "bio" : "Google Cloud Architect, currently works at VistaVU. Full Stack Developer. All my free time I spend on learning Flutter and Kotlin!",
