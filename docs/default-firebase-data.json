@@ -441,24 +441,6 @@
     }
   },
   "speakers" : {
-    "Alp_B" : {
-      "bio" : "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.",
-      "company" : "Sygic",
-      "companyLogo" : "/images/logos/gdg-lviv.svg",
-      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-      "country" : "Creator of Fuelio app. Fuelio blah blah, Poland",
-      "featured" : true,
-      "name" : "Alp B",
-      "photo" : "/images/people/adrian_kajda.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/adrian_kajda.jpg",
-      "shortBio" : "need a new guy here ",
-      "socials" : [ {
-        "icon" : "gplus",
-        "link" : "plus.google.com/+AdrianKajda",
-        "name" : "Google+"
-      } ],
-      "title" : "Product Manager/Developer"
-    },
     "Mos_Saleh" : {
       "bio" : "Google Cloud Architect, currently works at VistaVU. Full Stack Developer. All my free time I spend on learning Flutter and Kotlin!",
       "company" : "VistaVu",
@@ -580,7 +562,7 @@
       "companyLogoUrl" : "",
       "country" : "Canada",
       "featured" : true,
-      "name" : "GReg Bennett",
+      "name" : "Greg Bennett",
       "photo" : "/images/people/greg.bennett.png",
       "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/greg.bennett.png",
       "shortBio" : "",
