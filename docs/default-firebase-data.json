@@ -22,12 +22,7 @@
   "gallery" : [
     "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4185.jpg?alt=media&token=ff3fd161-3d68-401a-90cd-74b90bd2a4d8",
     "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4411.jpg?alt=media&token=7fda0d66-a631-4816-bd85-b93ef49ed3a6",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4577.jpg?alt=media&token=f14205b5-be75-447c-8bca-73a15ca2df41",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4525.jpg?alt=media&token=0428f0e3-fda0-4119-8249-69f98e936ce5",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4611.jpg?alt=media&token=b080143c-161c-4d9f-96f3-ebb6bdcdfd95",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4720.jpg?alt=media&token=75de0c2d-8bd9-48bb-9117-1349c9bc381f",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4646.jpg?alt=media&token=eafb0320-6f21-47bc-8ba4-8eec708f2076",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_5294.jpg?alt=media&token=72ab5141-d21b-4e71-a58b-faa2b00d1d02"
+    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4577.jpg?alt=media&token=f14205b5-be75-447c-8bca-73a15ca2df41"
   ],
   "notifications" : {
     "config" : {
@@ -84,39 +79,45 @@
         "startTime" : "10:30"
       }, 
       {
-        "endTime" : "11:45",
+        "endTime" : "13:30",
         "sessions" : [ 
           {
             "items" : [ 115 ]
           }, 
           {
-            "extend" : 2,
+            "extend" : 3,
             "items" : [ 117 ]
           }, 
           {
-            "extend" : 2,
+            "extend" : 3,
             "items" : [ 119 ]
           } 
         ],
-        "startTime" : "11:00"
+        "startTime" : "11:05"
       },
       {
-        "endTime" : "12:00",
+        "endTime" : "11:45",
         "sessions" : 
         [ 
           {
           "items" : [ 120 ]
           }  
         ],
-        "startTime" : "11:50"
+        "startTime" : "11:35"
       }, {
+        "endTime" : "13:00",
+        "sessions" : [ {
+          "items" : [ 123 ]
+        } ],
+        "startTime" : "11:50"
+      },{
         "endTime" : "13:00",
         "sessions" : [ {
           "items" : [ 125 ]
         } ],
-        "startTime" : "12:15"
+        "startTime" : "12:00"
       }, {
-        "endTime" : "13:10",
+        "endTime" : "13:20",
         "sessions" : [ {
           "items" : [ 130 ]
         }, {
@@ -132,7 +133,7 @@
         "sessions" : [ {
           "items" : [ 135 ]
         } ],
-        "startTime" : "13:15"
+        "startTime" : "13:25"
       }, {
         "endTime" : "14:15",
         "sessions" : [ {
@@ -161,36 +162,39 @@
         } ],
         "startTime" : "14:50"
       }
-
-
-
       , {
-        "endTime" : "15:30",
+        "endTime" : "15:40",
         "sessions" : [ {
           "items" : [ 155 ]
         } ],
         "startTime" : "15:05"
       }
       , {
-        "endTime" : "15:35",
+        "endTime" : "15:45",
         "sessions" : [ {
           "items" : [ 160 ]
         } ],
-        "startTime" : "15:30"
-      }
-      , {
-        "endTime" : "15:45",
-        "sessions" : [ {
-          "items" : [ 165 ]
-        } ],
-        "startTime" : "15:35"
+        "startTime" : "15:40"
       }
       , {
         "endTime" : "16:00",
         "sessions" : [ {
-          "items" : [ 170 ]
+          "items" : [ 165 ]
         } ],
         "startTime" : "15:45"
+      }
+      , {
+        "endTime" : "16:15",
+        "sessions" : [ {
+          "items" : [ 170 ]
+        } ],
+        "startTime" : "16:00"
+      }, {
+        "endTime" : "19:00",
+        "sessions" : [ {
+          "items" : [ 175 ]
+        } ],
+        "startTime" : "16:15"
       }
       , {
         "endTime" : "19:30",
@@ -221,7 +225,7 @@
       "title" : "Doors Open"
     },
     "105" : {
-      "description" : "Get your badge, coffee, enjoy talking with tech edicts around!",
+      "description" : "Welcome/Introduction Dean of MRU \n\rIntroduce KeyNote",
       "icon" : "registration",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
       "title" : "Welcome to DevFest!"
@@ -230,14 +234,16 @@
       "description" : "Keynote",
       "icon" : "light",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
-      "title" : "Keynote"
+      "title" : "Opening Keynote:Let's Build What's Next with Google.",
+      "speakers" : [ "Cam Crockett"]
+
     },
     "115" : {
-      "description" : "Presentation 1",
+      "description" : "Using Google Cloud for Data Science Competitions",
       "icon" : "coffee-break",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-      "title" : "Presentation 1",
-      "speakers" : [ "speaker 1", "speaker 2" ]
+      "title" : "Using Google Cloud for Data Science Competitions",
+      "speakers" : [ "Chris Chen" ]
     },
     "117" : {
       "description" : "Hands on Lab 1",
@@ -252,28 +258,38 @@
       "title" : "Track 3"
     },
     "120" : {
-      "description" : "Official start of the conference. Greetings from the organizers, sponsors and partners.",
+      "description" : "Built for Scale with GCP.",
       "icon" : "light",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
       "language" : "English",
-      "title" : "Lightning Talk 1"
-    }
-    ,"125" : {
-      "complexity" : "",
-      "description" : "...",
-      "language" : "English",
-      "presentation" : "",
-
-      "tags" : [ "Lunch" ],
-      "title" : "Lunch"
-    },
-    "130" : {
+      "title" : "Lightning Talk 1",
+      "Speakers":["Will Zhang"]
+    }, "123" : {
       "complexity" : "Beginner",
-      "description" : "",
+      "description" : "From Zero to Dashboards: Driving Lightweigt Analytics",
       "language" : "English",
-      "speakers" : [ "" ],
+      "speakers" : [ "Stephen King","Liam Goguen" ],
       "tags" : [ "" ],
       "title" : "Lightning Talk 2"
+    },
+  
+    "125" : {
+      "complexity" : "",
+      "description" : "Lunch",
+      "language" : "English",
+      "presentation" : "",
+      "tags" : [ "Lunch" ],
+      "title" : "Lunch"
+    }, 
+    "130" : {
+      "complexity" : "Beginner",
+      "description" : "Pepper the Robot - GCPowering a 4-foot-tall humanoid robot",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "Carille Mendoza" ],
+      "tags" : [ "" ],
+      "title" : "Lightning Talk 3",
+      "videoId" : ""
     },
     "132" : {
       "description" : "Lab 2!",
@@ -283,10 +299,10 @@
     },    
     "135" : {
       "complexity" : "Intermediate",
-      "description" : "",
+      "description" : "Observables & Promises in Firebase, Oh My!",
       "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/yonatan-levin-knock-knock-whos-there-doze",
-      "speakers" : [ "" ],
+      "presentation" : "",
+      "speakers" : [ "Ben Nakaska" ],
       "tags" : [ "" ],
       "title" : "Presentation 2"
     },
@@ -309,22 +325,22 @@
     },
     "145" : {
       "complexity" : "Intermediate",
-      "description" : "TBD",
+      "description" : "Building the future of Banking in the Cloud.",
       "language" : "English",
       "presentation" : "",
-      "speakers" : [ "rustem_arzymbetov" ],
+      "speakers" : [ "Karin Winia" ],
       "tags" : [ "Cloud" ],
       "title" : "Presentation 3",
       "videoId" : ""
     },
     "150" : {
-      "complexity" : "Beginner",
-      "description" : "",
+      "complexity" : "Intermediate",
+      "description" : "App Maker + GSuite: My Journey to becoming a Google Developer Expert",
       "language" : "English",
       "presentation" : "",
-      "speakers" : [ "" ],
-      "tags" : [ "" ],
-      "title" : "Lightning Talk 3",
+      "speakers" : [ "Cleo Espiritu" ],
+      "tags" : [ "Cloud" ],
+      "title" : "Lightning Talk 4",
       "videoId" : ""
     },
     "155" : {
@@ -341,7 +357,7 @@
       "description" : "",
       "language" : "English",
       "presentation" : "",
-      "speakers" : [ "" ],
+      "speakers" : [ "Greg Bennett" ],
       "tags" : [ "" ],
       "title" : "Closing Comments",
       "videoId" : ""
