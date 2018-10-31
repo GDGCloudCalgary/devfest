@@ -813,7 +813,7 @@
     "name" : "Github"
   } ],
   "title" : ""
-},"Cleo Espiritu" : {
+},"Cleo_Espiritu" : {
   "bio" : "",
   "company" : "",
   "companyLogo" : "http://www.google.com",
@@ -821,8 +821,8 @@
   "country" : "Canada",
   "featured" : true,
   "name" : "Cleo Espiritu",
-  "photo" : "/images/people/google.gcp.png",
-  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/google.gcp.png",
+  "photo" : "/images/people/Cleo.Espiritu.png",
+  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Cleo.Espiritu.png",
   "shortBio" : "",
   "socials" : [ {
     "icon" : "linkedin",
