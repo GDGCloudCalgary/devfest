@@ -89,7 +89,8 @@
             "items" : [ 117 ]
           }, 
           {
-            "extend" : 3,
+            "extend" : 3
+            ,
             "items" : [ 119 ]
           } 
         ],
@@ -235,15 +236,14 @@
       "icon" : "light",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
       "title" : "Opening Keynote:Let's Build What's Next with Google.",
-      "speakers" : [ "Cam Crockett"]
-
+      "speakers" : [ "Cam_Crockett"]
     },
     "115" : {
       "description" : "Using Google Cloud for Data Science Competitions",
       "icon" : "coffee-break",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
       "title" : "Using Google Cloud for Data Science Competitions",
-      "speakers" : [ "Chris Chen" ]
+      "speakers" : [ "Chris_Chen" ]
     },
     "117" : {
       "description" : "Hands on Lab 1",
@@ -263,12 +263,12 @@
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
       "language" : "English",
       "title" : "Lightning Talk 1",
-      "Speakers":["Will Zhang"]
+      "Speakers":["Will_Zhang"]
     }, "123" : {
       "complexity" : "Beginner",
       "description" : "From Zero to Dashboards: Driving Lightweigt Analytics",
       "language" : "English",
-      "speakers" : [ "Stephen King","Liam Goguen" ],
+      "speakers" : [ "Stephen_King","Liam_Goguen" ],
       "tags" : [ "" ],
       "title" : "Lightning Talk 2"
     },
@@ -286,7 +286,7 @@
       "description" : "Pepper the Robot - GCPowering a 4-foot-tall humanoid robot",
       "language" : "English",
       "presentation" : "",
-      "speakers" : [ "Carille Mendoza" ],
+      "speakers" : [ "Carille_Mendoza" ],
       "tags" : [ "" ],
       "title" : "Lightning Talk 3",
       "videoId" : ""
@@ -302,7 +302,7 @@
       "description" : "Observables & Promises in Firebase, Oh My!",
       "language" : "English",
       "presentation" : "",
-      "speakers" : [ "Ben Nakaska" ],
+      "speakers" : [ "Ben_Nakaska" ],
       "tags" : [ "" ],
       "title" : "Presentation 2"
     },
@@ -328,7 +328,7 @@
       "description" : "Building the future of Banking in the Cloud.",
       "language" : "English",
       "presentation" : "",
-      "speakers" : [ "Karin Winia" ],
+      "speakers" : [ "Karin_Winia" ],
       "tags" : [ "Cloud" ],
       "title" : "Presentation 3",
       "videoId" : ""
@@ -338,7 +338,7 @@
       "description" : "App Maker + GSuite: My Journey to becoming a Google Developer Expert",
       "language" : "English",
       "presentation" : "",
-      "speakers" : [ "Cleo Espiritu" ],
+      "speakers" : [ "Cleo_Espiritu" ],
       "tags" : [ "Cloud" ],
       "title" : "Lightning Talk 4",
       "videoId" : ""
@@ -350,14 +350,14 @@
       "language" : "English",
       "speakers" : [ "" ],
       "tags" : [ "" ],
-      "title" : "Closing Keynote"
+      "title" : "Closing_Keynote"
     },
     "160" : {
       "complexity" : "Intermediate",
       "description" : "",
       "language" : "English",
       "presentation" : "",
-      "speakers" : [ "Greg Bennett" ],
+      "speakers" : [ "Greg_Bennett" ],
       "tags" : [ "" ],
       "title" : "Closing Comments",
       "videoId" : ""
@@ -507,7 +507,7 @@
       } ],
       "title" : "Co-Founder & CEO of OpenHouse.AI"
     },
-    "stephen_king" : {
+    "Stephen_King" : {
       "bio" : "Stephen is the CEO of CMO4Hire, a digital brand marketing firm for B2B companies that drives triple-digit growth and reduces go-to-market complexity. He is also the Chairman and a co-Founder of A100 (www.thea100.org), an organization which aims to inspire and support generations of Alberta tech entrepreneurs. With a computer science degree and 30+ year career in software development & commercialization, Stephen has written over a million lines of code and sold more than $500M in software. He's been a startup founder and a CMO &  Director for large international firms. More information about his company and unique MarTech software solution can be found here: https://www.cmo4hire.com/  and  https://www.dbmms.io/. Stephen's also an accomplished guitarist and musician (https://www.reverbnation.com/stephenking)  Connect with him at https://www.linkedin.com/in/stephenking13/ ",
       "company" : "Widespread",
       "companyLogo" : "https://www.cmo4hire.com",
@@ -539,7 +539,7 @@
       } ],
       "title" : "CEO of CMO4Hire"
     },
-    "liam_goguen" : {
+    "Liam_Goguen" : {
       "bio" : "I have been with CMO4Hire since May 2017. Within my role as the data scientist at the company, I have worked to optimize certain processes we use to serve clients and helped develop our data tracking, reporting and forecasting infrastructure, DBMMS.io, CMO4Hire's agile marketing platform. Previously, I worked approximately six years in financial advisory and equity research roles in Calgary. My skillset includes data trend analysis/forecasting, financial modeling/analysis/valuations, industry/company research, database creation/maintenance/optimization, analyzing financing proposals and key commercial agreements and financial due diligence. I have a Bachelor of Business Administration degree with a concentration in Finance from the Williams School of Business at Bishop's University, Quebec.",
       "company" : "Widespread",
       "companyLogo" : "https://www.cmo4hire.com",
@@ -571,7 +571,7 @@
       } ],
       "title" : "CEO of CMO4Hire"
     },
-    "greg_bennett" : {
+    "Greg_Bennett" : {
       "bio" : "",
       "company" : "Widespread",
       "companyLogo" : "https://www.cmo4hire.com",
@@ -603,7 +603,7 @@
       } ],
       "title" : "Founder, GDG Cloud Calgary"
     },
-    "suryatapa_roy" : {
+    "Suryatapa_Roy" : {
       "bio" : "Recently graduated research assistant working on Artificial Intelligence (AI) for Virtual Reality (VR). Works as a Technology Coach and Unity Instructor/Developer. Passionate about developing  futuristic applications for the present.",
       "company" : "",
       "companyLogo" : "https://www.https://simplestepstech.wordpress.com/",
@@ -635,7 +635,7 @@
       } ],
       "title" : ""
     },
-    "karin_winia" : {
+    "Karin_Winia" : {
       "bio" : "IT professional with over 15+ years experience in the industry.  I started out as a Java developer after graduating from the University of Alberta.  I moved into the application integration space after joining ATB and haven't looked back since.  I am now overseeing building out a Digital Platform in the Cloud that will allow ATB to be a leader in technology solutions for Banking.",
       "company" : "",
       "companyLogo" : "https://www.https://simplestepstech.wordpress.com/",
@@ -667,7 +667,7 @@
       } ],
       "title" : ""
    },
-   "cameron_crockett" : {
+   "Cam_Crockett" : {
     "bio" : "I started as a developer in Calgary working for a few different companies where I not only got to improve my development skills across a variety of industries but  was also part of teams implementing DevOps and Agile processes within the enterprise. I've spent time as a Solution Architect and the last year at Google as part of their Customer Engineering team where I get to spend time working with customers building out cool solutions on top of Google's Cloud Platform.",
     "company" : "",
     "companyLogo" : "http://www.google.com",
@@ -699,6 +699,132 @@
     } ],
     "title" : ""
   }
+, "Chris_Chen" : {
+  "bio" : "",
+  "company" : "",
+  "companyLogo" : "http://www.google.com",
+  "companyLogoUrl" : "",
+  "country" : "Canada",
+  "featured" : true,
+  "name" : "Chris Chen",
+  "photo" : "/images/people/google.gcp.png",
+  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/google.gcp.png",
+  "shortBio" : "",
+  "socials" : [ {
+    "icon" : "linkedin",
+    "link" : "https://www.linkedin.com/",
+    "name" : "Google+"
+  }, {
+    "icon" : "twitter",
+    "link" : "https://twitter.com/",
+    "name" : "Twitter"
+  },
+   {
+    "icon" : "google+",
+    "link" : "",
+    "name" : "Google+"
+  },
+   {
+    "icon" : "github",
+    "link" : "https://github.com/",
+    "name" : "Github"
+  } ],
+  "title" : ""
+},"Carille_Mendoza" : {
+  "bio" : "",
+  "company" : "",
+  "companyLogo" : "http://www.google.com",
+  "companyLogoUrl" : "",
+  "country" : "Canada",
+  "featured" : true,
+  "name" : "Carille Mendoza",
+  "photo" : "/images/people/google.gcp.png",
+  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/google.gcp.png",
+  "shortBio" : "",
+  "socials" : [ {
+    "icon" : "linkedin",
+    "link" : "https://www.linkedin.com/",
+    "name" : "Google+"
+  }, {
+    "icon" : "twitter",
+    "link" : "https://twitter.com/",
+    "name" : "Twitter"
+  },
+   {
+    "icon" : "google+",
+    "link" : "",
+    "name" : "Google+"
+  },
+   {
+    "icon" : "github",
+    "link" : "https://github.com/",
+    "name" : "Github"
+  } ],
+  "title" : ""
+},"Ben_Nakaska" : {
+  "bio" : "",
+  "company" : "",
+  "companyLogo" : "http://www.google.com",
+  "companyLogoUrl" : "",
+  "country" : "Canada",
+  "featured" : true,
+  "name" : "Ben Nakaska",
+  "photo" : "/images/people/google.gcp.png",
+  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/google.gcp.png",
+  "shortBio" : "",
+  "socials" : [ {
+    "icon" : "linkedin",
+    "link" : "https://www.linkedin.com/",
+    "name" : "Google+"
+  }, {
+    "icon" : "twitter",
+    "link" : "https://twitter.com/",
+    "name" : "Twitter"
+  },
+   {
+    "icon" : "google+",
+    "link" : "",
+    "name" : "Google+"
+  },
+   {
+    "icon" : "github",
+    "link" : "https://github.com/",
+    "name" : "Github"
+  } ],
+  "title" : ""
+},"Cleo Espiritu" : {
+  "bio" : "",
+  "company" : "",
+  "companyLogo" : "http://www.google.com",
+  "companyLogoUrl" : "",
+  "country" : "Canada",
+  "featured" : true,
+  "name" : "Cleo Espiritu",
+  "photo" : "/images/people/google.gcp.png",
+  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/google.gcp.png",
+  "shortBio" : "",
+  "socials" : [ {
+    "icon" : "linkedin",
+    "link" : "https://www.linkedin.com/",
+    "name" : "Google+"
+  }, {
+    "icon" : "twitter",
+    "link" : "https://twitter.com/",
+    "name" : "Twitter"
+  },
+   {
+    "icon" : "google+",
+    "link" : "",
+    "name" : "Google+"
+  },
+   {
+    "icon" : "github",
+    "link" : "https://github.com/",
+    "name" : "Github"
+  } ],
+  "title" : ""
+}
+
 
 
 
