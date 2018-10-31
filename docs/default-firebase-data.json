@@ -43,15 +43,36 @@
         "name" : "Google Developer Experts",
         "url" : "https://developers.google.com/experts/"
       },
-       {
+    {
       "logoUrl" : "../images/logos/google.svg",
       "name" : "Google",
       "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
+    },
+    {
+      "logoUrl" : "../images/logos/qwiklabs.png",
+      "name" : "Qwiklabs",
+      "url" : "https://www.qwiklabs.com/"
+    },
+    {
       "logoUrl" : "../images/logos/gdg-x.svg",
       "name" : "GDG[x]",
       "url" : "https://github.com/gdg-x"
-    }],
+    }
+    ,
+    {
+      "logoUrl" : "../images/logos/wtm.png",
+      "name" : "Women Techmakers",
+      "url" : "https://www.womentechmakers.com/"
+    }
+    ,
+    {
+      "logoUrl" : "../images/logos/airia.png",
+      "name" : "Aira",
+      "url" : "https://www.airia.cloud/"
+    }
+  
+  
+  ],
     "title" : "General Partner"
   } ],
   
@@ -344,16 +365,16 @@
       "videoId" : ""
     },
     "155" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "",
       "extend" : 2,
       "language" : "English",
       "speakers" : [ "" ],
       "tags" : [ "" ],
-      "title" : "Closing_Keynote"
+      "title" : "Closing Keynote"
     },
     "160" : {
-      "complexity" : "Intermediate",
+      "complexity" : "",
       "description" : "",
       "language" : "English",
       "presentation" : "",
@@ -363,7 +384,7 @@
       "videoId" : ""
     },
     "165" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "TBD",
       "language" : "English",
       "presentation" : "",
@@ -381,7 +402,7 @@
       "title" : "Group photo"
     },
     "175" : {
-      "complexity" : "Intermediate",
+      "complexity" : "",
       "description" : "",
       "language" : "English",
       "presentation" : "",
@@ -390,7 +411,7 @@
       "title" : "Clean up"
     },
     "180" : {
-      "complexity" : "Intermediate",
+      "complexity" : "",
       "description" : "",
       "language" : "English",
       "speakers" : [ "" ],
@@ -738,8 +759,8 @@
   "country" : "Canada",
   "featured" : true,
   "name" : "Carille Mendoza",
-  "photo" : "/images/people/google.gcp.png",
-  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/google.gcp.png",
+  "photo" : "/images/people/Carille.Mendoza.jpg",
+  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Carille.Mendoza.jpg",
   "shortBio" : "",
   "socials" : [ {
     "icon" : "linkedin",
@@ -769,8 +790,8 @@
   "country" : "Canada",
   "featured" : true,
   "name" : "Ben Nakaska",
-  "photo" : "/images/people/google.gcp.png",
-  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/google.gcp.png",
+  "photo" : "/images/people/Ben.Nakaska.jpg",
+  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Ben.Nakaska.jpg",
   "shortBio" : "",
   "socials" : [ {
     "icon" : "linkedin",
