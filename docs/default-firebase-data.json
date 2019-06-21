@@ -70,6 +70,12 @@
       "name" : "Aira",
       "url" : "https://www.airia.cloud/"
     }
+    ,
+    {
+      "logoUrl" : "../images/logos/albertabikeswap.png",
+      "name" : "Alberta Bikeswap",
+      "url" : "http://albertabikeswap.ca"
+    }
   
   
   ],
@@ -284,7 +290,7 @@
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
       "language" : "English",
       "title" : "Lightning Talk 1",
-      "Speakers":["Will_Zhang"]
+      "speakers":["Will_Zhang"]
     }, "123" : {
       "complexity" : "Beginner",
       "description" : "From Zero to Dashboards: Driving Lightweigt Analytics",
