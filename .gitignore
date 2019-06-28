@@ -6,6 +6,7 @@ functions/lib/
 .idea/
 .temp/
 .vscode/
+.firebase/
 .firebaserc
 /appengine/dist/
 serviceAccount.json
@@ -17,3 +18,7 @@ config/
 config/production.json
 config/development.json
 yarn.lock
+npm-debug.log
+firebase-debug.log
+.DS_Store
+.firebase/
