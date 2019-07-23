@@ -1,20 +1,29 @@
 {
   "blog" : {
-    "callforspeaker" : {
+    "c4p" : {
       "backgroundColor" : "#3647a5",
-      "brief" : "We’re looking for speakers! ",
-      "content" : "DevFest Calgary is bringing over 100 developers together **November 3** together in Calgary in the beautiful Riddel Library at MRU. Our focus is the content. **We’re looking for speakers like you**, who are ready to rock the stage and deliver the best talk or workshop in the field. <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfest18callforspeakersdoc\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div> </br> Why is it cool to speak at the DevFest? </br>DevFest Calgary is not an ordinary tech conference, besides selecting only the best speakers, we help them to succeed in delivering an exceptional quality talk on the stage.  Here are few perks that all our speakers get: </br>**Exposure**. By being a speaker, you are proving your level of expertise to a potential business partners or employers. Your talk will be promoted in our online resources and recording published in YouTube channel. </br>**Unique networking**. Being a speaker means you’ll have the unique chance to network with other speakers - the best experts in the industry. </br>**Coaching**. We're in the same boat, after being selected as a speaker our program committee will help you to deliver the best talk possible. We provide information about the audience, presentation templates, feedback on the slides, all to help you to prepare.<br> What are we looking for? We're looking for **experience-based talks**, the information that can not be found in the documentation or easily googled. We're looking for your stories, your struggles, research results and experiences with the frontier tools or technologies. Check the [list of topics](https://codelabs.developers.google.com/devfest18) we're interested in (it is not full and updated all the time). You can submit as many talks as you want. This year we accept submissions in two formats: </br> - 45 minutes sessions </br>- 10 Minute Lightning Talks </br>- 1-2 hour workshops </br></br>Talks that will not pass initial review: </br>- Talks about a specific tool/library/project explaining how it works or how to use it. </br>- Talks whose focus is pitching a company or project. It’s cool that you mention your company during the presentation, but it shouldn’t be the focus of the talk. </br>- Proposals that are not in English. </br>- Recruitment talks to attract talent. </br></br>We strongly recommend you check out [speaking.io](http://speaking.io) website from Zach Holman. It includes good tips and guidelines for speakers. </br>Timeline ** Call for Papers submission deadline is October 15, 2018**. Submission results will be announced by October 20. Any questions? Email organizers at speakers@gdgcloudcalgary.com <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfest18callforspeakersdoc\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div>",
-      "image" : "/images/posts/callforspeaker.jpg",
-      "published" : "2018-10-01",
+      "brief" : "GDG DevFest Ukraine was announced, for the sixth year in a row, the conference will bring together 900 developers, managers and...",
+      "content" : "GDG DevFest Ukraine was announced, for the sixth year in a row, the conference will bring together 900 developers, managers and entrepreneurs on **October 13-14** to Lviv.  This year our team is doing big advancement in the content, we're building an extra stage to accommodate more visitors and provide three fully independent tracks on Android, Web and Google Cloud topics.  Our focus is the content. **We’re looking for speakers like you**, who are ready to rock the stage and deliver the best talk or workshop in the field.  \"I've been to conferences all over the world and what you've created in Lviv is world class. It's easily first league of conferences.\" - Piotr Tuszynski, DevFest '16 Keynote Speaker  <div layout horizontal center-justified> <a href=\"http://bit.ly/df17-c4p\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div>  ## Why is it cool to speak at the DevFest?  DevFest Ukraine is not an ordinary tech conference, besides selecting only the best speakers, we help them to succeed in delivering an exceptional quality talk on the stage.  Here are few perks that all our speakers get:  - **Expences covered**. Hotel for 3 nights, travel costs and entrance to exclusive speaker parties are covered for all speakers. - **Professional video recording**. We work with experienced video production companies to create session recording of the best quality. Stage, screen, audio, all is recorded separately and combined later. Check the [session videos from the last year](https://www.youtube.com/watch?v=VOwUnBkqmo4). - **Exposure**. By being a speaker, you are proving your level of expertise to a potential business partners or employers. Your talk will be promoted in our online resources and recording published in YouTube channel with more than 35k views. - **Unique networking**. Being a speaker means you’ll have the unique chance to network with other speakers - the best experts in the industry. - **Coaching**. We're in the same boat, after being selected as a speaker our program committee will help you to deliver the best talk possible. We provide information about the audience, presentation templates, feedback on the slides, all to help you to prepare.  \"It was a best DevFest I ever attended. So professional, so much enthusiasm from the community. You managed to bring the vibe of Google I/O to Ukraine.\" - David Vávra, DevFest '16 Speaker  ## What are we looking for?  We're looking for **experience-based talks**, the information that can not be found in the documentation or easily googled. We're looking for your stories, your struggles, research results and experiences with the frontier tools or technologies. Check the [list of topics](https://docs.google.com/document/d/18eGvBr6wdlXsfiZM4EK6SubfL3G1RWj-ABTBN9pngNg/edit?usp=sharing) we're interested in (it is not full and updated all the time).  ### Format  You can submit as many talks as you want. This year we accept submissions in two formats:   - 40 minutes sessions.   - 2(or 3) hours workshops.  ### Talks that will not pass initial review  - Talks about a specific tool/library/project explaining how it works or how to use it.  - Talks whose focus is pitching a company or project. It’s cool that you mention your company during the presentation, but it shouldn’t be the focus of the talk.  - Proposals that are not in English.  - Recruitment talks to attract talent.  We strongly recommend you check out [speaking.io](http://speaking.io/) website from Zach Holman. It includes good tips and guidelines for speakers.   ## Timeline  **Call for Papers submission deadline is July 1, 2017.** Submission results will be announced by July 16.   Any questions? Email organizers at [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua)  <div layout horizontal center-justified> <a href=\"http://bit.ly/df17-c4p\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div>",
+      "image" : "/images/posts/c4p.jpg",
+      "published" : "2017-02-12",
       "source" : "/data/posts/2017-02-12-c4p.md",
       "title" : "We're looking for speakers"
     },
-    "dfca18-announced" : {
+    "dfua-summary" : {
+      "backgroundColor" : "#ffc107",
+      "brief" : "GDG DevFest Ukraine 2016",
+      "content" : " [****DevFest Ukraine****](https://devfest.gdg.org.ua/) - it was fun, advantageous, crowded and exciting event! The scale of DevFest is simply breathtaking - 2 days full of Android, Web and Cloud hardcore!   The 5th annual conference GDG DevFest Ukraine - the biggest one related to Google techlogies in CEE - was held on September 9-10, 2016 in Lviv, Ukraine. The conference was powered by [Google Developers Group Lviv](http://lviv.gdg.org.ua/) (GDG Lviv) in together with the Google Developer Groups from all over Ukraine.   Some terrific facts about DevFest: ----------------------------------  - almost **700 attendees** - great open-minded people, full of  passion and great ideas  - incredibly high concentration of [Google Developer Experts](https://developers.google.com/experts/) in one place - **12** top-notch professionals  - **33 speakers** - well experienced, armed with knowledges and obsessed with Google technologies from all over the world  (UK, Israel, Germany, USA, Poland, Ukraine, Czech Republic, Switzerland, Romania, Turkey, Russia)  - **14** participating **GDG Groups**’ representatives (GDG Krakow, GDG Cherkasy, GDG Basel, GDG Prague, GDG Dnipro, GDG Kyiv-Center, GDG Istanbul, GDG Lviv, GDG Odessa, GDG Ternopil, GDG Uzhhorod, GDG KPI, GDG Kremenchuk, GDG Khmelnytskyi)  - **16** participating countries (UK, Israel, Germany, USA, Poland, Ukraine, Czech Republic, Switzerland, Romania, Turkey, Russia, The Netherlands, Belarus, Finland, Kazakhstan, Côte d’Ivoire)  - lots of sessions were full of deep knowledge and inspiration. Only technical stuff, only hardcore! Android sessions as always overcrowded.  <plastic-image srcset=\"/images/posts/summary16_2.jpg\" lazy-load preload fade></plastic-image>  - Progressive Web Apps (PWA) theme was the most popular on Web track, moreover, people could try it in practice on 2 workshops, hold by [Martin Splitt](http://localhost:4040/speakers/41/) and [Jakub Škvára](http://localhost:4040/speakers/18/).  <plastic-image srcset=\"/images/posts/summary16_3.jpg\" lazy-load preload fade></plastic-image>  - amazing demo zones were around (AR-music, DIY cardboards, Tilt Brush....)  <plastic-image srcset=\"/images/posts/summary16_4.jpg\" lazy-load preload fade></plastic-image>  - especially Emotobooth  <plastic-image srcset=\"/images/posts/summary16_5.jpg\" lazy-load preload fade></plastic-image>  - a big number of epic selfies :)  <plastic-image srcset=\"/images/posts/summary16_6.jpg\" lazy-load preload fade></plastic-image>  - the silent party was definitely something new for everyone! People rocked the floor like they never do before!  <plastic-image srcset=\"/images/posts/summary16_8.jpg\" lazy-load preload fade></plastic-image>   The conference became possible through the support of a number of companies. **Big THANK** to all of DevFest’s sponsors, namely: - *General partner* - [Google](https://www.google.com.ua/intl/en/about/) - *Diamond partner* - [intouch](http://www.intouchmena.com/) - *Platinum partners* - [CoreValue](http://www.corevalue.com.ua/), [GlobalLogic](http://www.globallogic.com/), [Wolters Kluwer](http://wolterskluwer.com/), [N-iX](http://n-ix.com/), [Mirantis](https://www.mirantis.com/), [DataArt](http://dataart.ua/), [Zalando](https://tech.zalando.de/), [FM Standart](http://fm-standard.com/en), [Design Proof](http://designprof.com.ua/) - Gold partners -  [Ciklum](https://www.ciklum.com/), [Sigma](http://sigma.software/), [Rucus](https://www.ruckuswireless.com/).  And, of course, a BIG THANK to all the volunteers from different GDG groups of Ukraine for their priceless help.  <plastic-image srcset=\"/images/posts/summary16_7.jpg\" lazy-load preload fade></plastic-image>  We hope you found the conference informative and worthwhile. The primary goal of DevFest  was to bring together all of you - professionals and passionate geeks of our industry - from around the world to exchange experience, share valuable knowledges and to contribute in possible strategies as to how Ukraine can become recognized and more engaged in initiatives taking place in developing IT industry and education first of all.  Your presence helped to make this event a great success, and your enthusiasm and positive spirit helped to make our time together both productive and fun.  We wish you all the best and hope that you continue to be engaged with the DevFest Ukraine. BTW, stay tuned for upcoming events by visiting [lviv.gdg.org.ua](http://lviv.gdg.org.ua/) and subscribing to our news, like us on [Facebook](https://facebook.com/GDGLviv), check [Twitter](https://twitter.com/intent/user?screen_name=GDGLviv) or add to circles on [Google+](https://plus.google.com/b/102444623953913144164)!  Post-Conference Follow-Up ------------------------- As a reminder, we are working on transcribing the plenary sessions' slides (in ~1 week) and HD video records (in ~1-2 months), and once everything has been aggregated, we’ll notify you.  Please visit our Facebook [page](https://www.facebook.com/GDGLviv/) to view the photos, or the DevFest [website](https://devfest.gdg.org.ua/) in one week.  See you at the next events!   With love,  GDG DevFest Ukraine Team",
+      "image" : "/images/posts/summary16_1.jpg",
+      "published" : "2016-09-10",
+      "source" : "/data/posts/2016-09-10-dfua-summary.md",
+      "title" : "DevFest Ukraine rocked - SUMMARY"
+    },
+    "dfua17-announced" : {
       "backgroundColor" : "#2196F3",
-      "brief" : "It is official. GDG DevFest Calgary 2018 is going to take place in Calgary, on November 3.",
-      "content" : "It is official. GDG DevFest Calgary 2017 is going to take place in **Calgary, on November 3**.  Described by many as \"Google I/O of Calgary\", DevFest has grown from the small 100-people event to the biggest Google tech conference in North America. This year, we expect over 900 engineers, managers, and entrepreneurs from over 20 countries come to DevFest to learn about Android, Web and Cloud technologies, and to experience the phenomenal atmosphere.  </br></br> What to expect?  **2 parallel Tracks: A hands on Workshop Track and a Speaker's Track.** You will hear and learn from speakers and presenters from product companies like Google and ATB. </br></br> We are stoked to see yo all there!  <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfestmeetup\" rel=\"noopener noreferrer\">   <paper-button primary>Register</paper-button> </a> </div></br> <i>GDG DevFest Calgary Team. </i>",
-      "image" : "/images/posts/dfca18-announced.jpg",
-      "published" : "2018-10-01",
+      "brief" : "It is official. GDG DevFest Ukraine 2017 is going to take place in Lviv, on October 13-14.",
+      "content" : "It is official. GDG DevFest Ukraine 2017 is going to take place in **Lviv, on October 13-14**.  Described by many as \"Google I/O of Ukraine\", DevFest has grown from the small 100-people event to the biggest Google tech conference in the Central and Eastern Europe. This year, we expect over 900 engineers, managers, and entrepreneurs from over 20 countries come to DevFest to learn about Android, Web and Cloud technologies, and to experience the phenomenal atmosphere.  ## What to expect?  **3 parallel Tracks and Workshops Area.** You asked, we did. We're building an additional stage and expanding Workshops Area to highlight even more topics and provide more hands-on time.  **Only experience based presentations.** Speakers from product companies like Google, Intel, Amazon, and Twilio. We take talk selection seriously. Our program committee carefully screens each and every submission.  **Expo Area.** Smart home, IoT, AR/VR devices, face emotions recognition using Google Cloud. Interested? With the help of GDG groups from all around Ukraine, DevFest is going to feature the biggest Expo Area on Google related devices and technologies.  **Unique networking and party.** Network with other like-minded industry colleagues and DevFest partners throughout the event and after-party.  <div layout horizontal center-justified> <a href=\"https://2event.com/events/800690\" rel=\"noopener noreferrer\">   <paper-button primary>Buy ticket</paper-button> </a> </div>   ## Stay in touch  We've already got first confirmations from speakers from Google, Twilio and Telerik. Subscribe to [DevFest newsletter](https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe) or follow us on [Facebook](https://www.facebook.com/devfest.ukraine/), [Twitter](https://twitter.com/devfest_ukraine) and [Instagram](https://www.instagram.com/devfestukraine) not to miss new speakers announcements and conference updates.   <span><i> We can't wait to meet you in Lviv, the rising tech capital of Ukraine.</br> GDG DevFest Ukraine Team. </i></span>",
+      "image" : "/images/posts/dfua17-announced.jpg",
+      "published" : "2017-02-06",
       "source" : "/data/posts/2017-02-06-dfua17-announced.md",
       "title" : "Announcing GDG DevFest Ukraine 2017"
     },
@@ -40,12 +49,17 @@
   "gallery" : [
     "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4185.jpg?alt=media&token=ff3fd161-3d68-401a-90cd-74b90bd2a4d8",
     "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4411.jpg?alt=media&token=7fda0d66-a631-4816-bd85-b93ef49ed3a6",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4577.jpg?alt=media&token=f14205b5-be75-447c-8bca-73a15ca2df41"
+    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4577.jpg?alt=media&token=f14205b5-be75-447c-8bca-73a15ca2df41",
+    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4525.jpg?alt=media&token=0428f0e3-fda0-4119-8249-69f98e936ce5",
+    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4611.jpg?alt=media&token=b080143c-161c-4d9f-96f3-ebb6bdcdfd95",
+    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4720.jpg?alt=media&token=75de0c2d-8bd9-48bb-9117-1349c9bc381f",
+    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4646.jpg?alt=media&token=eafb0320-6f21-47bc-8ba4-8eec708f2076",
+    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_5294.jpg?alt=media&token=72ab5141-d21b-4e71-a58b-faa2b00d1d02"
   ],
   "notifications" : {
     "config" : {
       "icon" : "",
-      "timezone" : "-07:00"
+      "timezone" : "+03:00"
     },
     "messages" : { },
     "subscribers" : { },
@@ -121,350 +135,328 @@
     "order" : 1,
     "title" : "General Partner"
   } ],
-  
   "schedule" : {
-    "2018-11-03" : {
-      "dateReadable" : "November 03",
-      "timeslots" : [
-         {
+    "2016-09-09" : {
+      "dateReadable" : "September 9",
+      "timeslots" : [ {
+        "endTime" : "10:00",
+        "sessions" : [ {
+          "items" : [ 132 ]
+        } ],
+        "startTime" : "09:00"
+      }, {
         "endTime" : "10:15",
         "sessions" : [ {
-          "items" : [ 100 ]
+          "items" : [ 136 ]
         } ],
         "startTime" : "10:00"
       }, {
-        "endTime" : "10:30",
+        "endTime" : "11:00",
         "sessions" : [ {
-          "items" : [ 105 ]
+          "items" : [ 139 ]
         } ],
         "startTime" : "10:15"
       }, {
-        "endTime" : "11:00",
+        "endTime" : "11:40",
         "sessions" : [ {
-          "items" : [ 110 ]
-        } ],
-        "startTime" : "10:30"
-      }, 
-      {
-        "endTime" : "13:30",
-        "sessions" : [ 
-          {
-            "items" : [ 115 ]
-          }, 
-          {
-            "extend" : 3,
-            "items" : [ 117 ]
-          }, 
-          {
-            "extend" : 3
-            ,
-            "items" : [ 119 ]
-          } 
-        ],
-        "startTime" : "11:05"
-      },
-      {
-        "endTime" : "11:45",
-        "sessions" : 
-        [ 
-          {
+          "items" : [ 103, 112 ]
+        }, {
           "items" : [ 120 ]
-          }  
-        ],
-        "startTime" : "11:35"
+        }, {
+          "extend" : 3,
+          "items" : [ 109 ]
+        } ],
+        "startTime" : "11:00"
       }, {
-        "endTime" : "13:00",
+        "endTime" : "12:30",
         "sessions" : [ {
-          "items" : [ 123 ]
+          "items" : [ 129 ]
+        }, {
+          "items" : [ 116 ]
         } ],
         "startTime" : "11:50"
-      },{
-        "endTime" : "13:00",
-        "sessions" : [ {
-          "items" : [ 125 ]
-        } ],
-        "startTime" : "12:00"
-      }, {
-        "endTime" : "13:20",
-        "sessions" : [ {
-          "items" : [ 130 ]
-        }, {
-          "extend" : 2,
-          "items" : [ 132 ]
-        },  {
-          "extend" : 2,
-          "items" : [ 119 ]
-        } ],
-        "startTime" : "13:00"
       }, {
         "endTime" : "14:00",
         "sessions" : [ {
-          "items" : [ 135 ]
+          "items" : [ 133 ]
         } ],
-        "startTime" : "13:25"
+        "startTime" : "12:30"
       }, {
-        "endTime" : "14:15",
+        "endTime" : "14:40",
         "sessions" : [ {
-          "items" : [ 140 ]
-        } ],
-        "startTime" : "14:00"
-      },
-
-      {
-        "endTime" : "14:45",
-        "sessions" : [ {
-          "items" : [ 145 ]
+          "items" : [ 101 ]
+        }, {
+          "items" : [ 118 ]
         }, {
           "extend" : 2,
-          "items" : [ 138 ]
-        },  {
-          "extend" : 2,
-          "items" : [ 119 ]
+          "items" : [ 107 ]
         } ],
-        "startTime" : "14:15"
-      },    
-      {
-        "endTime" : "15:00",
+        "startTime" : "14:00"
+      }, {
+        "endTime" : "15:30",
         "sessions" : [ {
-          "items" : [ 150 ]
+          "items" : [ 140 ]
+        }, {
+          "items" : [ 126 ]
         } ],
         "startTime" : "14:50"
-      }
-      , {
-        "endTime" : "15:40",
-        "sessions" : [ {
-          "items" : [ 155 ]
-        } ],
-        "startTime" : "15:05"
-      }
-      , {
-        "endTime" : "15:45",
-        "sessions" : [ {
-          "items" : [ 160 ]
-        } ],
-        "startTime" : "15:40"
-      }
-      , {
+      }, {
         "endTime" : "16:00",
         "sessions" : [ {
-          "items" : [ 165 ]
+          "items" : [ 134 ]
         } ],
-        "startTime" : "15:45"
-      }
-      , {
-        "endTime" : "16:15",
+        "startTime" : "15:30"
+      }, {
+        "endTime" : "16:40",
         "sessions" : [ {
-          "items" : [ 170 ]
+          "items" : [ 105 ]
+        }, {
+          "items" : [ 127 ]
+        }, {
+          "extend" : 3,
+          "items" : [ 119 ]
         } ],
         "startTime" : "16:00"
       }, {
-        "endTime" : "19:00",
+        "endTime" : "17:30",
         "sessions" : [ {
-          "items" : [ 175 ]
+          "items" : [ 112 ]
+        }, {
+          "items" : [ 111 ]
         } ],
-        "startTime" : "16:15"
-      }
-      , {
-        "endTime" : "19:30",
+        "startTime" : "16:50"
+      }, {
+        "endTime" : "18:20",
         "sessions" : [ {
-          "items" : [ 180 ]
+          "items" : [ 106 ]
+        }, {
+          "items" : [ 125 ]
         } ],
-        "startTime" : "17:30"
-      }
-    
-    ],
+        "startTime" : "17:40"
+      }, {
+        "endTime" : "22:30",
+        "sessions" : [ {
+          "items" : [ 137 ]
+        } ],
+        "startTime" : "18:30"
+      } ],
       "tracks" : [ {
-        "title" : "Riddell Library"
+        "title" : "Expo hall"
       }, {
-        "title" : "Classroomss"
+        "title" : "Conference hall"
       }, {
-        "title" : "Open Area"
+        "title" : "Workshops hall"
+      } ]
+    },
+    "2016-09-10" : {
+      "dateReadable" : "September 10",
+      "timeslots" : [ {
+        "endTime" : "10:10",
+        "sessions" : [ {
+          "items" : [ 135 ]
+        } ],
+        "startTime" : "09:30"
+      }, {
+        "endTime" : "10:50",
+        "sessions" : [ {
+          "items" : [ 114 ]
+        }, {
+          "items" : [ 117 ]
+        }, {
+          "items" : [ 121 ]
+        } ],
+        "startTime" : "10:10"
+      }, {
+        "endTime" : "11:40",
+        "sessions" : [ {
+          "items" : [ 122 ]
+        }, {
+          "items" : [ 113 ]
+        }, {
+          "extend" : 2,
+          "items" : [ 121 ]
+        } ],
+        "startTime" : "11:00"
+      }, {
+        "endTime" : "12:30",
+        "sessions" : [ {
+          "items" : [ 104 ]
+        }, {
+          "items" : [ 124 ]
+        } ],
+        "startTime" : "11:50"
+      }, {
+        "endTime" : "14:00",
+        "sessions" : [ {
+          "items" : [ 133 ]
+        } ],
+        "startTime" : "12:30"
+      }, {
+        "endTime" : "14:40",
+        "sessions" : [ {
+          "items" : [ 108 ]
+        }, {
+          "items" : [ 128 ]
+        }, {
+          "extend" : 2,
+          "items" : [ 102 ]
+        } ],
+        "startTime" : "14:00"
+      }, {
+        "endTime" : "15:30",
+        "sessions" : [ {
+          "items" : [ 110 ]
+        }, {
+          "items" : [ 123 ]
+        } ],
+        "startTime" : "14:50"
+      }, {
+        "endTime" : "16:00",
+        "sessions" : [ {
+          "items" : [ 134 ]
+        } ],
+        "startTime" : "15:30"
+      }, {
+        "endTime" : "16:40",
+        "sessions" : [ {
+          "items" : [ 131 ]
+        }, {
+          "items" : [ 140 ]
+        }, {
+          "extend" : 2,
+          "items" : [ 130 ]
+        } ],
+        "startTime" : "16:00"
+      }, {
+        "endTime" : "17:30",
+        "sessions" : [ {
+          "items" : [ 115 ]
+        }, {
+          "items" : [ 140 ]
+        } ],
+        "startTime" : "16:50"
+      } ],
+      "tracks" : [ {
+        "title" : "Expo hall"
+      }, {
+        "title" : "Conference hall"
+      }, {
+        "title" : "Workshops hall"
       } ]
     }
-  
-  }
-  ,
-
+  },
   "sessions" : {
-    "100" : {
-      "description" : "Welcome to DevFest!",
-      "icon" : "opening",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
-      "title" : "Doors Open"
+    "101" : {
+      "complexity" : "Beginner",
+      "description" : "In this session, we will take a look at Windows and .NET support on Google Cloud Platform. We will build a simple ASP.NET app, deploy to Google Compute Engine and take a look at some of the tools and APIs available to .NET developers on Google Cloud Platform. ",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/mete-atamel-windows-and-net-on-google-cloud-platform",
+      "speakers" : [ "mete_atamel", "adrian_kajda" ],
+      "tags" : [ "Cloud" ],
+      "title" : "Windows and .NET on Google Cloud Platform "
+    },
+    "102" : {
+      "complexity" : "Beginner",
+      "description" : "Do you remember the game Simon says from the 80s? I don’t know about you, but I know many that spent hours trying to press those specific sequences of red, green, blue and yellow buttons in the correct order. But why play on your own? We’ve implemented a gRPC server that allows you to play Simon with other players over the internet!\n\nIn this workshop we will dive into the toolset and libraries to build your very own Simon Says client for this server. We will have a message description in Protocol Buffers format and some stub code in several languages ready for you to play with. The goal for this workshop is for you to have a working client that you can use to play (and beat!) other attendees of the workshop.",
+      "language" : "English",
+      "speakers" : [ "mete_atamel" ],
+      "tags" : [ "Cloud" ],
+      "title" : "Hands-on gRPC experience building your own multiplayer game client"
+    },
+    "103" : {
+      "complexity" : "Intermediate",
+      "description" : "Doze mode is just around the corner. \nIntroduced in Marshmallow, as the shy guy that was allowed to step in only when your device went to sleep. ZzzZzzzz\nWith the new N release, Doze mode becomes the rockstar. He rushes into the room with a big shabang by shooting all background services and network requests that forgot to get away. \nHe should no longer be shy. He just shoots and dances on bones of your scheduled alarms, while you wonder why this particular task is no longer running.\nWith the new Doze mode, you require to adapt your app architecture to the new reality.\nOn this talk, we will learn how to survive Doze mode using Job Scheduler, Content Provider and stay in one piece.",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/yonatan-levin-knock-knock-whos-there-doze",
+      "speakers" : [ "yonatan_levin" ],
+      "tags" : [ "Android" ],
+      "title" : "Knock knock! Who's there? Doze."
+    },
+    "104" : {
+      "complexity" : "Beginner",
+      "description" : "It's no longer just about digitizing our environment. It’s rather about pervasive and ubiquitous computing. Almost all everyday things will turn into connected devices soon. This “Internet of Things” will allow the Web to be physically tangible. But what is the value, and how can one prevent IoT applications which just seem to be only more expensive and complicated than conventional solutions. Sascha will discuss the purpose and guide you through this complex topic showing inspiring solutions, tips from practice, and code samples in a variety of technologies from simple Bluetooth Eddystone Beacons to more sophisticated IoT platforms like Eclipse SmartHome.",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/sascha-wolter-the-physical-web-context-is-king",
+      "speakers" : [ "sascha_wolter" ],
+      "tags" : [ "Web" ],
+      "title" : "The Physical Web: Context is King!",
+      "videoId" : "fLfQNp75kbc"
     },
     "105" : {
-      "description" : "Welcome/Introduction Dean of MRU \n\rIntroduce KeyNote",
-      "icon" : "registration",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
-      "title" : "Welcome to DevFest!"
-    },
-    "110" : {
-      "description" : "Keynote",
-      "icon" : "light",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
-      "title" : "Opening Keynote:Let's Build What's Next with Google.",
-      "speakers" : [ "Cam_Crockett"]
-    },
-    "115" : {
-      "description" : "Using Google Cloud for Data Science Competitions",
-      "icon" : "coffee-break",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-      "title" : "Using Google Cloud for Data Science Competitions",
-      "speakers" : [ "Chris_Chen" ]
-    },
-    "117" : {
-      "description" : "Hands on Lab 1",
-      "icon" : "lab",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-      "title" : "Hands On Lab 1"
-    },
-    "119" : {
-      "description" : "Google Cloud Certification, \n\nWomen Techmakers,\n\nGoogle for Startups,\n\nGoogle Developer Experts,\n\nQwiklabs Setup Help!",
-      "icon" : "",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-      "title" : "Track 3"
-    },
-    "120" : {
-      "description" : "Built for Scale with GCP.",
-      "icon" : "light",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
-      "language" : "English",
-      "title" : "Lightning Talk 1",
-      "speakers":["Will_Zhang"]
-    }, "123" : {
-      "complexity" : "Beginner",
-      "description" : "From Zero to Dashboards: Driving Lightweigt Analytics",
-      "language" : "English",
-      "speakers" : [ "Stephen_King","Liam_Goguen" ],
-      "tags" : [ "" ],
-      "title" : "Lightning Talk 2"
-    },
-  
-    "125" : {
-      "complexity" : "",
-      "description" : "Lunch",
-      "language" : "English",
-      "presentation" : "",
-      "tags" : [ "Lunch" ],
-      "title" : "Lunch"
-    }, 
-    "130" : {
-      "complexity" : "Beginner",
-      "description" : "Pepper the Robot - GCPowering a 4-foot-tall humanoid robot",
-      "language" : "English",
-      "presentation" : "",
-      "speakers" : [ "Carille_Mendoza" ],
-      "tags" : [ "" ],
-      "title" : "Lightning Talk 3",
-      "videoId" : ""
-    },
-    "132" : {
-      "description" : "Lab 2!",
-      "icon" : "",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-      "title" : "Hands On Lab 2"
-    },    
-    "135" : {
       "complexity" : "Intermediate",
-      "description" : "Observables & Promises in Firebase, Oh My!",
-      "language" : "English",
-      "presentation" : "",
-      "speakers" : [ "Ben_Nakaska" ],
-      "tags" : [ "" ],
-      "title" : "Presentation 2"
-    },
-    "138" : {
-      "description" : "Lab 3!",
-      "icon" : "",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-      "title" : "Hands On Lab 3"
-    },
-    "140" : {
-      "complexity" : "Beginner",
-      "description" : "",
-      "icon" : "coffee-break",
-      "language" : "English",
-      "presentation" : "",
-      "speakers" : [ "" ],
-      "tags" : [ "" ],
-      "title" : "Break",
-      "videoId" : ""
-    },
-    "145" : {
-      "complexity" : "Intermediate",
-      "description" : "Building the future of Banking in the Cloud.",
-      "language" : "English",
-      "presentation" : "",
-      "speakers" : [ "Karin_Winia" ],
-      "tags" : [ "Cloud" ],
-      "title" : "Presentation 3",
-      "videoId" : ""
-    },
-    "150" : {
-      "complexity" : "Intermediate",
-      "description" : "App Maker + GSuite: My Journey to becoming a Google Developer Expert",
-      "language" : "English",
-      "presentation" : "",
-      "speakers" : [ "Cleo_Espiritu" ],
-      "tags" : [ "Cloud" ],
-      "title" : "Lightning Talk 4",
-      "videoId" : ""
-    },
-    "155" : {
-      "complexity" : "",
-      "description" : "",
-      "extend" : 2,
-      "language" : "English",
-      "speakers" : [ "" ],
-      "tags" : [ "" ],
-      "title" : "Closing Keynote"
-    },
-    "160" : {
-      "complexity" : "",
-      "description" : "",
-      "language" : "English",
-      "presentation" : "",
-      "speakers" : [ "Greg_Bennett" ],
-      "tags" : [ "" ],
-      "title" : "Closing Comments",
-      "videoId" : ""
-    },
-    "165" : {
-      "complexity" : "",
       "description" : "TBD",
       "language" : "English",
-      "presentation" : "",
-      "speakers" : [ "" ],
+      "presentation" : "https://speakerdeck.com/gdglviv/rustem-arzymbetov-intro-to-tensorflow",
+      "speakers" : [ "rustem_arzymbetov" ],
       "tags" : [ "Cloud" ],
-      "title" : "Giveaways"
+      "title" : "Intro to TensorFlow",
+      "videoId" : "e3cuSz1hEPs"
     },
-    "170" : {
-      "complexity" : "",
-      "description" : "",
+    "106" : {
+      "complexity" : "Beginner",
+      "description" : "Fuelio. Success story (I'll write more info later)",
       "language" : "English",
-      "presentation" : "",
-      "speakers" : [ "" ],
-      "tags" : [ "" ],
-      "title" : "Group photo"
+      "presentation" : "https://speakerdeck.com/gdglviv/adrian-kajda-fuelio-success-story",
+      "speakers" : [ "adrian_kajda" ],
+      "tags" : [ "Android" ],
+      "title" : "Fuelio. Success story",
+      "videoId" : "qK7ysoohsaM"
     },
-    "175" : {
-      "complexity" : "",
-      "description" : "",
+    "107" : {
+      "complexity" : "Beginner",
+      "description" : "There's been much discussion about Progressive Web Apps. They're still a relatively new model. In this talk, I'll summarise few options and techniques for getting started with your own Progressive Web App",
+      "extend" : 2,
       "language" : "English",
-      "presentation" : "",
-      "speakers" : [ "" ],
-      "tags" : [ "" ],
-      "title" : "Clean up"
+      "speakers" : [ "gerard_sans" ],
+      "tags" : [ "Web" ],
+      "title" : "Introduction to Progressive Web Apps in Angular 2"
     },
-    "180" : {
-      "complexity" : "",
-      "description" : "",
+    "108" : {
+      "complexity" : "Intermediate",
+      "description" : "Angular 2 introduces a new Data Architecture based on Reactive Programming using RxJS 5. We are really excited to see the new approach using Observable sequences aka Observables. We will cover a basic introduction of Angular 2 followed by RxJS 5 and the new HTTP API covering some basic use cases.",
       "language" : "English",
-      "speakers" : [ "" ],
-      "tags" : [ "" ],
-      "title" : "Cloud Drinks Location: TBD"
+      "presentation" : "https://speakerdeck.com/gdglviv/gerard-sans-new-data-architecture-in-angular-2",
+      "speakers" : [ "gerard_sans" ],
+      "tags" : [ "Web" ],
+      "title" : "New Data Architecture in Angular 2",
+      "videoId" : "pgmLkwD-mqM"
     },
-    "185" : {
+    "109" : {
+      "complexity" : "Beginner",
+      "description" : "TBD",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/jozef-vodicka-how-much-money-firebase-can-save-you",
+      "speakers" : [ "jozef_vodicka" ],
+      "tags" : [ "Cloud" ],
+      "title" : "How much money Firebase can save you"
+    },
+    "110" : {
+      "complexity" : "Intermediate",
+      "description" : "There's a lot of hype around MVP pattern in the Android world. Now it's time for concretes. During his presentation Mateusz will tell you how IG divided responsibilities between pattern's different components, how they tied Presenters' and Views' lifecycles and what they did to make it all testable. If you'd love to make your Fragments' and Activities' code simpler and increase your coverage, but you're confused how to glue it all together - don't miss Mateusz's talk.",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/mateusz-herych-the-ultimate-guide-to-mvp-pattern-on-android",
+      "speakers" : [ "mateusz_herych" ],
+      "tags" : [ "Android" ],
+      "title" : "The ultimate guide to MVP pattern on Android"
+    },
+    "111" : {
+      "complexity" : "Intermediate",
+      "description" : "It's beauty, it's handy, it's fast, it's easy - all about Dagger 2",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/kseniia-shumelchyk-building-modular-architecture-apps-with-dagger-2",
+      "speakers" : [ "david_mayboroda" ],
+      "tags" : [ "Android" ],
+      "title" : "Building modular architecture apps with Dagger 2"
+    },
+    "112" : {
+      "complexity" : "Intermediate",
+      "description" : "Last year brought a lot of new capabilities to browsers, fundamentally changing the way we will build web apps in 2016. 60FPS, push messages, offline support and background sync became a reality marking the birth of Progressive Web Apps.",
+      "language" : "English",
+      "speakers" : [ "konrad_dzwinel" ],
+      "tags" : [ "Web" ],
+      "title" : "Building web apps in 2016"
+    },
+    "113" : {
       "complexity" : "Intermediate",
       "description" : "Microservices is coming with a certain workload and constraints. Let's try to see how Google Cloud Platform and App Engine can help the overall microservices implementation.",
       "language" : "English",
@@ -473,7 +465,7 @@
       "tags" : [ "Cloud" ],
       "title" : "Microservices in Google App Engine"
     },
-    "190" : {
+    "114" : {
       "complexity" : "Intermediate",
       "description" : "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful—and underrated—account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
       "language" : "English",
@@ -481,7 +473,7 @@
       "tags" : [ "Android" ],
       "title" : "I’ve been doing some syncing…"
     },
-    "195" : {
+    "115" : {
       "complexity" : "Beginner",
       "description" : "Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll see how many awesome tricks are needed to make our apps start fast and run smoothly on modern Android devices. Hopefully we'll also answer the most important question -- what's next for Android after Java.",
       "language" : "English",
@@ -489,9 +481,9 @@
       "speakers" : [ "paul_lammertsma" ],
       "tags" : [ "Android" ],
       "title" : "Android tool-chain and run-time improvements in N",
-      "videoId" : ""
+      "videoId" : "WqULb6bdwwg"
     },
-    "200" : {
+    "116" : {
       "complexity" : "Beginner",
       "description" : "One of my favourite things about the web are ASCII smileys. They're sweet, fun and simply make the web a better place. How could anyone not like them ¯(ツ)/¯?\n\nThis talk is an overdose of smileys, because they're the perfect excuse to get started with Polymer. Polymer is a library built on top of the Web Components standards that helps developers create reusable components for the modern web. And since I know that everybody has been wondering how one could take over the world by creating a suite of Polymer animated emoticon components, we're going to do exactly that.",
       "language" : "English",
@@ -537,126 +529,251 @@
       "tags" : [ "Web" ],
       "title" : "Progressive web apps - prepare your web for 2017"
     },
-    "210" : {
+    "121" : {
+      "complexity" : "Intermediate",
+      "description" : "Using service workers and other modern progressive web apps capabilities we can update our web applications to be offline-fires. In this session we'll show how to easily convert your applications be usable without the internet connection.",
+      "language" : "English",
+      "speakers" : [ "jana_moudra" ],
+      "tags" : [ "Web" ],
+      "title" : "Offline-first progressive web apps"
+    },
+    "122" : {
+      "complexity" : "Intermediate",
+      "description" : "I would like to talk about architecture of our Settle Up app. It's all based on new Firebase announced on I/O with the help of modern frameworks like Rx, Kotlin and MVP.",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/david-vavra-firebase-plus-kotlin-plus-rxjava-plus-mvp-practical-tips",
+      "speakers" : [ "jakub_škvára" ],
+      "tags" : [ "Android" ],
+      "title" : "Firebase + Kotlin + RxJava + MVP: Practical Tips",
+      "videoId" : "b9NgjqM6dvk"
+    },
+    "123" : {
+      "complexity" : "Beginner",
+      "description" : "TBD",
+      "language" : "English",
+      "speakers" : [ "david_vávra" ],
+      "tags" : [ "Web" ],
+      "title" : "TBD"
+    },
+    "124" : {
+      "complexity" : "Intermediate",
+      "description" : "You are tired of building every patch for your QA ? Still deploying to google play manually ? You still think that build server is something that you don't need ? Than I will try to show you how you can make life of your team easier with CI.",
+      "language" : "English",
+      "speakers" : [ "valentyn_shybanov" ],
+      "tags" : [ "Android" ],
+      "title" : "Continues Integration in Android",
+      "videoId" : "MmGDQkgknfY"
+    },
+    "125" : {
+      "complexity" : "Intermediate",
+      "description" : "TBD",
+      "language" : "English",
+      "speakers" : [ "sergiy_mokienko" ],
+      "tags" : [ "Cloud" ],
+      "title" : "Kubernetes in a real world"
+    },
+    "126" : {
+      "complexity" : "Intermediate",
+      "description" : "Imagine the world where you can get any application, look into its code (even if it is not open sourced) and modify any conditional operator in any way you like. Welcome, you are in the Android applications world! Let's discover how anyone can decompile your app and, for example, hack your 'if' operators. For the beginning, we will play a role of a script kiddie and try to hack some simple app. After this, we will pretend security-conscious Android developers and try to think how we can protect ourselves.",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/michael-pustovit-android-hacking-for-dummies-if-operator-demolytion",
+      "speakers" : [ "ihor_dvoretskyi" ],
+      "tags" : [ "Android" ],
+      "title" : "Android hacking for dummies: ‘if’ operator demolytion",
+      "videoId" : "We04nyIIsA0"
+    },
+    "127" : {
+      "complexity" : "Intermediate",
+      "description" : "If you have any experience with Android Media Player, you definitely know how hard it is to prepare it and do not lose your mind. ExoPlayer - is an alternative, which can help you deal with media with much less pain. So lets discuss if it really a \"silver bullet\" or yet another State Machine hell.",
+      "language" : "Ukrainian",
+      "presentation" : "https://speakerdeck.com/gdglviv/anton-minashkin-exoplayer-media-playback-without-pain-almost-dot-dot-dot",
+      "speakers" : [ "michael_pustovit" ],
+      "tags" : [ "Android" ],
+      "title" : "ExoPlayer: Media playback without pain (almost...)"
+    },
+    "128" : {
+      "complexity" : "Beginner",
+      "description" : "Google announced Android Wear 2.0 become available this Fall. This major update brings some revolutionary changes in platform, that should change our approaches in developing wearable apps, including freedom of BLE tethering, system support for complications and activity recognition by GoogleFit, developed mainly for Android Wear 2.0. We will talk deeper about these new features and look at some ways to implement them in the code.",
+      "language" : "English",
+      "speakers" : [ "anton__minashkin" ],
+      "tags" : [ "Android" ],
+      "title" : "Android Wear 2.0: Great Changes Upcoming this Fall"
+    },
+    "129" : {
+      "complexity" : "Intermediate",
+      "description" : "Accessibility is a very important step to make sure that your app reaches everyone in an easy and fun way to use. \nGood accessibility support means much more than just making sure the app supports screen readers, different fonts sizes and good contrast ratios. It is a learning process, and one in which we ourselves still have much to learn and explore. ",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/resul-caner-yildirim-accessibility-on-android",
+      "speakers" : [ "constantine_mars" ],
+      "tags" : [ "Android" ],
+      "title" : "Accessibility on Android"
+    },
+    "130" : {
+      "complexity" : "Intermediate",
+      "description" : "Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch, we finally get the whole picture of the entire list of products and their features. Now, we can talk about how we can design a user experience for this type of devices.\nEvery platform has it's own design principles and approaches. But, in the core, they all need to follow same core rules. So, how we combine this core requirements with Google's Material Design and use them on an Android Wear device? Let's learn!",
+      "language" : "English",
+      "speakers" : [ "constantine_mars" ],
+      "tags" : [ "Android" ],
+      "title" : "Designing an Android Wear Application"
+    },
+    "131" : {
+      "complexity" : "Intermediate",
+      "description" : "In this talk, I will reveal you all the deepest secrets of using MVVM architecture in Android. \nWe will discuss on how to organise your application, views, models, how to retrieve data from the model requested from the view via data binding. \nLightweight Activities and Fragments, is it even possible? \n\nYes, and I will show you how to achieve this with MVVM and DataBinding!",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/roman-herasymenko-deal-with-it-android-databinding-explained",
+      "speakers" : [ "resul_caner__yildirim" ],
+      "tags" : [ "Android" ],
+      "title" : "Deal with it: Android DataBinding explained"
+    },
+    "132" : {
+      "description" : "Get your badge, coffee, enjoy talking with tech edicts around",
+      "icon" : "registration",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
+      "title" : "Registration & morning Coffee"
+    },
+    "133" : {
+      "description" : "Foooooooood!",
+      "icon" : "lunch",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
+      "title" : "Lunch"
+    },
+    "134" : {
+      "description" : "Coffeeeeeee!",
+      "icon" : "coffee-break",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
+      "title" : "Coffee break"
+    },
+    "135" : {
+      "description" : "Coffeeeeeee!",
+      "icon" : "coffee-break",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title" : "Morning coffee"
+    },
+    "136" : {
+      "description" : "Official start of the conference. Greetings from the organizers, sponsors and partners.",
+      "icon" : "opening",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
+      "language" : "English",
+      "title" : "GDG DevFest Ukraine 2016 Opening"
+    },
+    "137" : {
+      "description" : "Afterparty is a great time to have some fun and meet new people",
+      "icon" : "party",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fparty.jpg?alt=media&token=8e413f01-373a-40bf-bb87-1dcf1d8e6af1",
+      "title" : "Afterparty & Networking"
+    },
+    "138" : {
       "description" : "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
       "title" : "Conference closing and contest winners announcements"
     },
-    "215" : {
+    "139" : {
       "description" : "",
       "language" : "English",
       "title" : "Keynote"
     },
-    "220" : {
+    "140" : {
       "description" : "TBD",
       "language" : "English",
       "title" : "TBD"
     }
   },
   "speakers" : {
-    "Mos_Saleh" : {
-      "bio" : "Google Cloud Architect, currently works at VistaVU. Full Stack Developer. All my free time I spend on learning Flutter and Kotlin!",
-      "company" : "VistaVu",
-      "companyLogo" : "https://devfest-yyc.firebaseapp.com/images/logos/01_Logo.svg",
-      "companyLogoUrl" : "https://devfest-yyc.firebaseapp.com/images/logos/01_Logo.svg",
-      "country" : "Calgary, Canada",
+    "adrian_kajda" : {
+      "bio" : "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.",
+      "company" : "Sygic",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+      "country" : "Creator of Fuelio app. Fuelio blah blah, Poland",
       "featured" : true,
-      "name" : "Mos Saleh",
-      "photo" : "/images/people/mos.saleh.png",
-      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/mos.saleh.png",
-      "shortBio" : "Full Stack developer, currently works at VistaVu. Have experience in both server and mobile side develo...",
-      "socials" : [{
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/fermisk/",
-        "name" : "LinkedIn"
+      "name" : "Adrian Kajda",
+      "photo" : "/images/people/adrian_kajda.jpg",
+      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/adrian_kajda.jpg",
+      "shortBio" : "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app wa...",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "plus.google.com/+AdrianKajda",
+        "name" : "Google+"
       } ],
       "order" : 0,
       "title" : "Product Manager/Developer"
     },
-    "Will_Zhang" : {
-      "bio" : "13 Years of experience in managing and delivering advanced analytics solutions in the fields of AI, Software Engineering and Operations Research across various industries including accounting, finance, telecom and energy sectors Co-Founder & CEO of OpenHouse.AI - a Calgary AI startup in Real-Estate Industry. Formerly VP of Engineering for an AI startup in Accounting Industry and the Head of Software Engineering and Architecture for a 1.6B Oil & Gas company Lead architect of a major Canadian telecom company and Europe's largest mobile company, delivered various highly scalable data collection system in many countries collecting millions of data points every day. Lead engineer of  a large hedge fund company in Europe and delivered a high-frequency trading system for foreign exchange and trading coverage.",
-      "company" : "Widespread",
-      "companyLogo" : "/images/logos/openai.svg",
-      "companyLogoUrl" : "",
-      "country" : "Canada",
+    "aleksander_piotrowski" : {
+      "bio" : "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)",
+      "company" : "Applause",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+      "country" : "Warsaw, Poland",
       "featured" : false,
-      "name" : "Will Zhang",
-      "photo" : "/images/people/will.zhang.jpg",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/will.zhang.jpg",
-      "shortBio" : "13 Years of experience in managing and delivering advanced analytics solutions in the fields of AI, Software Engineering and Operations Research across various industries including accounting, finance, telecom and energy sectors Co-Founder & CEO of OpenHouse.AI - a Calgary AI startup in Real-Estate Industry. Formerly VP of Engineering for an AI startup in Accounting Industry and the Head of Software Engineering and Architecture for a 1.6B Oil & Gas company Lead architect of a major Canadian telecom company and Europe's largest mobile company, delivered various highly scalable data collection system in many countries collecting millions of data points every day. Lead engineer of  a large hedge fund company in Europe and delivered a high-frequency trading system for foreign exchange and trading coverage.",
+      "name" : "Aleksander Piotrowski",
+      "photo" : "/images/people/aleksander_piotrowski.jpg",
+      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/aleksander_piotrowski.jpg",
+      "shortBio" : "Became a mobile developer after long run as a backend developer. Because of age, holding senior p...",
       "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/wyhzhang/",
-        "name" : "Google+"
-      }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/openhouseai",
+        "link" : "https://twitter.com/pelotasplus",
         "name" : "Twitter"
-      },
-       {
-        "icon" : "google+",
-        "link" : "https://plus.google.com/discover",
+      }, {
+        "icon" : "facebook",
+        "link" : "http://facebook.com/pelotasplus",
+        "name" : "Facebook"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/pelotasplus",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://www.instagram.com/pelotasplus/",
         "name" : "Google+"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/willzhang",
-        "name" : "Github"
       } ],
       "order" : 1,
       "title" : "Code Monkey"
     },
-    "Stephen_King" : {
-      "bio" : "Stephen is the CEO of CMO4Hire, a digital brand marketing firm for B2B companies that drives triple-digit growth and reduces go-to-market complexity. He is also the Chairman and a co-Founder of A100 (www.thea100.org), an organization which aims to inspire and support generations of Alberta tech entrepreneurs. With a computer science degree and 30+ year career in software development & commercialization, Stephen has written over a million lines of code and sold more than $500M in software. He's been a startup founder and a CMO &  Director for large international firms. More information about his company and unique MarTech software solution can be found here: https://www.cmo4hire.com/  and  https://www.dbmms.io/. Stephen's also an accomplished guitarist and musician (https://www.reverbnation.com/stephenking)  Connect with him at https://www.linkedin.com/in/stephenking13/ ",
-      "company" : "Widespread",
-      "companyLogo" : "https://www.cmo4hire.com",
-      "companyLogoUrl" : "",
-      "country" : "Canada",
+    "anton__minashkin" : {
+      "bio" : "Android developer, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars.",
+      "company" : "EPAM",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+      "country" : "Lviv, Ukraine",
       "featured" : false,
-      "name" : "Stephen King",
-      "photo" : "/images/people/stephen.king.jpg",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/stephen.king.jpg",
-      "shortBio" : "Stephen is the CEO of CMO4Hire, a digital brand marketing firm for B2B companies that drives triple-digit growth and reduces go-to-market complexity. He is also the Chairman and a co-Founder of A100 (www.thea100.org), an organization which aims to inspire and support generations of Alberta tech entrepreneurs. With a computer science degree and 30+ year career in software development & commercialization, Stephen has written over a million lines of code and sold more than $500M in software. He's been a startup founder and a CMO &  Director for large international firms. More information about his company and unique MarTech software solution can be found here: https://www.cmo4hire.com/  and  https://www.dbmms.io/. Stephen's also an accomplished guitarist and musician (https://www.reverbnation.com/stephenking)  Connect with him at https://www.linkedin.com/in/stephenking13/ ",
+      "name" : "Anton  Minashkin",
+      "photo" : "/images/people/anton_minashkin.jpg",
+      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/anton_minashkin.jpg",
+      "shortBio" : "Android developer, currently works at EPAM. Have experience in both server and mobile side develo...",
       "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/stephenking13/",
-        "name" : "Google+"
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/anton.minashkin.1",
+        "name" : "Facebook"
       }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/stephdokin",
+        "link" : "https://twitter.com/AntonMinashkin",
         "name" : "Twitter"
-      },
-       {
-        "icon" : "google+",
-        "link" : "https://plus.google.com/+Stephdokin/posts",
-        "name" : "Google+"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/Stephdokin",
-        "name" : "Github"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://ua.linkedin.com/in/anton-minashkin-606a1b4b",
+        "name" : "LinkedIn"
       } ],
       "order" : 2,
       "title" : "Lead Software Developer"
     },
-    "Liam_Goguen" : {
-      "bio" : "I have been with CMO4Hire since May 2017. Within my role as the data scientist at the company, I have worked to optimize certain processes we use to serve clients and helped develop our data tracking, reporting and forecasting infrastructure, DBMMS.io, CMO4Hire's agile marketing platform. Previously, I worked approximately six years in financial advisory and equity research roles in Calgary. My skillset includes data trend analysis/forecasting, financial modeling/analysis/valuations, industry/company research, database creation/maintenance/optimization, analyzing financing proposals and key commercial agreements and financial due diligence. I have a Bachelor of Business Administration degree with a concentration in Finance from the Williams School of Business at Bishop's University, Quebec.",
+    "carmen_popovicu" : {
+      "bio" : "Carmen is a front-end engineer and a #1 fan of dev communities. She loves Angular but has since recently developed feelings for Polymer too. She strongly believes that adding at least one ASCII smiley in your emails will make the world a better place and hopes to one day make a difference for the web with the code she writes. If she had super powers, she would smiley all the things.",
       "company" : "Widespread",
-      "companyLogo" : "https://www.cmo4hire.com",
-      "companyLogoUrl" : "",
-      "country" : "Canada",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+      "country" : "Cluj-Napoca, Romania",
       "featured" : false,
-      "name" : "Liam Goguen",
-      "photo" : "/images/people/liam.goguen.jpg",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/liam.goguen.jpg",
-      "shortBio" : "I have been with CMO4Hire since May 2017. Within my role as the data scientist at the company, I have worked to optimize certain processes we use to serve clients and helped develop our data tracking, reporting and forecasting infrastructure, DBMMS.io, CMO4Hire's agile marketing platform. Previously, I worked approximately six years in financial advisory and equity research roles in Calgary. My skillset includes data trend analysis/forecasting, financial modeling/analysis/valuations, industry/company research, database creation/maintenance/optimization, analyzing financing proposals and key commercial agreements and financial due diligence. I have a Bachelor of Business Administration degree with a concentration in Finance from the Williams School of Business at Bishop's University, Quebec.",
+      "name" : "Carmen Popovicu",
+      "photo" : "/images/people/carmen_popovicu.jpg",
+      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/carmen_popovicu.jpg",
+      "shortBio" : "Angular JS committer. Founder of Dutch Angular JS Community, co-organizer of NG-NL.",
       "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/liam-goguen/",
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/118143942632321563925/",
         "name" : "Google+"
       }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/ElPeeEmGee",
+        "link" : "https://twitter.com/CarmenPopoviciu",
         "name" : "Twitter"
       } ],
       "order" : 3,
@@ -682,351 +799,101 @@
         "icon" : "gplus",
         "link" : "https://plus.google.com/+ConstantineMars",
         "name" : "Google+"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/swan89",
-        "name" : "Github"
       } ],
       "order" : 4,
       "title" : "Senior Android Developer"
     },
-    "Greg_Bennett" : {
-      "bio" : "",
-      "company" : "Widespread",
-      "companyLogo" : "https://www.cmo4hire.com",
-      "companyLogoUrl" : "",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Greg Bennett",
-      "photo" : "/images/people/greg.bennett.png",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/greg.bennett.png",
-      "shortBio" : "",
+    "david_mayboroda" : {
+      "bio" : "Ex-Yandex emploee, currently Android Engineer at SoftServe.",
+      "company" : "SoftServe",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+      "country" : "Kyiv, Ukraine",
+      "featured" : false,
+      "name" : "David Mayboroda",
+      "photo" : "/images/people/david_mayboroda.jpg",
+      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/david_mayboroda.jpg",
+      "shortBio" : "Ex Yandex emproyee. Android enthusiast.",
       "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/gregbennettio/",
-        "name" : "Google+"
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/profile.php?id=100008474898785",
+        "name" : "Facebook"
       }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/recrdx",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "google+",
-        "link" : "",
-        "name" : "Google+"
-      },
-       {
         "icon" : "github",
-        "link" : "https://github.com/gregbennettio",
-        "name" : "Github"
+        "link" : "https://github.com/dmayboroda",
+        "name" : "GitHub"
       } ],
       "order" : 5,
       "title" : "Android Engineer"
     },
-    "Suryatapa_Roy" : {
-      "bio" : "Recently graduated research assistant working on Artificial Intelligence (AI) for Virtual Reality (VR). Works as a Technology Coach and Unity Instructor/Developer. Passionate about developing  futuristic applications for the present.",
-      "company" : "",
-      "companyLogo" : "https://www.https://simplestepstech.wordpress.com/",
-      "companyLogoUrl" : "",
-      "country" : "Canada",
+    "david_vávra" : {
+      "badges" : [ {
+        "description" : "Android Google Developer Expert",
+        "link" : "https://developers.google.com/experts/people/david-v-vra.html",
+        "name" : "gde"
+      } ],
+      "bio" : "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
+      "company" : "Step Up Labs",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+      "country" : "Prague, Czech Republic",
       "featured" : true,
-      "name" : "Suryatapa Roy",
-      "photo" : "/images/people/Suryatapa.roy.png",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/suryatapa.roy.png",
-      "shortBio" : "Recently graduated research assistant working on Artificial Intelligence (AI) for Virtual Reality (VR). Works as a Technology Coach and Unity Instructor/Developer. Passionate about developing  futuristic applications for the present.",
+      "name" : "David Vávra",
+      "photo" : "/images/people/david_vavra.jpg",
+      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/david_vavra.jpg",
+      "shortBio" : "Founder and CEO of Step Up Labs. Android GDE.",
       "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/suryataparoy/",
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+DavidVávra",
         "name" : "Google+"
       }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/suryatapa",
+        "link" : "https://twitter.com/vavradav",
         "name" : "Twitter"
-      },
-       {
-        "icon" : "google+",
-        "link" : "",
-        "name" : "Google+"
-      },
-       {
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/dvavra",
+        "name" : "LinkedIn"
+      }, {
         "icon" : "github",
-        "link" : "https://github.com/suryatapavi",
-        "name" : "Github"
+        "link" : "https://github.com/davidvavra",
+        "name" : "GitHub"
       } ],
       "order" : 6,
       "title" : "Founder/CEO/Android Lead"
     },
-    "Karin_Winia" : {
-      "bio" : "IT professional with over 15+ years experience in the industry.  I started out as a Java developer after graduating from the University of Alberta.  I moved into the application integration space after joining ATB and haven't looked back since.  I am now overseeing building out a Digital Platform in the Cloud that will allow ATB to be a leader in technology solutions for Banking.",
-      "company" : "",
-      "companyLogo" : "https://www.https://simplestepstech.wordpress.com/",
-      "companyLogoUrl" : "",
-      "country" : "Canada",
+    "dmytro_danylyk" : {
+      "badges" : [ {
+        "description" : "Android Google Developer Expert",
+        "link" : "https://developers.google.com/experts/people/dmytro-danylyk",
+        "name" : "gde"
+      }, {
+        "description" : "Google Developers Group Lviv",
+        "link" : "https://developers.google.com/groups/chapter/102444623953913144164/",
+        "name" : "gdg"
+      } ],
+      "bio" : "Dmytro is a developer, writer, speaker. He live in Lviv - a quaint and beautiful city. He is passionate about android and flat design. Currently Dmytro works for a startup Timee where he develop Android application and he love what he do.",
+      "company" : "Timee",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+      "country" : "Lviv, Ukraine",
       "featured" : false,
-      "name" : "Karin Winia",
-      "photo" : "/images/people/karin.winia.png",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/karin.winia.png",
-      "shortBio" : "IT professional with over 15+ years experience in the industry.  I started out as a Java developer after graduating from the University of Alberta.  I moved into the application integration space after joining ATB and haven't looked back since.  I am now overseeing building out a Digital Platform in the Cloud that will allow ATB to be a leader in technology solutions for Banking.",
+      "name" : "Dmytro Danylyk",
+      "photo" : "/images/people/dmytro_danylyk.jpg",
+      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/dmytro_danylyk.jpg",
+      "shortBio" : "First Android GDE in Ukraine. Frequent speaker on tech conferences.",
       "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/karin-winia-6224b7/",
-        "name" : "Google+"
+        "icon" : "website",
+        "link" : "http://www.dmytrodanylyk.com",
+        "name" : "Website"
       }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/atbfinancial",
+        "link" : "https://twitter.com/dmytrodanylyk",
         "name" : "Twitter"
-      },
-       {
-        "icon" : "google+",
-        "link" : "",
-        "name" : "Google+"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/",
-        "name" : "Github"
-      } ],
-      "title" : ""
-   },
-   "Cam_Crockett" : {
-    "bio" : "I started as a developer in Calgary working for a few different companies where I not only got to improve my development skills across a variety of industries but  was also part of teams implementing DevOps and Agile processes within the enterprise. I've spent time as a Solution Architect and the last year at Google as part of their Customer Engineering team where I get to spend time working with customers building out cool solutions on top of Google's Cloud Platform.",
-    "company" : "",
-    "companyLogo" : "http://www.google.com",
-    "companyLogoUrl" : "",
-    "country" : "Canada",
-    "featured" : true,
-    "name" : "Cam Crockett",
-    "photo" : "/images/people/cam.crockett.png",
-    "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/cam.crockett.png",
-    "shortBio" : "I started as a developer in Calgary working for a few different companies where I not only got to improve my development skills across a variety of industries but  was also part of teams implementing DevOps and Agile processes within the enterprise. I've spent time as a Solution Architect and the last year at Google as part of their Customer Engineering team where I get to spend time working with customers building out cool solutions on top of Google's Cloud Platform.",
-    "socials" : [ {
-      "icon" : "linkedin",
-      "link" : "https://www.linkedin.com/in/camcrockett/",
-      "name" : "Google+"
-    }, {
-      "icon" : "twitter",
-      "link" : "https://twitter.com/camcrocket",
-      "name" : "Twitter"
-    },
-     {
-      "icon" : "google+",
-      "link" : "",
-      "name" : "Google+"
-    },
-     {
-      "icon" : "github",
-      "link" : "https://github.com/camcrockett/",
-      "name" : "Github"
-    } ],
-    "title" : ""
-  }
-, "Chris_Chen" : {
-  "bio" : "",
-  "company" : "",
-  "companyLogo" : "http://www.google.com",
-  "companyLogoUrl" : "",
-  "country" : "Canada",
-  "featured" : true,
-  "name" : "Chris Chen",
-  "photo" : "/images/people/google.gcp.png",
-  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/google.gcp.png",
-  "shortBio" : "",
-  "socials" : [ {
-    "icon" : "linkedin",
-    "link" : "https://www.linkedin.com/",
-    "name" : "Google+"
-  }, {
-    "icon" : "twitter",
-    "link" : "https://twitter.com/",
-    "name" : "Twitter"
-  },
-   {
-    "icon" : "google+",
-    "link" : "",
-    "name" : "Google+"
-  },
-   {
-    "icon" : "github",
-    "link" : "https://github.com/",
-    "name" : "Github"
-  } ],
-  "title" : ""
-},"Carille_Mendoza" : {
-  "bio" : "",
-  "company" : "",
-  "companyLogo" : "http://www.google.com",
-  "companyLogoUrl" : "",
-  "country" : "Canada",
-  "featured" : true,
-  "name" : "Carille Mendoza",
-  "photo" : "/images/people/Carille.Mendoza.jpg",
-  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Carille.Mendoza.jpg",
-  "shortBio" : "",
-  "socials" : [ {
-    "icon" : "linkedin",
-    "link" : "https://www.linkedin.com/",
-    "name" : "Google+"
-  }, {
-    "icon" : "twitter",
-    "link" : "https://twitter.com/",
-    "name" : "Twitter"
-  },
-   {
-    "icon" : "google+",
-    "link" : "",
-    "name" : "Google+"
-  },
-   {
-    "icon" : "github",
-    "link" : "https://github.com/",
-    "name" : "Github"
-  } ],
-  "title" : ""
-},"Ben_Nakaska" : {
-  "bio" : "",
-  "company" : "",
-  "companyLogo" : "http://www.google.com",
-  "companyLogoUrl" : "",
-  "country" : "Canada",
-  "featured" : true,
-  "name" : "Ben Nakaska",
-  "photo" : "/images/people/Ben.Nakaska.jpg",
-  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Ben.Nakaska.jpg",
-  "shortBio" : "",
-  "socials" : [ {
-    "icon" : "linkedin",
-    "link" : "https://www.linkedin.com/",
-    "name" : "Google+"
-  }, {
-    "icon" : "twitter",
-    "link" : "https://twitter.com/",
-    "name" : "Twitter"
-  },
-   {
-    "icon" : "google+",
-    "link" : "",
-    "name" : "Google+"
-  },
-   {
-    "icon" : "github",
-    "link" : "https://github.com/",
-    "name" : "Github"
-  } ],
-  "title" : ""
-},"Cleo_Espiritu" : {
-  "bio" : "",
-  "company" : "",
-  "companyLogo" : "http://www.google.com",
-  "companyLogoUrl" : "",
-  "country" : "Canada",
-  "featured" : true,
-  "name" : "Cleo Espiritu",
-  "photo" : "/images/people/Cleo.Espiritu.png",
-  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Cleo.Espiritu.png",
-  "shortBio" : "",
-  "socials" : [ {
-    "icon" : "linkedin",
-    "link" : "https://www.linkedin.com/",
-    "name" : "Google+"
-  }, {
-    "icon" : "twitter",
-    "link" : "https://twitter.com/",
-    "name" : "Twitter"
-  },
-   {
-    "icon" : "google+",
-    "link" : "",
-    "name" : "Google+"
-  },
-   {
-    "icon" : "github",
-    "link" : "https://github.com/",
-    "name" : "Github"
-  } ],
-  "title" : ""
-}
-
-
-
-
-
-  },
-  "team" : [
-    {
-    "members" : [
-    {
-      "name" : "Greg Bennett",
-      "photo" : "/images/people/greg.bennett.png",
-      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/greg.bennett.png",
-      "socials" : [ {
-      "icon" : "linkedin",
-      "link" : "https://www.linkedin.com/in/gregbennettio/",
-      "name" : "Linkedin+"
-      }, { 
-      "icon" : "gplus",
-      "link" : "https://plus.google.com/113957084984388645066",
-      "name" : "Google+"
-      },{
-      "icon" : "facebook",
-      "link" : "https://www.facebook.com/recrdx",
-      "name" : "Facebook"
       }, {
-      "icon" : "twitter",
-      "link" : "https://twitter.com/recrdx",
-      "name" : "Twitter"
-      },{
-      "icon" : "website",
-      "link" : "https://www.gregbennett.io",
-      "name" : "Blog"
-      } ],
-      "title" : "Founder and Program Manager"
-      },
-    {
-      "name" : "Mos Saleh",
-      "photo" : "/images/people/mos.saleh.png",
-      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/mos.saleh.png",
-      "socials" : [ {
-      "icon" : "linkedin",
-      "link" : "https://www.linkedin.com/in/fermisk/",
-      "name" : "Linkedin"
-      },{
-      "icon" : "gplus",
-      "link" : "https://plus.google.com/u/0/111210719993935219678",
-      "name" : "Google+"
-      },{
-      "icon" : "twitter",
-      "link" : "https://twitter.com/gdgcloudyyc",
-      "name" : "Twitter"
-      }, {
-      "icon" : "website",
-      "link" : "https://www.gdgcloudcalgary.com/",
-      "name" : "Blog"
-      }
-     ],
-      "title" : "Cloud Architect and Full Stack Developer"
-      },
-    {
-      "name" : "Mike Hoff",
-      "photo" : "/images/people/mike.hoff.png",
-      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/mike.hoff.png",
-      "socials" : [ {
-      "icon" : "linkedin",
-      "link" : "https://www.linkedin.com/in/mikehoff321/",
-      "name" : "Linkedin"
-      },{ 
         "icon" : "gplus",
-        "link" : "https://plus.google.com/u/0/111727949510542626222",
+        "link" : "https://plus.google.com/+DmytroDanylyk",
         "name" : "Google+"
-        },
-      {
-      "icon" : "twitter",
-      "link" : "https://twitter.com/gdgcloudyyc",
-      "name" : "Twitter"
-      }, {
-      "icon" : "website",
-      "link" : "https://www.gdgcloudcalgary.com/",
-      "name" : "Blog"
       } ],
       "order" : 7,
       "title" : "Senior Android Developer"
@@ -1048,14 +915,10 @@
       "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/gerard_sans.jpg",
       "shortBio" : "Angular Google Developer Expert. International speaker and trainer.  Enjoy running AngularLabs London.",
       "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/david-shen-02662369/",
-        "name" : "Linkedin"
-        }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/gdgcloudyyc",
+        "link" : "https://twitter.com/gerardsans",
         "name" : "Twitter"
-        },{
+      }, {
         "icon" : "website",
         "link" : "https://medium.com/@gerard.sans",
         "name" : "Website"
@@ -1080,42 +943,44 @@
       "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/ihor_dvoretskyi.jpg",
       "shortBio" : "OpenStack Foundation member, Kubernetes upstream contributor and OpenStack special interest group lead in Kubernetes Community.",
       "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/laura-grant-967b8a32/",
-        "name" : "Linkedin"
-        },{
         "icon" : "gplus",
-        "link" : "https://plus.google.com/u/0/105187113408342822441",
+        "link" : "https://plus.google.com/103000293055760527954",
         "name" : "Google+"
       }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/laura.grant.18488/",
-        "name" : "Facebook"
+        "icon" : "linkedin",
+        "link" : "https://ua.linkedin.com/in/idvoretskyi",
+        "name" : "LinkedIn"
       }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/gdgcloudyyc",
+        "link" : "https://twitter.com/idvoretskyi",
         "name" : "Twitter"
-      }, {
-        "icon" : "website",
-        "link" : "http://www.gdgcloudcalgary.com/",
-        "name" : "Blog"
       } ],
       "order" : 9,
       "title" : "Deployment Engineer"
     },
-    
-
-    {
-      "name" : "Stefania Sanson",
-      "photo" : "/images/people/stefania.sanson.png",
-      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/stefania.sanson.png",
+    "jakub_škvára" : {
+      "badges" : [ {
+        "description" : "Google Developers Group Prague",
+        "link" : "https://developers.google.com/groups/chapter/111919016509847766513/",
+        "name" : "gdg"
+      } ],
+      "bio" : "Jakub is a front-end engineer at Shipito interested in modern web frameworks, libraries and tools. Jakub is also a member of GDG Prague and GDG ČVUT in the Czech republic.",
+      "company" : "Shipito",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+      "country" : "Prague, Czech Republic",
+      "featured" : false,
+      "name" : "Jakub Škvára",
+      "photo" : "/images/people/jakub_skvara.jpg",
+      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jakub_skvara.jpg",
+      "shortBio" : "Jakub is a front-end engineer at Shipito interested in modern web frameworks, libraries and tools...",
       "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/stefaniasanson/",
-        "name" : "Linkedin"
+        "icon" : "twitter",
+        "link" : "https://twitter.com/@skvaros",
+        "name" : "Twitter"
       }, {
         "icon" : "gplus",
-        "link" : "https://plus.google.com/u/0/115296974125316814676",
+        "link" : "https://plus.google.com/+JakubSkvara/",
         "name" : "Google+"
       } ],
       "order" : 10,
@@ -1127,33 +992,27 @@
         "link" : "https://developers.google.com/experts/people/jana-moudr.html",
         "name" : "gde"
       }, {
-        "icon" : "website",
-        "link" : "http://www.gdgcloudcalgary.com/",
-        "name" : "Blog"
+        "description" : "Google Developers Group Prague",
+        "link" : "https://developers.google.com/groups/chapter/111919016509847766513/",
+        "name" : "gdg"
       } ],
-      "title" : "Sponsors"
-    }
-    
-    ,
-    {
-      "name" : "Jenny Ye",
-      "photo" : "/images/people/jenny.ye.png",
-      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/jenny.ye.png",
+      "bio" : "GDE (Google Developer Expert) for Dart. Jana is a passionate developer and modern web and mobile technology evangelist. She is an event organiser for GDG Prague, where she arranges events for developers including public lectures, code labs and hackathons – covering a wide range of subjects including technologies Dart or Android. She loves to help other developers and spread the knowledge about these technologies. \n\nJana co-founded a company called Juicymo, where she works on juicy apps and products and teaches at Unicorn College.",
+      "company" : "Juicymo",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+      "country" : "Prague, Czech Republic",
+      "featured" : false,
+      "name" : "Jana Moudra",
+      "photo" : "/images/people/jana_moudra.jpg",
+      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jana_moudra.jpg",
+      "shortBio" : "GDG Prague organizer. Android and Dart enthusiast. Co-founder of a company called Juicymo.",
       "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/jenny-ye-5362562/",
-        "name" : "Linkedin+"
-      }, {
         "icon" : "gplus",
-        "link" : "https://plus.google.com/u/0/107228585683101293797",
+        "link" : "https://plus.google.com/+JanaMoudrá/posts",
         "name" : "Google+"
-      },{
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/jenny.ye",
-        "name" : "Facebook"
       }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/gdgcloudyyc",
+        "link" : "https://twitter.com/Janamou",
         "name" : "Twitter"
       }, {
         "icon" : "linkedin",
@@ -1537,14 +1396,16 @@
         "link" : "https://developers.google.com/groups/chapter/110301321530950732281/",
         "name" : "gdg"
       } ],
-      "title" : "Sponsors"
-    }
-    ,
-    
-    {
-      "name" : "Raymond Efegoma",
-      "photo" : "/images/people/raymond.efegoma.png",
-      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/raymond.efegoma.png",
+      "bio" : "Sergiy is an android developer that has experience from building apps from scratch to developing android based sdks and libraries for other applications. He has more than 10 applications successfully published on Google Play. Former GDG chapter lead in Nikolaev. Currently he is leading a team that builds broker software for 60+ different brokers.",
+      "company" : "Leverate",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+      "country" : "Kyiv,  Ukraine",
+      "featured" : false,
+      "name" : "Sergiy Mokienko",
+      "photo" : "/images/people/sergiy_mokienko.jpg",
+      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/sergiy_mokienko.jpg",
+      "shortBio" : "Sergiy is an android developer that has experience from building apps from scratch to developing...",
       "socials" : [ {
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/sergiy-mokienko-76891359",
@@ -1611,7 +1472,7 @@
       "shortBio" : "Born with the spirit of an entrepreneur, Yonatan loves to create, build and just do fun stuff in...",
       "socials" : [ {
         "icon" : "facebook",
-        "link" : "https://www.facebook.com/raymond.efegoma/",
+        "link" : "https://www.facebook.com/levin.yonatan",
         "name" : "Facebook"
       }, {
         "icon" : "twitter",
@@ -1633,16 +1494,19 @@
       "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
       "socials" : [ {
         "icon" : "gplus",
-        "link" : "https://plus.google.com/u/0/103170819600463615289",
+        "link" : "https://plus.google.com/+OlehZasadnyy",
         "name" : "Google+"
-      },
-      {
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/oleh.zasadnyy",
+        "name" : "Facebook"
+      }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/koolrays2000?s=09",
+        "link" : "https://twitter.com/ozasadnyy",
         "name" : "Twitter"
-      },{
+      }, {
         "icon" : "website",
-        "link" : "http://www.gdgcloudcalgary.com/",
+        "link" : "http://o.zasadnyy.com/",
         "name" : "Blog"
       } ],
       "order" : 0,
@@ -1662,14 +1526,13 @@
       } ],
       "order" : 1,
       "title" : "Social and media"
-    },
-    {
-      "name" : "Sylvain Robichaud",
-      "photo" : "/images/people/sylvain.robichaud.gif", 
-      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/sylvain.robichaud.gif",
+    }, {
+      "name" : "Vitaliy Zasadnyy",
+      "photo" : "/images/people/vitaliy_zasadnyy.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvitaliy_zasadnyy.jpg?alt=media&token=930e05c8-ae43-4628-8d4c-3e8f5193cda3",
       "socials" : [ {
         "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/sylvainrobichaud/",
+        "link" : "https://www.linkedin.com/in/zasadnyy",
         "name" : "Linkedin"
       }, {
         "icon" : "twitter",
@@ -1711,9 +1574,9 @@
         "name" : "Facebook"
       }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/gdgcloudyyc",
+        "link" : "https://twitter.com/p1f",
         "name" : "Twitter"
-      },{
+      }, {
         "icon" : "website",
         "link" : "http://andrusiv.com/",
         "name" : "Blog"
@@ -2409,298 +2272,359 @@
       },
       "socials" : [ {
         "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/stephanie-mcguire-50401347/",
-        "name" : "Linkedin"
-        },{
-          "icon" : "gplus",
-          "link" : "https://plus.google.com/u/0/100127602250656056397",
-          "name" : "Google+"
-        },{
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/stephanie.mcguire.98",
-        "name" : "Facebook"
-      },
-      {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/stephtastique",
-        "name" : "Twitter"
-      },{
+        "link" : "https://www.linkedin.com/in/lesenya/",
+        "name" : "LinkedIn"
+      }, {
         "icon" : "website",
-        "link" : "http://www.gdgcloudcalgary.com/",
-        "name" : "Blog"
-      }],
-      "title" : "Social and media"
-    } 
-  
-  
-  ],
-    "title" : "Core Team"
-  }, {
-    "members" : [ {
-      "name" : "Greg Bennett",
-      "photo" : "/images/people/greg.bennett.png",
-      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/greg.bennett.png",
-      "socials" : [ {
-      "icon" : "linkedin",
-      "link" : "https://www.linkedin.com/in/gregbennettio/",
-      "name" : "Linkedin+"
+        "link" : "https://www.xing.com/profile/lesya_danylyuk",
+        "name" : "Website"
       }, {
-      "icon" : "facebook",
-      "link" : "https://www.facebook.com/recrdx",
-      "name" : "Facebook"
-      }, {
-      "icon" : "twitter",
-      "link" : "https://twitter.com/recrdx",
-      "name" : "Twitter"
-      },{ 
-      "icon" : "gplus",
-      "link" : "https://plus.google.com/113957084984388645066",
-      "name" : "Google+"
-      },{
-      "icon" : "website",
-      "link" : "https://www.gregbennett.io",
-      "name" : "Blog"
+        "icon" : "twitter",
+        "link" : "https://twitter.com/lesyadnk",
+        "name" : "Twitter"
       } ],
-      "title" : "Founder and Program Manager"
-      }
-     ],
-    "title" : "Program Committee"
-  } 
-
-],
-"tickets" : [{
-  "available" : true,
-  "currency" : "",
-  "ends" : "November 1st",
-  "inDemand" : false,
-  "info" : "Or first 100 tickets",
-  "name" : "Regular",
-  "price" : "FREE",
-  "primary" : true,
-  "regular" : true,
-  "soldOut" : false,
-  "starts" : "Oct 01",
-  "url" : "https://www.meetup.com/gdgcloudcalgary/events/255123878/"
-}]
-  
-  ,
-  "triggers" : {
-    "images" : false
-  },
-  "videos" : [ {
-    "speakers" : "Yonatan Levin",
-    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(65).jpg?alt=media&token=f25f04cf-9a10-42ed-b2ff-e41fad910c39",
-    "title" : "Making mistakes and building products from 1st to 30M users",
-    "youtubeId" : "hUY8jg9-ieE"
-  }, {
-    "speakers" : "Britt Barak",
-    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(92).jpg?alt=media&token=0dfc3002-6d6e-4e9f-8518-5941fc501a04",
-    "title" : "When your app is asleep",
-    "youtubeId" : "D6WEL_inXxk"
-  }, {
-    "speakers" : "Ihor Dvoretskyi",
-    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(466).jpg?alt=media&token=76a822f9-9d82-4d5e-83ad-5e3f1593f2fe",
-    "title" : "Welcome to the world of Open Source. Stories by Kubernetes contributor",
-    "youtubeId" : "HhpHf3GefXI"
-  }, {
-    "speakers" : "Joanna Chwastowska",
-    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(469).jpg?alt=media&token=80669b99-81f4-4d7d-8160-e0174da62b85",
-    "title" : "100x impact - from an Individual Contributor to Technical Leader",
-    "youtubeId" : "O1dtdDpQXU8"
-  } ],
-  "previousSpeakers": {
-    "adrian_kajda" : {
-      "bio" : "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.",
-      "company" : "Sygic",
-      "companyLogo" : "https://dfua16.firebaseapp.com//images/logos/sygic.svg",
+      "title" : "UX Designer"
+    },
+    "mateusz_herych" : {
+      "bio" : "Mateusz works as an Android Developer at IG, where he uses his Android-abracadabras to make enterprise software users more productive.\n\nHe's also an active member of GDG Kraków where, together with his co-organisers, he ensures the local community has direct access to the latest trends and knowledge of Google-related technology.\n\nMateusz is an avid Android speaker, and is particularly keen to get involved in events focusing on coding Android.",
+      "company" : "IG",
+      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/ig.svg",
       "country" : "Poland",
-      "id" : "adrian_kajda",
-      "name" : "Adrian Kajda",
-      "order" : 6,
-      "photoUrl" : "https://dfua16.firebaseapp.com//images/people/adrian_kajda.jpg",
+      "id" : "mateusz_herych",
+      "name" : "Mateusz Herych",
+      "order" : 18,
+      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/mateusz_herych.jpg",
       "sessions" : {
+        "2014" : [ {
+          "tags" : [ "TOPIC_ANDROID", "LANG_EN", "THEME_INTERMEDIATE" ],
+          "title" : "Guava beyond Collections"
+        } ],
+        "2015" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/mateusz-herych-how-can-android-backup-break-your-app",
+          "tags" : [ "Android", "Marshmallow" ],
+          "title" : "How can Android Backup break your app"
+        } ],
         "2016" : [ {
-          "presentation" : "https://speakerdeck.com/gdglviv/adrian-kajda-fuelio-success-story",
+          "presentation" : "https://speakerdeck.com/gdglviv/mateusz-herych-the-ultimate-guide-to-mvp-pattern-on-android",
           "tags" : [ "Android" ],
-          "title" : "Fuelio. Success story",
-          "videoId" : "qK7ysoohsaM"
+          "title" : "The ultimate guide to MVP pattern on Android"
+        } ],
+        "2017" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/mateusz-herych-the-ultimate-guide-to-mvp-pattern-on-android",
+          "tags" : [ "Android", "MobileOps" ],
+          "title" : "Release Android apps globally with no headache and minimum stress",
+          "videoId" : "OhcJqVEnc7I"
         } ]
       },
       "socials" : [ {
         "icon" : "gplus",
-        "link" : "plus.google.com/+AdrianKajda",
+        "link" : "https://plus.google.com/+MateuszHerych",
         "name" : "Google+"
-      } ],
-      "title" : "Product Manager/Developer"
-    },
-    "aleksander_piotrowski" : {
-      "bio" : "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)",
-      "company" : "Applause",
-      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/applause.png",
-      "country" : "Poland",
-      "id" : "aleksander_piotrowski",
-      "name" : "Aleksander Piotrowski",
-      "order" : 0,
-      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/aleksander_piotrowski.jpg",
-      "sessions" : {
-        "2016" : [ {
-          "presentation" : "https://speakerdeck.com/gdglviv/aleksander-piotrowski-android-tool-chain-and-run-time-improvements-in-n",
-          "tags" : [ "Android" ],
-          "title" : "Android tool-chain and run-time improvements in N",
-          "videoId" : "WqULb6bdwwg"
-        } ],
-        "2017" : [ {
-          "presentation" : "https://speakerdeck.com/gdglviv/aleksander-piotrowski-is-there-a-room-for-room",
-          "tags" : [ "Android", "Room" ],
-          "title" : "Is there a room for Room?",
-          "videoId" : "BHiKSnOaoh4"
-        } ]
-      },
-      "socials" : [ {
+      }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/pelotasplus",
+        "link" : "https://twitter.com/mherych",
         "name" : "Twitter"
       }, {
         "icon" : "linkedin",
-        "link" : "https://linkedin.com/in/pelotasplus",
+        "link" : "https://www.linkedin.com/in/herych",
+        "name" : "LinkedIn"
+      } ],
+      "title" : "Android Tech Lead"
+    },
+    "michael_pustovit" : {
+      "bio" : "Michael is a software engineer at Keypr. He is KPI FICT Computer Science graduate and has 5+ years in Android development. Michael moderates KyivAndroidDevClub. Besides programming, he is a capoeira player.",
+      "company" : "Keypr",
+      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/keypr.png",
+      "country" : "Ukraine",
+      "id" : "michael_pustovit",
+      "name" : "Michael Pustovit",
+      "order" : 8,
+      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/michael_pustovit.jpg",
+      "sessions" : {
+        "2016" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/michael-pustovit-android-hacking-for-dummies-if-operator-demolytion",
+          "tags" : [ "Android" ],
+          "title" : "Android hacking for dummies: ‘if’ operator demolytion",
+          "videoId" : "We04nyIIsA0"
+        } ],
+        "2017" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/michael-pustovit-gradle-scripts-in-kotlin-is-it-cool",
+          "tags" : [ "Android", "MobileOps" ],
+          "title" : "Gradle scripts in Kotlin: is it cool?",
+          "videoId" : "XLNJkxWoCoc"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "github",
+        "link" : "https://github.com/lampapos",
+        "name" : "GitHub"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/pustovit",
+        "name" : "Twitter"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/pustovit",
+        "name" : "Facebook"
+      } ],
+      "title" : "Android Developer"
+    },
+    "roman_mazur" : {
+      "bio" : "Roman has been working with Android for more than 6 years. You can find him delivering fixes and new features to a plenty of Android libraries and frameworks including support library, Robolectric, Madge, Spoon, Retrofit, and Helium. <br/><br/>At Stanfy he is working on a customized Android OS for in-room tablets installed at hotels by KEYPR.",
+      "company" : "Stanfy",
+      "country" : "Ukraine",
+      "id" : "roman_mazur",
+      "name" : "Roman Mazur",
+      "order" : 10,
+      "photoUrl" : "https://dfua15.firebaseapp.com/images/people/roman_mazur.jpg",
+      "sessions" : {
+        "2014" : [ {
+          "tags" : [ "TOPIC_ANDROID", "LANG_EN", "THEME_INTERMEDIATE" ],
+          "title" : "Android Loader, problems and solutions"
+        } ],
+        "2015" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/roman-mazur-power-of-android-shell",
+          "tags" : [ "Android", "Tools" ],
+          "title" : "Power of Android Shell"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "app-icons:gplus",
+        "link" : "https://plus.google.com/+RomanMazur/",
+        "name" : "Google+"
+      }, {
+        "icon" : "app-icons:twitter",
+        "link" : "http://twitter.com/roman_mazur",
+        "name" : "Twitter"
+      }, {
+        "icon" : "app-icons:github",
+        "link" : "https://github.com/roman-mazur",
+        "name" : "GitHub"
+      } ],
+      "title" : "Software Engineer"
+    },
+    "sergiy_khomenko" : {
+      "bio" : "Data scientist at one of the biggest fashion communities, STYLIGHT. Data analysis and visualisation hobbyist, working on problems not only in working time, but in free time for fun and personal data visualisations.\n\nSpeaker at different conferences: Berlin Buzzwords 2014, ApacheCon Europe 2014, Puppet Camp London 2015, Munich Developer Camp, Berlin Buzzwords 2015, Tableau Conference on Tour - Berlin 2015, Budapest BI forum 2015, CrunchConf 2015, FOSDEM 2016, PyData Amsterdam 2016",
+      "company" : "Stylight",
+      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/stylight.svg",
+      "country" : "Germany",
+      "id" : "sergiy_khomenko",
+      "name" : "Sergii Khomenko",
+      "order" : 12,
+      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/sergii_khomenko.jpg",
+      "sessions" : {
+        "2017" : [ {
+          "presentation" : "https://lc0.github.io/slides/2017-devfest-hamburg/index.html#/1",
+          "tags" : [ "Cloud" ],
+          "title" : "The Hitchhiker's Guide to Tensorflow: from Tensors to running models in production.",
+          "videoId" : "rWRv-AWDeKw"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/lc0d3r",
+        "name" : "Twitter"
+      } ],
+      "title" : "Lead Data Scientist"
+    },
+    "sergiy_mokienko" : {
+      "bio" : "Sergiy is an android developer that has experience from building apps from scratch to developing android based sdks and libraries for other applications. He has more than 10 applications successfully published on Google Play. Former GDG chapter lead in Nikolaev. Currently he is leading a team that builds broker software for 60+ different brokers.",
+      "company" : "Leverate",
+      "companyLogo" : "https://dfua16.firebaseapp.com//images/logos/leverate.svg",
+      "country" : " Ukraine",
+      "id" : "sergiy_mokienko",
+      "name" : "Sergiy Mokienko",
+      "order" : 9,
+      "photoUrl" : "https://dfua16.firebaseapp.com//images/people/sergiy_mokienko.jpg",
+      "sessions" : {
+        "2016" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/sergiy-mokienko-continuous-integration-in-android",
+          "tags" : [ "Android" ],
+          "title" : "Continuous Integration in Android",
+          "videoId" : "MmGDQkgknfY"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/sergiy-mokienko-76891359",
         "name" : "LinkedIn"
       }, {
         "icon" : "facebook",
-        "link" : "https://facebook.com/pelotasplus",
+        "link" : "https://www.facebook.com/Korwin22",
         "name" : "Facebook"
       }, {
-        "icon" : "github",
-        "link" : "https://github.com/pelotasplus",
-        "name" : "GitHub"
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/107094180736796042888",
+        "name" : "Google+"
       } ],
-      "title" : "Code monkey"
+      "title" : "Android Team Lead"
     },
-    "anton_minashkin" : {
-      "bio" : "Android developer, currently works at EPAM Systems Calgary. Has experience in both server and mobile side development. Anton all his free time spends on the endless search of silver bullets, perfect architectures and holy wars",
-      "company" : "EPAM",
-      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/epam.svg",
-      "country" : "Calgary",
-      "id" : "anton_minashkin",
-      "name" : "Anton Minashkin",
-      "order" : 17,
-      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/minashkin_anton.jpg",
+    "shmuela_jacobs" : {
+      "bio" : "Shmuela Jacobs is a front-end developer, consultant, speaker, and community activist. She is the founder of ngGirls and Angular Nights meetup group. During her academic studies (M.Sc. in Information Management Engineering and B.Sc. in Physics) Shmuela had combined her passions of coding and teaching as a software developer, teaching assistant, science museum guide, and researcher. Today she continues to enjoy these activities developing with Angular and sharing her knowledge and experience in meetups and conferences. Shmuela lives in Tel Aviv with her husband Haggai, their deaf dog Ziggi, and one-eyed cat Franco.",
+      "company" : "ngGirls",
+      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/nggirls.png",
+      "country" : "Israel",
+      "id" : "shmuela_jacobs",
+      "name" : "Shmuela Jacobs",
+      "order" : 19,
+      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/shmuela_jacobs.jpg",
       "sessions" : {
+        "2017" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/shmuela-jacobs-web-goes-native-progressive-web-apps-with-angular",
+          "tags" : [ "Web", "PWA" ],
+          "title" : "Web goes Native: Progressive Web Apps with Angular",
+          "videoId" : "OcIZS4jNgP0"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/ShmuelaJ",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shmuelaj",
+        "name" : "LinkedIn"
+      } ],
+      "title" : "Founder"
+    },
+    "valentyn_shybanov" : {
+      "bio" : "Started software engineering career with low level system programming mostly on start of the era of modern computers, my interest involved from programming calculators and simple games to developing complex enterprise-level cloud-based solutions. Now, with help of modern technologies, solutions and concepts, I am not just trying to bring any, even most courageous ideas into life, but also spread the light of all brilliant technology solutions I can find to all other developers. Now focused on combination of Web technologies (Angular, Dart) and cloud platforms (Google Cloud Platform, Amazon EC2, Azure etc) and mobile (Flutter)\n",
+      "company" : "",
+      "companyLogo" : "",
+      "country" : "Ukraine",
+      "id" : "valentyn_shybanov",
+      "name" : "Valentyn Shybanov",
+      "order" : 14,
+      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/valentyn_shybanov.jpg",
+      "sessions" : {
+        "2014" : [ {
+          "tags" : [ "TOPIC_WEB", "LANG_EN", "THEME_INTERMEDIATE" ],
+          "title" : "Go in the Cloud: How using Go can help building cloud ready applications"
+        } ],
         "2015" : [ {
-          "presentation" : "https://speakerdeck.com/gdglviv/anton-minashkin-data-binding",
-          "tags" : [ "Android", "Marshmallow" ],
-          "title" : "Data Binding. Next big thing?"
+          "presentation" : "http://olostan.github.io/slides_microgcp",
+          "tags" : [ "Cloud", "Go Lang" ],
+          "title" : "Using GoLang for building micro-service architecture in Google Cloud Platform"
+        }, {
+          "presentation" : "http://olostan.github.io/slides_ng2arch",
+          "tags" : [ "Web", "AngularJS" ],
+          "title" : "Angular2: Reasoning behind technical decisions"
         } ],
         "2016" : [ {
-          "presentation" : "https://speakerdeck.com/gdglviv/anton-minashkin-exoplayer-media-playback-without-pain-almost-dot-dot-dot",
-          "tags" : [ "Android" ],
-          "title" : "ExoPlayer: Media playback without pain (almost...)"
+          "presentation" : "https://olostan.github.io/slides_ng2high/",
+          "tags" : [ "Web" ],
+          "title" : "Highlevel overview of the Angular 2",
+          "videoId" : "ghwfIPSOQOI"
         } ],
         "2017" : [ {
-          "presentation" : "https://speakerdeck.com/gdglviv/anton-minashkin-random-musings-on-the-android-things",
-          "tags" : [ "Android", "IoT" ],
-          "title" : "Random Musings on the Android Things",
-          "videoId" : "NCRr4nA0c7A"
+          "presentation" : "https://olostan.github.io/slides_gcpstore/",
+          "tags" : [ "Cloud" ],
+          "title" : "Cloud Storage - Choosing the Best",
+          "videoId" : "tLtj9wn8cUI"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "website",
+        "link" : "https://cv.olostan.name/",
+        "name" : "Website"
+      } ],
+      "title" : "Web Team Leader"
+    },
+    "vitaliy_zasadnyy" : {
+      "bio" : "Vitaliy is a mobile developer, public speaker and community manager. He is eager about product perfection and scalability. Goes crazy about new IoT devices and Google products. Originally Vitaliy is from Ukraine, where he founded GDG Lviv. Now he is leading mobile department at GetSocial, startup based in The Netherlands. GetSocial is building the cloud-based mobile engagement platform that empowers any app developer with tools to maximise user acquisition, engagement, retention and monetization.",
+      "company" : "GetSocial",
+      "companyLogo" : "https://dfua16.firebaseapp.com//images/logos/getsocial.svg",
+      "country" : "Ukraine",
+      "id" : "vitaliy_zasadnyy",
+      "name" : "Vitaliy Zasadnyy",
+      "order" : 1,
+      "photoUrl" : "https://dfua16.firebaseapp.com//images/people/vitaliy_zasadnyy.jpg",
+      "sessions" : {
+        "2016" : [ {
+          "presentation" : "https://speakerdeck.com/zasadnyy/j2objc-cross-platform-development-google-way",
+          "tags" : [ "Android" ],
+          "title" : "J2ObjC. Cross platform development - Google way",
+          "videoId" : "rXvZkC6X56k"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "website",
+        "link" : "https://zasadnyy.com",
+        "name" : "Blog"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/zasadnyy",
+        "name" : "Twitter"
+      }, {
+        "icon" : "github",
+        "link" : "https://github.com/zasadnyy",
+        "name" : "GitHub"
+      } ],
+      "title" : "Head of Mobile"
+    },
+    "yonatan_levin" : {
+      "bio" : "A born entrepreneur, combining the creative imagination of an artist with the meticulous precision of an engineer, Yonatan Levin is not only one of Israel’s top mobile developers, he’s also a member of the elite worldwide group of Google Developers Experts.\n\nAnd while Yonatan’s primary expertise is in Mobile and Product Management, he also gets along extremely well with backend technologies — not to mention people in general.\n\nAt Gett Yonatan headed up Android development, helping make it the world’s largest on-demand transportation, delivery, and logistics company. Most recently, Yonatan has received funding for his thirds (and latest) startup, KolGene, which is already revolutionizing the field of genetic testing.\n\nIn his free time, Yonatan can often be found, like his Star Wars hero Luke Skywalker, saving the galaxy, one groundbreaking technology at a time.",
+      "company" : "KolGene",
+      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/kolgene.svg",
+      "country" : "Israel",
+      "id" : "yonatan_levin",
+      "name" : "Yonatan Levin",
+      "order" : 5,
+      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/yonatan_levin.jpg",
+      "sessions" : {
+        "2016" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/yonatan-levin-knock-knock-whos-there-doze",
+          "tags" : [ "Android" ],
+          "title" : "Knock knock! Who's there? Doze."
+        } ],
+        "2017" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/yonatan-levin-architecture-components-the-one-that-got-away",
+          "tags" : [ "Android" ],
+          "title" : "Architecture Components. The one that got away",
+          "videoId" : "FzmDFscF41o"
+        }, {
+          "presentation" : "https://speakerdeck.com/gdglviv/yonatan-levin-keynote-making-mistakes-and-building-products-from-1st-to-30m-users",
+          "tags" : [ "General", "Entrepreneurship" ],
+          "title" : "Making mistakes and building products from 1st to 30M users",
+          "videoId" : "hUY8jg9-ieE"
         } ]
       },
       "socials" : [ {
         "icon" : "facebook",
-        "link" : "https://www.facebook.com/anton.minashkin.1",
+        "link" : "https://www.facebook.com/levin.yonatan",
         "name" : "Facebook"
-      } ],
-      "title" : "Chief Software Engineer"
-    },
-    "carmen_popovicu" : {
-      "bio" : "Carmen is a front-end engineer and a #1 fan of dev communities. She loves Angular but has since recently developed feelings for Polymer too. She strongly believes that adding at least one ASCII smiley in your emails will make the world a better place and hopes to one day make a difference for the web with the code she writes. If she had super powers, she would smiley all the things.",
-      "company" : "Widespread",
-      "companyLogo" : "https://dfua16.firebaseapp.com//images/logos/widespread.png",
-      "country" : "Romania",
-      "id" : "carmen_popovicu",
-      "name" : "Carmen Popovicu",
-      "order" : 3,
-      "photoUrl" : "https://dfua16.firebaseapp.com//images/people/carmen_popovicu.jpg",
-      "sessions" : {
-        "2016" : [ {
-          "presentation" : "http://carmenpopoviciu.github.io/on-polymer-and-smileys/",
-          "tags" : [ "Web" ],
-          "title" : "On Polymer and smileys... or Polysmileys"
-        } ]
-      },
-      "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/u/0/118143942632321563925/",
-        "name" : "Google+"
       }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/CarmenPopoviciu",
+        "link" : "https://twitter.com/parahall",
         "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/levinyonatan/",
+        "name" : "LinkedIn"
       } ],
-      "title" : "Front-end Engineer"
+      "title" : "CTO & Co-Founder"
     },
-    "denis_radin" : {
-      "bio" : "Passionate about computer graphics and code optimization, mastering workshop http://challengingnative.com, hosting http://react.asmterdam and http://amsterdamjs.com",
-      "company" : "Evolution Gaming",
-      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/evolution-gaming.png",
-      "country" : "Netherlands",
-      "id" : "denis_radin",
-      "name" : "Denis Radin",
-      "order" : 7,
-      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/denis_radin.jpg",
+    "yuliya_kaleda" : {
+      "bio" : "Yuliya is an Android developer, leading a team of 4 developers at Jet.com. Her main focus  is to build performant, scalable, cutting-edge Android projects. Her most recent cutting-edge project was the first multi-feature Instant Apps, which was a huge success and got featured on Google Android Developer website (https://developer.android.com/stories/instant-apps/jet.html#results). She volunteers at C4Q - non-profit organization, the main focus of which is to foster the tech community in NY. She also volunteers in teaching Android Development at Access Code Program, which targets underrepresented minorities, women and immigrants.",
+      "company" : "Jet.com",
+      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/jet.svg",
+      "country" : "USA",
+      "id" : "yuliya_kaleda",
+      "name" : "Yuliya Kaleda",
+      "order" : 20,
+      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/yuliya_kaleda.jpg",
       "sessions" : {
         "2017" : [ {
-          "presentation" : "https://speakerdeck.com/gdglviv/denis-radin-applying-nasa-coding-guidelines-to-javascript-or-airspace-is-closer-than-you-may-think",
-          "tags" : [ "Web" ],
-          "title" : "Applying NASA coding guidelines to JavaScript or airspace is closer than you may think",
-          "videoId" : "E4fpZm17GNI"
+          "presentation" : "https://speakerdeck.com/gdglviv/yuliya-kaleda-make-your-app-instant",
+          "tags" : [ "Android", "Instant Apps" ],
+          "title" : "Make Your App Instant!",
+          "videoId" : "v4RfZ0f_HVE"
         } ]
       },
       "socials" : [ {
-        "icon" : "github",
-        "link" : "https://github.com/PixelsCommander",
-        "name" : "GitHub"
-      } ],
-      "title" : "Senior JS Engineer"
-    },
-    "dmytro_danylyk" : {
-      "bio" : "Dmytro is a developer, writer, speaker. He live in Lviv - a quaint and beautiful city. He is passionate about android and flat design. Currently Dmytro works for a startup Timee where he develop Android application and he love what he do.",
-      "company" : "Timee",
-      "companyLogo" : "https://dfua16.firebaseapp.com//images/logos/timee.png",
-      "country" : "Calgary",
-      "id" : "dmytro_danylyk",
-      "name" : "Dmytro Danylyk",
-      "order" : 15,
-      "photoUrl" : "https://dfua16.firebaseapp.com//images/people/dmytro_danylyk.jpg",
-      "sessions" : {
-        "2014" : [ {
-          "tags" : [ "TOPIC_ANDROID", "LANG_UK", "THEME_INTERMEDIATE" ],
-          "title" : "Android L Animation"
-        } ],
-        "2015" : [ {
-          "presentation" : "https://speakerdeck.com/gdglviv/dmytro-danylyk-planning-android-screens",
-          "tags" : [ "Android", "UX" ],
-          "title" : "Planning Android Screens"
-        } ],
-        "2016" : [ {
-          "presentation" : "https://speakerdeck.com/gdglviv/dmytro-danylyk-kotlin-plus-android",
-          "tags" : [ "Android" ],
-          "title" : "Kotlin + Android"
-        } ]
-      },
-      "socials" : [ {
-        "icon" : "website",
-        "link" : "http://www.dmytrodanylyk.com",
-        "name" : "Website"
-      }, {
-        "icon" : "website",
-        "link" : "http://slides.com/dmytrodanylyk",
-        "name" : "Website"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/dmytrodanylyk",
-        "name" : "Twitter"
-      }, {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/+DmytroDanylyk",
-        "name" : "Google+"
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/yuliya-kaleda-b4525ab1/",
+        "name" : "LinkedIn"
       } ],
       "title" : "Senior Android Developer"
     }

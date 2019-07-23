@@ -1,0 +1,1415 @@
+{
+  "blog" : {
+    "callforspeaker" : {
+      "backgroundColor" : "#3647a5",
+      "brief" : "We’re looking for speakers! ",
+      "content" : "DevFest Calgary is bringing over 100 developers together **November 3** together in Calgary in the beautiful Riddel Library at MRU. Our focus is the content. **We’re looking for speakers like you**, who are ready to rock the stage and deliver the best talk or workshop in the field. <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfest18callforspeakersdoc\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div> </br> Why is it cool to speak at the DevFest? </br>DevFest Calgary is not an ordinary tech conference, besides selecting only the best speakers, we help them to succeed in delivering an exceptional quality talk on the stage.  Here are few perks that all our speakers get: </br>**Exposure**. By being a speaker, you are proving your level of expertise to a potential business partners or employers. Your talk will be promoted in our online resources and recording published in YouTube channel. </br>**Unique networking**. Being a speaker means you’ll have the unique chance to network with other speakers - the best experts in the industry. </br>**Coaching**. We're in the same boat, after being selected as a speaker our program committee will help you to deliver the best talk possible. We provide information about the audience, presentation templates, feedback on the slides, all to help you to prepare.<br> What are we looking for? We're looking for **experience-based talks**, the information that can not be found in the documentation or easily googled. We're looking for your stories, your struggles, research results and experiences with the frontier tools or technologies. Check the [list of topics](https://codelabs.developers.google.com/devfest18) we're interested in (it is not full and updated all the time). You can submit as many talks as you want. This year we accept submissions in two formats: </br> - 45 minutes sessions </br>- 10 Minute Lightning Talks </br>- 1-2 hour workshops </br></br>Talks that will not pass initial review: </br>- Talks about a specific tool/library/project explaining how it works or how to use it. </br>- Talks whose focus is pitching a company or project. It’s cool that you mention your company during the presentation, but it shouldn’t be the focus of the talk. </br>- Proposals that are not in English. </br>- Recruitment talks to attract talent. </br></br>We strongly recommend you check out [speaking.io](http://speaking.io) website from Zach Holman. It includes good tips and guidelines for speakers. </br>Timeline ** Call for Papers submission deadline is October 15, 2018**. Submission results will be announced by October 20. Any questions? Email organizers at speakers@gdgcloudcalgary.com <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfest18callforspeakersdoc\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div>",
+      "image" : "/images/posts/callforspeaker.jpg",
+      "published" : "2018-10-01",
+      "source" : "/data/posts/2017-02-12-c4p.md",
+      "title" : "We're looking for speakers"
+    },
+    "dfca18-announced" : {
+      "backgroundColor" : "#2196F3",
+      "brief" : "It is official. GDG DevFest Calgary 2018 is going to take place in Calgary, on November 3.",
+      "content" : "It is official. GDG DevFest Calgary 2017 is going to take place in **Calgary, on November 3**.  Described by many as \"Google I/O of Calgary\", DevFest has grown from the small 100-people event to the biggest Google tech conference in North America. This year, we expect over 900 engineers, managers, and entrepreneurs from over 20 countries come to DevFest to learn about Android, Web and Cloud technologies, and to experience the phenomenal atmosphere.  </br></br> What to expect?  **2 parallel Tracks: A hands on Workshop Track and a Speaker's Track.** You will hear and learn from speakers and presenters from product companies like Google and ATB. </br></br> We are stoked to see yo all there!  <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfestmeetup\" rel=\"noopener noreferrer\">   <paper-button primary>Register</paper-button> </a> </div></br> <i>GDG DevFest Calgary Team. </i>",
+      "image" : "/images/posts/dfca18-announced.jpg",
+      "published" : "2018-10-01",
+      "source" : "/data/posts/2017-02-06-dfua17-announced.md",
+      "title" : "Announcing GDG DevFest Calgary 2018"
+    }
+  },
+  "gallery" : [
+    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4185.jpg?alt=media&token=ff3fd161-3d68-401a-90cd-74b90bd2a4d8",
+    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4411.jpg?alt=media&token=7fda0d66-a631-4816-bd85-b93ef49ed3a6",
+    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4577.jpg?alt=media&token=f14205b5-be75-447c-8bca-73a15ca2df41"
+  ],
+  "notifications" : {
+    "config" : {
+      "icon" : "",
+      "timezone" : "-07:00"
+    },
+    "messages" : { },
+    "subscribers" : { },
+    "test" : { },
+    "users" : { }
+  },
+  "partners" : [
+    {
+    "logos" : [
+    {
+      "logoUrl" : "../images/logos/gde01.png",
+      "name" : "Google Developer Experts",
+      "url" : "https://developers.google.com/experts/"
+    },
+    {
+      "logoUrl" : "../images/logos/google.svg",
+      "name" : "Google",
+      "url" : "https://www.google.com.ua/intl/en/about/"
+    },
+    {
+      "logoUrl" : "../images/logos/qwiklabs.png",
+      "name" : "Qwiklabs",
+      "url" : "https://www.qwiklabs.com/"
+    },
+    {
+      "logoUrl" : "../images/logos/gdg-x.svg",
+      "name" : "GDG[x]",
+      "url" : "https://github.com/gdg-x"
+    },
+    {
+      "logoUrl" : "../images/logos/wtm.png",
+      "name" : "Women Techmakers",
+      "url" : "https://www.womentechmakers.com/"
+    },
+    {
+      "logoUrl" : "../images/logos/airia.png",
+      "name" : "Aira",
+      "url" : "https://www.airia.cloud/"
+    },
+    {
+      "logoUrl" : "../images/logos/albertabikeswap.png",
+      "name" : "Alberta Bikeswap",
+      "url" : "http://albertabikeswap.ca"
+    }],
+    "title" : "General Partner"
+  } ],
+  "schedule" : {
+    "2018-11-03" : {
+      "dateReadable" : "November 03",
+      "timeslots" : [
+         {
+        "endTime" : "10:15",
+        "sessions" : [ {
+          "items" : [ 100 ]
+        } ],
+        "startTime" : "10:00"
+      }, {
+        "endTime" : "10:30",
+        "sessions" : [ {
+          "items" : [ 105 ]
+        } ],
+        "startTime" : "10:15"
+      }, {
+        "endTime" : "11:00",
+        "sessions" : [ {
+          "items" : [ 110 ]
+        } ],
+        "startTime" : "10:30"
+      }, 
+      {
+        "endTime" : "13:30",
+        "sessions" : [ 
+          {
+            "items" : [ 115 ]
+          }, 
+          {
+            "extend" : 3,
+            "items" : [ 117 ]
+          }, 
+          {
+            "extend" : 3
+            ,
+            "items" : [ 119 ]
+          } 
+        ],
+        "startTime" : "11:05"
+      },
+      {
+        "endTime" : "11:45",
+        "sessions" : 
+        [ 
+          {
+          "items" : [ 120 ]
+          }  
+        ],
+        "startTime" : "11:35"
+      }, {
+        "endTime" : "13:00",
+        "sessions" : [ {
+          "items" : [ 123 ]
+        } ],
+        "startTime" : "11:50"
+      },{
+        "endTime" : "13:00",
+        "sessions" : [ {
+          "items" : [ 125 ]
+        } ],
+        "startTime" : "12:00"
+      }, {
+        "endTime" : "13:20",
+        "sessions" : [ {
+          "items" : [ 130 ]
+        }, {
+          "extend" : 2,
+          "items" : [ 132 ]
+        },  {
+          "extend" : 2,
+          "items" : [ 119 ]
+        } ],
+        "startTime" : "13:00"
+      }, {
+        "endTime" : "14:00",
+        "sessions" : [ {
+          "items" : [ 135 ]
+        } ],
+        "startTime" : "13:25"
+      }, {
+        "endTime" : "14:15",
+        "sessions" : [ {
+          "items" : [ 140 ]
+        } ],
+        "startTime" : "14:00"
+      },
+
+      {
+        "endTime" : "14:45",
+        "sessions" : [ {
+          "items" : [ 145 ]
+        }, {
+          "extend" : 2,
+          "items" : [ 138 ]
+        },  {
+          "extend" : 2,
+          "items" : [ 119 ]
+        } ],
+        "startTime" : "14:15"
+      },    
+      {
+        "endTime" : "15:00",
+        "sessions" : [ {
+          "items" : [ 150 ]
+        } ],
+        "startTime" : "14:50"
+      }
+      , {
+        "endTime" : "15:40",
+        "sessions" : [ {
+          "items" : [ 155 ]
+        } ],
+        "startTime" : "15:05"
+      }
+      , {
+        "endTime" : "15:45",
+        "sessions" : [ {
+          "items" : [ 160 ]
+        } ],
+        "startTime" : "15:40"
+      }
+      , {
+        "endTime" : "16:00",
+        "sessions" : [ {
+          "items" : [ 165 ]
+        } ],
+        "startTime" : "15:45"
+      }
+      , {
+        "endTime" : "16:15",
+        "sessions" : [ {
+          "items" : [ 170 ]
+        } ],
+        "startTime" : "16:00"
+      }, {
+        "endTime" : "19:00",
+        "sessions" : [ {
+          "items" : [ 175 ]
+        } ],
+        "startTime" : "16:15"
+      }
+      , {
+        "endTime" : "19:30",
+        "sessions" : [ {
+          "items" : [ 180 ]
+        } ],
+        "startTime" : "17:30"
+      }
+    
+    ],
+      "tracks" : [ {
+        "title" : "Riddell Library"
+      }, {
+        "title" : "Classroomss"
+      }, {
+        "title" : "Open Area"
+      } ]
+    }
+  
+  }
+  ,
+
+  "sessions" : {
+    "100" : {
+      "description" : "Welcome to DevFest!",
+      "icon" : "opening",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
+      "title" : "Doors Open"
+    },
+    "105" : {
+      "description" : "Welcome/Introduction Dean of MRU \n\rIntroduce KeyNote",
+      "icon" : "registration",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
+      "title" : "Welcome to DevFest!"
+    },
+    "110" : {
+      "description" : "Keynote",
+      "icon" : "light",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
+      "title" : "Opening Keynote:Let's Build What's Next with Google.",
+      "speakers" : [ "Cam_Crockett"]
+    },
+    "115" : {
+      "description" : "Using Google Cloud for Data Science Competitions",
+      "icon" : "coffee-break",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title" : "Using Google Cloud for Data Science Competitions",
+      "speakers" : [ "Chris_Chen" ]
+    },
+    "117" : {
+      "description" : "Hands on Lab 1",
+      "icon" : "lab",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title" : "Hands On Lab 1"
+    },
+    "119" : {
+      "description" : "Google Cloud Certification, \n\nWomen Techmakers,\n\nGoogle for Startups,\n\nGoogle Developer Experts,\n\nQwiklabs Setup Help!",
+      "icon" : "",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title" : "Track 3"
+    },
+    "120" : {
+      "description" : "Built for Scale with GCP.",
+      "icon" : "light",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
+      "language" : "English",
+      "title" : "Lightning Talk 1",
+      "speakers":["Will_Zhang"]
+    }, "123" : {
+      "complexity" : "Beginner",
+      "description" : "From Zero to Dashboards: Driving Lightweigt Analytics",
+      "language" : "English",
+      "speakers" : [ "Stephen_King","Liam_Goguen" ],
+      "tags" : [ "" ],
+      "title" : "Lightning Talk 2"
+    },
+  
+    "125" : {
+      "complexity" : "",
+      "description" : "Lunch",
+      "language" : "English",
+      "presentation" : "",
+      "tags" : [ "Lunch" ],
+      "title" : "Lunch"
+    }, 
+    "130" : {
+      "complexity" : "Beginner",
+      "description" : "Pepper the Robot - GCPowering a 4-foot-tall humanoid robot",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "Carille_Mendoza" ],
+      "tags" : [ "" ],
+      "title" : "Lightning Talk 3",
+      "videoId" : ""
+    },
+    "132" : {
+      "description" : "Lab 2!",
+      "icon" : "",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title" : "Hands On Lab 2"
+    },    
+    "135" : {
+      "complexity" : "Intermediate",
+      "description" : "Observables & Promises in Firebase, Oh My!",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "Ben_Nakaska" ],
+      "tags" : [ "" ],
+      "title" : "Presentation 2"
+    },
+    "138" : {
+      "description" : "Lab 3!",
+      "icon" : "",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title" : "Hands On Lab 3"
+    },
+    "140" : {
+      "complexity" : "Beginner",
+      "description" : "",
+      "icon" : "coffee-break",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "" ],
+      "tags" : [ "" ],
+      "title" : "Break",
+      "videoId" : ""
+    },
+    "145" : {
+      "complexity" : "Intermediate",
+      "description" : "Building the future of Banking in the Cloud.",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "Karin_Winia" ],
+      "tags" : [ "Cloud" ],
+      "title" : "Presentation 3",
+      "videoId" : ""
+    },
+    "150" : {
+      "complexity" : "Intermediate",
+      "description" : "App Maker + GSuite: My Journey to becoming a Google Developer Expert",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "Cleo_Espiritu" ],
+      "tags" : [ "Cloud" ],
+      "title" : "Lightning Talk 4",
+      "videoId" : ""
+    },
+    "155" : {
+      "complexity" : "",
+      "description" : "",
+      "extend" : 2,
+      "language" : "English",
+      "speakers" : [ "" ],
+      "tags" : [ "" ],
+      "title" : "Closing Keynote"
+    },
+    "160" : {
+      "complexity" : "",
+      "description" : "",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "Greg_Bennett" ],
+      "tags" : [ "" ],
+      "title" : "Closing Comments",
+      "videoId" : ""
+    },
+    "165" : {
+      "complexity" : "",
+      "description" : "TBD",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "" ],
+      "tags" : [ "Cloud" ],
+      "title" : "Giveaways"
+    },
+    "170" : {
+      "complexity" : "",
+      "description" : "",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "" ],
+      "tags" : [ "" ],
+      "title" : "Group photo"
+    },
+    "175" : {
+      "complexity" : "",
+      "description" : "",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "" ],
+      "tags" : [ "" ],
+      "title" : "Clean up"
+    },
+    "180" : {
+      "complexity" : "",
+      "description" : "",
+      "language" : "English",
+      "speakers" : [ "" ],
+      "tags" : [ "" ],
+      "title" : "Cloud Drinks Location: TBD"
+    },
+    "185" : {
+      "complexity" : "Intermediate",
+      "description" : "Microservices is coming with a certain workload and constraints. Let's try to see how Google Cloud Platform and App Engine can help the overall microservices implementation.",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/jean-baptiste-clion-microservices-in-google-app-engine",
+      "speakers" : [ "jean-baptiste_clion" ],
+      "tags" : [ "Cloud" ],
+      "title" : "Microservices in Google App Engine"
+    },
+    "190" : {
+      "complexity" : "Intermediate",
+      "description" : "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful—and underrated—account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
+      "language" : "English",
+      "speakers" : [ 12 ],
+      "tags" : [ "Android" ],
+      "title" : "I’ve been doing some syncing…"
+    },
+    "195" : {
+      "complexity" : "Beginner",
+      "description" : "Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll see how many awesome tricks are needed to make our apps start fast and run smoothly on modern Android devices. Hopefully we'll also answer the most important question -- what's next for Android after Java.",
+      "language" : "English",
+      "presentation" : "https://speakerdeck.com/gdglviv/aleksander-piotrowski-android-tool-chain-and-run-time-improvements-in-n",
+      "speakers" : [ "paul_lammertsma" ],
+      "tags" : [ "Android" ],
+      "title" : "Android tool-chain and run-time improvements in N",
+      "videoId" : ""
+    },
+    "200" : {
+      "complexity" : "Beginner",
+      "description" : "One of my favourite things about the web are ASCII smileys. They're sweet, fun and simply make the web a better place. How could anyone not like them ¯(ツ)/¯?\n\nThis talk is an overdose of smileys, because they're the perfect excuse to get started with Polymer. Polymer is a library built on top of the Web Components standards that helps developers create reusable components for the modern web. And since I know that everybody has been wondering how one could take over the world by creating a suite of Polymer animated emoticon components, we're going to do exactly that.",
+      "language" : "English",
+      "presentation" : "http://carmenpopoviciu.github.io/on-polymer-and-smileys/",
+      "speakers" : [ "aleksander_piotrowski" ],
+      "tags" : [ "Web" ],
+      "title" : "On Polymer and smileys... or Polysmileys"
+    },
+    
+    "205" : {
+      "description" : "Afterparty is a great time to have some fun and meet new people",
+      "icon" : "party",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fparty.jpg?alt=media&token=8e413f01-373a-40bf-bb87-1dcf1d8e6af1",
+      "title" : "Afterparty & Networking"
+    },
+    "210" : {
+      "description" : "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
+      "title" : "Conference closing and contest winners announcements"
+    },
+    "215" : {
+      "description" : "",
+      "language" : "English",
+      "title" : "Keynote"
+    },
+    "220" : {
+      "description" : "TBD",
+      "language" : "English",
+      "title" : "TBD"
+    }
+  },
+  "speakers" : {
+    "Mos_Saleh" : {
+      "bio" : "Google Cloud Architect, currently works at VistaVU. Full Stack Developer. All my free time I spend on learning Flutter and Kotlin!",
+      "company" : "VistaVu",
+      "companyLogo" : "https://devfest-yyc.firebaseapp.com/images/logos/01_Logo.svg",
+      "companyLogoUrl" : "https://devfest-yyc.firebaseapp.com/images/logos/01_Logo.svg",
+      "country" : "Calgary, Canada",
+      "featured" : true,
+      "name" : "Mos Saleh",
+      "photo" : "/images/people/mos.saleh.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/mos.saleh.png",
+      "shortBio" : "Full Stack developer, currently works at VistaVu. Have experience in both server and mobile side develo...",
+      "socials" : [{
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/fermisk/",
+        "name" : "LinkedIn"
+      } ],
+      "title" : "Full Stack Developer"
+    },
+    "Will_Zhang" : {
+      "bio" : "13 Years of experience in managing and delivering advanced analytics solutions in the fields of AI, Software Engineering and Operations Research across various industries including accounting, finance, telecom and energy sectors Co-Founder & CEO of OpenHouse.AI - a Calgary AI startup in Real-Estate Industry. Formerly VP of Engineering for an AI startup in Accounting Industry and the Head of Software Engineering and Architecture for a 1.6B Oil & Gas company Lead architect of a major Canadian telecom company and Europe's largest mobile company, delivered various highly scalable data collection system in many countries collecting millions of data points every day. Lead engineer of  a large hedge fund company in Europe and delivered a high-frequency trading system for foreign exchange and trading coverage.",
+      "company" : "Widespread",
+      "companyLogo" : "/images/logos/openai.svg",
+      "companyLogoUrl" : "",
+      "country" : "Canada",
+      "featured" : false,
+      "name" : "Will Zhang",
+      "photo" : "/images/people/will.zhang.jpg",
+      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/will.zhang.jpg",
+      "shortBio" : "13 Years of experience in managing and delivering advanced analytics solutions in the fields of AI, Software Engineering and Operations Research across various industries including accounting, finance, telecom and energy sectors Co-Founder & CEO of OpenHouse.AI - a Calgary AI startup in Real-Estate Industry. Formerly VP of Engineering for an AI startup in Accounting Industry and the Head of Software Engineering and Architecture for a 1.6B Oil & Gas company Lead architect of a major Canadian telecom company and Europe's largest mobile company, delivered various highly scalable data collection system in many countries collecting millions of data points every day. Lead engineer of  a large hedge fund company in Europe and delivered a high-frequency trading system for foreign exchange and trading coverage.",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/wyhzhang/",
+        "name" : "Google+"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/openhouseai",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "google+",
+        "link" : "https://plus.google.com/discover",
+        "name" : "Google+"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/willzhang",
+        "name" : "Github"
+      } ],
+      "title" : "Co-Founder & CEO of OpenHouse.AI"
+    },
+    "Stephen_King" : {
+      "bio" : "Stephen is the CEO of CMO4Hire, a digital brand marketing firm for B2B companies that drives triple-digit growth and reduces go-to-market complexity. He is also the Chairman and a co-Founder of A100 (www.thea100.org), an organization which aims to inspire and support generations of Alberta tech entrepreneurs. With a computer science degree and 30+ year career in software development & commercialization, Stephen has written over a million lines of code and sold more than $500M in software. He's been a startup founder and a CMO &  Director for large international firms. More information about his company and unique MarTech software solution can be found here: https://www.cmo4hire.com/  and  https://www.dbmms.io/. Stephen's also an accomplished guitarist and musician (https://www.reverbnation.com/stephenking)  Connect with him at https://www.linkedin.com/in/stephenking13/ ",
+      "company" : "Widespread",
+      "companyLogo" : "https://www.cmo4hire.com",
+      "companyLogoUrl" : "",
+      "country" : "Canada",
+      "featured" : false,
+      "name" : "Stephen King",
+      "photo" : "/images/people/stephen.king.jpg",
+      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/stephen.king.jpg",
+      "shortBio" : "Stephen is the CEO of CMO4Hire, a digital brand marketing firm for B2B companies that drives triple-digit growth and reduces go-to-market complexity. He is also the Chairman and a co-Founder of A100 (www.thea100.org), an organization which aims to inspire and support generations of Alberta tech entrepreneurs. With a computer science degree and 30+ year career in software development & commercialization, Stephen has written over a million lines of code and sold more than $500M in software. He's been a startup founder and a CMO &  Director for large international firms. More information about his company and unique MarTech software solution can be found here: https://www.cmo4hire.com/  and  https://www.dbmms.io/. Stephen's also an accomplished guitarist and musician (https://www.reverbnation.com/stephenking)  Connect with him at https://www.linkedin.com/in/stephenking13/ ",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/stephenking13/",
+        "name" : "Google+"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/stephdokin",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "google+",
+        "link" : "https://plus.google.com/+Stephdokin/posts",
+        "name" : "Google+"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/Stephdokin",
+        "name" : "Github"
+      } ],
+      "title" : "CEO of CMO4Hire"
+    },
+    "Liam_Goguen" : {
+      "bio" : "I have been with CMO4Hire since May 2017. Within my role as the data scientist at the company, I have worked to optimize certain processes we use to serve clients and helped develop our data tracking, reporting and forecasting infrastructure, DBMMS.io, CMO4Hire's agile marketing platform. Previously, I worked approximately six years in financial advisory and equity research roles in Calgary. My skillset includes data trend analysis/forecasting, financial modeling/analysis/valuations, industry/company research, database creation/maintenance/optimization, analyzing financing proposals and key commercial agreements and financial due diligence. I have a Bachelor of Business Administration degree with a concentration in Finance from the Williams School of Business at Bishop's University, Quebec.",
+      "company" : "Widespread",
+      "companyLogo" : "https://www.cmo4hire.com",
+      "companyLogoUrl" : "",
+      "country" : "Canada",
+      "featured" : false,
+      "name" : "Liam Goguen",
+      "photo" : "/images/people/liam.goguen.jpg",
+      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/liam.goguen.jpg",
+      "shortBio" : "I have been with CMO4Hire since May 2017. Within my role as the data scientist at the company, I have worked to optimize certain processes we use to serve clients and helped develop our data tracking, reporting and forecasting infrastructure, DBMMS.io, CMO4Hire's agile marketing platform. Previously, I worked approximately six years in financial advisory and equity research roles in Calgary. My skillset includes data trend analysis/forecasting, financial modeling/analysis/valuations, industry/company research, database creation/maintenance/optimization, analyzing financing proposals and key commercial agreements and financial due diligence. I have a Bachelor of Business Administration degree with a concentration in Finance from the Williams School of Business at Bishop's University, Quebec.",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/liam-goguen/",
+        "name" : "Google+"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/ElPeeEmGee",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "google+",
+        "link" : "https://plus.google.com/u/2/107470163434001155635",
+        "name" : "Google+"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/swan89",
+        "name" : "Github"
+      } ],
+      "title" : "CEO of CMO4Hire"
+    },
+    "Greg_Bennett" : {
+      "bio" : "",
+      "company" : "Widespread",
+      "companyLogo" : "https://www.cmo4hire.com",
+      "companyLogoUrl" : "",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Greg Bennett",
+      "photo" : "/images/people/greg.bennett.png",
+      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/greg.bennett.png",
+      "shortBio" : "",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/gregbennettio/",
+        "name" : "Google+"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/recrdx",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "google+",
+        "link" : "",
+        "name" : "Google+"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/gregbennettio",
+        "name" : "Github"
+      } ],
+      "title" : "Founder, GDG Cloud Calgary"
+    },
+    "Suryatapa_Roy" : {
+      "bio" : "Recently graduated research assistant working on Artificial Intelligence (AI) for Virtual Reality (VR). Works as a Technology Coach and Unity Instructor/Developer. Passionate about developing  futuristic applications for the present.",
+      "company" : "",
+      "companyLogo" : "https://www.https://simplestepstech.wordpress.com/",
+      "companyLogoUrl" : "",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Suryatapa Roy",
+      "photo" : "/images/people/Suryatapa.roy.png",
+      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/suryatapa.roy.png",
+      "shortBio" : "Recently graduated research assistant working on Artificial Intelligence (AI) for Virtual Reality (VR). Works as a Technology Coach and Unity Instructor/Developer. Passionate about developing  futuristic applications for the present.",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/suryataparoy/",
+        "name" : "Google+"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/suryatapa",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "google+",
+        "link" : "",
+        "name" : "Google+"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/suryatapavi",
+        "name" : "Github"
+      } ],
+      "title" : ""
+    },
+    "Karin_Winia" : {
+      "bio" : "IT professional with over 15+ years experience in the industry.  I started out as a Java developer after graduating from the University of Alberta.  I moved into the application integration space after joining ATB and haven't looked back since.  I am now overseeing building out a Digital Platform in the Cloud that will allow ATB to be a leader in technology solutions for Banking.",
+      "company" : "",
+      "companyLogo" : "https://www.https://simplestepstech.wordpress.com/",
+      "companyLogoUrl" : "",
+      "country" : "Canada",
+      "featured" : false,
+      "name" : "Karin Winia",
+      "photo" : "/images/people/karin.winia.png",
+      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/karin.winia.png",
+      "shortBio" : "IT professional with over 15+ years experience in the industry.  I started out as a Java developer after graduating from the University of Alberta.  I moved into the application integration space after joining ATB and haven't looked back since.  I am now overseeing building out a Digital Platform in the Cloud that will allow ATB to be a leader in technology solutions for Banking.",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/karin-winia-6224b7/",
+        "name" : "Google+"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/atbfinancial",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "google+",
+        "link" : "",
+        "name" : "Google+"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/",
+        "name" : "Github"
+      } ],
+      "title" : ""
+   },
+   "Cam_Crockett" : {
+    "bio" : "I started as a developer in Calgary working for a few different companies where I not only got to improve my development skills across a variety of industries but  was also part of teams implementing DevOps and Agile processes within the enterprise. I've spent time as a Solution Architect and the last year at Google as part of their Customer Engineering team where I get to spend time working with customers building out cool solutions on top of Google's Cloud Platform.",
+    "company" : "",
+    "companyLogo" : "http://www.google.com",
+    "companyLogoUrl" : "",
+    "country" : "Canada",
+    "featured" : true,
+    "name" : "Cam Crockett",
+    "photo" : "/images/people/cam.crockett.png",
+    "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/cam.crockett.png",
+    "shortBio" : "I started as a developer in Calgary working for a few different companies where I not only got to improve my development skills across a variety of industries but  was also part of teams implementing DevOps and Agile processes within the enterprise. I've spent time as a Solution Architect and the last year at Google as part of their Customer Engineering team where I get to spend time working with customers building out cool solutions on top of Google's Cloud Platform.",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/camcrockett/",
+      "name" : "Google+"
+    }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/camcrocket",
+      "name" : "Twitter"
+    },
+     {
+      "icon" : "google+",
+      "link" : "",
+      "name" : "Google+"
+    },
+     {
+      "icon" : "github",
+      "link" : "https://github.com/camcrockett/",
+      "name" : "Github"
+    } ],
+    "title" : ""
+  }
+, "Chris_Chen" : {
+  "bio" : "",
+  "company" : "",
+  "companyLogo" : "http://www.google.com",
+  "companyLogoUrl" : "",
+  "country" : "Canada",
+  "featured" : true,
+  "name" : "Chris Chen",
+  "photo" : "/images/people/google.gcp.png",
+  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/google.gcp.png",
+  "shortBio" : "",
+  "socials" : [ {
+    "icon" : "linkedin",
+    "link" : "https://www.linkedin.com/",
+    "name" : "Google+"
+  }, {
+    "icon" : "twitter",
+    "link" : "https://twitter.com/",
+    "name" : "Twitter"
+  },
+   {
+    "icon" : "google+",
+    "link" : "",
+    "name" : "Google+"
+  },
+   {
+    "icon" : "github",
+    "link" : "https://github.com/",
+    "name" : "Github"
+  } ],
+  "title" : ""
+},"Carille_Mendoza" : {
+  "bio" : "",
+  "company" : "",
+  "companyLogo" : "http://www.google.com",
+  "companyLogoUrl" : "",
+  "country" : "Canada",
+  "featured" : true,
+  "name" : "Carille Mendoza",
+  "photo" : "/images/people/Carille.Mendoza.jpg",
+  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Carille.Mendoza.jpg",
+  "shortBio" : "",
+  "socials" : [ {
+    "icon" : "linkedin",
+    "link" : "https://www.linkedin.com/",
+    "name" : "Google+"
+  }, {
+    "icon" : "twitter",
+    "link" : "https://twitter.com/",
+    "name" : "Twitter"
+  },
+   {
+    "icon" : "google+",
+    "link" : "",
+    "name" : "Google+"
+  },
+   {
+    "icon" : "github",
+    "link" : "https://github.com/",
+    "name" : "Github"
+  } ],
+  "title" : ""
+},"Ben_Nakaska" : {
+  "bio" : "",
+  "company" : "",
+  "companyLogo" : "http://www.google.com",
+  "companyLogoUrl" : "",
+  "country" : "Canada",
+  "featured" : true,
+  "name" : "Ben Nakaska",
+  "photo" : "/images/people/Ben.Nakaska.jpg",
+  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Ben.Nakaska.jpg",
+  "shortBio" : "",
+  "socials" : [ {
+    "icon" : "linkedin",
+    "link" : "https://www.linkedin.com/",
+    "name" : "Google+"
+  }, {
+    "icon" : "twitter",
+    "link" : "https://twitter.com/",
+    "name" : "Twitter"
+  },
+   {
+    "icon" : "google+",
+    "link" : "",
+    "name" : "Google+"
+  },
+   {
+    "icon" : "github",
+    "link" : "https://github.com/",
+    "name" : "Github"
+  } ],
+  "title" : ""
+},"Cleo_Espiritu" : {
+  "bio" : "",
+  "company" : "",
+  "companyLogo" : "http://www.google.com",
+  "companyLogoUrl" : "",
+  "country" : "Canada",
+  "featured" : true,
+  "name" : "Cleo Espiritu",
+  "photo" : "/images/people/Cleo.Espiritu.png",
+  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Cleo.Espiritu.png",
+  "shortBio" : "",
+  "socials" : [ {
+    "icon" : "linkedin",
+    "link" : "https://www.linkedin.com/",
+    "name" : "Google+"
+  }, {
+    "icon" : "twitter",
+    "link" : "https://twitter.com/",
+    "name" : "Twitter"
+  },
+   {
+    "icon" : "google+",
+    "link" : "",
+    "name" : "Google+"
+  },
+   {
+    "icon" : "github",
+    "link" : "https://github.com/",
+    "name" : "Github"
+  } ],
+  "title" : ""
+}
+
+
+
+
+
+  },
+  "team" : [
+    {
+    "members" : [
+    {
+      "name" : "Greg Bennett",
+      "photo" : "/images/people/greg.bennett.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/greg.bennett.png",
+      "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/gregbennettio/",
+      "name" : "Linkedin+"
+      }, { 
+      "icon" : "gplus",
+      "link" : "https://plus.google.com/113957084984388645066",
+      "name" : "Google+"
+      },{
+      "icon" : "facebook",
+      "link" : "https://www.facebook.com/recrdx",
+      "name" : "Facebook"
+      }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/recrdx",
+      "name" : "Twitter"
+      },{
+      "icon" : "website",
+      "link" : "https://www.gregbennett.io",
+      "name" : "Blog"
+      } ],
+      "title" : "Founder and Program Manager"
+      },
+    {
+      "name" : "Mos Saleh",
+      "photo" : "/images/people/mos.saleh.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/mos.saleh.png",
+      "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/fermisk/",
+      "name" : "Linkedin"
+      },{
+      "icon" : "gplus",
+      "link" : "https://plus.google.com/u/0/111210719993935219678",
+      "name" : "Google+"
+      },{
+      "icon" : "twitter",
+      "link" : "https://twitter.com/gdgcloudyyc",
+      "name" : "Twitter"
+      }, {
+      "icon" : "website",
+      "link" : "https://www.gdgcloudcalgary.com/",
+      "name" : "Blog"
+      }
+     ],
+      "title" : "Cloud Architect and Full Stack Developer"
+      },
+    {
+      "name" : "Mike Hoff",
+      "photo" : "/images/people/mike.hoff.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/mike.hoff.png",
+      "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/mikehoff321/",
+      "name" : "Linkedin"
+      },{ 
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/111727949510542626222",
+        "name" : "Google+"
+        },
+      {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/gdgcloudyyc",
+      "name" : "Twitter"
+      }, {
+      "icon" : "website",
+      "link" : "https://www.gdgcloudcalgary.com/",
+      "name" : "Blog"
+      } ],
+      "title" : "Event Organizers"
+      },
+      {
+        "name" : "Kiley Carson",
+        "photo" : "/images/people/kiley.carson.png",
+        "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/kiley.carson.png",
+        "socials" : [{
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/kiley-carson/",
+        "name" : "Linkedin"
+        },{ 
+          "icon" : "gplus",
+          "link" : "https://plus.google.com/u/0/106537843298738395920",
+          "name" : "Google+"
+          },{
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/kiley.carson",
+        "name" : "Facebook"
+        },{
+        "icon" : "twitter",
+        "link" : "https://twitter.com/gdgcloudyyc",
+        "name" : "Twitter"
+        },{
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+        }],
+        "title" : "Web Developer"
+        },
+    {
+      "name" : "David Shen",
+      "photo" : "/images/people/david.shen.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/david.shen.png",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/david-shen-02662369/",
+        "name" : "Linkedin"
+        }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/gdgcloudyyc",
+        "name" : "Twitter"
+        },{
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+      }],
+      "title" : "Sponsors"
+    }, 
+    {
+      "name" : "Laura Grant",
+      "photo" : "/images/people/laura.grant.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/laura.grant.png",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/laura-grant-967b8a32/",
+        "name" : "Linkedin"
+        },{
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/105187113408342822441",
+        "name" : "Google+"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/laura.grant.18488/",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/gdgcloudyyc",
+        "name" : "Twitter"
+      }, {
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+      } ],
+      "title" : "Sponsors"
+    },
+    
+
+    {
+      "name" : "Stefania Sanson",
+      "photo" : "/images/people/stefania.sanson.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/stefania.sanson.png",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/stefaniasanson/",
+        "name" : "Linkedin"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/115296974125316814676",
+        "name" : "Google+"
+      },{
+        "icon" : "twitter",
+        "link" : "https://twitter.com/gdgcloudyyc",
+        "name" : "Twitter"
+      }, {
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+      } ],
+      "title" : "Sponsors"
+    }
+    
+    ,
+    {
+      "name" : "Jenny Ye",
+      "photo" : "/images/people/jenny.ye.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/jenny.ye.png",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/jenny-ye-5362562/",
+        "name" : "Linkedin+"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/107228585683101293797",
+        "name" : "Google+"
+      },{
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/jenny.ye",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/gdgcloudyyc",
+        "name" : "Twitter"
+      }, {
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+      } ],
+      "title" : "Sponsors"
+    }
+    ,
+    
+    {
+      "name" : "Raymond Efegoma",
+      "photo" : "/images/people/raymond.efegoma.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/raymond.efegoma.png",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/raymond-efegoma/",
+        "name" : "Linkedin"
+        }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/raymond.efegoma/",
+        "name" : "Facebook"
+      },{
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/103170819600463615289",
+        "name" : "Google+"
+      },
+      {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/koolrays2000?s=09",
+        "name" : "Twitter"
+      },{
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+      }
+       ],
+      "title" : "Social and media"
+    },
+    {
+      "name" : "Sylvain Robichaud",
+      "photo" : "/images/people/sylvain.robichaud.gif", 
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/sylvain.robichaud.gif",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/sylvainrobichaud/",
+        "name" : "Linkedin"
+        },{
+          "icon" : "gplus",
+          "link" : "https://plus.google.com/u/0/113821029490767745772",
+          "name" : "Google+"
+        },
+      {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/gdgcloudyyc",
+        "name" : "Twitter"
+      },{
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+      }],
+      "title" : "Social and media"
+    }, 
+    
+    {
+      "name" : "Stephanie McGuire",
+      "photo" : "/images/people/stephanie.mcguire.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/stephanie.mcguire.png",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/stephanie-mcguire-50401347/",
+        "name" : "Linkedin"
+        },{
+          "icon" : "gplus",
+          "link" : "https://plus.google.com/u/0/100127602250656056397",
+          "name" : "Google+"
+        },{
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/stephanie.mcguire.98",
+        "name" : "Facebook"
+      },
+      {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/stephtastique",
+        "name" : "Twitter"
+      },{
+        "icon" : "website",
+        "link" : "http://www.gdgcloudcalgary.com/",
+        "name" : "Blog"
+      }],
+      "title" : "Social and media"
+    } 
+  
+  
+  ],
+    "title" : "Core Team"
+  }, {
+    "members" : [ {
+      "name" : "Greg Bennett",
+      "photo" : "/images/people/greg.bennett.png",
+      "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/greg.bennett.png",
+      "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/gregbennettio/",
+      "name" : "Linkedin+"
+      }, {
+      "icon" : "facebook",
+      "link" : "https://www.facebook.com/recrdx",
+      "name" : "Facebook"
+      }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/recrdx",
+      "name" : "Twitter"
+      },{ 
+      "icon" : "gplus",
+      "link" : "https://plus.google.com/113957084984388645066",
+      "name" : "Google+"
+      },{
+      "icon" : "website",
+      "link" : "https://www.gregbennett.io",
+      "name" : "Blog"
+      } ],
+      "title" : "Founder and Program Manager"
+      }
+     ],
+    "title" : "Program Committee"
+  } 
+
+],
+"tickets" : [{
+  "available" : true,
+  "currency" : "",
+  "ends" : "November 1st",
+  "inDemand" : false,
+  "info" : "Or first 100 tickets",
+  "name" : "Regular",
+  "price" : "FREE",
+  "primary" : true,
+  "regular" : true,
+  "soldOut" : false,
+  "starts" : "Oct 01",
+  "url" : "https://www.meetup.com/gdgcloudcalgary/events/255123878/"
+}]
+  
+  ,
+  "triggers" : {
+    "images" : false
+  },
+  "videos" : [ {
+    "speakers" : "Yonatan Levin",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(65).jpg?alt=media&token=f25f04cf-9a10-42ed-b2ff-e41fad910c39",
+    "title" : "Making mistakes and building products from 1st to 30M users",
+    "youtubeId" : "hUY8jg9-ieE"
+  }, {
+    "speakers" : "Britt Barak",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(92).jpg?alt=media&token=0dfc3002-6d6e-4e9f-8518-5941fc501a04",
+    "title" : "When your app is asleep",
+    "youtubeId" : "D6WEL_inXxk"
+  }, {
+    "speakers" : "Ihor Dvoretskyi",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(466).jpg?alt=media&token=76a822f9-9d82-4d5e-83ad-5e3f1593f2fe",
+    "title" : "Welcome to the world of Open Source. Stories by Kubernetes contributor",
+    "youtubeId" : "HhpHf3GefXI"
+  }, {
+    "speakers" : "Joanna Chwastowska",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(469).jpg?alt=media&token=80669b99-81f4-4d7d-8160-e0174da62b85",
+    "title" : "100x impact - from an Individual Contributor to Technical Leader",
+    "youtubeId" : "O1dtdDpQXU8"
+  } ],
+  "previousSpeakers": {
+    "adrian_kajda" : {
+      "bio" : "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.",
+      "company" : "Sygic",
+      "companyLogo" : "https://dfua16.firebaseapp.com//images/logos/sygic.svg",
+      "country" : "Poland",
+      "id" : "adrian_kajda",
+      "name" : "Adrian Kajda",
+      "order" : 6,
+      "photoUrl" : "https://dfua16.firebaseapp.com//images/people/adrian_kajda.jpg",
+      "sessions" : {
+        "2016" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/adrian-kajda-fuelio-success-story",
+          "tags" : [ "Android" ],
+          "title" : "Fuelio. Success story",
+          "videoId" : "qK7ysoohsaM"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "plus.google.com/+AdrianKajda",
+        "name" : "Google+"
+      } ],
+      "title" : "Product Manager/Developer"
+    },
+    "aleksander_piotrowski" : {
+      "bio" : "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)",
+      "company" : "Applause",
+      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/applause.png",
+      "country" : "Poland",
+      "id" : "aleksander_piotrowski",
+      "name" : "Aleksander Piotrowski",
+      "order" : 1,
+      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/aleksander_piotrowski.jpg",
+      "sessions" : {
+        "2016" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/aleksander-piotrowski-android-tool-chain-and-run-time-improvements-in-n",
+          "tags" : [ "Android" ],
+          "title" : "Android tool-chain and run-time improvements in N",
+          "videoId" : "WqULb6bdwwg"
+        } ],
+        "2017" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/aleksander-piotrowski-is-there-a-room-for-room",
+          "tags" : [ "Android", "Room" ],
+          "title" : "Is there a room for Room?",
+          "videoId" : "BHiKSnOaoh4"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/pelotasplus",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://linkedin.com/in/pelotasplus",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://facebook.com/pelotasplus",
+        "name" : "Facebook"
+      }, {
+        "icon" : "github",
+        "link" : "https://github.com/pelotasplus",
+        "name" : "GitHub"
+      } ],
+      "title" : "Code monkey"
+    },
+    "anton_minashkin" : {
+      "bio" : "Android developer, currently works at EPAM Systems Calgary. Has experience in both server and mobile side development. Anton all his free time spends on the endless search of silver bullets, perfect architectures and holy wars",
+      "company" : "EPAM",
+      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/epam.svg",
+      "country" : "Calgary",
+      "id" : "anton_minashkin",
+      "name" : "Anton Minashkin",
+      "order" : 17,
+      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/minashkin_anton.jpg",
+      "sessions" : {
+        "2015" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/anton-minashkin-data-binding",
+          "tags" : [ "Android", "Marshmallow" ],
+          "title" : "Data Binding. Next big thing?"
+        } ],
+        "2016" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/anton-minashkin-exoplayer-media-playback-without-pain-almost-dot-dot-dot",
+          "tags" : [ "Android" ],
+          "title" : "ExoPlayer: Media playback without pain (almost...)"
+        } ],
+        "2017" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/anton-minashkin-random-musings-on-the-android-things",
+          "tags" : [ "Android", "IoT" ],
+          "title" : "Random Musings on the Android Things",
+          "videoId" : "NCRr4nA0c7A"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/anton.minashkin.1",
+        "name" : "Facebook"
+      } ],
+      "title" : "Chief Software Engineer"
+    },
+    "carmen_popovicu" : {
+      "bio" : "Carmen is a front-end engineer and a #1 fan of dev communities. She loves Angular but has since recently developed feelings for Polymer too. She strongly believes that adding at least one ASCII smiley in your emails will make the world a better place and hopes to one day make a difference for the web with the code she writes. If she had super powers, she would smiley all the things.",
+      "company" : "Widespread",
+      "companyLogo" : "https://dfua16.firebaseapp.com//images/logos/widespread.png",
+      "country" : "Romania",
+      "id" : "carmen_popovicu",
+      "name" : "Carmen Popovicu",
+      "order" : 3,
+      "photoUrl" : "https://dfua16.firebaseapp.com//images/people/carmen_popovicu.jpg",
+      "sessions" : {
+        "2016" : [ {
+          "presentation" : "http://carmenpopoviciu.github.io/on-polymer-and-smileys/",
+          "tags" : [ "Web" ],
+          "title" : "On Polymer and smileys... or Polysmileys"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/u/0/118143942632321563925/",
+        "name" : "Google+"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/CarmenPopoviciu",
+        "name" : "Twitter"
+      } ],
+      "title" : "Front-end Engineer"
+    },
+    "denis_radin" : {
+      "bio" : "Passionate about computer graphics and code optimization, mastering workshop http://challengingnative.com, hosting http://react.asmterdam and http://amsterdamjs.com",
+      "company" : "Evolution Gaming",
+      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/evolution-gaming.png",
+      "country" : "Netherlands",
+      "id" : "denis_radin",
+      "name" : "Denis Radin",
+      "order" : 7,
+      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/denis_radin.jpg",
+      "sessions" : {
+        "2017" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/denis-radin-applying-nasa-coding-guidelines-to-javascript-or-airspace-is-closer-than-you-may-think",
+          "tags" : [ "Web" ],
+          "title" : "Applying NASA coding guidelines to JavaScript or airspace is closer than you may think",
+          "videoId" : "E4fpZm17GNI"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "github",
+        "link" : "https://github.com/PixelsCommander",
+        "name" : "GitHub"
+      } ],
+      "title" : "Senior JS Engineer"
+    },
+    "dmytro_danylyk" : {
+      "bio" : "Dmytro is a developer, writer, speaker. He live in Lviv - a quaint and beautiful city. He is passionate about android and flat design. Currently Dmytro works for a startup Timee where he develop Android application and he love what he do.",
+      "company" : "Timee",
+      "companyLogo" : "https://dfua16.firebaseapp.com//images/logos/timee.png",
+      "country" : "Calgary",
+      "id" : "dmytro_danylyk",
+      "name" : "Dmytro Danylyk",
+      "order" : 15,
+      "photoUrl" : "https://dfua16.firebaseapp.com//images/people/dmytro_danylyk.jpg",
+      "sessions" : {
+        "2014" : [ {
+          "tags" : [ "TOPIC_ANDROID", "LANG_UK", "THEME_INTERMEDIATE" ],
+          "title" : "Android L Animation"
+        } ],
+        "2015" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/dmytro-danylyk-planning-android-screens",
+          "tags" : [ "Android", "UX" ],
+          "title" : "Planning Android Screens"
+        } ],
+        "2016" : [ {
+          "presentation" : "https://speakerdeck.com/gdglviv/dmytro-danylyk-kotlin-plus-android",
+          "tags" : [ "Android" ],
+          "title" : "Kotlin + Android"
+        } ]
+      },
+      "socials" : [ {
+        "icon" : "website",
+        "link" : "http://www.dmytrodanylyk.com",
+        "name" : "Website"
+      }, {
+        "icon" : "website",
+        "link" : "http://slides.com/dmytrodanylyk",
+        "name" : "Website"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/dmytrodanylyk",
+        "name" : "Twitter"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+DmytroDanylyk",
+        "name" : "Google+"
+      } ],
+      "title" : "Senior Android Developer"
+    }
+  }
+}

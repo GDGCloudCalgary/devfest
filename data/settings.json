@@ -1,12 +1,12 @@
 {
   "organizer": {
-    "name": "GDG Cloud Calgary",
+    "name": "GDGYYC",
     "twitter": "gdgcloudyyc",
     "blog": "https://medium.com/gdgyyc",
-    "url": "http://www.gdgcloudcalgary.com/"
+    "url": "http://www.gdgyyc.com/"
   },
-  "startDate": "2018-11-03T09:00:00+03:00",
-  "endDate": "2018-11-03T19:00:00+03:00",
+  "startDate": "2019-11-22T09:00:00+03:00",
+  "endDate": "2019-11-23T19:00:00+03:00",
   "webapp": {
     "shortName": "DevFest",
     "themeColor": "#673AB7",
@@ -15,7 +15,7 @@
   "dateFormat": {
     "locale": "en-US"
   },
-  "hashtag": "DevFest18",
+  "hashtag": "DevFest19",
   "disabledSchedule": false,
   "showSessionShortAbstract": true,
   "navigation": [
@@ -47,7 +47,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Let’s Build What’s Next!",
+      "description": "Build What’s Next. Together.",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -127,7 +127,7 @@
       "latitude": 51.011,
       "longitude": -114.127
     },
-    "description": "GDG Cloud Calgary will be hosting DevFest 2018 at the ultra modern Riddell Library at Mount Royal University. 74 Mt Royal Cir SW, Calgary" 
+    "description": "GDGYYC will be hosting DevFest 2019 at the ultra modern Calgary Public Library" 
   },
   "mediaQueries": {
     "xs": {
@@ -179,7 +179,7 @@
       }
     ]
   },
-  "mailto": "devfest@gdgcloudcalgary.com",
+  "mailto": "speakers@gdgyyc.com",
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
