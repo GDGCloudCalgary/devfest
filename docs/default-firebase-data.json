@@ -3,7 +3,7 @@
     "callforspeaker" : {
       "backgroundColor" : "#3647a5",
       "brief" : "We’re looking for speakers! ",
-      "content" : "DevFest Calgary is bringing over 100 developers together **November 3** together in Calgary in the beautiful Riddel Library at MRU. Our focus is the content. **We’re looking for speakers like you**, who are ready to rock the stage and deliver the best talk or workshop in the field. <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfest18callforspeakersdoc\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div> </br> Why is it cool to speak at the DevFest? </br>DevFest Calgary is not an ordinary tech conference, besides selecting only the best speakers, we help them to succeed in delivering an exceptional quality talk on the stage.  Here are few perks that all our speakers get: </br>**Exposure**. By being a speaker, you are proving your level of expertise to a potential business partners or employers. Your talk will be promoted in our online resources and recording published in YouTube channel. </br>**Unique networking**. Being a speaker means you’ll have the unique chance to network with other speakers - the best experts in the industry. </br>**Coaching**. We're in the same boat, after being selected as a speaker our program committee will help you to deliver the best talk possible. We provide information about the audience, presentation templates, feedback on the slides, all to help you to prepare.<br> What are we looking for? We're looking for **experience-based talks**, the information that can not be found in the documentation or easily googled. We're looking for your stories, your struggles, research results and experiences with the frontier tools or technologies. Check the [list of topics](https://codelabs.developers.google.com/devfest18) we're interested in (it is not full and updated all the time). You can submit as many talks as you want. This year we accept submissions in two formats: </br> - 45 minutes sessions </br>- 10 Minute Lightning Talks </br>- 1-2 hour workshops </br></br>Talks that will not pass initial review: </br>- Talks about a specific tool/library/project explaining how it works or how to use it. </br>- Talks whose focus is pitching a company or project. It’s cool that you mention your company during the presentation, but it shouldn’t be the focus of the talk. </br>- Proposals that are not in English. </br>- Recruitment talks to attract talent. </br></br>We strongly recommend you check out [speaking.io](http://speaking.io) website from Zach Holman. It includes good tips and guidelines for speakers. </br>Timeline ** Call for Papers submission deadline is October 15, 2018**. Submission results will be announced by October 20. Any questions? Email organizers at speakers@gdgcloudcalgary.com <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfest18callforspeakersdoc\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div>",
+      "content" : "DevFest Calgary is bringing over 100 developers together **November 3** together in Calgary in the beautiful Riddel Library at MRU. Our focus is the content. **We’re looking for speakers like you**, who are ready to rock the stage and deliver the best talk or workshop in the field. <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfest18callforspeakersdoc\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div> </br> Why is it cool to speak at the DevFest? </br>DevFest Calgary is not an ordinary tech conference, besides selecting only the best speakers, we help them to succeed in delivering an exceptional quality talk on the stage.  Here are few perks that all our speakers get: </br>**Exposure**. By being a speaker, you are proving your level of expertise to a potential business partners or employers. Your talk will be promoted in our online resources and recording published in YouTube channel. </br>**Unique networking**. Being a speaker means you’ll have the unique chance to network with other speakers - the best experts in the industry. </br>**Coaching**. We're in the same boat, after being selected as a speaker our program committee will help you to deliver the best talk possible. We provide information about the audience, presentation templates, feedback on the slides, all to help you to prepare.<br> What are we looking for? We're looking for **experience-based talks**, the information that can not be found in the documentation or easily googled. We're looking for your stories, your struggles, research results and experiences with the frontier tools or technologies. Check the [list of topics](https://codelabs.developers.google.com/devfest18) we're interested in (it is not full and updated all the time). You can submit as many talks as you want. This year we accept submissions in two formats: </br> - 45 minutes sessions </br>- 10 Minute Lightning Talks </br>- 1-2 hour workshops </br></br>Talks that will not pass initial review: </br>- Talks about a specific tool/library/project explaining how it works or how to use it. </br>- Talks whose focus is pitching a company or project. It’s cool that you mention your company during the presentation, but it shouldn’t be the focus of the talk. </br>- Proposals that are not in English. </br>- Recruitment talks to attract talent. </br></br>We strongly recommend you check out [speaking.io](http://speaking.io) website from Zach Holman. It includes good tips and guidelines for speakers. </br>Timeline ** Call for Papers submission deadline is October 15, 2018**. Submission results will be announced by October 20. Any questions? Email organizers at speakers@gdgyyc.com <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfest18callforspeakersdoc\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div>",
       "image" : "/images/posts/callforspeaker.jpg",
       "published" : "2018-10-01",
       "source" : "/data/posts/2017-02-12-c4p.md",
@@ -506,7 +506,7 @@
       "featured" : false,
       "name" : "Will Zhang",
       "photo" : "/images/people/will.zhang.jpg",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/will.zhang.jpg",
+      "photoUrl" : "https://devfest.gdgyyc.com/images/people/will.zhang.jpg",
       "shortBio" : "13 Years of experience in managing and delivering advanced analytics solutions in the fields of AI, Software Engineering and Operations Research across various industries including accounting, finance, telecom and energy sectors Co-Founder & CEO of OpenHouse.AI - a Calgary AI startup in Real-Estate Industry. Formerly VP of Engineering for an AI startup in Accounting Industry and the Head of Software Engineering and Architecture for a 1.6B Oil & Gas company Lead architect of a major Canadian telecom company and Europe's largest mobile company, delivered various highly scalable data collection system in many countries collecting millions of data points every day. Lead engineer of  a large hedge fund company in Europe and delivered a high-frequency trading system for foreign exchange and trading coverage.",
       "socials" : [ {
         "icon" : "linkedin",
@@ -539,7 +539,7 @@
       "featured" : false,
       "name" : "Stephen King",
       "photo" : "/images/people/stephen.king.jpg",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/stephen.king.jpg",
+      "photoUrl" : "https://devfest.gdgyyc.com/images/people/stephen.king.jpg",
       "shortBio" : "Stephen is the CEO of CMO4Hire, a digital brand marketing firm for B2B companies that drives triple-digit growth and reduces go-to-market complexity. He is also the Chairman and a co-Founder of A100 (www.thea100.org), an organization which aims to inspire and support generations of Alberta tech entrepreneurs. With a computer science degree and 30+ year career in software development & commercialization, Stephen has written over a million lines of code and sold more than $500M in software. He's been a startup founder and a CMO &  Director for large international firms. More information about his company and unique MarTech software solution can be found here: https://www.cmo4hire.com/  and  https://www.dbmms.io/. Stephen's also an accomplished guitarist and musician (https://www.reverbnation.com/stephenking)  Connect with him at https://www.linkedin.com/in/stephenking13/ ",
       "socials" : [ {
         "icon" : "linkedin",
@@ -572,7 +572,7 @@
       "featured" : false,
       "name" : "Liam Goguen",
       "photo" : "/images/people/liam.goguen.jpg",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/liam.goguen.jpg",
+      "photoUrl" : "https://devfest.gdgyyc.com/images/people/liam.goguen.jpg",
       "shortBio" : "I have been with CMO4Hire since May 2017. Within my role as the data scientist at the company, I have worked to optimize certain processes we use to serve clients and helped develop our data tracking, reporting and forecasting infrastructure, DBMMS.io, CMO4Hire's agile marketing platform. Previously, I worked approximately six years in financial advisory and equity research roles in Calgary. My skillset includes data trend analysis/forecasting, financial modeling/analysis/valuations, industry/company research, database creation/maintenance/optimization, analyzing financing proposals and key commercial agreements and financial due diligence. I have a Bachelor of Business Administration degree with a concentration in Finance from the Williams School of Business at Bishop's University, Quebec.",
       "socials" : [ {
         "icon" : "linkedin",
@@ -605,7 +605,7 @@
       "featured" : true,
       "name" : "Greg Bennett",
       "photo" : "/images/people/greg.bennett.png",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/greg.bennett.png",
+      "photoUrl" : "https://devfest.gdgyyc.com/images/people/greg.bennett.png",
       "shortBio" : "",
       "socials" : [ {
         "icon" : "linkedin",
@@ -638,7 +638,7 @@
       "featured" : true,
       "name" : "Suryatapa Roy",
       "photo" : "/images/people/Suryatapa.roy.png",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/suryatapa.roy.png",
+      "photoUrl" : "https://devfest.gdgyyc.com/images/people/suryatapa.roy.png",
       "shortBio" : "Recently graduated research assistant working on Artificial Intelligence (AI) for Virtual Reality (VR). Works as a Technology Coach and Unity Instructor/Developer. Passionate about developing  futuristic applications for the present.",
       "socials" : [ {
         "icon" : "linkedin",
@@ -671,7 +671,7 @@
       "featured" : false,
       "name" : "Karin Winia",
       "photo" : "/images/people/karin.winia.png",
-      "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/karin.winia.png",
+      "photoUrl" : "https://devfest.gdgyyc.com/images/people/karin.winia.png",
       "shortBio" : "IT professional with over 15+ years experience in the industry.  I started out as a Java developer after graduating from the University of Alberta.  I moved into the application integration space after joining ATB and haven't looked back since.  I am now overseeing building out a Digital Platform in the Cloud that will allow ATB to be a leader in technology solutions for Banking.",
       "socials" : [ {
         "icon" : "linkedin",
@@ -704,7 +704,7 @@
     "featured" : true,
     "name" : "Cam Crockett",
     "photo" : "/images/people/cam.crockett.png",
-    "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/cam.crockett.png",
+    "photoUrl" : "https://devfest.gdgyyc.com/images/people/cam.crockett.png",
     "shortBio" : "I started as a developer in Calgary working for a few different companies where I not only got to improve my development skills across a variety of industries but  was also part of teams implementing DevOps and Agile processes within the enterprise. I've spent time as a Solution Architect and the last year at Google as part of their Customer Engineering team where I get to spend time working with customers building out cool solutions on top of Google's Cloud Platform.",
     "socials" : [ {
       "icon" : "linkedin",
@@ -737,7 +737,7 @@
   "featured" : true,
   "name" : "Chris Chen",
   "photo" : "/images/people/google.gcp.png",
-  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/google.gcp.png",
+  "photoUrl" : "https://devfest.gdgyyc.com/images/people/google.gcp.png",
   "shortBio" : "",
   "socials" : [ {
     "icon" : "linkedin",
@@ -769,7 +769,7 @@
   "featured" : true,
   "name" : "Carille Mendoza",
   "photo" : "/images/people/Carille.Mendoza.jpg",
-  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Carille.Mendoza.jpg",
+  "photoUrl" : "https://devfest.gdgyyc.com/images/people/Carille.Mendoza.jpg",
   "shortBio" : "",
   "socials" : [ {
     "icon" : "linkedin",
@@ -801,7 +801,7 @@
   "featured" : true,
   "name" : "Ben Nakaska",
   "photo" : "/images/people/Ben.Nakaska.jpg",
-  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Ben.Nakaska.jpg",
+  "photoUrl" : "https://devfest.gdgyyc.com/images/people/Ben.Nakaska.jpg",
   "shortBio" : "",
   "socials" : [ {
     "icon" : "linkedin",
@@ -833,7 +833,7 @@
   "featured" : true,
   "name" : "Cleo Espiritu",
   "photo" : "/images/people/Cleo.Espiritu.png",
-  "photoUrl" : "https://devfest.gdgcloudcalgary.com/images/people/Cleo.Espiritu.png",
+  "photoUrl" : "https://devfest.gdgyyc.com/images/people/Cleo.Espiritu.png",
   "shortBio" : "",
   "socials" : [ {
     "icon" : "linkedin",
@@ -907,7 +907,7 @@
         "name" : "Twitter"
         }, {
         "icon" : "website",
-        "link" : "https://www.gdgcloudcalgary.com/",
+        "link" : "https://www.gdgyyc.com/",
         "name" : "Blog"
         }
        ],
@@ -933,7 +933,7 @@
         "name" : "Twitter"
         }, {
         "icon" : "website",
-        "link" : "https://www.gdgcloudcalgary.com/",
+        "link" : "https://www.gdgyyc.com/",
         "name" : "Blog"
         } ],
         "order":2,
@@ -961,7 +961,7 @@
           "name" : "Twitter"
           },{
           "icon" : "website",
-          "link" : "http://www.gdgcloudcalgary.com/",
+          "link" : "http://www.gdgyyc.com/",
           "name" : "Blog"
           }],
           "order":3,
@@ -981,7 +981,7 @@
           "name" : "Twitter"
           },{
           "icon" : "website",
-          "link" : "http://www.gdgcloudcalgary.com/",
+          "link" : "http://www.gdgyyc.com/",
           "name" : "Blog"
         }],
         "order":4,
@@ -1009,7 +1009,7 @@
           "name" : "Twitter"
         }, {
           "icon" : "website",
-          "link" : "http://www.gdgcloudcalgary.com/",
+          "link" : "http://www.gdgyyc.com/",
           "name" : "Blog"
         } ],
         "order":5,
@@ -1035,7 +1035,7 @@
           "name" : "Twitter"
         }, {
           "icon" : "website",
-          "link" : "http://www.gdgcloudcalgary.com/",
+          "link" : "http://www.gdgyyc.com/",
           "name" : "Blog"
         } ],
         "order":6,
@@ -1065,7 +1065,7 @@
           "name" : "Twitter"
         }, {
           "icon" : "website",
-          "link" : "http://www.gdgcloudcalgary.com/",
+          "link" : "http://www.gdgyyc.com/",
           "name" : "Blog"
         } ],
         "order":7,
@@ -1096,7 +1096,7 @@
           "name" : "Twitter"
         },{
           "icon" : "website",
-          "link" : "http://www.gdgcloudcalgary.com/",
+          "link" : "http://www.gdgyyc.com/",
           "name" : "Blog"
         }
          ],
@@ -1122,7 +1122,7 @@
           "name" : "Twitter"
         },{
           "icon" : "website",
-          "link" : "http://www.gdgcloudcalgary.com/",
+          "link" : "http://www.gdgyyc.com/",
           "name" : "Blog"
         }],
         "order":9,
@@ -1152,7 +1152,7 @@
           "name" : "Twitter"
         },{
           "icon" : "website",
-          "link" : "http://www.gdgcloudcalgary.com/",
+          "link" : "http://www.gdgyyc.com/",
           "name" : "Blog"
         }],
         "order":10,

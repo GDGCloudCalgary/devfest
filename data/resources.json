@@ -37,7 +37,7 @@
       "links": [
         {
           "name": "GDG Cloud Calgary",
-          "url": "https://www.gdgcloudcalgary.com/welcome",
+          "url": "https://www.gdgyyc.com/welcome",
           "newTab": true
         },
         {
@@ -47,7 +47,7 @@
         },
         {
           "name": "Meet the Team",
-          "url": "https://www.gdgcloudcalgary.com/welcome/gdg-team",
+          "url": "https://www.gdgyyc.com/welcome/gdg-team",
           "newTab": true
         }
       ]
@@ -187,7 +187,7 @@
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Cloud Calgary](https://www.gdgcloudcalgary.com/welcome) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Albertan audience to boost development of IT."
+    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Cloud Calgary](https://www.gdgyyc.com/welcome) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Albertan audience to boost development of IT."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -220,7 +220,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='https://www.gdgcloudcalgary.com/welcome' target='_blank'>GDG Cloud Calgary</a> is a proud organizer of DevFest 2018",
+        "description": "<a href='https://www.gdgyyc.com/welcome' target='_blank'>GDG Cloud Calgary</a> is a proud organizer of DevFest 2018",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"

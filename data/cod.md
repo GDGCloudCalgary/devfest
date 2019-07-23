@@ -1,6 +1,6 @@
 ### 1. Purpose
 
-A primary goal of [GDG Cloud Calgary](https://www.gdgcloudcalgary.com/welcome) is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). 
+A primary goal of [GDG Cloud Calgary](https://www.gdgyyc.com/welcome) is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). 
 GDG Cloud Calgary prides itself on being an open, respectful, and inclusive community; That means the [jerky behavior](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk) isn’t allowed at GDG meetings.
 
 This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
@@ -48,5 +48,5 @@ We expect all community participants to abide by this Code of Conduct in all com
 
 ### 7. Contact info
 
-- Greg Bennett, 1.403.993.9426, [greg@gdgcloudcalgary.com](mailto:gbennett@gdgcloudcalgary.com)
-- Mike Hoff, 403.966.3694, [mike@gdgcloudcalgary.com](mailto:mike@gdgcloudcalgary.com)
+- Greg Bennett, 1.403.993.9426, [greg@gdgyyc.com](mailto:gbennett@gdgyyc.com)
+- Mike Hoff, 403.966.3694, [mike@gdgyyc.com](mailto:mike@gdgyyc.com)
