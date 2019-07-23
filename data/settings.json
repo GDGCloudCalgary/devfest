@@ -166,10 +166,6 @@
     ],
     "share": [
       {
-        "name": "gplus",
-        "url": "https://plus.google.com/share?url="
-      },
-      {
         "name": "facebook",
         "url": "https://www.facebook.com/sharer.php?u="
       },
