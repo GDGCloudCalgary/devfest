@@ -105,7 +105,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to coffee, all conference sections, and hands on workshops, and lunch! Register on our Meet-up page today!",
+    "ticketsDetails": "Tickets grant access to coffee, all conference sections, and hands on workshops, and lunch!",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"

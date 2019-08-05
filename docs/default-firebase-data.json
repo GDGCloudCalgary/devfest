@@ -1197,59 +1197,59 @@
   ],
   "tickets" : [ {
     "available" : true,
-    "currency" : "$",
-    "ends" : "Oct 13",
+    "currency" : "C$",
+    "ends" : "Nov 15",
     "info" : "Requires valid student/lecturer ID",
-    "name" : "EDU",
-    "price" : 80,
+    "name" : "Student",
+    "price" : 37.50,
     "soldOut" : false,
-    "starts" : "Feb 7",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : false,
-    "currency" : "$",
-    "ends" : "Mar 31",
-    "inDemand" : false,
-    "info" : "Or first 50 tickets",
-    "name" : "Pre Early Bird",
-    "price" : 100,
-    "regular" : true,
-    "soldOut" : true,
-    "starts" : "Feb 7",
-    "url" : "https://2event.com/events/1027108"
+    "starts" : "July 1",
+    "url" : "https://devfestyyc.link/tickets"
   }, {
     "available" : true,
-    "currency" : "$",
-    "ends" : "Jun 30",
-    "inDemand" : true,
-    "info" : "Or first 200 tickets",
+    "currency" : "C$",
+    "ends" : "Sept 12",
+    "inDemand" : false,
+    "info" : "Or first 25 tickets",
     "name" : "Early Bird",
-    "price" : 120,
+    "price" : 50,
     "regular" : true,
     "soldOut" : false,
-    "starts" : "Feb 7",
-    "url" : "https://2event.com/events/1027108"
+    "starts" : "July 1",
+    "url" : "https://devfestyyc.link/tickets"
+  }, {
+    "available" : true,
+    "currency" : "C$",
+    "ends" : "Sept 12",
+    "inDemand" : true,
+    "info" : "Are you member of WTM?",
+    "name" : "Early Bird WTM",
+    "price" : 43.50,
+    "regular" : true,
+    "soldOut" : false,
+    "starts" : "July 1",
+    "url" : "https://devfestyyc.link/tickets"
   }, {
     "available" : false,
     "currency" : "$",
-    "ends" : "Sep 30",
+    "ends" : "Nov 15",
     "inDemand" : false,
-    "info" : "Or first 350 tickets",
+    "info" : "Get access to over 30 sessions.",
     "name" : "Regular",
-    "price" : 160,
+    "price" : 75,
     "primary" : true,
     "regular" : true,
     "soldOut" : false,
-    "starts" : "Jul 1",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : true,
-    "currency" : "$",
-    "info" : "Money worth nothing when you love it",
-    "name" : "I Love DFYYC",
-    "price" : 280,
+    "starts" : "Sept 13",
+    "url" : "https://devfestyyc.link/tickets"
+    }, {
+    "available" : false,
+    "currency" : "C$",
+    "info" : "Are you member of Women Techmakers?",
+    "name" : "WTM general admission",
+    "price" : 62.25,
     "soldOut" : false,
-    "url" : "https://2event.com/events/1027108"
+    "url" : "https://devfestyyc.link/tickets"
   } ],
   "triggers" : {
     "images" : false
