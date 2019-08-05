@@ -3,7 +3,7 @@
   "description": "Build What's Next. Together.",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "November 3, 2018",
+  "dates": "November 22-23, 2019",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Share",
   "followOur": "Follow our",
@@ -62,7 +62,7 @@
         },       
         {
           "name": "Call for Speakers",
-          "url": "http://gdgyyc.link/devfest18callforspeakersdoc",
+          "url": "http://devfestyyc.link/cfp",
           "newTab": true
         }
       ]
@@ -71,15 +71,15 @@
   "subscribeNote": "No spam, only the latest news and updates!",
   "codeOfConduct": "Code of Conduct",
   "aboutBlock": {
-    "title": "What you need to know, before you ask.",
+    "title": "DevFestYYC is coming!",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Calgary brings together the world class experts in Android, Web and Cloud technologies to Mount Royal University, Riddell Library for 1 day of sessions, workshops and showcases.",
-        "label": "Explore featured session",
-        "link": ""
+        "description": "DevFestYYC is bringing Alberta’s Startup and Enterprise developers, architects, data scientists and operations professionals together with world-class and top local speakers to: Build What’s Next: Build and deploy the solutions of the future. Transform Legacy: Modernize legacy",
+        "label": "Watch the 2018 Teaser Video!",
+        "link": "https://www.youtube.com/watch?v=rogFr-B4pnM"
       },
       "howItWas": {
-        "description": "Described by many as 'Google I/O of Calgary', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
+        "description": "With 2 full days of bootcamps, workshops, labs, demos, you’ll advance your expertise in Google Cloud and Cloud Native technology. Master the tools and techniques required to design, architect, develop, scale, launch, integrate and maintain today’s cloud solutions.",
         "label": "See How it Was",
         "youtubeId": "rogFr-B4pnM"
      }
@@ -87,19 +87,19 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "100+"
+        "number": "300+"
       },
       "days": {
         "label": "Days",
-        "number": "1"
+        "number": "2"
       },
       "sessions": {
         "label": "Sessions",
-        "number": "8"
+        "number": "30"
       },
       "tracks": {
         "label": "Tracks",
-        "number": "2"
+        "number": "5"
       }
     }
   },
@@ -220,7 +220,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='https://www.gdgyyc.com/welcome' target='_blank'>GDG Cloud Calgary</a> is a proud organizer of DevFest 2018",
+        "description": "<a href='https://www.gdgyyc.com/welcome' target='_blank'>GDG Cloud Calgary</a> is a proud organizer of DevFest ",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
