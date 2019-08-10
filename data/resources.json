@@ -74,9 +74,9 @@
     "title": "DevFestYYC is coming!",
     "callToAction": {
       "featuredSessions": {
-        "description": "DevFestYYC is bringing Alberta’s Startup and Enterprise developers, architects, data scientists and operations professionals together with world-class and top local speakers to: Build What’s Next: Build and deploy the solutions of the future. Transform Legacy: Modernize legacy",
-        "label": "Watch the 2018 Teaser Video!",
-        "link": "https://www.youtube.com/watch?v=rogFr-B4pnM"
+        "description": "DevFestYYC is bringing Alberta’s Startup and Enterprise developers, architects, data scientists, operations professionals and IT decision makers together with world-class cloud experts and top local speakers to Build What’s Next and Transform Legacy.",
+        "label": "Watch the 2019 Teaser Video!",
+        "link": "https://devfestyyc.link/devfest2019teaser"
       },
       "howItWas": {
         "description": "With 2 full days of bootcamps, workshops, labs, demos, you’ll advance your expertise in Google Cloud and Cloud Native technology. Master the tools and techniques required to design, architect, develop, scale, launch, integrate and maintain today’s cloud solutions.",
@@ -87,7 +87,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "300+"
+        "number": "330+"
       },
       "days": {
         "label": "Days",
@@ -145,10 +145,10 @@
     "previousYear": "Year"
   },
   "speakersBlock": {
-    "title": "Rockstar speakers",
+    "title": "Rockstar 2018 speakers",
     "callToAction": {
-      "label": "View all speakers",
-      "link": "/speakers/"
+      "label": "View past speakers",
+      "link": "/previous-speakers/"
     }
   },
   "previousSpeakersBlock": {
