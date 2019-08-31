@@ -1,7 +1,7 @@
 # Docs
 
 ## Tutorials
-
+..
 * [Set up](tutorials/00-set-up.md)
 * [Configure](tutorials/01-configure-app.md)
 * [Firebase Configuration](tutorials/02-firebase.md)
