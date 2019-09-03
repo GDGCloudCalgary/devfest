@@ -66,8 +66,8 @@
       "url" : "https://www.womentechmakers.com/"
     }, {
       "order" : 4,
-      "logoUrl" : "../images/logos/.png",
-      "name" : "Aira",
+      "logoUrl" : "../images/logos/airia.png",
+      "name" : "AIRIA Cloud",
       "url" : "https://www.airia.cloud/"
     }, {
       "order" : 5,
@@ -480,29 +480,27 @@
   "speakers" : {
 
     "Greg_Bennett" : {
-      "bio" : "",
-      "company" : "Widespread",
-      "companyLogo" : "https://www.cmo4hire.com",
-      "companyLogoUrl" : "",
+      "bio" : "Greg transforms complex enterprises and builds world-class developer communities. He founded AIRIA.CLOUD and GDGYYC and leads cloud migration, ML and IoT projects in partnership with Google Cloud. He’s a sought after international speaker and facilitator. 
+
+      You can catch him at gregbennett.io or skateboarding to his next meeting.",
+      "company" : "AIRIA Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://airia.cloud",
       "country" : "Canada",
       "featured" : true,
       "name" : "Greg Bennett",
       "photo" : "/images/people/greg.bennett.png",
       "photoUrl" : "https://www.devfestyyc.com/images/people/greg.bennett.png",
-      "shortBio" : "",
+      "shortBio" : "Greg transforms complex enterprises and builds world-class developer ecosystems.
+     ",
       "socials" : [ {
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/gregbennettio/",
-        "name" : "Google+"
+        "name" : "LinkedIn"
       }, {
         "icon" : "twitter",
         "link" : "https://twitter.com/recrdx",
         "name" : "Twitter"
-      },
-       {
-        "icon" : "google+",
-        "link" : "",
-        "name" : "Google+"
       },
        {
         "icon" : "github",
