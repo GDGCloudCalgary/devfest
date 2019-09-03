@@ -480,9 +480,7 @@
   "speakers" : {
 
     "Greg_Bennett" : {
-      "bio" : "Greg transforms complex enterprises and builds world-class developer communities. He founded AIRIA.CLOUD and GDGYYC and leads cloud migration, ML and IoT projects in partnership with Google Cloud. He’s a sought after international speaker and facilitator. 
-
-      You can catch him at gregbennett.io or skateboarding to his next meeting.",
+      "bio" : "Greg transforms complex enterprises and builds world-class developer communities. He founded AIRIA.CLOUD and GDGYYC and leads cloud migration, ML and IoT projects in partnership with Google Cloud. He’s a sought after international speaker and facilitator.<br>You can catch him at [gregbennett.io](http://gregbennett.io) or skateboarding to his next meeting.",
       "company" : "AIRIA Cloud",
       "companyLogo" : "/images/logos/airia.png",
       "companyLogoUrl" : "http://airia.cloud",
@@ -491,8 +489,7 @@
       "name" : "Greg Bennett",
       "photo" : "/images/people/greg.bennett.png",
       "photoUrl" : "https://www.devfestyyc.com/images/people/greg.bennett.png",
-      "shortBio" : "Greg transforms complex enterprises and builds world-class developer ecosystems.
-     ",
+      "shortBio" : "Greg transforms complex enterprises and builds world-class developer ecosystems.",
       "socials" : [ {
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/gregbennettio/",
@@ -523,9 +520,9 @@
         "link" : "https://www.linkedin.com/in/gregbennettio/",
         "name" : "Linkedin+"
         }, { 
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/113957084984388645066",
-        "name" : "Google+"
+        "icon" : "",
+        "link" : "",
+        "name" : ""
         },{
         "icon" : "facebook",
         "link" : "https://www.facebook.com/recrdx",
@@ -551,9 +548,9 @@
         "link" : "https://www.linkedin.com/in/fermisk/",
         "name" : "Linkedin"
         },{
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/u/0/111210719993935219678",
-        "name" : "Google+"
+        "icon" : "",
+        "link" : "",
+        "name" : ""
         },{
         "icon" : "twitter",
         "link" : "https://twitter.com/gdgcloudyyc",
@@ -601,9 +598,9 @@
           "link" : "https://www.linkedin.com/in/kiley-carson/",
           "name" : "Linkedin"
           },{ 
-            "icon" : "gplus",
-            "link" : "https://plus.google.com/u/0/106537843298738395920",
-            "name" : "Google+"
+            "icon" : "",
+            "link" : "",
+            "name" : ""
             },{
           "icon" : "facebook",
           "link" : "https://www.facebook.com/kiley.carson",
@@ -619,19 +616,6 @@
           }],
           "order":3,
           "title" : "Web Developer"
-          },
-      {
-        "name" : "David Shen",
-        "photo" : "/images/people/david.shen.png",
-        "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/david.shen.png",
-        "socials" : [ {
-          "icon" : "linkedin",
-          "link" : "https://www.linkedin.com/in/david-shen-02662369/",
-          "name" : "Linkedin"
-          }, {
-          "icon" : "twitter",
-          "link" : "https://twitter.com/gdgcloudyyc",
-          "name" : "Twitter"
           },{
           "icon" : "website",
           "link" : "http://www.gdgyyc.com/",
@@ -649,54 +633,25 @@
           "link" : "https://www.linkedin.com/in/laura-grant-967b8a32/",
           "name" : "Linkedin"
           },{
-          "icon" : "gplus",
-          "link" : "https://plus.google.com/u/0/105187113408342822441",
-          "name" : "Google+"
+          "icon" : "",
+          "link" : "",
+          "name" : ""
         }, {
           "icon" : "facebook",
           "link" : "https://www.facebook.com/laura.grant.18488/",
           "name" : "Facebook"
         }, {
           "icon" : "twitter",
-          "link" : "https://twitter.com/gdgcloudyyc",
+          "link" : "https://twitter.com/albertabikeswap",
           "name" : "Twitter"
         }, {
           "icon" : "website",
-          "link" : "http://www.gdgyyc.com/",
+          "link" : "https://www.facebook.com/albertabikeswap/",
           "name" : "Blog"
         } ],
         "order":5,
-        "title" : "Sponsors"
-      },
-      
-  
-      {
-        "name" : "Stefania Sanson",
-        "photo" : "/images/people/stefania.sanson.png",
-        "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/stefania.sanson.png",
-        "socials" : [ {
-          "icon" : "linkedin",
-          "link" : "https://www.linkedin.com/in/stefaniasanson/",
-          "name" : "Linkedin"
-        }, {
-          "icon" : "gplus",
-          "link" : "https://plus.google.com/u/0/115296974125316814676",
-          "name" : "Google+"
-        },{
-          "icon" : "twitter",
-          "link" : "https://twitter.com/gdgcloudyyc",
-          "name" : "Twitter"
-        }, {
-          "icon" : "website",
-          "link" : "http://www.gdgyyc.com/",
-          "name" : "Blog"
-        } ],
-        "order":6,
-        "title" : "Sponsors"
-      }
-      
-      ,
-      {
+        "title" : "Team Lead, Volunteers"
+      },{
         "name" : "Jenny Ye",
         "photo" : "/images/people/jenny.ye.png",
         "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/jenny.ye.png",
@@ -704,10 +659,6 @@
           "icon" : "linkedin",
           "link" : "https://www.linkedin.com/in/jenny-ye-5362562/",
           "name" : "Linkedin+"
-        }, {
-          "icon" : "gplus",
-          "link" : "https://plus.google.com/u/0/107228585683101293797",
-          "name" : "Google+"
         },{
           "icon" : "facebook",
           "link" : "https://www.facebook.com/jenny.ye",
@@ -722,7 +673,7 @@
           "name" : "Blog"
         } ],
         "order":7,
-        "title" : "Sponsors"
+        "title" : "Qwiklabs Facilitator"
       }
       ,
       
@@ -739,11 +690,6 @@
           "link" : "https://www.facebook.com/raymond.efegoma/",
           "name" : "Facebook"
         },{
-          "icon" : "gplus",
-          "link" : "https://plus.google.com/u/0/103170819600463615289",
-          "name" : "Google+"
-        },
-        {
           "icon" : "twitter",
           "link" : "https://twitter.com/koolrays2000?s=09",
           "name" : "Twitter"

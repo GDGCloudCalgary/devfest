@@ -114,20 +114,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "Riddell Library, Mount Royal University",
-    "city": "Calgary",
+    "name": "The Library of the future: Calgary Central Library",
+    "city": "Calgary, AB",
     "short": "Calgary, Alberta",
-    "address": "Riddell Library at MRU",
+    "address": "800 3 St SE",
     "pointer": {
-      "latitude": 51.0120222,
-      "longitude": -114.1277546,
-      "zoom":15.8
+      "latitude": 51.044948,
+      "longitude": -114.0551,
+      "zoom":17
     },
     "mapCenter": {
-      "latitude": 51.011,
-      "longitude": -114.127
+      "latitude": 51.044948,
+      "longitude": -114.0551
     },
-    "description": "GDGYYC will be hosting DevFest 2019 at the ultra modern Calgary Public Library" 
+    "description": "DevFestYYC 2019 at the ultra modern Calgary Public Library." 
   },
   "mediaQueries": {
     "xs": {
