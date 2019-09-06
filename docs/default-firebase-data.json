@@ -616,14 +616,7 @@
           }],
           "order":3,
           "title" : "Web Developer"
-          },{
-          "icon" : "website",
-          "link" : "http://www.gdgyyc.com/",
-          "name" : "Blog"
-        }],
-        "order":4,
-        "title" : "Sponsors"
-      }, 
+          },
       {
         "name" : "Laura Grant",
         "photo" : "/images/people/laura.grant.png",
