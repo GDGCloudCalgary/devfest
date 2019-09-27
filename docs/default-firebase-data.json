@@ -960,9 +960,9 @@
   "previousSpeakers": {
     "Cleo_Espiritu" : {
       "bio" : "",
-      "company" : "",
-      "companyLogo" : "http://www.atb.com",
-      "companyLogoUrl" : "https://devfestyyc.com/images/logos/atb_financial.png",
+      "company" : "ATB Financial",
+      "companyLogo" : "https://devfestyyc.com/images/logos/atb_financial.png",
+      "companyLogoUrl" : "https://www.atb.com/",
       "country" : "Canada",
       "featured" : true,
       "name" : "Cleo Espiritu",
@@ -1042,9 +1042,9 @@
     },
     "Karin_Winia" : {
       "bio" : "IT professional with over 15+ years experience in the industry.  I started out as a Java developer after graduating from the University of Alberta.  I moved into the application integration space after joining ATB and haven't looked back since.  I am now overseeing building out a Digital Platform in the Cloud that will allow ATB to be a leader in technology solutions for Banking.",
-      "company" : "",
-      "companyLogo" : "https://www.https://simplestepstech.wordpress.com/",
-      "companyLogoUrl" : "",
+      "company" : "ATB Financial",
+      "companyLogo" : "https://devfestyyc.com/images/logos/atb_financial.png",
+      "companyLogoUrl" : "https://www.atb.com",
       "country" : "Canada",
       "featured" : false,
       "name" : "Karin Winia",
@@ -1083,9 +1083,9 @@
    },
    "Cam_Crockett" : {
     "bio" : "I started as a developer in Calgary working for a few different companies where I not only got to improve my development skills across a variety of industries but  was also part of teams implementing DevOps and Agile processes within the enterprise. I've spent time as a Solution Architect and the last year at Google as part of their Customer Engineering team where I get to spend time working with customers building out cool solutions on top of Google's Cloud Platform.",
-    "company" : "",
-    "companyLogo" : "http://www.google.com",
-    "companyLogoUrl" : "",
+    "company" : "Google Cloud",
+    "companyLogo" : "https://devfestyyc.com/images/logos/google.svg",
+    "companyLogoUrl" : "http://www.google.com",
     "country" : "Canada",
     "featured" : true,
     "name" : "Cam Crockett",
@@ -1124,9 +1124,9 @@
   }
 , "Chris_Chen" : {
   "bio" : "",
-  "company" : "",
-  "companyLogo" : "http://www.google.com",
-  "companyLogoUrl" : "",
+  "company" : "Alberta Energy Regulator",
+  "companyLogo" : "https://devfestyyc.com/images/logos/AER.png",
+  "companyLogoUrl" : "https://aer.ca",
   "country" : "Canada",
   "featured" : true,
   "name" : "Chris Chen",
@@ -1164,9 +1164,9 @@
   "title" : ""
 },"Carille_Mendoza" : {
   "bio" : "",
-  "company" : "",
-  "companyLogo" : "http://www.google.com",
-  "companyLogoUrl" : "https://devfest-yyc.firebaseapp.com",
+  "company" : "ATB Financial",
+  "companyLogo" : "https://devfestyyc.com/images/logos/atb_financial.png",
+  "companyLogoUrl" : "https://www.atb.com",
   "country" : "Canada",
   "featured" : true,
   "name" : "Carille Mendoza",
@@ -1204,9 +1204,9 @@
   "title" : ""
 },"Ben_Nakaska" : {
   "bio" : "",
-  "company" : "",
-  "companyLogo" : "http://www.google.com",
-  "companyLogoUrl" : "https://devfest-yyc.firebaseapp.com/images/logos/atb_financial.png",
+  "company" : "ATB Financial",
+  "companyLogo" : "https://devfestyyc.com/images/logos/atb_financial.png",
+  "companyLogoUrl" : "https://www.atb.com",
   "country" : "Canada",
   "featured" : true,
   "name" : "Ben Nakaska",
@@ -1245,16 +1245,16 @@
 }
     ,
     "Mos_Saleh" : {
-      "bio" : "Google Cloud Architect, currently works at VistaVU. Full Stack Developer. All my free time I spend on learning Flutter and Kotlin!",
-      "company" : "VistaVu",
-      "companyLogo" : "https://devfest-yyc.firebaseapp.com/images/logos/01_Logo.svg",
-      "companyLogoUrl" : "https://devfest-yyc.firebaseapp.com/images/logos/01_Logo.svg",
+      "bio" : "Google Cloud Certified Architect and Data Engineer. Enterprise Architecture and Microservice Architecture. Also loves Flutter.",
+      "company" : "ATB Financial",
+      "companyLogo" : "https://devfestyyc.com/images/logos/atb_financial.png",
+      "companyLogoUrl" : "https://atb.com",
       "country" : "Calgary, Canada",
       "featured" : true,
       "name" : "Mos Saleh",
       "photo" : "/images/people/mos.saleh.png",
       "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/mos.saleh.png",
-      "shortBio" : "Full Stack developer, currently works at VistaVu. Have experience in both server and mobile side develo...",
+      "shortBio" : "Cloud Architecture at ATB Fincancial.",
       "sessions" : {
         "2018" : [ {
           "presentation" : "-",
@@ -1273,9 +1273,9 @@
     },
     "Will_Zhang" : {
       "bio" : "13 Years of experience in managing and delivering advanced analytics solutions in the fields of AI, Software Engineering and Operations Research across various industries including accounting, finance, telecom and energy sectors Co-Founder & CEO of OpenHouse.AI - a Calgary AI startup in Real-Estate Industry. Formerly VP of Engineering for an AI startup in Accounting Industry and the Head of Software Engineering and Architecture for a 1.6B Oil & Gas company Lead architect of a major Canadian telecom company and Europe's largest mobile company, delivered various highly scalable data collection system in many countries collecting millions of data points every day. Lead engineer of  a large hedge fund company in Europe and delivered a high-frequency trading system for foreign exchange and trading coverage.",
-      "company" : "Widespread",
-      "companyLogo" : "/images/logos/openai.svg",
-      "companyLogoUrl" : "",
+      "company" : "OpenHouse.ai",
+      "companyLogo" : "/images/logos/openhouse.png",
+      "companyLogoUrl" : "https://openhouse.ai",
       "country" : "Canada",
       "featured" : false,
       "name" : "Will Zhang",
@@ -1314,9 +1314,9 @@
     },
     "Stephen_King" : {
       "bio" : "Stephen is the CEO of CMO4Hire, a digital brand marketing firm for B2B companies that drives triple-digit growth and reduces go-to-market complexity. He is also the Chairman and a co-Founder of A100 (www.thea100.org), an organization which aims to inspire and support generations of Alberta tech entrepreneurs. With a computer science degree and 30+ year career in software development & commercialization, Stephen has written over a million lines of code and sold more than $500M in software. He's been a startup founder and a CMO &  Director for large international firms. More information about his company and unique MarTech software solution can be found here: https://www.cmo4hire.com/  and  https://www.dbmms.io/. Stephen's also an accomplished guitarist and musician (https://www.reverbnation.com/stephenking)  Connect with him at https://www.linkedin.com/in/stephenking13/ ",
-      "company" : "Widespread",
-      "companyLogo" : "https://www.cmo4hire.com",
-      "companyLogoUrl" : "",
+      "company" : "CMO4Hire",
+      "companyLogo" : "https://devfestyyc.com/images/logos/CMO4Hire.png",
+      "companyLogoUrl" : "https://cmo4hire.com",
       "country" : "Canada",
       "featured" : false,
       "name" : "Stephen King",
@@ -1355,9 +1355,9 @@
     },
     "Liam_Goguen" : {
       "bio" : "I have been with CMO4Hire since May 2017. Within my role as the data scientist at the company, I have worked to optimize certain processes we use to serve clients and helped develop our data tracking, reporting and forecasting infrastructure, DBMMS.io, CMO4Hire's agile marketing platform. Previously, I worked approximately six years in financial advisory and equity research roles in Calgary. My skillset includes data trend analysis/forecasting, financial modeling/analysis/valuations, industry/company research, database creation/maintenance/optimization, analyzing financing proposals and key commercial agreements and financial due diligence. I have a Bachelor of Business Administration degree with a concentration in Finance from the Williams School of Business at Bishop's University, Quebec.",
-      "company" : "Widespread",
-      "companyLogo" : "https://www.cmo4hire.com",
-      "companyLogoUrl" : "",
+      "company" : "CMO4Hire",
+      "companyLogo" : "https://devfestyyc.com/images/logos/CMO4Hire.png",
+      "companyLogoUrl" : "https://www.cmo4hire.com",
       "country" : "Canada",
       "featured" : false,
       "name" : "Liam Goguen",
