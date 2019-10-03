@@ -27,7 +27,7 @@
   "notifications" : {
     "config" : {
       "icon" : "",
-      "timezone" : "-07:00"
+      "timezone" : "-06:00"
     },
     "messages" : { },
     "subscribers" : { },

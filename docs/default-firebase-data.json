@@ -5,18 +5,18 @@
       "brief" : "We’re looking for speakers! ",
       "content" : "DevFest Calgary is bringing over 100 developers together **November 3** together in Calgary in the beautiful Riddel Library at MRU. Our focus is the content. **We’re looking for speakers like you**, who are ready to rock the stage and deliver the best talk or workshop in the field. <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfest18callforspeakersdoc\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div> </br> Why is it cool to speak at the DevFest? </br>DevFest Calgary is not an ordinary tech conference, besides selecting only the best speakers, we help them to succeed in delivering an exceptional quality talk on the stage.  Here are few perks that all our speakers get: </br>**Exposure**. By being a speaker, you are proving your level of expertise to a potential business partners or employers. Your talk will be promoted in our online resources and recording published in YouTube channel. </br>**Unique networking**. Being a speaker means you’ll have the unique chance to network with other speakers - the best experts in the industry. </br>**Coaching**. We're in the same boat, after being selected as a speaker our program committee will help you to deliver the best talk possible. We provide information about the audience, presentation templates, feedback on the slides, all to help you to prepare.<br> What are we looking for? We're looking for **experience-based talks**, the information that can not be found in the documentation or easily googled. We're looking for your stories, your struggles, research results and experiences with the frontier tools or technologies. Check the [list of topics](https://codelabs.developers.google.com/devfest18) we're interested in (it is not full and updated all the time). You can submit as many talks as you want. This year we accept submissions in two formats: </br> - 45 minutes sessions </br>- 10 Minute Lightning Talks </br>- 1-2 hour workshops </br></br>Talks that will not pass initial review: </br>- Talks about a specific tool/library/project explaining how it works or how to use it. </br>- Talks whose focus is pitching a company or project. It’s cool that you mention your company during the presentation, but it shouldn’t be the focus of the talk. </br>- Proposals that are not in English. </br>- Recruitment talks to attract talent. </br></br>We strongly recommend you check out [speaking.io](http://speaking.io) website from Zach Holman. It includes good tips and guidelines for speakers. </br>Timeline ** Call for Papers submission deadline is October 15, 2018**. Submission results will be announced by October 20. Any questions? Email organizers at speakers@gdgyyc.com <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfest18callforspeakersdoc\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div>",
       "image" : "/images/posts/callforspeaker.jpg",
-      "published" : "2018-10-01",
+      "published" : "2019-07-10",
       "source" : "/data/posts/2017-02-12-c4p.md",
       "title" : "We're looking for speakers"
     },
     "dfca18-announced" : {
       "backgroundColor" : "#2196F3",
-      "brief" : "It is official. GDG DevFest Calgary 2018 is going to take place in Calgary, on November 3.",
-      "content" : "It is official. GDG DevFest Calgary 2017 is going to take place in **Calgary, on November 3**.  Described by many as \"Google I/O of Calgary\", DevFest has grown from the small 100-people event to the biggest Google tech conference in North America. This year, we expect over 900 engineers, managers, and entrepreneurs from over 20 countries come to DevFest to learn about Android, Web and Cloud technologies, and to experience the phenomenal atmosphere.  </br></br> What to expect?  **2 parallel Tracks: A hands on Workshop Track and a Speaker's Track.** You will hear and learn from speakers and presenters from product companies like Google and ATB. </br></br> We are stoked to see yo all there!  <div layout horizontal center-justified> <a href=\"http://gdgyyc.link/devfestmeetup\" rel=\"noopener noreferrer\">   <paper-button primary>Register</paper-button> </a> </div></br> <i>GDG DevFest Calgary Team. </i>",
+      "brief" : "It is official. DevFestYYC 2019 will take place in Calgary, November 22-23.",
+      "content" : "It is official. DevFestYYC 2019 will take place in **Calgary, on November 22-23**. Described as \"Where Alberta's future is launching!\", DevFestYYC 2019 is bringing world-class Google Cloud and Cloud Native experts to Calgary. Building on the success of DevFestYYC 2018, we've grown from a small 100-people event to the biggest Google technology celebration in Western Canada. This year, we expect over 330+ developers, data scientists, cloud architects, technologists and entrepreneurs from around the world to join us to learn about about cutting edge Android, Web and Google Cloud technologies. We combine this incredible learning opportunity with a phenomenal atmosphere and the gorgeous Calgary Central Libray, and DevFestYYC is sure to be unforgettable!  </br></br> What to expect?  **4 parallel Tracks: Learn about Cloud Infrastructure, Data & Analytics, Code and Development and Developer programs.** You will hear and learn from speakers and presenters from leading companies like Google, SoftServe, Flexera, ATB and AIRIA. </br></br> We are stoked to see yo all there!  <div layout horizontal center-justified> <a href=\"http://devfestyyc.com\" rel=\"noopener noreferrer\">   <paper-button primary>Register</paper-button> </a> </div></br> <i>DevFestYYC 2019 Team. </i>",
       "image" : "/images/posts/dfca18-announced.jpg",
-      "published" : "2018-10-01",
+      "published" : "2019-07-01",
       "source" : "/data/posts/2017-02-06-dfua17-announced.md",
-      "title" : "Announcing GDG DevFest Calgary 2018"
+      "title" : "Announcing DevFestYYC 2019"
     }    
   },
   "gallery" : [
@@ -27,7 +27,7 @@
   "notifications" : {
     "config" : {
       "icon" : "",
-      "timezone" : "-07:00"
+      "timezone" : "-06:00"
     },
     "messages" : { },
     "subscribers" : { },
@@ -790,55 +790,58 @@
   "tickets" : [ {
     "available" : true,
     "currency" : "C$",
-    "ends" : "Nov 15",
-    "info" : "Requires valid student/lecturer ID",
-    "name" : "Student",
+    "ends" : "Nov 8",
+    "info" : "Requires valid student/lecturer ID. While Quantities Last! ",
+    "name" : "Student/ EDU",
     "price" : 37.50,
     "soldOut" : false,
-    "starts" : "July 1",
+    "starts" : "Oct 1",
     "url" : "https://devfestyyc.link/tickets"
   }, {
     "available" : true,
     "currency" : "C$",
-    "ends" : "Sept 12",
-    "inDemand" : false,
-    "info" : "Or first 25 tickets",
-    "name" : "Early Bird General Admission",
+    "ends" : "Oct 18 ",
+    "inDemand" : true,
+    "info" : "Get in early and save! While quantities last!",
+    "name" : "Early-bird 
+    General Admission",
     "price" : 50,
     "regular" : true,
     "soldOut" : false,
-    "starts" : "July 1",
+    "starts" : "Oct 1",
     "url" : "https://devfestyyc.link/tickets"
   }, {
     "available" : true,
     "currency" : "C$",
-    "ends" : "Sept 12",
-    "inDemand" : true,
-    "info" : "Are you member of WTM?",
-    "name" : "Early Bird WTM",
+    "ends" : "Oct 18",
+    "inDemand" : false,
+    "info" : "Women Techmakers members get a 13% discount.",
+    "name" : "Early-bird WTM",
     "price" : 43.50,
     "regular" : true,
     "soldOut" : false,
-    "starts" : "July 1",
+    "starts" : "Oct 1",
     "url" : "https://devfestyyc.link/tickets"
   }, {
     "available" : false,
     "currency" : "$",
-    "ends" : "Nov 15",
+    "ends" : "Nov 8",
     "inDemand" : false,
-    "info" : "Get access to over 30 sessions.",
-    "name" : "Regular",
+    "info" : "Get access to over 30 sessions, world class speakers and festivities.",
+    "name" : "Regular 
+    General Admission",
     "price" : 75,
     "primary" : true,
     "regular" : true,
     "soldOut" : false,
-    "starts" : "Sept 13",
+    "starts" : "Oct 19",
     "url" : "https://devfestyyc.link/tickets"
     }, {
     "available" : false,
     "currency" : "C$",
-    "info" : "Are you member of Women Techmakers?",
-    "name" : "WTM general admission",
+    "info" : "Women Techmakers members get a 13% discount.",
+    "name" : "WTM 
+    General Admission.",
     "price" : 62.25,
     "soldOut" : false,
     "url" : "https://devfestyyc.link/tickets"
