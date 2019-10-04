@@ -692,7 +692,356 @@
       } ],
       "order":1,
       "title" : "Google Cloud Customer Engineer"
+    },
+    "Kyle_Paul" : {
+      "bio" : "Kyle.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Kyle Paul",
+      "photo" : "/images/people/kyle.paul.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/kyle.paul.png",
+      "shortBio" : "Shaun...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
+    },
+    "Kiley_Carson" : {
+      "bio" : "Kiley.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Kiley Carson",
+      "photo" : "/images/people/kiley.carson.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/kiley.carson.png",
+      "shortBio" : "Kiley...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
+    },
+    "Scott_Stoll" : {
+      "bio" : "Scott.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Scott Stoll",
+      "photo" : "/images/people/shaun.mitchell.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/scott.stoll.png",
+      "shortBio" : "Scott...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
+    },
+    "Fatima Silveira" : {
+      "bio" : "Fatima.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Fatima Silveira",
+      "photo" : "/images/people/fatima.silveira.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/fatima.silveira.png",
+      "shortBio" : "Fatima...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
+    },
+    "Cleo Espiritu" : {
+      "bio" : "Cleo.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Cleo Espiritu",
+      "photo" : "/images/people/cleo.espiritu.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/cleo.espiritu.png",
+      "shortBio" : "Cleo...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
+    },
+    "Neel_Kirit" : {
+      "bio" : "Neel.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Neel Kirit",
+      "photo" : "/images/people/neel.kirit.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/neel.kirit.png",
+      "shortBio" : "Cleo...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
+    },
+    "Hans_Hegge" : {
+      "bio" : "Hans.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Hans Hegge",
+      "photo" : "/images/people/hans.hegge.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/hans.hegge.png",
+      "shortBio" : "Cleo...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
+    },
+    "Ted_Edmonds" : {
+      "bio" : "Ted.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Ted Edmonds",
+      "photo" : "/images/people/ted.edmonds.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/ted.edmonds.png",
+      "shortBio" : "Cleo...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
+    },
+    
+    "Boyang_Zhang" : {
+      "bio" : "Boyang.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Ted Edmonds",
+      "photo" : "/images/people/boyang.zhang.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/boyang.zhang.png",
+      "shortBio" : "Cleo...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
+    },
+    
+    "Arunima_Kashyap" : {
+      "bio" : "Arunima.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Arunima Kashyap",
+      "photo" : "/images/people/arunima.kashyap.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/arunima.kashyap.png",
+      "shortBio" : "Arunima...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
+    },
+    
+    "Ankanksha_Parameshwar" : {
+      "bio" : "Ankanksha.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Arunima Kashyap",
+      "photo" : "/images/people/akanksha.parameshwar.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/akanksha.kashyap.png",
+      "shortBio" : "Arunima...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
+    },
+    
+    "Tim_Chan" : {
+      "bio" : "Tim.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Tim Chan",
+      "photo" : "/images/people/tim.chan.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/tim.chan.png",
+      "shortBio" : "Arunima...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
     }
+  
+  
+  
+  
+  
+  
+  
+  
+  
   },
   "team" : [ 
     {
