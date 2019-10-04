@@ -79,8 +79,8 @@
     "title" : "General Partner"
   } ],
   "schedule" : {
-    "2018-11-03" : {
-      "dateReadable" : "November 03",
+    "2019-11-22" : {
+      "dateReadable" : "November 22",
       "timeslots" : [
          {
         "endTime" : "10:15",
@@ -803,8 +803,7 @@
     "ends" : "Oct 18 ",
     "inDemand" : true,
     "info" : "Get in early and save! While quantities last!",
-    "name" : "Early-bird 
-    General Admission",
+    "name" : "Early-bird General Admission",
     "price" : 50,
     "regular" : true,
     "soldOut" : false,
@@ -828,8 +827,7 @@
     "ends" : "Nov 8",
     "inDemand" : false,
     "info" : "Get access to over 30 sessions, world class speakers and festivities.",
-    "name" : "Regular 
-    General Admission",
+    "name" : "Regular General Admission",
     "price" : 75,
     "primary" : true,
     "regular" : true,
@@ -840,8 +838,7 @@
     "available" : false,
     "currency" : "C$",
     "info" : "Women Techmakers members get a 13% discount.",
-    "name" : "WTM 
-    General Admission.",
+    "name" : "WTM General Admission.",
     "price" : 62.25,
     "soldOut" : false,
     "url" : "https://devfestyyc.link/tickets"

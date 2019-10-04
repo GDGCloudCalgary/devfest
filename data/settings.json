@@ -64,8 +64,8 @@
     },
     "speakers": {
       "title": "Speakers",
-      "metaDescription": "Learn from 30+ Googlers, world-class cloud experts and top local speakers. Meet and network with developers, cloud architects, data scientists who build and transform with Google Cloud and Cloud Native technology and techniques.",
-      "description": "Learn from 30+ Googlers, world-class cloud experts and top local speakers. Meet and network with developers, cloud architects, data scientists who build and transform with Google Cloud and Cloud Native technology and techniques.",
+      "metaDescription": "Learn from Googlers, world-class cloud experts and top local speakers. Meet and network with developers, cloud architects, data scientists who build and transform with Google Cloud and Cloud Native technology and techniques.",
+      "description": "Learn from Googlers, world-class cloud experts and top local speakers. Meet and network with developers, cloud architects, data scientists who build and transform with Google Cloud and Cloud Native technology and techniques.",
       "background": {
         "color": "#FFF"
       },
@@ -89,7 +89,7 @@
     },
     "team": {
       "title": "Team",
-      "metaDescription": "Learn about the GDGYYC Team!",
+      "metaDescription": "Learn about the DevFestYYC Team!",
       "background": {
         "color": "#fff"
       },

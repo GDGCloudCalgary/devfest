@@ -2,19 +2,19 @@
 
 ### Dates and location
 
-GDG DevFest Calgary will take place on the 3rd of November in [Riddle Library (Mount Royal University),]( https://goo.gl/Zwi76g) Calgary.
+DevFestYYC will take place on the November 22-23, 2019 at the [Calgary Central Library,](http://gdgyyc.link/cplmap) Calgary.
 
 ### Stay Informed
 
-To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [DevFest website](https://devfest-yyc.firebaseapp.com/), and RSVP on [Meetup]( https://www.meetup.com/gdgcloudcalgary/). In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
+To stay up to date on the latest information on sessions, speakers, and activities, visit the [DevFest website](https://devfestyyc.com/), and RSVP on [Meetup]( https://www.meetup.com/gdgcloudcalgary/). In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
 
 ### Content Formats
 
-During two conference days attendees will be able to attend sessions and hands-on workshops, chat with experts and attendees at coffee breaks and after party, and more.
+During two conference days attendees will be able to attend sessions and hands-on workshops, chat with experts and attendees at coffee breaks and more special pop-up events throght the fesitval.
 
 ### Livestream & Recordings
 
-If you’re unable to attend DevFest in-person, you can still be part of the magic. All the lectures from the sessions will be available for free on GDG Cloud Calgary [youtube channel](https://www.youtube.com/channel/UCALXb4vyoj--zR_0q7oJUWg) few weeks after the conference. Workshops won’t be recorded. Also, there could be a livestream provided by participants which you can find via #dfua and #Devfest18 hashtags.
+If you’re unable to attend DevFest in-person, you can still be part of the magic. All the lectures from the sessions will be available for free on the GDGYYC [youtube channel](https://www.youtube.com/gdgs) few weeks after the conference. Workshops won’t be recorded. Also, there could be a livestream provided by participants which you can find via #devfestyyc and #Devfest hashtags.
 
   
 ## Registration
@@ -24,7 +24,7 @@ If you’re unable to attend DevFest in-person, you can still be part of the mag
 
 The window to buy a ticket will be opened until 6PM GMT+2 on October 11th 2018, or earlier if the tickets are sold out. If the ticket was bought after September 30th registered participants won’t get printed badge (their names will be written on the badge by marker). To buy a ticket [follow the link]( https://2event.com/events/1027108), select required ticket type, fill in the required information and pay for it.
 
-Once you've successfully payed for the ticket you’ll reach a confirmation screen and receive an email with the ticket. Please don’t forget to download it on your device or print it, as it’s required for entrance.
+Once you've successfully paid for the ticket you’ll reach a confirmation screen and receive an email with the ticket. Please don’t forget to download it on your device or print it, as it’s required for entrance.
 
   
 
@@ -70,14 +70,14 @@ Special tickets for real supporters of our conference. As we’re organizing the
 
 ### Registration Terms & Conditions
 
-- Tickets for GDG DevFest Calgary are for the full two-day conference and no single-day tickets are available. 
-- You may buy a ticket on behalf of the other person (for example, make a gift). Just mention during purchase the name, company and title of the person who will attend the event. 
-- GDG DevFest Calgary tickets must be used by the original registrant and are non-transferable. 
-- By registering and accepting any discounts, gifts, or items of value related to GDG DevFest Calgary, you certify that you are able to do so in compliance with applicable laws and the internal rules of your organization. 
-- At check-in, we’ll check your ticket prior to assigning you your GDG DevFest Calgary badge. If you don’t have proper identification, you won’t be able to receive a badge and won’t be admitted to the conference. 
-- If you buy an EDU ticket and can't provide academic documentation during check-in at GDG DevFest Calgary, you won't be admitted or offered a refund, nor will you be able to convert your ticket to general admission. Please be sure to bring a current student ID or other proof that you are qualified to receive this special rate when you check in at the conference. 
-- Ticket purchases can be refunded before October 4th, 2018 via your profile at the [ticket service website]( https://2event.com/events/1027108). 
-- After October 4th, 2018, all ticket sales are final. There will be no refunds or exchanges regardless of weather conditions, session availability, or any other circumstance. 
+- Tickets for DevFestYYC are for the full two-day conference and no single-day tickets are available. 
+- You may buy a ticket on behalf of another person (for example, make a gift). Just mention during purchase the name, company and title of the person who will attend the event. 
+- DevFestYYC tickets must be used by the original registrant and are non-transferable. 
+- By registering and accepting any discounts, gifts, or items of value related to DevFestYYC, you certify that you are able to do so in compliance with applicable laws and the internal rules of your organization. 
+- At check-in, we’ll check your ticket prior to assigning you DevFestYYC badge. If you don’t have proper identification, you won’t be able to receive a badge and won’t be admitted to the conference. 
+- If you buy an Student/EDU ticket and can't provide academic documentation during check-in at DevFestYYC, you won't be admitted or offered a refund, nor will you be able to convert your ticket to general admission. Please be sure to bring a current student ID or other proof that you are qualified to receive this special rate when you check in at the conference. 
+- Ticket purchases can be refunded before Monday November 17th, 2019 via your profile at the [ticket service website]( https://2event.com/events/1027108). 
+- After November 8th, 2019, all ticket sales are final. There will be no refunds or exchanges regardless of weather conditions, session availability, or any other circumstance. 
 - Attendees aren’t permitted to bring guests to GDG DevFest Calgary or to the after hours party. If you have someone traveling with you, they’ll need to register themselves and purchase an attendee ticket. 
 - Photographs and/or video taken at GDG DevFest Calgary by GDG Cloud Calgary, or others on behalf of the conference organizers, may include your image or likeness. You agree that GDG Cloud Calgary may use such photographs and/or video for any purpose without any compensation to you. 
 - All information entered into the registration form must be correct and accurate to the best of your knowledge. All information expected to be entered in English. Some of the information entered (such as name, company and title), will be displayed on the attendee badge. 
