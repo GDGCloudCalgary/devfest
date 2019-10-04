@@ -79,8 +79,8 @@
     "title" : "General Partner"
   } ],
   "schedule" : {
-    "2018-11-03" : {
-      "dateReadable" : "November 03",
+    "2018-11-22" : {
+      "dateReadable" : "November 22",
       "timeslots" : [
          {
         "endTime" : "10:15",
@@ -237,8 +237,166 @@
         "title" : "Open Area"
       } ]
     }
+,
+"2018-11-23" : {
+    "dateReadable" : "November 23",
+    "timeslots" : [
+       {
+      "endTime" : "10:15",
+      "sessions" : [ {
+        "items" : [ 100 ]
+      } ],
+      "startTime" : "10:00"
+    }, {
+      "endTime" : "10:30",
+      "sessions" : [ {
+        "items" : [ 105 ]
+      } ],
+      "startTime" : "10:15"
+    }, {
+      "endTime" : "11:00",
+      "sessions" : [ {
+        "items" : [ 110 ]
+      } ],
+      "startTime" : "10:30"
+    }, 
+    {
+      "endTime" : "13:30",
+      "sessions" : [ 
+        {
+          "items" : [ 115 ]
+        }, 
+        {
+          "extend" : 3,
+          "items" : [ 117 ]
+        }, 
+        {
+          "extend" : 3
+          ,
+          "items" : [ 119 ]
+        } 
+      ],
+      "startTime" : "11:05"
+    },
+    {
+      "endTime" : "11:45",
+      "sessions" : 
+      [ 
+        {
+        "items" : [ 120 ]
+        }  
+      ],
+      "startTime" : "11:35"
+    }, {
+      "endTime" : "13:00",
+      "sessions" : [ {
+        "items" : [ 123 ]
+      } ],
+      "startTime" : "11:50"
+    },{
+      "endTime" : "13:00",
+      "sessions" : [ {
+        "items" : [ 125 ]
+      } ],
+      "startTime" : "12:00"
+    }, {
+      "endTime" : "13:20",
+      "sessions" : [ {
+        "items" : [ 130 ]
+      }, {
+        "extend" : 2,
+        "items" : [ 132 ]
+      },  {
+        "extend" : 2,
+        "items" : [ 119 ]
+      } ],
+      "startTime" : "13:00"
+    }, {
+      "endTime" : "14:00",
+      "sessions" : [ {
+        "items" : [ 135 ]
+      } ],
+      "startTime" : "13:25"
+    }, {
+      "endTime" : "14:15",
+      "sessions" : [ {
+        "items" : [ 140 ]
+      } ],
+      "startTime" : "14:00"
+    },
+
+    {
+      "endTime" : "14:45",
+      "sessions" : [ {
+        "items" : [ 145 ]
+      }, {
+        "extend" : 2,
+        "items" : [ 138 ]
+      },  {
+        "extend" : 2,
+        "items" : [ 119 ]
+      } ],
+      "startTime" : "14:15"
+    },    
+    {
+      "endTime" : "15:00",
+      "sessions" : [ {
+        "items" : [ 150 ]
+      } ],
+      "startTime" : "14:50"
+    }
+    , {
+      "endTime" : "15:40",
+      "sessions" : [ {
+        "items" : [ 155 ]
+      } ],
+      "startTime" : "15:05"
+    }
+    , {
+      "endTime" : "15:45",
+      "sessions" : [ {
+        "items" : [ 160 ]
+      } ],
+      "startTime" : "15:40"
+    }
+    , {
+      "endTime" : "16:00",
+      "sessions" : [ {
+        "items" : [ 165 ]
+      } ],
+      "startTime" : "15:45"
+    }
+    , {
+      "endTime" : "16:15",
+      "sessions" : [ {
+        "items" : [ 170 ]
+      } ],
+      "startTime" : "16:00"
+    }, {
+      "endTime" : "19:00",
+      "sessions" : [ {
+        "items" : [ 175 ]
+      } ],
+      "startTime" : "16:15"
+    }
+    , {
+      "endTime" : "19:30",
+      "sessions" : [ {
+        "items" : [ 180 ]
+      } ],
+      "startTime" : "17:30"
+    }
   
-  },
+  ],
+    "tracks" : [ {
+      "title" : "Riddell Library"
+    }, {
+      "title" : "Classroomss"
+    }, {
+      "title" : "Open Area"
+    } ]
+  
+  }},
   "sessions" : {
     "100" : {
       "description" : "Welcome to DevFest!",
@@ -506,6 +664,34 @@
       } ],
       "order":0,
       "title" : "Founder, GDG Cloud Calgary"
+    },
+    "Shaun_Mitchell" : {
+      "bio" : "Shaun.",
+      "company" : "Google Cloud",
+      "companyLogo" : "/images/logos/airia.png",
+      "companyLogoUrl" : "http://google.com",
+      "country" : "Canada",
+      "featured" : true,
+      "name" : "Shaun Mitchell",
+      "photo" : "/images/people/shaun.mitchell.png",
+      "photoUrl" : "https://www.devfestyyc.com/images/people/shaun.mitchell.png",
+      "shortBio" : "Shaun...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/shaunmitchell/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/shaunmitchell",
+        "name" : "Twitter"
+      },
+       {
+        "icon" : "github",
+        "link" : "https://github.com/shaunmitchell",
+        "name" : "Github"
+      } ],
+      "order":1,
+      "title" : "Google Cloud Customer Engineer"
     }
   },
   "team" : [ 
@@ -956,7 +1142,9 @@
     "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(469).jpg?alt=media&token=80669b99-81f4-4d7d-8160-e0174da62b85",
     "title" : "100x impact - from an Individual Contributor to Technical Leader",
     "youtubeId" : "O1dtdDpQXU8"
-  } ],
+  } 
+
+],
   "previousSpeakers": {
     "Cleo_Espiritu" : {
       "bio" : "",
