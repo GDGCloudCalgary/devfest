@@ -478,19 +478,18 @@
     }
   },
   "speakers" : {
-
     "Greg_Bennett" : {
-      "bio" : "Greg transforms complex enterprises and builds world-class developer communities. He founded AIRIA.CLOUD and GDGYYC and leads cloud migration, ML and IoT projects in partnership with Google Cloud. He’s a sought after international speaker and facilitator.<br>You can catch him at [gregbennett.io](http://gregbennett.io) or skateboarding to his next meeting.",
+      "bio" : "Greg transforms complex enterprises and builds world-class developer communities. He founded AIRIA.CLOUD and GDGYYC and leads cloud migration, ML and IoT projects in partnership with Google Cloud. He’s a sought after international speaker and facilitator.<br><br>You can catch him at [gregbennett.io](http://gregbennett.io) or skateboarding to his next meeting.",
       "company" : "AIRIA Cloud",
       "companyLogo" : "/images/logos/airia.png",
       "companyLogoUrl" : "http://airia.cloud",
       "country" : "Canada",
-      "featured" : true,
+      "featured" : false,
       "name" : "Greg Bennett",
       "photo" : "/images/people/greg.bennett.png",
       "photoUrl" : "https://www.devfestyyc.com/images/people/greg.bennett.png",
       "shortBio" : "Greg transforms complex enterprises and builds world-class developer ecosystems.",
-      "socials" : [ {
+      "socials" : [{
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/gregbennettio/",
         "name" : "LinkedIn"
@@ -498,15 +497,89 @@
         "icon" : "twitter",
         "link" : "https://twitter.com/recrdx",
         "name" : "Twitter"
-      },
-       {
+      }, {
         "icon" : "github",
         "link" : "https://github.com/gregbennettio",
         "name" : "Github"
       } ],
-      "order":0,
-      "title" : "Founder, GDG Cloud Calgary"
-    }
+      "order":3,
+      "title" : "Founder @ GDGYYC, President @ AIRIA Cloud"
+  },
+  "Kyle_Paul" : {
+    "bio" : "Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).",
+    "company" : "Google",
+    "companyLogo" : "/images/logos/google.svg",
+    "companyLogoUrl" : "https://developers.google.com/community/",
+    "country" : "USA",
+    "featured" : true,
+    "name" : "Kyle Paul",
+    "photo" : "/images/people/kyle.paul.jpg",
+    "photoUrl" : "https://www.devfestyyc.com/images/people/kyle.paul.jpg",
+    "shortBio" : "Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/kylepaul/",
+      "name" : "LinkedIn"
+    }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/_KylePaul",
+      "name" : "Twitter"
+    },
+     {
+      "icon" : "github",
+      "link" : "https://github.com/neojato",
+      "name" : "Github"
+    } ],
+    "order":0,
+    "title" : "North America Regional Lead @ Google"
+  },
+  "Scott_Stoll" : {
+    "bio" : "Scott is an American app developer, author, speaker, trainer and Flutter evangelist. He has been involved with Flutter since the 9th commit, v0.0.14, and possesses a Nanodegree from Google / Udacity in Android Development.<br><br>Today, Scott is the primary organizer of GDG Cleveland and the NE Ohio Flutter Developers Meetup, co-founder of the Flutter Study Group Slack (FSG) and Editor for Flutter Community on Medium. He is also the creator of #HumpDayQandA, a weekly, remote video conference held every Wednesday where people can come for free, live help with Flutter.<br><br>Scott is available for talks, workshops and consulting both nationally and internationally.",
+    "company" : "Flutter Community",
+    "companyLogo" : "/images/logos/flutter_community.png",
+    "companyLogoUrl" : "https://medium.com/flutter-community",
+    "country" : "USA",
+    "featured" : true,
+    "name" : "Scott Stoll",
+    "photo" : "/images/people/scott.stoll.jpg",
+    "photoUrl" : "https://www.devfestyyc.com/images/people/scott.stoll.jpg",
+    "shortBio" : "Scott is an American app developer, author, speaker, trainer and Flutter evangelist. He has been involved with Flutter since the 9th commit, v0.0.14, and possesses a Nanodegree from Google / Udacity in Android Development.<br><br>Today, Scott is the primary organizer of GDG Cleveland and the NE Ohio Flutter Developers Meetup, co-founder of the Flutter Study Group Slack (FSG) and Editor for Flutter Community on Medium. He is also the creator of #HumpDayQandA, a weekly, remote video conference held every Wednesday where people can come for free, live help with Flutter.<br><br>Scott is available for talks, workshops and consulting both nationally and internationally.",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/scott-stoll-59722915a/",
+      "name" : "LinkedIn"
+    }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/scottstoll2017",
+      "name" : "Twitter"
+    },
+     {
+      "icon" : "github",
+      "link" : "https://github.com/ScottS2017",
+      "name" : "Github"
+    } ],
+    "order":1,
+    "title" : "Editor, Flutter Community on Medium"
+  },
+  "Fatima_Silviera" : {
+    "bio" : "Fatima has extensive experience in application development and solution architecture. She is passionate about all things computer (and cats)!",
+    "company" : "Google",
+    "companyLogo" : "/images/logos/google.svg",
+    "companyLogoUrl" : "http://cloud.google.com",
+    "country" : "Canada",
+    "featured" : true,
+    "name" : "Fatima Silviera",
+    "photo" : "/images/people/fatima.silviera.jpg",
+    "photoUrl" : "https://www.devfestyyc.com/images/people/fatima.silviera.jpg",
+    "shortBio" : "Fatima has extensive experience in application development and solution architecture. She is passionate about all things computer (and cats)!",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/fatimasilv",
+      "name" : "LinkedIn"
+    }],
+    "order":2,
+    "title" : "Expert in Infrastructure, Networking, Storage, Computing, CI/CD, Microservices, Kubernetes."
+}
   },
   "team" : [ 
     {
@@ -791,7 +864,7 @@
     "available" : true,
     "currency" : "C$",
     "ends" : "Nov 8",
-    "info" : "Requires valid student/lecturer ID. While Quantities Last! ",
+    "info" : "Requires valid student/lecturer ID. While quantities Last! ",
     "name" : "Student/ EDU",
     "price" : 37.50,
     "soldOut" : false,
