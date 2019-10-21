@@ -1,6 +1,22 @@
 import json
 import os
 import requests
+import datetime
+
+
+months = {}
+months["1"] = "January"
+months["2"] = "February"
+months["3"] = "March"
+months["4"] = "April"
+months["5"] = "May"
+months["6"] = "June"
+months["7"] = "July"
+months["8"] = "August"
+months["9"] = "September"
+months["10"] = "October"
+months["11"] = "November"
+months["12"] = "December"
 
 def read_json(filepath):
     inp = {}
@@ -58,34 +74,30 @@ data, cls = read_json("../docs/default-firebase-data.json")
 save_json(data, "../docs/default-firebase-data-bkp.json")
 print(data.keys())
 
-print("schedule")
-print(data["schedule"])
-
-sch_ref = data["schedule"]['2019-11-22']
-print(sch_ref)
-print(data["schedule"]['2019-11-22'].keys())
-print(data["schedule"]['2019-11-22']["timeslots"])
-
-
-sess_ref = data["sessions"]
-for s in sess_ref:
-  print(sess_ref[s])
-
+schedule_details, cls = read_json("schedule_table.json")
 sessions_details, cls = read_json("sessions.json")
+speakers, cls = read_json("speakers.json")
+speaker_wall, cls = read_json("speakers_wall.json")
 
-print(sessions_details)
-schedule = {}
+def get_date_time(dtime):
+  ymd = dtime.split("T")
+  tt = ymd[1]
+  ymd = ymd[0]
+  ymd1 = ymd.split("-")
+  ymd1 = months[ymd1[1]] + " " + ymd1[2] + " " + ymd1[0]
+  return ymd, ymd1, tt
 
-
-##################################################################### Sessions ##########################################################################
-
+##################################################################### Sessions ###########################################################################
 def session_builder(sessions_details):
     all_session_info = {}
+    session_slots = {}
+    tracks = {}
     for ses in sessions_details:
       sess_det = ses['sessions']
       for det in sess_det:
         new_ses = {}
         id = det["id"]
+        session_slots[id] = {"startTime": det['startsAt'], "endTime": det['endsAt']}
         new_ses["description"] = det["description"]
         new_ses["title"] = det["title"]
 
@@ -96,6 +108,8 @@ def session_builder(sessions_details):
         new_ses["videoID"] = ''
         new_ses["image"] = ''
         new_ses["presentation"] = ''
+        new_ses["roomId"] = det["roomId"]
+        new_ses["room"] = det["room"]
 
         for cat in det["categories"]:
           if cat["name"].lower() == "language":
@@ -119,7 +133,13 @@ def session_builder(sessions_details):
             track = list(track)[0:len(track) - 1]
             new_ses["tags"] = "".join(track)
             new_ses["track"] = "".join(track)
-
+            dat0, dat1, dat2 =  get_date_time(det['startsAt'])
+            if dat0 not in tracks.keys():
+              tracks[dat0] = {}
+            if new_ses["track"] not in tracks[dat0].keys():
+              tracks[dat0][new_ses["track"]] = {}
+            if det["roomId"] not in tracks[dat0][new_ses["track"]].keys():
+              tracks[dat0][new_ses["track"]][det["roomId"]] = det["room"]
           if cat["name"].lower() == "session format":
             track = ""
             for trk in cat['categoryItems']:
@@ -127,21 +147,92 @@ def session_builder(sessions_details):
             track = list(track)[0:len(track) - 1]
             new_ses["session_format"] = "".join(track)
         all_session_info[id] = new_ses
-    return all_session_info
+    return all_session_info, session_slots, tracks
 
+session_det, session_slots, session_tracks  =  session_builder(sessions_details)
 data["sessions"] = session_builder(sessions_details)
 
-##################################################################### SPEAKERS ##########################################################################
 
-speakers, cls = read_json("speakers.json")
-speaker_wall, cls = read_json("speakers_wall.json")
+##################################################################### Schedule ###########################################################################
+print("schedule")
+sch_ref = data["schedule"]['2019-11-22']
+print(sch_ref.keys())
+print("schedule details")
+
+schedule = {}
+timeslots = {}
+for slotid, det in session_slots.items():
+  date, read, tt = get_date_time(det["startTime"])
+  if date not in timeslots.keys():
+    timeslots[date] = {}
+  tm = tt.split(":")
+  tm = tm[0] + "." + tm[1]
+  if tm not in timeslots[date]:
+    timeslots[date][tm] = {}
+  date, read, tt = get_date_time(det["endTime"])
+  tm1 = tt.split(":")
+  tm1 = tm1[0] + "." + tm1[1]
+  if tm1 not in timeslots[date][tm]:
+    timeslots[date][tm][tm1] = []
+  timeslots[date][tm][tm1].append(slotid)
+
+for sc in schedule_details:
+  date, read, tt = get_date_time(sc["date"])
+  schedule[date]= {}
+  schedule[date]['dateReadable'] = read
+
+  for s_rm in sc["rooms"]:
+    for s_tm in s_rm["sessions"]:
+        d_st_tm, r_st_tm, tt_st_tm = get_date_time(s_tm['startsAt'])
+        d_ed_tm, r_ed_tm, tt_ed_tm = get_date_time(s_tm['endsAt'])
+        tm = tt_st_tm.split(":")
+        tm = tm[0] + "." + tm[1]
+        if tm not in timeslots[date]:
+          timeslots[date][tm] = {}
+        tm1 = tt_ed_tm.split(":")
+        tm1 = tm1[0] + "." + tm1[1]
+        if tm1 not in timeslots[date][tm]:
+          timeslots[date][tm][tm1] = []
+        timeslots[date][tm][tm1].append(s_tm["id"])
+  schedule[date]['timeslots'] = []
+  schedule[date]['tracks'] = []
+
+for date in schedule.keys():
+  slots_tms = timeslots[date]
+  tmslots = []
+  for st in slots_tms.keys():
+    for et, ids in slots_tms[st].items():
+      tmp = {}
+      tmp["startTime"] = st
+      tmp["endTime"] = et
+      tmp["sessions"] = []
+      for id in ids:
+        item = {'items': [id]}
+        tmp["sessions"].append(item)
+      tmslots.append(tmp)
+  schedule[date]['timeslots'] = tmslots
+  sessinf = session_tracks[date]
+  sesstrack = []
+  for track, roo_det in sessinf.items():
+    tmp = {}
+    tmp["title"] = track
+    tmp["roomId"] = []
+    tmp["room_name"] = []
+    for roomid, nm in roo_det.items():
+      tmp["roomId"].append(roomid)
+      tmp["room_name"].append(nm)
+    sesstrack.append(tmp)
+  schedule[date]["tracks"] = sesstrack
+
+data["schedule"] = schedule
+
+
+##################################################################### SPEAKERS ###########################################################################
 
 def insert_speaker(speakers, speaker_wall):
   speakers_reference = {}
   order = 1
   for speaker in speakers:
-    print(speaker['links'])
-    print(speaker["questionAnswers"])
     for sw in speaker_wall:
       if sw["id"] == speaker["id"]:
         speaker["tagLine"] = sw["tagLine"]
