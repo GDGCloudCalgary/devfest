@@ -1,7 +1,6 @@
 import json
 import os
 import requests
-people_image_path = "../images/people/"
 
 def read_json(filepath):
     inp = {}
@@ -31,26 +30,111 @@ def save_profile_pic(path, name, url):
       if not block:
         break
       handle.write(block)
+def get_sessionize_json(url):
+  response = requests.get(url)
+  if not response.ok:
+    print(response)
+  body = response.json()
+  return body
 
+people_image_path = "../images/people/"
+sessionize_speakers_url = "https://sessionize.com/api/v2/lo4pjfv9/view/Speakers"
+sessionize_speakers_wall_url  = "https://sessionize.com/api/v2/lo4pjfv9/view/SpeakerWall"
+sessions_url  = "https://sessionize.com/api/v2/lo4pjfv9/view/Sessions"
+schedule_table_url  = "https://sessionize.com/api/v2/lo4pjfv9/view/GridTable"
+schedule_smart_grid_url  = "https://sessionize.com/api/v2/lo4pjfv9/view/GridSmart"
+
+speakers = get_sessionize_json(sessionize_speakers_url)
+save_json(speakers, "speakers.json")
+speakers_wall = get_sessionize_json(sessionize_speakers_wall_url)
+save_json(speakers_wall, "speakers_wall.json")
+sessions = get_sessionize_json(sessions_url)
+save_json(sessions, "sessions.json")
+schedule_table = get_sessionize_json(schedule_table_url)
+save_json(schedule_table, "schedule_table.json")
+schedule_smartgrid = get_sessionize_json(schedule_smart_grid_url)
+save_json(schedule_smartgrid, "schedule_smartgrid.json")
 data, cls = read_json("../docs/default-firebase-data.json")
-reference = data["speakers"]
 save_json(data, "../docs/default-firebase-data-bkp.json")
+print(data.keys())
+
+print("schedule")
+print(data["schedule"])
+
+sch_ref = data["schedule"]['2019-11-22']
+print(sch_ref)
+print(data["schedule"]['2019-11-22'].keys())
+print(data["schedule"]['2019-11-22']["timeslots"])
 
 
-print("Reference:")
-print(reference)
-print(list(reference['Greg_Bennett'].keys()))
-reference_keys = list(reference['Greg_Bennett'].keys())
+sess_ref = data["sessions"]
+for s in sess_ref:
+  print(sess_ref[s])
 
-print("socials:", reference['Greg_Bennett']['socials'])
+sessions_details, cls = read_json("sessions.json")
+
+print(sessions_details)
+schedule = {}
+
+
+##################################################################### Sessions ##########################################################################
+
+def session_builder(sessions_details):
+    all_session_info = {}
+    for ses in sessions_details:
+      sess_det = ses['sessions']
+      for det in sess_det:
+        new_ses = {}
+        id = det["id"]
+        new_ses["description"] = det["description"]
+        new_ses["title"] = det["title"]
+
+        new_ses["speakers"] = []
+        for speak in det["speakers"]:
+          new_ses["speakers"].append(speak['name'])
+        new_ses["icon"] = ''
+        new_ses["videoID"] = ''
+        new_ses["image"] = ''
+        new_ses["presentation"] = ''
+
+        for cat in det["categories"]:
+          if cat["name"].lower() == "language":
+            language = ""
+            for lan in cat['categoryItems']:
+              language += lan["name"] + ","
+            language = list(language)[0:len(language)-1]
+            new_ses["language"] = "".join(language)
+
+          if cat["name"].lower() == "level":
+            level = ""
+            for lev in cat['categoryItems']:
+              level += lev["name"] + ","
+            level = list(level)[0:len(level) - 1]
+            new_ses["complexity"] = "".join(level)
+
+          if cat["name"].lower() == "track":
+            track = ""
+            for trk in cat['categoryItems']:
+              track += trk["name"] + ","
+            track = list(track)[0:len(track) - 1]
+            new_ses["tags"] = "".join(track)
+            new_ses["track"] = "".join(track)
+
+          if cat["name"].lower() == "session format":
+            track = ""
+            for trk in cat['categoryItems']:
+              track += trk["name"] + ","
+            track = list(track)[0:len(track) - 1]
+            new_ses["session_format"] = "".join(track)
+        all_session_info[id] = new_ses
+    return all_session_info
+
+data["sessions"] = session_builder(sessions_details)
+
+##################################################################### SPEAKERS ##########################################################################
 
 speakers, cls = read_json("speakers.json")
 speaker_wall, cls = read_json("speakers_wall.json")
-print("From Sessionize:")
-print(speakers[0].keys())
-print(speaker_wall[0].keys())
-
-
 
 def insert_speaker(speakers, speaker_wall):
   speakers_reference = {}
@@ -104,8 +188,7 @@ def insert_speaker(speakers, speaker_wall):
     speakers_reference[name_key] = reference_speaker_info
   return speakers_reference
 
-
-
 data["speakers"] = insert_speaker(speakers, speaker_wall)
-print(data["speakers"] )
+
+################################################################################# SAVE NEW FILE ###########################################################################################3
 save_json(data, "../docs/default-firebase-data.json")
