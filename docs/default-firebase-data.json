@@ -17,7 +17,7 @@
       "published" : "2019-07-01",
       "source" : "/data/posts/2017-02-06-dfua17-announced.md",
       "title" : "Announcing DevFestYYC 2019"
-    }    
+    }
   },
   "gallery" : [
     "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4185.jpg?alt=media&token=ff3fd161-3d68-401a-90cd-74b90bd2a4d8",
@@ -78,12 +78,10 @@
     "order" : 1,
     "title" : "General Partner"
   } ],
-  "schedule" : {
-<<<<<<< HEAD
-    "2019-11-22" : {
-=======
-    "2018-11-22" : {
->>>>>>> 9292dd1c347c067c638ecedfa14d502148de9c27
+  "schedule" :
+  {
+    "2019-11-22" :
+    {
       "dateReadable" : "November 22",
       "timeslots" : [
          {
@@ -104,32 +102,32 @@
           "items" : [ 110 ]
         } ],
         "startTime" : "10:30"
-      }, 
+      },
       {
         "endTime" : "13:30",
-        "sessions" : [ 
+        "sessions" : [
           {
             "items" : [ 115 ]
-          }, 
+          },
           {
             "extend" : 3,
             "items" : [ 117 ]
-          }, 
+          },
           {
             "extend" : 3
             ,
             "items" : [ 119 ]
-          } 
+          }
         ],
         "startTime" : "11:05"
       },
       {
         "endTime" : "11:45",
-        "sessions" : 
-        [ 
+        "sessions" :
+        [
           {
           "items" : [ 120 ]
-          }  
+          }
         ],
         "startTime" : "11:35"
       }, {
@@ -182,7 +180,7 @@
           "items" : [ 119 ]
         } ],
         "startTime" : "14:15"
-      },    
+      },
       {
         "endTime" : "15:00",
         "sessions" : [ {
@@ -231,7 +229,7 @@
         } ],
         "startTime" : "17:30"
       }
-    
+
     ],
       "tracks" : [ {
         "title" : "Riddell Library"
@@ -240,9 +238,8 @@
       }, {
         "title" : "Open Area"
       } ]
-    }
-,
-"2018-11-23" : {
+    },
+    "2018-11-23" : {
     "dateReadable" : "November 23",
     "timeslots" : [
        {
@@ -263,32 +260,32 @@
         "items" : [ 110 ]
       } ],
       "startTime" : "10:30"
-    }, 
+    },
     {
       "endTime" : "13:30",
-      "sessions" : [ 
+      "sessions" : [
         {
           "items" : [ 115 ]
-        }, 
+        },
         {
           "extend" : 3,
           "items" : [ 117 ]
-        }, 
+        },
         {
           "extend" : 3
           ,
           "items" : [ 119 ]
-        } 
+        }
       ],
       "startTime" : "11:05"
     },
     {
       "endTime" : "11:45",
-      "sessions" : 
-      [ 
+      "sessions" :
+      [
         {
         "items" : [ 120 ]
-        }  
+        }
       ],
       "startTime" : "11:35"
     }, {
@@ -328,7 +325,6 @@
       } ],
       "startTime" : "14:00"
     },
-
     {
       "endTime" : "14:45",
       "sessions" : [ {
@@ -341,7 +337,7 @@
         "items" : [ 119 ]
       } ],
       "startTime" : "14:15"
-    },    
+    },
     {
       "endTime" : "15:00",
       "sessions" : [ {
@@ -390,7 +386,6 @@
       } ],
       "startTime" : "17:30"
     }
-  
   ],
     "tracks" : [ {
       "title" : "Riddell Library"
@@ -399,10 +394,11 @@
     }, {
       "title" : "Open Area"
     } ]
-  
   }},
-  "sessions" : {
-    "100" : {
+  "sessions" :
+  {
+    "100" :
+    {
       "description" : "Welcome to DevFest!",
       "icon" : "opening",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
@@ -455,7 +451,7 @@
       "tags" : [ "" ],
       "title" : "Lightning Talk 2"
     },
-  
+
     "125" : {
       "complexity" : "",
       "description" : "Lunch",
@@ -463,7 +459,7 @@
       "presentation" : "",
       "tags" : [ "Lunch" ],
       "title" : "Lunch"
-    }, 
+    },
     "130" : {
       "complexity" : "Beginner",
       "description" : "Pepper the Robot - GCPowering a 4-foot-tall humanoid robot",
@@ -479,7 +475,7 @@
       "icon" : "",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
       "title" : "Hands On Lab 2"
-    },    
+    },
     "135" : {
       "complexity" : "Intermediate",
       "description" : "Observables & Promises in Firebase, Oh My!",
@@ -616,7 +612,7 @@
       "tags" : [ "Web" ],
       "title" : "On Polymer and smileys... or Polysmileys"
     },
-    
+
     "205" : {
       "description" : "Afterparty is a great time to have some fun and meet new people",
       "icon" : "party",
@@ -640,493 +636,525 @@
     }
   },
   "speakers" : {
-    "Greg_Bennett" : {
-      "bio" : "Greg transforms complex enterprises and builds world-class developer communities. He founded AIRIA.CLOUD and GDGYYC and leads cloud migration, ML and IoT projects in partnership with Google Cloud. He’s a sought after international speaker and facilitator.<br><br>You can catch him at [gregbennett.io](http://gregbennett.io) or skateboarding to his next meeting.",
-      "company" : "AIRIA Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://airia.cloud",
-      "country" : "Canada",
-      "featured" : false,
-      "name" : "Greg Bennett",
-      "photo" : "/images/people/greg.bennett.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/greg.bennett.png",
-      "shortBio" : "Greg transforms complex enterprises and builds world-class developer ecosystems.",
-      "socials" : [{
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/gregbennettio/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/recrdx",
-        "name" : "Twitter"
-      }, {
-        "icon" : "github",
-        "link" : "https://github.com/gregbennettio",
-        "name" : "Github"
-      } ],
-<<<<<<< HEAD
-      "order":3,
-      "title" : "Founder @ GDGYYC, President @ AIRIA Cloud"
-  },
-  "Kyle_Paul" : {
-    "bio" : "Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).",
-    "company" : "Google",
-    "companyLogo" : "/images/logos/google.svg",
-    "companyLogoUrl" : "https://developers.google.com/community/",
-    "country" : "USA",
-    "featured" : true,
-    "name" : "Kyle Paul",
-    "photo" : "/images/people/kyle.paul.jpg",
-    "photoUrl" : "https://www.devfestyyc.com/images/people/kyle.paul.jpg",
-    "shortBio" : "Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).",
-    "socials" : [ {
-      "icon" : "linkedin",
-      "link" : "https://www.linkedin.com/in/kylepaul/",
-      "name" : "LinkedIn"
-    }, {
-      "icon" : "twitter",
-      "link" : "https://twitter.com/_KylePaul",
-      "name" : "Twitter"
+    "Greg_Bennett": {
+      "bio": "Greg transforms complex enterprises and builds world-class developer communities. He founded AIRIA.CLOUD and GDGYYC and leads cloud migration, ML and IoT projects in partnership with Google Cloud. He’s a sought after international speaker and facilitator.<br><br>You can catch him at [gregbennett.io](http://gregbennett.io) or skateboarding to his next meeting.",
+      "company": "AIRIA Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://airia.cloud",
+      "country": "Canada",
+      "featured": false,
+      "name": "Greg Bennett",
+      "photo": "/images/people/greg.bennett.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/greg.bennett.png",
+      "shortBio": "Greg transforms complex enterprises and builds world-class developer ecosystems.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/gregbennettio/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/recrdx",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/gregbennettio",
+          "name": "Github"
+        }
+      ],
+      "order": 3,
+      "title": "Founder @ GDGYYC, President @ AIRIA Cloud"
     },
-     {
-      "icon" : "github",
-      "link" : "https://github.com/neojato",
-      "name" : "Github"
-    } ],
-    "order":0,
-    "title" : "North America Regional Lead @ Google"
-  },
-  "Scott_Stoll" : {
-    "bio" : "Scott is an American app developer, author, speaker, trainer and Flutter evangelist. He has been involved with Flutter since the 9th commit, v0.0.14, and possesses a Nanodegree from Google / Udacity in Android Development.<br><br>Today, Scott is the primary organizer of GDG Cleveland and the NE Ohio Flutter Developers Meetup, co-founder of the Flutter Study Group Slack (FSG) and Editor for Flutter Community on Medium. He is also the creator of #HumpDayQandA, a weekly, remote video conference held every Wednesday where people can come for free, live help with Flutter.<br><br>Scott is available for talks, workshops and consulting both nationally and internationally.",
-    "company" : "Flutter Community",
-    "companyLogo" : "/images/logos/flutter_community.png",
-    "companyLogoUrl" : "https://medium.com/flutter-community",
-    "country" : "USA",
-    "featured" : true,
-    "name" : "Scott Stoll",
-    "photo" : "/images/people/scott.stoll.jpg",
-    "photoUrl" : "https://www.devfestyyc.com/images/people/scott.stoll.jpg",
-    "shortBio" : "Scott is an American app developer, author, speaker, trainer and Flutter evangelist. He has been involved with Flutter since the 9th commit, v0.0.14, and possesses a Nanodegree from Google / Udacity in Android Development.<br><br>Today, Scott is the primary organizer of GDG Cleveland and the NE Ohio Flutter Developers Meetup, co-founder of the Flutter Study Group Slack (FSG) and Editor for Flutter Community on Medium. He is also the creator of #HumpDayQandA, a weekly, remote video conference held every Wednesday where people can come for free, live help with Flutter.<br><br>Scott is available for talks, workshops and consulting both nationally and internationally.",
-    "socials" : [ {
-      "icon" : "linkedin",
-      "link" : "https://www.linkedin.com/in/scott-stoll-59722915a/",
-      "name" : "LinkedIn"
-    }, {
-      "icon" : "twitter",
-      "link" : "https://twitter.com/scottstoll2017",
-      "name" : "Twitter"
+    "Kyle_Paul": {
+      "bio": "Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).",
+      "company": "Google",
+      "companyLogo": "/images/logos/google.svg",
+      "companyLogoUrl": "https://developers.google.com/community/",
+      "country": "USA",
+      "featured": true,
+      "name": "Kyle Paul",
+      "photo": "/images/people/kyle.paul.jpg",
+      "photoUrl": "https://www.devfestyyc.com/images/people/kyle.paul.jpg",
+      "shortBio": "Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/kylepaul/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/_KylePaul",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/neojato",
+          "name": "Github"
+        }
+      ],
+      "order": 0,
+      "title": "North America Regional Lead @ Google"
     },
-     {
-      "icon" : "github",
-      "link" : "https://github.com/ScottS2017",
-      "name" : "Github"
-    } ],
-    "order":1,
-    "title" : "Editor, Flutter Community on Medium"
-  },
-  "Fatima_Silviera" : {
-    "bio" : "Fatima has extensive experience in application development and solution architecture. She is passionate about all things computer (and cats)!",
-    "company" : "Google",
-    "companyLogo" : "/images/logos/google.svg",
-    "companyLogoUrl" : "http://cloud.google.com",
-    "country" : "Canada",
-    "featured" : true,
-    "name" : "Fatima Silviera",
-    "photo" : "/images/people/fatima.silviera.jpg",
-    "photoUrl" : "https://www.devfestyyc.com/images/people/fatima.silviera.jpg",
-    "shortBio" : "Fatima has extensive experience in application development and solution architecture. She is passionate about all things computer (and cats)!",
-    "socials" : [ {
-      "icon" : "linkedin",
-      "link" : "https://www.linkedin.com/in/fatimasilv",
-      "name" : "LinkedIn"
-    }],
-    "order":2,
-    "title" : "Expert in Infrastructure, Networking, Storage, Computing, CI/CD, Microservices, Kubernetes."
-}
-=======
-      "order":0,
-      "title" : "Founder, GDG Cloud Calgary"
+    "Scott_Stoll": {
+      "bio": "Scott is an American app developer, author, speaker, trainer and Flutter evangelist. He has been involved with Flutter since the 9th commit, v0.0.14, and possesses a Nanodegree from Google / Udacity in Android Development.<br><br>Today, Scott is the primary organizer of GDG Cleveland and the NE Ohio Flutter Developers Meetup, co-founder of the Flutter Study Group Slack (FSG) and Editor for Flutter Community on Medium. He is also the creator of #HumpDayQandA, a weekly, remote video conference held every Wednesday where people can come for free, live help with Flutter.<br><br>Scott is available for talks, workshops and consulting both nationally and internationally.",
+      "company": "Flutter Community",
+      "companyLogo": "/images/logos/flutter_community.png",
+      "companyLogoUrl": "https://medium.com/flutter-community",
+      "country": "USA",
+      "featured": true,
+      "name": "Scott Stoll",
+      "photo": "/images/people/scott.stoll.jpg",
+      "photoUrl": "https://www.devfestyyc.com/images/people/scott.stoll.jpg",
+      "shortBio": "Scott is an American app developer, author, speaker, trainer and Flutter evangelist. He has been involved with Flutter since the 9th commit, v0.0.14, and possesses a Nanodegree from Google / Udacity in Android Development.<br><br>Today, Scott is the primary organizer of GDG Cleveland and the NE Ohio Flutter Developers Meetup, co-founder of the Flutter Study Group Slack (FSG) and Editor for Flutter Community on Medium. He is also the creator of #HumpDayQandA, a weekly, remote video conference held every Wednesday where people can come for free, live help with Flutter.<br><br>Scott is available for talks, workshops and consulting both nationally and internationally.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/scott-stoll-59722915a/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/scottstoll2017",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/ScottS2017",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Editor, Flutter Community on Medium"
     },
-    "Shaun_Mitchell" : {
-      "bio" : "Shaun.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Shaun Mitchell",
-      "photo" : "/images/people/shaun.mitchell.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/shaun.mitchell.png",
-      "shortBio" : "Shaun...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Fatima_Silviera": {
+      "bio": "Fatima has extensive experience in application development and solution architecture. She is passionate about all things computer (and cats)!",
+      "company": "Google",
+      "companyLogo": "/images/logos/google.svg",
+      "companyLogoUrl": "http://cloud.google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Fatima Silviera",
+      "photo": "/images/people/fatima.silviera.jpg",
+      "photoUrl": "https://www.devfestyyc.com/images/people/fatima.silviera.jpg",
+      "shortBio": "Fatima has extensive experience in application development and solution architecture. She is passionate about all things computer (and cats)!",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/fatimasilv",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 2,
+      "title": "Expert in Infrastructure, Networking, Storage, Computing, CI/CD, Microservices, Kubernetes."
     },
-    "Kyle_Paul" : {
-      "bio" : "Kyle.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Kyle Paul",
-      "photo" : "/images/people/kyle.paul.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/kyle.paul.png",
-      "shortBio" : "Shaun...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Shaun_Mitchell": {
+      "bio": "Shaun.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Shaun Mitchell",
+      "photo": "/images/people/shaun.mitchell.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/shaun.mitchell.png",
+      "shortBio": "Shaun...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     },
-    "Kiley_Carson" : {
-      "bio" : "Kiley.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Kiley Carson",
-      "photo" : "/images/people/kiley.carson.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/kiley.carson.png",
-      "shortBio" : "Kiley...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Kyle_Paul": {
+      "bio": "Kyle.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Kyle Paul",
+      "photo": "/images/people/kyle.paul.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/kyle.paul.png",
+      "shortBio": "Shaun...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     },
-    "Scott_Stoll" : {
-      "bio" : "Scott.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Scott Stoll",
-      "photo" : "/images/people/shaun.mitchell.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/scott.stoll.png",
-      "shortBio" : "Scott...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Kiley_Carson": {
+      "bio": "Kiley.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Kiley Carson",
+      "photo": "/images/people/kiley.carson.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/kiley.carson.png",
+      "shortBio": "Kiley...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     },
-    "Fatima Silveira" : {
-      "bio" : "Fatima.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Fatima Silveira",
-      "photo" : "/images/people/fatima.silveira.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/fatima.silveira.png",
-      "shortBio" : "Fatima...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Scott_Stoll": {
+      "bio": "Scott.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Scott Stoll",
+      "photo": "/images/people/shaun.mitchell.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/scott.stoll.png",
+      "shortBio": "Scott...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     },
-    "Cleo Espiritu" : {
-      "bio" : "Cleo.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Cleo Espiritu",
-      "photo" : "/images/people/cleo.espiritu.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/cleo.espiritu.png",
-      "shortBio" : "Cleo...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Fatima Silveira": {
+      "bio": "Fatima.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Fatima Silveira",
+      "photo": "/images/people/fatima.silveira.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/fatima.silveira.png",
+      "shortBio": "Fatima...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     },
-    "Neel_Kirit" : {
-      "bio" : "Neel.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Neel Kirit",
-      "photo" : "/images/people/neel.kirit.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/neel.kirit.png",
-      "shortBio" : "Cleo...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Cleo Espiritu": {
+      "bio": "Cleo.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Cleo Espiritu",
+      "photo": "/images/people/cleo.espiritu.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/cleo.espiritu.png",
+      "shortBio": "Cleo...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     },
-    "Hans_Hegge" : {
-      "bio" : "Hans.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Hans Hegge",
-      "photo" : "/images/people/hans.hegge.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/hans.hegge.png",
-      "shortBio" : "Cleo...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Neel_Kirit": {
+      "bio": "Neel.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Neel Kirit",
+      "photo": "/images/people/neel.kirit.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/neel.kirit.png",
+      "shortBio": "Cleo...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     },
-    "Ted_Edmonds" : {
-      "bio" : "Ted.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Ted Edmonds",
-      "photo" : "/images/people/ted.edmonds.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/ted.edmonds.png",
-      "shortBio" : "Cleo...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Hans_Hegge": {
+      "bio": "Hans.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Hans Hegge",
+      "photo": "/images/people/hans.hegge.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/hans.hegge.png",
+      "shortBio": "Cleo...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     },
-    
-    "Boyang_Zhang" : {
-      "bio" : "Boyang.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Ted Edmonds",
-      "photo" : "/images/people/boyang.zhang.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/boyang.zhang.png",
-      "shortBio" : "Cleo...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Ted_Edmonds": {
+      "bio": "Ted.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Ted Edmonds",
+      "photo": "/images/people/ted.edmonds.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/ted.edmonds.png",
+      "shortBio": "Cleo...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     },
-    
-    "Arunima_Kashyap" : {
-      "bio" : "Arunima.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Arunima Kashyap",
-      "photo" : "/images/people/arunima.kashyap.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/arunima.kashyap.png",
-      "shortBio" : "Arunima...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Boyang_Zhang": {
+      "bio": "Boyang.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Ted Edmonds",
+      "photo": "/images/people/boyang.zhang.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/boyang.zhang.png",
+      "shortBio": "Cleo...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     },
-    
-    "Ankanksha_Parameshwar" : {
-      "bio" : "Ankanksha.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Arunima Kashyap",
-      "photo" : "/images/people/akanksha.parameshwar.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/akanksha.kashyap.png",
-      "shortBio" : "Arunima...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Arunima_Kashyap": {
+      "bio": "Arunima.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Arunima Kashyap",
+      "photo": "/images/people/arunima.kashyap.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/arunima.kashyap.png",
+      "shortBio": "Arunima...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     },
-    
-    "Tim_Chan" : {
-      "bio" : "Tim.",
-      "company" : "Google Cloud",
-      "companyLogo" : "/images/logos/airia.png",
-      "companyLogoUrl" : "http://google.com",
-      "country" : "Canada",
-      "featured" : true,
-      "name" : "Tim Chan",
-      "photo" : "/images/people/tim.chan.png",
-      "photoUrl" : "https://www.devfestyyc.com/images/people/tim.chan.png",
-      "shortBio" : "Arunima...",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/shaunmitchell/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/shaunmitchell",
-        "name" : "Twitter"
-      },
-       {
-        "icon" : "github",
-        "link" : "https://github.com/shaunmitchell",
-        "name" : "Github"
-      } ],
-      "order":1,
-      "title" : "Google Cloud Customer Engineer"
+    "Ankanksha_Parameshwar": {
+      "bio": "Ankanksha.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Arunima Kashyap",
+      "photo": "/images/people/akanksha.parameshwar.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/akanksha.kashyap.png",
+      "shortBio": "Arunima...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
+    },
+    "Tim_Chan": {
+      "bio": "Tim.",
+      "company": "Google Cloud",
+      "companyLogo": "/images/logos/airia.png",
+      "companyLogoUrl": "http://google.com",
+      "country": "Canada",
+      "featured": true,
+      "name": "Tim Chan",
+      "photo": "/images/people/tim.chan.png",
+      "photoUrl": "https://www.devfestyyc.com/images/people/tim.chan.png",
+      "shortBio": "Arunima...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/shaunmitchell/",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shaunmitchell",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/shaunmitchell",
+          "name": "Github"
+        }
+      ],
+      "order": 1,
+      "title": "Google Cloud Customer Engineer"
     }
-  
-  
-  
-  
-  
-  
-  
-  
-  
->>>>>>> 9292dd1c347c067c638ecedfa14d502148de9c27
   },
-  "team" : [ 
+  "team" : [
     {
       "members" : [
       {
@@ -1137,7 +1165,7 @@
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/gregbennettio/",
         "name" : "Linkedin+"
-        }, { 
+        }, {
         "icon" : "",
         "link" : "",
         "name" : ""
@@ -1190,7 +1218,7 @@
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/mikehoff321/",
         "name" : "Linkedin"
-        },{ 
+        },{
           "icon" : "gplus",
           "link" : "https://plus.google.com/u/0/111727949510542626222",
           "name" : "Google+"
@@ -1215,7 +1243,7 @@
           "icon" : "linkedin",
           "link" : "https://www.linkedin.com/in/kiley-carson/",
           "name" : "Linkedin"
-          },{ 
+          },{
             "icon" : "",
             "link" : "",
             "name" : ""
@@ -1287,7 +1315,7 @@
         "title" : "Qwiklabs Facilitator"
       }
       ,
-      
+
       {
         "name" : "Raymond Efegoma",
         "photo" : "/images/people/raymond.efegoma.png",
@@ -1315,7 +1343,7 @@
       },
       {
         "name" : "Sylvain Robichaud",
-        "photo" : "/images/people/sylvain.robichaud.gif", 
+        "photo" : "/images/people/sylvain.robichaud.gif",
         "photoUrl" : "https://devfest-yyc.firebaseapp.com/images/people/sylvain.robichaud.gif",
         "socials" : [ {
           "icon" : "linkedin",
@@ -1337,8 +1365,8 @@
         }],
         "order":9,
         "title" : "Social and media"
-      }, 
-      
+      },
+
       {
         "name" : "Stephanie McGuire",
         "photo" : "/images/people/stephanie.mcguire.png",
@@ -1367,9 +1395,8 @@
         }],
         "order":10,
         "title" : "Social and media"
-      } 
-    
-    
+      }
+
     ],
       "title" : "Core Team"
     }, {
@@ -1389,7 +1416,7 @@
         "icon" : "twitter",
         "link" : "https://twitter.com/recrdx",
         "name" : "Twitter"
-        },{ 
+        },{
         "icon" : "gplus",
         "link" : "https://plus.google.com/113957084984388645066",
         "name" : "Google+"
@@ -1403,7 +1430,7 @@
        ],
        "order":11,
       "title" : "Program Committee"
-    } 
+    }
   ],
   "tickets" : [ {
     "available" : true,
@@ -1574,7 +1601,7 @@
     "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(469).jpg?alt=media&token=80669b99-81f4-4d7d-8160-e0174da62b85",
     "title" : "100x impact - from an Individual Contributor to Technical Leader",
     "youtubeId" : "O1dtdDpQXU8"
-  } 
+  }
 
 ],
   "previousSpeakers": {
@@ -1637,7 +1664,7 @@
           "title" : "-",
           "videoId" : "hTJ_-MxHKMY"
         } ]
-      },   
+      },
       "socials" : [ {
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/suryataparoy/",
