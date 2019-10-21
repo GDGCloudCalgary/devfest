@@ -903,177 +903,110 @@
         }
     },
     "speakers": {
-        "Aakanksha_Parameshwar": {
-            "name": "Aakanksha Parameshwar",
-            "bio": "UX Researcher, Google Cloud Platform",
-            "shortBio": "Google",
-            "title": "Google",
-            "order": "1",
-            "photo": "/images/people/aakanksha.parameshwar.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/aakanksha.parameshwar.png",
-            "featured": true,
+        "Greg_Bennett": {
+            "bio": "Greg transforms complex enterprises and builds world-class developer communities. He founded AIRIA.CLOUD and GDGYYC and leads cloud migration, ML and IoT projects in partnership with Google Cloud. He\u2019s a sought after international speaker and facilitator.<br><br>You can catch him at [gregbennett.io](http://gregbennett.io) or skateboarding to his next meeting.",
+            "company": "AIRIA Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://airia.cloud",
+            "country": "Canada",
+            "featured": false,
+            "name": "Greg Bennett",
+            "photo": "/images/people/greg.bennett.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/greg.bennett.png",
+            "shortBio": "Greg transforms complex enterprises and builds world-class developer ecosystems.",
             "socials": [
                 {
                     "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/aakankshaparameshwar/",
+                    "link": "https://www.linkedin.com/in/gregbennettio/",
                     "name": "LinkedIn"
-                }
-            ],
-            "company": "Google"
-        },
-        "Adam_Berkan": {
-            "name": "Adam Berkan",
-            "bio": "Adam spent 10 years in Silicon Valley as an infrastructure engineer at Google, including 5 years working in Google Cloud Storage.  He moved back to his hometown of Calgary in 2017 and is now working for the educational non-profit Khan Academy.",
-            "shortBio": "Senior Software Engineer - Khan Academy",
-            "title": "Senior Software Engineer - Khan Academy",
-            "order": "2",
-            "photo": "/images/people/adam.berkan.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/adam.berkan.png",
-            "featured": false,
-            "socials": [
+                },
                 {
                     "icon": "twitter",
-                    "link": "https://twitter.com/berkan",
+                    "link": "https://twitter.com/recrdx",
                     "name": "Twitter"
                 },
-                {}
-            ],
-            "company": "Khan Academy"
-        },
-        "Albert_Morozov": {
-            "name": "Albert Morozov",
-            "bio": "Alberta Tech Alliance (Robotics Team)\r\nI was a part of a Robotics team as a prototype designer and information gatherer. We have\r\ncompeted internationally in China winning first place while supporting two rookie teams.\r\n\r\nhttps://calgaryherald.com/news/local-news/calgary-students-win-gold-at-china-robotics-challenge\r\n\r\nAttended World Championship in Huston where we placed fourth in our division from\r\nfive others, putting us in the top 1% ranked teams globally.\r\n\r\nCurrently taking Bachelor of Computer Information Systems at Mount Royal University. \r\nAnd I am a Founder and Lead Developer at Immediate Rent.\r\n",
-            "shortBio": "Immediate Rent, Founder and Lead Developer",
-            "title": "Immediate Rent, Founder and Lead Developer",
-            "order": "3",
-            "photo": "/images/people/albert.morozov.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/albert.morozov.png",
-            "featured": false,
-            "socials": [
-                {}
-            ],
-            "company": "Immediate Rent"
-        },
-        "Amol_Deshmukh": {
-            "name": "Amol Deshmukh",
-            "bio": "Amol Deshmukh is a Software Architect at Quizlet. He has over 20 years of professional experience working on large scale systems at Yahoo, Twitter, Salesforce. At Quizlet, he leads the transition to a microservices architecture.",
-            "shortBio": "Amol Deshmukh works as a Software Architect at Quizlet.",
-            "title": "Amol Deshmukh works as a Software Architect at Quizlet.",
-            "order": "4",
-            "photo": "/images/people/amol.deshmukh.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/amol.deshmukh.png",
-            "featured": true,
-            "socials": [
                 {
-                    "icon": "linkedin",
-                    "link": "Http://linkedin.com/in/amolsdeshmukh",
-                    "name": "LinkedIn"
-                },
-                {}
-            ],
-            "company": "Quizlet Inc."
-        },
-        "arunima_kashyap": {
-            "name": "arunima kashyap",
-            "bio": "Senior UX Research Manager, Google Cloud Platform ",
-            "shortBio": "Google ",
-            "title": "Google ",
-            "order": "5",
-            "photo": "/images/people/arunima.kashyap.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/arunima.kashyap.png",
-            "featured": true,
-            "socials": [],
-            "company": "Google Cloud"
-        },
-        "Ben_Nakaska": {
-            "name": "Ben Nakaska",
-            "bio": null,
-            "shortBio": null,
-            "title": null,
-            "order": "6",
-            "photo": "/images/people/ben.nakaska.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/ben.nakaska.png",
-            "featured": false,
-            "socials": [],
-            "company": ""
-        },
-        "Boyang_Zhang": {
-            "name": "Boyang Zhang",
-            "bio": "BSc in Mechanical Engineering from University of Waterloo, currently a process controls engineer at Hood Pkg Corp.",
-            "shortBio": "A Perspective on Deep Learning and Machine Learning",
-            "title": "A Perspective on Deep Learning and Machine Learning",
-            "order": "7",
-            "photo": "/images/people/boyang.zhang.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/boyang.zhang.png",
-            "featured": true,
-            "socials": [],
-            "company": "Hood Pkg Corp"
-        },
-        "Charlie_Cheung": {
-            "name": "Charlie Cheung",
-            "bio": "Charlie is a UX designer with a background in software development. She specializes in creating beautiful and accessible systems that users love to use. Passionate about supporting local businesses and startups, Charlie believes in the power of community and is excited to see the growing tech talent in Calgary. When not designing her heart out, Charlie is a local tai chi and taekwondo instructor.",
-            "shortBio": "UX Consultant",
-            "title": "UX Consultant",
-            "order": "8",
-            "photo": "/images/people/charlie.cheung.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/charlie.cheung.png",
-            "featured": false,
-            "socials": [
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/charlie-cheung/",
-                    "name": "LinkedIn"
-                },
-                {}
-            ],
-            "company": "N/A"
-        },
-        "Cleo_Espiritu": {
-            "name": "Cleo Espiritu",
-            "bio": "Cleo Espiritu is a Google Developer Expert for G-Suite. She holds an MSc in computing science from the University of Alberta, and has experience working in various roles, such as user experience designer, software developer, business analyst, and system designer. Her passion for designing and developing software that improves end-users\u2019 lives led her to champion and educate on the use of G-Suite for people to transform the way they work. ",
-            "shortBio": "Google Developer Expert",
-            "title": "Google Developer Expert",
-            "order": "9",
-            "photo": "/images/people/cleo.espiritu.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/cleo.espiritu.png",
-            "featured": true,
-            "socials": [
-                {
-                    "icon": "twitter",
-                    "link": "http://twitter.com/cinfourthirds",
-                    "name": "Twitter"
-                },
-                {}
-            ],
-            "company": ""
-        },
-        "Eddy_Beals": {
-            "name": "Eddy Beals",
-            "bio": "I'm an Operations Analyst working in a back office solution and support team in ATB Financial. I don't have a formal background in development, and have gotten to learn it on the job.",
-            "shortBio": "An ATB Financial Employee Who Regularly Engages in Projects Out of His League",
-            "title": "An ATB Financial Employee Who Regularly Engages in Projects Out of His League",
-            "order": "10",
-            "photo": "/images/people/eddy.beals.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/eddy.beals.png",
-            "featured": true,
-            "socials": [
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/edward-beals-586a96b8",
-                    "name": "LinkedIn"
+                    "icon": "github",
+                    "link": "https://github.com/gregbennettio",
+                    "name": "Github"
                 }
             ],
-            "company": "ATB Financial"
+            "order": 3,
+            "title": "Founder @ GDGYYC, President @ AIRIA Cloud"
         },
-        "Fatima_Silveira": {
-            "name": "Fatima Silveira",
+        "Kyle_Paul": {
+            "bio": "Kyle.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
+            "featured": true,
+            "name": "Kyle Paul",
+            "photo": "/images/people/kyle.paul.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/kyle.paul.png",
+            "shortBio": "Shaun...",
+            "socials": [
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
+            ],
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
+        },
+        "Scott_Stoll": {
+            "bio": "Scott.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
+            "featured": true,
+            "name": "Scott Stoll",
+            "photo": "/images/people/shaun.mitchell.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/scott.stoll.png",
+            "shortBio": "Scott...",
+            "socials": [
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
+            ],
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
+        },
+        "Fatima_Silviera": {
             "bio": "Fatima has extensive experience in application development and solution architecture. She is passionate about all things computer (and cats)!",
-            "shortBio": "Networking + Technical Solutions Architect @ Google Cloud",
-            "title": "Networking + Technical Solutions Architect @ Google Cloud",
-            "order": "11",
-            "photo": "/images/people/fatima.silveira.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/fatima.silveira.png",
+            "company": "Google",
+            "companyLogo": "/images/logos/google.svg",
+            "companyLogoUrl": "http://cloud.google.com",
+            "country": "Canada",
             "featured": true,
+            "name": "Fatima Silviera",
+            "photo": "/images/people/fatima.silviera.jpg",
+            "photoUrl": "https://www.devfestyyc.com/images/people/fatima.silviera.jpg",
+            "shortBio": "Fatima has extensive experience in application development and solution architecture. She is passionate about all things computer (and cats)!",
             "socials": [
                 {
                     "icon": "linkedin",
@@ -1081,375 +1014,349 @@
                     "name": "LinkedIn"
                 }
             ],
-            "company": ""
-        },
-        "Greg_Bennett": {
-            "name": "Greg Bennett",
-            "bio": "Greg transforms complex enterprises and builds world-class developer communities. He founded AIRIA.CLOUD and GDGYYC and leads cloud migration, ML and IoT projects in partnership with Google Cloud. He\u2019s a sought after international speaker and facilitator. \r\n\r\n You can catch him at gregbennett.io or skateboarding to his next meeting.",
-            "shortBio": "Founder @ GDGYYC, President @ AIRIA Cloud",
-            "title": "Founder @ GDGYYC, President @ AIRIA Cloud",
-            "order": "12",
-            "photo": "/images/people/greg.bennett.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/greg.bennett.png",
-            "featured": false,
-            "socials": [],
-            "company": "AIRIA Cloud"
-        },
-        "Gunjan_Kaur": {
-            "name": "Gunjan Kaur",
-            "bio": "Gunjan received her masters degree in Economics and Finance from the University of Alberta. After stints in social market research and FX modelling, she ventured into risk management practice at ATB. Curious about applying her machine learning skills in industry, she later joined the Artificial Intelligence guild at ATB. She led the Real Time Triggers University of Alberta-ATB AI Lab focused on utilizing cutting edge Internet of Things (IOT) methodologies to effectively and efficiently analyze ATB data streams in real time. She also participated in specialized programs at Google and Fintech research at the University of Oxford. In her most recent role, she is leading experimentation analytics for a strategic initiative aimed at increasing customer engagement. She is passionate about data wizardry and problem solving expertise to big data challenges in the financial realm, helping transform ATB to make banking work for Albertans.   \r\n",
-            "shortBio": "Director of Analytics, ATB Financial ",
-            "title": "Director of Analytics, ATB Financial ",
-            "order": "13",
-            "photo": "/images/people/gunjan.kaur.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/gunjan.kaur.png",
-            "featured": false,
-            "socials": [
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/gunjan-k-b34b1513b/",
-                    "name": "LinkedIn"
-                },
-                {}
-            ],
-            "company": "ATB Financial"
-        },
-        "Hans_Hegge": {
-            "name": "Hans Hegge",
-            "bio": "In the last 12 months, both Sam Barbeau and Hans Hegge have spoken about migration in 12 cities across the US as well as in London and Paris. We are asked to talk on migrations by large consulting partners, end customers, as well by the cloud providers.  Our backgrounds in technology expand from startups in mobile to corporating training of enterprise teams. We like to keep our session interactive and open for dialog.  ",
-            "shortBio": "Flexera Channel Account Manager",
-            "title": "Flexera Channel Account Manager",
-            "order": "14",
-            "photo": "/images/people/hans.hegge.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/hans.hegge.png",
-            "featured": false,
-            "socials": [
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/sambarbeau/",
-                    "name": "LinkedIn"
-                },
-                {},
-                {}
-            ],
-            "company": "Flexera (RISC Networks)"
-        },
-        "Jay_Krish": {
-            "name": "Jay Krish",
-            "bio": "Cloud Architect",
-            "shortBio": "Learn Kubernetes",
-            "title": "Learn Kubernetes",
-            "order": "15",
-            "photo": "/images/people/jay.krish.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/jay.krish.png",
-            "featured": true,
-            "socials": [],
-            "company": ""
-        },
-        "Josh_Fafard": {
-            "name": "Josh Fafard",
-            "bio": "I have been in the startup space for the past 7 years but have been building web and mobile apps for the past 18+ years.  \r\nCurrent startups include Akin\u00ea Inc. and Offcourse Golf.  Although GCP is a fairly new to me, I'm working to use all the right building blocks to architect scalable solutions.",
-            "shortBio": "Akin\u00ea Inc.",
-            "title": "Akin\u00ea Inc.",
-            "order": "16",
-            "photo": "/images/people/josh.fafard.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/josh.fafard.png",
-            "featured": true,
-            "socials": [
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/jfafard/",
-                    "name": "LinkedIn"
-                },
-                {}
-            ],
-            "company": "Akin\u00ea Inc."
-        },
-        "Katie_Murray": {
-            "name": "Katie Murray",
-            "bio": "In a few short years at ATB, Katie Murray has already worked in several different roles in the company; from \u201creal\u201d banking, to assisting with the company\u2019s transition to Google, and now working in AI and process automation. She leads a squad of developers, automation analysts, and data scientists and collaborates with business stakeholders and executives alike to deliver happiness daily. In her free time, Katie runs a small wedding planning business, loves DIY home improvement projects, and hangs out with her dog Louis Litt. ",
-            "shortBio": "Senior Manager, Intelligent Process Automation (ATB Financial)",
-            "title": "Senior Manager, Intelligent Process Automation (ATB Financial)",
-            "order": "17",
-            "photo": "/images/people/katie.murray.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/katie.murray.png",
-            "featured": true,
-            "socials": [
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/katie-katheryn-murray-7752b165/",
-                    "name": "LinkedIn"
-                },
-                {}
-            ],
-            "company": "ATB Financial"
-        },
-        "Kayode_Otegbeye": {
-            "name": "Kayode Otegbeye",
-            "bio": "Kay is strong and certified Google Cloud Trainer/Educator and a G Suite Deployment Specialist. Owing to his strong ability to integrate Technology with Business, he drives businesses by engaging clients and helping them achieve bottom line results. He also has an interest for Google Cloud platform and one of his areas of interest is the Google Maps. He is the convener of the Local Guide Community in Calgary.",
-            "shortBio": "Cloud Evangelist | Technology Enthusiast | Management Consultant ",
-            "title": "Cloud Evangelist | Technology Enthusiast | Management Consultant ",
-            "order": "18",
-            "photo": "/images/people/kayode.otegbeye.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/kayode.otegbeye.png",
-            "featured": false,
-            "socials": [
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/kayode-kay-otegbeye-85929243/",
-                    "name": "LinkedIn"
-                }
-            ],
-            "company": ""
-        },
-        "Kiley_Carson": {
-            "name": "Kiley Carson",
-            "bio": "Kiley is a versatile University of Calgary student volunteering within many of the Programs offered by Google. She is currently establishing the Developer Student Club at the University of Calgary, with the primary goal to enrich students academic experience through information sessions, hands-on workshops and student-community collaborative projects.",
-            "shortBio": "WTM Lead, GDGYYC Co-Organizer, DSC Lead UofC Chapter",
-            "title": "WTM Lead, GDGYYC Co-Organizer, DSC Lead UofC Chapter",
-            "order": "19",
-            "photo": "/images/people/kiley.carson.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/kiley.carson.png",
-            "featured": true,
-            "socials": [
-                {
-                    "icon": "twitter",
-                    "link": "https://twitter.com/KileyCarson134",
-                    "name": "Twitter"
-                },
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/kiley-carson/",
-                    "name": "LinkedIn"
-                }
-            ],
-            "company": ""
-        },
-        "Kyle_Paul": {
-            "name": "Kyle Paul",
-            "bio": "Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).",
-            "shortBio": "North America Regional Lead @ Google",
-            "title": "North America Regional Lead @ Google",
-            "order": "20",
-            "photo": "/images/people/kyle.paul.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/kyle.paul.png",
-            "featured": true,
-            "socials": [
-                {
-                    "icon": "twitter",
-                    "link": "https://twitter.com/_KylePaul",
-                    "name": "Twitter"
-                },
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/kylepaul/",
-                    "name": "LinkedIn"
-                },
-                {}
-            ],
-            "company": "Google"
-        },
-        "Lucas_Scheer": {
-            "name": "Lucas Scheer",
-            "bio": "For the past 11 years, Lucas has held various management and leadership roles at technology companies. Currently, Lucas is the Managing Director of AltaML in Calgary, an Alberta-based artificial intelligence and machine learning solutions provider. \r\n\r\nAltaML builds transformational software applications for business, powered by machine learning. AltaML partners with organizations using a co-development model where we can provide technical and strategic expertise on how to leverage their data with AI/ML technologies with a specific focus on healthcare. \r\n",
-            "shortBio": "Lucas is the Managing Director at AltaML in Calgary",
-            "title": "Lucas is the Managing Director at AltaML in Calgary",
-            "order": "21",
-            "photo": "/images/people/lucas.scheer.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/lucas.scheer.png",
-            "featured": true,
-            "socials": [
-                {}
-            ],
-            "company": "AltaML"
-        },
-        "Mike_Hoff": {
-            "name": "Mike Hoff",
-            "bio": "Over 30 years of experience finding, getting, and losing IT jobs in Alberta",
-            "shortBio": "Mike Hoff",
-            "title": "Mike Hoff",
-            "order": "22",
-            "photo": "/images/people/mike.hoff.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/mike.hoff.png",
-            "featured": false,
-            "socials": [],
-            "company": "GDG Calgary"
-        },
-        "Mohamed_Ibrahim": {
-            "name": "Mohamed Ibrahim",
-            "bio": "Calgary, AB based founder and developer",
-            "shortBio": "Founder www.instafly.me",
-            "title": "Founder www.instafly.me",
-            "order": "23",
-            "photo": "/images/people/mohamed.ibrahim.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/mohamed.ibrahim.png",
-            "featured": false,
-            "socials": [
-                {
-                    "icon": "twitter",
-                    "link": "https://twitter.com/YYC_Ninja",
-                    "name": "Twitter"
-                },
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/mohamed-ibrahim-90282646",
-                    "name": "LinkedIn"
-                },
-                {},
-                {}
-            ],
-            "company": "Barkal Tech"
-        },
-        "Neel_Kirit": {
-            "name": "Neel Kirit",
-            "bio": "Currently a Grad Student at RIT and Backend Dev Intern at Paychex, GDG Rochester Organizer, Former Dev at JP Morgan Chase, \r\nHave been mentoring students on Udacity on PWA for past 2 years and hosting PWA workshops in local community to get devs started with it.",
-            "shortBio": "Mentor, Mobile Web Specialist, Udacity",
-            "title": "Mentor, Mobile Web Specialist, Udacity",
-            "order": "24",
-            "photo": "/images/people/neel.kirit.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/neel.kirit.png",
-            "featured": false,
-            "socials": [
-                {
-                    "icon": "twitter",
-                    "link": "https://twitter.com/neelkirit",
-                    "name": "Twitter"
-                },
-                {
-                    "icon": "linkedin",
-                    "link": "https://linkedin.com/in/neelkirit/",
-                    "name": "LinkedIn"
-                },
-                {}
-            ],
-            "company": "RIT "
-        },
-        "Ryker_Rumsey": {
-            "name": "Ryker Rumsey",
-            "bio": "I am robot.",
-            "shortBio": "Peon @ Spawnd Corporation",
-            "title": "Peon @ Spawnd Corporation",
-            "order": "25",
-            "photo": "/images/people/ryker.rumsey.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/ryker.rumsey.png",
-            "featured": false,
-            "socials": [],
-            "company": ""
-        },
-        "Sam_Barbeau": {
-            "name": "Sam Barbeau",
-            "bio": "Working with some of the leading cloud solutions technologies to bring more efficient and successful migrations through to cloud. ",
-            "shortBio": "Cloud Solutions Engineer - Flexera",
-            "title": "Cloud Solutions Engineer - Flexera",
-            "order": "26",
-            "photo": "/images/people/sam.barbeau.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/sam.barbeau.png",
-            "featured": false,
-            "socials": [],
-            "company": "Flexera"
-        },
-        "Scott_Stoll": {
-            "name": "Scott Stoll",
-            "bio": "Scott is an American app developer, author, speaker, trainer and Flutter evangelist. He has been involved with Flutter since the 9th commit, v0.0.14, and possesses a Nanodegree from Google / Udacity in Android Development.\r\n\r\nToday, Scott is the primary organizer of GDG Cleveland and the NE Ohio Flutter Developers Meetup,  co-founder of the Flutter Study Group Slack (FSG) and Editor for Flutter Community on Medium. He is also the creator of #HumpDayQandA, a weekly, remote video conference held every Wednesday where people can come for free, live help with Flutter.\r\n\r\nHe's available for talks, workshops and consulting both nationally and internationally.",
-            "shortBio": "Flutter Community",
-            "title": "Flutter Community",
-            "order": "27",
-            "photo": "/images/people/scott.stoll.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/scott.stoll.png",
-            "featured": true,
-            "socials": [
-                {
-                    "icon": "twitter",
-                    "link": "https://twitter.com/scottstoll2017",
-                    "name": "Twitter"
-                },
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/scott-stoll-59722915a/",
-                    "name": "LinkedIn"
-                }
-            ],
-            "company": "Flutter Community"
+            "order": 2,
+            "title": "Expert in Infrastructure, Networking, Storage, Computing, CI/CD, Microservices, Kubernetes."
         },
         "Shaun_Mitchell": {
+            "bio": "Shaun.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
+            "featured": true,
             "name": "Shaun Mitchell",
-            "bio": "Shaun wants to live in a place where all work can be done at the beach and in the sun, he also wants dark chocolate to be considered a major food group.\r\n\r\nAs an IT professional with over 19 years experience, he has a passion for all things cloud technology related. He started his career has a software engineer building e-commerce websites for some large brands. Since those days he has managed to find is way through the IT space; building software for integrating desperate systems, developing software for managing national last mile telecommunications networks to data center operations and network administration. For a short time, Shaun tried his had at being a database administrator and found he lacked the necessary passion so he moved into the data warehousing ETL space (back to the code). After a few years of building data pipelines he then moved into IT Operations and Cloud Strategy. Shaun as worked migrating enterprises to the Microsoft productivity suite (Office 365) and compute workloads to Azure as well as Google Cloud Platform.\r\n\r\nShaun is a certified Professional Scrum Master, certified Google Cloud Architect and a certified PADI Advanced Scuba Diver, of course these have nothing to do with each other. He spent 4 years living in Bermuda, the question is would he ever go back? ..... (see above).",
-            "shortBio": "Google Cloud Architect working with Enterprises to transform their cloud experience",
-            "title": "Google Cloud Architect working with Enterprises to transform their cloud experience",
-            "order": "28",
             "photo": "/images/people/shaun.mitchell.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/shaun.mitchell.png",
-            "featured": true,
+            "shortBio": "Shaun...",
             "socials": [
                 {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
                     "icon": "twitter",
-                    "link": "https://twitter.com/shaunmiam",
+                    "link": "https://twitter.com/shaunmitchell",
                     "name": "Twitter"
                 },
                 {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/shaunmitchellcan/",
-                    "name": "LinkedIn"
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
                 }
             ],
-            "company": "N/A"
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
         },
-        "Suni_Mathews": {
-            "name": "Suni Mathews",
-            "bio": "I am data wrangler with ATB\u2019s Innovation team, enabling AI and ML for future business models, products and experiences in ATB.  My career in data analytics has seen me explore the various areas of data engineering to gain a wholesome appreciation for  data driven decision making.  My career of many years cover analysis, integration, business intelligence and architecture of data systems.  Currently, I\u2019m keenly following the data sciences and cloud engineering trends for innovative solutions.",
-            "shortBio": "Data Engineer",
-            "title": "Data Engineer",
-            "order": "29",
-            "photo": "/images/people/suni.mathews.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/suni.mathews.png",
+        "Kiley_Carson": {
+            "bio": "Kiley.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
             "featured": true,
-            "socials": [],
-            "company": "ATB Financials"
-        },
-        "Suryatapa_Roy": {
-            "name": "Suryatapa Roy",
-            "bio": "Suryatapa Roy is a data scientist focussed on Natural Language Processing at CHATA.AI. Previously, she completed her MSc. thesis in integrating Machine Learning systems into virtual environments for data analytics.",
-            "shortBio": "Data Scientist@CHATA.AI. Research in Virtual Reality and Machine Learning@UofC",
-            "title": "Data Scientist@CHATA.AI. Research in Virtual Reality and Machine Learning@UofC",
-            "order": "30",
-            "photo": "/images/people/suryatapa.roy.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/suryatapa.roy.png",
-            "featured": false,
+            "name": "Kiley Carson",
+            "photo": "/images/people/kiley.carson.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/kiley.carson.png",
+            "shortBio": "Kiley...",
             "socials": [
                 {
                     "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/suryataparoy/",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
                     "name": "LinkedIn"
                 },
-                {}
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
             ],
-            "company": "CHATA.AI"
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
+        },
+        "Fatima Silveira": {
+            "bio": "Fatima.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
+            "featured": true,
+            "name": "Fatima Silveira",
+            "photo": "/images/people/fatima.silveira.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/fatima.silveira.png",
+            "shortBio": "Fatima...",
+            "socials": [
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
+            ],
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
+        },
+        "Cleo Espiritu": {
+            "bio": "Cleo.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
+            "featured": true,
+            "name": "Cleo Espiritu",
+            "photo": "/images/people/cleo.espiritu.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/cleo.espiritu.png",
+            "shortBio": "Cleo...",
+            "socials": [
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
+            ],
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
+        },
+        "Neel_Kirit": {
+            "bio": "Neel.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
+            "featured": true,
+            "name": "Neel Kirit",
+            "photo": "/images/people/neel.kirit.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/neel.kirit.png",
+            "shortBio": "Cleo...",
+            "socials": [
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
+            ],
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
+        },
+        "Hans_Hegge": {
+            "bio": "Hans.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
+            "featured": true,
+            "name": "Hans Hegge",
+            "photo": "/images/people/hans.hegge.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/hans.hegge.png",
+            "shortBio": "Cleo...",
+            "socials": [
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
+            ],
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
         },
         "Ted_Edmonds": {
+            "bio": "Ted.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
+            "featured": true,
             "name": "Ted Edmonds",
-            "bio": "TBD",
-            "shortBio": "Deep Learning Fellowship Co-founder",
-            "title": "Deep Learning Fellowship Co-founder",
-            "order": "31",
             "photo": "/images/people/ted.edmonds.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/ted.edmonds.png",
+            "shortBio": "Cleo...",
+            "socials": [
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
+            ],
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
+        },
+        "Boyang_Zhang": {
+            "bio": "Boyang.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
             "featured": true,
-            "socials": [],
-            "company": ""
+            "name": "Ted Edmonds",
+            "photo": "/images/people/boyang.zhang.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/boyang.zhang.png",
+            "shortBio": "Cleo...",
+            "socials": [
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
+            ],
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
+        },
+        "Arunima_Kashyap": {
+            "bio": "Arunima.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
+            "featured": true,
+            "name": "Arunima Kashyap",
+            "photo": "/images/people/arunima.kashyap.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/arunima.kashyap.png",
+            "shortBio": "Arunima...",
+            "socials": [
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
+            ],
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
+        },
+        "Ankanksha_Parameshwar": {
+            "bio": "Ankanksha.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
+            "featured": true,
+            "name": "Arunima Kashyap",
+            "photo": "/images/people/akanksha.parameshwar.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/akanksha.kashyap.png",
+            "shortBio": "Arunima...",
+            "socials": [
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
+            ],
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
         },
         "Tim_Chan": {
+            "bio": "Tim.",
+            "company": "Google Cloud",
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "http://google.com",
+            "country": "Canada",
+            "featured": true,
             "name": "Tim Chan",
-            "bio": "Tim Chan has over 15 years of experience in the energy industry with a focus on integrated (upstream to downstream) energy, power generation, commodities trading and enterprise risk management.\r\n\r\nHe currently leads internal audit projects at Suncor Energy Inc., while previously leading teams of accountants in support of Suncor's supply and trading activities. He has also instructed at the University of Calgary, through the Haskayne School of Business, in the area of Financial Accounting.\r\n\r\nIn 2018, Tim helped to found Untapped Energy, a data science startup for data practitioners in the energy industry, in the Calgary area, organizing a weekend long datathon aim at solving problems for this industry.\r\n",
-            "shortBio": "Co-founder of Untapped Energy",
-            "title": "Co-founder of Untapped Energy",
-            "order": "32",
             "photo": "/images/people/tim.chan.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/tim.chan.png",
-            "featured": false,
+            "shortBio": "Arunima...",
             "socials": [
-                {}
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/shaunmitchell/",
+                    "name": "LinkedIn"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/shaunmitchell",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/shaunmitchell",
+                    "name": "Github"
+                }
             ],
-            "company": ""
+            "order": 1,
+            "title": "Google Cloud Customer Engineer"
         }
     },
     "team": [
