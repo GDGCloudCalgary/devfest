@@ -776,11 +776,11 @@
         "sessions": [
             {
                 "id": 147669,
-                "name": "Deep Learning Fellowship Presents . . ."
+                "name": "Deep Learning Fellowship Presents An Introduction to Deep Learning"
             },
             {
                 "id": 147625,
-                "name": "A Perspective on Deep Learning Reinforcement Learning"
+                "name": "Deep Learning Fellowship Presents Applications for Deep Learning Models"
             }
         ],
         "isTopSpeaker": true,
@@ -1297,10 +1297,6 @@
             {
                 "id": 148197,
                 "name": "GCP Network overview"
-            },
-            {
-                "id": 148198,
-                "name": "From monoliths to microservices"
             },
             {
                 "id": 148196,
@@ -3940,11 +3936,11 @@
         "sessions": [
             {
                 "id": 147669,
-                "name": "Deep Learning Fellowship Presents . . ."
+                "name": "Deep Learning Fellowship Presents An Introduction to Deep Learning"
             },
             {
                 "id": 147625,
-                "name": "A Perspective on Deep Learning Reinforcement Learning"
+                "name": "Deep Learning Fellowship Presents Applications for Deep Learning Models"
             }
         ],
         "isTopSpeaker": true,
@@ -4169,6 +4165,133 @@
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
+                "sort": 17
+            }
+        ]
+    },
+    {
+        "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",
+        "firstName": "Xueming",
+        "lastName": "Zhao",
+        "fullName": "Xueming Zhao",
+        "bio": "Xueming grew up in Edmonton and joined ATB in 2005 as a Treasury Modeling Analyst. In 2011, she took an opportunity with a software company as a consultant for treasury and risk system implementation for banks in the US and China. She rejoined ATB in 2013 in treasury and is currently in the role of Managing Director, Balance Sheet Management. With the support of her team, she manages funds transfer pricing, interest rate risk, and net interest margin. Currently, she is attending the Executive MBA program at Oxford Said Business School.",
+        "tagLine": "ATB Financial, Managing Director, Balance Sheet Management, Treasury",
+        "profilePicture": "https://sessionize.com/image?f=35de9f6e33a09eb7e6fab539dcdacf0b,400,400,True,False,66783f8c-75a0-4a08-8a3b-c52603758f8c.jpg",
+        "sessions": [
+            {
+                "id": 149086,
+                "name": "Streaming Data Pipelines: Creating Next Gen Banking Analytics"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [],
+        "questionAnswers": [
+            {
+                "id": 15580,
+                "question": "1. GitHub Profile",
+                "questionType": "Web_address",
+                "answer": null,
+                "sort": 3,
+                "answerExtra": null
+            },
+            {
+                "id": 15581,
+                "question": "1. Current Organization/ Company Name",
+                "questionType": "Short_Text",
+                "answer": "ATB Financial",
+                "sort": 4,
+                "answerExtra": null
+            },
+            {
+                "id": 15583,
+                "question": "1. Company Logo",
+                "questionType": "File_upload",
+                "answer": null,
+                "sort": 6,
+                "answerExtra": null
+            },
+            {
+                "id": 15585,
+                "question": "1. Home City",
+                "questionType": "Short_Text",
+                "answer": "EDMONTON",
+                "sort": 7,
+                "answerExtra": null
+            },
+            {
+                "id": 15586,
+                "question": "1. Nearest International Airport",
+                "questionType": "Short_Text",
+                "answer": null,
+                "sort": 8,
+                "answerExtra": null
+            },
+            {
+                "id": 15590,
+                "question": "1. Other Pronouns",
+                "questionType": "Short_Text",
+                "answer": null,
+                "sort": 2,
+                "answerExtra": null
+            },
+            {
+                "id": 17188,
+                "question": "3. Promo Video",
+                "questionType": "File_upload",
+                "answer": null,
+                "sort": 15,
+                "answerExtra": null
+            }
+        ],
+        "categories": [
+            {
+                "id": 15582,
+                "name": "1. Company Support",
+                "categoryItems": [],
+                "sort": 5
+            },
+            {
+                "id": 15584,
+                "name": "1. Pronouns",
+                "categoryItems": [
+                    {
+                        "id": 22895,
+                        "name": "SHE/HER"
+                    }
+                ],
+                "sort": 1
+            },
+            {
+                "id": 15588,
+                "name": "1. Community Code of Conduct",
+                "categoryItems": [
+                    {
+                        "id": 22899,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 0
+            },
+            {
+                "id": 17259,
+                "name": "3. Meet the Experts",
+                "categoryItems": [
+                    {
+                        "id": 30706,
+                        "name": "NO"
+                    }
+                ],
+                "sort": 16
+            },
+            {
+                "id": 17260,
+                "name": "3. Podcast",
+                "categoryItems": [
+                    {
+                        "id": 30707,
+                        "name": "NO"
+                    }
+                ],
                 "sort": 17
             }
         ]

@@ -92,814 +92,1132 @@
     ],
     "schedule": {
         "2019-11-22": {
-            "dateReadable": "November 22",
+            "dateReadable": "November 22 2019",
             "timeslots": [
                 {
-                    "endTime": "10:15",
+                    "endTime": "12.00",
                     "sessions": [
                         {
                             "items": [
-                                100
+                                146324
                             ]
                         }
                     ],
-                    "startTime": "10:00"
+                    "startTime": "10.00"
                 },
                 {
-                    "endTime": "10:30",
+                    "endTime": "10.40",
                     "sessions": [
                         {
                             "items": [
-                                105
+                                149560
                             ]
                         }
                     ],
-                    "startTime": "10:15"
+                    "startTime": "10.00"
                 },
                 {
-                    "endTime": "11:00",
+                    "endTime": "10.15",
                     "sessions": [
                         {
                             "items": [
-                                110
+                                144610
                             ]
                         }
                     ],
-                    "startTime": "10:30"
+                    "startTime": "10.00"
                 },
                 {
-                    "endTime": "13:30",
+                    "endTime": "10.50",
                     "sessions": [
                         {
                             "items": [
-                                115
-                            ]
-                        },
-                        {
-                            "extend": 3,
-                            "items": [
-                                117
-                            ]
-                        },
-                        {
-                            "extend": 3,
-                            "items": [
-                                119
+                                147801
                             ]
                         }
                     ],
-                    "startTime": "11:05"
+                    "startTime": "10.00"
                 },
                 {
-                    "endTime": "11:45",
+                    "endTime": "10.50",
                     "sessions": [
                         {
                             "items": [
-                                120
+                                139164
                             ]
                         }
                     ],
-                    "startTime": "11:35"
+                    "startTime": "10.20"
                 },
                 {
-                    "endTime": "13:00",
+                    "endTime": "11.15",
                     "sessions": [
                         {
                             "items": [
-                                123
+                                146826
                             ]
                         }
                     ],
-                    "startTime": "11:50"
+                    "startTime": "11.00"
                 },
                 {
-                    "endTime": "13:00",
+                    "endTime": "11.15",
                     "sessions": [
                         {
                             "items": [
-                                125
+                                153628
                             ]
                         }
                     ],
-                    "startTime": "12:00"
+                    "startTime": "11.00"
                 },
                 {
-                    "endTime": "13:20",
+                    "endTime": "11.50",
                     "sessions": [
                         {
                             "items": [
-                                130
-                            ]
-                        },
-                        {
-                            "extend": 2,
-                            "items": [
-                                132
-                            ]
-                        },
-                        {
-                            "extend": 2,
-                            "items": [
-                                119
+                                139725
                             ]
                         }
                     ],
-                    "startTime": "13:00"
+                    "startTime": "11.00"
                 },
                 {
-                    "endTime": "14:00",
+                    "endTime": "12.00",
                     "sessions": [
                         {
                             "items": [
-                                135
+                                149561
                             ]
                         }
                     ],
-                    "startTime": "13:25"
+                    "startTime": "11.30"
                 },
                 {
-                    "endTime": "14:15",
+                    "endTime": "12.00",
                     "sessions": [
                         {
                             "items": [
-                                140
+                                146755
                             ]
                         }
                     ],
-                    "startTime": "14:00"
+                    "startTime": "11.30"
                 },
                 {
-                    "endTime": "14:45",
+                    "endTime": "13.50",
                     "sessions": [
                         {
                             "items": [
-                                145
-                            ]
-                        },
-                        {
-                            "extend": 2,
-                            "items": [
-                                138
-                            ]
-                        },
-                        {
-                            "extend": 2,
-                            "items": [
-                                119
+                                148197
                             ]
                         }
                     ],
-                    "startTime": "14:15"
+                    "startTime": "13.00"
                 },
                 {
-                    "endTime": "15:00",
+                    "endTime": "16.00",
                     "sessions": [
                         {
                             "items": [
-                                150
+                                153631
                             ]
                         }
                     ],
-                    "startTime": "14:50"
+                    "startTime": "13.00"
                 },
                 {
-                    "endTime": "15:40",
+                    "endTime": "13.40",
                     "sessions": [
                         {
                             "items": [
-                                155
+                                146605
                             ]
                         }
                     ],
-                    "startTime": "15:05"
+                    "startTime": "13.00"
                 },
                 {
-                    "endTime": "15:45",
+                    "endTime": "13.40",
                     "sessions": [
                         {
                             "items": [
-                                160
+                                139721
                             ]
                         }
                     ],
-                    "startTime": "15:40"
+                    "startTime": "13.00"
                 },
                 {
-                    "endTime": "16:00",
+                    "endTime": "14.00",
                     "sessions": [
                         {
                             "items": [
-                                165
+                                148133
                             ]
                         }
                     ],
-                    "startTime": "15:45"
+                    "startTime": "13.45"
                 },
                 {
-                    "endTime": "16:15",
+                    "endTime": "14.40",
                     "sessions": [
                         {
                             "items": [
-                                170
+                                142551
                             ]
                         }
                     ],
-                    "startTime": "16:00"
+                    "startTime": "14.00"
                 },
                 {
-                    "endTime": "19:00",
+                    "endTime": "14.50",
                     "sessions": [
                         {
                             "items": [
-                                175
+                                148136
                             ]
                         }
                     ],
-                    "startTime": "16:15"
+                    "startTime": "14.00"
                 },
                 {
-                    "endTime": "19:30",
+                    "endTime": "14.15",
                     "sessions": [
                         {
                             "items": [
-                                180
+                                149086
                             ]
                         }
                     ],
-                    "startTime": "17:30"
+                    "startTime": "14.00"
+                },
+                {
+                    "endTime": "15.30",
+                    "sessions": [
+                        {
+                            "items": [
+                                147669
+                            ]
+                        }
+                    ],
+                    "startTime": "14.30"
+                },
+                {
+                    "endTime": "15.40",
+                    "sessions": [
+                        {
+                            "items": [
+                                144896
+                            ]
+                        }
+                    ],
+                    "startTime": "15.00"
+                },
+                {
+                    "endTime": "15.50",
+                    "sessions": [
+                        {
+                            "items": [
+                                153633
+                            ]
+                        }
+                    ],
+                    "startTime": "15.00"
                 }
             ],
             "tracks": [
                 {
-                    "title": "Riddell Library"
+                    "title": "Code and Development"
                 },
                 {
-                    "title": "Classroomss"
+                    "title": "Infrastructure"
                 },
                 {
-                    "title": "Open Area"
+                    "title": "Google Programs & Non-Technical"
+                },
+                {
+                    "title": "Data Analytics and AI"
+                },
+                {
+                    "title": "Mentorship"
                 }
             ]
         },
-        "2018-11-23": {
-            "dateReadable": "November 23",
+        "2019-11-23": {
+            "dateReadable": "November 23 2019",
             "timeslots": [
                 {
-                    "endTime": "10:15",
+                    "endTime": "09.45",
                     "sessions": [
                         {
                             "items": [
-                                100
+                                146638
                             ]
                         }
                     ],
-                    "startTime": "10:00"
+                    "startTime": "09.30"
                 },
                 {
-                    "endTime": "10:30",
+                    "endTime": "10.15",
                     "sessions": [
                         {
                             "items": [
-                                105
+                                139722
                             ]
                         }
                     ],
-                    "startTime": "10:15"
+                    "startTime": "09.30"
                 },
                 {
-                    "endTime": "11:00",
+                    "endTime": "10.20",
                     "sessions": [
                         {
                             "items": [
-                                110
+                                148188
                             ]
                         }
                     ],
-                    "startTime": "10:30"
+                    "startTime": "09.30"
                 },
                 {
-                    "endTime": "13:30",
+                    "endTime": "10.25",
                     "sessions": [
                         {
                             "items": [
-                                115
-                            ]
-                        },
-                        {
-                            "extend": 3,
-                            "items": [
-                                117
-                            ]
-                        },
-                        {
-                            "extend": 3,
-                            "items": [
-                                119
+                                147368
                             ]
                         }
                     ],
-                    "startTime": "11:05"
+                    "startTime": "09.45"
                 },
                 {
-                    "endTime": "11:45",
+                    "endTime": "11.15",
                     "sessions": [
                         {
                             "items": [
-                                120
+                                147625
                             ]
                         }
                     ],
-                    "startTime": "11:35"
+                    "startTime": "10.15"
                 },
                 {
-                    "endTime": "13:00",
+                    "endTime": "11.10",
                     "sessions": [
                         {
                             "items": [
-                                123
+                                153627
                             ]
                         }
                     ],
-                    "startTime": "11:50"
+                    "startTime": "10.30"
                 },
                 {
-                    "endTime": "13:00",
+                    "endTime": "10.55",
                     "sessions": [
                         {
                             "items": [
-                                125
+                                149562
                             ]
                         }
                     ],
-                    "startTime": "12:00"
+                    "startTime": "10.30"
                 },
                 {
-                    "endTime": "13:20",
+                    "endTime": "12.00",
                     "sessions": [
                         {
                             "items": [
-                                130
-                            ]
-                        },
-                        {
-                            "extend": 2,
-                            "items": [
-                                132
-                            ]
-                        },
-                        {
-                            "extend": 2,
-                            "items": [
-                                119
+                                140601
                             ]
                         }
                     ],
-                    "startTime": "13:00"
+                    "startTime": "11.00"
                 },
                 {
-                    "endTime": "14:00",
+                    "endTime": "11.55",
                     "sessions": [
                         {
                             "items": [
-                                135
+                                138512
                             ]
                         }
                     ],
-                    "startTime": "13:25"
+                    "startTime": "11.15"
                 },
                 {
-                    "endTime": "14:15",
+                    "endTime": "12.05",
                     "sessions": [
                         {
                             "items": [
-                                140
+                                147107
                             ]
                         }
                     ],
-                    "startTime": "14:00"
+                    "startTime": "11.15"
                 },
                 {
-                    "endTime": "14:45",
+                    "endTime": "13.45",
                     "sessions": [
                         {
                             "items": [
-                                145
-                            ]
-                        },
-                        {
-                            "extend": 2,
-                            "items": [
-                                138
-                            ]
-                        },
-                        {
-                            "extend": 2,
-                            "items": [
-                                119
+                                147581
                             ]
                         }
                     ],
-                    "startTime": "14:15"
+                    "startTime": "13.00"
                 },
                 {
-                    "endTime": "15:00",
+                    "endTime": "13.50",
                     "sessions": [
                         {
                             "items": [
-                                150
+                                139724
                             ]
                         }
                     ],
-                    "startTime": "14:50"
+                    "startTime": "13.00"
                 },
                 {
-                    "endTime": "15:40",
+                    "endTime": "13.15",
                     "sessions": [
                         {
                             "items": [
-                                155
+                                142401
                             ]
                         }
                     ],
-                    "startTime": "15:05"
+                    "startTime": "13.00"
                 },
                 {
-                    "endTime": "15:45",
+                    "endTime": "13.35",
                     "sessions": [
                         {
                             "items": [
-                                160
+                                146849
                             ]
                         }
                     ],
-                    "startTime": "15:40"
+                    "startTime": "13.20"
                 },
                 {
-                    "endTime": "16:00",
+                    "endTime": "15.00",
                     "sessions": [
                         {
                             "items": [
-                                165
+                                148196
                             ]
                         }
                     ],
-                    "startTime": "15:45"
+                    "startTime": "13.45"
                 },
                 {
-                    "endTime": "16:15",
+                    "endTime": "14.00",
                     "sessions": [
                         {
                             "items": [
-                                170
+                                148187
                             ]
                         }
                     ],
-                    "startTime": "16:00"
+                    "startTime": "13.45"
                 },
                 {
-                    "endTime": "19:00",
+                    "endTime": "14.50",
                     "sessions": [
                         {
                             "items": [
-                                175
+                                138511
                             ]
                         }
                     ],
-                    "startTime": "16:15"
+                    "startTime": "14.00"
                 },
                 {
-                    "endTime": "19:30",
+                    "endTime": "14.45",
                     "sessions": [
                         {
                             "items": [
-                                180
+                                147218
                             ]
                         }
                     ],
-                    "startTime": "17:30"
+                    "startTime": "14.00"
+                },
+                {
+                    "endTime": "15.00",
+                    "sessions": [
+                        {
+                            "items": [
+                                146840
+                            ]
+                        }
+                    ],
+                    "startTime": "14.45"
                 }
             ],
             "tracks": [
                 {
-                    "title": "Riddell Library"
+                    "title": "Google Programs & Non-Technical"
                 },
                 {
-                    "title": "Classroomss"
+                    "title": "Code and Development"
                 },
                 {
-                    "title": "Open Area"
+                    "title": "Infrastructure"
+                },
+                {
+                    "title": "Data Analytics and AI"
                 }
             ]
         }
     },
     "sessions": {
-        "100": {
-            "description": "Welcome to DevFest!",
-            "icon": "opening",
-            "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
-            "title": "Doors Open"
-        },
-        "105": {
-            "description": "Welcome/Introduction Dean of MRU \n\rIntroduce KeyNote",
-            "icon": "registration",
-            "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
-            "title": "Welcome to DevFest!"
-        },
-        "110": {
-            "description": "Keynote",
-            "icon": "light",
-            "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
-            "title": "Opening Keynote:Let's Build What's Next with Google.",
+        "146324": {
+            "description": "Hands on session on how get started with Unity.\r\nAcquiring 3D assets.\r\nBuild AR/VR applications/games.",
+            "title": "Building Augmented Reality Applications",
             "speakers": [
-                "Cam_Crockett"
-            ]
-        },
-        "115": {
-            "description": "Using Google Cloud for Data Science Competitions",
-            "icon": "coffee-break",
-            "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-            "title": "Using Google Cloud for Data Science Competitions",
-            "speakers": [
-                "Chris_Chen"
-            ]
-        },
-        "117": {
-            "description": "Hands on Lab 1",
-            "icon": "lab",
-            "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-            "title": "Hands On Lab 1"
-        },
-        "119": {
-            "description": "Google Cloud Certification, \n\nWomen Techmakers,\n\nGoogle for Startups,\n\nGoogle Developer Experts,\n\nQwiklabs Setup Help!",
+                "Suryatapa_Roy"
+            ],
             "icon": "",
-            "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-            "title": "Track 3"
-        },
-        "120": {
-            "description": "Built for Scale with GCP.",
-            "icon": "light",
-            "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
-            "language": "English",
-            "title": "Lightning Talk 1",
-            "speakers": [
-                "Will_Zhang"
-            ]
-        },
-        "123": {
-            "complexity": "Beginner",
-            "description": "From Zero to Dashboards: Driving Lightweigt Analytics",
-            "language": "English",
-            "speakers": [
-                "Stephen_King",
-                "Liam_Goguen"
-            ],
-            "tags": [
-                ""
-            ],
-            "title": "Lightning Talk 2"
-        },
-        "125": {
-            "complexity": "",
-            "description": "Lunch",
-            "language": "English",
+            "videoID": "",
+            "image": "",
             "presentation": "",
-            "tags": [
-                "Lunch"
-            ],
-            "title": "Lunch"
-        },
-        "130": {
-            "complexity": "Beginner",
-            "description": "Pepper the Robot - GCPowering a 4-foot-tall humanoid robot",
             "language": "English",
-            "presentation": "",
-            "speakers": [
-                "Carille_Mendoza"
-            ],
             "tags": [
-                ""
+                "Code and Development"
             ],
-            "title": "Lightning Talk 3",
-            "videoId": ""
+            "complexity": "Introductory and overview"
         },
-        "132": {
-            "description": "Lab 2!",
+        "149560": {
+            "description": "Introduction to Kubernetes with 3D animations",
+            "title": "Kubernetes 101 in 3D",
+            "speakers": [
+                "Jay_Krish"
+            ],
             "icon": "",
-            "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-            "title": "Hands On Lab 2"
-        },
-        "135": {
-            "complexity": "Intermediate",
-            "description": "Observables & Promises in Firebase, Oh My!",
-            "language": "English",
+            "videoID": "",
+            "image": "",
             "presentation": "",
-            "speakers": [
-                "Ben_Nakaska"
-            ],
+            "language": "English",
             "tags": [
-                ""
+                "Infrastructure"
             ],
-            "title": "Presentation 2"
+            "complexity": "Introductory and overview"
         },
-        "138": {
-            "description": "Lab 3!",
+        "144610": {
+            "description": "This session is aimed at showing local business owners how to utilize the Google My Business platform for exposing their brands to more customers.",
+            "title": "Local Businesses Leveraging Google My Business",
+            "speakers": [
+                "Kayode_Otegbeye"
+            ],
             "icon": "",
-            "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-            "title": "Hands On Lab 3"
-        },
-        "140": {
-            "complexity": "Beginner",
-            "description": "",
-            "icon": "coffee-break",
-            "language": "English",
+            "videoID": "",
+            "image": "",
             "presentation": "",
-            "speakers": [
-                ""
-            ],
-            "tags": [
-                ""
-            ],
-            "title": "Break",
-            "videoId": ""
-        },
-        "145": {
-            "complexity": "Intermediate",
-            "description": "Building the future of Banking in the Cloud.",
             "language": "English",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "147801": {
+            "description": "Large scale enterprise migrations are challenging. With billions of connections and thousands of dependencies creating extreme complexity, migrations are one of the most difficult projects to execute successfully. \r\n\r\nHow do you launch your migration successfully?\r\n\r\nFrom discovery and application dependency identification through to Migration, in 45 minutes we'll cover how DATA can fuel your understanding, power optimization, and accelerate modernization and help you successfully navigate your cloud migration. \r\n",
+            "title": "Mission Migration: Billions of Connections. Thousands of Dependencies. Migration in 3...2..1. ",
+            "speakers": [
+                "Hans_Hegge",
+                "Sam_Barbeau"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
             "presentation": "",
-            "speakers": [
-                "Karin_Winia"
-            ],
-            "tags": [
-                "Cloud"
-            ],
-            "title": "Presentation 3",
-            "videoId": ""
-        },
-        "150": {
-            "complexity": "Intermediate",
-            "description": "App Maker + GSuite: My Journey to becoming a Google Developer Expert",
             "language": "English",
+            "tags": [
+                "Infrastructure"
+            ],
+            "complexity": "Advanced"
+        },
+        "139164": {
+            "description": "We will explore how www.instafly.me is leveraging machine learning to bring magic to travel booking. ",
+            "title": "InstaFly Me!",
+            "speakers": [
+                "Mohamed_Ibrahim"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
             "presentation": "",
-            "speakers": [
-                "Cleo_Espiritu"
-            ],
-            "tags": [
-                "Cloud"
-            ],
-            "title": "Lightning Talk 4",
-            "videoId": ""
-        },
-        "155": {
-            "complexity": "",
-            "description": "",
-            "extend": 2,
             "language": "English",
-            "speakers": [
-                ""
-            ],
             "tags": [
-                ""
+                "Data Analytics and AI"
             ],
-            "title": "Closing Keynote"
+            "complexity": "Intermediate"
         },
-        "160": {
-            "complexity": "",
-            "description": "",
-            "language": "English",
-            "presentation": "",
+        "153628": {
+            "description": "Learn how Google Cloud for Startups can help you launch.",
+            "title": "Google for Startups: Launch with Google",
             "speakers": [
                 "Greg_Bennett"
             ],
-            "tags": [
-                ""
-            ],
-            "title": "Closing Comments",
-            "videoId": ""
-        },
-        "165": {
-            "complexity": "",
-            "description": "TBD",
-            "language": "English",
+            "icon": "",
+            "videoID": "",
+            "image": "",
             "presentation": "",
-            "speakers": [
-                ""
-            ],
-            "tags": [
-                "Cloud"
-            ],
-            "title": "Giveaways"
-        },
-        "170": {
-            "complexity": "",
-            "description": "",
             "language": "English",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "139725": {
+            "description": "Cloud Functions for Firebase empowers web, mobile, and IoT developers to build simple, yet powerful backend features to their applications. I will be covering a quick intro into the what & why of Cloud Functions and finish up with some typical use-cases & examples of Cloud Functions for Firebase.\r\n\r\nHave you ever started building an application and quickly realized that a lot of back-end work is needed? Cloud Functions is a serverless execution environment for building and connecting cloud services. With Cloud Functions you write simple, single-purpose functions that are attached to events emitted from your cloud infrastructure and services. There is no need to provision any infrastructure or worry about managing any servers.\r\n\r\nIn this session, you\u2019ll see how using Cloud Functions for Firebase can help you quickly build out task heavy features for your web/mobile/IoT application as well as easily integrate with 3rd-party tools & services.",
+            "title": "Supercharging your applications with Cloud Functions",
+            "speakers": [
+                "Kyle_Paul"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
             "presentation": "",
-            "speakers": [
-                ""
-            ],
-            "tags": [
-                ""
-            ],
-            "title": "Group photo"
-        },
-        "175": {
-            "complexity": "",
-            "description": "",
             "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Intermediate"
+        },
+        "146826": {
+            "description": "Some tips and ideas for helping new or stalled job-hunted based upon 30+ years of  experience",
+            "title": "Tips and Tricks for Finding Your Next Job",
+            "speakers": [
+                "Mike_Hoff"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
             "presentation": "",
-            "speakers": [
-                ""
-            ],
+            "language": "English",
             "tags": [
-                ""
+                "Mentorship"
             ],
-            "title": "Clean up"
+            "complexity": "Introductory and overview"
         },
-        "180": {
-            "complexity": "",
-            "description": "",
-            "language": "English",
+        "146755": {
+            "description": "We will walk through the architecture of how we used GCP in our Akin\u00ea Live Well Optimization platform.  Akin\u00ea Live is the platform we created to manage our IoT devices in the oil field.",
+            "title": "Building Scalable Oil and Gas Systems on GCP",
             "speakers": [
-                ""
+                "Josh_Fafard"
             ],
-            "tags": [
-                ""
-            ],
-            "title": "Cloud Drinks Location: TBD"
-        },
-        "185": {
-            "complexity": "Intermediate",
-            "description": "Microservices is coming with a certain workload and constraints. Let's try to see how Google Cloud Platform and App Engine can help the overall microservices implementation.",
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
             "language": "English",
-            "presentation": "https://speakerdeck.com/gdglviv/jean-baptiste-clion-microservices-in-google-app-engine",
+            "tags": [
+                "Infrastructure"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "149561": {
+            "description": "I will be visiting the KubeCon + CloudNativeCon North America 2019 in San Diego, California from November 18\u201321, 2019. I will also see if I can bring in more people who attended the conference to this devfest so that it would be a team of people sharing the experience and lessons learned",
+            "title": "Updates from KubeCon + CloudNativeCon North America 2019",
             "speakers": [
-                "jean-baptiste_clion"
+                "Jay_Krish"
             ],
-            "tags": [
-                "Cloud"
-            ],
-            "title": "Microservices in Google App Engine"
-        },
-        "190": {
-            "complexity": "Intermediate",
-            "description": "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful\u2014and underrated\u2014account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
             "language": "English",
+            "tags": [
+                "Infrastructure"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "148197": {
+            "description": "Having a solid network foundation for your compute and storage workloads is fundamental to allow you your solution to properly scale and grow, in this presentation we will explore some of the key concepts and common patterns that are used on GCP from small to large scale.",
+            "title": "GCP Network overview",
             "speakers": [
-                12
+                "Fatima_Silveira"
             ],
-            "tags": [
-                "Android"
-            ],
-            "title": "I\u2019ve been doing some syncing\u2026"
-        },
-        "195": {
-            "complexity": "Beginner",
-            "description": "Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll see how many awesome tricks are needed to make our apps start fast and run smoothly on modern Android devices. Hopefully we'll also answer the most important question -- what's next for Android after Java.",
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
             "language": "English",
-            "presentation": "https://speakerdeck.com/gdglviv/aleksander-piotrowski-android-tool-chain-and-run-time-improvements-in-n",
+            "tags": [
+                "Infrastructure"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "153631": {
+            "description": "Flutter is taking the world by storm, enabling developers to write 90%+ of an app just once, then reuse that code to release to mobile, desktop and web.\r\n\r\nJoin us for Flutter 102, Layout Basics! Together we'll work through a customized workshop that was inspired by a layout tutorial designed by the Flutter team itself. When we're done, you know how easy it is to put together a great UI in Flutter!\r\n\r\nSo come get some hands-on experience with Flutter, and see how it can make your life a whole lot easier!\r\n\r\nPlease have Flutter installed and test that you can create a basic Flutter app before this workshop. We don't have enough time to walk people through installing Flutter and do the workshop too.",
+            "title": "Get hands on with Flutter! Flutter 102, Layout Basics",
             "speakers": [
-                "paul_lammertsma"
+                "Scott_Stoll"
             ],
-            "tags": [
-                "Android"
-            ],
-            "title": "Android tool-chain and run-time improvements in N",
-            "videoId": ""
-        },
-        "200": {
-            "complexity": "Beginner",
-            "description": "One of my favourite things about the web are ASCII smileys. They're sweet, fun and simply make the web a better place. How could anyone not like them \u00af(\u30c4)/\u00af?\n\nThis talk is an overdose of smileys, because they're the perfect excuse to get started with Polymer. Polymer is a library built on top of the Web Components standards that helps developers create reusable components for the modern web. And since I know that everybody has been wondering how one could take over the world by creating a suite of Polymer animated emoticon components, we're going to do exactly that.",
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
             "language": "English",
-            "presentation": "http://carmenpopoviciu.github.io/on-polymer-and-smileys/",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "146605": {
+            "description": "Artificial intelligence and machine learning (AI and ML) are major buzzwords right now. But as much as people are talking about AI, what does it actually mean for business? In ML 101, we'll answer this and more, including:\r\n\r\nWhat exactly is AI/ML and why is it happening now?\r\n\r\nWhy is there an opportunity here in Alberta?\r\n\r\nWhere has AI/ML been applied successfully in industry?\r\n\r\nAnd, most importantly: how can a company embark on an AI/ML strategy?\r\n\r\nThis will be a tech-free presentation. No jargon, just a basic look at artificial intelligence, machine learning and what they can do for business.",
+            "title": "Machine Learning 101",
             "speakers": [
-                "aleksander_piotrowski"
+                "Lucas_Scheer"
             ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
             "tags": [
-                "Web"
+                "Data Analytics and AI"
             ],
-            "title": "On Polymer and smileys... or Polysmileys"
+            "complexity": "Introductory and overview"
         },
-        "205": {
-            "description": "Afterparty is a great time to have some fun and meet new people",
-            "icon": "party",
-            "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fparty.jpg?alt=media&token=8e413f01-373a-40bf-bb87-1dcf1d8e6af1",
-            "title": "Afterparty & Networking"
-        },
-        "210": {
-            "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
-            "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
-            "title": "Conference closing and contest winners announcements"
-        },
-        "215": {
-            "description": "",
+        "139721": {
+            "description": "The web is advancing at an alarming rate and browsers are providing new features giving web developers the ability to features to engage with mobile users. Using PWAs, web developers can provide \u201capp like\u201d experiences for their web apps without the need for a native (or hybrid) app.\r\n\r\nAs developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) are experiences that combine the best of the web and the best of mobile apps using new web standards, including service workers, push notifications, and homescreen access.\r\n\r\nIn this session, you\u2019ll learn the the fundamentals needed for building Progressive Web Apps, including the app shell model, how to use service workers to cache the App Shell and your key application data and more!",
+            "title": "What are Progressive Web Apps and How do they work?",
+            "speakers": [
+                "Kyle_Paul"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
             "language": "English",
-            "title": "Keynote"
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Introductory and overview"
         },
-        "220": {
-            "description": "TBD",
+        "148133": {
+            "description": "Developer Student Clubs are all over the Globe now.\r\nWhat are they? What do they do? How can you get involved? ",
+            "title": "Developer Student Clubs",
+            "speakers": [
+                "Kiley_Carson"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
             "language": "English",
-            "title": "TBD"
+            "tags": [
+                "Google Programs & Non-Technical"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "142551": {
+            "description": "Build what\u2019s next together - whether you are a developer or not. Google Cloud has given business users and knowledge workers to build enterprise custom applications to simplify processes and solve business problems. G-Suite in particular has enabled these \u201cnon-coders\u201d to build powerful solutions in Sheets, Forms and App Maker. In this session, I will cover how easy it is to develop using G-Suite, how to integrate with Google Cloud Platform technologies such as AutoML, and how coders and non-coders can work together to develop solutions quicker and better.",
+            "title": "Empowering Business Users & Knowledge Workers with Google Cloud",
+            "speakers": [
+                "Cleo_Espiritu"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "148136": {
+            "description": "User Experience (UX) is an incredibly important aspect of Google Cloud Platform.\r\n\r\nIn this panel we will give you an overview of UX research in Google Cloud Platform and provide example of how Google UX research and methodology translates into a more that provide meaningful and relevant experiences to experience for developers.",
+            "title": "How UX makes GCP the best cloud for Developers",
+            "speakers": [
+                "arunima_kashyap",
+                "Aakanksha_Parameshwar"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "149086": {
+            "description": "Making banking work for people means evolving solutions to meet the demands of tomorrow. In this talk, we will discuss how Google Cloud Platform (GCP) can be used to find innovative ways in producing robust and cost-efficient real-time data processing and analysis. We will also illustrate how GCP can be leveraged to produce next gen banking analytic systems.",
+            "title": "Streaming Data Pipelines: Creating Next Gen Banking Analytics",
+            "speakers": [
+                "Gunjan_Kaur",
+                "Xueming_Zhao"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Data Analytics and AI"
+            ],
+            "complexity": "Intermediate"
+        },
+        "147669": {
+            "description": "In depth presentation of deep learning models and concepts with a focus on real world applications. ",
+            "title": "Deep Learning Fellowship Presents An Introduction to Deep Learning",
+            "speakers": [
+                "Ted_Edmonds",
+                "Boyang_Zhang"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Data Analytics and AI"
+            ],
+            "complexity": "Intermediate"
+        },
+        "144896": {
+            "description": "Khan Academy recently built a new real time data pipeline to track our students' learning time.  We use various Google Cloud products including GAE, Google Storage, BigQuery, Dataflow, StackDriver, and more.  Find out how we process thousands of learning events per second.",
+            "title": "How Khan Academy Tracks Learning Time",
+            "speakers": [
+                "Adam_Berkan"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Infrastructure"
+            ],
+            "complexity": "Intermediate"
+        },
+        "153633": {
+            "description": "This is a placeholder for SorftServe's people to join us. ",
+            "title": "Soft Serve # 1",
+            "speakers": [
+                "Greg_Bennett"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Infrastructure"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "146638": {
+            "description": "As a leader and non- developer, it can be challenging to work with and manage technical experts. This presentation will highlight some of the humorous quirks of working with developers, and some suggestions for non-devs on how to work closely with developers. It is possible for devs and non-devs to collaborate closely and have a little fun at the same time! ",
+            "title": "A non-dev, in a dev world",
+            "speakers": [
+                "Katie_Murray"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "139722": {
+            "description": "Voice is quickly becoming the new standard for search and most businesses are not ready for it. Using Actions on Google, developers are able to design, build, and distribute fully-customizable conversational applications.\r\n\r\nActions on Google is a developer platform that lets you create software to extend the functionality of the Google Assistant, Google\u2019s virtual personal assistant, across more than 500 million devices, including smart speakers, phones, cars, TVs, headphones, watches, and much more.\r\n\r\nIn this session, you\u2019ll learn the fundamentals needed for building Actions on Google, including Voice UI (VUI) & conversational design, what tools are available, some resources to get you started, and more!",
+            "title": "Actions on Google: Are you prepared for the next type of search?",
+            "speakers": [
+                "Kyle_Paul"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "148188": {
+            "description": "At Quizlet, one of our highest throughput services, backed by MySQL, has been the source of multiple performance problems. In addition to the high throughput, the data managed by this service has a growth rate of ~2 billion records/month (and increasing!). At peak traffic, the service takes upwards of 10K writes/second. With scalability problems breathing down our neck, we decided to migrate our data and workload on to Cloud Spanner. There were challenges at every step of the way, from designing the schema, to migrating data, and getting a microservice serving from Cloud Spanner, without taking an outage. Did we succeed? What lessons did we learn along the way? Come find out.",
+            "title": "Keeping it Re(lation)al: moving from MySQL to Cloud Spanner without skipping a beat",
+            "speakers": [
+                "Amol_Deshmukh"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Infrastructure"
+            ],
+            "complexity": "Intermediate"
+        },
+        "147368": {
+            "description": "Creating a scalable and fully managed data lake with GCP",
+            "title": "Serverless Data Lake",
+            "speakers": [
+                "Suni_Mathews"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "147625": {
+            "description": "A review of deep learning models and their uses in the real world.",
+            "title": "Deep Learning Fellowship Presents Applications for Deep Learning Models",
+            "speakers": [
+                "Boyang_Zhang",
+                "Ted_Edmonds"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Data Analytics and AI"
+            ],
+            "complexity": "Intermediate"
+        },
+        "153627": {
+            "description": "A look at supporting technologies in a developers arsenal. All the things you didn't know you didn't know.",
+            "title": "To infinity and beyond! And back again. ",
+            "speakers": [
+                "Ben_Nakaska"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Intermediate"
+        },
+        "149562": {
+            "description": "I have got recently certified as CKA and I would like to share my experience and tips for getting CKA certified ",
+            "title": "Want to CKA ? Path to getting Certified on Kubernetes Administration",
+            "speakers": [
+                "Jay_Krish"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ],
+            "complexity": "Intermediate"
+        },
+        "140601": {
+            "description": "Authorization and Authentication with Firebase using Typescript and React Hooks",
+            "title": "You Shall Not Pass",
+            "speakers": [
+                "Ryker_Rumsey"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Intermediate"
+        },
+        "138512": {
+            "description": "As of v1.8.2 the Flutter team strongly recommends using Provider for all state management solutions, large or small. This is straight from the horse's mouth, Chris Sells, Program Manager for Flutter.\r\n\r\nInterestingly enough, the Flutter team released a package called \"Package Provider\" three days after Remi Rousselet released his package, \"Provider\". During the time each of these was developed, Remi had no idea the team was working on a solution and neither did the team know about Remi. But here's the twist in the plot...\r\n\r\nWhen the team looked at both packages, they recommended Remi's version over their own. They so strongly recommend it that they announced to the world at Google I/O19 that Remi's is better, and people should use it.\r\n\r\nCome find out why.",
+            "title": "Flutter: State Management with Provider",
+            "speakers": [
+                "Scott_Stoll"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Intermediate"
+        },
+        "147107": {
+            "description": "Join UnTapped Energy and Alberta's top data scientists for the Closing Ceremony of the reClaim Datathon. Participants have worked day and night since October 15th to develop their 10X solutions to well abandonment issues. With over (X) teams participating the competition has been fierce! \r\n\r\nIn this session, the top solutions will be pitched and the winner will be crowned!",
+            "title": "reClaim Datathon Closing Ceremony",
+            "speakers": [
+                "Tim_Chan"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Data Analytics and AI"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "147581": {
+            "description": "New to microservices within the Enterprise? Come learn some of the core concepts around Microservices and how to start to decouple away from your Enterprise monolithic application.\r\n\r\nCore concepts of Enterprise Microservices include Designing Microservices, Service Communications, Data Management, Governance, Integrating Microservices  and the Service Mesh.",
+            "title": "Microservices at the Enterprise",
+            "speakers": [
+                "Shaun_Mitchell"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Infrastructure"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "139724": {
+            "description": "Have you ever started building an application and quickly realized that a lot of back-end work is needed? Firebase is a platform that helps you quickly develop real-time apps, grow your user base, and earn more money. Firebase is made up of complementary features that you can mix-and-match to fit your needs without needing to know anything about servers! In this session, you\u2019ll see how using Firebase can help you quickly build out a real-time database with an authentication system that perfectly blends into a web application. With Firebase, we can build a complete application in half the time without any server side code involved.\r\n\r\nFirebase is many things and this talk will explore the tools available that it provides. I will cover a quick intro of all tools available, deeper dive into the Firebase real-time database & authentication setup, and finish up with a quick multiplayer quiz (built on Firebase).",
+            "title": "Serverless Applications with Firebase",
+            "speakers": [
+                "Kyle_Paul"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Intermediate"
+        },
+        "142401": {
+            "description": "A sharing of my adventure in using Google App Maker to develop a complex workflow tool while starting out with no previous web app development experience",
+            "title": "Using Google App Maker to Develop a Workflow Tool - Going from Beginner to Developer",
+            "speakers": [
+                "Eddy_Beals"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "146849": {
+            "description": "Would like to briefly talk about Immediate Rent project and discuss what Code and DEV stack we are using.  ",
+            "title": "Immediate Rent",
+            "speakers": [
+                "Albert_Morozov"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "148196": {
+            "description": "Have you ever wondered how you could deploy your webapp without having to worry about all that infrastructure stuff? Networks, firewall rules, etc\u2026? Then this talk is for you; We will explore how some of the products from GCP can be used to deploy your application with nearly no-ops and minimal infrastructure with great scaling and responsiveness to your application. \r\n",
+            "title": "Using GCP managed services to deploy your webapp",
+            "speakers": [
+                "Fatima_Silveira"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Intermediate"
+        },
+        "148187": {
+            "description": "Google's Women Techmakers program provides visibility, community, and resources for women in technology. Learn more about what the initiatives are, what WTM can provide, and how you can get involved. ",
+            "title": "Women Techmakers",
+            "speakers": [
+                "Kiley_Carson"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "138511": {
+            "description": "Let's cut the buzzwords. You don't care about phrases created by Marketing people, you care about what you could do with Flutter. You care if it's really that much faster and easier than what you're doing now, and if it's worth the time and expense it takes to get productive with it.\r\n\r\nCome find out.",
+            "title": "Flutter, why it's the right choice for business",
+            "speakers": [
+                "Scott_Stoll"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "147218": {
+            "description": "This will be a workshop to get beginner level developers started with PWA. \r\nWill touch upon differences between web and pwa.\r\nThen some core concepts like Service Workers, a few caching strategies and finally hit coding on an online IDE sycned with GitHub so that everyone is on the same page.\r\nWill keep it stress free coding session, something similar to Qwiklabs. \r\n",
+            "title": "Up and Running with Progressive Web Apps",
+            "speakers": [
+                "Neel_Kirit"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "146840": {
+            "description": "Ever find an edge case that breaks a design? Missing a style guide and a designer? As a developer, sometimes you\u2019re left to design on the fly. In Your Experience is User Experience, learn tips and strategies on how to identify areas a design can be improved upon, how to come up with a functional and beautifully designed solution, and how to present it to your client.",
+            "title": "Your Experience is User Experience",
+            "speakers": [
+                "Charlie_Cheung"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "language": "English",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ],
+            "complexity": "Introductory and overview"
         }
     },
     "speakers": {
@@ -1092,7 +1410,19 @@
             "photo": "/images/people/greg.bennett.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/greg.bennett.png",
             "featured": false,
-            "socials": [],
+            "socials": [
+                {
+                    "icon": "twitter",
+                    "link": "https://www.twitter.com/recrdx",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/gregbennettio/",
+                    "name": "LinkedIn"
+                },
+                {}
+            ],
             "company": "AIRIA Cloud"
         },
         "Gunjan_Kaur": {
@@ -1450,6 +1780,18 @@
                 {}
             ],
             "company": ""
+        },
+        "Xueming_Zhao": {
+            "name": "Xueming Zhao",
+            "bio": "Xueming grew up in Edmonton and joined ATB in 2005 as a Treasury Modeling Analyst. In 2011, she took an opportunity with a software company as a consultant for treasury and risk system implementation for banks in the US and China. She rejoined ATB in 2013 in treasury and is currently in the role of Managing Director, Balance Sheet Management. With the support of her team, she manages funds transfer pricing, interest rate risk, and net interest margin. Currently, she is attending the Executive MBA program at Oxford Said Business School.",
+            "shortBio": "ATB Financial, Managing Director, Balance Sheet Management, Treasury",
+            "title": "ATB Financial, Managing Director, Balance Sheet Management, Treasury",
+            "order": "33",
+            "photo": "/images/people/xueming.zhao.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/xueming.zhao.png",
+            "featured": false,
+            "socials": [],
+            "company": "ATB Financial"
         }
     },
     "team": [

@@ -3,7 +3,6 @@ import os
 import requests
 import datetime
 
-
 months = {}
 months["1"] = "January"
 months["2"] = "February"
@@ -87,6 +86,7 @@ def get_date_time(dtime):
   ymd1 = months[ymd1[1]] + " " + ymd1[2] + " " + ymd1[0]
   return ymd, ymd1, tt
 
+id_list = []
 ##################################################################### Sessions ###########################################################################
 def session_builder(sessions_details):
     all_session_info = {}
@@ -103,13 +103,13 @@ def session_builder(sessions_details):
 
         new_ses["speakers"] = []
         for speak in det["speakers"]:
-          new_ses["speakers"].append(speak['name'])
+          new_ses["speakers"].append("_".join(speak['name'].split()))
         new_ses["icon"] = ''
         new_ses["videoID"] = ''
         new_ses["image"] = ''
         new_ses["presentation"] = ''
-        new_ses["roomId"] = det["roomId"]
-        new_ses["room"] = det["room"]
+        #new_ses["roomId"] = det["roomId"]
+        #new_ses["room"] = det["room"]
 
         for cat in det["categories"]:
           if cat["name"].lower() == "language":
@@ -131,26 +131,29 @@ def session_builder(sessions_details):
             for trk in cat['categoryItems']:
               track += trk["name"] + ","
             track = list(track)[0:len(track) - 1]
-            new_ses["tags"] = "".join(track)
-            new_ses["track"] = "".join(track)
+            trac = "".join(track)
+            new_ses["tags"] = [trac]
+            #new_ses["track"] = "".join(track)
             dat0, dat1, dat2 =  get_date_time(det['startsAt'])
             if dat0 not in tracks.keys():
               tracks[dat0] = {}
-            if new_ses["track"] not in tracks[dat0].keys():
-              tracks[dat0][new_ses["track"]] = {}
-            if det["roomId"] not in tracks[dat0][new_ses["track"]].keys():
-              tracks[dat0][new_ses["track"]][det["roomId"]] = det["room"]
+            if trac not in tracks[dat0].keys():
+              tracks[dat0][trac] = {}
+            if det["roomId"] not in tracks[dat0][trac].keys():
+              tracks[dat0][trac][det["roomId"]] = det["room"]
           if cat["name"].lower() == "session format":
             track = ""
             for trk in cat['categoryItems']:
               track += trk["name"] + ","
             track = list(track)[0:len(track) - 1]
-            new_ses["session_format"] = "".join(track)
+            #new_ses["session_format"] = "".join(track)
+        id = int(id)
+        id_list.append(id)
         all_session_info[id] = new_ses
     return all_session_info, session_slots, tracks
 
 session_det, session_slots, session_tracks  =  session_builder(sessions_details)
-data["sessions"] = session_builder(sessions_details)
+data["sessions"] = session_det
 
 
 ##################################################################### Schedule ###########################################################################
@@ -202,30 +205,36 @@ for date in schedule.keys():
   tmslots = []
   for st in slots_tms.keys():
     for et, ids in slots_tms[st].items():
-      tmp = {}
-      tmp["startTime"] = st
-      tmp["endTime"] = et
-      tmp["sessions"] = []
+      ids = list(set(ids))
       for id in ids:
-        item = {'items': [id]}
-        tmp["sessions"].append(item)
-      tmslots.append(tmp)
+        tmp = {}
+        tmp["endTime"] = et
+        tmp["sessions"] = []
+        tmp["startTime"] = st
+        try:
+          id = int(id)
+        except:
+          pass
+        if id in id_list:
+          item = {'items': [id]}
+          tmp["sessions"].append(item)
+          if len(tmp["sessions"]) > 0:
+            tmslots.append(tmp)
   schedule[date]['timeslots'] = tmslots
   sessinf = session_tracks[date]
   sesstrack = []
   for track, roo_det in sessinf.items():
     tmp = {}
     tmp["title"] = track
-    tmp["roomId"] = []
-    tmp["room_name"] = []
-    for roomid, nm in roo_det.items():
-      tmp["roomId"].append(roomid)
-      tmp["room_name"].append(nm)
+    #tmp["roomId"] = []
+    #tmp["room_name"] = []
+    #for roomid, nm in roo_det.items():
+      #tmp["roomId"].append(roomid)
+      #tmp["room_name"].append(nm)
     sesstrack.append(tmp)
   schedule[date]["tracks"] = sesstrack
 
 data["schedule"] = schedule
-
 
 ##################################################################### SPEAKERS ###########################################################################
 
