@@ -95,28 +95,6 @@
             "dateReadable": "November 22 2019",
             "timeslots": [
                 {
-                    "endTime": "09.00",
-                    "sessions": [
-                        {
-                            "items": [
-                                100
-                            ]
-                        }
-                    ],
-                    "startTime": "08.00"
-                },
-                {
-                    "endTime": "10.00",
-                    "sessions": [
-                        {
-                            "items": [
-                                200
-                            ]
-                        }
-                    ],
-                    "startTime": "09.00"
-                },
-                {
                     "endTime": "12.00",
                     "sessions": [
                         {
@@ -176,7 +154,7 @@
                     "sessions": [
                         {
                             "items": [
-                                153628
+                                146826
                             ]
                         }
                     ],
@@ -187,7 +165,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146826
+                                153628
                             ]
                         }
                     ],
@@ -209,7 +187,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146755
+                                149561
                             ]
                         }
                     ],
@@ -220,44 +198,18 @@
                     "sessions": [
                         {
                             "items": [
-                                149561
+                                146755
                             ]
                         }
                     ],
                     "startTime": "11.30"
                 },
                 {
-                    "endTime": "13.00",
+                    "endTime": "13.50",
                     "sessions": [
                         {
                             "items": [
-                                600
-                            ]
-                        },
-                        {
-                            "items": [
-                                700
-                            ]
-                        },
-                        {
-                            "items": [
-                                300
-                            ]
-                        },
-                        {
-                            "items": [
-                                800
-                            ]
-                        }
-                    ],
-                    "startTime": "12.00"
-                },
-                {
-                    "endTime": "13.40",
-                    "sessions": [
-                        {
-                            "items": [
-                                146605
+                                148197
                             ]
                         }
                     ],
@@ -275,11 +227,11 @@
                     "startTime": "13.00"
                 },
                 {
-                    "endTime": "13.50",
+                    "endTime": "13.40",
                     "sessions": [
                         {
                             "items": [
-                                148197
+                                146605
                             ]
                         }
                     ],
@@ -372,28 +324,6 @@
                         }
                     ],
                     "startTime": "15.00"
-                },
-                {
-                    "endTime": "16.15",
-                    "sessions": [
-                        {
-                            "items": [
-                                400
-                            ]
-                        }
-                    ],
-                    "startTime": "16.00"
-                },
-                {
-                    "endTime": "18.15",
-                    "sessions": [
-                        {
-                            "items": [
-                                500
-                            ]
-                        }
-                    ],
-                    "startTime": "16.15"
                 }
             ],
             "tracks": [
@@ -417,28 +347,6 @@
         "2019-11-23": {
             "dateReadable": "November 23 2019",
             "timeslots": [
-                {
-                    "endTime": "09.15",
-                    "sessions": [
-                        {
-                            "items": [
-                                900
-                            ]
-                        }
-                    ],
-                    "startTime": "08.30"
-                },
-                {
-                    "endTime": "09.30",
-                    "sessions": [
-                        {
-                            "items": [
-                                1000
-                            ]
-                        }
-                    ],
-                    "startTime": "09.15"
-                },
                 {
                     "endTime": "09.45",
                     "sessions": [
@@ -467,17 +375,6 @@
                         {
                             "items": [
                                 148188
-                            ]
-                        }
-                    ],
-                    "startTime": "09.30"
-                },
-                {
-                    "endTime": "15.05",
-                    "sessions": [
-                        {
-                            "items": [
-                                1800
                             ]
                         }
                     ],
@@ -561,37 +458,11 @@
                     "startTime": "11.15"
                 },
                 {
-                    "endTime": "13.00",
+                    "endTime": "13.45",
                     "sessions": [
                         {
                             "items": [
-                                1700
-                            ]
-                        },
-                        {
-                            "items": [
-                                1100
-                            ]
-                        },
-                        {
-                            "items": [
-                                1900
-                            ]
-                        },
-                        {
-                            "items": [
-                                1600
-                            ]
-                        }
-                    ],
-                    "startTime": "12.00"
-                },
-                {
-                    "endTime": "13.15",
-                    "sessions": [
-                        {
-                            "items": [
-                                142401
+                                147581
                             ]
                         }
                     ],
@@ -609,11 +480,11 @@
                     "startTime": "13.00"
                 },
                 {
-                    "endTime": "13.45",
+                    "endTime": "13.15",
                     "sessions": [
                         {
                             "items": [
-                                147581
+                                142401
                             ]
                         }
                     ],
@@ -684,50 +555,6 @@
                         }
                     ],
                     "startTime": "14.45"
-                },
-                {
-                    "endTime": "16.00",
-                    "sessions": [
-                        {
-                            "items": [
-                                1200
-                            ]
-                        }
-                    ],
-                    "startTime": "15.00"
-                },
-                {
-                    "endTime": "16.25",
-                    "sessions": [
-                        {
-                            "items": [
-                                1300
-                            ]
-                        }
-                    ],
-                    "startTime": "15.50"
-                },
-                {
-                    "endTime": "17.25",
-                    "sessions": [
-                        {
-                            "items": [
-                                1400
-                            ]
-                        }
-                    ],
-                    "startTime": "16.25"
-                },
-                {
-                    "endTime": "19.20",
-                    "sessions": [
-                        {
-                            "items": [
-                                1500
-                            ]
-                        }
-                    ],
-                    "startTime": "17.20"
                 }
             ],
             "tracks": [
@@ -757,8 +584,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 9332,
-            "room": "Central Library Room 0-14",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -775,8 +600,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Infrastructure"
@@ -793,8 +616,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Google Programs & Non-Technical"
@@ -812,8 +633,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
                 "Infrastructure"
@@ -830,8 +649,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Data Analytics and AI"
@@ -848,8 +665,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Google Programs & Non-Technical"
@@ -866,8 +681,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -884,8 +697,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Mentorship"
@@ -902,8 +713,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Infrastructure"
@@ -920,8 +729,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Infrastructure"
@@ -938,8 +745,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
                 "Infrastructure"
@@ -956,8 +761,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 9332,
-            "room": "Central Library Room 0-14",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -974,8 +777,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Data Analytics and AI"
@@ -992,8 +793,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1010,8 +809,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Google Programs & Non-Technical"
@@ -1028,8 +825,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1047,8 +842,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
                 "Google Programs & Non-Technical"
@@ -1066,8 +859,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Data Analytics and AI"
@@ -1085,8 +876,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Data Analytics and AI"
@@ -1103,8 +892,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Infrastructure"
@@ -1121,8 +908,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
                 "Infrastructure"
@@ -1139,8 +924,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Google Programs & Non-Technical"
@@ -1157,8 +940,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1175,8 +956,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
                 "Infrastructure"
@@ -1193,8 +972,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1212,8 +989,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Data Analytics and AI"
@@ -1230,8 +1005,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1248,8 +1021,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Google Programs & Non-Technical"
@@ -1266,8 +1037,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1284,8 +1053,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1302,8 +1069,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Data Analytics and AI"
@@ -1320,8 +1085,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Infrastructure"
@@ -1338,8 +1101,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1356,8 +1117,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1374,8 +1133,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1392,8 +1149,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1410,8 +1165,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Google Programs & Non-Technical"
@@ -1428,8 +1181,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1446,8 +1197,6 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Code and Development"
@@ -1464,279 +1213,11 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
                 "Google Programs & Non-Technical"
             ],
             "complexity": "Introductory and overview"
-        },
-        "100": {
-            "description": null,
-            "title": "Doors + Registration Light Breakfast",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "200": {
-            "description": "Replace with Session once details are confirmed.",
-            "title": "Day 1 KeyNote",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "300": {
-            "description": null,
-            "title": "Lunch",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "400": {
-            "description": null,
-            "title": "Day 1 Wrap Up",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "500": {
-            "description": null,
-            "title": "Networking Event?",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "600": {
-            "description": null,
-            "title": "Lunch",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "700": {
-            "description": "High quality, nutritious food.",
-            "title": "Lunch",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "800": {
-            "description": null,
-            "title": "Lunch",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 9332,
-            "room": "Central Library Room 0-14",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "900": {
-            "description": "Get you spot for the keynote! Doors open at 8:00 AM",
-            "title": "Doors Open + Light Breakfast",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "1000": {
-            "description": null,
-            "title": "Day 2 Welcome",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "1100": {
-            "description": null,
-            "title": "Lunch",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "1200": {
-            "description": "Closing Remarks, Thanks, Sponsors, Prizes",
-            "title": "Closing Remarks",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "1300": {
-            "description": null,
-            "title": "Group Photo",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "1400": {
-            "description": null,
-            "title": "Clean Up and out",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "1500": {
-            "description": null,
-            "title": "Dinner/Drinks",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "1600": {
-            "description": null,
-            "title": "Lunch",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "1700": {
-            "description": null,
-            "title": "Lunch",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "1800": {
-            "description": null,
-            "title": "QwikLabs",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 9332,
-            "room": "Central Library Room 0-14",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "1900": {
-            "description": null,
-            "title": "Lunch",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 9332,
-            "room": "Central Library Room 0-14",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
         }
     },
     "speakers": {
