@@ -63,9 +63,7 @@
     </style>
 
     <div class="container">
-
       <div class="content">
-
         <div>
           <h1 class="container-title">{$ aboutBlock.title $}</h1>
           <p>{$ aboutBlock.callToAction.featuredSessions.description $}</p>
@@ -97,11 +95,28 @@
             <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon> -->
           </paper-button>
 
-          <!--call for speaker-->
-          <h1 class="container-title">Call for speakers</h1>
-          <p>We are looking for Google Cloud and Cloud Native beginners and experts like you to speak at DevFestYYC!</p>
+<!--call for speaker-->
+          <h1 class="container-title">Call for speakers is now closed</h1>
+          <!--<p>We are looking for Google Cloud and Cloud Native beginners and experts like you to speak at DevFestYYC!</p>-->
 
+<!--After call for speakers ends-->
           <a
+            href="https://gdgyyc.com/"
+            ga-on="click"
+            ga-event-category="video"
+            ga-event-action="watch"
+            ga-event-label="about block - call for speakers"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <paper-button class="animated icon-right">
+              <span class="cta-label">Wish to speak at DevFestYYC 2020 get in touch with us</span>
+              <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+            </paper-button>
+          </a>
+
+<!--To link to sessionize for speaker registration before event-->
+          <!--<a
             href="https://devfestyyc.link/cfp"
             ga-on="click"
             ga-event-category="video"
@@ -114,7 +129,7 @@
               <span class="cta-label">Call for speakers now open</span>
               <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
             </paper-button>
-          </a>
+          </a>-->
 <!--end call for speaker-->
 
         </div>

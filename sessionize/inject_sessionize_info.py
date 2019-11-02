@@ -323,6 +323,7 @@ data["sessions"] = session_det
 
 def insert_speaker(speakers, speaker_wall):
   speakers_reference = {}
+  speaker_company_logos = {}
   order = 1
   for speaker in speakers:
     for sw in speaker_wall:
@@ -346,6 +347,8 @@ def insert_speaker(speakers, speaker_wall):
     reference_speaker_info['featured'] = speaker['isTopSpeaker']
     reference_speaker_info['socials']=[]
 
+    speaker_company_logos[name_key] = {}
+
     if len(speaker['links'])>0:
       for ln in speaker['links']:
         if ln['title'].lower() == "linkedin":
@@ -368,10 +371,15 @@ def insert_speaker(speakers, speaker_wall):
             reference_speaker_info['company'] = q['answer']
           else:
             reference_speaker_info['company'] = ''
-    speakers_reference[name_key] = reference_speaker_info
-  return speakers_reference
 
-data["speakers"] = insert_speaker(speakers, speaker_wall)
+    speaker_company_logos[name_key]["company"] =  reference_speaker_info['company']
+    speaker_company_logos[name_key]["companyLogo"] = "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
+    speakers_reference[name_key] = reference_speaker_info
+  return speakers_reference, speaker_company_logos
+
+speaker_det, comp_det = insert_speaker(speakers, speaker_wall)
+data["speakers"] = speaker_det
 
 ################################################################################# SAVE NEW FILE ###########################################################################################3
 save_json(data, "../docs/default-firebase-data.json")
+save_json(comp_det, "../docs/speaker_company_details_tmp.json")

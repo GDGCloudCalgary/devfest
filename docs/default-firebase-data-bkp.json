@@ -242,22 +242,22 @@
                     "sessions": [
                         {
                             "items": [
-                                600
-                            ]
-                        },
-                        {
-                            "items": [
                                 200
                             ]
                         },
                         {
                             "items": [
-                                500
+                                400
                             ]
                         },
                         {
                             "items": [
-                                400
+                                600
+                            ]
+                        },
+                        {
+                            "items": [
+                                500
                             ]
                         }
                     ],
@@ -290,7 +290,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146605
+                                146826
                             ]
                         }
                     ],
@@ -301,7 +301,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146826
+                                146605
                             ]
                         }
                     ],
@@ -345,7 +345,7 @@
                     "sessions": [
                         {
                             "items": [
-                                144896
+                                153627
                             ]
                         }
                     ],
@@ -356,7 +356,7 @@
                     "sessions": [
                         {
                             "items": [
-                                153627
+                                144896
                             ]
                         }
                     ],
@@ -546,7 +546,7 @@
                     "sessions": [
                         {
                             "items": [
-                                1300
+                                1700
                             ]
                         },
                         {
@@ -561,7 +561,7 @@
                         },
                         {
                             "items": [
-                                1700
+                                1300
                             ]
                         }
                     ],
@@ -1061,7 +1061,7 @@
         },
         "153627": {
             "description": "A look at supporting technologies in a developers arsenal. All the things you didn't know you didn't know.",
-            "title": "To infinity and beyond! And back again. ",
+            "title": "To Infinity and Beyond... and Back Again. ",
             "speakers": [
                 "Ben_Nakaska"
             ],
@@ -1614,7 +1614,7 @@
             "order": "1",
             "photo": "/images/people/aakanksha.parameshwar.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/aakanksha.parameshwar.png",
-            "featured": true,
+            "featured": false,
             "socials": [
                 {
                     "icon": "linkedin",
@@ -1632,7 +1632,7 @@
             "order": "2",
             "photo": "/images/people/adam.berkan.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/adam.berkan.png",
-            "featured": false,
+            "featured": true,
             "socials": [
                 {
                     "icon": "twitter",
@@ -1819,7 +1819,7 @@
             "order": "13",
             "photo": "/images/people/hans.hegge.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/hans.hegge.png",
-            "featured": false,
+            "featured": true,
             "socials": [
                 {
                     "icon": "linkedin",
@@ -1851,7 +1851,7 @@
             "order": "15",
             "photo": "/images/people/josh.fafard.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/josh.fafard.png",
-            "featured": true,
+            "featured": false,
             "socials": [
                 {
                     "icon": "linkedin",
@@ -1870,7 +1870,7 @@
             "order": "16",
             "photo": "/images/people/katie.murray.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/katie.murray.png",
-            "featured": true,
+            "featured": false,
             "socials": [
                 {
                     "icon": "linkedin",
@@ -1968,7 +1968,7 @@
             "order": "21",
             "photo": "/images/people/michael.murphy.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/michael.murphy.png",
-            "featured": false,
+            "featured": true,
             "socials": [
                 {
                     "icon": "twitter",
@@ -2029,7 +2029,7 @@
             "order": "24",
             "photo": "/images/people/neel.kirit.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/neel.kirit.png",
-            "featured": false,
+            "featured": true,
             "socials": [
                 {
                     "icon": "twitter",
@@ -2123,7 +2123,7 @@
             "order": "29",
             "photo": "/images/people/suni.mathews.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/suni.mathews.png",
-            "featured": true,
+            "featured": false,
             "socials": [],
             "company": "ATB Financial"
         },
@@ -2205,7 +2205,7 @@
             "order": "34",
             "photo": "/images/people/xueming.zhao.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/xueming.zhao.png",
-            "featured": false,
+            "featured": true,
             "socials": [],
             "company": "ATB Financial"
         }
@@ -2541,7 +2541,7 @@
         {
             "available": true,
             "currency": "C$",
-            "ends": "Nov 8",
+            "ends": "Nov 2",
             "info": "Requires valid student/lecturer ID. While quantities Last! ",
             "name": "Student/ EDU",
             "price": 37.5,
@@ -2552,7 +2552,7 @@
         {
             "available": true,
             "currency": "C$",
-            "ends": "Oct 18 ",
+            "ends": "Nov 2",
             "inDemand": true,
             "info": "Get in early and save! While quantities last!",
             "name": "Early-bird General Admission",
@@ -2565,7 +2565,7 @@
         {
             "available": true,
             "currency": "C$",
-            "ends": "Oct 18",
+            "ends": "Nov 2",
             "inDemand": false,
             "info": "Women Techmakers members get a 13% discount.",
             "name": "Early-bird WTM",
@@ -2578,7 +2578,7 @@
         {
             "available": false,
             "currency": "$",
-            "ends": "Nov 8",
+            "ends": "Nov 22",
             "inDemand": false,
             "info": "Get access to over 30 sessions, world class speakers and festivities.",
             "name": "Regular General Admission",
@@ -2586,16 +2586,20 @@
             "primary": true,
             "regular": true,
             "soldOut": false,
-            "starts": "Oct 19",
+            "starts": "Nov 2",
             "url": "https://devfestyyc.link/tickets"
         },
         {
             "available": false,
             "currency": "C$",
+            "ends": "Nov 22",
+            "inDemand": false,
             "info": "Women Techmakers members get a 13% discount.",
             "name": "WTM General Admission.",
             "price": 62.25,
             "soldOut": false,
+            "regular": true,
+            "starts": "Nov 2",
             "url": "https://devfestyyc.link/tickets"
         }
     ],
