@@ -110,7 +110,7 @@
                     "sessions": [
                         {
                             "items": [
-                                158366
+                                200
                             ]
                         }
                     ],
@@ -172,7 +172,7 @@
                     "startTime": "10.20"
                 },
                 {
-                    "endTime": "11.00",
+                    "endTime": "11.15",
                     "sessions": [
                         {
                             "items": [
@@ -180,14 +180,14 @@
                             ]
                         }
                     ],
-                    "startTime": "10.45"
+                    "startTime": "11.00"
                 },
                 {
                     "endTime": "11.15",
                     "sessions": [
                         {
                             "items": [
-                                148133
+                                146826
                             ]
                         }
                     ],
@@ -203,17 +203,6 @@
                         }
                     ],
                     "startTime": "11.00"
-                },
-                {
-                    "endTime": "11.20",
-                    "sessions": [
-                        {
-                            "items": [
-                                149086
-                            ]
-                        }
-                    ],
-                    "startTime": "11.05"
                 },
                 {
                     "endTime": "12.00",
@@ -247,28 +236,28 @@
                         },
                         {
                             "items": [
-                                200
+                                700
                             ]
                         },
                         {
                             "items": [
-                                400
+                                300
                             ]
                         },
                         {
                             "items": [
-                                500
+                                800
                             ]
                         }
                     ],
                     "startTime": "12.00"
                 },
                 {
-                    "endTime": "13.45",
+                    "endTime": "13.40",
                     "sessions": [
                         {
                             "items": [
-                                157996
+                                146605
                             ]
                         }
                     ],
@@ -286,11 +275,11 @@
                     "startTime": "13.00"
                 },
                 {
-                    "endTime": "13.40",
+                    "endTime": "13.50",
                     "sessions": [
                         {
                             "items": [
-                                146826
+                                148197
                             ]
                         }
                     ],
@@ -301,22 +290,22 @@
                     "sessions": [
                         {
                             "items": [
-                                146605
+                                139721
                             ]
                         }
                     ],
                     "startTime": "13.00"
                 },
                 {
-                    "endTime": "15.00",
+                    "endTime": "14.00",
                     "sessions": [
                         {
                             "items": [
-                                147669
+                                148133
                             ]
                         }
                     ],
-                    "startTime": "14.00"
+                    "startTime": "13.45"
                 },
                 {
                     "endTime": "14.40",
@@ -341,15 +330,26 @@
                     "startTime": "14.00"
                 },
                 {
-                    "endTime": "15.40",
+                    "endTime": "14.15",
                     "sessions": [
                         {
                             "items": [
-                                153627
+                                149086
                             ]
                         }
                     ],
-                    "startTime": "15.00"
+                    "startTime": "14.00"
+                },
+                {
+                    "endTime": "15.30",
+                    "sessions": [
+                        {
+                            "items": [
+                                147669
+                            ]
+                        }
+                    ],
+                    "startTime": "14.30"
                 },
                 {
                     "endTime": "15.40",
@@ -363,21 +363,40 @@
                     "startTime": "15.00"
                 },
                 {
+                    "endTime": "15.50",
+                    "sessions": [
+                        {
+                            "items": [
+                                153633
+                            ]
+                        }
+                    ],
+                    "startTime": "15.00"
+                },
+                {
                     "endTime": "16.15",
                     "sessions": [
                         {
                             "items": [
-                                300
+                                400
                             ]
                         }
                     ],
                     "startTime": "16.00"
+                },
+                {
+                    "endTime": "18.15",
+                    "sessions": [
+                        {
+                            "items": [
+                                500
+                            ]
+                        }
+                    ],
+                    "startTime": "16.15"
                 }
             ],
             "tracks": [
-                {
-                    "title": "Keynote"
-                },
                 {
                     "title": "Code and Development"
                 },
@@ -403,7 +422,7 @@
                     "sessions": [
                         {
                             "items": [
-                                700
+                                900
                             ]
                         }
                     ],
@@ -414,7 +433,7 @@
                     "sessions": [
                         {
                             "items": [
-                                800
+                                1000
                             ]
                         }
                     ],
@@ -458,7 +477,7 @@
                     "sessions": [
                         {
                             "items": [
-                                1600
+                                1800
                             ]
                         }
                     ],
@@ -487,11 +506,11 @@
                     "startTime": "10.15"
                 },
                 {
-                    "endTime": "11.15",
+                    "endTime": "11.10",
                     "sessions": [
                         {
                             "items": [
-                                147581
+                                153627
                             ]
                         }
                     ],
@@ -546,22 +565,22 @@
                     "sessions": [
                         {
                             "items": [
-                                1300
-                            ]
-                        },
-                        {
-                            "items": [
                                 1700
                             ]
                         },
                         {
                             "items": [
-                                1400
+                                1100
                             ]
                         },
                         {
                             "items": [
-                                900
+                                1900
+                            ]
+                        },
+                        {
+                            "items": [
+                                1600
                             ]
                         }
                     ],
@@ -572,51 +591,62 @@
                     "sessions": [
                         {
                             "items": [
-                                146840
-                            ]
-                        }
-                    ],
-                    "startTime": "13.00"
-                },
-                {
-                    "endTime": "15.05",
-                    "sessions": [
-                        {
-                            "items": [
-                                1500
-                            ]
-                        }
-                    ],
-                    "startTime": "13.00"
-                },
-                {
-                    "endTime": "13.30",
-                    "sessions": [
-                        {
-                            "items": [
                                 142401
                             ]
                         }
                     ],
-                    "startTime": "13.15"
+                    "startTime": "13.00"
+                },
+                {
+                    "endTime": "13.50",
+                    "sessions": [
+                        {
+                            "items": [
+                                139724
+                            ]
+                        }
+                    ],
+                    "startTime": "13.00"
                 },
                 {
                     "endTime": "13.45",
                     "sessions": [
                         {
                             "items": [
-                                148187
+                                147581
                             ]
                         }
                     ],
-                    "startTime": "13.30"
+                    "startTime": "13.00"
+                },
+                {
+                    "endTime": "13.35",
+                    "sessions": [
+                        {
+                            "items": [
+                                146849
+                            ]
+                        }
+                    ],
+                    "startTime": "13.20"
+                },
+                {
+                    "endTime": "15.00",
+                    "sessions": [
+                        {
+                            "items": [
+                                148196
+                            ]
+                        }
+                    ],
+                    "startTime": "13.45"
                 },
                 {
                     "endTime": "14.00",
                     "sessions": [
                         {
                             "items": [
-                                146849
+                                148187
                             ]
                         }
                     ],
@@ -634,7 +664,7 @@
                     "startTime": "14.00"
                 },
                 {
-                    "endTime": "15.00",
+                    "endTime": "14.45",
                     "sessions": [
                         {
                             "items": [
@@ -642,14 +672,25 @@
                             ]
                         }
                     ],
-                    "startTime": "14.15"
+                    "startTime": "14.00"
+                },
+                {
+                    "endTime": "15.00",
+                    "sessions": [
+                        {
+                            "items": [
+                                146840
+                            ]
+                        }
+                    ],
+                    "startTime": "14.45"
                 },
                 {
                     "endTime": "16.00",
                     "sessions": [
                         {
                             "items": [
-                                1000
+                                1200
                             ]
                         }
                     ],
@@ -660,7 +701,7 @@
                     "sessions": [
                         {
                             "items": [
-                                1100
+                                1300
                             ]
                         }
                     ],
@@ -671,11 +712,22 @@
                     "sessions": [
                         {
                             "items": [
-                                1200
+                                1400
                             ]
                         }
                     ],
                     "startTime": "16.25"
+                },
+                {
+                    "endTime": "19.20",
+                    "sessions": [
+                        {
+                            "items": [
+                                1500
+                            ]
+                        }
+                    ],
+                    "startTime": "17.20"
                 }
             ],
             "tracks": [
@@ -695,24 +747,6 @@
         }
     },
     "sessions": {
-        "158366": {
-            "description": "Wellington Holbrook is leading ATB Financial through an intense three year business transformation with a big mandate, to reimagine banking and make it work for people. Keeping the customer at the center of every decision, Wellington will share his roadmap for this transformation success, which started with transitioning to GSuite and now include the full suite of powerful Google Cloud Platform products. ",
-            "title": "Transform Banking with Google",
-            "speakers": [
-                "Wellington_Holbrook"
-            ],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7452,
-            "room": "Patricia A. Whelan Performance Hall",
-            "language": "English",
-            "tags": [
-                "Keynote"
-            ],
-            "complexity": "Introductory and overview"
-        },
         "146324": {
             "description": "Hands on session on how get started with Unity.\r\nAcquiring 3D assets.\r\nBuild AR/VR applications/games.",
             "title": "Building Augmented Reality Applications",
@@ -822,24 +856,6 @@
             ],
             "complexity": "Introductory and overview"
         },
-        "148133": {
-            "description": "Developer Student Clubs are all over the Globe now.\r\nWhat are they? What do they do? How can you get involved? ",
-            "title": "Developer Student Clubs",
-            "speakers": [
-                "Kiley_Carson"
-            ],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
-            "language": "English",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ],
-            "complexity": "Introductory and overview"
-        },
         "139725": {
             "description": "Cloud Functions for Firebase empowers web, mobile, and IoT developers to build simple, yet powerful backend features to their applications. I will be covering a quick intro into the what & why of Cloud Functions and finish up with some typical use-cases & examples of Cloud Functions for Firebase.\r\n\r\nHave you ever started building an application and quickly realized that a lot of back-end work is needed? Cloud Functions is a serverless execution environment for building and connecting cloud services. With Cloud Functions you write simple, single-purpose functions that are attached to events emitted from your cloud infrastructure and services. There is no need to provision any infrastructure or worry about managing any servers.\r\n\r\nIn this session, you\u2019ll see how using Cloud Functions for Firebase can help you quickly build out task heavy features for your web/mobile/IoT application as well as easily integrate with 3rd-party tools & services.",
             "title": "Supercharging your applications with Cloud Functions",
@@ -858,24 +874,23 @@
             ],
             "complexity": "Intermediate"
         },
-        "149086": {
-            "description": "Making banking work for people means evolving solutions to meet the demands of tomorrow. In this talk, we will discuss how Google Cloud Platform (GCP) can be used to find innovative ways in producing robust and cost-efficient real-time data processing and analysis. We will also illustrate how GCP can be leveraged to produce next gen banking analytic systems.",
-            "title": "Streaming Data Pipelines: Creating Next Gen Banking Analytics",
+        "146826": {
+            "description": "Some tips and ideas for helping new or stalled job-hunted based upon 30+ years of  experience",
+            "title": "Tips and Tricks for Finding Your Next Job",
             "speakers": [
-                "GUNJAN_KAUR",
-                "Xueming_Zhao"
+                "Mike_Hoff"
             ],
             "icon": "",
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
+            "roomId": 7454,
+            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
-                "Data Analytics and AI"
+                "Mentorship"
             ],
-            "complexity": "Intermediate"
+            "complexity": "Introductory and overview"
         },
         "146755": {
             "description": "We will walk through the architecture of how we used GCP in our Akin\u00ea Live Well Optimization platform.  Akin\u00ea Live is the platform we created to manage our IoT devices in the oil field.",
@@ -913,11 +928,11 @@
             ],
             "complexity": "Introductory and overview"
         },
-        "157996": {
-            "description": "A detailed walk through of why Anthos is important to you. ",
-            "title": "Drive Innovation: Reimagine Hybrid and Multi-Cloud Architecture with Anthos",
+        "148197": {
+            "description": "Having a solid network foundation for your compute and storage workloads is fundamental to allow you your solution to properly scale and grow, in this presentation we will explore some of the key concepts and common patterns that are used on GCP from small to large scale.",
+            "title": "GCP Network overview",
             "speakers": [
-                "Michael_Murphy"
+                "Fatima_Silveira"
             ],
             "icon": "",
             "videoID": "",
@@ -929,7 +944,7 @@
             "tags": [
                 "Infrastructure"
             ],
-            "complexity": "Advanced"
+            "complexity": "Introductory and overview"
         },
         "153631": {
             "description": "Flutter is taking the world by storm, enabling developers to write 90%+ of an app just once, then reuse that code to release to mobile, desktop and web.\r\n\r\nJoin us for Flutter 102, Layout Basics! Together we'll work through a customized workshop that was inspired by a layout tutorial designed by the Flutter team itself. When we're done, you know how easy it is to put together a great UI in Flutter!\r\n\r\nSo come get some hands-on experience with Flutter, and see how it can make your life a whole lot easier!\r\n\r\nPlease have Flutter installed and test that you can create a basic Flutter app before this workshop. We don't have enough time to walk people through installing Flutter and do the workshop too.",
@@ -967,11 +982,11 @@
             ],
             "complexity": "Introductory and overview"
         },
-        "146826": {
-            "description": "Some tips and ideas for helping new or stalled job-hunted based upon 30+ years of  experience",
-            "title": "Tips and Tricks for Finding Your Next Job",
+        "139721": {
+            "description": "The web is advancing at an alarming rate and browsers are providing new features giving web developers the ability to features to engage with mobile users. Using PWAs, web developers can provide \u201capp like\u201d experiences for their web apps without the need for a native (or hybrid) app.\r\n\r\nAs developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) are experiences that combine the best of the web and the best of mobile apps using new web standards, including service workers, push notifications, and homescreen access.\r\n\r\nIn this session, you\u2019ll learn the the fundamentals needed for building Progressive Web Apps, including the app shell model, how to use service workers to cache the App Shell and your key application data and more!",
+            "title": "What are Progressive Web Apps and How do they work?",
             "speakers": [
-                "Mike_Hoff"
+                "Kyle_Paul"
             ],
             "icon": "",
             "videoID": "",
@@ -981,28 +996,27 @@
             "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
-                "Mentorship"
+                "Code and Development"
             ],
             "complexity": "Introductory and overview"
         },
-        "147669": {
-            "description": "In depth presentation of deep learning models and concepts with a focus on real world applications. ",
-            "title": "Deep Learning Fellowship Presents An Introduction to Deep Learning",
+        "148133": {
+            "description": "Developer Student Clubs are all over the Globe now.\r\nWhat are they? What do they do? How can you get involved? ",
+            "title": "Developer Student Clubs",
             "speakers": [
-                "Ted_Edmonds",
-                "Boyang_Zhang"
+                "Kiley_Carson"
             ],
             "icon": "",
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
+            "roomId": 7454,
+            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
-                "Data Analytics and AI"
+                "Google Programs & Non-Technical"
             ],
-            "complexity": "Intermediate"
+            "complexity": "Introductory and overview"
         },
         "142551": {
             "description": "Build what\u2019s next together - whether you are a developer or not. Google Cloud has given business users and knowledge workers to build enterprise custom applications to simplify processes and solve business problems. G-Suite in particular has enabled these \u201cnon-coders\u201d to build powerful solutions in Sheets, Forms and App Maker. In this session, I will cover how easy it is to develop using G-Suite, how to integrate with Google Cloud Platform technologies such as AutoML, and how coders and non-coders can work together to develop solutions quicker and better.",
@@ -1041,6 +1055,44 @@
             ],
             "complexity": "Introductory and overview"
         },
+        "149086": {
+            "description": "Making banking work for people means evolving solutions to meet the demands of tomorrow. In this talk, we will discuss how Google Cloud Platform (GCP) can be used to find innovative ways in producing robust and cost-efficient real-time data processing and analysis. We will also illustrate how GCP can be leveraged to produce next gen banking analytic systems.",
+            "title": "Streaming Data Pipelines: Creating Next Gen Banking Analytics",
+            "speakers": [
+                "Gunjan_Kaur",
+                "Xueming_Zhao"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "roomId": 7453,
+            "room": "BMO Financial Group Community Room",
+            "language": "English",
+            "tags": [
+                "Data Analytics and AI"
+            ],
+            "complexity": "Intermediate"
+        },
+        "147669": {
+            "description": "In depth presentation of deep learning models and concepts with a focus on real world applications. ",
+            "title": "Deep Learning Fellowship Presents An Introduction to Deep Learning",
+            "speakers": [
+                "Ted_Edmonds",
+                "Boyang_Zhang"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "roomId": 7453,
+            "room": "BMO Financial Group Community Room",
+            "language": "English",
+            "tags": [
+                "Data Analytics and AI"
+            ],
+            "complexity": "Intermediate"
+        },
         "144896": {
             "description": "Khan Academy recently built a new real time data pipeline to track our students' learning time.  We use various Google Cloud products including GAE, Google Storage, BigQuery, Dataflow, StackDriver, and more.  Find out how we process thousands of learning events per second.",
             "title": "How Khan Academy Tracks Learning Time",
@@ -1059,11 +1111,11 @@
             ],
             "complexity": "Intermediate"
         },
-        "153627": {
-            "description": "A look at supporting technologies in a developers arsenal. All the things you didn't know you didn't know.",
-            "title": "To infinity and beyond! And back again. ",
+        "153633": {
+            "description": "This is a placeholder for SorftServe's people to join us. ",
+            "title": "Soft Serve # 1",
             "speakers": [
-                "Ben_Nakaska"
+                "Greg_Bennett"
             ],
             "icon": "",
             "videoID": "",
@@ -1073,9 +1125,9 @@
             "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
-                "Code and Development"
+                "Infrastructure"
             ],
-            "complexity": "Intermediate"
+            "complexity": "Introductory and overview"
         },
         "146638": {
             "description": "As a leader and non- developer, it can be challenging to work with and manage technical experts. This presentation will highlight some of the humorous quirks of working with developers, and some suggestions for non-devs on how to work closely with developers. It is possible for devs and non-devs to collaborate closely and have a little fun at the same time! ",
@@ -1168,11 +1220,11 @@
             ],
             "complexity": "Intermediate"
         },
-        "147581": {
-            "description": "New to microservices within the Enterprise? Come learn some of the core concepts around Microservices and how to start to decouple away from your Enterprise monolithic application.\r\n\r\nCore concepts of Enterprise Microservices include Designing Microservices, Service Communications, Data Management, Governance, Integrating Microservices  and the Service Mesh.",
-            "title": "Microservices at the Enterprise",
+        "153627": {
+            "description": "A look at supporting technologies in a developers arsenal. All the things you didn't know you didn't know.",
+            "title": "To infinity and beyond! And back again. ",
             "speakers": [
-                "Shaun_Mitchell"
+                "Ben_Nakaska"
             ],
             "icon": "",
             "videoID": "",
@@ -1182,9 +1234,9 @@
             "room": "Patricia A. Whelan Performance Hall",
             "language": "English",
             "tags": [
-                "Infrastructure"
+                "Code and Development"
             ],
-            "complexity": "Introductory and overview"
+            "complexity": "Intermediate"
         },
         "149562": {
             "description": "I have got recently certified as CKA and I would like to share my experience and tips for getting CKA certified ",
@@ -1258,11 +1310,11 @@
             ],
             "complexity": "Introductory and overview"
         },
-        "146840": {
-            "description": "Ever find an edge case that breaks a design? Missing a style guide and a designer? As a developer, sometimes you\u2019re left to design on the fly. In Your Experience is User Experience, learn tips and strategies on how to identify areas a design can be improved upon, how to come up with a functional and beautifully designed solution, and how to present it to your client.",
-            "title": "Your Experience is User Experience",
+        "147581": {
+            "description": "New to microservices within the Enterprise? Come learn some of the core concepts around Microservices and how to start to decouple away from your Enterprise monolithic application.\r\n\r\nCore concepts of Enterprise Microservices include Designing Microservices, Service Communications, Data Management, Governance, Integrating Microservices  and the Service Mesh.",
+            "title": "Microservices at the Enterprise",
             "speakers": [
-                "Charlie_Cheung"
+                "Shaun_Mitchell"
             ],
             "icon": "",
             "videoID": "",
@@ -1272,9 +1324,27 @@
             "room": "BMO Financial Group Community Room",
             "language": "English",
             "tags": [
-                "Google Programs & Non-Technical"
+                "Infrastructure"
             ],
             "complexity": "Introductory and overview"
+        },
+        "139724": {
+            "description": "Have you ever started building an application and quickly realized that a lot of back-end work is needed? Firebase is a platform that helps you quickly develop real-time apps, grow your user base, and earn more money. Firebase is made up of complementary features that you can mix-and-match to fit your needs without needing to know anything about servers! In this session, you\u2019ll see how using Firebase can help you quickly build out a real-time database with an authentication system that perfectly blends into a web application. With Firebase, we can build a complete application in half the time without any server side code involved.\r\n\r\nFirebase is many things and this talk will explore the tools available that it provides. I will cover a quick intro of all tools available, deeper dive into the Firebase real-time database & authentication setup, and finish up with a quick multiplayer quiz (built on Firebase).",
+            "title": "Serverless Applications with Firebase",
+            "speakers": [
+                "Kyle_Paul"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "roomId": 7452,
+            "room": "Patricia A. Whelan Performance Hall",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Intermediate"
         },
         "142401": {
             "description": "A sharing of my adventure in using Google App Maker to develop a complex workflow tool while starting out with no previous web app development experience",
@@ -1286,13 +1356,49 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
+            "roomId": 7454,
+            "room": "Central Library Room 0-13",
             "language": "English",
             "tags": [
                 "Code and Development"
             ],
             "complexity": "Introductory and overview"
+        },
+        "146849": {
+            "description": "Would like to briefly talk about Immediate Rent project and discuss what Code and DEV stack we are using.  ",
+            "title": "Immediate Rent",
+            "speakers": [
+                "Albert_Morozov"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "roomId": 7454,
+            "room": "Central Library Room 0-13",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Introductory and overview"
+        },
+        "148196": {
+            "description": "Have you ever wondered how you could deploy your webapp without having to worry about all that infrastructure stuff? Networks, firewall rules, etc\u2026? Then this talk is for you; We will explore how some of the products from GCP can be used to deploy your application with nearly no-ops and minimal infrastructure with great scaling and responsiveness to your application. \r\n",
+            "title": "Using GCP managed services to deploy your webapp",
+            "speakers": [
+                "Fatima_Silveira"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "roomId": 7454,
+            "room": "Central Library Room 0-13",
+            "language": "English",
+            "tags": [
+                "Code and Development"
+            ],
+            "complexity": "Intermediate"
         },
         "148187": {
             "description": "Google's Women Techmakers program provides visibility, community, and resources for women in technology. Learn more about what the initiatives are, what WTM can provide, and how you can get involved. ",
@@ -1309,24 +1415,6 @@
             "language": "English",
             "tags": [
                 "Google Programs & Non-Technical"
-            ],
-            "complexity": "Introductory and overview"
-        },
-        "146849": {
-            "description": "Would like to briefly talk about Immediate Rent project and discuss what Code and DEV stack we are using.  ",
-            "title": "Immediate Rent",
-            "speakers": [
-                "Albert_Morozov"
-            ],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7453,
-            "room": "BMO Financial Group Community Room",
-            "language": "English",
-            "tags": [
-                "Code and Development"
             ],
             "complexity": "Introductory and overview"
         },
@@ -1366,6 +1454,24 @@
             ],
             "complexity": "Introductory and overview"
         },
+        "146840": {
+            "description": "Ever find an edge case that breaks a design? Missing a style guide and a designer? As a developer, sometimes you\u2019re left to design on the fly. In Your Experience is User Experience, learn tips and strategies on how to identify areas a design can be improved upon, how to come up with a functional and beautifully designed solution, and how to present it to your client.",
+            "title": "Your Experience is User Experience",
+            "speakers": [
+                "Charlie_Cheung"
+            ],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "roomId": 7453,
+            "room": "BMO Financial Group Community Room",
+            "language": "English",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ],
+            "complexity": "Introductory and overview"
+        },
         "100": {
             "description": null,
             "title": "Doors + Registration Light Breakfast",
@@ -1381,8 +1487,8 @@
             ]
         },
         "200": {
-            "description": null,
-            "title": "Lunch",
+            "description": "Replace with Session once details are confirmed.",
+            "title": "Day 1 KeyNote",
             "speakers": [],
             "icon": "",
             "videoID": "",
@@ -1396,7 +1502,7 @@
         },
         "300": {
             "description": null,
-            "title": "Day 1 Wrap Up",
+            "title": "Lunch",
             "speakers": [],
             "icon": "",
             "videoID": "",
@@ -1410,6 +1516,34 @@
         },
         "400": {
             "description": null,
+            "title": "Day 1 Wrap Up",
+            "speakers": [],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "roomId": 7452,
+            "room": "Patricia A. Whelan Performance Hall",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ]
+        },
+        "500": {
+            "description": null,
+            "title": "Networking Event?",
+            "speakers": [],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "roomId": 7452,
+            "room": "Patricia A. Whelan Performance Hall",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ]
+        },
+        "600": {
+            "description": null,
             "title": "Lunch",
             "speakers": [],
             "icon": "",
@@ -1422,7 +1556,7 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "500": {
+        "700": {
             "description": "High quality, nutritious food.",
             "title": "Lunch",
             "speakers": [],
@@ -1436,7 +1570,7 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "600": {
+        "800": {
             "description": null,
             "title": "Lunch",
             "speakers": [],
@@ -1450,7 +1584,7 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "700": {
+        "900": {
             "description": "Get you spot for the keynote! Doors open at 8:00 AM",
             "title": "Doors Open + Light Breakfast",
             "speakers": [],
@@ -1464,7 +1598,7 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "800": {
+        "1000": {
             "description": null,
             "title": "Day 2 Welcome",
             "speakers": [],
@@ -1478,7 +1612,7 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "900": {
+        "1100": {
             "description": null,
             "title": "Lunch",
             "speakers": [],
@@ -1492,7 +1626,7 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "1000": {
+        "1200": {
             "description": "Closing Remarks, Thanks, Sponsors, Prizes",
             "title": "Closing Remarks",
             "speakers": [],
@@ -1506,7 +1640,7 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "1100": {
+        "1300": {
             "description": null,
             "title": "Group Photo",
             "speakers": [],
@@ -1520,7 +1654,7 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "1200": {
+        "1400": {
             "description": null,
             "title": "Clean Up and out",
             "speakers": [],
@@ -1534,7 +1668,21 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "1300": {
+        "1500": {
+            "description": null,
+            "title": "Dinner/Drinks",
+            "speakers": [],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "roomId": 7452,
+            "room": "Patricia A. Whelan Performance Hall",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ]
+        },
+        "1600": {
             "description": null,
             "title": "Lunch",
             "speakers": [],
@@ -1548,7 +1696,7 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "1400": {
+        "1700": {
             "description": null,
             "title": "Lunch",
             "speakers": [],
@@ -1562,21 +1710,7 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "1500": {
-            "description": null,
-            "title": "Qwiklabs",
-            "speakers": [],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 7454,
-            "room": "Central Library Room 0-13",
-            "tags": [
-                "Google Programs & Non-Technical"
-            ]
-        },
-        "1600": {
+        "1800": {
             "description": null,
             "title": "QwikLabs",
             "speakers": [],
@@ -1590,7 +1724,7 @@
                 "Google Programs & Non-Technical"
             ]
         },
-        "1700": {
+        "1900": {
             "description": null,
             "title": "Lunch",
             "speakers": [],
@@ -1614,7 +1748,7 @@
             "order": "1",
             "photo": "/images/people/aakanksha.parameshwar.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/aakanksha.parameshwar.png",
-            "featured": false,
+            "featured": true,
             "socials": [
                 {
                     "icon": "linkedin",
@@ -1632,7 +1766,7 @@
             "order": "2",
             "photo": "/images/people/adam.berkan.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/adam.berkan.png",
-            "featured": true,
+            "featured": false,
             "socials": [
                 {
                     "icon": "twitter",
@@ -1679,8 +1813,8 @@
         "arunima_kashyap": {
             "name": "arunima kashyap",
             "bio": "Senior UX Research Manager, Google Cloud Platform ",
-            "shortBio": "UX Expert. Google Manager Mentor. ",
-            "title": "UX Expert. Google Manager Mentor. ",
+            "shortBio": "Google ",
+            "title": "Google ",
             "order": "5",
             "photo": "/images/people/arunima.kashyap.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/arunima.kashyap.png",
@@ -1691,14 +1825,14 @@
         "Ben_Nakaska": {
             "name": "Ben Nakaska",
             "bio": null,
-            "shortBio": "Director Data Science, ATB Financial",
-            "title": "Director Data Science, ATB Financial",
+            "shortBio": null,
+            "title": null,
             "order": "6",
             "photo": "/images/people/ben.nakaska.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/ben.nakaska.png",
             "featured": false,
             "socials": [],
-            "company": "ATB Financial"
+            "company": ""
         },
         "Boyang_Zhang": {
             "name": "Boyang Zhang",
@@ -1768,12 +1902,30 @@
             ],
             "company": "ATB Financial"
         },
+        "Fatima_Silveira": {
+            "name": "Fatima Silveira",
+            "bio": "Fatima has extensive experience in application development and solution architecture. She is passionate about all things computer (and cats)!",
+            "shortBio": "Networking + Technical Solutions Architect @ Google Cloud",
+            "title": "Networking + Technical Solutions Architect @ Google Cloud",
+            "order": "11",
+            "photo": "/images/people/fatima.silveira.png",
+            "photoUrl": "https://www.devfestyyc.com/images/people/fatima.silveira.png",
+            "featured": true,
+            "socials": [
+                {
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/fatimasilv",
+                    "name": "LinkedIn"
+                }
+            ],
+            "company": ""
+        },
         "Greg_Bennett": {
             "name": "Greg Bennett",
             "bio": "Greg transforms complex enterprises and builds world-class developer communities. He founded AIRIA.CLOUD and GDGYYC and leads cloud migration, ML and IoT projects in partnership with Google Cloud. He\u2019s a sought after international speaker and facilitator. \r\n\r\n You can catch him at gregbennett.io or skateboarding to his next meeting.",
             "shortBio": "Founder @ GDGYYC, President @ AIRIA Cloud",
             "title": "Founder @ GDGYYC, President @ AIRIA Cloud",
-            "order": "11",
+            "order": "12",
             "photo": "/images/people/greg.bennett.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/greg.bennett.png",
             "featured": false,
@@ -1792,12 +1944,12 @@
             ],
             "company": "AIRIA Cloud"
         },
-        "GUNJAN_KAUR": {
-            "name": "GUNJAN KAUR",
+        "Gunjan_Kaur": {
+            "name": "Gunjan Kaur",
             "bio": "Gunjan received her masters degree in Economics and Finance from the University of Alberta. After stints in social market research and FX modelling, she ventured into risk management practice at ATB. Curious about applying her machine learning skills in industry, she later joined the Artificial Intelligence guild at ATB. She led the Real Time Triggers University of Alberta-ATB AI Lab focused on utilizing cutting edge Internet of Things (IOT) methodologies to effectively and efficiently analyze ATB data streams in real time. She also participated in specialized programs at Google and Fintech research at the University of Oxford. In her most recent role, she is leading experimentation analytics for a strategic initiative aimed at increasing customer engagement. She is passionate about data wizardry and problem solving expertise to big data challenges in the financial realm, helping transform ATB to make banking work for Albertans.   \r\n",
-            "shortBio": "Director of Analytics",
-            "title": "Director of Analytics",
-            "order": "12",
+            "shortBio": "Director of Analytics, ATB Financial ",
+            "title": "Director of Analytics, ATB Financial ",
+            "order": "13",
             "photo": "/images/people/gunjan.kaur.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/gunjan.kaur.png",
             "featured": false,
@@ -1816,10 +1968,10 @@
             "bio": "In the last 12 months, both Sam Barbeau and Hans Hegge have spoken about migration in 12 cities across the US as well as in London and Paris. We are asked to talk on migrations by large consulting partners, end customers, as well by the cloud providers.  Our backgrounds in technology expand from startups in mobile to corporating training of enterprise teams. We like to keep our session interactive and open for dialog.  ",
             "shortBio": "Flexera Channel Account Manager",
             "title": "Flexera Channel Account Manager",
-            "order": "13",
+            "order": "14",
             "photo": "/images/people/hans.hegge.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/hans.hegge.png",
-            "featured": true,
+            "featured": false,
             "socials": [
                 {
                     "icon": "linkedin",
@@ -1836,7 +1988,7 @@
             "bio": "Cloud Architect",
             "shortBio": "Learn Kubernetes",
             "title": "Learn Kubernetes",
-            "order": "14",
+            "order": "15",
             "photo": "/images/people/jay.krish.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/jay.krish.png",
             "featured": true,
@@ -1848,10 +2000,10 @@
             "bio": "I have been in the startup space for the past 7 years but have been building web and mobile apps for the past 18+ years.  \r\nCurrent startups include Akin\u00ea Inc. and Offcourse Golf.  Although GCP is a fairly new to me, I'm working to use all the right building blocks to architect scalable solutions.",
             "shortBio": "Akin\u00ea Inc.",
             "title": "Akin\u00ea Inc.",
-            "order": "15",
+            "order": "16",
             "photo": "/images/people/josh.fafard.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/josh.fafard.png",
-            "featured": false,
+            "featured": true,
             "socials": [
                 {
                     "icon": "linkedin",
@@ -1867,10 +2019,10 @@
             "bio": "In a few short years at ATB, Katie Murray has already worked in several different roles in the company; from \u201creal\u201d banking, to assisting with the company\u2019s transition to Google, and now working in AI and process automation. She leads a squad of developers, automation analysts, and data scientists and collaborates with business stakeholders and executives alike to deliver happiness daily. In her free time, Katie runs a small wedding planning business, loves DIY home improvement projects, and hangs out with her dog Louis Litt. ",
             "shortBio": "Senior Manager, Intelligent Process Automation (ATB Financial)",
             "title": "Senior Manager, Intelligent Process Automation (ATB Financial)",
-            "order": "16",
+            "order": "17",
             "photo": "/images/people/katie.murray.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/katie.murray.png",
-            "featured": false,
+            "featured": true,
             "socials": [
                 {
                     "icon": "linkedin",
@@ -1886,7 +2038,7 @@
             "bio": "Kay is strong and certified Google Cloud Trainer/Educator and a G Suite Deployment Specialist. Owing to his strong ability to integrate Technology with Business, he drives businesses by engaging clients and helping them achieve bottom line results. He also has an interest for Google Cloud platform and one of his areas of interest is the Google Maps. He is the convener of the Local Guide Community in Calgary.",
             "shortBio": "Cloud Evangelist | Technology Enthusiast | Management Consultant ",
             "title": "Cloud Evangelist | Technology Enthusiast | Management Consultant ",
-            "order": "17",
+            "order": "18",
             "photo": "/images/people/kayode.otegbeye.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/kayode.otegbeye.png",
             "featured": false,
@@ -1904,7 +2056,7 @@
             "bio": "Kiley is a versatile University of Calgary student volunteering within many of the Programs offered by Google. She is currently establishing the Developer Student Club at the University of Calgary, with the primary goal to enrich students academic experience through information sessions, hands-on workshops and student-community collaborative projects.",
             "shortBio": "WTM Lead, GDGYYC Co-Organizer, DSC Lead UofC Chapter",
             "title": "WTM Lead, GDGYYC Co-Organizer, DSC Lead UofC Chapter",
-            "order": "18",
+            "order": "19",
             "photo": "/images/people/kiley.carson.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/kiley.carson.png",
             "featured": true,
@@ -1920,14 +2072,14 @@
                     "name": "LinkedIn"
                 }
             ],
-            "company": "Women Techmakers"
+            "company": ""
         },
         "Kyle_Paul": {
             "name": "Kyle Paul",
             "bio": "Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).",
-            "shortBio": "North America Regional Lead @ Google Developer Relations",
-            "title": "North America Regional Lead @ Google Developer Relations",
-            "order": "19",
+            "shortBio": "North America Regional Lead @ Google",
+            "title": "North America Regional Lead @ Google",
+            "order": "20",
             "photo": "/images/people/kyle.paul.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/kyle.paul.png",
             "featured": true,
@@ -1951,7 +2103,7 @@
             "bio": "For the past 11 years, Lucas has held various management and leadership roles at technology companies. Currently, Lucas is the Managing Director of AltaML in Calgary, an Alberta-based artificial intelligence and machine learning solutions provider. \r\n\r\nAltaML builds transformational software applications for business, powered by machine learning. AltaML partners with organizations using a co-development model where we can provide technical and strategic expertise on how to leverage their data with AI/ML technologies with a specific focus on healthcare. \r\n",
             "shortBio": "Lucas is the Managing Director at AltaML in Calgary",
             "title": "Lucas is the Managing Director at AltaML in Calgary",
-            "order": "20",
+            "order": "21",
             "photo": "/images/people/lucas.scheer.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/lucas.scheer.png",
             "featured": true,
@@ -1959,30 +2111,6 @@
                 {}
             ],
             "company": "AltaML"
-        },
-        "Michael_Murphy": {
-            "name": "Michael Murphy",
-            "bio": "Details incoming",
-            "shortBio": "Used to be googley now I like Ice Cream.  Solution Architect operating in a cloud world",
-            "title": "Used to be googley now I like Ice Cream.  Solution Architect operating in a cloud world",
-            "order": "21",
-            "photo": "/images/people/michael.murphy.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/michael.murphy.png",
-            "featured": true,
-            "socials": [
-                {
-                    "icon": "twitter",
-                    "link": "https://twitter.com/thweetch",
-                    "name": "Twitter"
-                },
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/michael-murphy-1a409021/",
-                    "name": "LinkedIn"
-                },
-                {}
-            ],
-            "company": "SoftServe"
         },
         "Mike_Hoff": {
             "name": "Mike Hoff",
@@ -2029,7 +2157,7 @@
             "order": "24",
             "photo": "/images/people/neel.kirit.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/neel.kirit.png",
-            "featured": true,
+            "featured": false,
             "socials": [
                 {
                     "icon": "twitter",
@@ -2047,9 +2175,9 @@
         },
         "Ryker_Rumsey": {
             "name": "Ryker Rumsey",
-            "bio": "Adept at designing digital solutions using the latest technology. Self-starter that requires little to no supervision on important tasks. Great team player that is eager to mentor and willing to ask questions. Extremely persistent while working through tough problems to meet strict deadlines. ",
-            "shortBio": "Develop. Cloud. Backend. ",
-            "title": "Develop. Cloud. Backend. ",
+            "bio": "I am robot.",
+            "shortBio": "Peon @ Spawnd Corporation",
+            "title": "Peon @ Spawnd Corporation",
             "order": "25",
             "photo": "/images/people/ryker.rumsey.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/ryker.rumsey.png",
@@ -2123,9 +2251,9 @@
             "order": "29",
             "photo": "/images/people/suni.mathews.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/suni.mathews.png",
-            "featured": false,
+            "featured": true,
             "socials": [],
-            "company": "ATB Financial"
+            "company": "ATB Financials"
         },
         "Suryatapa_Roy": {
             "name": "Suryatapa Roy",
@@ -2172,40 +2300,15 @@
             ],
             "company": ""
         },
-        "Wellington_Holbrook": {
-            "name": "Wellington Holbrook",
-            "bio": "ATB\u2019s chief transformation officer, Wellington Holbrook, has a big mandate: to reimagine the future of banking and make sure that customers are at the centre of everything ATB does. In order to achieve this, Wellington has set ATB on a rapid course of digital transformation which has attracted an allstar team of technology and innovation leaders. Since beginning this process in September 2016 ATB has been recognized as an emerging tech leader in financial services by global giants like Google and IBM. Wellington has spent almost 25 years making banking work for people with his goal to make a positive impact on the world.\r\n",
-            "shortBio": "Chief Transformation Officer- ATB Financial",
-            "title": "Chief Transformation Officer- ATB Financial",
-            "order": "33",
-            "photo": "/images/people/wellington.holbrook.png",
-            "photoUrl": "https://www.devfestyyc.com/images/people/wellington.holbrook.png",
-            "featured": true,
-            "socials": [
-                {
-                    "icon": "twitter",
-                    "link": "https://twitter.com/Wellington_ATB",
-                    "name": "Twitter"
-                },
-                {},
-                {
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/wellingtonholbrook",
-                    "name": "LinkedIn"
-                },
-                {}
-            ],
-            "company": ""
-        },
         "Xueming_Zhao": {
             "name": "Xueming Zhao",
             "bio": "Xueming grew up in Edmonton and joined ATB in 2005 as a Treasury Modeling Analyst. In 2011, she took an opportunity with a software company as a consultant for treasury and risk system implementation for banks in the US and China. She rejoined ATB in 2013 in treasury and is currently in the role of Managing Director, Balance Sheet Management. With the support of her team, she manages funds transfer pricing, interest rate risk, and net interest margin. Currently, she is attending the Executive MBA program at Oxford Said Business School.",
             "shortBio": "ATB Financial, Managing Director, Balance Sheet Management, Treasury",
             "title": "ATB Financial, Managing Director, Balance Sheet Management, Treasury",
-            "order": "34",
+            "order": "33",
             "photo": "/images/people/xueming.zhao.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/xueming.zhao.png",
-            "featured": true,
+            "featured": false,
             "socials": [],
             "company": "ATB Financial"
         }

@@ -20,15 +20,65 @@
                         "room": "Patricia A. Whelan Performance Hall"
                     },
                     {
-                        "id": "cda31585-027b-41aa-a883-321914e96d05",
-                        "title": "Day 1 KeyNote",
-                        "description": "Replace with Session once details are confirmed.",
+                        "id": "158366",
+                        "title": "Transform Banking with Google",
+                        "description": "Wellington Holbrook is leading ATB Financial through an intense three year business transformation with a big mandate, to reimagine banking and make it work for people. Keeping the customer at the center of every decision, Wellington will share his roadmap for this transformation success, which started with transitioning to GSuite and now include the full suite of powerful Google Cloud Platform products. ",
                         "startsAt": "2019-11-22T09:00:00",
                         "endsAt": "2019-11-22T10:00:00",
-                        "isServiceSession": true,
+                        "isServiceSession": false,
                         "isPlenumSession": true,
-                        "speakers": [],
-                        "categories": [],
+                        "speakers": [
+                            {
+                                "id": "86fb396d-cbb0-44b6-a4b6-995042fd90dc",
+                                "name": "Wellington Holbrook"
+                            }
+                        ],
+                        "categories": [
+                            {
+                                "id": 15384,
+                                "name": "Language",
+                                "categoryItems": [
+                                    {
+                                        "id": 22085,
+                                        "name": "English"
+                                    }
+                                ],
+                                "sort": 3
+                            },
+                            {
+                                "id": 15572,
+                                "name": "Session format",
+                                "categoryItems": [
+                                    {
+                                        "id": 30636,
+                                        "name": "Keynote (45 mins)"
+                                    }
+                                ],
+                                "sort": 0
+                            },
+                            {
+                                "id": 15573,
+                                "name": "Track",
+                                "categoryItems": [
+                                    {
+                                        "id": 30638,
+                                        "name": "Keynote"
+                                    }
+                                ],
+                                "sort": 1
+                            },
+                            {
+                                "id": 15574,
+                                "name": "Level",
+                                "categoryItems": [
+                                    {
+                                        "id": 22868,
+                                        "name": "Introductory and overview"
+                                    }
+                                ],
+                                "sort": 2
+                            }
+                        ],
                         "roomId": 7452,
                         "room": "Patricia A. Whelan Performance Hall"
                     },
@@ -176,17 +226,17 @@
                         "room": "Patricia A. Whelan Performance Hall"
                     },
                     {
-                        "id": "148197",
-                        "title": "GCP Network overview",
-                        "description": "Having a solid network foundation for your compute and storage workloads is fundamental to allow you your solution to properly scale and grow, in this presentation we will explore some of the key concepts and common patterns that are used on GCP from small to large scale.",
+                        "id": "157996",
+                        "title": "Drive Innovation: Reimagine Hybrid and Multi-Cloud Architecture with Anthos",
+                        "description": "A detailed walk through of why Anthos is important to you. ",
                         "startsAt": "2019-11-22T13:00:00",
-                        "endsAt": "2019-11-22T13:50:00",
+                        "endsAt": "2019-11-22T13:45:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
                             {
-                                "id": "59d47672-c376-43a5-a1e2-0ae565661396",
-                                "name": "Fatima Silveira"
+                                "id": "70a54dce-8cb0-4a6d-b3ba-db930e784a30",
+                                "name": "Michael Murphy"
                             }
                         ],
                         "categories": [
@@ -206,8 +256,8 @@
                                 "name": "Session format",
                                 "categoryItems": [
                                     {
-                                        "id": 22860,
-                                        "name": "Workshop (60 mins)"
+                                        "id": 22859,
+                                        "name": "Launchpad Talk (30-40 mins)"
                                     }
                                 ],
                                 "sort": 0
@@ -228,8 +278,8 @@
                                 "name": "Level",
                                 "categoryItems": [
                                     {
-                                        "id": 22868,
-                                        "name": "Introductory and overview"
+                                        "id": 22870,
+                                        "name": "Advanced"
                                     }
                                 ],
                                 "sort": 2
@@ -306,17 +356,17 @@
                         "room": "Patricia A. Whelan Performance Hall"
                     },
                     {
-                        "id": "153633",
-                        "title": "Soft Serve # 1",
-                        "description": "This is a placeholder for SorftServe's people to join us. ",
+                        "id": "153627",
+                        "title": "To infinity and beyond! And back again. ",
+                        "description": "A look at supporting technologies in a developers arsenal. All the things you didn't know you didn't know.",
                         "startsAt": "2019-11-22T15:00:00",
-                        "endsAt": "2019-11-22T15:50:00",
+                        "endsAt": "2019-11-22T15:40:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
                             {
-                                "id": "0dc29185-4958-4c6a-9ac0-a996a7be6106",
-                                "name": "Greg Bennett"
+                                "id": "414f8531-163d-4c25-9f02-acaca51c7e08",
+                                "name": "Ben Nakaska"
                             }
                         ],
                         "categories": [
@@ -336,8 +386,8 @@
                                 "name": "Session format",
                                 "categoryItems": [
                                     {
-                                        "id": 22860,
-                                        "name": "Workshop (60 mins)"
+                                        "id": 22859,
+                                        "name": "Launchpad Talk (30-40 mins)"
                                     }
                                 ],
                                 "sort": 0
@@ -347,8 +397,8 @@
                                 "name": "Track",
                                 "categoryItems": [
                                     {
-                                        "id": 22864,
-                                        "name": "Infrastructure"
+                                        "id": 22866,
+                                        "name": "Code and Development"
                                     }
                                 ],
                                 "sort": 1
@@ -358,8 +408,8 @@
                                 "name": "Level",
                                 "categoryItems": [
                                     {
-                                        "id": 22868,
-                                        "name": "Introductory and overview"
+                                        "id": 22869,
+                                        "name": "Intermediate"
                                     }
                                 ],
                                 "sort": 2
@@ -376,19 +426,6 @@
                         "endsAt": "2019-11-22T16:15:00",
                         "isServiceSession": true,
                         "isPlenumSession": false,
-                        "speakers": [],
-                        "categories": [],
-                        "roomId": 7452,
-                        "room": "Patricia A. Whelan Performance Hall"
-                    },
-                    {
-                        "id": "70fe7b41-7743-47aa-85fb-cf40d886c76f",
-                        "title": "Networking Event?",
-                        "description": null,
-                        "startsAt": "2019-11-22T16:15:00",
-                        "endsAt": "2019-11-22T18:15:00",
-                        "isServiceSession": true,
-                        "isPlenumSession": true,
                         "speakers": [],
                         "categories": [],
                         "roomId": 7452,
@@ -468,8 +505,8 @@
                         "id": "153628",
                         "title": "Google for Startups: Launch with Google",
                         "description": "Learn how Google Cloud for Startups can help you launch.",
-                        "startsAt": "2019-11-22T11:00:00",
-                        "endsAt": "2019-11-22T11:15:00",
+                        "startsAt": "2019-11-22T10:45:00",
+                        "endsAt": "2019-11-22T11:00:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
@@ -519,6 +556,73 @@
                                     {
                                         "id": 22868,
                                         "name": "Introductory and overview"
+                                    }
+                                ],
+                                "sort": 2
+                            }
+                        ],
+                        "roomId": 7453,
+                        "room": "BMO Financial Group Community Room"
+                    },
+                    {
+                        "id": "149086",
+                        "title": "Streaming Data Pipelines: Creating Next Gen Banking Analytics",
+                        "description": "Making banking work for people means evolving solutions to meet the demands of tomorrow. In this talk, we will discuss how Google Cloud Platform (GCP) can be used to find innovative ways in producing robust and cost-efficient real-time data processing and analysis. We will also illustrate how GCP can be leveraged to produce next gen banking analytic systems.",
+                        "startsAt": "2019-11-22T11:05:00",
+                        "endsAt": "2019-11-22T11:20:00",
+                        "isServiceSession": false,
+                        "isPlenumSession": false,
+                        "speakers": [
+                            {
+                                "id": "aabd8190-53a9-420f-9abe-e448479496fa",
+                                "name": "GUNJAN KAUR"
+                            },
+                            {
+                                "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",
+                                "name": "Xueming Zhao"
+                            }
+                        ],
+                        "categories": [
+                            {
+                                "id": 15384,
+                                "name": "Language",
+                                "categoryItems": [
+                                    {
+                                        "id": 22085,
+                                        "name": "English"
+                                    }
+                                ],
+                                "sort": 3
+                            },
+                            {
+                                "id": 15572,
+                                "name": "Session format",
+                                "categoryItems": [
+                                    {
+                                        "id": 22859,
+                                        "name": "Launchpad Talk (30-40 mins)"
+                                    }
+                                ],
+                                "sort": 0
+                            },
+                            {
+                                "id": 15573,
+                                "name": "Track",
+                                "categoryItems": [
+                                    {
+                                        "id": 22865,
+                                        "name": "Data Analytics and AI"
+                                    }
+                                ],
+                                "sort": 1
+                            },
+                            {
+                                "id": 15574,
+                                "name": "Level",
+                                "categoryItems": [
+                                    {
+                                        "id": 22869,
+                                        "name": "Intermediate"
                                     }
                                 ],
                                 "sort": 2
@@ -667,78 +771,11 @@
                         "room": "BMO Financial Group Community Room"
                     },
                     {
-                        "id": "149086",
-                        "title": "Streaming Data Pipelines: Creating Next Gen Banking Analytics",
-                        "description": "Making banking work for people means evolving solutions to meet the demands of tomorrow. In this talk, we will discuss how Google Cloud Platform (GCP) can be used to find innovative ways in producing robust and cost-efficient real-time data processing and analysis. We will also illustrate how GCP can be leveraged to produce next gen banking analytic systems.",
-                        "startsAt": "2019-11-22T14:00:00",
-                        "endsAt": "2019-11-22T14:15:00",
-                        "isServiceSession": false,
-                        "isPlenumSession": false,
-                        "speakers": [
-                            {
-                                "id": "aabd8190-53a9-420f-9abe-e448479496fa",
-                                "name": "Gunjan Kaur"
-                            },
-                            {
-                                "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",
-                                "name": "Xueming Zhao"
-                            }
-                        ],
-                        "categories": [
-                            {
-                                "id": 15384,
-                                "name": "Language",
-                                "categoryItems": [
-                                    {
-                                        "id": 22085,
-                                        "name": "English"
-                                    }
-                                ],
-                                "sort": 3
-                            },
-                            {
-                                "id": 15572,
-                                "name": "Session format",
-                                "categoryItems": [
-                                    {
-                                        "id": 22859,
-                                        "name": "Launchpad Talk (30-40 mins)"
-                                    }
-                                ],
-                                "sort": 0
-                            },
-                            {
-                                "id": 15573,
-                                "name": "Track",
-                                "categoryItems": [
-                                    {
-                                        "id": 22865,
-                                        "name": "Data Analytics and AI"
-                                    }
-                                ],
-                                "sort": 1
-                            },
-                            {
-                                "id": 15574,
-                                "name": "Level",
-                                "categoryItems": [
-                                    {
-                                        "id": 22869,
-                                        "name": "Intermediate"
-                                    }
-                                ],
-                                "sort": 2
-                            }
-                        ],
-                        "roomId": 7453,
-                        "room": "BMO Financial Group Community Room"
-                    },
-                    {
                         "id": "147669",
                         "title": "Deep Learning Fellowship Presents An Introduction to Deep Learning",
                         "description": "In depth presentation of deep learning models and concepts with a focus on real world applications. ",
-                        "startsAt": "2019-11-22T14:30:00",
-                        "endsAt": "2019-11-22T15:30:00",
+                        "startsAt": "2019-11-22T14:00:00",
+                        "endsAt": "2019-11-22T15:00:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
@@ -934,17 +971,17 @@
                         "room": "Central Library Room 0-13"
                     },
                     {
-                        "id": "146826",
-                        "title": "Tips and Tricks for Finding Your Next Job",
-                        "description": "Some tips and ideas for helping new or stalled job-hunted based upon 30+ years of  experience",
+                        "id": "148133",
+                        "title": "Developer Student Clubs",
+                        "description": "Developer Student Clubs are all over the Globe now.\r\nWhat are they? What do they do? How can you get involved? ",
                         "startsAt": "2019-11-22T11:00:00",
                         "endsAt": "2019-11-22T11:15:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
                             {
-                                "id": "43c5edcb-a11a-49cd-bb46-e5663e884924",
-                                "name": "Mike Hoff"
+                                "id": "a66f4031-d503-4e83-855d-3985a046f40b",
+                                "name": "Kiley Carson"
                             }
                         ],
                         "categories": [
@@ -964,8 +1001,8 @@
                                 "name": "Session format",
                                 "categoryItems": [
                                     {
-                                        "id": 22859,
-                                        "name": "Launchpad Talk (30-40 mins)"
+                                        "id": 22858,
+                                        "name": "Igniter Talk (10-15 mins)"
                                     }
                                 ],
                                 "sort": 0
@@ -975,8 +1012,8 @@
                                 "name": "Track",
                                 "categoryItems": [
                                     {
-                                        "id": 25339,
-                                        "name": "Mentorship"
+                                        "id": 22867,
+                                        "name": "Google Programs & Non-Technical"
                                     }
                                 ],
                                 "sort": 1
@@ -1073,17 +1110,17 @@
                         "room": "Central Library Room 0-13"
                     },
                     {
-                        "id": "139721",
-                        "title": "What are Progressive Web Apps and How do they work?",
-                        "description": "The web is advancing at an alarming rate and browsers are providing new features giving web developers the ability to features to engage with mobile users. Using PWAs, web developers can provide \u201capp like\u201d experiences for their web apps without the need for a native (or hybrid) app.\r\n\r\nAs developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) are experiences that combine the best of the web and the best of mobile apps using new web standards, including service workers, push notifications, and homescreen access.\r\n\r\nIn this session, you\u2019ll learn the the fundamentals needed for building Progressive Web Apps, including the app shell model, how to use service workers to cache the App Shell and your key application data and more!",
+                        "id": "146826",
+                        "title": "Tips and Tricks for Finding Your Next Job",
+                        "description": "Some tips and ideas for helping new or stalled job-hunted based upon 30+ years of  experience",
                         "startsAt": "2019-11-22T13:00:00",
                         "endsAt": "2019-11-22T13:40:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
                             {
-                                "id": "db76fa0e-032e-4a48-9f0c-e73b1318242b",
-                                "name": "Kyle Paul"
+                                "id": "43c5edcb-a11a-49cd-bb46-e5663e884924",
+                                "name": "Mike Hoff"
                             }
                         ],
                         "categories": [
@@ -1114,71 +1151,8 @@
                                 "name": "Track",
                                 "categoryItems": [
                                     {
-                                        "id": 22866,
-                                        "name": "Code and Development"
-                                    }
-                                ],
-                                "sort": 1
-                            },
-                            {
-                                "id": 15574,
-                                "name": "Level",
-                                "categoryItems": [
-                                    {
-                                        "id": 22868,
-                                        "name": "Introductory and overview"
-                                    }
-                                ],
-                                "sort": 2
-                            }
-                        ],
-                        "roomId": 7454,
-                        "room": "Central Library Room 0-13"
-                    },
-                    {
-                        "id": "148133",
-                        "title": "Developer Student Clubs",
-                        "description": "Developer Student Clubs are all over the Globe now.\r\nWhat are they? What do they do? How can you get involved? ",
-                        "startsAt": "2019-11-22T13:45:00",
-                        "endsAt": "2019-11-22T14:00:00",
-                        "isServiceSession": false,
-                        "isPlenumSession": false,
-                        "speakers": [
-                            {
-                                "id": "a66f4031-d503-4e83-855d-3985a046f40b",
-                                "name": "Kiley Carson"
-                            }
-                        ],
-                        "categories": [
-                            {
-                                "id": 15384,
-                                "name": "Language",
-                                "categoryItems": [
-                                    {
-                                        "id": 22085,
-                                        "name": "English"
-                                    }
-                                ],
-                                "sort": 3
-                            },
-                            {
-                                "id": 15572,
-                                "name": "Session format",
-                                "categoryItems": [
-                                    {
-                                        "id": 22858,
-                                        "name": "Igniter Talk (10-15 mins)"
-                                    }
-                                ],
-                                "sort": 0
-                            },
-                            {
-                                "id": 15573,
-                                "name": "Track",
-                                "categoryItems": [
-                                    {
-                                        "id": 22867,
-                                        "name": "Google Programs & Non-Technical"
+                                        "id": 25339,
+                                        "name": "Mentorship"
                                     }
                                 ],
                                 "sort": 1
@@ -1505,15 +1479,65 @@
                         "id": 7452,
                         "name": "Patricia A. Whelan Performance Hall",
                         "session": {
-                            "id": "cda31585-027b-41aa-a883-321914e96d05",
-                            "title": "Day 1 KeyNote",
-                            "description": "Replace with Session once details are confirmed.",
+                            "id": "158366",
+                            "title": "Transform Banking with Google",
+                            "description": "Wellington Holbrook is leading ATB Financial through an intense three year business transformation with a big mandate, to reimagine banking and make it work for people. Keeping the customer at the center of every decision, Wellington will share his roadmap for this transformation success, which started with transitioning to GSuite and now include the full suite of powerful Google Cloud Platform products. ",
                             "startsAt": "2019-11-22T09:00:00",
                             "endsAt": "2019-11-22T10:00:00",
-                            "isServiceSession": true,
+                            "isServiceSession": false,
                             "isPlenumSession": true,
-                            "speakers": [],
-                            "categories": [],
+                            "speakers": [
+                                {
+                                    "id": "86fb396d-cbb0-44b6-a4b6-995042fd90dc",
+                                    "name": "Wellington Holbrook"
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "id": 15384,
+                                    "name": "Language",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22085,
+                                            "name": "English"
+                                        }
+                                    ],
+                                    "sort": 3
+                                },
+                                {
+                                    "id": 15572,
+                                    "name": "Session format",
+                                    "categoryItems": [
+                                        {
+                                            "id": 30636,
+                                            "name": "Keynote (45 mins)"
+                                        }
+                                    ],
+                                    "sort": 0
+                                },
+                                {
+                                    "id": 15573,
+                                    "name": "Track",
+                                    "categoryItems": [
+                                        {
+                                            "id": 30638,
+                                            "name": "Keynote"
+                                        }
+                                    ],
+                                    "sort": 1
+                                },
+                                {
+                                    "id": 15574,
+                                    "name": "Level",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22868,
+                                            "name": "Introductory and overview"
+                                        }
+                                    ],
+                                    "sort": 2
+                                }
+                            ],
                             "roomId": 7452,
                             "room": "Patricia A. Whelan Performance Hall"
                         },
@@ -1876,6 +1900,79 @@
                 ]
             },
             {
+                "slotStart": "10:45:00",
+                "rooms": [
+                    {
+                        "id": 7453,
+                        "name": "BMO Financial Group Community Room",
+                        "session": {
+                            "id": "153628",
+                            "title": "Google for Startups: Launch with Google",
+                            "description": "Learn how Google Cloud for Startups can help you launch.",
+                            "startsAt": "2019-11-22T10:45:00",
+                            "endsAt": "2019-11-22T11:00:00",
+                            "isServiceSession": false,
+                            "isPlenumSession": false,
+                            "speakers": [
+                                {
+                                    "id": "0dc29185-4958-4c6a-9ac0-a996a7be6106",
+                                    "name": "Greg Bennett"
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "id": 15384,
+                                    "name": "Language",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22085,
+                                            "name": "English"
+                                        }
+                                    ],
+                                    "sort": 3
+                                },
+                                {
+                                    "id": 15572,
+                                    "name": "Session format",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22858,
+                                            "name": "Igniter Talk (10-15 mins)"
+                                        }
+                                    ],
+                                    "sort": 0
+                                },
+                                {
+                                    "id": 15573,
+                                    "name": "Track",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22867,
+                                            "name": "Google Programs & Non-Technical"
+                                        }
+                                    ],
+                                    "sort": 1
+                                },
+                                {
+                                    "id": 15574,
+                                    "name": "Level",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22868,
+                                            "name": "Introductory and overview"
+                                        }
+                                    ],
+                                    "sort": 2
+                                }
+                            ],
+                            "roomId": 7453,
+                            "room": "BMO Financial Group Community Room"
+                        },
+                        "index": 1
+                    }
+                ]
+            },
+            {
                 "slotStart": "11:00:00",
                 "rooms": [
                     {
@@ -1947,20 +2044,20 @@
                         "index": 0
                     },
                     {
-                        "id": 7453,
-                        "name": "BMO Financial Group Community Room",
+                        "id": 7454,
+                        "name": "Central Library Room 0-13",
                         "session": {
-                            "id": "153628",
-                            "title": "Google for Startups: Launch with Google",
-                            "description": "Learn how Google Cloud for Startups can help you launch.",
+                            "id": "148133",
+                            "title": "Developer Student Clubs",
+                            "description": "Developer Student Clubs are all over the Globe now.\r\nWhat are they? What do they do? How can you get involved? ",
                             "startsAt": "2019-11-22T11:00:00",
                             "endsAt": "2019-11-22T11:15:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
                                 {
-                                    "id": "0dc29185-4958-4c6a-9ac0-a996a7be6106",
-                                    "name": "Greg Bennett"
+                                    "id": "a66f4031-d503-4e83-855d-3985a046f40b",
+                                    "name": "Kiley Carson"
                                 }
                             ],
                             "categories": [
@@ -2009,26 +2106,35 @@
                                     "sort": 2
                                 }
                             ],
-                            "roomId": 7453,
-                            "room": "BMO Financial Group Community Room"
+                            "roomId": 7454,
+                            "room": "Central Library Room 0-13"
                         },
-                        "index": 1
-                    },
+                        "index": 2
+                    }
+                ]
+            },
+            {
+                "slotStart": "11:05:00",
+                "rooms": [
                     {
-                        "id": 7454,
-                        "name": "Central Library Room 0-13",
+                        "id": 7453,
+                        "name": "BMO Financial Group Community Room",
                         "session": {
-                            "id": "146826",
-                            "title": "Tips and Tricks for Finding Your Next Job",
-                            "description": "Some tips and ideas for helping new or stalled job-hunted based upon 30+ years of  experience",
-                            "startsAt": "2019-11-22T11:00:00",
-                            "endsAt": "2019-11-22T11:15:00",
+                            "id": "149086",
+                            "title": "Streaming Data Pipelines: Creating Next Gen Banking Analytics",
+                            "description": "Making banking work for people means evolving solutions to meet the demands of tomorrow. In this talk, we will discuss how Google Cloud Platform (GCP) can be used to find innovative ways in producing robust and cost-efficient real-time data processing and analysis. We will also illustrate how GCP can be leveraged to produce next gen banking analytic systems.",
+                            "startsAt": "2019-11-22T11:05:00",
+                            "endsAt": "2019-11-22T11:20:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
                                 {
-                                    "id": "43c5edcb-a11a-49cd-bb46-e5663e884924",
-                                    "name": "Mike Hoff"
+                                    "id": "aabd8190-53a9-420f-9abe-e448479496fa",
+                                    "name": "GUNJAN KAUR"
+                                },
+                                {
+                                    "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",
+                                    "name": "Xueming Zhao"
                                 }
                             ],
                             "categories": [
@@ -2059,8 +2165,8 @@
                                     "name": "Track",
                                     "categoryItems": [
                                         {
-                                            "id": 25339,
-                                            "name": "Mentorship"
+                                            "id": 22865,
+                                            "name": "Data Analytics and AI"
                                         }
                                     ],
                                     "sort": 1
@@ -2070,17 +2176,17 @@
                                     "name": "Level",
                                     "categoryItems": [
                                         {
-                                            "id": 22868,
-                                            "name": "Introductory and overview"
+                                            "id": 22869,
+                                            "name": "Intermediate"
                                         }
                                     ],
                                     "sort": 2
                                 }
                             ],
-                            "roomId": 7454,
-                            "room": "Central Library Room 0-13"
+                            "roomId": 7453,
+                            "room": "BMO Financial Group Community Room"
                         },
-                        "index": 2
+                        "index": 1
                     }
                 ]
             },
@@ -2309,17 +2415,17 @@
                         "id": 7452,
                         "name": "Patricia A. Whelan Performance Hall",
                         "session": {
-                            "id": "148197",
-                            "title": "GCP Network overview",
-                            "description": "Having a solid network foundation for your compute and storage workloads is fundamental to allow you your solution to properly scale and grow, in this presentation we will explore some of the key concepts and common patterns that are used on GCP from small to large scale.",
+                            "id": "157996",
+                            "title": "Drive Innovation: Reimagine Hybrid and Multi-Cloud Architecture with Anthos",
+                            "description": "A detailed walk through of why Anthos is important to you. ",
                             "startsAt": "2019-11-22T13:00:00",
-                            "endsAt": "2019-11-22T13:50:00",
+                            "endsAt": "2019-11-22T13:45:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
                                 {
-                                    "id": "59d47672-c376-43a5-a1e2-0ae565661396",
-                                    "name": "Fatima Silveira"
+                                    "id": "70a54dce-8cb0-4a6d-b3ba-db930e784a30",
+                                    "name": "Michael Murphy"
                                 }
                             ],
                             "categories": [
@@ -2339,8 +2445,8 @@
                                     "name": "Session format",
                                     "categoryItems": [
                                         {
-                                            "id": 22860,
-                                            "name": "Workshop (60 mins)"
+                                            "id": 22859,
+                                            "name": "Launchpad Talk (30-40 mins)"
                                         }
                                     ],
                                     "sort": 0
@@ -2361,8 +2467,8 @@
                                     "name": "Level",
                                     "categoryItems": [
                                         {
-                                            "id": 22868,
-                                            "name": "Introductory and overview"
+                                            "id": 22870,
+                                            "name": "Advanced"
                                         }
                                     ],
                                     "sort": 2
@@ -2445,17 +2551,17 @@
                         "id": 7454,
                         "name": "Central Library Room 0-13",
                         "session": {
-                            "id": "139721",
-                            "title": "What are Progressive Web Apps and How do they work?",
-                            "description": "The web is advancing at an alarming rate and browsers are providing new features giving web developers the ability to features to engage with mobile users. Using PWAs, web developers can provide \u201capp like\u201d experiences for their web apps without the need for a native (or hybrid) app.\r\n\r\nAs developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) are experiences that combine the best of the web and the best of mobile apps using new web standards, including service workers, push notifications, and homescreen access.\r\n\r\nIn this session, you\u2019ll learn the the fundamentals needed for building Progressive Web Apps, including the app shell model, how to use service workers to cache the App Shell and your key application data and more!",
+                            "id": "146826",
+                            "title": "Tips and Tricks for Finding Your Next Job",
+                            "description": "Some tips and ideas for helping new or stalled job-hunted based upon 30+ years of  experience",
                             "startsAt": "2019-11-22T13:00:00",
                             "endsAt": "2019-11-22T13:40:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
                                 {
-                                    "id": "db76fa0e-032e-4a48-9f0c-e73b1318242b",
-                                    "name": "Kyle Paul"
+                                    "id": "43c5edcb-a11a-49cd-bb46-e5663e884924",
+                                    "name": "Mike Hoff"
                                 }
                             ],
                             "categories": [
@@ -2486,8 +2592,8 @@
                                     "name": "Track",
                                     "categoryItems": [
                                         {
-                                            "id": 22866,
-                                            "name": "Code and Development"
+                                            "id": 25339,
+                                            "name": "Mentorship"
                                         }
                                     ],
                                     "sort": 1
@@ -2580,79 +2686,6 @@
                 ]
             },
             {
-                "slotStart": "13:45:00",
-                "rooms": [
-                    {
-                        "id": 7454,
-                        "name": "Central Library Room 0-13",
-                        "session": {
-                            "id": "148133",
-                            "title": "Developer Student Clubs",
-                            "description": "Developer Student Clubs are all over the Globe now.\r\nWhat are they? What do they do? How can you get involved? ",
-                            "startsAt": "2019-11-22T13:45:00",
-                            "endsAt": "2019-11-22T14:00:00",
-                            "isServiceSession": false,
-                            "isPlenumSession": false,
-                            "speakers": [
-                                {
-                                    "id": "a66f4031-d503-4e83-855d-3985a046f40b",
-                                    "name": "Kiley Carson"
-                                }
-                            ],
-                            "categories": [
-                                {
-                                    "id": 15384,
-                                    "name": "Language",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22085,
-                                            "name": "English"
-                                        }
-                                    ],
-                                    "sort": 3
-                                },
-                                {
-                                    "id": 15572,
-                                    "name": "Session format",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22858,
-                                            "name": "Igniter Talk (10-15 mins)"
-                                        }
-                                    ],
-                                    "sort": 0
-                                },
-                                {
-                                    "id": 15573,
-                                    "name": "Track",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22867,
-                                            "name": "Google Programs & Non-Technical"
-                                        }
-                                    ],
-                                    "sort": 1
-                                },
-                                {
-                                    "id": 15574,
-                                    "name": "Level",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22868,
-                                            "name": "Introductory and overview"
-                                        }
-                                    ],
-                                    "sort": 2
-                                }
-                            ],
-                            "roomId": 7454,
-                            "room": "Central Library Room 0-13"
-                        },
-                        "index": 2
-                    }
-                ]
-            },
-            {
                 "slotStart": "14:00:00",
                 "rooms": [
                     {
@@ -2731,21 +2764,21 @@
                         "id": 7453,
                         "name": "BMO Financial Group Community Room",
                         "session": {
-                            "id": "149086",
-                            "title": "Streaming Data Pipelines: Creating Next Gen Banking Analytics",
-                            "description": "Making banking work for people means evolving solutions to meet the demands of tomorrow. In this talk, we will discuss how Google Cloud Platform (GCP) can be used to find innovative ways in producing robust and cost-efficient real-time data processing and analysis. We will also illustrate how GCP can be leveraged to produce next gen banking analytic systems.",
+                            "id": "147669",
+                            "title": "Deep Learning Fellowship Presents An Introduction to Deep Learning",
+                            "description": "In depth presentation of deep learning models and concepts with a focus on real world applications. ",
                             "startsAt": "2019-11-22T14:00:00",
-                            "endsAt": "2019-11-22T14:15:00",
+                            "endsAt": "2019-11-22T15:00:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
                                 {
-                                    "id": "aabd8190-53a9-420f-9abe-e448479496fa",
-                                    "name": "Gunjan Kaur"
+                                    "id": "0d195f22-a9f6-4419-a648-3c603f6e5c64",
+                                    "name": "Ted Edmonds"
                                 },
                                 {
-                                    "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",
-                                    "name": "Xueming Zhao"
+                                    "id": "9fbdbef0-113a-42c4-8c2f-eab45601085e",
+                                    "name": "Boyang Zhang"
                                 }
                             ],
                             "categories": [
@@ -2765,8 +2798,8 @@
                                     "name": "Session format",
                                     "categoryItems": [
                                         {
-                                            "id": 22859,
-                                            "name": "Launchpad Talk (30-40 mins)"
+                                            "id": 24007,
+                                            "name": "Bootcamp (180 minutes)"
                                         }
                                     ],
                                     "sort": 0
@@ -2870,27 +2903,23 @@
                 ]
             },
             {
-                "slotStart": "14:30:00",
+                "slotStart": "15:00:00",
                 "rooms": [
                     {
-                        "id": 7453,
-                        "name": "BMO Financial Group Community Room",
+                        "id": 7452,
+                        "name": "Patricia A. Whelan Performance Hall",
                         "session": {
-                            "id": "147669",
-                            "title": "Deep Learning Fellowship Presents An Introduction to Deep Learning",
-                            "description": "In depth presentation of deep learning models and concepts with a focus on real world applications. ",
-                            "startsAt": "2019-11-22T14:30:00",
-                            "endsAt": "2019-11-22T15:30:00",
+                            "id": "153627",
+                            "title": "To infinity and beyond! And back again. ",
+                            "description": "A look at supporting technologies in a developers arsenal. All the things you didn't know you didn't know.",
+                            "startsAt": "2019-11-22T15:00:00",
+                            "endsAt": "2019-11-22T15:40:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
                                 {
-                                    "id": "0d195f22-a9f6-4419-a648-3c603f6e5c64",
-                                    "name": "Ted Edmonds"
-                                },
-                                {
-                                    "id": "9fbdbef0-113a-42c4-8c2f-eab45601085e",
-                                    "name": "Boyang Zhang"
+                                    "id": "414f8531-163d-4c25-9f02-acaca51c7e08",
+                                    "name": "Ben Nakaska"
                                 }
                             ],
                             "categories": [
@@ -2910,8 +2939,8 @@
                                     "name": "Session format",
                                     "categoryItems": [
                                         {
-                                            "id": 24007,
-                                            "name": "Bootcamp (180 minutes)"
+                                            "id": 22859,
+                                            "name": "Launchpad Talk (30-40 mins)"
                                         }
                                     ],
                                     "sort": 0
@@ -2921,8 +2950,8 @@
                                     "name": "Track",
                                     "categoryItems": [
                                         {
-                                            "id": 22865,
-                                            "name": "Data Analytics and AI"
+                                            "id": 22866,
+                                            "name": "Code and Development"
                                         }
                                     ],
                                     "sort": 1
@@ -2934,79 +2963,6 @@
                                         {
                                             "id": 22869,
                                             "name": "Intermediate"
-                                        }
-                                    ],
-                                    "sort": 2
-                                }
-                            ],
-                            "roomId": 7453,
-                            "room": "BMO Financial Group Community Room"
-                        },
-                        "index": 1
-                    }
-                ]
-            },
-            {
-                "slotStart": "15:00:00",
-                "rooms": [
-                    {
-                        "id": 7452,
-                        "name": "Patricia A. Whelan Performance Hall",
-                        "session": {
-                            "id": "153633",
-                            "title": "Soft Serve # 1",
-                            "description": "This is a placeholder for SorftServe's people to join us. ",
-                            "startsAt": "2019-11-22T15:00:00",
-                            "endsAt": "2019-11-22T15:50:00",
-                            "isServiceSession": false,
-                            "isPlenumSession": false,
-                            "speakers": [
-                                {
-                                    "id": "0dc29185-4958-4c6a-9ac0-a996a7be6106",
-                                    "name": "Greg Bennett"
-                                }
-                            ],
-                            "categories": [
-                                {
-                                    "id": 15384,
-                                    "name": "Language",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22085,
-                                            "name": "English"
-                                        }
-                                    ],
-                                    "sort": 3
-                                },
-                                {
-                                    "id": 15572,
-                                    "name": "Session format",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22860,
-                                            "name": "Workshop (60 mins)"
-                                        }
-                                    ],
-                                    "sort": 0
-                                },
-                                {
-                                    "id": 15573,
-                                    "name": "Track",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22864,
-                                            "name": "Infrastructure"
-                                        }
-                                    ],
-                                    "sort": 1
-                                },
-                                {
-                                    "id": 15574,
-                                    "name": "Level",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22868,
-                                            "name": "Introductory and overview"
                                         }
                                     ],
                                     "sort": 2
@@ -3101,29 +3057,6 @@
                             "endsAt": "2019-11-22T16:15:00",
                             "isServiceSession": true,
                             "isPlenumSession": false,
-                            "speakers": [],
-                            "categories": [],
-                            "roomId": 7452,
-                            "room": "Patricia A. Whelan Performance Hall"
-                        },
-                        "index": 0
-                    }
-                ]
-            },
-            {
-                "slotStart": "16:15:00",
-                "rooms": [
-                    {
-                        "id": 7452,
-                        "name": "Patricia A. Whelan Performance Hall",
-                        "session": {
-                            "id": "70fe7b41-7743-47aa-85fb-cf40d886c76f",
-                            "title": "Networking Event?",
-                            "description": null,
-                            "startsAt": "2019-11-22T16:15:00",
-                            "endsAt": "2019-11-22T18:15:00",
-                            "isServiceSession": true,
-                            "isPlenumSession": true,
                             "speakers": [],
                             "categories": [],
                             "roomId": 7452,
@@ -3232,17 +3165,17 @@
                         "room": "Patricia A. Whelan Performance Hall"
                     },
                     {
-                        "id": "153627",
-                        "title": "To infinity and beyond! And back again. ",
-                        "description": "A look at supporting technologies in a developers arsenal. All the things you didn't know you didn't know.",
+                        "id": "147581",
+                        "title": "Microservices at the Enterprise",
+                        "description": "New to microservices within the Enterprise? Come learn some of the core concepts around Microservices and how to start to decouple away from your Enterprise monolithic application.\r\n\r\nCore concepts of Enterprise Microservices include Designing Microservices, Service Communications, Data Management, Governance, Integrating Microservices  and the Service Mesh.",
                         "startsAt": "2019-11-23T10:30:00",
-                        "endsAt": "2019-11-23T11:10:00",
+                        "endsAt": "2019-11-23T11:15:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
                             {
-                                "id": "414f8531-163d-4c25-9f02-acaca51c7e08",
-                                "name": "Ben Nakaska"
+                                "id": "02443b49-2511-4bdf-88fa-e3acddbaf14e",
+                                "name": "Shaun Mitchell"
                             }
                         ],
                         "categories": [
@@ -3273,8 +3206,8 @@
                                 "name": "Track",
                                 "categoryItems": [
                                     {
-                                        "id": 22866,
-                                        "name": "Code and Development"
+                                        "id": 22864,
+                                        "name": "Infrastructure"
                                     }
                                 ],
                                 "sort": 1
@@ -3284,8 +3217,8 @@
                                 "name": "Level",
                                 "categoryItems": [
                                     {
-                                        "id": 22869,
-                                        "name": "Intermediate"
+                                        "id": 22868,
+                                        "name": "Introductory and overview"
                                     }
                                 ],
                                 "sort": 2
@@ -3367,69 +3300,6 @@
                         "isPlenumSession": true,
                         "speakers": [],
                         "categories": [],
-                        "roomId": 7452,
-                        "room": "Patricia A. Whelan Performance Hall"
-                    },
-                    {
-                        "id": "139724",
-                        "title": "Serverless Applications with Firebase",
-                        "description": "Have you ever started building an application and quickly realized that a lot of back-end work is needed? Firebase is a platform that helps you quickly develop real-time apps, grow your user base, and earn more money. Firebase is made up of complementary features that you can mix-and-match to fit your needs without needing to know anything about servers! In this session, you\u2019ll see how using Firebase can help you quickly build out a real-time database with an authentication system that perfectly blends into a web application. With Firebase, we can build a complete application in half the time without any server side code involved.\r\n\r\nFirebase is many things and this talk will explore the tools available that it provides. I will cover a quick intro of all tools available, deeper dive into the Firebase real-time database & authentication setup, and finish up with a quick multiplayer quiz (built on Firebase).",
-                        "startsAt": "2019-11-23T13:00:00",
-                        "endsAt": "2019-11-23T13:50:00",
-                        "isServiceSession": false,
-                        "isPlenumSession": false,
-                        "speakers": [
-                            {
-                                "id": "db76fa0e-032e-4a48-9f0c-e73b1318242b",
-                                "name": "Kyle Paul"
-                            }
-                        ],
-                        "categories": [
-                            {
-                                "id": 15384,
-                                "name": "Language",
-                                "categoryItems": [
-                                    {
-                                        "id": 22085,
-                                        "name": "English"
-                                    }
-                                ],
-                                "sort": 3
-                            },
-                            {
-                                "id": 15572,
-                                "name": "Session format",
-                                "categoryItems": [
-                                    {
-                                        "id": 22859,
-                                        "name": "Launchpad Talk (30-40 mins)"
-                                    }
-                                ],
-                                "sort": 0
-                            },
-                            {
-                                "id": 15573,
-                                "name": "Track",
-                                "categoryItems": [
-                                    {
-                                        "id": 22866,
-                                        "name": "Code and Development"
-                                    }
-                                ],
-                                "sort": 1
-                            },
-                            {
-                                "id": 15574,
-                                "name": "Level",
-                                "categoryItems": [
-                                    {
-                                        "id": 22869,
-                                        "name": "Intermediate"
-                                    }
-                                ],
-                                "sort": 2
-                            }
-                        ],
                         "roomId": 7452,
                         "room": "Patricia A. Whelan Performance Hall"
                     },
@@ -3528,19 +3398,6 @@
                         "description": null,
                         "startsAt": "2019-11-23T16:25:00",
                         "endsAt": "2019-11-23T17:25:00",
-                        "isServiceSession": true,
-                        "isPlenumSession": true,
-                        "speakers": [],
-                        "categories": [],
-                        "roomId": 7452,
-                        "room": "Patricia A. Whelan Performance Hall"
-                    },
-                    {
-                        "id": "69e92f3c-8904-40e6-8013-9f3817e19c47",
-                        "title": "Dinner/Drinks",
-                        "description": null,
-                        "startsAt": "2019-11-23T17:20:00",
-                        "endsAt": "2019-11-23T19:20:00",
                         "isServiceSession": true,
                         "isPlenumSession": true,
                         "speakers": [],
@@ -3762,17 +3619,17 @@
                         "room": "BMO Financial Group Community Room"
                     },
                     {
-                        "id": "147581",
-                        "title": "Microservices at the Enterprise",
-                        "description": "New to microservices within the Enterprise? Come learn some of the core concepts around Microservices and how to start to decouple away from your Enterprise monolithic application.\r\n\r\nCore concepts of Enterprise Microservices include Designing Microservices, Service Communications, Data Management, Governance, Integrating Microservices  and the Service Mesh.",
+                        "id": "146840",
+                        "title": "Your Experience is User Experience",
+                        "description": "Ever find an edge case that breaks a design? Missing a style guide and a designer? As a developer, sometimes you\u2019re left to design on the fly. In Your Experience is User Experience, learn tips and strategies on how to identify areas a design can be improved upon, how to come up with a functional and beautifully designed solution, and how to present it to your client.",
                         "startsAt": "2019-11-23T13:00:00",
-                        "endsAt": "2019-11-23T13:45:00",
+                        "endsAt": "2019-11-23T13:15:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
                             {
-                                "id": "02443b49-2511-4bdf-88fa-e3acddbaf14e",
-                                "name": "Shaun Mitchell"
+                                "id": "d32382d9-5486-4182-b456-806c2b3b326b",
+                                "name": "Charlie Cheung"
                             }
                         ],
                         "categories": [
@@ -3792,8 +3649,8 @@
                                 "name": "Session format",
                                 "categoryItems": [
                                     {
-                                        "id": 22859,
-                                        "name": "Launchpad Talk (30-40 mins)"
+                                        "id": 22858,
+                                        "name": "Igniter Talk (10-15 mins)"
                                     }
                                 ],
                                 "sort": 0
@@ -3803,8 +3660,71 @@
                                 "name": "Track",
                                 "categoryItems": [
                                     {
-                                        "id": 22864,
-                                        "name": "Infrastructure"
+                                        "id": 22867,
+                                        "name": "Google Programs & Non-Technical"
+                                    }
+                                ],
+                                "sort": 1
+                            },
+                            {
+                                "id": 15574,
+                                "name": "Level",
+                                "categoryItems": [
+                                    {
+                                        "id": 22868,
+                                        "name": "Introductory and overview"
+                                    }
+                                ],
+                                "sort": 2
+                            }
+                        ],
+                        "roomId": 7453,
+                        "room": "BMO Financial Group Community Room"
+                    },
+                    {
+                        "id": "142401",
+                        "title": "Using Google App Maker to Develop a Workflow Tool - Going from Beginner to Developer",
+                        "description": "A sharing of my adventure in using Google App Maker to develop a complex workflow tool while starting out with no previous web app development experience",
+                        "startsAt": "2019-11-23T13:15:00",
+                        "endsAt": "2019-11-23T13:30:00",
+                        "isServiceSession": false,
+                        "isPlenumSession": false,
+                        "speakers": [
+                            {
+                                "id": "b60db9b5-3daa-492e-adda-28c192366f67",
+                                "name": "Eddy Beals"
+                            }
+                        ],
+                        "categories": [
+                            {
+                                "id": 15384,
+                                "name": "Language",
+                                "categoryItems": [
+                                    {
+                                        "id": 22085,
+                                        "name": "English"
+                                    }
+                                ],
+                                "sort": 3
+                            },
+                            {
+                                "id": 15572,
+                                "name": "Session format",
+                                "categoryItems": [
+                                    {
+                                        "id": 22858,
+                                        "name": "Igniter Talk (10-15 mins)"
+                                    }
+                                ],
+                                "sort": 0
+                            },
+                            {
+                                "id": 15573,
+                                "name": "Track",
+                                "categoryItems": [
+                                    {
+                                        "id": 22866,
+                                        "name": "Code and Development"
                                     }
                                 ],
                                 "sort": 1
@@ -3828,8 +3748,8 @@
                         "id": "148187",
                         "title": "Women Techmakers",
                         "description": "Google's Women Techmakers program provides visibility, community, and resources for women in technology. Learn more about what the initiatives are, what WTM can provide, and how you can get involved. ",
-                        "startsAt": "2019-11-23T13:45:00",
-                        "endsAt": "2019-11-23T14:00:00",
+                        "startsAt": "2019-11-23T13:30:00",
+                        "endsAt": "2019-11-23T13:45:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
@@ -3888,11 +3808,74 @@
                         "room": "BMO Financial Group Community Room"
                     },
                     {
+                        "id": "146849",
+                        "title": "Immediate Rent",
+                        "description": "Would like to briefly talk about Immediate Rent project and discuss what Code and DEV stack we are using.  ",
+                        "startsAt": "2019-11-23T13:45:00",
+                        "endsAt": "2019-11-23T14:00:00",
+                        "isServiceSession": false,
+                        "isPlenumSession": false,
+                        "speakers": [
+                            {
+                                "id": "feab4691-7239-4b54-b0dc-e5b49d51eba8",
+                                "name": "Albert Morozov"
+                            }
+                        ],
+                        "categories": [
+                            {
+                                "id": 15384,
+                                "name": "Language",
+                                "categoryItems": [
+                                    {
+                                        "id": 22085,
+                                        "name": "English"
+                                    }
+                                ],
+                                "sort": 3
+                            },
+                            {
+                                "id": 15572,
+                                "name": "Session format",
+                                "categoryItems": [
+                                    {
+                                        "id": 22858,
+                                        "name": "Igniter Talk (10-15 mins)"
+                                    }
+                                ],
+                                "sort": 0
+                            },
+                            {
+                                "id": 15573,
+                                "name": "Track",
+                                "categoryItems": [
+                                    {
+                                        "id": 22866,
+                                        "name": "Code and Development"
+                                    }
+                                ],
+                                "sort": 1
+                            },
+                            {
+                                "id": 15574,
+                                "name": "Level",
+                                "categoryItems": [
+                                    {
+                                        "id": 22868,
+                                        "name": "Introductory and overview"
+                                    }
+                                ],
+                                "sort": 2
+                            }
+                        ],
+                        "roomId": 7453,
+                        "room": "BMO Financial Group Community Room"
+                    },
+                    {
                         "id": "147218",
                         "title": "Up and Running with Progressive Web Apps",
                         "description": "This will be a workshop to get beginner level developers started with PWA. \r\nWill touch upon differences between web and pwa.\r\nThen some core concepts like Service Workers, a few caching strategies and finally hit coding on an online IDE sycned with GitHub so that everyone is on the same page.\r\nWill keep it stress free coding session, something similar to Qwiklabs. \r\n",
-                        "startsAt": "2019-11-23T14:00:00",
-                        "endsAt": "2019-11-23T14:45:00",
+                        "startsAt": "2019-11-23T14:15:00",
+                        "endsAt": "2019-11-23T15:00:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
@@ -3931,69 +3914,6 @@
                                     {
                                         "id": 22866,
                                         "name": "Code and Development"
-                                    }
-                                ],
-                                "sort": 1
-                            },
-                            {
-                                "id": 15574,
-                                "name": "Level",
-                                "categoryItems": [
-                                    {
-                                        "id": 22868,
-                                        "name": "Introductory and overview"
-                                    }
-                                ],
-                                "sort": 2
-                            }
-                        ],
-                        "roomId": 7453,
-                        "room": "BMO Financial Group Community Room"
-                    },
-                    {
-                        "id": "146840",
-                        "title": "Your Experience is User Experience",
-                        "description": "Ever find an edge case that breaks a design? Missing a style guide and a designer? As a developer, sometimes you\u2019re left to design on the fly. In Your Experience is User Experience, learn tips and strategies on how to identify areas a design can be improved upon, how to come up with a functional and beautifully designed solution, and how to present it to your client.",
-                        "startsAt": "2019-11-23T14:45:00",
-                        "endsAt": "2019-11-23T15:00:00",
-                        "isServiceSession": false,
-                        "isPlenumSession": false,
-                        "speakers": [
-                            {
-                                "id": "d32382d9-5486-4182-b456-806c2b3b326b",
-                                "name": "Charlie Cheung"
-                            }
-                        ],
-                        "categories": [
-                            {
-                                "id": 15384,
-                                "name": "Language",
-                                "categoryItems": [
-                                    {
-                                        "id": 22085,
-                                        "name": "English"
-                                    }
-                                ],
-                                "sort": 3
-                            },
-                            {
-                                "id": 15572,
-                                "name": "Session format",
-                                "categoryItems": [
-                                    {
-                                        "id": 22858,
-                                        "name": "Igniter Talk (10-15 mins)"
-                                    }
-                                ],
-                                "sort": 0
-                            },
-                            {
-                                "id": 15573,
-                                "name": "Track",
-                                "categoryItems": [
-                                    {
-                                        "id": 22867,
-                                        "name": "Google Programs & Non-Technical"
                                     }
                                 ],
                                 "sort": 1
@@ -4286,191 +4206,15 @@
                         "room": "Central Library Room 0-13"
                     },
                     {
-                        "id": "142401",
-                        "title": "Using Google App Maker to Develop a Workflow Tool - Going from Beginner to Developer",
-                        "description": "A sharing of my adventure in using Google App Maker to develop a complex workflow tool while starting out with no previous web app development experience",
+                        "id": "580dee5f-5f06-4bba-81a4-4cc727a77437",
+                        "title": "Qwiklabs",
+                        "description": null,
                         "startsAt": "2019-11-23T13:00:00",
-                        "endsAt": "2019-11-23T13:15:00",
-                        "isServiceSession": false,
+                        "endsAt": "2019-11-23T15:05:00",
+                        "isServiceSession": true,
                         "isPlenumSession": false,
-                        "speakers": [
-                            {
-                                "id": "b60db9b5-3daa-492e-adda-28c192366f67",
-                                "name": "Eddy Beals"
-                            }
-                        ],
-                        "categories": [
-                            {
-                                "id": 15384,
-                                "name": "Language",
-                                "categoryItems": [
-                                    {
-                                        "id": 22085,
-                                        "name": "English"
-                                    }
-                                ],
-                                "sort": 3
-                            },
-                            {
-                                "id": 15572,
-                                "name": "Session format",
-                                "categoryItems": [
-                                    {
-                                        "id": 22858,
-                                        "name": "Igniter Talk (10-15 mins)"
-                                    }
-                                ],
-                                "sort": 0
-                            },
-                            {
-                                "id": 15573,
-                                "name": "Track",
-                                "categoryItems": [
-                                    {
-                                        "id": 22866,
-                                        "name": "Code and Development"
-                                    }
-                                ],
-                                "sort": 1
-                            },
-                            {
-                                "id": 15574,
-                                "name": "Level",
-                                "categoryItems": [
-                                    {
-                                        "id": 22868,
-                                        "name": "Introductory and overview"
-                                    }
-                                ],
-                                "sort": 2
-                            }
-                        ],
-                        "roomId": 7454,
-                        "room": "Central Library Room 0-13"
-                    },
-                    {
-                        "id": "146849",
-                        "title": "Immediate Rent",
-                        "description": "Would like to briefly talk about Immediate Rent project and discuss what Code and DEV stack we are using.  ",
-                        "startsAt": "2019-11-23T13:20:00",
-                        "endsAt": "2019-11-23T13:35:00",
-                        "isServiceSession": false,
-                        "isPlenumSession": false,
-                        "speakers": [
-                            {
-                                "id": "feab4691-7239-4b54-b0dc-e5b49d51eba8",
-                                "name": "Albert Morozov"
-                            }
-                        ],
-                        "categories": [
-                            {
-                                "id": 15384,
-                                "name": "Language",
-                                "categoryItems": [
-                                    {
-                                        "id": 22085,
-                                        "name": "English"
-                                    }
-                                ],
-                                "sort": 3
-                            },
-                            {
-                                "id": 15572,
-                                "name": "Session format",
-                                "categoryItems": [
-                                    {
-                                        "id": 22858,
-                                        "name": "Igniter Talk (10-15 mins)"
-                                    }
-                                ],
-                                "sort": 0
-                            },
-                            {
-                                "id": 15573,
-                                "name": "Track",
-                                "categoryItems": [
-                                    {
-                                        "id": 22866,
-                                        "name": "Code and Development"
-                                    }
-                                ],
-                                "sort": 1
-                            },
-                            {
-                                "id": 15574,
-                                "name": "Level",
-                                "categoryItems": [
-                                    {
-                                        "id": 22868,
-                                        "name": "Introductory and overview"
-                                    }
-                                ],
-                                "sort": 2
-                            }
-                        ],
-                        "roomId": 7454,
-                        "room": "Central Library Room 0-13"
-                    },
-                    {
-                        "id": "148196",
-                        "title": "Using GCP managed services to deploy your webapp",
-                        "description": "Have you ever wondered how you could deploy your webapp without having to worry about all that infrastructure stuff? Networks, firewall rules, etc\u2026? Then this talk is for you; We will explore how some of the products from GCP can be used to deploy your application with nearly no-ops and minimal infrastructure with great scaling and responsiveness to your application. \r\n",
-                        "startsAt": "2019-11-23T13:45:00",
-                        "endsAt": "2019-11-23T15:00:00",
-                        "isServiceSession": false,
-                        "isPlenumSession": false,
-                        "speakers": [
-                            {
-                                "id": "59d47672-c376-43a5-a1e2-0ae565661396",
-                                "name": "Fatima Silveira"
-                            }
-                        ],
-                        "categories": [
-                            {
-                                "id": 15384,
-                                "name": "Language",
-                                "categoryItems": [
-                                    {
-                                        "id": 22085,
-                                        "name": "English"
-                                    }
-                                ],
-                                "sort": 3
-                            },
-                            {
-                                "id": 15572,
-                                "name": "Session format",
-                                "categoryItems": [
-                                    {
-                                        "id": 22860,
-                                        "name": "Workshop (60 mins)"
-                                    }
-                                ],
-                                "sort": 0
-                            },
-                            {
-                                "id": 15573,
-                                "name": "Track",
-                                "categoryItems": [
-                                    {
-                                        "id": 22866,
-                                        "name": "Code and Development"
-                                    }
-                                ],
-                                "sort": 1
-                            },
-                            {
-                                "id": 15574,
-                                "name": "Level",
-                                "categoryItems": [
-                                    {
-                                        "id": 22869,
-                                        "name": "Intermediate"
-                                    }
-                                ],
-                                "sort": 2
-                            }
-                        ],
+                        "speakers": [],
+                        "categories": [],
                         "roomId": 7454,
                         "room": "Central Library Room 0-13"
                     }
@@ -4942,17 +4686,17 @@
                         "id": 7452,
                         "name": "Patricia A. Whelan Performance Hall",
                         "session": {
-                            "id": "153627",
-                            "title": "To infinity and beyond! And back again. ",
-                            "description": "A look at supporting technologies in a developers arsenal. All the things you didn't know you didn't know.",
+                            "id": "147581",
+                            "title": "Microservices at the Enterprise",
+                            "description": "New to microservices within the Enterprise? Come learn some of the core concepts around Microservices and how to start to decouple away from your Enterprise monolithic application.\r\n\r\nCore concepts of Enterprise Microservices include Designing Microservices, Service Communications, Data Management, Governance, Integrating Microservices  and the Service Mesh.",
                             "startsAt": "2019-11-23T10:30:00",
-                            "endsAt": "2019-11-23T11:10:00",
+                            "endsAt": "2019-11-23T11:15:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
                                 {
-                                    "id": "414f8531-163d-4c25-9f02-acaca51c7e08",
-                                    "name": "Ben Nakaska"
+                                    "id": "02443b49-2511-4bdf-88fa-e3acddbaf14e",
+                                    "name": "Shaun Mitchell"
                                 }
                             ],
                             "categories": [
@@ -4983,8 +4727,8 @@
                                     "name": "Track",
                                     "categoryItems": [
                                         {
-                                            "id": 22866,
-                                            "name": "Code and Development"
+                                            "id": 22864,
+                                            "name": "Infrastructure"
                                         }
                                     ],
                                     "sort": 1
@@ -4994,8 +4738,8 @@
                                     "name": "Level",
                                     "categoryItems": [
                                         {
-                                            "id": 22869,
-                                            "name": "Intermediate"
+                                            "id": 22868,
+                                            "name": "Introductory and overview"
                                         }
                                     ],
                                     "sort": 2
@@ -5371,88 +5115,20 @@
                 "slotStart": "13:00:00",
                 "rooms": [
                     {
-                        "id": 7452,
-                        "name": "Patricia A. Whelan Performance Hall",
-                        "session": {
-                            "id": "139724",
-                            "title": "Serverless Applications with Firebase",
-                            "description": "Have you ever started building an application and quickly realized that a lot of back-end work is needed? Firebase is a platform that helps you quickly develop real-time apps, grow your user base, and earn more money. Firebase is made up of complementary features that you can mix-and-match to fit your needs without needing to know anything about servers! In this session, you\u2019ll see how using Firebase can help you quickly build out a real-time database with an authentication system that perfectly blends into a web application. With Firebase, we can build a complete application in half the time without any server side code involved.\r\n\r\nFirebase is many things and this talk will explore the tools available that it provides. I will cover a quick intro of all tools available, deeper dive into the Firebase real-time database & authentication setup, and finish up with a quick multiplayer quiz (built on Firebase).",
-                            "startsAt": "2019-11-23T13:00:00",
-                            "endsAt": "2019-11-23T13:50:00",
-                            "isServiceSession": false,
-                            "isPlenumSession": false,
-                            "speakers": [
-                                {
-                                    "id": "db76fa0e-032e-4a48-9f0c-e73b1318242b",
-                                    "name": "Kyle Paul"
-                                }
-                            ],
-                            "categories": [
-                                {
-                                    "id": 15384,
-                                    "name": "Language",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22085,
-                                            "name": "English"
-                                        }
-                                    ],
-                                    "sort": 3
-                                },
-                                {
-                                    "id": 15572,
-                                    "name": "Session format",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22859,
-                                            "name": "Launchpad Talk (30-40 mins)"
-                                        }
-                                    ],
-                                    "sort": 0
-                                },
-                                {
-                                    "id": 15573,
-                                    "name": "Track",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22866,
-                                            "name": "Code and Development"
-                                        }
-                                    ],
-                                    "sort": 1
-                                },
-                                {
-                                    "id": 15574,
-                                    "name": "Level",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22869,
-                                            "name": "Intermediate"
-                                        }
-                                    ],
-                                    "sort": 2
-                                }
-                            ],
-                            "roomId": 7452,
-                            "room": "Patricia A. Whelan Performance Hall"
-                        },
-                        "index": 0
-                    },
-                    {
                         "id": 7453,
                         "name": "BMO Financial Group Community Room",
                         "session": {
-                            "id": "147581",
-                            "title": "Microservices at the Enterprise",
-                            "description": "New to microservices within the Enterprise? Come learn some of the core concepts around Microservices and how to start to decouple away from your Enterprise monolithic application.\r\n\r\nCore concepts of Enterprise Microservices include Designing Microservices, Service Communications, Data Management, Governance, Integrating Microservices  and the Service Mesh.",
+                            "id": "146840",
+                            "title": "Your Experience is User Experience",
+                            "description": "Ever find an edge case that breaks a design? Missing a style guide and a designer? As a developer, sometimes you\u2019re left to design on the fly. In Your Experience is User Experience, learn tips and strategies on how to identify areas a design can be improved upon, how to come up with a functional and beautifully designed solution, and how to present it to your client.",
                             "startsAt": "2019-11-23T13:00:00",
-                            "endsAt": "2019-11-23T13:45:00",
+                            "endsAt": "2019-11-23T13:15:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
                                 {
-                                    "id": "02443b49-2511-4bdf-88fa-e3acddbaf14e",
-                                    "name": "Shaun Mitchell"
+                                    "id": "d32382d9-5486-4182-b456-806c2b3b326b",
+                                    "name": "Charlie Cheung"
                                 }
                             ],
                             "categories": [
@@ -5472,8 +5148,8 @@
                                     "name": "Session format",
                                     "categoryItems": [
                                         {
-                                            "id": 22859,
-                                            "name": "Launchpad Talk (30-40 mins)"
+                                            "id": 22858,
+                                            "name": "Igniter Talk (10-15 mins)"
                                         }
                                     ],
                                     "sort": 0
@@ -5483,8 +5159,8 @@
                                     "name": "Track",
                                     "categoryItems": [
                                         {
-                                            "id": 22864,
-                                            "name": "Infrastructure"
+                                            "id": 22867,
+                                            "name": "Google Programs & Non-Technical"
                                         }
                                     ],
                                     "sort": 1
@@ -5510,11 +5186,34 @@
                         "id": 7454,
                         "name": "Central Library Room 0-13",
                         "session": {
+                            "id": "580dee5f-5f06-4bba-81a4-4cc727a77437",
+                            "title": "Qwiklabs",
+                            "description": null,
+                            "startsAt": "2019-11-23T13:00:00",
+                            "endsAt": "2019-11-23T15:05:00",
+                            "isServiceSession": true,
+                            "isPlenumSession": false,
+                            "speakers": [],
+                            "categories": [],
+                            "roomId": 7454,
+                            "room": "Central Library Room 0-13"
+                        },
+                        "index": 2
+                    }
+                ]
+            },
+            {
+                "slotStart": "13:15:00",
+                "rooms": [
+                    {
+                        "id": 7453,
+                        "name": "BMO Financial Group Community Room",
+                        "session": {
                             "id": "142401",
                             "title": "Using Google App Maker to Develop a Workflow Tool - Going from Beginner to Developer",
                             "description": "A sharing of my adventure in using Google App Maker to develop a complex workflow tool while starting out with no previous web app development experience",
-                            "startsAt": "2019-11-23T13:00:00",
-                            "endsAt": "2019-11-23T13:15:00",
+                            "startsAt": "2019-11-23T13:15:00",
+                            "endsAt": "2019-11-23T13:30:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
@@ -5569,88 +5268,15 @@
                                     "sort": 2
                                 }
                             ],
-                            "roomId": 7454,
-                            "room": "Central Library Room 0-13"
+                            "roomId": 7453,
+                            "room": "BMO Financial Group Community Room"
                         },
-                        "index": 2
+                        "index": 1
                     }
                 ]
             },
             {
-                "slotStart": "13:20:00",
-                "rooms": [
-                    {
-                        "id": 7454,
-                        "name": "Central Library Room 0-13",
-                        "session": {
-                            "id": "146849",
-                            "title": "Immediate Rent",
-                            "description": "Would like to briefly talk about Immediate Rent project and discuss what Code and DEV stack we are using.  ",
-                            "startsAt": "2019-11-23T13:20:00",
-                            "endsAt": "2019-11-23T13:35:00",
-                            "isServiceSession": false,
-                            "isPlenumSession": false,
-                            "speakers": [
-                                {
-                                    "id": "feab4691-7239-4b54-b0dc-e5b49d51eba8",
-                                    "name": "Albert Morozov"
-                                }
-                            ],
-                            "categories": [
-                                {
-                                    "id": 15384,
-                                    "name": "Language",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22085,
-                                            "name": "English"
-                                        }
-                                    ],
-                                    "sort": 3
-                                },
-                                {
-                                    "id": 15572,
-                                    "name": "Session format",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22858,
-                                            "name": "Igniter Talk (10-15 mins)"
-                                        }
-                                    ],
-                                    "sort": 0
-                                },
-                                {
-                                    "id": 15573,
-                                    "name": "Track",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22866,
-                                            "name": "Code and Development"
-                                        }
-                                    ],
-                                    "sort": 1
-                                },
-                                {
-                                    "id": 15574,
-                                    "name": "Level",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22868,
-                                            "name": "Introductory and overview"
-                                        }
-                                    ],
-                                    "sort": 2
-                                }
-                            ],
-                            "roomId": 7454,
-                            "room": "Central Library Room 0-13"
-                        },
-                        "index": 2
-                    }
-                ]
-            },
-            {
-                "slotStart": "13:45:00",
+                "slotStart": "13:30:00",
                 "rooms": [
                     {
                         "id": 7453,
@@ -5659,8 +5285,8 @@
                             "id": "148187",
                             "title": "Women Techmakers",
                             "description": "Google's Women Techmakers program provides visibility, community, and resources for women in technology. Learn more about what the initiatives are, what WTM can provide, and how you can get involved. ",
-                            "startsAt": "2019-11-23T13:45:00",
-                            "endsAt": "2019-11-23T14:00:00",
+                            "startsAt": "2019-11-23T13:30:00",
+                            "endsAt": "2019-11-23T13:45:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
@@ -5719,22 +5345,27 @@
                             "room": "BMO Financial Group Community Room"
                         },
                         "index": 1
-                    },
+                    }
+                ]
+            },
+            {
+                "slotStart": "13:45:00",
+                "rooms": [
                     {
-                        "id": 7454,
-                        "name": "Central Library Room 0-13",
+                        "id": 7453,
+                        "name": "BMO Financial Group Community Room",
                         "session": {
-                            "id": "148196",
-                            "title": "Using GCP managed services to deploy your webapp",
-                            "description": "Have you ever wondered how you could deploy your webapp without having to worry about all that infrastructure stuff? Networks, firewall rules, etc\u2026? Then this talk is for you; We will explore how some of the products from GCP can be used to deploy your application with nearly no-ops and minimal infrastructure with great scaling and responsiveness to your application. \r\n",
+                            "id": "146849",
+                            "title": "Immediate Rent",
+                            "description": "Would like to briefly talk about Immediate Rent project and discuss what Code and DEV stack we are using.  ",
                             "startsAt": "2019-11-23T13:45:00",
-                            "endsAt": "2019-11-23T15:00:00",
+                            "endsAt": "2019-11-23T14:00:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
                                 {
-                                    "id": "59d47672-c376-43a5-a1e2-0ae565661396",
-                                    "name": "Fatima Silveira"
+                                    "id": "feab4691-7239-4b54-b0dc-e5b49d51eba8",
+                                    "name": "Albert Morozov"
                                 }
                             ],
                             "categories": [
@@ -5754,8 +5385,8 @@
                                     "name": "Session format",
                                     "categoryItems": [
                                         {
-                                            "id": 22860,
-                                            "name": "Workshop (60 mins)"
+                                            "id": 22858,
+                                            "name": "Igniter Talk (10-15 mins)"
                                         }
                                     ],
                                     "sort": 0
@@ -5776,17 +5407,17 @@
                                     "name": "Level",
                                     "categoryItems": [
                                         {
-                                            "id": 22869,
-                                            "name": "Intermediate"
+                                            "id": 22868,
+                                            "name": "Introductory and overview"
                                         }
                                     ],
                                     "sort": 2
                                 }
                             ],
-                            "roomId": 7454,
-                            "room": "Central Library Room 0-13"
+                            "roomId": 7453,
+                            "room": "BMO Financial Group Community Room"
                         },
-                        "index": 2
+                        "index": 1
                     }
                 ]
             },
@@ -5860,7 +5491,12 @@
                             "room": "Patricia A. Whelan Performance Hall"
                         },
                         "index": 0
-                    },
+                    }
+                ]
+            },
+            {
+                "slotStart": "14:15:00",
+                "rooms": [
                     {
                         "id": 7453,
                         "name": "BMO Financial Group Community Room",
@@ -5868,8 +5504,8 @@
                             "id": "147218",
                             "title": "Up and Running with Progressive Web Apps",
                             "description": "This will be a workshop to get beginner level developers started with PWA. \r\nWill touch upon differences between web and pwa.\r\nThen some core concepts like Service Workers, a few caching strategies and finally hit coding on an online IDE sycned with GitHub so that everyone is on the same page.\r\nWill keep it stress free coding session, something similar to Qwiklabs. \r\n",
-                            "startsAt": "2019-11-23T14:00:00",
-                            "endsAt": "2019-11-23T14:45:00",
+                            "startsAt": "2019-11-23T14:15:00",
+                            "endsAt": "2019-11-23T15:00:00",
                             "isServiceSession": false,
                             "isPlenumSession": false,
                             "speakers": [
@@ -5908,79 +5544,6 @@
                                         {
                                             "id": 22866,
                                             "name": "Code and Development"
-                                        }
-                                    ],
-                                    "sort": 1
-                                },
-                                {
-                                    "id": 15574,
-                                    "name": "Level",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22868,
-                                            "name": "Introductory and overview"
-                                        }
-                                    ],
-                                    "sort": 2
-                                }
-                            ],
-                            "roomId": 7453,
-                            "room": "BMO Financial Group Community Room"
-                        },
-                        "index": 1
-                    }
-                ]
-            },
-            {
-                "slotStart": "14:45:00",
-                "rooms": [
-                    {
-                        "id": 7453,
-                        "name": "BMO Financial Group Community Room",
-                        "session": {
-                            "id": "146840",
-                            "title": "Your Experience is User Experience",
-                            "description": "Ever find an edge case that breaks a design? Missing a style guide and a designer? As a developer, sometimes you\u2019re left to design on the fly. In Your Experience is User Experience, learn tips and strategies on how to identify areas a design can be improved upon, how to come up with a functional and beautifully designed solution, and how to present it to your client.",
-                            "startsAt": "2019-11-23T14:45:00",
-                            "endsAt": "2019-11-23T15:00:00",
-                            "isServiceSession": false,
-                            "isPlenumSession": false,
-                            "speakers": [
-                                {
-                                    "id": "d32382d9-5486-4182-b456-806c2b3b326b",
-                                    "name": "Charlie Cheung"
-                                }
-                            ],
-                            "categories": [
-                                {
-                                    "id": 15384,
-                                    "name": "Language",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22085,
-                                            "name": "English"
-                                        }
-                                    ],
-                                    "sort": 3
-                                },
-                                {
-                                    "id": 15572,
-                                    "name": "Session format",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22858,
-                                            "name": "Igniter Talk (10-15 mins)"
-                                        }
-                                    ],
-                                    "sort": 0
-                                },
-                                {
-                                    "id": 15573,
-                                    "name": "Track",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22867,
-                                            "name": "Google Programs & Non-Technical"
                                         }
                                     ],
                                     "sort": 1
@@ -6062,29 +5625,6 @@
                             "description": null,
                             "startsAt": "2019-11-23T16:25:00",
                             "endsAt": "2019-11-23T17:25:00",
-                            "isServiceSession": true,
-                            "isPlenumSession": true,
-                            "speakers": [],
-                            "categories": [],
-                            "roomId": 7452,
-                            "room": "Patricia A. Whelan Performance Hall"
-                        },
-                        "index": 0
-                    }
-                ]
-            },
-            {
-                "slotStart": "17:20:00",
-                "rooms": [
-                    {
-                        "id": 7452,
-                        "name": "Patricia A. Whelan Performance Hall",
-                        "session": {
-                            "id": "69e92f3c-8904-40e6-8013-9f3817e19c47",
-                            "title": "Dinner/Drinks",
-                            "description": null,
-                            "startsAt": "2019-11-23T17:20:00",
-                            "endsAt": "2019-11-23T19:20:00",
                             "isServiceSession": true,
                             "isPlenumSession": true,
                             "speakers": [],

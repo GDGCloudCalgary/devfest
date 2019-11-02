@@ -1,0 +1,59 @@
+{
+  "partners": [
+        {
+            "logos": [
+                {
+                    "order": 0,
+                    "logoUrl": "../images/logos/gde01.png",
+                    "name": "Google Developer Experts",
+                    "url": "https://developers.google.com/experts/"
+                }
+            ],
+            "order": 0,
+            "title": "Template Creator"
+        },
+        {
+            "logos": [
+                {
+                    "order": 0,
+                    "logoUrl": "../images/logos/google.svg",
+                    "name": "Google",
+                    "url": "https://www.google.com.ua/intl/en/about/"
+                },
+                {
+                    "order": 1,
+                    "logoUrl": "../images/logos/qwiklabs.png",
+                    "name": "Qwiklabs",
+                    "url": "https://www.qwiklabs.com/"
+                },
+                {
+                    "order": 2,
+                    "logoUrl": "../images/logos/gdg-x.svg",
+                    "name": "GDG[x]",
+                    "url": "https://github.com/gdg-x"
+                },
+                {
+                    "order": 3,
+                    "logoUrl": "../images/logos/wtm.png",
+                    "name": "Women Techmakers",
+                    "url": "https://www.womentechmakers.com/"
+                },
+                {
+                    "order": 4,
+                    "logoUrl": "../images/logos/airia.png",
+                    "name": "AIRIA Cloud",
+                    "url": "https://www.airia.cloud/"
+                },
+                {
+                    "order": 5,
+                    "logoUrl": "../images/logos/albertabikeswap.png",
+                    "name": "Alberta Bikeswap",
+                    "url": "http://albertabikeswap.ca"
+                }
+            ],
+            "order": 1,
+            "title": "General Partner"
+        }
+    ]
+
+}

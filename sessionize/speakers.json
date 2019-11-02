@@ -13,7 +13,7 @@
                 "name": "How UX makes GCP the best cloud for Developers"
             }
         ],
-        "isTopSpeaker": true,
+        "isTopSpeaker": false,
         "links": [
             {
                 "title": "LinkedIn",
@@ -42,9 +42,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.cd326b28-7424-4399-8003-b66dc206428f.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "googlecloud.png"
             },
             {
                 "id": 15585,
@@ -141,7 +141,7 @@
                 "name": "How Khan Academy Tracks Learning Time"
             }
         ],
-        "isTopSpeaker": false,
+        "isTopSpeaker": true,
         "links": [
             {
                 "title": "Twitter",
@@ -175,9 +175,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": "e5-5aba-464b-8f43-bdd18966cb05.e8d6a9cd-86f3-4313-ba48-ee5f0573e0a7.jpg",
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.9f3b0177-3954-4f93-b9ba-e8ab229e54bc.png",
                 "sort": 6,
-                "answerExtra": "kalogo.jpg"
+                "answerExtra": "khanacademy.png"
             },
             {
                 "id": 15585,
@@ -267,7 +267,7 @@
         "fullName": "Albert Morozov",
         "bio": "Alberta Tech Alliance (Robotics Team)\r\nI was a part of a Robotics team as a prototype designer and information gatherer. We have\r\ncompeted internationally in China winning first place while supporting two rookie teams.\r\n\r\nhttps://calgaryherald.com/news/local-news/calgary-students-win-gold-at-china-robotics-challenge\r\n\r\nAttended World Championship in Huston where we placed fourth in our division from\r\nfive others, putting us in the top 1% ranked teams globally.\r\n\r\nCurrently taking Bachelor of Computer Information Systems at Mount Royal University. \r\nAnd I am a Founder and Lead Developer at Immediate Rent.\r\n",
         "tagLine": "Immediate Rent, Founder and Lead Developer",
-        "profilePicture": "https://sessionize.com/image?f=e40f92f9fb61971f91ce7a310d037d91,400,400,True,False,91-7239-4b54-b0dc-e5b49d51eba8.520d5fe5-11a2-4ced-83e5-23813dfeb8f5.JPG",
+        "profilePicture": "https://sessionize.com/image?f=15073d001018447e94dc59f6afe3e525,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.9475bda6-ee2f-4ed6-a1e9-5bfb429614b8.JPG",
         "sessions": [
             {
                 "id": 146849,
@@ -303,9 +303,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": "91-7239-4b54-b0dc-e5b49d51eba8.3c100c83-bb8b-4bfe-a616-3d62da527b2f.png",
+                "answer": "d6-299a-4f6b-8ae4-3eae7b5afb51.c0390fca-c534-4eaa-9a94-25935f723792.png",
                 "sort": 6,
-                "answerExtra": "logo.png"
+                "answerExtra": "immediaterent.png"
             },
             {
                 "id": 15585,
@@ -446,9 +446,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.7cb52f54-55d2-447e-9d78-ee830ceff83d.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "quizlet.png"
             },
             {
                 "id": 15585,
@@ -515,13 +515,23 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
                 "sort": 16
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
                 "sort": 17
             }
         ]
@@ -532,8 +542,8 @@
         "lastName": "kashyap",
         "fullName": "arunima kashyap",
         "bio": "Senior UX Research Manager, Google Cloud Platform ",
-        "tagLine": "Google ",
-        "profilePicture": "https://sessionize.com/image?f=d981bd875f0028ae7effac19dee4ef0c,400,400,True,False,8e-2231-42ed-bf27-0378afee1c1d.48cb131d-cc1e-4cf0-8f62-9b7b04e188ac.png",
+        "tagLine": "UX Expert. Google Manager Mentor. ",
+        "profilePicture": "https://sessionize.com/image?f=2509b6d7b7561ad5b154b500085506dd,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.65c87dae-51ef-448f-9d5e-c0b55ddae0e3.png",
         "sessions": [
             {
                 "id": 148136,
@@ -563,9 +573,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.2cc8257d-f9f6-4d81-bb44-968549840711.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "googlecloud.png"
             },
             {
                 "id": 15585,
@@ -654,8 +664,8 @@
         "lastName": "Nakaska",
         "fullName": "Ben Nakaska",
         "bio": null,
-        "tagLine": null,
-        "profilePicture": "https://sessionize.com/image?f=360e50fbd210c47bd5f639c4b2d6b09c,400,400,True,False,b4c4d75a-61b6-4dcf-8719-e84c1b97a00d.jpg",
+        "tagLine": "Director Data Science, ATB Financial",
+        "profilePicture": "https://sessionize.com/image?f=6dfbb6380dcb9b0430da518e6b74321a,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.8a51bb0f-fec4-4598-978b-bb4fd663a615.jpg",
         "sessions": [
             {
                 "id": 153627,
@@ -677,7 +687,7 @@
                 "id": 15581,
                 "question": "1. Current Organization/ Company Name",
                 "questionType": "Short_Text",
-                "answer": null,
+                "answer": "ATB Financial",
                 "sort": 4,
                 "answerExtra": null
             },
@@ -685,15 +695,15 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.bb299a91-b587-4634-a44c-3fa99d4c66a6.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "atb.png"
             },
             {
                 "id": 15585,
                 "question": "1. Home City",
                 "questionType": "Short_Text",
-                "answer": null,
+                "answer": "Calgary",
                 "sort": 7,
                 "answerExtra": null
             },
@@ -701,7 +711,7 @@
                 "id": 15586,
                 "question": "1. Nearest International Airport",
                 "questionType": "Short_Text",
-                "answer": null,
+                "answer": "YYC",
                 "sort": 8,
                 "answerExtra": null
             },
@@ -726,7 +736,12 @@
             {
                 "id": 15582,
                 "name": "1. Company Support",
-                "categoryItems": [],
+                "categoryItems": [
+                    {
+                        "id": 22893,
+                        "name": "YES"
+                    }
+                ],
                 "sort": 5
             },
             {
@@ -806,9 +821,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "d6-299a-4f6b-8ae4-3eae7b5afb51.8fea47e0-2c61-4f34-bdff-fcb1adb47343.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "hoodpackaging.png"
             },
             {
                 "id": 15585,
@@ -944,9 +959,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.7b71102e-8679-49c1-9296-28d3b902e083.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "devfesticon.png"
             },
             {
                 "id": 15585,
@@ -1077,9 +1092,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "d6-299a-4f6b-8ae4-3eae7b5afb51.0d71b327-e1fb-4e3d-8b6b-9dbb0ed87990.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "atb.png"
             },
             {
                 "id": 15585,
@@ -1200,9 +1215,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.52385475-1093-44bb-9b5d-00a739ec2588.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "atb.png"
             },
             {
                 "id": 15585,
@@ -1286,133 +1301,6 @@
         ]
     },
     {
-        "id": "59d47672-c376-43a5-a1e2-0ae565661396",
-        "firstName": "Fatima",
-        "lastName": "Silveira",
-        "fullName": "Fatima Silveira",
-        "bio": "Fatima has extensive experience in application development and solution architecture. She is passionate about all things computer (and cats)!",
-        "tagLine": "Networking + Technical Solutions Architect @ Google Cloud",
-        "profilePicture": "https://sessionize.com/image?f=239beb35ce1ee77c4b79ce8ea4b1cbbe,400,400,True,False,ebfea7b5-4262-4885-82d3-a245d5f89f8f.jpg",
-        "sessions": [
-            {
-                "id": 148197,
-                "name": "GCP Network overview"
-            },
-            {
-                "id": 148196,
-                "name": "Using GCP managed services to deploy your webapp"
-            }
-        ],
-        "isTopSpeaker": true,
-        "links": [
-            {
-                "title": "LinkedIn",
-                "url": "https://www.linkedin.com/in/fatimasilv",
-                "linkType": "LinkedIn"
-            }
-        ],
-        "questionAnswers": [
-            {
-                "id": 15580,
-                "question": "1. GitHub Profile",
-                "questionType": "Web_address",
-                "answer": null,
-                "sort": 3,
-                "answerExtra": null
-            },
-            {
-                "id": 15581,
-                "question": "1. Current Organization/ Company Name",
-                "questionType": "Short_Text",
-                "answer": null,
-                "sort": 4,
-                "answerExtra": null
-            },
-            {
-                "id": 15583,
-                "question": "1. Company Logo",
-                "questionType": "File_upload",
-                "answer": null,
-                "sort": 6,
-                "answerExtra": null
-            },
-            {
-                "id": 15585,
-                "question": "1. Home City",
-                "questionType": "Short_Text",
-                "answer": "Toronto",
-                "sort": 7,
-                "answerExtra": null
-            },
-            {
-                "id": 15586,
-                "question": "1. Nearest International Airport",
-                "questionType": "Short_Text",
-                "answer": null,
-                "sort": 8,
-                "answerExtra": null
-            },
-            {
-                "id": 15590,
-                "question": "1. Other Pronouns",
-                "questionType": "Short_Text",
-                "answer": null,
-                "sort": 2,
-                "answerExtra": null
-            },
-            {
-                "id": 17188,
-                "question": "3. Promo Video",
-                "questionType": "File_upload",
-                "answer": null,
-                "sort": 15,
-                "answerExtra": null
-            }
-        ],
-        "categories": [
-            {
-                "id": 15582,
-                "name": "1. Company Support",
-                "categoryItems": [],
-                "sort": 5
-            },
-            {
-                "id": 15584,
-                "name": "1. Pronouns",
-                "categoryItems": [
-                    {
-                        "id": 22895,
-                        "name": "SHE/HER"
-                    }
-                ],
-                "sort": 1
-            },
-            {
-                "id": 15588,
-                "name": "1. Community Code of Conduct",
-                "categoryItems": [
-                    {
-                        "id": 22899,
-                        "name": "YES"
-                    }
-                ],
-                "sort": 0
-            },
-            {
-                "id": 17259,
-                "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
-            },
-            {
-                "id": 17260,
-                "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
-            }
-        ]
-    },
-    {
         "id": "0dc29185-4958-4c6a-9ac0-a996a7be6106",
         "firstName": "Greg",
         "lastName": "Bennett",
@@ -1424,10 +1312,6 @@
             {
                 "id": 153628,
                 "name": "Google for Startups: Launch with Google"
-            },
-            {
-                "id": 153633,
-                "name": "Soft Serve # 1"
             }
         ],
         "isTopSpeaker": false,
@@ -1556,11 +1440,11 @@
     },
     {
         "id": "aabd8190-53a9-420f-9abe-e448479496fa",
-        "firstName": "Gunjan",
-        "lastName": "Kaur",
-        "fullName": "Gunjan Kaur",
+        "firstName": "GUNJAN",
+        "lastName": "KAUR",
+        "fullName": "GUNJAN KAUR",
         "bio": "Gunjan received her masters degree in Economics and Finance from the University of Alberta. After stints in social market research and FX modelling, she ventured into risk management practice at ATB. Curious about applying her machine learning skills in industry, she later joined the Artificial Intelligence guild at ATB. She led the Real Time Triggers University of Alberta-ATB AI Lab focused on utilizing cutting edge Internet of Things (IOT) methodologies to effectively and efficiently analyze ATB data streams in real time. She also participated in specialized programs at Google and Fintech research at the University of Oxford. In her most recent role, she is leading experimentation analytics for a strategic initiative aimed at increasing customer engagement. She is passionate about data wizardry and problem solving expertise to big data challenges in the financial realm, helping transform ATB to make banking work for Albertans.   \r\n",
-        "tagLine": "Director of Analytics, ATB Financial ",
+        "tagLine": "Director of Analytics",
         "profilePicture": "https://sessionize.com/image?f=3a18f0f15e4ee266c8f995a75ffe0c56,400,400,True,False,93255ae5-2a44-4c2e-ad9c-d7fc87dcfd26.jpg",
         "sessions": [
             {
@@ -1602,9 +1486,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "d6-299a-4f6b-8ae4-3eae7b5afb51.aeea4938-7cdd-4081-8e1b-2870266f82dc.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "atb.png"
             },
             {
                 "id": 15585,
@@ -1676,13 +1560,23 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
                 "sort": 16
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
                 "sort": 17
             }
         ]
@@ -1694,14 +1588,14 @@
         "fullName": "Hans Hegge",
         "bio": "In the last 12 months, both Sam Barbeau and Hans Hegge have spoken about migration in 12 cities across the US as well as in London and Paris. We are asked to talk on migrations by large consulting partners, end customers, as well by the cloud providers.  Our backgrounds in technology expand from startups in mobile to corporating training of enterprise teams. We like to keep our session interactive and open for dialog.  ",
         "tagLine": "Flexera Channel Account Manager",
-        "profilePicture": "https://sessionize.com/image?f=8ed48128883f1229271cb693eed7dc2d,400,400,True,False,07-2823-4996-9bc7-947ac04bb095.3642c242-6dc8-4628-8148-acd62ac1df57.png",
+        "profilePicture": "https://sessionize.com/image?f=f4626d098b3cf60e3fa5209faf37d4d3,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.ffb91cb4-e59f-4974-9296-39634db1bfc3.jpeg",
         "sessions": [
             {
                 "id": 147801,
                 "name": "Mission Migration: Billions of Connections. Thousands of Dependencies. Migration in 3...2..1. "
             }
         ],
-        "isTopSpeaker": false,
+        "isTopSpeaker": true,
         "links": [
             {
                 "title": "LinkedIn",
@@ -1740,9 +1634,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": "07-2823-4996-9bc7-947ac04bb095.3bac6cf0-1fe8-4f8a-b69c-32d65794c1ac.png",
+                "answer": "d6-299a-4f6b-8ae4-3eae7b5afb51.5c8a3ca0-f7ef-41eb-894c-0c7b81159472.png",
                 "sort": 6,
-                "answerExtra": "Flexera Logo.png"
+                "answerExtra": "flexerabetter.png"
             },
             {
                 "id": 15585,
@@ -1870,9 +1764,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.f44aad80-0d06-4a8e-9e50-8dd2fb8af8e1.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "devfesticon.png"
             },
             {
                 "id": 15585,
@@ -1964,7 +1858,7 @@
                 "name": "Building Scalable Oil and Gas Systems on GCP"
             }
         ],
-        "isTopSpeaker": true,
+        "isTopSpeaker": false,
         "links": [
             {
                 "title": "LinkedIn",
@@ -2097,7 +1991,7 @@
                 "name": "A non-dev, in a dev world"
             }
         ],
-        "isTopSpeaker": true,
+        "isTopSpeaker": false,
         "links": [
             {
                 "title": "LinkedIn",
@@ -2131,9 +2025,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": "b5-cb34-4bb2-b81e-d522e65009e6.bb6f0f2e-3a21-45bc-a0aa-325798b18674.jpg",
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.87010496-eabb-4743-ac1b-1ed94282612c.png",
                 "sort": 6,
-                "answerExtra": "atb-logo.jpg"
+                "answerExtra": "atb.png"
             },
             {
                 "id": 15585,
@@ -2223,7 +2117,7 @@
         "fullName": "Kayode Otegbeye",
         "bio": "Kay is strong and certified Google Cloud Trainer/Educator and a G Suite Deployment Specialist. Owing to his strong ability to integrate Technology with Business, he drives businesses by engaging clients and helping them achieve bottom line results. He also has an interest for Google Cloud platform and one of his areas of interest is the Google Maps. He is the convener of the Local Guide Community in Calgary.",
         "tagLine": "Cloud Evangelist | Technology Enthusiast | Management Consultant ",
-        "profilePicture": "https://sessionize.com/image?f=9ac8754c2384709682e9ea2c4124bca5,400,400,True,False,64-bed6-4995-92b5-15865c0485a1.796afff3-5c19-499e-b957-bdf7d3751140.jpg",
+        "profilePicture": "https://sessionize.com/image?f=3f3e69d99dbe262bdb39bb9e578688fb,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.f163f34e-ca3b-4f3f-8706-f16f05ede94c.jpg",
         "sessions": [
             {
                 "id": 144610,
@@ -2259,9 +2153,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.3c200e7f-f481-41c6-ad05-fe3c9073c43f.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "devfesticon.png"
             },
             {
                 "id": 15585,
@@ -2388,7 +2282,7 @@
                 "id": 15581,
                 "question": "1. Current Organization/ Company Name",
                 "questionType": "Short_Text",
-                "answer": null,
+                "answer": "Women Techmakers",
                 "sort": 4,
                 "answerExtra": null
             },
@@ -2396,9 +2290,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.ccb3b476-fe45-49e9-8da6-768f9f195f1d.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "womentechmakers.png"
             },
             {
                 "id": 15585,
@@ -2482,7 +2376,7 @@
         "lastName": "Paul",
         "fullName": "Kyle Paul",
         "bio": "Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).",
-        "tagLine": "North America Regional Lead @ Google",
+        "tagLine": "North America Regional Lead @ Google Developer Relations",
         "profilePicture": "https://sessionize.com/image?f=9e4dc516380c97b079356a62040482c0,400,400,True,False,0e-032e-4a48-9f0c-e73b1318242b.0a907416-9c5f-42fe-b07c-c224824b5b10.jpg",
         "sessions": [
             {
@@ -2490,16 +2384,8 @@
                 "name": "Supercharging your applications with Cloud Functions"
             },
             {
-                "id": 139721,
-                "name": "What are Progressive Web Apps and How do they work?"
-            },
-            {
                 "id": 139722,
                 "name": "Actions on Google: Are you prepared for the next type of search?"
-            },
-            {
-                "id": 139724,
-                "name": "Serverless Applications with Firebase"
             }
         ],
         "isTopSpeaker": true,
@@ -2669,9 +2555,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": "9f-a762-47a4-bed2-2d0f52b22a25.8bd4e59c-2c96-479d-87e8-57cf11dbb660.png",
+                "answer": "d6-299a-4f6b-8ae4-3eae7b5afb51.61ff602d-7e08-4348-b438-f71a97d1d6d3.png",
                 "sort": 6,
-                "answerExtra": "logo1.png"
+                "answerExtra": "altaML.png"
             },
             {
                 "id": 15585,
@@ -2750,13 +2636,161 @@
         ]
     },
     {
+        "id": "70a54dce-8cb0-4a6d-b3ba-db930e784a30",
+        "firstName": "Michael",
+        "lastName": "Murphy",
+        "fullName": "Michael Murphy",
+        "bio": "Details incoming",
+        "tagLine": "Used to be googley now I like Ice Cream.  Solution Architect operating in a cloud world",
+        "profilePicture": "https://sessionize.com/image?f=b2862189dadb96a8d653b85c6efa2c86,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.0f019c04-32e8-40f3-9991-36f1e43d6584.jpeg",
+        "sessions": [
+            {
+                "id": 157996,
+                "name": "Drive Innovation: Reimagine Hybrid and Multi-Cloud Architecture with Anthos"
+            }
+        ],
+        "isTopSpeaker": true,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/thweetch",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michael-murphy-1a409021/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Company Website",
+                "url": "https://www.softserveinc.com/en-us/",
+                "linkType": "Company_Website"
+            }
+        ],
+        "questionAnswers": [
+            {
+                "id": 15580,
+                "question": "1. GitHub Profile",
+                "questionType": "Web_address",
+                "answer": "https://github.com/Twitch0815",
+                "sort": 3,
+                "answerExtra": null
+            },
+            {
+                "id": 15581,
+                "question": "1. Current Organization/ Company Name",
+                "questionType": "Short_Text",
+                "answer": "SoftServe",
+                "sort": 4,
+                "answerExtra": null
+            },
+            {
+                "id": 15583,
+                "question": "1. Company Logo",
+                "questionType": "File_upload",
+                "answer": "d6-299a-4f6b-8ae4-3eae7b5afb51.f24389a0-e3e1-46c2-b256-7460e98a6f22.png",
+                "sort": 6,
+                "answerExtra": "softserve.png"
+            },
+            {
+                "id": 15585,
+                "question": "1. Home City",
+                "questionType": "Short_Text",
+                "answer": "Mcallen",
+                "sort": 7,
+                "answerExtra": null
+            },
+            {
+                "id": 15586,
+                "question": "1. Nearest International Airport",
+                "questionType": "Short_Text",
+                "answer": "MFM",
+                "sort": 8,
+                "answerExtra": null
+            },
+            {
+                "id": 15590,
+                "question": "1. Other Pronouns",
+                "questionType": "Short_Text",
+                "answer": null,
+                "sort": 2,
+                "answerExtra": null
+            },
+            {
+                "id": 17188,
+                "question": "3. Promo Video",
+                "questionType": "File_upload",
+                "answer": null,
+                "sort": 15,
+                "answerExtra": null
+            }
+        ],
+        "categories": [
+            {
+                "id": 15582,
+                "name": "1. Company Support",
+                "categoryItems": [
+                    {
+                        "id": 22893,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 5
+            },
+            {
+                "id": 15584,
+                "name": "1. Pronouns",
+                "categoryItems": [
+                    {
+                        "id": 22896,
+                        "name": "HE/HIM"
+                    }
+                ],
+                "sort": 1
+            },
+            {
+                "id": 15588,
+                "name": "1. Community Code of Conduct",
+                "categoryItems": [
+                    {
+                        "id": 22899,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 0
+            },
+            {
+                "id": 17259,
+                "name": "3. Meet the Experts",
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 16
+            },
+            {
+                "id": 17260,
+                "name": "3. Podcast",
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 17
+            }
+        ]
+    },
+    {
         "id": "43c5edcb-a11a-49cd-bb46-e5663e884924",
         "firstName": "Mike",
         "lastName": "Hoff",
         "fullName": "Mike Hoff",
         "bio": "Over 30 years of experience finding, getting, and losing IT jobs in Alberta",
         "tagLine": "Mike Hoff",
-        "profilePicture": "https://sessionize.com/image?f=8742fe28ef34aefb7fdafc1f2c3a219c,400,400,True,False,a176fbcb-a610-4c12-b079-ca06ebcede57.jpg",
+        "profilePicture": "https://sessionize.com/image?f=e6bdceec92fd31087957548c5dbbedb2,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.7a3fb3f7-74e6-4298-8450-6c51fec9be2f.jpg",
         "sessions": [
             {
                 "id": 146826,
@@ -2786,9 +2820,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "d6-299a-4f6b-8ae4-3eae7b5afb51.9fde00f6-ff52-4b25-9d38-3e09fd33eab1.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "01 DEVFEST Icon.png"
             },
             {
                 "id": 15585,
@@ -2929,9 +2963,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.7397e34a-4318-4ee7-a813-385181300258.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "instaflyme.png"
             },
             {
                 "id": 15585,
@@ -3023,7 +3057,7 @@
                 "name": "Up and Running with Progressive Web Apps"
             }
         ],
-        "isTopSpeaker": false,
+        "isTopSpeaker": true,
         "links": [
             {
                 "title": "Twitter",
@@ -3062,9 +3096,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.c45fcabd-7a6d-4fb4-94ef-96ef63d5623d.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "udacity.png"
             },
             {
                 "id": 15585,
@@ -3147,9 +3181,9 @@
         "firstName": "Ryker",
         "lastName": "Rumsey",
         "fullName": "Ryker Rumsey",
-        "bio": "I am robot.",
-        "tagLine": "Peon @ Spawnd Corporation",
-        "profilePicture": "https://sessionize.com/image?f=2cc8bdebed15955a0db468ab7ede40c4,400,400,True,False,6e254d51-2526-430c-b673-5fdd0c4e6fa7.jpg",
+        "bio": "Adept at designing digital solutions using the latest technology. Self-starter that requires little to no supervision on important tasks. Great team player that is eager to mentor and willing to ask questions. Extremely persistent while working through tough problems to meet strict deadlines. ",
+        "tagLine": "Develop. Cloud. Backend. ",
+        "profilePicture": "https://sessionize.com/image?f=82879b9dbebc0713860360324726315f,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.f21c6157-5863-44a4-81e4-e3584a513f08.jpeg",
         "sessions": [
             {
                 "id": 140601,
@@ -3179,9 +3213,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.8a740616-848b-446e-9c67-1a259144f906.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "devfesticon.png"
             },
             {
                 "id": 15585,
@@ -3266,7 +3300,7 @@
         "fullName": "Sam Barbeau",
         "bio": "Working with some of the leading cloud solutions technologies to bring more efficient and successful migrations through to cloud. ",
         "tagLine": "Cloud Solutions Engineer - Flexera",
-        "profilePicture": "https://sessionize.com/image?f=0f92d35786154c4d71df63ba68f05dd7,400,400,True,False,9f-5466-4d91-8599-6419522e6b1b.45e7bc46-f07e-4dfe-8fd6-cc146002c458.png",
+        "profilePicture": "https://sessionize.com/image?f=0bfefcfc231dbca42342b6721cd180f6,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.459e154b-d59f-43e7-aa9a-fc15c25790d9.png",
         "sessions": [
             {
                 "id": 147801,
@@ -3296,9 +3330,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.859c4198-163b-432b-91bd-f477653384a6.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "flexera.png"
             },
             {
                 "id": 15585,
@@ -3447,9 +3481,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.dbee4367-1b77-481e-8bc9-d49911aa585b.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "fluttercommunity.png"
             },
             {
                 "id": 15585,
@@ -3580,9 +3614,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.cf8f238d-b9f0-4540-b95d-b12ad5df756f.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "googlecloud.png"
             },
             {
                 "id": 15585,
@@ -3667,14 +3701,14 @@
         "fullName": "Suni Mathews",
         "bio": "I am data wrangler with ATB\u2019s Innovation team, enabling AI and ML for future business models, products and experiences in ATB.  My career in data analytics has seen me explore the various areas of data engineering to gain a wholesome appreciation for  data driven decision making.  My career of many years cover analysis, integration, business intelligence and architecture of data systems.  Currently, I\u2019m keenly following the data sciences and cloud engineering trends for innovative solutions.",
         "tagLine": "Data Engineer",
-        "profilePicture": "https://sessionize.com/image?f=7a134da4528b73fe08a3050b81d8aed7,400,400,True,False,87-d529-4374-ab9d-9c4cd7e638e5.deb8541d-436e-4165-8589-b78f5c9974fb.png",
+        "profilePicture": "https://sessionize.com/image?f=596e5115ae7f24e360c430e2d2c25ffa,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.1d8342db-7eae-4a8f-93f6-8f8fca68466b.png",
         "sessions": [
             {
                 "id": 147368,
                 "name": "Serverless Data Lake"
             }
         ],
-        "isTopSpeaker": true,
+        "isTopSpeaker": false,
         "links": [],
         "questionAnswers": [
             {
@@ -3689,7 +3723,7 @@
                 "id": 15581,
                 "question": "1. Current Organization/ Company Name",
                 "questionType": "Short_Text",
-                "answer": "ATB Financials",
+                "answer": "ATB Financial",
                 "sort": 4,
                 "answerExtra": null
             },
@@ -3697,9 +3731,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.c3d550b7-115c-4d4c-89dd-138e91da0c37.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "atb.png"
             },
             {
                 "id": 15585,
@@ -3932,7 +3966,7 @@
         "fullName": "Ted Edmonds",
         "bio": "TBD",
         "tagLine": "Deep Learning Fellowship Co-founder",
-        "profilePicture": "https://sessionize.com/image?f=7c3c0e42fea7c956346001f88e8d9c87,400,400,True,False,22-a9f6-4419-a648-3c603f6e5c64.7a1946db-5e3c-49eb-a26a-82a3586d1113.jpeg",
+        "profilePicture": "https://sessionize.com/image?f=8cfb4da2498b6b7e2be61095797e50ee,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.feaeac1e-b2b6-46b2-9c94-096feafd3b29.jpeg",
         "sessions": [
             {
                 "id": 147669,
@@ -3966,9 +4000,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.5f71d6d7-f7dc-4cd4-9869-2e917bf6d18f.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "devfesticon.png"
             },
             {
                 "id": 15585,
@@ -4089,9 +4123,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.4a51ae48-f408-4d65-8010-30445e7f6811.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "untappedenergy.png"
             },
             {
                 "id": 15585,
@@ -4170,6 +4204,154 @@
         ]
     },
     {
+        "id": "86fb396d-cbb0-44b6-a4b6-995042fd90dc",
+        "firstName": "Wellington",
+        "lastName": "Holbrook",
+        "fullName": "Wellington Holbrook",
+        "bio": "ATB\u2019s chief transformation officer, Wellington Holbrook, has a big mandate: to reimagine the future of banking and make sure that customers are at the centre of everything ATB does. In order to achieve this, Wellington has set ATB on a rapid course of digital transformation which has attracted an allstar team of technology and innovation leaders. Since beginning this process in September 2016 ATB has been recognized as an emerging tech leader in financial services by global giants like Google and IBM. Wellington has spent almost 25 years making banking work for people with his goal to make a positive impact on the world.\r\n",
+        "tagLine": "Chief Transformation Officer- ATB Financial",
+        "profilePicture": "https://sessionize.com/image?f=10b9a65a0f56a5d1392b93c2a5420cad,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.85780038-1bfb-4343-a255-6935f2293559.jpg",
+        "sessions": [
+            {
+                "id": 158366,
+                "name": "Transform Banking with Google"
+            }
+        ],
+        "isTopSpeaker": true,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/Wellington_ATB",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "Blog",
+                "url": "https://alphabeta.atb.com/",
+                "linkType": "Blog"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/wellingtonholbrook",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Company Website",
+                "url": "https://alphabeta.atb.com",
+                "linkType": "Company_Website"
+            }
+        ],
+        "questionAnswers": [
+            {
+                "id": 15580,
+                "question": "1. GitHub Profile",
+                "questionType": "Web_address",
+                "answer": null,
+                "sort": 3,
+                "answerExtra": null
+            },
+            {
+                "id": 15581,
+                "question": "1. Current Organization/ Company Name",
+                "questionType": "Short_Text",
+                "answer": null,
+                "sort": 4,
+                "answerExtra": null
+            },
+            {
+                "id": 15583,
+                "question": "1. Company Logo",
+                "questionType": "File_upload",
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.3658c3a2-1c15-48fe-9b60-ae2a64b509ab.png",
+                "sort": 6,
+                "answerExtra": "atb.png"
+            },
+            {
+                "id": 15585,
+                "question": "1. Home City",
+                "questionType": "Short_Text",
+                "answer": "Calgary",
+                "sort": 7,
+                "answerExtra": null
+            },
+            {
+                "id": 15586,
+                "question": "1. Nearest International Airport",
+                "questionType": "Short_Text",
+                "answer": null,
+                "sort": 8,
+                "answerExtra": null
+            },
+            {
+                "id": 15590,
+                "question": "1. Other Pronouns",
+                "questionType": "Short_Text",
+                "answer": null,
+                "sort": 2,
+                "answerExtra": null
+            },
+            {
+                "id": 17188,
+                "question": "3. Promo Video",
+                "questionType": "File_upload",
+                "answer": null,
+                "sort": 15,
+                "answerExtra": null
+            }
+        ],
+        "categories": [
+            {
+                "id": 15582,
+                "name": "1. Company Support",
+                "categoryItems": [],
+                "sort": 5
+            },
+            {
+                "id": 15584,
+                "name": "1. Pronouns",
+                "categoryItems": [
+                    {
+                        "id": 22896,
+                        "name": "HE/HIM"
+                    }
+                ],
+                "sort": 1
+            },
+            {
+                "id": 15588,
+                "name": "1. Community Code of Conduct",
+                "categoryItems": [
+                    {
+                        "id": 22899,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 0
+            },
+            {
+                "id": 17259,
+                "name": "3. Meet the Experts",
+                "categoryItems": [
+                    {
+                        "id": 30706,
+                        "name": "NO"
+                    }
+                ],
+                "sort": 16
+            },
+            {
+                "id": 17260,
+                "name": "3. Podcast",
+                "categoryItems": [
+                    {
+                        "id": 30707,
+                        "name": "NO"
+                    }
+                ],
+                "sort": 17
+            }
+        ]
+    },
+    {
         "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",
         "firstName": "Xueming",
         "lastName": "Zhao",
@@ -4183,7 +4365,7 @@
                 "name": "Streaming Data Pipelines: Creating Next Gen Banking Analytics"
             }
         ],
-        "isTopSpeaker": false,
+        "isTopSpeaker": true,
         "links": [],
         "questionAnswers": [
             {
@@ -4206,9 +4388,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": null,
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.9ecf33a9-3dac-4e61-87af-aab7cbace7f1.png",
                 "sort": 6,
-                "answerExtra": null
+                "answerExtra": "atb.png"
             },
             {
                 "id": 15585,
