@@ -1,7 +1,7 @@
 {
     "Aakanksha_Parameshwar": {
         "company": "Google",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/googlecloud.png"
     },
     "Adam_Berkan": {
         "company": "Khan Academy",
@@ -13,7 +13,7 @@
     },
     "Amol_Deshmukh": {
         "company": "Quizlet Inc.",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/quixlet.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/quizlet.png"
     },
     "arunima_kashyap": {
         "company": "Google Cloud",
@@ -33,11 +33,11 @@
     },
     "Cleo_Espiritu": {
         "company": "",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/googledeveloperexperts.png"
     },
     "Eddy_Beals": {
         "company": "ATB Financial",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/googledeveloperexperts.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/atb.png"
     },
     "Greg_Bennett": {
         "company": "AIRIA Cloud",
@@ -69,7 +69,7 @@
     },
     "Kiley_Carson": {
         "company": "Women Techmakers",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/womentechmaker.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/womentechmakers.png"
     },
     "Kyle_Paul": {
         "company": "Google",
