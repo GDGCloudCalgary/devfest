@@ -4,55 +4,87 @@
             "logos": [
                 {
                     "order": 0,
-                    "logoUrl": "../images/logos/gde01.png",
+                    "logoUrl": "../images/logos/gde.png",
                     "name": "Google Developer Experts",
                     "url": "https://developers.google.com/experts/"
+                },
+                {
+                    "order": 1,
+                    "logoUrl": "../images/logos/untappedenergy.png",
+                    "name": "UnTapped Energy",
+                    "url": "https://www.meetup.com/untappedenergy/"
+                },
+                {
+                    "order": 2,
+                    "logoUrl": "../images/logos/womentechmakers.png",
+                    "name": "Women Techmakers",
+                    "url": "https://www.womentechmakers.com/"
+                },
+                {
+                    "order": 3,
+                    "logoUrl": "../images/logos/googlecloudforstartups.png",
+                    "name": "Google Cloud for Startups",
+                    "url": "https://cloud.google.com/developers/startups/"
+                },
+                {
+                    "order": 4,
+                    "logoUrl": "../images/logos/googlecloudcertification.png",
+                    "name": "Google Cloud Certification",
+                    "url": "https://cloud.google.com/certification/"
+                },
+                {
+                    "order": 5,
+                    "logoUrl": "Developer Student Clubs",
+                    "url": "https://developers.google.com/community/dsc/"
                 }
+                
             ],
+            
             "order": 0,
-            "title": "Template Creator"
+            "title": "Community Partners"
         },
         {
             "logos": [
                 {
                     "order": 0,
-                    "logoUrl": "../images/logos/google.svg",
-                    "name": "Google",
-                    "url": "https://www.google.com.ua/intl/en/about/"
+                    "logoUrl": "../images/logos/googledevelopers.png",
+                    "name": "Google Developers",
+                    "url": "https://developers.google.com/"
                 },
+                {
+                    "order": 0,
+                    "logoUrl": "../images/logos/gde.png",
+                    "name": "Google Developer Experts",
+                    "url": "https://developers.google.com/experts/"
+                }
+            ],
                 {
                     "order": 1,
-                    "logoUrl": "../images/logos/qwiklabs.png",
-                    "name": "Qwiklabs",
-                    "url": "https://www.qwiklabs.com/"
-                },
-                {
-                    "order": 2,
-                    "logoUrl": "../images/logos/gdg-x.svg",
-                    "name": "GDG[x]",
-                    "url": "https://github.com/gdg-x"
+                    "logoUrl": "../images/logos/softserve.png",
+                    "name": "SoftServe",
+                    "url": "https://www.softserveinc.com/en-us/"
                 },
                 {
                     "order": 3,
-                    "logoUrl": "../images/logos/wtm.png",
-                    "name": "Women Techmakers",
-                    "url": "https://www.womentechmakers.com/"
+                    "logoUrl": "../images/logos/atb.png",
+                    "name": "ATB Financial",
+                    "url": "https://alphabeta.atb.com/"
                 },
                 {
-                    "order": 4,
+                    "order": 5,
                     "logoUrl": "../images/logos/airia.png",
                     "name": "AIRIA Cloud",
                     "url": "https://www.airia.cloud/"
                 },
                 {
                     "order": 5,
-                    "logoUrl": "../images/logos/albertabikeswap.png",
-                    "name": "Alberta Bikeswap",
-                    "url": "http://albertabikeswap.ca"
+                    "logoUrl": "../images/logos/sessionize.png",
+                    "name": "Sessionize",
+                    "url": "https://sessionize.com/"
                 }
             ],
             "order": 1,
-            "title": "General Partner"
+            "title": "Sponsors"
         }
     ]
 
