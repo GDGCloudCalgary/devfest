@@ -242,22 +242,22 @@
                     "sessions": [
                         {
                             "items": [
-                                200
-                            ]
-                        },
-                        {
-                            "items": [
                                 500
                             ]
                         },
                         {
                             "items": [
-                                400
+                                600
                             ]
                         },
                         {
                             "items": [
-                                600
+                                200
+                            ]
+                        },
+                        {
+                            "items": [
+                                400
                             ]
                         }
                     ],
@@ -345,7 +345,7 @@
                     "sessions": [
                         {
                             "items": [
-                                144896
+                                153627
                             ]
                         }
                     ],
@@ -356,7 +356,7 @@
                     "sessions": [
                         {
                             "items": [
-                                153627
+                                144896
                             ]
                         }
                     ],
@@ -546,22 +546,22 @@
                     "sessions": [
                         {
                             "items": [
-                                1300
-                            ]
-                        },
-                        {
-                            "items": [
                                 900
                             ]
                         },
                         {
                             "items": [
-                                1400
+                                1700
                             ]
                         },
                         {
                             "items": [
-                                1700
+                                1300
+                            ]
+                        },
+                        {
+                            "items": [
+                                1400
                             ]
                         }
                     ],
@@ -1622,7 +1622,8 @@
                     "name": "LinkedIn"
                 }
             ],
-            "company": "Google"
+            "company": "Google",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/googlecloud.png"
         },
         "Adam_Berkan": {
             "name": "Adam Berkan",
@@ -1641,7 +1642,8 @@
                 },
                 {}
             ],
-            "company": "Khan Academy"
+            "company": "Khan Academy",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/khanacademy.png"
         },
         "Albert_Morozov": {
             "name": "Albert Morozov",
@@ -1655,7 +1657,8 @@
             "socials": [
                 {}
             ],
-            "company": "Immediate Rent"
+            "company": "Immediate Rent",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/immediaterent.png"
         },
         "Amol_Deshmukh": {
             "name": "Amol Deshmukh",
@@ -1674,7 +1677,8 @@
                 },
                 {}
             ],
-            "company": "Quizlet Inc."
+            "company": "Quizlet Inc.",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/quizlet.png"
         },
         "arunima_kashyap": {
             "name": "arunima kashyap",
@@ -1686,7 +1690,8 @@
             "photoUrl": "https://www.devfestyyc.com/images/people/arunima.kashyap.png",
             "featured": true,
             "socials": [],
-            "company": "Google Cloud"
+            "company": "Google Cloud",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/googlecloud.png"
         },
         "Ben_Nakaska": {
             "name": "Ben Nakaska",
@@ -1698,7 +1703,8 @@
             "photoUrl": "https://www.devfestyyc.com/images/people/ben.nakaska.png",
             "featured": false,
             "socials": [],
-            "company": "ATB Financial"
+            "company": "ATB Financial",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Boyang_Zhang": {
             "name": "Boyang Zhang",
@@ -1710,7 +1716,8 @@
             "photoUrl": "https://www.devfestyyc.com/images/people/boyang.zhang.png",
             "featured": true,
             "socials": [],
-            "company": "Hood Pkg Corp"
+            "company": "Hood Pkg Corp",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/hoodpackaging.png"
         },
         "Charlie_Cheung": {
             "name": "Charlie Cheung",
@@ -1729,7 +1736,8 @@
                 },
                 {}
             ],
-            "company": "N/A"
+            "company": "N/A",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/devfesticon.png"
         },
         "Cleo_Espiritu": {
             "name": "Cleo Espiritu",
@@ -1748,7 +1756,8 @@
                 },
                 {}
             ],
-            "company": ""
+            "company": "",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/googledeveloperexperts.png"
         },
         "Eddy_Beals": {
             "name": "Eddy Beals",
@@ -1766,7 +1775,8 @@
                     "name": "LinkedIn"
                 }
             ],
-            "company": "ATB Financial"
+            "company": "ATB Financial",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Greg_Bennett": {
             "name": "Greg Bennett",
@@ -1790,7 +1800,8 @@
                 },
                 {}
             ],
-            "company": "AIRIA Cloud"
+            "company": "AIRIA Cloud",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/airia.png"
         },
         "GUNJAN_KAUR": {
             "name": "GUNJAN KAUR",
@@ -1809,7 +1820,8 @@
                 },
                 {}
             ],
-            "company": "ATB Financial"
+            "company": "ATB Financial",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Hans_Hegge": {
             "name": "Hans Hegge",
@@ -1829,7 +1841,8 @@
                 {},
                 {}
             ],
-            "company": "Flexera (RISC Networks)"
+            "company": "Flexera (RISC Networks)",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/flexera.png"
         },
         "Jay_Krish": {
             "name": "Jay Krish",
@@ -1841,7 +1854,8 @@
             "photoUrl": "https://www.devfestyyc.com/images/people/jay.krish.png",
             "featured": true,
             "socials": [],
-            "company": ""
+            "company": "",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/devfesticon.png"
         },
         "Josh_Fafard": {
             "name": "Josh Fafard",
@@ -1860,7 +1874,8 @@
                 },
                 {}
             ],
-            "company": "Akin\u00ea Inc."
+            "company": "Akin\u00ea Inc.",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/akine.png"
         },
         "Katie_Murray": {
             "name": "Katie Murray",
@@ -1879,7 +1894,8 @@
                 },
                 {}
             ],
-            "company": "ATB Financial"
+            "company": "ATB Financial",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Kayode_Otegbeye": {
             "name": "Kayode Otegbeye",
@@ -1897,7 +1913,8 @@
                     "name": "LinkedIn"
                 }
             ],
-            "company": ""
+            "company": "",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/devfesticon.png"
         },
         "Kiley_Carson": {
             "name": "Kiley Carson",
@@ -1920,7 +1937,8 @@
                     "name": "LinkedIn"
                 }
             ],
-            "company": "Women Techmakers"
+            "company": "Women Techmakers",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/womentechmakers.png"
         },
         "Kyle_Paul": {
             "name": "Kyle Paul",
@@ -1944,7 +1962,8 @@
                 },
                 {}
             ],
-            "company": "Google"
+            "company": "Google",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/googledevelopers.png"
         },
         "Lucas_Scheer": {
             "name": "Lucas Scheer",
@@ -1958,7 +1977,8 @@
             "socials": [
                 {}
             ],
-            "company": "AltaML"
+            "company": "AltaML",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/altaml.png"
         },
         "Michael_Murphy": {
             "name": "Michael Murphy",
@@ -1982,19 +2002,21 @@
                 },
                 {}
             ],
-            "company": "SoftServe"
+            "company": "SoftServe",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/softserve.png"
         },
         "Mike_Hoff": {
             "name": "Mike Hoff",
             "bio": "Over 30 years of experience finding, getting, and losing IT jobs in Alberta",
-            "shortBio": "Mike Hoff",
-            "title": "Mike Hoff",
+            "shortBio": "Disaster Recovery",
+            "title": "Disaster Recovery",
             "order": "22",
             "photo": "/images/people/mike.hoff.png",
             "photoUrl": "https://www.devfestyyc.com/images/people/mike.hoff.png",
             "featured": false,
             "socials": [],
-            "company": "GDG Calgary"
+            "company": "GDG Calgary",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/gdgyyc.png"
         },
         "Mohamed_Ibrahim": {
             "name": "Mohamed Ibrahim",
@@ -2019,7 +2041,8 @@
                 {},
                 {}
             ],
-            "company": "Barkal Tech"
+            "company": "Instafly.me",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/instaflyme.png"
         },
         "Neel_Kirit": {
             "name": "Neel Kirit",
@@ -2043,7 +2066,8 @@
                 },
                 {}
             ],
-            "company": "RIT "
+            "company": "Udacity",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/udacity.png"
         },
         "Ryker_Rumsey": {
             "name": "Ryker Rumsey",
@@ -2055,7 +2079,8 @@
             "photoUrl": "https://www.devfestyyc.com/images/people/ryker.rumsey.png",
             "featured": false,
             "socials": [],
-            "company": ""
+            "company": "",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/devfesticon.png"
         },
         "Sam_Barbeau": {
             "name": "Sam Barbeau",
@@ -2067,7 +2092,8 @@
             "photoUrl": "https://www.devfestyyc.com/images/people/sam.barbeau.png",
             "featured": false,
             "socials": [],
-            "company": "Flexera"
+            "company": "Flexera",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/flexera.png"
         },
         "Scott_Stoll": {
             "name": "Scott Stoll",
@@ -2090,7 +2116,8 @@
                     "name": "LinkedIn"
                 }
             ],
-            "company": "Flutter Community"
+            "company": "Flutter Community",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/fluttercommunity.png"
         },
         "Shaun_Mitchell": {
             "name": "Shaun Mitchell",
@@ -2113,7 +2140,8 @@
                     "name": "LinkedIn"
                 }
             ],
-            "company": "N/A"
+            "company": "Google Cloud",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/googlecloud.png"
         },
         "Suni_Mathews": {
             "name": "Suni Mathews",
@@ -2125,7 +2153,8 @@
             "photoUrl": "https://www.devfestyyc.com/images/people/suni.mathews.png",
             "featured": false,
             "socials": [],
-            "company": "ATB Financial"
+            "company": "ATB Financial",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Suryatapa_Roy": {
             "name": "Suryatapa Roy",
@@ -2144,7 +2173,8 @@
                 },
                 {}
             ],
-            "company": "CHATA.AI"
+            "company": "CHATA.AI",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/chata.ai.png"
         },
         "Ted_Edmonds": {
             "name": "Ted Edmonds",
@@ -2156,7 +2186,8 @@
             "photoUrl": "https://www.devfestyyc.com/images/people/ted.edmonds.png",
             "featured": true,
             "socials": [],
-            "company": ""
+            "company": "",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/gdgyyc.png"
         },
         "Tim_Chan": {
             "name": "Tim Chan",
@@ -2170,7 +2201,8 @@
             "socials": [
                 {}
             ],
-            "company": ""
+            "company": "",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/untappedenergy.png"
         },
         "Wellington_Holbrook": {
             "name": "Wellington Holbrook",
@@ -2195,7 +2227,8 @@
                 },
                 {}
             ],
-            "company": ""
+            "company": "",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Xueming_Zhao": {
             "name": "Xueming Zhao",
@@ -2207,7 +2240,8 @@
             "photoUrl": "https://www.devfestyyc.com/images/people/xueming.zhao.png",
             "featured": true,
             "socials": [],
-            "company": "ATB Financial"
+            "company": "ATB Financial",
+            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
         }
     },
     "team": [
@@ -2792,7 +2826,7 @@
         "Suryatapa_Roy": {
             "bio": "Recently graduated research assistant working on Artificial Intelligence (AI) for Virtual Reality (VR). Works as a Technology Coach and Unity Instructor/Developer. Passionate about developing  futuristic applications for the present.",
             "company": "",
-            "companyLogo": "https://www.https://simplestepstech.wordpress.com/",
+            "companyLogo": "",
             "companyLogoUrl": "",
             "country": "Canada",
             "featured": true,

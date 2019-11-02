@@ -54,6 +54,7 @@ def get_sessionize_json(url):
   return body
 
 people_image_path = "../images/people/"
+logos_image_path = "../images/logos/"
 sessionize_speakers_url = "https://sessionize.com/api/v2/lo4pjfv9/view/Speakers"
 sessionize_speakers_wall_url  = "https://sessionize.com/api/v2/lo4pjfv9/view/SpeakerWall"
 sessions_url  = "https://sessionize.com/api/v2/lo4pjfv9/view/Sessions"
@@ -371,13 +372,32 @@ def insert_speaker(speakers, speaker_wall):
             reference_speaker_info['company'] = q['answer']
           else:
             reference_speaker_info['company'] = ''
-
     speaker_company_logos[name_key]["company"] =  reference_speaker_info['company']
     speaker_company_logos[name_key]["companyLogo"] = "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     speakers_reference[name_key] = reference_speaker_info
   return speakers_reference, speaker_company_logos
 
+def overwrite_companyinfo(speaker_det, download_images=False):
+  if os.path.exists("../docs/speaker_company_details.json"):
+    dets, cls = read_json("../docs/speaker_company_details.json")
+    for speaker, details in dets.items():
+      if speaker in speaker_det.keys():
+        speaker_det[speaker]["company"] = details["company"]
+
+        logourl = details["companyLogo"]
+        if download_images == False:
+          imagename = logourl.split("/")[-1]
+        else:
+          imagename = logourl.split("/")[-1]
+          save_profile_pic(logos_image_path, imagename, logourl)
+
+        logourl = 'https://www.devfestyyc.com/images/logos/' + imagename
+        speaker_det[speaker]["companyLogo"] = logourl
+    return speaker_det
+
+
 speaker_det, comp_det = insert_speaker(speakers, speaker_wall)
+speaker_det = overwrite_companyinfo(speaker_det, download_images=False)
 data["speakers"] = speaker_det
 
 ################################################################################# SAVE NEW FILE ###########################################################################################3

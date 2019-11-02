@@ -1,11 +1,11 @@
 {
     "Aakanksha_Parameshwar": {
         "company": "Google",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/googlecloud.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "Adam_Berkan": {
         "company": "Khan Academy",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/khanacademy.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "Albert_Morozov": {
         "company": "Immediate Rent",
@@ -13,15 +13,15 @@
     },
     "Amol_Deshmukh": {
         "company": "Quizlet Inc.",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/quizlet.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "arunima_kashyap": {
         "company": "Google Cloud",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/googlecloud.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "Ben_Nakaska": {
         "company": "ATB Financial",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/atb_financial.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "Boyang_Zhang": {
         "company": "Hood Pkg Corp",
@@ -37,7 +37,7 @@
     },
     "Eddy_Beals": {
         "company": "ATB Financial",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/atb_financial.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "Greg_Bennett": {
         "company": "AIRIA Cloud",
@@ -45,7 +45,7 @@
     },
     "GUNJAN_KAUR": {
         "company": "ATB Financial",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/atb_financial.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "Hans_Hegge": {
         "company": "Flexera (RISC Networks)",
@@ -61,7 +61,7 @@
     },
     "Katie_Murray": {
         "company": "ATB Financial",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/atb_financial.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "Kayode_Otegbeye": {
         "company": "",
@@ -113,7 +113,7 @@
     },
     "Suni_Mathews": {
         "company": "ATB Financial",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/atb_financial.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "Suryatapa_Roy": {
         "company": "CHATA.AI",
@@ -133,6 +133,6 @@
     },
     "Xueming_Zhao": {
         "company": "ATB Financial",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/atb_financial.png"
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     }
 }
