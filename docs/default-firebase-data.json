@@ -250,7 +250,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146755
+                                149561
                             ]
                         }
                     ],
@@ -261,7 +261,7 @@
                     "sessions": [
                         {
                             "items": [
-                                149561
+                                146755
                             ]
                         }
                     ],
@@ -272,7 +272,7 @@
                     "sessions": [
                         {
                             "items": [
-                                200
+                                600
                             ]
                         },
                         {
@@ -282,12 +282,12 @@
                         },
                         {
                             "items": [
-                                500
+                                200
                             ]
                         },
                         {
                             "items": [
-                                600
+                                500
                             ]
                         }
                     ],
@@ -320,7 +320,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146826
+                                146605
                             ]
                         }
                     ],
@@ -331,7 +331,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146605
+                                146826
                             ]
                         }
                     ],
@@ -626,12 +626,12 @@
                     "sessions": [
                         {
                             "items": [
-                                1400
+                                1300
                             ]
                         },
                         {
                             "items": [
-                                1300
+                                1400
                             ]
                         },
                         {
@@ -1941,7 +1941,9 @@
                 },
                 {}
             ],
-            "company": "ATB Financial"
+            "company": "ATB Financial",
+            "companyLogo": "/images/logos/atb.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Hans_Hegge": {
             "name": "Hans Hegge",
