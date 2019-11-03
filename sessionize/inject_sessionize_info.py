@@ -391,8 +391,9 @@ def overwrite_companyinfo(speaker_det, download_images=False):
           imagename = logourl.split("/")[-1]
           save_profile_pic(logos_image_path, imagename, logourl)
 
-        logourl = 'https://www.devfestyyc.com/images/logos/' + imagename
+        logourl = '/images/logos/' + imagename
         speaker_det[speaker]["companyLogo"] = logourl
+        speaker_det[speaker]["companyLogoUrl"] = 'https://www.devfestyyc.com' + logourl
     return speaker_det
 
 
@@ -400,6 +401,14 @@ speaker_det, comp_det = insert_speaker(speakers, speaker_wall)
 speaker_det = overwrite_companyinfo(speaker_det, download_images=False)
 data["speakers"] = speaker_det
 
+
+def overwrite_partners(data):
+  if os.path.exists("../docs/partners.json"):
+    dets, cls = read_json("../docs/partners.json")
+    data["partners"] = dets["partners"]
+  return data
+
+data = overwrite_partners(data)
 ################################################################################# SAVE NEW FILE ###########################################################################################3
 save_json(data, "../docs/default-firebase-data.json")
 save_json(comp_det, "../docs/speaker_company_details_tmp.json")

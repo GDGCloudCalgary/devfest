@@ -39,55 +39,85 @@
             "logos": [
                 {
                     "order": 0,
-                    "logoUrl": "../images/logos/gde01.png",
+                    "logoUrl": "../images/logos/gde.png",
                     "name": "Google Developer Experts",
                     "url": "https://developers.google.com/experts/"
+                },
+                {
+                    "order": 1,
+                    "logoUrl": "../images/logos/untappedenergy.png",
+                    "name": "UnTapped Energy",
+                    "url": "https://www.meetup.com/untappedenergy/"
+                },
+                {
+                    "order": 2,
+                    "logoUrl": "../images/logos/womentechmakers.png",
+                    "name": "Women Techmakers",
+                    "url": "https://www.womentechmakers.com/"
+                },
+                {
+                    "order": 3,
+                    "logoUrl": "../images/logos/googlecloudforstartups.png",
+                    "name": "Google Cloud for Startups",
+                    "url": "https://cloud.google.com/developers/startups/"
+                },
+                {
+                    "order": 4,
+                    "logoUrl": "../images/logos/googlecloudcertification.png",
+                    "name": "Google Cloud Certification",
+                    "url": "https://cloud.google.com/certification/"
+                },
+                {
+                    "order": 5,
+                    "logoUrl": "../images/logos/developerstudentclubs.png",
+                    "name": "Developer Student Clubs",
+                    "url": "https://developers.google.com/community/dsc/"
                 }
             ],
             "order": 0,
-            "title": "Template Creator"
+            "title": "Community Partners"
         },
         {
             "logos": [
                 {
                     "order": 0,
-                    "logoUrl": "../images/logos/google.svg",
-                    "name": "Google",
-                    "url": "https://www.google.com.ua/intl/en/about/"
+                    "logoUrl": "../images/logos/googledevelopers.png",
+                    "name": "Google Developers",
+                    "url": "https://developers.google.com/"
+                },
+                {
+                    "order": 0,
+                    "logoUrl": "../images/logos/gde.png",
+                    "name": "Google Developer Experts",
+                    "url": "https://developers.google.com/experts/"
                 },
                 {
                     "order": 1,
-                    "logoUrl": "../images/logos/qwiklabs.png",
-                    "name": "Qwiklabs",
-                    "url": "https://www.qwiklabs.com/"
-                },
-                {
-                    "order": 2,
-                    "logoUrl": "../images/logos/gdg-x.svg",
-                    "name": "GDG[x]",
-                    "url": "https://github.com/gdg-x"
+                    "logoUrl": "../images/logos/softserve.png",
+                    "name": "SoftServe",
+                    "url": "https://www.softserveinc.com/en-us/"
                 },
                 {
                     "order": 3,
-                    "logoUrl": "../images/logos/wtm.png",
-                    "name": "Women Techmakers",
-                    "url": "https://www.womentechmakers.com/"
+                    "logoUrl": "../images/logos/atb.png",
+                    "name": "ATB Financial",
+                    "url": "https://alphabeta.atb.com/"
                 },
                 {
-                    "order": 4,
+                    "order": 5,
                     "logoUrl": "../images/logos/airia.png",
                     "name": "AIRIA Cloud",
                     "url": "https://www.airia.cloud/"
                 },
                 {
                     "order": 5,
-                    "logoUrl": "../images/logos/albertabikeswap.png",
-                    "name": "Alberta Bikeswap",
-                    "url": "http://albertabikeswap.ca"
+                    "logoUrl": "../images/logos/sessionize.png",
+                    "name": "Sessionize",
+                    "url": "https://sessionize.com/"
                 }
             ],
             "order": 1,
-            "title": "General Partner"
+            "title": "Sponsors"
         }
     ],
     "schedule": {
@@ -220,7 +250,7 @@
                     "sessions": [
                         {
                             "items": [
-                                149561
+                                146755
                             ]
                         }
                     ],
@@ -231,7 +261,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146755
+                                149561
                             ]
                         }
                     ],
@@ -240,11 +270,6 @@
                 {
                     "endTime": "13.00",
                     "sessions": [
-                        {
-                            "items": [
-                                500
-                            ]
-                        },
                         {
                             "items": [
                                 600
@@ -258,6 +283,11 @@
                         {
                             "items": [
                                 400
+                            ]
+                        },
+                        {
+                            "items": [
+                                500
                             ]
                         }
                     ],
@@ -345,7 +375,7 @@
                     "sessions": [
                         {
                             "items": [
-                                153627
+                                144896
                             ]
                         }
                     ],
@@ -356,7 +386,7 @@
                     "sessions": [
                         {
                             "items": [
-                                144896
+                                153627
                             ]
                         }
                     ],
@@ -1623,7 +1653,8 @@
                 }
             ],
             "company": "Google",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/googlecloud.png"
+            "companyLogo": "/images/logos/googlecloud.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/googlecloud.png"
         },
         "Adam_Berkan": {
             "name": "Adam Berkan",
@@ -1643,7 +1674,8 @@
                 {}
             ],
             "company": "Khan Academy",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/khanacademy.png"
+            "companyLogo": "/images/logos/khanacademy.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/khanacademy.png"
         },
         "Albert_Morozov": {
             "name": "Albert Morozov",
@@ -1658,7 +1690,8 @@
                 {}
             ],
             "company": "Immediate Rent",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/immediaterent.png"
+            "companyLogo": "/images/logos/immediaterent.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/immediaterent.png"
         },
         "Amol_Deshmukh": {
             "name": "Amol Deshmukh",
@@ -1678,7 +1711,8 @@
                 {}
             ],
             "company": "Quizlet Inc.",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/quizlet.png"
+            "companyLogo": "/images/logos/quizlet.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/quizlet.png"
         },
         "arunima_kashyap": {
             "name": "arunima kashyap",
@@ -1691,7 +1725,8 @@
             "featured": true,
             "socials": [],
             "company": "Google Cloud",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/googlecloud.png"
+            "companyLogo": "/images/logos/googlecloud.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/googlecloud.png"
         },
         "Ben_Nakaska": {
             "name": "Ben Nakaska",
@@ -1704,7 +1739,8 @@
             "featured": false,
             "socials": [],
             "company": "ATB Financial",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
+            "companyLogo": "/images/logos/atb.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Boyang_Zhang": {
             "name": "Boyang Zhang",
@@ -1717,7 +1753,8 @@
             "featured": true,
             "socials": [],
             "company": "Hood Pkg Corp",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/hoodpackaging.png"
+            "companyLogo": "/images/logos/hoodpackaging.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/hoodpackaging.png"
         },
         "Charlie_Cheung": {
             "name": "Charlie Cheung",
@@ -1737,7 +1774,8 @@
                 {}
             ],
             "company": "N/A",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/devfesticon.png"
+            "companyLogo": "/images/logos/devfesticon.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/devfesticon.png"
         },
         "Cleo_Espiritu": {
             "name": "Cleo Espiritu",
@@ -1757,7 +1795,8 @@
                 {}
             ],
             "company": "",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/googledeveloperexperts.png"
+            "companyLogo": "/images/logos/googledeveloperexperts.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/googledeveloperexperts.png"
         },
         "Eddy_Beals": {
             "name": "Eddy Beals",
@@ -1776,7 +1815,8 @@
                 }
             ],
             "company": "ATB Financial",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
+            "companyLogo": "/images/logos/atb.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Greg_Bennett": {
             "name": "Greg Bennett",
@@ -1801,7 +1841,8 @@
                 {}
             ],
             "company": "AIRIA Cloud",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/airia.png"
+            "companyLogo": "/images/logos/airia.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/airia.png"
         },
         "GUNJAN_KAUR": {
             "name": "GUNJAN KAUR",
@@ -1821,7 +1862,8 @@
                 {}
             ],
             "company": "ATB Financial",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
+            "companyLogo": "/images/logos/atb.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Hans_Hegge": {
             "name": "Hans Hegge",
@@ -1842,7 +1884,8 @@
                 {}
             ],
             "company": "Flexera (RISC Networks)",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/flexera.png"
+            "companyLogo": "/images/logos/flexera.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/flexera.png"
         },
         "Jay_Krish": {
             "name": "Jay Krish",
@@ -1855,7 +1898,8 @@
             "featured": true,
             "socials": [],
             "company": "",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/devfesticon.png"
+            "companyLogo": "/images/logos/devfesticon.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/devfesticon.png"
         },
         "Josh_Fafard": {
             "name": "Josh Fafard",
@@ -1875,7 +1919,8 @@
                 {}
             ],
             "company": "Akin\u00ea Inc.",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/akine.png"
+            "companyLogo": "/images/logos/akine.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/akine.png"
         },
         "Katie_Murray": {
             "name": "Katie Murray",
@@ -1895,7 +1940,8 @@
                 {}
             ],
             "company": "ATB Financial",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
+            "companyLogo": "/images/logos/atb.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Kayode_Otegbeye": {
             "name": "Kayode Otegbeye",
@@ -1914,7 +1960,8 @@
                 }
             ],
             "company": "",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/devfesticon.png"
+            "companyLogo": "/images/logos/devfesticon.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/devfesticon.png"
         },
         "Kiley_Carson": {
             "name": "Kiley Carson",
@@ -1938,7 +1985,8 @@
                 }
             ],
             "company": "Women Techmakers",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/womentechmakers.png"
+            "companyLogo": "/images/logos/womentechmakers.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/womentechmakers.png"
         },
         "Kyle_Paul": {
             "name": "Kyle Paul",
@@ -1963,7 +2011,8 @@
                 {}
             ],
             "company": "Google",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/googledevelopers.png"
+            "companyLogo": "/images/logos/googledevelopers.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/googledevelopers.png"
         },
         "Lucas_Scheer": {
             "name": "Lucas Scheer",
@@ -1978,7 +2027,8 @@
                 {}
             ],
             "company": "AltaML",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/altaml.png"
+            "companyLogo": "/images/logos/altaml.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/altaml.png"
         },
         "Michael_Murphy": {
             "name": "Michael Murphy",
@@ -2003,7 +2053,8 @@
                 {}
             ],
             "company": "SoftServe",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/softserve.png"
+            "companyLogo": "/images/logos/softserve.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/softserve.png"
         },
         "Mike_Hoff": {
             "name": "Mike Hoff",
@@ -2016,7 +2067,8 @@
             "featured": false,
             "socials": [],
             "company": "GDG Calgary",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/gdgyyc.png"
+            "companyLogo": "/images/logos/gdgyyc.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/gdgyyc.png"
         },
         "Mohamed_Ibrahim": {
             "name": "Mohamed Ibrahim",
@@ -2042,7 +2094,8 @@
                 {}
             ],
             "company": "Instafly.me",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/instaflyme.png"
+            "companyLogo": "/images/logos/instaflyme.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/instaflyme.png"
         },
         "Neel_Kirit": {
             "name": "Neel Kirit",
@@ -2067,7 +2120,8 @@
                 {}
             ],
             "company": "Udacity",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/udacity.png"
+            "companyLogo": "/images/logos/udacity.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/udacity.png"
         },
         "Ryker_Rumsey": {
             "name": "Ryker Rumsey",
@@ -2080,7 +2134,8 @@
             "featured": false,
             "socials": [],
             "company": "",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/devfesticon.png"
+            "companyLogo": "/images/logos/devfesticon.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/devfesticon.png"
         },
         "Sam_Barbeau": {
             "name": "Sam Barbeau",
@@ -2093,7 +2148,8 @@
             "featured": false,
             "socials": [],
             "company": "Flexera",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/flexera.png"
+            "companyLogo": "/images/logos/flexera.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/flexera.png"
         },
         "Scott_Stoll": {
             "name": "Scott Stoll",
@@ -2117,7 +2173,8 @@
                 }
             ],
             "company": "Flutter Community",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/fluttercommunity.png"
+            "companyLogo": "/images/logos/fluttercommunity.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/fluttercommunity.png"
         },
         "Shaun_Mitchell": {
             "name": "Shaun Mitchell",
@@ -2141,7 +2198,8 @@
                 }
             ],
             "company": "Google Cloud",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/googlecloud.png"
+            "companyLogo": "/images/logos/googlecloud.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/googlecloud.png"
         },
         "Suni_Mathews": {
             "name": "Suni Mathews",
@@ -2154,7 +2212,8 @@
             "featured": false,
             "socials": [],
             "company": "ATB Financial",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
+            "companyLogo": "/images/logos/atb.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Suryatapa_Roy": {
             "name": "Suryatapa Roy",
@@ -2174,7 +2233,8 @@
                 {}
             ],
             "company": "CHATA.AI",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/chata.ai.png"
+            "companyLogo": "/images/logos/chata.ai.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/chata.ai.png"
         },
         "Ted_Edmonds": {
             "name": "Ted Edmonds",
@@ -2187,7 +2247,8 @@
             "featured": true,
             "socials": [],
             "company": "",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/gdgyyc.png"
+            "companyLogo": "/images/logos/gdgyyc.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/gdgyyc.png"
         },
         "Tim_Chan": {
             "name": "Tim Chan",
@@ -2202,7 +2263,8 @@
                 {}
             ],
             "company": "",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/untappedenergy.png"
+            "companyLogo": "/images/logos/untappedenergy.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/untappedenergy.png"
         },
         "Wellington_Holbrook": {
             "name": "Wellington Holbrook",
@@ -2228,7 +2290,8 @@
                 {}
             ],
             "company": "",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
+            "companyLogo": "/images/logos/atb.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/atb.png"
         },
         "Xueming_Zhao": {
             "name": "Xueming Zhao",
@@ -2241,7 +2304,8 @@
             "featured": true,
             "socials": [],
             "company": "ATB Financial",
-            "companyLogo": "https://www.devfestyyc.com/images/logos/atb.png"
+            "companyLogo": "/images/logos/atb.png",
+            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/atb.png"
         }
     },
     "team": [
