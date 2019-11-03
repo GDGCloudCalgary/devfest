@@ -250,7 +250,7 @@
                     "sessions": [
                         {
                             "items": [
-                                149561
+                                146755
                             ]
                         }
                     ],
@@ -261,7 +261,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146755
+                                149561
                             ]
                         }
                     ],
@@ -272,17 +272,17 @@
                     "sessions": [
                         {
                             "items": [
+                                200
+                            ]
+                        },
+                        {
+                            "items": [
                                 400
                             ]
                         },
                         {
                             "items": [
                                 500
-                            ]
-                        },
-                        {
-                            "items": [
-                                200
                             ]
                         },
                         {
@@ -320,7 +320,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146605
+                                146826
                             ]
                         }
                     ],
@@ -331,7 +331,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146826
+                                146605
                             ]
                         }
                     ],
@@ -626,7 +626,7 @@
                     "sessions": [
                         {
                             "items": [
-                                1700
+                                1400
                             ]
                         },
                         {
@@ -636,12 +636,12 @@
                         },
                         {
                             "items": [
-                                900
+                                1700
                             ]
                         },
                         {
                             "items": [
-                                1400
+                                900
                             ]
                         }
                     ],
@@ -824,7 +824,7 @@
             "complexity": "Introductory and overview"
         },
         "146324": {
-            "description": "Hands on session on how get started with Unity.\r\nAcquiring 3D assets.\r\nBuild AR/VR applications/games.",
+            "description": "-- Hands on session on how get started with Unity.\r\n-- Acquiring 3D assets.\r\n-- Build AR/VR applications/games.",
             "title": "Building Augmented Reality Applications",
             "speakers": [
                 "Suryatapa_Roy"
@@ -972,7 +972,7 @@
             "description": "Making banking work for people means evolving solutions to meet the demands of tomorrow. In this talk, we will discuss how Google Cloud Platform (GCP) can be used to find innovative ways in producing robust and cost-efficient real-time data processing and analysis. We will also illustrate how GCP can be leveraged to produce next gen banking analytic systems.",
             "title": "Streaming Data Pipelines: Creating Next Gen Banking Analytics",
             "speakers": [
-                "GUNJAN_KAUR",
+                "Gunjan_Kaur",
                 "Xueming_Zhao"
             ],
             "icon": "",
@@ -1924,8 +1924,8 @@
             "companyLogo": "/images/logos/airia.png",
             "companyLogoUrl": "https://www.devfestyyc.com/images/logos/airia.png"
         },
-        "GUNJAN_KAUR": {
-            "name": "GUNJAN KAUR",
+        "Gunjan_Kaur": {
+            "name": "Gunjan Kaur",
             "bio": "Gunjan received her masters degree in Economics and Finance from the University of Alberta. After stints in social market research and FX modelling, she ventured into risk management practice at ATB. Curious about applying her machine learning skills in industry, she later joined the Artificial Intelligence guild at ATB. She led the Real Time Triggers University of Alberta-ATB AI Lab focused on utilizing cutting edge Internet of Things (IOT) methodologies to effectively and efficiently analyze ATB data streams in real time. She also participated in specialized programs at Google and Fintech research at the University of Oxford. In her most recent role, she is leading experimentation analytics for a strategic initiative aimed at increasing customer engagement. She is passionate about data wizardry and problem solving expertise to big data challenges in the financial realm, helping transform ATB to make banking work for Albertans.   \r\n",
             "shortBio": "Director of Analytics",
             "title": "Director of Analytics",
@@ -1941,9 +1941,7 @@
                 },
                 {}
             ],
-            "company": "ATB Financial",
-            "companyLogo": "/images/logos/atb.png",
-            "companyLogoUrl": "https://www.devfestyyc.com/images/logos/atb.png"
+            "company": "ATB Financial"
         },
         "Hans_Hegge": {
             "name": "Hans Hegge",
@@ -2297,7 +2295,7 @@
         },
         "Suryatapa_Roy": {
             "name": "Suryatapa Roy",
-            "bio": "Suryatapa Roy is a data scientist focussed on Natural Language Processing at CHATA.AI. Previously, she completed her MSc. thesis in integrating Machine Learning systems into virtual environments for data analytics.",
+            "bio": "Suryatapa Roy is a data scientist focussed on Natural Language Processing at CHATA.AI. Previously, she completed her MSc. thesis in integrating machine learning systems into virtual environments for data analytics.",
             "shortBio": "Data Scientist@CHATA.AI. Research in Virtual Reality and Machine Learning@UofC",
             "title": "Data Scientist@CHATA.AI. Research in Virtual Reality and Machine Learning@UofC",
             "order": "30",
@@ -2310,7 +2308,12 @@
                     "link": "https://www.linkedin.com/in/suryataparoy/",
                     "name": "LinkedIn"
                 },
-                {}
+                {},
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/suryatapa",
+                    "name": "Twitter"
+                }
             ],
             "company": "CHATA.AI",
             "companyLogo": "/images/logos/chata.ai.png",
