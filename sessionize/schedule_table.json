@@ -575,7 +575,7 @@
                         "speakers": [
                             {
                                 "id": "aabd8190-53a9-420f-9abe-e448479496fa",
-                                "name": "GUNJAN KAUR"
+                                "name": "Gunjan Kaur"
                             },
                             {
                                 "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",
@@ -1308,7 +1308,7 @@
                     {
                         "id": "146324",
                         "title": "Building Augmented Reality Applications",
-                        "description": "Hands on session on how get started with Unity.\r\nAcquiring 3D assets.\r\nBuild AR/VR applications/games.",
+                        "description": "-- Hands on session on how get started with Unity.\r\n-- Acquiring 3D assets.\r\n-- Build AR/VR applications/games.",
                         "startsAt": "2019-11-22T10:00:00",
                         "endsAt": "2019-11-22T12:00:00",
                         "isServiceSession": false,
@@ -1762,7 +1762,7 @@
                         "session": {
                             "id": "146324",
                             "title": "Building Augmented Reality Applications",
-                            "description": "Hands on session on how get started with Unity.\r\nAcquiring 3D assets.\r\nBuild AR/VR applications/games.",
+                            "description": "-- Hands on session on how get started with Unity.\r\n-- Acquiring 3D assets.\r\n-- Build AR/VR applications/games.",
                             "startsAt": "2019-11-22T10:00:00",
                             "endsAt": "2019-11-22T12:00:00",
                             "isServiceSession": false,
@@ -2130,7 +2130,7 @@
                             "speakers": [
                                 {
                                     "id": "aabd8190-53a9-420f-9abe-e448479496fa",
-                                    "name": "GUNJAN KAUR"
+                                    "name": "Gunjan Kaur"
                                 },
                                 {
                                     "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",

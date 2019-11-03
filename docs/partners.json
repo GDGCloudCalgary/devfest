@@ -34,58 +34,57 @@
                 },
                 {
                     "order": 5,
-                    "logoUrl": "Developer Student Clubs",
+                    "logoUrl": "../images/logos/developerstudentclubs.png",
+                    "name": "Developer Student Clubs",
                     "url": "https://developers.google.com/community/dsc/"
                 }
-                
+
             ],
-            
+
             "order": 0,
             "title": "Community Partners"
         },
         {
             "logos": [
-                {
+              {
                     "order": 0,
                     "logoUrl": "../images/logos/googledevelopers.png",
                     "name": "Google Developers",
                     "url": "https://developers.google.com/"
-                },
-                {
-                    "order": 0,
-                    "logoUrl": "../images/logos/gde.png",
-                    "name": "Google Developer Experts",
-                    "url": "https://developers.google.com/experts/"
-                }
-            ],
-                {
+              },
+              {
+                "order": 0,
+                "logoUrl": "../images/logos/gde.png",
+                "name": "Google Developer Experts",
+                "url": "https://developers.google.com/experts/"
+              },
+              {
                     "order": 1,
                     "logoUrl": "../images/logos/softserve.png",
                     "name": "SoftServe",
                     "url": "https://www.softserveinc.com/en-us/"
-                },
-                {
+              },
+              {
                     "order": 3,
                     "logoUrl": "../images/logos/atb.png",
                     "name": "ATB Financial",
                     "url": "https://alphabeta.atb.com/"
-                },
-                {
+              },
+              {
                     "order": 5,
                     "logoUrl": "../images/logos/airia.png",
                     "name": "AIRIA Cloud",
                     "url": "https://www.airia.cloud/"
-                },
-                {
+              },
+              {
                     "order": 5,
                     "logoUrl": "../images/logos/sessionize.png",
                     "name": "Sessionize",
                     "url": "https://sessionize.com/"
-                }
+              }
             ],
             "order": 1,
             "title": "Sponsors"
         }
     ]
-
 }

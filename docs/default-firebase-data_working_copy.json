@@ -250,7 +250,7 @@
                     "sessions": [
                         {
                             "items": [
-                                149561
+                                146755
                             ]
                         }
                     ],
@@ -261,7 +261,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146755
+                                149561
                             ]
                         }
                     ],
@@ -272,12 +272,7 @@
                     "sessions": [
                         {
                             "items": [
-                                400
-                            ]
-                        },
-                        {
-                            "items": [
-                                500
+                                600
                             ]
                         },
                         {
@@ -287,7 +282,12 @@
                         },
                         {
                             "items": [
-                                600
+                                400
+                            ]
+                        },
+                        {
+                            "items": [
+                                500
                             ]
                         }
                     ],
@@ -320,7 +320,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146605
+                                146826
                             ]
                         }
                     ],
@@ -331,7 +331,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146826
+                                146605
                             ]
                         }
                     ],
@@ -406,72 +406,22 @@
             ],
             "tracks": [
                 {
-                    "title": "Keynote",
-                    "roomId": [
-                        7452
-                    ],
-                    "room_name": [
-                        "Patricia A. Whelan Performance Hall"
-                    ]
+                    "title": "Keynote"
                 },
                 {
-                    "title": "Code and Development",
-                    "roomId": [
-                        9332,
-                        7452,
-                        7454
-                    ],
-                    "room_name": [
-                        "Central Library Room 0-14",
-                        "Patricia A. Whelan Performance Hall",
-                        "Central Library Room 0-13"
-                    ]
+                    "title": "Code and Development"
                 },
                 {
-                    "title": "Infrastructure",
-                    "roomId": [
-                        7453,
-                        7452,
-                        7454
-                    ],
-                    "room_name": [
-                        "BMO Financial Group Community Room",
-                        "Patricia A. Whelan Performance Hall",
-                        "Central Library Room 0-13"
-                    ]
+                    "title": "Infrastructure"
                 },
                 {
-                    "title": "Google Programs & Non-Technical",
-                    "roomId": [
-                        7454,
-                        7453,
-                        7452
-                    ],
-                    "room_name": [
-                        "Central Library Room 0-13",
-                        "BMO Financial Group Community Room",
-                        "Patricia A. Whelan Performance Hall"
-                    ]
+                    "title": "Google Programs & Non-Technical"
                 },
                 {
-                    "title": "Data Analytics and AI",
-                    "roomId": [
-                        7454,
-                        7453
-                    ],
-                    "room_name": [
-                        "Central Library Room 0-13",
-                        "BMO Financial Group Community Room"
-                    ]
+                    "title": "Data Analytics and AI"
                 },
                 {
-                    "title": "Mentorship",
-                    "roomId": [
-                        7454
-                    ],
-                    "room_name": [
-                        "Central Library Room 0-13"
-                    ]
+                    "title": "Mentorship"
                 }
             ]
         },
@@ -626,17 +576,17 @@
                     "sessions": [
                         {
                             "items": [
+                                900
+                            ]
+                        },
+                        {
+                            "items": [
                                 1700
                             ]
                         },
                         {
                             "items": [
                                 1300
-                            ]
-                        },
-                        {
-                            "items": [
-                                900
                             ]
                         },
                         {
@@ -760,46 +710,16 @@
             ],
             "tracks": [
                 {
-                    "title": "Google Programs & Non-Technical",
-                    "roomId": [
-                        7454,
-                        7453
-                    ],
-                    "room_name": [
-                        "Central Library Room 0-13",
-                        "BMO Financial Group Community Room"
-                    ]
+                    "title": "Google Programs & Non-Technical"
                 },
                 {
-                    "title": "Code and Development",
-                    "roomId": [
-                        7453,
-                        7454,
-                        7452
-                    ],
-                    "room_name": [
-                        "BMO Financial Group Community Room",
-                        "Central Library Room 0-13",
-                        "Patricia A. Whelan Performance Hall"
-                    ]
+                    "title": "Code and Development"
                 },
                 {
-                    "title": "Infrastructure",
-                    "roomId": [
-                        7452
-                    ],
-                    "room_name": [
-                        "Patricia A. Whelan Performance Hall"
-                    ]
+                    "title": "Infrastructure"
                 },
                 {
-                    "title": "Data Analytics and AI",
-                    "roomId": [
-                        7453
-                    ],
-                    "room_name": [
-                        "BMO Financial Group Community Room"
-                    ]
+                    "title": "Data Analytics and AI"
                 }
             ]
         }
@@ -3465,11 +3385,5 @@
             ],
             "title": "Code monkey"
         }
-    },
-    "rooms": {
-        "7452": "Patricia A. Whelan Performance Hall",
-        "9332": "Central Library Room 0-14",
-        "7453": "BMO Financial Group Community Room",
-        "7454": "Central Library Room 0-13"
     }
 }
