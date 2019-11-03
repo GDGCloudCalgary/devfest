@@ -1440,9 +1440,9 @@
     },
     {
         "id": "aabd8190-53a9-420f-9abe-e448479496fa",
-        "firstName": "GUNJAN",
-        "lastName": "KAUR",
-        "fullName": "GUNJAN KAUR",
+        "firstName": "Gunjan",
+        "lastName": "Kaur",
+        "fullName": "Gunjan Kaur",
         "bio": "Gunjan received her masters degree in Economics and Finance from the University of Alberta. After stints in social market research and FX modelling, she ventured into risk management practice at ATB. Curious about applying her machine learning skills in industry, she later joined the Artificial Intelligence guild at ATB. She led the Real Time Triggers University of Alberta-ATB AI Lab focused on utilizing cutting edge Internet of Things (IOT) methodologies to effectively and efficiently analyze ATB data streams in real time. She also participated in specialized programs at Google and Fintech research at the University of Oxford. In her most recent role, she is leading experimentation analytics for a strategic initiative aimed at increasing customer engagement. She is passionate about data wizardry and problem solving expertise to big data challenges in the financial realm, helping transform ATB to make banking work for Albertans.   \r\n",
         "tagLine": "Director of Analytics",
         "profilePicture": "https://sessionize.com/image?f=3a18f0f15e4ee266c8f995a75ffe0c56,400,400,True,False,93255ae5-2a44-4c2e-ad9c-d7fc87dcfd26.jpg",
@@ -3826,7 +3826,7 @@
         "firstName": "Suryatapa",
         "lastName": "Roy",
         "fullName": "Suryatapa Roy",
-        "bio": "Suryatapa Roy is a data scientist focussed on Natural Language Processing at CHATA.AI. Previously, she completed her MSc. thesis in integrating Machine Learning systems into virtual environments for data analytics.",
+        "bio": "Suryatapa Roy is a data scientist focussed on Natural Language Processing at CHATA.AI. Previously, she completed her MSc. thesis in integrating machine learning systems into virtual environments for data analytics.",
         "tagLine": "Data Scientist@CHATA.AI. Research in Virtual Reality and Machine Learning@UofC",
         "profilePicture": "https://sessionize.com/image?f=938a5b10ae2454f2e387f22a8ab3b716,400,400,True,False,05-c4cd-4abd-aa2f-1532c51daeb2.f116aa6d-b0cb-4e41-94b5-53d391c565db.png",
         "sessions": [
@@ -3846,6 +3846,11 @@
                 "title": "Blog",
                 "url": "https://simplestepstech.wordpress.com/",
                 "linkType": "Blog"
+            },
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/suryatapa",
+                "linkType": "Twitter"
             }
         ],
         "questionAnswers": [

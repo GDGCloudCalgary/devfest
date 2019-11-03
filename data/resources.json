@@ -1,5 +1,5 @@
 {
-  "title": "DevFestYYC is coming!",
+  "title": "DevFestYYC is here!",
   "description": "Build What's Next. Transform Legacy. Together.",
   "image": "images/social-share.jpg",
   "keywords": "developer, data scientist, cloud architect, gdg, gdgyyc, gde, devfest, devfestyyc, google cloud, cloud native, infrastucture, data, artificial intelligence, machine learning, code, development android,",
@@ -59,7 +59,7 @@
           "name": "Sponsorship Proposition",
           "url": "http://devfestyyc.link/sponsorship",
           "newTab": true
-        },       
+        },
         {
           "name": "Call for Speakers [Closed]",
           "url": "http://devfestyyc.link/cfp",
@@ -71,7 +71,7 @@
   "subscribeNote": "No spam, only the latest news and updates!",
   "codeOfConduct": "Code of Conduct and Anti-Harassment policy",
   "aboutBlock": {
-    "title": "DevFestYYC is coming!",
+    "title": "DevFestYYC is here!",
     "callToAction": {
       "featuredSessions": {
         "description": "DevFestYYC is Western Canada's largest Google Cloud and Cloud Native conference. We're bringing Alberta's Startup and Enterprise developers, architects, data scientists, operations professionals and IT decision makers together to learn with world-class cloud experts and top local speakers. Let's Build What’s Next and Transform Legacy. Together.",
