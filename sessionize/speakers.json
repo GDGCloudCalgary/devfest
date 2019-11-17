@@ -1,133 +1,5 @@
 [
     {
-        "id": "6601c345-d4f5-4da8-b49f-ac37175cd617",
-        "firstName": "Aakanksha",
-        "lastName": "Parameshwar",
-        "fullName": "Aakanksha Parameshwar",
-        "bio": "UX Researcher, Google Cloud Platform",
-        "tagLine": "Google",
-        "profilePicture": "https://sessionize.com/image?f=f3941c439a88ed12cb718801e07728c1,400,400,True,False,45-d4f5-4da8-b49f-ac37175cd617.e1b7d88c-a096-4f32-ae3d-172bc240c7fb.jpg",
-        "sessions": [
-            {
-                "id": 148136,
-                "name": "How UX makes GCP the best cloud for Developers"
-            }
-        ],
-        "isTopSpeaker": false,
-        "links": [
-            {
-                "title": "LinkedIn",
-                "url": "https://www.linkedin.com/in/aakankshaparameshwar/",
-                "linkType": "LinkedIn"
-            }
-        ],
-        "questionAnswers": [
-            {
-                "id": 15580,
-                "question": "1. GitHub Profile",
-                "questionType": "Web_address",
-                "answer": "https://github.com/AakankshaParameshwar/",
-                "sort": 3,
-                "answerExtra": null
-            },
-            {
-                "id": 15581,
-                "question": "1. Current Organization/ Company Name",
-                "questionType": "Short_Text",
-                "answer": "Google",
-                "sort": 4,
-                "answerExtra": null
-            },
-            {
-                "id": 15583,
-                "question": "1. Company Logo",
-                "questionType": "File_upload",
-                "answer": "85-4958-4c6a-9ac0-a996a7be6106.cd326b28-7424-4399-8003-b66dc206428f.png",
-                "sort": 6,
-                "answerExtra": "googlecloud.png"
-            },
-            {
-                "id": 15585,
-                "question": "1. Home City",
-                "questionType": "Short_Text",
-                "answer": "Seattle",
-                "sort": 7,
-                "answerExtra": null
-            },
-            {
-                "id": 15586,
-                "question": "1. Nearest International Airport",
-                "questionType": "Short_Text",
-                "answer": null,
-                "sort": 8,
-                "answerExtra": null
-            },
-            {
-                "id": 15590,
-                "question": "1. Other Pronouns",
-                "questionType": "Short_Text",
-                "answer": null,
-                "sort": 2,
-                "answerExtra": null
-            },
-            {
-                "id": 17188,
-                "question": "3. Promo Video",
-                "questionType": "File_upload",
-                "answer": null,
-                "sort": 15,
-                "answerExtra": null
-            }
-        ],
-        "categories": [
-            {
-                "id": 15582,
-                "name": "1. Company Support",
-                "categoryItems": [
-                    {
-                        "id": 22893,
-                        "name": "YES"
-                    }
-                ],
-                "sort": 5
-            },
-            {
-                "id": 15584,
-                "name": "1. Pronouns",
-                "categoryItems": [
-                    {
-                        "id": 22895,
-                        "name": "SHE/HER"
-                    }
-                ],
-                "sort": 1
-            },
-            {
-                "id": 15588,
-                "name": "1. Community Code of Conduct",
-                "categoryItems": [
-                    {
-                        "id": 22899,
-                        "name": "YES"
-                    }
-                ],
-                "sort": 0
-            },
-            {
-                "id": 17259,
-                "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
-            },
-            {
-                "id": 17260,
-                "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
-            }
-        ]
-    },
-    {
         "id": "c938ade5-5aba-464b-8f43-bdd18966cb05",
         "firstName": "Adam",
         "lastName": "Berkan",
@@ -208,7 +80,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -249,14 +121,24 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -336,7 +218,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -383,7 +265,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
@@ -394,7 +276,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -403,9 +285,9 @@
         "firstName": "Amol",
         "lastName": "Deshmukh",
         "fullName": "Amol Deshmukh",
-        "bio": "Amol Deshmukh is a Software Architect at Quizlet. He has over 20 years of professional experience working on large scale systems at Yahoo, Twitter, Salesforce. At Quizlet, he leads the transition to a microservices architecture.",
+        "bio": "Amol Deshmukh is a Software Architect at Quizlet. He has over 20 years of professional experience working on large scale systems at Yahoo, Twitter, Salesforce. At Quizlet, he leads the adoption of a microservices-based architecture.",
         "tagLine": "Amol Deshmukh works as a Software Architect at Quizlet.",
-        "profilePicture": "https://sessionize.com/image?f=a30db2192930034c2c78ce974e48387a,400,400,True,False,9db5cb67-f889-499a-b6a1-fe2cb0a98a5f.jpg",
+        "profilePicture": "https://sessionize.com/image?f=b8b3caf3ca13a4d45b9e25edc3cb5eba,400,400,True,False,41-7953-4646-a762-610a998f8451.217b97fc-3f80-47e3-b662-3b8bc9ff0091.png",
         "sessions": [
             {
                 "id": 148188,
@@ -479,7 +361,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -487,7 +369,12 @@
             {
                 "id": 15582,
                 "name": "1. Company Support",
-                "categoryItems": [],
+                "categoryItems": [
+                    {
+                        "id": 22893,
+                        "name": "YES"
+                    }
+                ],
                 "sort": 5
             },
             {
@@ -521,7 +408,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
@@ -532,7 +419,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -547,7 +434,7 @@
         "sessions": [
             {
                 "id": 148136,
-                "name": "How UX makes GCP the best cloud for Developers"
+                "name": "How UX makes GCP the Best Cloud for Developers"
             }
         ],
         "isTopSpeaker": true,
@@ -606,7 +493,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -648,13 +535,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -663,7 +550,7 @@
         "firstName": "Ben",
         "lastName": "Nakaska",
         "fullName": "Ben Nakaska",
-        "bio": null,
+        "bio": "Ben can be described as a man with a vision who has no issues setting audacious goals for both himself and the team around him. His goal is to keep our humanity while scaling meaningful connections using new technologies and frequently succeeds. Ben believes in a life of service to others and is anything but predictable. To sum him up: Standards that are high, much like his heels.",
         "tagLine": "Director Data Science, ATB Financial",
         "profilePicture": "https://sessionize.com/image?f=6dfbb6380dcb9b0430da518e6b74321a,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.8a51bb0f-fec4-4598-978b-bb4fd663a615.jpg",
         "sessions": [
@@ -728,7 +615,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -770,13 +657,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -787,7 +674,7 @@
         "fullName": "Boyang Zhang",
         "bio": "BSc in Mechanical Engineering from University of Waterloo, currently a process controls engineer at Hood Pkg Corp.",
         "tagLine": "A Perspective on Deep Learning and Machine Learning",
-        "profilePicture": "https://sessionize.com/image?f=09e4d295e917500ff7fcdf258487ccd8,400,400,True,False,35fd3e37-ba5e-4e0b-9f1a-03879bf01b24.jpg",
+        "profilePicture": "https://sessionize.com/image?f=8be5ba00d46ae4923c8026a55fdbca33,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.ee55c9e0-6298-454d-a172-1103eb51dce3.jpeg",
         "sessions": [
             {
                 "id": 147669,
@@ -854,7 +741,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -896,7 +783,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
@@ -907,7 +794,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -992,7 +879,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -1033,14 +920,24 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -1125,7 +1022,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -1161,14 +1058,24 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -1177,13 +1084,13 @@
         "firstName": "Eddy",
         "lastName": "Beals",
         "fullName": "Eddy Beals",
-        "bio": "I'm an Operations Analyst working in a back office solution and support team in ATB Financial. I don't have a formal background in development, and have gotten to learn it on the job.",
+        "bio": "I'm an Operations Analyst currently working on and learning machine learning. I don't have a formal background in development, and have gotten to learn it on the job.",
         "tagLine": "An ATB Financial Employee Who Regularly Engages in Projects Out of His League",
         "profilePicture": "https://sessionize.com/image?f=4cc03e9a98518d78e70fa68e6408a52b,400,400,True,False,1d27de2c-95b2-4ffc-8cfa-51044f2a57af.jpg",
         "sessions": [
             {
                 "id": 142401,
-                "name": "Using Google App Maker to Develop a Workflow Tool - Going from Beginner to Developer"
+                "name": "How Google App Maker Helps a Non-Developer to... Develop"
             }
         ],
         "isTopSpeaker": true,
@@ -1248,7 +1155,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -1289,14 +1196,24 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -1386,7 +1303,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -1427,14 +1344,24 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -1519,7 +1446,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -1566,7 +1493,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
@@ -1577,7 +1504,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -1667,7 +1594,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -1709,13 +1636,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -1797,7 +1724,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -1834,13 +1761,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -1925,7 +1852,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -1967,13 +1894,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -2058,7 +1985,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -2099,14 +2026,24 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -2186,7 +2123,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -2228,13 +2165,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -2323,7 +2260,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -2359,14 +2296,167 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
+                "categoryItems": [
+                    {
+                        "id": 30706,
+                        "name": "NO"
+                    }
+                ],
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
+                "categoryItems": [
+                    {
+                        "id": 30707,
+                        "name": "NO"
+                    }
+                ],
+                "sort": 16
+            }
+        ]
+    },
+    {
+        "id": "c494c719-0f25-4a49-86e6-bd8be525cafd",
+        "firstName": "Krzys",
+        "lastName": "Palka",
+        "fullName": "Krzys Palka",
+        "bio": "Harvard educated, founder and CEO of Akin\u00ea Inc., Krzysztof Palka, MSc. Engineering, has over 15 years experience in artificial lift technology development, and 30 years experience in management, business development and entrepreneurship. Krzysztof has successfully lead a pre-cast concrete form and equipment business, an oil field service business and served as chief strategist for a local oil producer. He has the experience and track record to successfully bring products to market.",
+        "tagLine": "You can only improve what you can measure!",
+        "profilePicture": "https://sessionize.com/image?f=c4027d35a515c24b60ceb72a5f098542,400,400,True,False,fdfd218a-9f02-45b6-80e0-a2f8e4cbe4a2.jpg",
+        "sessions": [
+            {
+                "id": 146755,
+                "name": "Building Scalable Oil and Gas Systems on GCP"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/krzysztof-kris-palka-93bb8816/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Company Website",
+                "url": "https://www.akine.ca/",
+                "linkType": "Company_Website"
+            }
+        ],
+        "questionAnswers": [
+            {
+                "id": 15580,
+                "question": "1. GitHub Profile",
+                "questionType": "Web_address",
+                "answer": null,
+                "sort": 3,
+                "answerExtra": null
+            },
+            {
+                "id": 15581,
+                "question": "1. Current Organization/ Company Name",
+                "questionType": "Short_Text",
+                "answer": "Akine Inc",
+                "sort": 4,
+                "answerExtra": null
+            },
+            {
+                "id": 15583,
+                "question": "1. Company Logo",
+                "questionType": "File_upload",
+                "answer": "19-0f25-4a49-86e6-bd8be525cafd.c075dc84-34be-427d-ba28-2bdd56d2c7ba.png",
+                "sort": 6,
+                "answerExtra": "Akine Wordmark and Logo 2.png"
+            },
+            {
+                "id": 15585,
+                "question": "1. Home City",
+                "questionType": "Short_Text",
+                "answer": "Calgary",
+                "sort": 7,
+                "answerExtra": null
+            },
+            {
+                "id": 15586,
+                "question": "1. Nearest International Airport",
+                "questionType": "Short_Text",
+                "answer": null,
+                "sort": 8,
+                "answerExtra": null
+            },
+            {
+                "id": 15590,
+                "question": "1. Other Pronouns",
+                "questionType": "Short_Text",
+                "answer": null,
+                "sort": 2,
+                "answerExtra": null
+            },
+            {
+                "id": 17188,
+                "question": "3. Promo Video",
+                "questionType": "File_upload",
+                "answer": null,
+                "sort": 14,
+                "answerExtra": null
+            }
+        ],
+        "categories": [
+            {
+                "id": 15582,
+                "name": "1. Company Support",
+                "categoryItems": [
+                    {
+                        "id": 22893,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 5
+            },
+            {
+                "id": 15584,
+                "name": "1. Pronouns",
+                "categoryItems": [
+                    {
+                        "id": 22896,
+                        "name": "HE/HIM"
+                    }
+                ],
+                "sort": 1
+            },
+            {
+                "id": 15588,
+                "name": "1. Community Code of Conduct",
+                "categoryItems": [
+                    {
+                        "id": 22899,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 0
+            },
+            {
+                "id": 17259,
+                "name": "3. Meet the Experts",
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 15
+            },
+            {
+                "id": 17260,
+                "name": "3. Podcast",
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -2460,7 +2550,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -2502,13 +2592,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -2588,7 +2678,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -2625,13 +2715,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -2721,7 +2811,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -2768,7 +2858,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
@@ -2779,7 +2869,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -2853,7 +2943,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -2895,13 +2985,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -2996,7 +3086,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -3032,14 +3122,24 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
+                "categoryItems": [
+                    {
+                        "id": 30706,
+                        "name": "NO"
+                    }
+                ],
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -3129,7 +3229,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -3166,13 +3266,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -3205,7 +3305,7 @@
                 "id": 15581,
                 "question": "1. Current Organization/ Company Name",
                 "questionType": "Short_Text",
-                "answer": null,
+                "answer": "Arcurve",
                 "sort": 4,
                 "answerExtra": null
             },
@@ -3213,9 +3313,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": "85-4958-4c6a-9ac0-a996a7be6106.8a740616-848b-446e-9c67-1a259144f906.png",
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.266636f2-3118-4c81-a4d3-eee3447d3767.png",
                 "sort": 6,
-                "answerExtra": "devfesticon.png"
+                "answerExtra": "arcurve.png"
             },
             {
                 "id": 15585,
@@ -3246,7 +3346,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -3283,13 +3383,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -3363,7 +3463,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -3410,7 +3510,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
@@ -3421,7 +3521,139 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 17
+                "sort": 16
+            }
+        ]
+    },
+    {
+        "id": "f160491f-23a6-42c4-9e93-3915b04953d0",
+        "firstName": "Sarah",
+        "lastName": "D'Angelo",
+        "fullName": "Sarah D'Angelo",
+        "bio": "Sarah is User Experience Researcher on Google Cloud. Her research focuses on understanding developer needs and helping design tools to improve developer experience. Prior to Google, she received a PhD in Technology and Social Behavior from Northwestern University. ",
+        "tagLine": "UX Researcher, Google",
+        "profilePicture": "https://sessionize.com/image?f=5f2428d61230f0f3a18c8c9528d63d68,400,400,True,False,1f-23a6-42c4-9e93-3915b04953d0.7babe392-e48b-4809-9f87-5d1fb20fb479.jpg",
+        "sessions": [
+            {
+                "id": 148136,
+                "name": "How UX makes GCP the Best Cloud for Developers"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [],
+        "questionAnswers": [
+            {
+                "id": 15580,
+                "question": "1. GitHub Profile",
+                "questionType": "Web_address",
+                "answer": null,
+                "sort": 3,
+                "answerExtra": null
+            },
+            {
+                "id": 15581,
+                "question": "1. Current Organization/ Company Name",
+                "questionType": "Short_Text",
+                "answer": "Google",
+                "sort": 4,
+                "answerExtra": null
+            },
+            {
+                "id": 15583,
+                "question": "1. Company Logo",
+                "questionType": "File_upload",
+                "answer": null,
+                "sort": 6,
+                "answerExtra": null
+            },
+            {
+                "id": 15585,
+                "question": "1. Home City",
+                "questionType": "Short_Text",
+                "answer": "Seattle",
+                "sort": 7,
+                "answerExtra": null
+            },
+            {
+                "id": 15586,
+                "question": "1. Nearest International Airport",
+                "questionType": "Short_Text",
+                "answer": null,
+                "sort": 8,
+                "answerExtra": null
+            },
+            {
+                "id": 15590,
+                "question": "1. Other Pronouns",
+                "questionType": "Short_Text",
+                "answer": null,
+                "sort": 2,
+                "answerExtra": null
+            },
+            {
+                "id": 17188,
+                "question": "3. Promo Video",
+                "questionType": "File_upload",
+                "answer": null,
+                "sort": 14,
+                "answerExtra": null
+            }
+        ],
+        "categories": [
+            {
+                "id": 15582,
+                "name": "1. Company Support",
+                "categoryItems": [
+                    {
+                        "id": 22893,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 5
+            },
+            {
+                "id": 15584,
+                "name": "1. Pronouns",
+                "categoryItems": [
+                    {
+                        "id": 22895,
+                        "name": "SHE/HER"
+                    }
+                ],
+                "sort": 1
+            },
+            {
+                "id": 15588,
+                "name": "1. Community Code of Conduct",
+                "categoryItems": [
+                    {
+                        "id": 22899,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 0
+            },
+            {
+                "id": 17259,
+                "name": "3. Meet the Experts",
+                "categoryItems": [
+                    {
+                        "id": 30706,
+                        "name": "NO"
+                    }
+                ],
+                "sort": 15
+            },
+            {
+                "id": 17260,
+                "name": "3. Podcast",
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -3430,7 +3662,7 @@
         "firstName": "Scott",
         "lastName": "Stoll",
         "fullName": "Scott Stoll",
-        "bio": "Scott is an American app developer, author, speaker, trainer and Flutter evangelist. He has been involved with Flutter since the 9th commit, v0.0.14, and possesses a Nanodegree from Google / Udacity in Android Development.\r\n\r\nToday, Scott is the primary organizer of GDG Cleveland and the NE Ohio Flutter Developers Meetup,  co-founder of the Flutter Study Group Slack (FSG) and Editor for Flutter Community on Medium. He is also the creator of #HumpDayQandA, a weekly, remote video conference held every Wednesday where people can come for free, live help with Flutter.\r\n\r\nHe's available for talks, workshops and consulting both nationally and internationally.",
+        "bio": "Scott possesses a Nanodegree from Google/Udacity in Android Development and first got involved with Flutter in early Alpha (v0.0.14), less than three months after its first public commit. He's been responsible for building large portions of Flutter's worldwide community infrastructure, \r\n\r\nToday, Scott is the primary organizer of GDG Cleveland, owner of the Official Flutter Community Slack, an editor of the Flutter Community Medium publication and creator of Flutter's weekly remote \"help desk\", #HumpDayQandA.\r\n\r\nHe's available nationally and internationally for talks and workshops, as well as 3-day corporate training sessions through Ardan Labs at https://www.ardanlabs.com/",
         "tagLine": "Flutter Community",
         "profilePicture": "https://sessionize.com/image?f=db7fd2549e76730f12855faab515e3f8,400,400,True,False,929e38b3-2da1-482b-b87a-5834f6c855c7.jpg",
         "sessions": [
@@ -3514,7 +3746,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -3555,14 +3787,24 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -3647,7 +3889,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -3683,14 +3925,24 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
+                "categoryItems": [
+                    {
+                        "id": 30707,
+                        "name": "NO"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -3764,7 +4016,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -3802,11 +4054,11 @@
                 "name": "3. Meet the Experts",
                 "categoryItems": [
                     {
-                        "id": 30061,
-                        "name": "YES"
+                        "id": 30706,
+                        "name": "NO"
                     }
                 ],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
@@ -3817,7 +4069,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -3907,7 +4159,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -3949,7 +4201,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
@@ -3960,7 +4212,7 @@
                         "name": "YES"
                     }
                 ],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -4005,9 +4257,9 @@
                 "id": 15583,
                 "question": "1. Company Logo",
                 "questionType": "File_upload",
-                "answer": "85-4958-4c6a-9ac0-a996a7be6106.5f71d6d7-f7dc-4cd4-9869-2e917bf6d18f.png",
+                "answer": "85-4958-4c6a-9ac0-a996a7be6106.92aa4811-1446-416b-b898-e0a5cf4c8164.png",
                 "sort": 6,
-                "answerExtra": "devfesticon.png"
+                "answerExtra": "01 02 Deep Learning Fellowship Logo Hz (No Padding)@0.5x.png"
             },
             {
                 "id": 15585,
@@ -4038,7 +4290,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -4074,14 +4326,24 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
-                "sort": 16
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
-                "sort": 17
+                "categoryItems": [
+                    {
+                        "id": 30707,
+                        "name": "NO"
+                    }
+                ],
+                "sort": 16
             }
         ]
     },
@@ -4161,7 +4423,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -4198,13 +4460,13 @@
                 "id": 17259,
                 "name": "3. Meet the Experts",
                 "categoryItems": [],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
                 "categoryItems": [],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -4299,7 +4561,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -4341,7 +4603,7 @@
                         "name": "NO"
                     }
                 ],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
@@ -4352,7 +4614,7 @@
                         "name": "NO"
                     }
                 ],
-                "sort": 17
+                "sort": 16
             }
         ]
     },
@@ -4426,7 +4688,7 @@
                 "question": "3. Promo Video",
                 "questionType": "File_upload",
                 "answer": null,
-                "sort": 15,
+                "sort": 14,
                 "answerExtra": null
             }
         ],
@@ -4468,7 +4730,7 @@
                         "name": "NO"
                     }
                 ],
-                "sort": 16
+                "sort": 15
             },
             {
                 "id": 17260,
@@ -4479,7 +4741,7 @@
                         "name": "NO"
                     }
                 ],
-                "sort": 17
+                "sort": 16
             }
         ]
     }

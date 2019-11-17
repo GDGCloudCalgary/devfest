@@ -67,6 +67,24 @@
         <div>
           <h1 class="container-title">{$ aboutBlock.title $}</h1>
           <p>{$ aboutBlock.callToAction.featuredSessions.description $}</p>
+          <p> </p>
+          <p> </p>
+          <p><img src="../../images/check.png" alt="check" align="left"><h3>Meet 35+ World Class Google & Cloud experts</h3></p>
+          <p><img src="../../images/check.png" alt="check" align="left"><h3>Get 1 Month FREE Qwiklabs ($75 Value)</h3></p>
+          <p><img src="../../images/check.png" alt="check" align="left"><h3>Workshops and Codelabs</h3></p>
+          <p><img src="../../images/check.png" alt="check" align="left"><h3>Two whole days of fun and learning</h3></p>
+          <p><img src="../../images/check.png" alt="check" align="left"><h3>Experts Lounge}</h3></p>
+          <p><img src="../../images/check.png" alt="check" align="left"><h3>Cloud Bingo</h3></p
+          <p><img src="../../images/check.png" alt="check" align="left"><h3>Swagbag </h3></p>
+          <p><img src="../../images/check.png" alt="check" align="left"><h3>Food, prizes and a whole lot more!</h3></p>
+
+          <p> </p>
+          <p> </p>
+          <p>{$ aboutBlock.callToAction.howItWas.description $}</p>
+
+          <p></p>
+          <p></p>
+
           <a
             href="{$ aboutBlock.callToAction.featuredSessions.link $}"
             ga-on="click"
@@ -81,8 +99,6 @@
               <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
             </paper-button>
           </a>
-
-          <p>{$ aboutBlock.callToAction.howItWas.description $}</p>
           <paper-button
             class="animated icon-right"
             on-tap="_playVideo"
@@ -176,7 +192,6 @@
         });
       }
     }
-
     window.customElements.define(AboutBlock.is, AboutBlock);
   </script>
 </dom-module>

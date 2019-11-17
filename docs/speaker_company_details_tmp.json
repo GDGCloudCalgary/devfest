@@ -1,8 +1,4 @@
 {
-    "Aakanksha_Parameshwar": {
-        "company": "Google",
-        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
-    },
     "Adam_Berkan": {
         "company": "Khan Academy",
         "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
@@ -71,6 +67,10 @@
         "company": "Women Techmakers",
         "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
+    "Krzys_Palka": {
+        "company": "Akine Inc",
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
+    },
     "Kyle_Paul": {
         "company": "Google",
         "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
@@ -96,11 +96,15 @@
         "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "Ryker_Rumsey": {
-        "company": "",
+        "company": "Arcurve",
         "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "Sam_Barbeau": {
         "company": "Flexera",
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
+    },
+    "Sarah_D'Angelo": {
+        "company": "Google",
         "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/"
     },
     "Scott_Stoll": {

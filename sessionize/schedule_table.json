@@ -290,8 +290,8 @@
                     },
                     {
                         "id": "148136",
-                        "title": "How UX makes GCP the best cloud for Developers",
-                        "description": "User Experience (UX) is an incredibly important aspect of Google Cloud Platform.\r\n\r\nIn this panel we will give you an overview of UX research in Google Cloud Platform and provide example of how Google UX research and methodology translates into a more that provide meaningful and relevant experiences to experience for developers.",
+                        "title": "How UX makes GCP the Best Cloud for Developers",
+                        "description": "User Experience (UX) is an incredibly important aspect of Google Cloud Platform.\r\n\r\nIn this panel we will give you an overview of UX research in Google Cloud Platform and provide example of how Google UX research and methodology translates into a more that provide meaningful and relevant experiences for developers.",
                         "startsAt": "2019-11-22T14:00:00",
                         "endsAt": "2019-11-22T14:50:00",
                         "isServiceSession": false,
@@ -302,8 +302,8 @@
                                 "name": "arunima kashyap"
                             },
                             {
-                                "id": "6601c345-d4f5-4da8-b49f-ac37175cd617",
-                                "name": "Aakanksha Parameshwar"
+                                "id": "f160491f-23a6-42c4-9e93-3915b04953d0",
+                                "name": "Sarah D'Angelo"
                             }
                         ],
                         "categories": [
@@ -358,7 +358,7 @@
                     {
                         "id": "153627",
                         "title": "To Infinity and Beyond... and Back Again. ",
-                        "description": "A look at supporting technologies in a developers arsenal. All the things you didn't know you didn't know.",
+                        "description": "A story of how our tech was formed, where it is headed and how it affects us as developers.",
                         "startsAt": "2019-11-22T15:00:00",
                         "endsAt": "2019-11-22T15:40:00",
                         "isServiceSession": false,
@@ -568,8 +568,8 @@
                         "id": "149086",
                         "title": "Streaming Data Pipelines: Creating Next Gen Banking Analytics",
                         "description": "Making banking work for people means evolving solutions to meet the demands of tomorrow. In this talk, we will discuss how Google Cloud Platform (GCP) can be used to find innovative ways in producing robust and cost-efficient real-time data processing and analysis. We will also illustrate how GCP can be leveraged to produce next gen banking analytic systems.",
-                        "startsAt": "2019-11-22T11:05:00",
-                        "endsAt": "2019-11-22T11:20:00",
+                        "startsAt": "2019-11-22T11:00:00",
+                        "endsAt": "2019-11-22T11:30:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
@@ -836,6 +836,69 @@
                         ],
                         "roomId": 7453,
                         "room": "BMO Financial Group Community Room"
+                    },
+                    {
+                        "id": "144896",
+                        "title": "How Khan Academy Tracks Learning Time",
+                        "description": "Khan Academy is getting smarter about making its students smarter. We recently built a new real time data pipeline to track our students' learning time.  We use various Google Cloud products including GAE, Google Storage, BigQuery, Dataflow, StackDriver, and more.  Find out how we process thousands of learning events per second.",
+                        "startsAt": "2019-11-22T15:00:00",
+                        "endsAt": "2019-11-22T15:40:00",
+                        "isServiceSession": false,
+                        "isPlenumSession": false,
+                        "speakers": [
+                            {
+                                "id": "c938ade5-5aba-464b-8f43-bdd18966cb05",
+                                "name": "Adam Berkan"
+                            }
+                        ],
+                        "categories": [
+                            {
+                                "id": 15384,
+                                "name": "Language",
+                                "categoryItems": [
+                                    {
+                                        "id": 22085,
+                                        "name": "English"
+                                    }
+                                ],
+                                "sort": 3
+                            },
+                            {
+                                "id": 15572,
+                                "name": "Session format",
+                                "categoryItems": [
+                                    {
+                                        "id": 22859,
+                                        "name": "Launchpad Talk (30-40 mins)"
+                                    }
+                                ],
+                                "sort": 0
+                            },
+                            {
+                                "id": 15573,
+                                "name": "Track",
+                                "categoryItems": [
+                                    {
+                                        "id": 22864,
+                                        "name": "Infrastructure"
+                                    }
+                                ],
+                                "sort": 1
+                            },
+                            {
+                                "id": 15574,
+                                "name": "Level",
+                                "categoryItems": [
+                                    {
+                                        "id": 22869,
+                                        "name": "Intermediate"
+                                    }
+                                ],
+                                "sort": 2
+                            }
+                        ],
+                        "roomId": 7453,
+                        "room": "BMO Financial Group Community Room"
                     }
                 ],
                 "hasOnlyPlenumSessions": false
@@ -847,7 +910,7 @@
                     {
                         "id": "144610",
                         "title": "Local Businesses Leveraging Google My Business",
-                        "description": "This session is aimed at showing local business owners how to utilize the Google My Business platform for exposing their brands to more customers.",
+                        "description": "Local business: Want to build business and grow awareness? Simple ways to use Google My Business platform to expose brands to more customers and sales!",
                         "startsAt": "2019-11-22T10:00:00",
                         "endsAt": "2019-11-22T10:15:00",
                         "isServiceSession": false,
@@ -1045,6 +1108,10 @@
                             {
                                 "id": "871703a4-3285-4d15-b4f8-4552b47cb481",
                                 "name": "Josh Fafard"
+                            },
+                            {
+                                "id": "c494c719-0f25-4a49-86e6-bd8be525cafd",
+                                "name": "Krzys Palka"
                             }
                         ],
                         "categories": [
@@ -1236,17 +1303,17 @@
                         "room": "Central Library Room 0-13"
                     },
                     {
-                        "id": "144896",
-                        "title": "How Khan Academy Tracks Learning Time",
-                        "description": "Khan Academy recently built a new real time data pipeline to track our students' learning time.  We use various Google Cloud products including GAE, Google Storage, BigQuery, Dataflow, StackDriver, and more.  Find out how we process thousands of learning events per second.",
+                        "id": "148187",
+                        "title": "Women Techmakers",
+                        "description": "Google's Women Techmakers program provides visibility, community, and resources for women in technology. Learn more about what the initiatives are, what WTM can provide, and how you can get involved. ",
                         "startsAt": "2019-11-22T15:00:00",
-                        "endsAt": "2019-11-22T15:40:00",
+                        "endsAt": "2019-11-22T15:15:00",
                         "isServiceSession": false,
                         "isPlenumSession": false,
                         "speakers": [
                             {
-                                "id": "c938ade5-5aba-464b-8f43-bdd18966cb05",
-                                "name": "Adam Berkan"
+                                "id": "a66f4031-d503-4e83-855d-3985a046f40b",
+                                "name": "Kiley Carson"
                             }
                         ],
                         "categories": [
@@ -1266,8 +1333,8 @@
                                 "name": "Session format",
                                 "categoryItems": [
                                     {
-                                        "id": 22859,
-                                        "name": "Launchpad Talk (30-40 mins)"
+                                        "id": 22858,
+                                        "name": "Igniter Talk (10-15 mins)"
                                     }
                                 ],
                                 "sort": 0
@@ -1277,8 +1344,8 @@
                                 "name": "Track",
                                 "categoryItems": [
                                     {
-                                        "id": 22864,
-                                        "name": "Infrastructure"
+                                        "id": 22867,
+                                        "name": "Google Programs & Non-Technical"
                                     }
                                 ],
                                 "sort": 1
@@ -1288,8 +1355,8 @@
                                 "name": "Level",
                                 "categoryItems": [
                                     {
-                                        "id": 22869,
-                                        "name": "Intermediate"
+                                        "id": 22868,
+                                        "name": "Introductory and overview"
                                     }
                                 ],
                                 "sort": 2
@@ -1384,7 +1451,7 @@
                     {
                         "id": "153631",
                         "title": "Get hands on with Flutter! Flutter 102, Layout Basics",
-                        "description": "Flutter is taking the world by storm, enabling developers to write 90%+ of an app just once, then reuse that code to release to mobile, desktop and web.\r\n\r\nJoin us for Flutter 102, Layout Basics! Together we'll work through a customized workshop that was inspired by a layout tutorial designed by the Flutter team itself. When we're done, you know how easy it is to put together a great UI in Flutter!\r\n\r\nSo come get some hands-on experience with Flutter, and see how it can make your life a whole lot easier!\r\n\r\nPlease have Flutter installed and test that you can create a basic Flutter app before this workshop. We don't have enough time to walk people through installing Flutter and do the workshop too.",
+                        "description": "Flutter is taking the world by storm, enabling developers to write 90%+ of an app just once, then reuse that code to release to mobile, desktop and web.\r\n\r\nJoin us for Flutter 102, Layout Basics! Together we'll work through a customized workshop that was inspired by a layout tutorial designed by the Flutter team itself. When we're done, you'll know how easy it is to put together a great UI in Flutter!\r\n\r\nSo come get some hands-on experience with Flutter, and see how it can make your life a whole lot easier!\r\n\r\nPlease have Flutter installed and test that you can create a basic Flutter app before this workshop. We don't have enough time to walk people through installing Flutter and do the workshop too.",
                         "startsAt": "2019-11-22T13:00:00",
                         "endsAt": "2019-11-22T16:00:00",
                         "isServiceSession": false,
@@ -1694,7 +1761,7 @@
                         "session": {
                             "id": "144610",
                             "title": "Local Businesses Leveraging Google My Business",
-                            "description": "This session is aimed at showing local business owners how to utilize the Google My Business platform for exposing their brands to more customers.",
+                            "description": "Local business: Want to build business and grow awareness? Simple ways to use Google My Business platform to expose brands to more customers and sales!",
                             "startsAt": "2019-11-22T10:00:00",
                             "endsAt": "2019-11-22T10:15:00",
                             "isServiceSession": false,
@@ -2044,6 +2111,78 @@
                         "index": 0
                     },
                     {
+                        "id": 7453,
+                        "name": "BMO Financial Group Community Room",
+                        "session": {
+                            "id": "149086",
+                            "title": "Streaming Data Pipelines: Creating Next Gen Banking Analytics",
+                            "description": "Making banking work for people means evolving solutions to meet the demands of tomorrow. In this talk, we will discuss how Google Cloud Platform (GCP) can be used to find innovative ways in producing robust and cost-efficient real-time data processing and analysis. We will also illustrate how GCP can be leveraged to produce next gen banking analytic systems.",
+                            "startsAt": "2019-11-22T11:00:00",
+                            "endsAt": "2019-11-22T11:30:00",
+                            "isServiceSession": false,
+                            "isPlenumSession": false,
+                            "speakers": [
+                                {
+                                    "id": "aabd8190-53a9-420f-9abe-e448479496fa",
+                                    "name": "Gunjan Kaur"
+                                },
+                                {
+                                    "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",
+                                    "name": "Xueming Zhao"
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "id": 15384,
+                                    "name": "Language",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22085,
+                                            "name": "English"
+                                        }
+                                    ],
+                                    "sort": 3
+                                },
+                                {
+                                    "id": 15572,
+                                    "name": "Session format",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22859,
+                                            "name": "Launchpad Talk (30-40 mins)"
+                                        }
+                                    ],
+                                    "sort": 0
+                                },
+                                {
+                                    "id": 15573,
+                                    "name": "Track",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22865,
+                                            "name": "Data Analytics and AI"
+                                        }
+                                    ],
+                                    "sort": 1
+                                },
+                                {
+                                    "id": 15574,
+                                    "name": "Level",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22869,
+                                            "name": "Intermediate"
+                                        }
+                                    ],
+                                    "sort": 2
+                                }
+                            ],
+                            "roomId": 7453,
+                            "room": "BMO Financial Group Community Room"
+                        },
+                        "index": 1
+                    },
+                    {
                         "id": 7454,
                         "name": "Central Library Room 0-13",
                         "session": {
@@ -2110,83 +2249,6 @@
                             "room": "Central Library Room 0-13"
                         },
                         "index": 2
-                    }
-                ]
-            },
-            {
-                "slotStart": "11:05:00",
-                "rooms": [
-                    {
-                        "id": 7453,
-                        "name": "BMO Financial Group Community Room",
-                        "session": {
-                            "id": "149086",
-                            "title": "Streaming Data Pipelines: Creating Next Gen Banking Analytics",
-                            "description": "Making banking work for people means evolving solutions to meet the demands of tomorrow. In this talk, we will discuss how Google Cloud Platform (GCP) can be used to find innovative ways in producing robust and cost-efficient real-time data processing and analysis. We will also illustrate how GCP can be leveraged to produce next gen banking analytic systems.",
-                            "startsAt": "2019-11-22T11:05:00",
-                            "endsAt": "2019-11-22T11:20:00",
-                            "isServiceSession": false,
-                            "isPlenumSession": false,
-                            "speakers": [
-                                {
-                                    "id": "aabd8190-53a9-420f-9abe-e448479496fa",
-                                    "name": "Gunjan Kaur"
-                                },
-                                {
-                                    "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",
-                                    "name": "Xueming Zhao"
-                                }
-                            ],
-                            "categories": [
-                                {
-                                    "id": 15384,
-                                    "name": "Language",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22085,
-                                            "name": "English"
-                                        }
-                                    ],
-                                    "sort": 3
-                                },
-                                {
-                                    "id": 15572,
-                                    "name": "Session format",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22859,
-                                            "name": "Launchpad Talk (30-40 mins)"
-                                        }
-                                    ],
-                                    "sort": 0
-                                },
-                                {
-                                    "id": 15573,
-                                    "name": "Track",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22865,
-                                            "name": "Data Analytics and AI"
-                                        }
-                                    ],
-                                    "sort": 1
-                                },
-                                {
-                                    "id": 15574,
-                                    "name": "Level",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22869,
-                                            "name": "Intermediate"
-                                        }
-                                    ],
-                                    "sort": 2
-                                }
-                            ],
-                            "roomId": 7453,
-                            "room": "BMO Financial Group Community Room"
-                        },
-                        "index": 1
                     }
                 ]
             },
@@ -2276,6 +2338,10 @@
                                 {
                                     "id": "871703a4-3285-4d15-b4f8-4552b47cb481",
                                     "name": "Josh Fafard"
+                                },
+                                {
+                                    "id": "c494c719-0f25-4a49-86e6-bd8be525cafd",
+                                    "name": "Krzys Palka"
                                 }
                             ],
                             "categories": [
@@ -2621,7 +2687,7 @@
                         "session": {
                             "id": "153631",
                             "title": "Get hands on with Flutter! Flutter 102, Layout Basics",
-                            "description": "Flutter is taking the world by storm, enabling developers to write 90%+ of an app just once, then reuse that code to release to mobile, desktop and web.\r\n\r\nJoin us for Flutter 102, Layout Basics! Together we'll work through a customized workshop that was inspired by a layout tutorial designed by the Flutter team itself. When we're done, you know how easy it is to put together a great UI in Flutter!\r\n\r\nSo come get some hands-on experience with Flutter, and see how it can make your life a whole lot easier!\r\n\r\nPlease have Flutter installed and test that you can create a basic Flutter app before this workshop. We don't have enough time to walk people through installing Flutter and do the workshop too.",
+                            "description": "Flutter is taking the world by storm, enabling developers to write 90%+ of an app just once, then reuse that code to release to mobile, desktop and web.\r\n\r\nJoin us for Flutter 102, Layout Basics! Together we'll work through a customized workshop that was inspired by a layout tutorial designed by the Flutter team itself. When we're done, you'll know how easy it is to put together a great UI in Flutter!\r\n\r\nSo come get some hands-on experience with Flutter, and see how it can make your life a whole lot easier!\r\n\r\nPlease have Flutter installed and test that you can create a basic Flutter app before this workshop. We don't have enough time to walk people through installing Flutter and do the workshop too.",
                             "startsAt": "2019-11-22T13:00:00",
                             "endsAt": "2019-11-22T16:00:00",
                             "isServiceSession": false,
@@ -2693,8 +2759,8 @@
                         "name": "Patricia A. Whelan Performance Hall",
                         "session": {
                             "id": "148136",
-                            "title": "How UX makes GCP the best cloud for Developers",
-                            "description": "User Experience (UX) is an incredibly important aspect of Google Cloud Platform.\r\n\r\nIn this panel we will give you an overview of UX research in Google Cloud Platform and provide example of how Google UX research and methodology translates into a more that provide meaningful and relevant experiences to experience for developers.",
+                            "title": "How UX makes GCP the Best Cloud for Developers",
+                            "description": "User Experience (UX) is an incredibly important aspect of Google Cloud Platform.\r\n\r\nIn this panel we will give you an overview of UX research in Google Cloud Platform and provide example of how Google UX research and methodology translates into a more that provide meaningful and relevant experiences for developers.",
                             "startsAt": "2019-11-22T14:00:00",
                             "endsAt": "2019-11-22T14:50:00",
                             "isServiceSession": false,
@@ -2705,8 +2771,8 @@
                                     "name": "arunima kashyap"
                                 },
                                 {
-                                    "id": "6601c345-d4f5-4da8-b49f-ac37175cd617",
-                                    "name": "Aakanksha Parameshwar"
+                                    "id": "f160491f-23a6-42c4-9e93-3915b04953d0",
+                                    "name": "Sarah D'Angelo"
                                 }
                             ],
                             "categories": [
@@ -2911,7 +2977,7 @@
                         "session": {
                             "id": "153627",
                             "title": "To Infinity and Beyond... and Back Again. ",
-                            "description": "A look at supporting technologies in a developers arsenal. All the things you didn't know you didn't know.",
+                            "description": "A story of how our tech was formed, where it is headed and how it affects us as developers.",
                             "startsAt": "2019-11-22T15:00:00",
                             "endsAt": "2019-11-22T15:40:00",
                             "isServiceSession": false,
@@ -2974,12 +3040,12 @@
                         "index": 0
                     },
                     {
-                        "id": 7454,
-                        "name": "Central Library Room 0-13",
+                        "id": 7453,
+                        "name": "BMO Financial Group Community Room",
                         "session": {
                             "id": "144896",
                             "title": "How Khan Academy Tracks Learning Time",
-                            "description": "Khan Academy recently built a new real time data pipeline to track our students' learning time.  We use various Google Cloud products including GAE, Google Storage, BigQuery, Dataflow, StackDriver, and more.  Find out how we process thousands of learning events per second.",
+                            "description": "Khan Academy is getting smarter about making its students smarter. We recently built a new real time data pipeline to track our students' learning time.  We use various Google Cloud products including GAE, Google Storage, BigQuery, Dataflow, StackDriver, and more.  Find out how we process thousands of learning events per second.",
                             "startsAt": "2019-11-22T15:00:00",
                             "endsAt": "2019-11-22T15:40:00",
                             "isServiceSession": false,
@@ -3031,6 +3097,74 @@
                                         {
                                             "id": 22869,
                                             "name": "Intermediate"
+                                        }
+                                    ],
+                                    "sort": 2
+                                }
+                            ],
+                            "roomId": 7453,
+                            "room": "BMO Financial Group Community Room"
+                        },
+                        "index": 1
+                    },
+                    {
+                        "id": 7454,
+                        "name": "Central Library Room 0-13",
+                        "session": {
+                            "id": "148187",
+                            "title": "Women Techmakers",
+                            "description": "Google's Women Techmakers program provides visibility, community, and resources for women in technology. Learn more about what the initiatives are, what WTM can provide, and how you can get involved. ",
+                            "startsAt": "2019-11-22T15:00:00",
+                            "endsAt": "2019-11-22T15:15:00",
+                            "isServiceSession": false,
+                            "isPlenumSession": false,
+                            "speakers": [
+                                {
+                                    "id": "a66f4031-d503-4e83-855d-3985a046f40b",
+                                    "name": "Kiley Carson"
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "id": 15384,
+                                    "name": "Language",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22085,
+                                            "name": "English"
+                                        }
+                                    ],
+                                    "sort": 3
+                                },
+                                {
+                                    "id": 15572,
+                                    "name": "Session format",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22858,
+                                            "name": "Igniter Talk (10-15 mins)"
+                                        }
+                                    ],
+                                    "sort": 0
+                                },
+                                {
+                                    "id": 15573,
+                                    "name": "Track",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22867,
+                                            "name": "Google Programs & Non-Technical"
+                                        }
+                                    ],
+                                    "sort": 1
+                                },
+                                {
+                                    "id": 15574,
+                                    "name": "Level",
+                                    "categoryItems": [
+                                        {
+                                            "id": 22868,
+                                            "name": "Introductory and overview"
                                         }
                                     ],
                                     "sort": 2
@@ -3683,7 +3817,7 @@
                     },
                     {
                         "id": "142401",
-                        "title": "Using Google App Maker to Develop a Workflow Tool - Going from Beginner to Developer",
+                        "title": "How Google App Maker Helps a Non-Developer to... Develop",
                         "description": "A sharing of my adventure in using Google App Maker to develop a complex workflow tool while starting out with no previous web app development experience",
                         "startsAt": "2019-11-23T13:15:00",
                         "endsAt": "2019-11-23T13:30:00",
@@ -3725,69 +3859,6 @@
                                     {
                                         "id": 22866,
                                         "name": "Code and Development"
-                                    }
-                                ],
-                                "sort": 1
-                            },
-                            {
-                                "id": 15574,
-                                "name": "Level",
-                                "categoryItems": [
-                                    {
-                                        "id": 22868,
-                                        "name": "Introductory and overview"
-                                    }
-                                ],
-                                "sort": 2
-                            }
-                        ],
-                        "roomId": 7453,
-                        "room": "BMO Financial Group Community Room"
-                    },
-                    {
-                        "id": "148187",
-                        "title": "Women Techmakers",
-                        "description": "Google's Women Techmakers program provides visibility, community, and resources for women in technology. Learn more about what the initiatives are, what WTM can provide, and how you can get involved. ",
-                        "startsAt": "2019-11-23T13:30:00",
-                        "endsAt": "2019-11-23T13:45:00",
-                        "isServiceSession": false,
-                        "isPlenumSession": false,
-                        "speakers": [
-                            {
-                                "id": "a66f4031-d503-4e83-855d-3985a046f40b",
-                                "name": "Kiley Carson"
-                            }
-                        ],
-                        "categories": [
-                            {
-                                "id": 15384,
-                                "name": "Language",
-                                "categoryItems": [
-                                    {
-                                        "id": 22085,
-                                        "name": "English"
-                                    }
-                                ],
-                                "sort": 3
-                            },
-                            {
-                                "id": 15572,
-                                "name": "Session format",
-                                "categoryItems": [
-                                    {
-                                        "id": 22858,
-                                        "name": "Igniter Talk (10-15 mins)"
-                                    }
-                                ],
-                                "sort": 0
-                            },
-                            {
-                                "id": 15573,
-                                "name": "Track",
-                                "categoryItems": [
-                                    {
-                                        "id": 22867,
-                                        "name": "Google Programs & Non-Technical"
                                     }
                                 ],
                                 "sort": 1
@@ -5210,7 +5281,7 @@
                         "name": "BMO Financial Group Community Room",
                         "session": {
                             "id": "142401",
-                            "title": "Using Google App Maker to Develop a Workflow Tool - Going from Beginner to Developer",
+                            "title": "How Google App Maker Helps a Non-Developer to... Develop",
                             "description": "A sharing of my adventure in using Google App Maker to develop a complex workflow tool while starting out with no previous web app development experience",
                             "startsAt": "2019-11-23T13:15:00",
                             "endsAt": "2019-11-23T13:30:00",
@@ -5252,79 +5323,6 @@
                                         {
                                             "id": 22866,
                                             "name": "Code and Development"
-                                        }
-                                    ],
-                                    "sort": 1
-                                },
-                                {
-                                    "id": 15574,
-                                    "name": "Level",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22868,
-                                            "name": "Introductory and overview"
-                                        }
-                                    ],
-                                    "sort": 2
-                                }
-                            ],
-                            "roomId": 7453,
-                            "room": "BMO Financial Group Community Room"
-                        },
-                        "index": 1
-                    }
-                ]
-            },
-            {
-                "slotStart": "13:30:00",
-                "rooms": [
-                    {
-                        "id": 7453,
-                        "name": "BMO Financial Group Community Room",
-                        "session": {
-                            "id": "148187",
-                            "title": "Women Techmakers",
-                            "description": "Google's Women Techmakers program provides visibility, community, and resources for women in technology. Learn more about what the initiatives are, what WTM can provide, and how you can get involved. ",
-                            "startsAt": "2019-11-23T13:30:00",
-                            "endsAt": "2019-11-23T13:45:00",
-                            "isServiceSession": false,
-                            "isPlenumSession": false,
-                            "speakers": [
-                                {
-                                    "id": "a66f4031-d503-4e83-855d-3985a046f40b",
-                                    "name": "Kiley Carson"
-                                }
-                            ],
-                            "categories": [
-                                {
-                                    "id": 15384,
-                                    "name": "Language",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22085,
-                                            "name": "English"
-                                        }
-                                    ],
-                                    "sort": 3
-                                },
-                                {
-                                    "id": 15572,
-                                    "name": "Session format",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22858,
-                                            "name": "Igniter Talk (10-15 mins)"
-                                        }
-                                    ],
-                                    "sort": 0
-                                },
-                                {
-                                    "id": 15573,
-                                    "name": "Track",
-                                    "categoryItems": [
-                                        {
-                                            "id": 22867,
-                                            "name": "Google Programs & Non-Technical"
                                         }
                                     ],
                                     "sort": 1
