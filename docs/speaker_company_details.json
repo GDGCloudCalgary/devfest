@@ -169,5 +169,15 @@
         "company": "ATB Financial",
         "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/atb.png",
         "companyLogoUrl": "http://www.google.com"
+    },
+      "Krzys_Palka": {
+        "company": "Akine Inc",
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/akine.png",
+        "companyLogoUrl": "http://www.google.com"
+    },
+      "Sarah_D'Angelo": {
+        "company": "Google",
+        "companyLogo": "https://storage.googleapis.com/dfua17.appspot.com/images/logos/googlecloud.png",
+        "companyLogoUrl": "http://www.google.com"
     }
 }

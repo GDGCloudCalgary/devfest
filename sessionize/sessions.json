@@ -457,6 +457,82 @@
             },
             {
                 "questionAnswers": [],
+                "id": "161200",
+                "title": "ATB Experts Lounge Day 1 11AM",
+                "description": "Meet your favourite DevFestYYC Speakers in the ATB Experts Lounge!\r\n\r\nAsk questions. Get a selfie or an autograph. Say hi! This is your chance to network with the top developers and innovators around! ",
+                "startsAt": "2019-11-22T11:00:00",
+                "endsAt": "2019-11-22T11:30:00",
+                "isServiceSession": false,
+                "isPlenumSession": false,
+                "speakers": [
+                    {
+                        "id": "6aedf707-2823-4996-9bc7-947ac04bb095",
+                        "name": "Hans Hegge"
+                    },
+                    {
+                        "id": "da7dd79f-5466-4d91-8599-6419522e6b1b",
+                        "name": "Sam Barbeau"
+                    },
+                    {
+                        "id": "e5f069e4-04a6-4c80-b86b-202882d17614",
+                        "name": "Jay Krish"
+                    },
+                    {
+                        "id": "c5e2da64-bed6-4995-92b5-15865c0485a1",
+                        "name": "Kayode Otegbeye"
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 15384,
+                        "name": "Language",
+                        "categoryItems": [
+                            {
+                                "id": 22085,
+                                "name": "English"
+                            }
+                        ],
+                        "sort": 3
+                    },
+                    {
+                        "id": 15572,
+                        "name": "Session format",
+                        "categoryItems": [
+                            {
+                                "id": 33353,
+                                "name": "Experts Lounge (30)"
+                            }
+                        ],
+                        "sort": 0
+                    },
+                    {
+                        "id": 15573,
+                        "name": "Track",
+                        "categoryItems": [
+                            {
+                                "id": 30637,
+                                "name": "Meet the Experts"
+                            }
+                        ],
+                        "sort": 1
+                    },
+                    {
+                        "id": 15574,
+                        "name": "Level",
+                        "categoryItems": [
+                            {
+                                "id": 22868,
+                                "name": "Introductory and overview"
+                            }
+                        ],
+                        "sort": 2
+                    }
+                ],
+                "roomId": 10492,
+                "room": "ATB Experts Lounge"
+            },
+            {
+                "questionAnswers": [],
                 "id": "148133",
                 "title": "Developer Student Clubs",
                 "description": "Developer Student Clubs are all over the Globe now.\r\nWhat are they? What do they do? How can you get involved? ",
@@ -785,6 +861,86 @@
             },
             {
                 "questionAnswers": [],
+                "id": "161201",
+                "title": "ATB Experts Lounge Day 1 1 PM",
+                "description": "Meet your favourite DevFestYYC Speakers in the ATB Experts Lounge!\r\n\r\nAsk questions. Get a selfie or an autograph. Say hi! This is your chance to network with the top developers and innovators around! ",
+                "startsAt": "2019-11-22T13:00:00",
+                "endsAt": "2019-11-22T13:30:00",
+                "isServiceSession": false,
+                "isPlenumSession": false,
+                "speakers": [
+                    {
+                        "id": "aabd8190-53a9-420f-9abe-e448479496fa",
+                        "name": "Gunjan Kaur"
+                    },
+                    {
+                        "id": "e5f069e4-04a6-4c80-b86b-202882d17614",
+                        "name": "Jay Krish"
+                    },
+                    {
+                        "id": "871703a4-3285-4d15-b4f8-4552b47cb481",
+                        "name": "Josh Fafard"
+                    },
+                    {
+                        "id": "c494c719-0f25-4a49-86e6-bd8be525cafd",
+                        "name": "Krzys Palka"
+                    },
+                    {
+                        "id": "1fbe0905-c4cd-4abd-aa2f-1532c51daeb2",
+                        "name": "Suryatapa Roy"
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 15384,
+                        "name": "Language",
+                        "categoryItems": [
+                            {
+                                "id": 22085,
+                                "name": "English"
+                            }
+                        ],
+                        "sort": 3
+                    },
+                    {
+                        "id": 15572,
+                        "name": "Session format",
+                        "categoryItems": [
+                            {
+                                "id": 33353,
+                                "name": "Experts Lounge (30)"
+                            }
+                        ],
+                        "sort": 0
+                    },
+                    {
+                        "id": 15573,
+                        "name": "Track",
+                        "categoryItems": [
+                            {
+                                "id": 30637,
+                                "name": "Meet the Experts"
+                            }
+                        ],
+                        "sort": 1
+                    },
+                    {
+                        "id": 15574,
+                        "name": "Level",
+                        "categoryItems": [
+                            {
+                                "id": 22868,
+                                "name": "Introductory and overview"
+                            }
+                        ],
+                        "sort": 2
+                    }
+                ],
+                "roomId": 10492,
+                "room": "ATB Experts Lounge"
+            },
+            {
+                "questionAnswers": [],
                 "id": "157996",
                 "title": "Drive Innovation: Reimagine Hybrid and Multi-Cloud Architecture with Anthos",
                 "description": "A detailed walk through of why Anthos is important to you. ",
@@ -1038,6 +1194,78 @@
                 ],
                 "roomId": 7454,
                 "room": "Central Library Room 0-13"
+            },
+            {
+                "questionAnswers": [],
+                "id": "161202",
+                "title": "ATB Experts Lounge Day 1 2 PM",
+                "description": "Meet your favourite DevFestYYC Speakers in the ATB Experts Lounge!\r\n\r\nAsk questions. Get a selfie or an autograph. Say hi! This is your chance to network with the top developers and innovators around! ",
+                "startsAt": "2019-11-22T14:00:00",
+                "endsAt": "2019-11-22T14:30:00",
+                "isServiceSession": false,
+                "isPlenumSession": false,
+                "speakers": [
+                    {
+                        "id": "70a54dce-8cb0-4a6d-b3ba-db930e784a30",
+                        "name": "Michael Murphy"
+                    },
+                    {
+                        "id": "414f8531-163d-4c25-9f02-acaca51c7e08",
+                        "name": "Ben Nakaska"
+                    },
+                    {
+                        "id": "c938ade5-5aba-464b-8f43-bdd18966cb05",
+                        "name": "Adam Berkan"
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 15384,
+                        "name": "Language",
+                        "categoryItems": [
+                            {
+                                "id": 22085,
+                                "name": "English"
+                            }
+                        ],
+                        "sort": 3
+                    },
+                    {
+                        "id": 15572,
+                        "name": "Session format",
+                        "categoryItems": [
+                            {
+                                "id": 33353,
+                                "name": "Experts Lounge (30)"
+                            }
+                        ],
+                        "sort": 0
+                    },
+                    {
+                        "id": 15573,
+                        "name": "Track",
+                        "categoryItems": [
+                            {
+                                "id": 30637,
+                                "name": "Meet the Experts"
+                            }
+                        ],
+                        "sort": 1
+                    },
+                    {
+                        "id": 15574,
+                        "name": "Level",
+                        "categoryItems": [
+                            {
+                                "id": 22868,
+                                "name": "Introductory and overview"
+                            }
+                        ],
+                        "sort": 2
+                    }
+                ],
+                "roomId": 10492,
+                "room": "ATB Experts Lounge"
             },
             {
                 "questionAnswers": [],
@@ -1882,6 +2110,74 @@
                 ],
                 "roomId": 7454,
                 "room": "Central Library Room 0-13"
+            },
+            {
+                "questionAnswers": [],
+                "id": "161205",
+                "title": "ATB Experts Lounge Day 2 11 AM",
+                "description": "Meet your favourite DevFestYYC Speakers in the ATB Experts Lounge!\r\n\r\nAsk questions. Get a selfie or an autograph. Say hi! This is your chance to network with the top developers and innovators around! ",
+                "startsAt": "2019-11-23T11:00:00",
+                "endsAt": "2019-11-23T11:30:00",
+                "isServiceSession": false,
+                "isPlenumSession": false,
+                "speakers": [
+                    {
+                        "id": "3f92c941-7953-4646-a762-610a998f8451",
+                        "name": "Amol Deshmukh"
+                    },
+                    {
+                        "id": "5e5049b5-cb34-4bb2-b81e-d522e65009e6",
+                        "name": "Katie Murray"
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 15384,
+                        "name": "Language",
+                        "categoryItems": [
+                            {
+                                "id": 22085,
+                                "name": "English"
+                            }
+                        ],
+                        "sort": 3
+                    },
+                    {
+                        "id": 15572,
+                        "name": "Session format",
+                        "categoryItems": [
+                            {
+                                "id": 33353,
+                                "name": "Experts Lounge (30)"
+                            }
+                        ],
+                        "sort": 0
+                    },
+                    {
+                        "id": 15573,
+                        "name": "Track",
+                        "categoryItems": [
+                            {
+                                "id": 30637,
+                                "name": "Meet the Experts"
+                            }
+                        ],
+                        "sort": 1
+                    },
+                    {
+                        "id": 15574,
+                        "name": "Level",
+                        "categoryItems": [
+                            {
+                                "id": 22868,
+                                "name": "Introductory and overview"
+                            }
+                        ],
+                        "sort": 2
+                    }
+                ],
+                "roomId": 10492,
+                "room": "ATB Experts Lounge"
             },
             {
                 "questionAnswers": [],
