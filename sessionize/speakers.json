@@ -9,10 +9,6 @@
         "profilePicture": "https://sessionize.com/image?f=6b2ac8fcc68242b855f3229abe2bbb6c,400,400,True,False,e5-5aba-464b-8f43-bdd18966cb05.ec904bf8-55e3-4098-a966-a3a46aef940d.jpg",
         "sessions": [
             {
-                "id": 161202,
-                "name": "ATB Experts Lounge Day 1 2 PM"
-            },
-            {
                 "id": 144896,
                 "name": "How Khan Academy Tracks Learning Time"
             }
@@ -291,15 +287,11 @@
         "fullName": "Amol Deshmukh",
         "bio": "Amol Deshmukh is a Software Architect at Quizlet. He has over 20 years of professional experience working on large scale systems at Yahoo, Twitter, Salesforce. At Quizlet, he leads the adoption of a microservices-based architecture.",
         "tagLine": "Amol Deshmukh works as a Software Architect at Quizlet.",
-        "profilePicture": "https://sessionize.com/image?f=b8b3caf3ca13a4d45b9e25edc3cb5eba,400,400,True,False,41-7953-4646-a762-610a998f8451.217b97fc-3f80-47e3-b662-3b8bc9ff0091.png",
+        "profilePicture": "https://sessionize.com/image?f=05d68fa4703161653d2bdbffd43bb1fe,400,400,True,False,41-7953-4646-a762-610a998f8451.a8825d49-f677-4515-91d8-f8825528a6ef.png",
         "sessions": [
             {
                 "id": 148188,
                 "name": "Keeping it Re(lation)al: moving from MySQL to Cloud Spanner without skipping a beat"
-            },
-            {
-                "id": 161205,
-                "name": "ATB Experts Lounge Day 2 11 AM"
             }
         ],
         "isTopSpeaker": true,
@@ -562,10 +554,6 @@
         "tagLine": "Director Data Science, ATB Financial",
         "profilePicture": "https://sessionize.com/image?f=6dfbb6380dcb9b0430da518e6b74321a,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.8a51bb0f-fec4-4598-978b-bb4fd663a615.jpg",
         "sessions": [
-            {
-                "id": 161202,
-                "name": "ATB Experts Lounge Day 1 2 PM"
-            },
             {
                 "id": 153627,
                 "name": "To Infinity and Beyond... and Back Again. "
@@ -993,7 +981,7 @@
                 "id": 15581,
                 "question": "1. Current Organization/ Company Name",
                 "questionType": "Short_Text",
-                "answer": null,
+                "answer": "ATB Financial",
                 "sort": 4,
                 "answerExtra": null
             },
@@ -1382,17 +1370,13 @@
         "firstName": "Gunjan",
         "lastName": "Kaur",
         "fullName": "Gunjan Kaur",
-        "bio": "Gunjan received her masters degree in Economics and Finance from the University of Alberta. After stints in social market research and FX modelling, she ventured into risk management practice at ATB. Curious about applying her machine learning skills in industry, she later joined the Artificial Intelligence guild at ATB. She led the Real Time Triggers University of Alberta-ATB AI Lab focused on utilizing cutting edge Internet of Things (IOT) methodologies to effectively and efficiently analyze ATB data streams in real time. She also participated in specialized programs at Google and Fintech research at the University of Oxford. In her most recent role, she is leading experimentation analytics for a strategic initiative aimed at increasing customer engagement. She is passionate about data wizardry and problem solving expertise to big data challenges in the financial realm, helping transform ATB to make banking work for Albertans.   \r\n",
+        "bio": "Gunjan received her masters degree in Economics and Finance from the University of Alberta. After stints in social market research and FX modelling, she ventured into risk management practice at ATB. Curious about applying her machine learning skills in industry, she later joined the Artificial Intelligence guild at ATB. She led the Real Time Triggers University of Alberta-ATB AI Lab focused on utilizing cutting edge Internet of Things (IOT) methodologies to effectively and efficiently analyze ATB data streams in real time. She also participated in specialized programs at Google and Fintech research at the University of Oxford. She is passionate about data wizardry and problem solving expertise to big data challenges in the financial realm, helping transform ATB to make banking work for Albertans.   \r\n",
         "tagLine": "Director of Analytics",
         "profilePicture": "https://sessionize.com/image?f=3a18f0f15e4ee266c8f995a75ffe0c56,400,400,True,False,93255ae5-2a44-4c2e-ad9c-d7fc87dcfd26.jpg",
         "sessions": [
             {
                 "id": 149086,
                 "name": "Streaming Data Pipelines: Creating Next Gen Banking Analytics"
-            },
-            {
-                "id": 161201,
-                "name": "ATB Experts Lounge Day 1 1 PM"
             }
         ],
         "isTopSpeaker": false,
@@ -1536,23 +1520,14 @@
             {
                 "id": 147801,
                 "name": "Mission Migration: Billions of Connections. Thousands of Dependencies. Migration in 3...2..1. "
-            },
-            {
-                "id": 161200,
-                "name": "ATB Experts Lounge Day 1 11AM"
             }
         ],
         "isTopSpeaker": true,
         "links": [
             {
                 "title": "LinkedIn",
-                "url": "https://www.linkedin.com/in/sambarbeau/",
-                "linkType": "LinkedIn"
-            },
-            {
-                "title": "Blog",
                 "url": "https://www.linkedin.com/in/hanshegge/",
-                "linkType": "Blog"
+                "linkType": "LinkedIn"
             },
             {
                 "title": "Company Website",
@@ -1680,16 +1655,8 @@
                 "name": "Kubernetes 101 in 3D"
             },
             {
-                "id": 161200,
-                "name": "ATB Experts Lounge Day 1 11AM"
-            },
-            {
                 "id": 149561,
                 "name": "Updates from KubeCon + CloudNativeCon North America 2019"
-            },
-            {
-                "id": 161201,
-                "name": "ATB Experts Lounge Day 1 1 PM"
             },
             {
                 "id": 149562,
@@ -1811,10 +1778,6 @@
             {
                 "id": 146755,
                 "name": "Building Scalable Oil and Gas Systems on GCP"
-            },
-            {
-                "id": 161201,
-                "name": "ATB Experts Lounge Day 1 1 PM"
             }
         ],
         "isTopSpeaker": false,
@@ -1948,10 +1911,6 @@
             {
                 "id": 146638,
                 "name": "A non-dev, in a dev world"
-            },
-            {
-                "id": 161205,
-                "name": "ATB Experts Lounge Day 2 11 AM"
             }
         ],
         "isTopSpeaker": false,
@@ -2095,10 +2054,6 @@
             {
                 "id": 144610,
                 "name": "Local Businesses Leveraging Google My Business"
-            },
-            {
-                "id": 161200,
-                "name": "ATB Experts Lounge Day 1 11AM"
             }
         ],
         "isTopSpeaker": false,
@@ -2369,10 +2324,6 @@
             {
                 "id": 146755,
                 "name": "Building Scalable Oil and Gas Systems on GCP"
-            },
-            {
-                "id": 161201,
-                "name": "ATB Experts Lounge Day 1 1 PM"
             }
         ],
         "isTopSpeaker": false,
@@ -2781,10 +2732,6 @@
             {
                 "id": 157996,
                 "name": "Drive Innovation: Reimagine Hybrid and Multi-Cloud Architecture with Anthos"
-            },
-            {
-                "id": 161202,
-                "name": "ATB Experts Lounge Day 1 2 PM"
             }
         ],
         "isTopSpeaker": true,
@@ -3453,10 +3400,6 @@
             {
                 "id": 147801,
                 "name": "Mission Migration: Billions of Connections. Thousands of Dependencies. Migration in 3...2..1. "
-            },
-            {
-                "id": 161200,
-                "name": "ATB Experts Lounge Day 1 11AM"
             }
         ],
         "isTopSpeaker": false,
@@ -4137,10 +4080,6 @@
             {
                 "id": 146324,
                 "name": "Building Augmented Reality Applications"
-            },
-            {
-                "id": 161201,
-                "name": "ATB Experts Lounge Day 1 1 PM"
             }
         ],
         "isTopSpeaker": false,

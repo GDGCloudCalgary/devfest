@@ -1,48 +1,12 @@
 [
     {
-        "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",
-        "firstName": "Xueming",
-        "lastName": "Zhao",
-        "fullName": "Xueming Zhao",
-        "tagLine": "ATB Financial, Managing Director, Balance Sheet Management, Treasury",
-        "profilePicture": "https://sessionize.com/image?f=35de9f6e33a09eb7e6fab539dcdacf0b,400,400,True,False,66783f8c-75a0-4a08-8a3b-c52603758f8c.jpg",
-        "isTopSpeaker": true
-    },
-    {
-        "id": "0dc29185-4958-4c6a-9ac0-a996a7be6106",
-        "firstName": "Greg",
-        "lastName": "Bennett",
-        "fullName": "Greg Bennett",
-        "tagLine": "Founder @ GDGYYC, President @ AIRIA Cloud",
-        "profilePicture": "https://sessionize.com/image?f=769a7f6d3ed81bd46975ae63d18440b9,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.6997f7f8-3bdb-47f0-a1e0-a04bf938d68b.jpeg",
+        "id": "feab4691-7239-4b54-b0dc-e5b49d51eba8",
+        "firstName": "Albert",
+        "lastName": "Morozov",
+        "fullName": "Albert Morozov",
+        "tagLine": "Immediate Rent, Founder and Lead Developer",
+        "profilePicture": "https://sessionize.com/image?f=15073d001018447e94dc59f6afe3e525,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.9475bda6-ee2f-4ed6-a1e9-5bfb429614b8.JPG",
         "isTopSpeaker": false
-    },
-    {
-        "id": "02443b49-2511-4bdf-88fa-e3acddbaf14e",
-        "firstName": "Shaun",
-        "lastName": "Mitchell",
-        "fullName": "Shaun Mitchell",
-        "tagLine": "Google Cloud Architect working with Enterprises to transform their cloud experience",
-        "profilePicture": "https://sessionize.com/image?f=35e3b3eb6e1956644b897dddb7529968,400,400,True,False,55ae3a30-a1c8-43c8-9bed-956f22ec1f92.jpg",
-        "isTopSpeaker": true
-    },
-    {
-        "id": "7d6dcff7-6b17-49e4-b3a8-7b09bdd83e99",
-        "firstName": "Tim",
-        "lastName": "Chan",
-        "fullName": "Tim Chan",
-        "tagLine": "Co-founder of Untapped Energy",
-        "profilePicture": "https://sessionize.com/image?f=eb1a1e0651e5d573c4ac7e879e9291a1,400,400,True,False,f7-6b17-49e4-b3a8-7b09bdd83e99.714aeaf3-ddff-404b-be8e-a406a44d6854.jpg",
-        "isTopSpeaker": false
-    },
-    {
-        "id": "c233c8c9-064f-4525-baa3-d043c40e9ee4",
-        "firstName": "Scott",
-        "lastName": "Stoll",
-        "fullName": "Scott Stoll",
-        "tagLine": "Flutter Community",
-        "profilePicture": "https://sessionize.com/image?f=db7fd2549e76730f12855faab515e3f8,400,400,True,False,929e38b3-2da1-482b-b87a-5834f6c855c7.jpg",
-        "isTopSpeaker": true
     },
     {
         "id": "414f8531-163d-4c25-9f02-acaca51c7e08",
@@ -54,121 +18,22 @@
         "isTopSpeaker": false
     },
     {
-        "id": "70a54dce-8cb0-4a6d-b3ba-db930e784a30",
-        "firstName": "Michael",
-        "lastName": "Murphy",
-        "fullName": "Michael Murphy",
-        "tagLine": "Used to be Googley now I like ice cream.  Solution Architect operating in a cloud world",
-        "profilePicture": "https://sessionize.com/image?f=b2862189dadb96a8d653b85c6efa2c86,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.0f019c04-32e8-40f3-9991-36f1e43d6584.jpeg",
+        "id": "5e5049b5-cb34-4bb2-b81e-d522e65009e6",
+        "firstName": "Katie",
+        "lastName": "Murray",
+        "fullName": "Katie Murray",
+        "tagLine": "Senior Manager, Intelligent Process Automation (ATB Financial)",
+        "profilePicture": "https://sessionize.com/image?f=a7df30e236cd32d621364afcca95a936,400,400,True,False,743a8fa9-07f6-430c-866d-71446192b044.jpg",
+        "isTopSpeaker": false
+    },
+    {
+        "id": "a66f4031-d503-4e83-855d-3985a046f40b",
+        "firstName": "Kiley",
+        "lastName": "Carson",
+        "fullName": "Kiley Carson",
+        "tagLine": "WTM Lead, GDGYYC Co-Organizer, DSC Lead UofC Chapter",
+        "profilePicture": "https://sessionize.com/image?f=49e9497538a4dcae3fb5cb3e3f081c50,400,400,True,False,31-d503-4e83-855d-3985a046f40b.974a90a1-4015-4c30-95ba-7eaaeabfd1bb.jpg",
         "isTopSpeaker": true
-    },
-    {
-        "id": "bf3bcc87-d529-4374-ab9d-9c4cd7e638e5",
-        "firstName": "Suni",
-        "lastName": "Mathews",
-        "fullName": "Suni Mathews",
-        "tagLine": "Data Engineer",
-        "profilePicture": "https://sessionize.com/image?f=596e5115ae7f24e360c430e2d2c25ffa,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.1d8342db-7eae-4a8f-93f6-8f8fca68466b.png",
-        "isTopSpeaker": false
-    },
-    {
-        "id": "2831907b-95ba-4e14-a73c-5c528d02481f",
-        "firstName": "Mohamed",
-        "lastName": "Ibrahim",
-        "fullName": "Mohamed Ibrahim",
-        "tagLine": "Founder www.instafly.me",
-        "profilePicture": "https://sessionize.com/image?f=bae46a8964c08b5f7479577f5efbd785,400,400,True,False,7b-95ba-4e14-a73c-5c528d02481f.54570025-0551-4400-8b2f-c988ca30056a.png",
-        "isTopSpeaker": false
-    },
-    {
-        "id": "985af537-c53f-46e9-90d7-7487ff11ad16",
-        "firstName": "Ryker",
-        "lastName": "Rumsey",
-        "fullName": "Ryker Rumsey",
-        "tagLine": "Develop. Cloud. Backend. ",
-        "profilePicture": "https://sessionize.com/image?f=82879b9dbebc0713860360324726315f,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.f21c6157-5863-44a4-81e4-e3584a513f08.jpeg",
-        "isTopSpeaker": false
-    },
-    {
-        "id": "d32382d9-5486-4182-b456-806c2b3b326b",
-        "firstName": "Charlie",
-        "lastName": "Cheung",
-        "fullName": "Charlie Cheung",
-        "tagLine": "UX Consultant",
-        "profilePicture": "https://sessionize.com/image?f=bff08671cea95df1bc30cf451ac2b278,400,400,True,False,d9-5486-4182-b456-806c2b3b326b.00434709-9088-478d-9257-16d777481a0c.JPG",
-        "isTopSpeaker": false
-    },
-    {
-        "id": "1fbe0905-c4cd-4abd-aa2f-1532c51daeb2",
-        "firstName": "Suryatapa",
-        "lastName": "Roy",
-        "fullName": "Suryatapa Roy",
-        "tagLine": "Data Scientist@CHATA.AI. Research in Virtual Reality and Machine Learning@UofC",
-        "profilePicture": "https://sessionize.com/image?f=938a5b10ae2454f2e387f22a8ab3b716,400,400,True,False,05-c4cd-4abd-aa2f-1532c51daeb2.f116aa6d-b0cb-4e41-94b5-53d391c565db.png",
-        "isTopSpeaker": false
-    },
-    {
-        "id": "871703a4-3285-4d15-b4f8-4552b47cb481",
-        "firstName": "Josh",
-        "lastName": "Fafard",
-        "fullName": "Josh Fafard",
-        "tagLine": "Akin\u00ea Inc.",
-        "profilePicture": "https://sessionize.com/image?f=af8c5ebf27b7dceb69a43492252a4495,400,400,True,False,7c791d09-08fd-4801-ad72-e213f1bb97ed.jpg",
-        "isTopSpeaker": false
-    },
-    {
-        "id": "083ce647-1a58-4ee2-9776-424a12496c8f",
-        "firstName": "Neel",
-        "lastName": "Kirit",
-        "fullName": "Neel Kirit",
-        "tagLine": "Mentor, Mobile Web Specialist, Udacity",
-        "profilePicture": "https://sessionize.com/image?f=ab0d2d5abf40a40202faeac3088a1773,400,400,True,False,7a4a57b1-a72c-4437-80cd-3dda23b434f3.jpg",
-        "isTopSpeaker": true
-    },
-    {
-        "id": "aabd8190-53a9-420f-9abe-e448479496fa",
-        "firstName": "Gunjan",
-        "lastName": "Kaur",
-        "fullName": "Gunjan Kaur",
-        "tagLine": "Director of Analytics",
-        "profilePicture": "https://sessionize.com/image?f=3a18f0f15e4ee266c8f995a75ffe0c56,400,400,True,False,93255ae5-2a44-4c2e-ad9c-d7fc87dcfd26.jpg",
-        "isTopSpeaker": false
-    },
-    {
-        "id": "139ae38e-2231-42ed-bf27-0378afee1c1d",
-        "firstName": "arunima",
-        "lastName": "kashyap",
-        "fullName": "arunima kashyap",
-        "tagLine": "UX Expert. Google Manager Mentor. ",
-        "profilePicture": "https://sessionize.com/image?f=2509b6d7b7561ad5b154b500085506dd,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.65c87dae-51ef-448f-9d5e-c0b55ddae0e3.png",
-        "isTopSpeaker": true
-    },
-    {
-        "id": "c938ade5-5aba-464b-8f43-bdd18966cb05",
-        "firstName": "Adam",
-        "lastName": "Berkan",
-        "fullName": "Adam Berkan",
-        "tagLine": "Senior Software Engineer - Khan Academy",
-        "profilePicture": "https://sessionize.com/image?f=6b2ac8fcc68242b855f3229abe2bbb6c,400,400,True,False,e5-5aba-464b-8f43-bdd18966cb05.ec904bf8-55e3-4098-a966-a3a46aef940d.jpg",
-        "isTopSpeaker": true
-    },
-    {
-        "id": "3f92c941-7953-4646-a762-610a998f8451",
-        "firstName": "Amol",
-        "lastName": "Deshmukh",
-        "fullName": "Amol Deshmukh",
-        "tagLine": "Amol Deshmukh works as a Software Architect at Quizlet.",
-        "profilePicture": "https://sessionize.com/image?f=b8b3caf3ca13a4d45b9e25edc3cb5eba,400,400,True,False,41-7953-4646-a762-610a998f8451.217b97fc-3f80-47e3-b662-3b8bc9ff0091.png",
-        "isTopSpeaker": true
-    },
-    {
-        "id": "c5e2da64-bed6-4995-92b5-15865c0485a1",
-        "firstName": "Kayode",
-        "lastName": "Otegbeye",
-        "fullName": "Kayode Otegbeye",
-        "tagLine": "Cloud Evangelist | Technology Enthusiast | Management Consultant ",
-        "profilePicture": "https://sessionize.com/image?f=3f3e69d99dbe262bdb39bb9e578688fb,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.f163f34e-ca3b-4f3f-8706-f16f05ede94c.jpg",
-        "isTopSpeaker": false
     },
     {
         "id": "c19a594d-7d5c-40ac-9647-705dfd202bb0",
@@ -189,21 +54,39 @@
         "isTopSpeaker": true
     },
     {
-        "id": "db76fa0e-032e-4a48-9f0c-e73b1318242b",
-        "firstName": "Kyle",
-        "lastName": "Paul",
-        "fullName": "Kyle Paul",
-        "tagLine": "North America Regional Lead @ Google Developer Relations",
-        "profilePicture": "https://sessionize.com/image?f=9e4dc516380c97b079356a62040482c0,400,400,True,False,0e-032e-4a48-9f0c-e73b1318242b.0a907416-9c5f-42fe-b07c-c224824b5b10.jpg",
+        "id": "70a54dce-8cb0-4a6d-b3ba-db930e784a30",
+        "firstName": "Michael",
+        "lastName": "Murphy",
+        "fullName": "Michael Murphy",
+        "tagLine": "Used to be Googley now I like ice cream.  Solution Architect operating in a cloud world",
+        "profilePicture": "https://sessionize.com/image?f=b2862189dadb96a8d653b85c6efa2c86,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.0f019c04-32e8-40f3-9991-36f1e43d6584.jpeg",
         "isTopSpeaker": true
     },
     {
-        "id": "a66f4031-d503-4e83-855d-3985a046f40b",
-        "firstName": "Kiley",
-        "lastName": "Carson",
-        "fullName": "Kiley Carson",
-        "tagLine": "WTM Lead, GDGYYC Co-Organizer, DSC Lead UofC Chapter",
-        "profilePicture": "https://sessionize.com/image?f=49e9497538a4dcae3fb5cb3e3f081c50,400,400,True,False,31-d503-4e83-855d-3985a046f40b.974a90a1-4015-4c30-95ba-7eaaeabfd1bb.jpg",
+        "id": "1fbe0905-c4cd-4abd-aa2f-1532c51daeb2",
+        "firstName": "Suryatapa",
+        "lastName": "Roy",
+        "fullName": "Suryatapa Roy",
+        "tagLine": "Data Scientist@CHATA.AI. Research in Virtual Reality and Machine Learning@UofC",
+        "profilePicture": "https://sessionize.com/image?f=938a5b10ae2454f2e387f22a8ab3b716,400,400,True,False,05-c4cd-4abd-aa2f-1532c51daeb2.f116aa6d-b0cb-4e41-94b5-53d391c565db.png",
+        "isTopSpeaker": false
+    },
+    {
+        "id": "c5e2da64-bed6-4995-92b5-15865c0485a1",
+        "firstName": "Kayode",
+        "lastName": "Otegbeye",
+        "fullName": "Kayode Otegbeye",
+        "tagLine": "Cloud Evangelist | Technology Enthusiast | Management Consultant ",
+        "profilePicture": "https://sessionize.com/image?f=3f3e69d99dbe262bdb39bb9e578688fb,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.f163f34e-ca3b-4f3f-8706-f16f05ede94c.jpg",
+        "isTopSpeaker": false
+    },
+    {
+        "id": "c938ade5-5aba-464b-8f43-bdd18966cb05",
+        "firstName": "Adam",
+        "lastName": "Berkan",
+        "fullName": "Adam Berkan",
+        "tagLine": "Senior Software Engineer - Khan Academy",
+        "profilePicture": "https://sessionize.com/image?f=6b2ac8fcc68242b855f3229abe2bbb6c,400,400,True,False,e5-5aba-464b-8f43-bdd18966cb05.ec904bf8-55e3-4098-a966-a3a46aef940d.jpg",
         "isTopSpeaker": true
     },
     {
@@ -216,12 +99,84 @@
         "isTopSpeaker": true
     },
     {
-        "id": "feab4691-7239-4b54-b0dc-e5b49d51eba8",
-        "firstName": "Albert",
-        "lastName": "Morozov",
-        "fullName": "Albert Morozov",
-        "tagLine": "Immediate Rent, Founder and Lead Developer",
-        "profilePicture": "https://sessionize.com/image?f=15073d001018447e94dc59f6afe3e525,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.9475bda6-ee2f-4ed6-a1e9-5bfb429614b8.JPG",
+        "id": "d32382d9-5486-4182-b456-806c2b3b326b",
+        "firstName": "Charlie",
+        "lastName": "Cheung",
+        "fullName": "Charlie Cheung",
+        "tagLine": "UX Consultant",
+        "profilePicture": "https://sessionize.com/image?f=bff08671cea95df1bc30cf451ac2b278,400,400,True,False,d9-5486-4182-b456-806c2b3b326b.00434709-9088-478d-9257-16d777481a0c.JPG",
+        "isTopSpeaker": false
+    },
+    {
+        "id": "02443b49-2511-4bdf-88fa-e3acddbaf14e",
+        "firstName": "Shaun",
+        "lastName": "Mitchell",
+        "fullName": "Shaun Mitchell",
+        "tagLine": "Google Cloud Architect working with Enterprises to transform their cloud experience",
+        "profilePicture": "https://sessionize.com/image?f=35e3b3eb6e1956644b897dddb7529968,400,400,True,False,55ae3a30-a1c8-43c8-9bed-956f22ec1f92.jpg",
+        "isTopSpeaker": true
+    },
+    {
+        "id": "9fbdbef0-113a-42c4-8c2f-eab45601085e",
+        "firstName": "Boyang",
+        "lastName": "Zhang",
+        "fullName": "Boyang Zhang",
+        "tagLine": "A Perspective on Deep Learning and Machine Learning",
+        "profilePicture": "https://sessionize.com/image?f=8be5ba00d46ae4923c8026a55fdbca33,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.ee55c9e0-6298-454d-a172-1103eb51dce3.jpeg",
+        "isTopSpeaker": true
+    },
+    {
+        "id": "ac09d22c-27de-4475-82ab-a086d10bdfb6",
+        "firstName": "Xueming",
+        "lastName": "Zhao",
+        "fullName": "Xueming Zhao",
+        "tagLine": "ATB Financial, Managing Director, Balance Sheet Management, Treasury",
+        "profilePicture": "https://sessionize.com/image?f=35de9f6e33a09eb7e6fab539dcdacf0b,400,400,True,False,66783f8c-75a0-4a08-8a3b-c52603758f8c.jpg",
+        "isTopSpeaker": true
+    },
+    {
+        "id": "139ae38e-2231-42ed-bf27-0378afee1c1d",
+        "firstName": "arunima",
+        "lastName": "kashyap",
+        "fullName": "arunima kashyap",
+        "tagLine": "UX Expert. Google Manager Mentor. ",
+        "profilePicture": "https://sessionize.com/image?f=2509b6d7b7561ad5b154b500085506dd,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.65c87dae-51ef-448f-9d5e-c0b55ddae0e3.png",
+        "isTopSpeaker": true
+    },
+    {
+        "id": "985af537-c53f-46e9-90d7-7487ff11ad16",
+        "firstName": "Ryker",
+        "lastName": "Rumsey",
+        "fullName": "Ryker Rumsey",
+        "tagLine": "Develop. Cloud. Backend. ",
+        "profilePicture": "https://sessionize.com/image?f=82879b9dbebc0713860360324726315f,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.f21c6157-5863-44a4-81e4-e3584a513f08.jpeg",
+        "isTopSpeaker": false
+    },
+    {
+        "id": "871703a4-3285-4d15-b4f8-4552b47cb481",
+        "firstName": "Josh",
+        "lastName": "Fafard",
+        "fullName": "Josh Fafard",
+        "tagLine": "Akin\u00ea Inc.",
+        "profilePicture": "https://sessionize.com/image?f=af8c5ebf27b7dceb69a43492252a4495,400,400,True,False,7c791d09-08fd-4801-ad72-e213f1bb97ed.jpg",
+        "isTopSpeaker": false
+    },
+    {
+        "id": "6aedf707-2823-4996-9bc7-947ac04bb095",
+        "firstName": "Hans",
+        "lastName": "Hegge",
+        "fullName": "Hans Hegge",
+        "tagLine": "Flexera Channel Account Manager",
+        "profilePicture": "https://sessionize.com/image?f=f4626d098b3cf60e3fa5209faf37d4d3,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.ffb91cb4-e59f-4974-9296-39634db1bfc3.jpeg",
+        "isTopSpeaker": true
+    },
+    {
+        "id": "f160491f-23a6-42c4-9e93-3915b04953d0",
+        "firstName": "Sarah",
+        "lastName": "D'Angelo",
+        "fullName": "Sarah D'Angelo",
+        "tagLine": "UX Researcher, Google",
+        "profilePicture": "https://sessionize.com/image?f=5f2428d61230f0f3a18c8c9528d63d68,400,400,True,False,1f-23a6-42c4-9e93-3915b04953d0.7babe392-e48b-4809-9f87-5d1fb20fb479.jpg",
         "isTopSpeaker": false
     },
     {
@@ -243,12 +198,21 @@
         "isTopSpeaker": true
     },
     {
-        "id": "6aedf707-2823-4996-9bc7-947ac04bb095",
-        "firstName": "Hans",
-        "lastName": "Hegge",
-        "fullName": "Hans Hegge",
-        "tagLine": "Flexera Channel Account Manager",
-        "profilePicture": "https://sessionize.com/image?f=f4626d098b3cf60e3fa5209faf37d4d3,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.ffb91cb4-e59f-4974-9296-39634db1bfc3.jpeg",
+        "id": "3f92c941-7953-4646-a762-610a998f8451",
+        "firstName": "Amol",
+        "lastName": "Deshmukh",
+        "fullName": "Amol Deshmukh",
+        "tagLine": "Amol Deshmukh works as a Software Architect at Quizlet.",
+        "profilePicture": "https://sessionize.com/image?f=05d68fa4703161653d2bdbffd43bb1fe,400,400,True,False,41-7953-4646-a762-610a998f8451.a8825d49-f677-4515-91d8-f8825528a6ef.png",
+        "isTopSpeaker": true
+    },
+    {
+        "id": "083ce647-1a58-4ee2-9776-424a12496c8f",
+        "firstName": "Neel",
+        "lastName": "Kirit",
+        "fullName": "Neel Kirit",
+        "tagLine": "Mentor, Mobile Web Specialist, Udacity",
+        "profilePicture": "https://sessionize.com/image?f=ab0d2d5abf40a40202faeac3088a1773,400,400,True,False,7a4a57b1-a72c-4437-80cd-3dda23b434f3.jpg",
         "isTopSpeaker": true
     },
     {
@@ -261,22 +225,13 @@
         "isTopSpeaker": false
     },
     {
-        "id": "5e5049b5-cb34-4bb2-b81e-d522e65009e6",
-        "firstName": "Katie",
-        "lastName": "Murray",
-        "fullName": "Katie Murray",
-        "tagLine": "Senior Manager, Intelligent Process Automation (ATB Financial)",
-        "profilePicture": "https://sessionize.com/image?f=a7df30e236cd32d621364afcca95a936,400,400,True,False,743a8fa9-07f6-430c-866d-71446192b044.jpg",
+        "id": "bf3bcc87-d529-4374-ab9d-9c4cd7e638e5",
+        "firstName": "Suni",
+        "lastName": "Mathews",
+        "fullName": "Suni Mathews",
+        "tagLine": "Data Engineer",
+        "profilePicture": "https://sessionize.com/image?f=596e5115ae7f24e360c430e2d2c25ffa,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.1d8342db-7eae-4a8f-93f6-8f8fca68466b.png",
         "isTopSpeaker": false
-    },
-    {
-        "id": "86fb396d-cbb0-44b6-a4b6-995042fd90dc",
-        "firstName": "Wellington",
-        "lastName": "Holbrook",
-        "fullName": "Wellington Holbrook",
-        "tagLine": "Chief Transformation Officer- ATB Financial",
-        "profilePicture": "https://sessionize.com/image?f=10b9a65a0f56a5d1392b93c2a5420cad,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.85780038-1bfb-4343-a255-6935f2293559.jpg",
-        "isTopSpeaker": true
     },
     {
         "id": "43c5edcb-a11a-49cd-bb46-e5663e884924",
@@ -297,21 +252,66 @@
         "isTopSpeaker": true
     },
     {
-        "id": "9fbdbef0-113a-42c4-8c2f-eab45601085e",
-        "firstName": "Boyang",
-        "lastName": "Zhang",
-        "fullName": "Boyang Zhang",
-        "tagLine": "A Perspective on Deep Learning and Machine Learning",
-        "profilePicture": "https://sessionize.com/image?f=8be5ba00d46ae4923c8026a55fdbca33,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.ee55c9e0-6298-454d-a172-1103eb51dce3.jpeg",
+        "id": "86fb396d-cbb0-44b6-a4b6-995042fd90dc",
+        "firstName": "Wellington",
+        "lastName": "Holbrook",
+        "fullName": "Wellington Holbrook",
+        "tagLine": "Chief Transformation Officer- ATB Financial",
+        "profilePicture": "https://sessionize.com/image?f=10b9a65a0f56a5d1392b93c2a5420cad,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.85780038-1bfb-4343-a255-6935f2293559.jpg",
         "isTopSpeaker": true
     },
     {
-        "id": "f160491f-23a6-42c4-9e93-3915b04953d0",
-        "firstName": "Sarah",
-        "lastName": "D'Angelo",
-        "fullName": "Sarah D'Angelo",
-        "tagLine": "UX Researcher, Google",
-        "profilePicture": "https://sessionize.com/image?f=5f2428d61230f0f3a18c8c9528d63d68,400,400,True,False,1f-23a6-42c4-9e93-3915b04953d0.7babe392-e48b-4809-9f87-5d1fb20fb479.jpg",
+        "id": "0dc29185-4958-4c6a-9ac0-a996a7be6106",
+        "firstName": "Greg",
+        "lastName": "Bennett",
+        "fullName": "Greg Bennett",
+        "tagLine": "Founder @ GDGYYC, President @ AIRIA Cloud",
+        "profilePicture": "https://sessionize.com/image?f=769a7f6d3ed81bd46975ae63d18440b9,400,400,True,False,85-4958-4c6a-9ac0-a996a7be6106.6997f7f8-3bdb-47f0-a1e0-a04bf938d68b.jpeg",
+        "isTopSpeaker": false
+    },
+    {
+        "id": "db76fa0e-032e-4a48-9f0c-e73b1318242b",
+        "firstName": "Kyle",
+        "lastName": "Paul",
+        "fullName": "Kyle Paul",
+        "tagLine": "North America Regional Lead @ Google Developer Relations",
+        "profilePicture": "https://sessionize.com/image?f=9e4dc516380c97b079356a62040482c0,400,400,True,False,0e-032e-4a48-9f0c-e73b1318242b.0a907416-9c5f-42fe-b07c-c224824b5b10.jpg",
+        "isTopSpeaker": true
+    },
+    {
+        "id": "2831907b-95ba-4e14-a73c-5c528d02481f",
+        "firstName": "Mohamed",
+        "lastName": "Ibrahim",
+        "fullName": "Mohamed Ibrahim",
+        "tagLine": "Founder www.instafly.me",
+        "profilePicture": "https://sessionize.com/image?f=bae46a8964c08b5f7479577f5efbd785,400,400,True,False,7b-95ba-4e14-a73c-5c528d02481f.54570025-0551-4400-8b2f-c988ca30056a.png",
+        "isTopSpeaker": false
+    },
+    {
+        "id": "aabd8190-53a9-420f-9abe-e448479496fa",
+        "firstName": "Gunjan",
+        "lastName": "Kaur",
+        "fullName": "Gunjan Kaur",
+        "tagLine": "Director of Analytics",
+        "profilePicture": "https://sessionize.com/image?f=3a18f0f15e4ee266c8f995a75ffe0c56,400,400,True,False,93255ae5-2a44-4c2e-ad9c-d7fc87dcfd26.jpg",
+        "isTopSpeaker": false
+    },
+    {
+        "id": "c233c8c9-064f-4525-baa3-d043c40e9ee4",
+        "firstName": "Scott",
+        "lastName": "Stoll",
+        "fullName": "Scott Stoll",
+        "tagLine": "Flutter Community",
+        "profilePicture": "https://sessionize.com/image?f=db7fd2549e76730f12855faab515e3f8,400,400,True,False,929e38b3-2da1-482b-b87a-5834f6c855c7.jpg",
+        "isTopSpeaker": true
+    },
+    {
+        "id": "7d6dcff7-6b17-49e4-b3a8-7b09bdd83e99",
+        "firstName": "Tim",
+        "lastName": "Chan",
+        "fullName": "Tim Chan",
+        "tagLine": "Co-founder of Untapped Energy",
+        "profilePicture": "https://sessionize.com/image?f=eb1a1e0651e5d573c4ac7e879e9291a1,400,400,True,False,f7-6b17-49e4-b3a8-7b09bdd83e99.714aeaf3-ddff-404b-be8e-a406a44d6854.jpg",
         "isTopSpeaker": false
     }
 ]
