@@ -272,22 +272,22 @@
                     "sessions": [
                         {
                             "items": [
-                                200
-                            ]
-                        },
-                        {
-                            "items": [
-                                600
-                            ]
-                        },
-                        {
-                            "items": [
                                 500
                             ]
                         },
                         {
                             "items": [
+                                200
+                            ]
+                        },
+                        {
+                            "items": [
                                 400
+                            ]
+                        },
+                        {
+                            "items": [
+                                600
                             ]
                         }
                     ],
@@ -375,7 +375,7 @@
                     "sessions": [
                         {
                             "items": [
-                                153627
+                                144896
                             ]
                         }
                     ],
@@ -386,7 +386,7 @@
                     "sessions": [
                         {
                             "items": [
-                                144896
+                                153627
                             ]
                         }
                     ],
@@ -637,17 +637,17 @@
                     "sessions": [
                         {
                             "items": [
+                                900
+                            ]
+                        },
+                        {
+                            "items": [
                                 1300
                             ]
                         },
                         {
                             "items": [
                                 1400
-                            ]
-                        },
-                        {
-                            "items": [
-                                900
                             ]
                         },
                         {
@@ -1371,7 +1371,7 @@
         },
         "147107": {
             "description": "Untapped Energy is a not-for-profit, grassroots-led community with representation from industry, government, academia and the broader public, seeking to collectively solve problems and generate innovation for the Canadian energy industry using data science and analytics.\r\n\r\nThroughout the month, Untapped Energy has run its 2019 reCLAIM Data Competition and we are pleased to host the Closing Ceremony at DevFest!  \r\n\r\nThe challenge: Alberta's Aging Oil and Gas Infrastructure.  \"Alberta's Oil and Gas industry has collectively amassed ~90,000 inactive wells. While a subset have future potential and are subject to reactivation, the majority are candidates for abandonment.\"\r\n\r\nIn this session, we'll talk about culture hacking and how it is changing the way that solutions are created for the Oil and Gas industry.  We will then see some of the top solutions submitted for the data competition and the winner will be crowned!",
-            "title": "reClaim Datathon Closing Ceremony",
+            "title": "Untapped Energy's 2019 reClaim Data Competition - Closing Ceremony",
             "speakers": [
                 "Tim_Chan"
             ],

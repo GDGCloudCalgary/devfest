@@ -4353,7 +4353,7 @@
         "sessions": [
             {
                 "id": 147107,
-                "name": "reClaim Datathon Closing Ceremony"
+                "name": "Untapped Energy's 2019 reClaim Data Competition - Closing Ceremony"
             }
         ],
         "isTopSpeaker": false,
@@ -4454,13 +4454,23 @@
             {
                 "id": 17259,
                 "name": "3. Meet the Experts",
-                "categoryItems": [],
+                "categoryItems": [
+                    {
+                        "id": 30061,
+                        "name": "YES"
+                    }
+                ],
                 "sort": 15
             },
             {
                 "id": 17260,
                 "name": "3. Podcast",
-                "categoryItems": [],
+                "categoryItems": [
+                    {
+                        "id": 30060,
+                        "name": "YES"
+                    }
+                ],
                 "sort": 16
             }
         ]

@@ -213,33 +213,22 @@
                     "startTime": "10.45"
                 },
                 {
-                    "endTime": "11.30",
-                    "sessions": [
-                        {
-                            "items": [
-                                149086
-                            ]
-                        }
-                    ],
-                    "startTime": "11.00"
-                },
-                {
-                    "endTime": "11.30",
-                    "sessions": [
-                        {
-                            "items": [
-                                161200
-                            ]
-                        }
-                    ],
-                    "startTime": "11.00"
-                },
-                {
                     "endTime": "11.15",
                     "sessions": [
                         {
                             "items": [
                                 148133
+                            ]
+                        }
+                    ],
+                    "startTime": "11.00"
+                },
+                {
+                    "endTime": "11.30",
+                    "sessions": [
+                        {
+                            "items": [
+                                149086
                             ]
                         }
                     ],
@@ -261,7 +250,7 @@
                     "sessions": [
                         {
                             "items": [
-                                149561
+                                146755
                             ]
                         }
                     ],
@@ -272,7 +261,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146755
+                                149561
                             ]
                         }
                     ],
@@ -283,17 +272,17 @@
                     "sessions": [
                         {
                             "items": [
+                                400
+                            ]
+                        },
+                        {
+                            "items": [
                                 500
                             ]
                         },
                         {
                             "items": [
                                 200
-                            ]
-                        },
-                        {
-                            "items": [
-                                400
                             ]
                         },
                         {
@@ -309,29 +298,7 @@
                     "sessions": [
                         {
                             "items": [
-                                146605
-                            ]
-                        }
-                    ],
-                    "startTime": "13.00"
-                },
-                {
-                    "endTime": "13.30",
-                    "sessions": [
-                        {
-                            "items": [
-                                161201
-                            ]
-                        }
-                    ],
-                    "startTime": "13.00"
-                },
-                {
-                    "endTime": "16.00",
-                    "sessions": [
-                        {
-                            "items": [
-                                153631
+                                146826
                             ]
                         }
                     ],
@@ -349,26 +316,26 @@
                     "startTime": "13.00"
                 },
                 {
-                    "endTime": "13.40",
+                    "endTime": "16.00",
                     "sessions": [
                         {
                             "items": [
-                                146826
+                                153631
                             ]
                         }
                     ],
                     "startTime": "13.00"
                 },
                 {
-                    "endTime": "14.30",
+                    "endTime": "13.40",
                     "sessions": [
                         {
                             "items": [
-                                161202
+                                146605
                             ]
                         }
                     ],
-                    "startTime": "14.00"
+                    "startTime": "13.00"
                 },
                 {
                     "endTime": "15.00",
@@ -509,15 +476,6 @@
                     ]
                 },
                 {
-                    "title": "Meet the Experts",
-                    "roomId": [
-                        10492
-                    ],
-                    "room_name": [
-                        "ATB Experts Lounge"
-                    ]
-                },
-                {
                     "title": "Mentorship",
                     "roomId": [
                         7454
@@ -642,17 +600,6 @@
                     "startTime": "10.30"
                 },
                 {
-                    "endTime": "11.30",
-                    "sessions": [
-                        {
-                            "items": [
-                                161205
-                            ]
-                        }
-                    ],
-                    "startTime": "11.00"
-                },
-                {
                     "endTime": "12.00",
                     "sessions": [
                         {
@@ -664,22 +611,22 @@
                     "startTime": "11.00"
                 },
                 {
-                    "endTime": "12.05",
+                    "endTime": "11.55",
                     "sessions": [
                         {
                             "items": [
-                                147107
+                                138512
                             ]
                         }
                     ],
                     "startTime": "11.15"
                 },
                 {
-                    "endTime": "11.55",
+                    "endTime": "12.05",
                     "sessions": [
                         {
                             "items": [
-                                138512
+                                147107
                             ]
                         }
                     ],
@@ -712,22 +659,22 @@
                     "startTime": "12.00"
                 },
                 {
-                    "endTime": "15.05",
+                    "endTime": "13.15",
                     "sessions": [
                         {
                             "items": [
-                                1500
+                                146840
                             ]
                         }
                     ],
                     "startTime": "13.00"
                 },
                 {
-                    "endTime": "13.15",
+                    "endTime": "15.05",
                     "sessions": [
                         {
                             "items": [
-                                146840
+                                1500
                             ]
                         }
                     ],
@@ -852,15 +799,6 @@
                     ],
                     "room_name": [
                         "BMO Financial Group Community Room"
-                    ]
-                },
-                {
-                    "title": "Meet the Experts",
-                    "roomId": [
-                        10492
-                    ],
-                    "room_name": [
-                        "ATB Experts Lounge"
                     ]
                 }
             ]
@@ -994,27 +932,6 @@
             ],
             "complexity": "Introductory and overview"
         },
-        "161200": {
-            "description": "Meet your favourite DevFestYYC Speakers in the ATB Experts Lounge!\r\n\r\nAsk questions. Get a selfie or an autograph. Say hi! This is your chance to network with the top developers and innovators around! ",
-            "title": "ATB Experts Lounge Day 1 11AM",
-            "speakers": [
-                "Hans_Hegge",
-                "Sam_Barbeau",
-                "Jay_Krish",
-                "Kayode_Otegbeye"
-            ],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 10492,
-            "room": "ATB Experts Lounge",
-            "language": "English",
-            "tags": [
-                "Meet the Experts"
-            ],
-            "complexity": "Introductory and overview"
-        },
         "148133": {
             "description": "Developer Student Clubs are all over the Globe now.\r\nWhat are they? What do they do? How can you get involved? ",
             "title": "Developer Student Clubs",
@@ -1107,28 +1024,6 @@
             ],
             "complexity": "Introductory and overview"
         },
-        "161201": {
-            "description": "Meet your favourite DevFestYYC Speakers in the ATB Experts Lounge!\r\n\r\nAsk questions. Get a selfie or an autograph. Say hi! This is your chance to network with the top developers and innovators around! ",
-            "title": "ATB Experts Lounge Day 1 1 PM",
-            "speakers": [
-                "Gunjan_Kaur",
-                "Jay_Krish",
-                "Josh_Fafard",
-                "Krzys_Palka",
-                "Suryatapa_Roy"
-            ],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 10492,
-            "room": "ATB Experts Lounge",
-            "language": "English",
-            "tags": [
-                "Meet the Experts"
-            ],
-            "complexity": "Introductory and overview"
-        },
         "157996": {
             "description": "A detailed walk through of why Anthos is important to you. ",
             "title": "Drive Innovation: Reimagine Hybrid and Multi-Cloud Architecture with Anthos",
@@ -1201,26 +1096,6 @@
             ],
             "complexity": "Introductory and overview"
         },
-        "161202": {
-            "description": "Meet your favourite DevFestYYC Speakers in the ATB Experts Lounge!\r\n\r\nAsk questions. Get a selfie or an autograph. Say hi! This is your chance to network with the top developers and innovators around! ",
-            "title": "ATB Experts Lounge Day 1 2 PM",
-            "speakers": [
-                "Michael_Murphy",
-                "Ben_Nakaska",
-                "Adam_Berkan"
-            ],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 10492,
-            "room": "ATB Experts Lounge",
-            "language": "English",
-            "tags": [
-                "Meet the Experts"
-            ],
-            "complexity": "Introductory and overview"
-        },
         "147669": {
             "description": "In depth presentation of deep learning models and concepts with a focus on real world applications. ",
             "title": "Deep Learning Fellowship Presents An Introduction to Deep Learning",
@@ -1241,7 +1116,7 @@
             "complexity": "Intermediate"
         },
         "142551": {
-            "description": "Build what\u2019s next together - whether you are a developer or not. Google Cloud has given business users and knowledge workers to build enterprise custom applications to simplify processes and solve business problems. G-Suite in particular has enabled these \u201cnon-coders\u201d to build powerful solutions in Sheets, Forms and App Maker. In this session, I will cover how easy it is to develop using G-Suite, how to integrate with Google Cloud Platform technologies such as AutoML, and how coders and non-coders can work together to develop solutions quicker and better.",
+            "description": "Build what\u2019s next together - regardless of your level of experience! Google Cloud has given business users and knowledge workers to be developers of custom applications and solutions that can solve their business problems. G-Suite in particular has enabled these citizen developers to build powerful solutions in Sheets, Forms and App Maker. In this session, I will cover how developers of different skill levels can utilize G-Suite and GCP to create awesome solutions.",
             "title": "Empowering Business Users & Knowledge Workers with Google Cloud",
             "speakers": [
                 "Cleo_Espiritu"
@@ -1458,25 +1333,6 @@
             ],
             "complexity": "Intermediate"
         },
-        "161205": {
-            "description": "Meet your favourite DevFestYYC Speakers in the ATB Experts Lounge!\r\n\r\nAsk questions. Get a selfie or an autograph. Say hi! This is your chance to network with the top developers and innovators around! ",
-            "title": "ATB Experts Lounge Day 2 11 AM",
-            "speakers": [
-                "Amol_Deshmukh",
-                "Katie_Murray"
-            ],
-            "icon": "",
-            "videoID": "",
-            "image": "",
-            "presentation": "",
-            "roomId": 10492,
-            "room": "ATB Experts Lounge",
-            "language": "English",
-            "tags": [
-                "Meet the Experts"
-            ],
-            "complexity": "Introductory and overview"
-        },
         "140601": {
             "description": "Authorization and Authentication with Firebase using Typescript and React Hooks",
             "title": "You Shall Not Pass",
@@ -1514,8 +1370,8 @@
             "complexity": "Intermediate"
         },
         "147107": {
-            "description": "Join UnTapped Energy and Alberta's top data scientists for the Closing Ceremony of the reClaim Datathon. Participants have worked day and night since October 15th to develop their 10X solutions to well abandonment issues. With over (X) teams participating the competition has been fierce! \r\n\r\nIn this session, the top solutions will be pitched and the winner will be crowned!",
-            "title": "reClaim Datathon Closing Ceremony",
+            "description": "Untapped Energy is a not-for-profit, grassroots-led community with representation from industry, government, academia and the broader public, seeking to collectively solve problems and generate innovation for the Canadian energy industry using data science and analytics.\r\n\r\nThroughout the month, Untapped Energy has run its 2019 reCLAIM Data Competition and we are pleased to host the Closing Ceremony at DevFest!  \r\n\r\nThe challenge: Alberta's Aging Oil and Gas Infrastructure.  \"Alberta's Oil and Gas industry has collectively amassed ~90,000 inactive wells. While a subset have future potential and are subject to reactivation, the majority are candidates for abandonment.\"\r\n\r\nIn this session, we'll talk about culture hacking and how it is changing the way that solutions are created for the Oil and Gas industry.  We will then see some of the top solutions submitted for the data competition and the winner will be crowned!",
+            "title": "Untapped Energy's 2019 reClaim Data Competition - Closing Ceremony",
             "speakers": [
                 "Tim_Chan"
             ],
@@ -2051,7 +1907,7 @@
         },
         "Gunjan_Kaur": {
             "name": "Gunjan Kaur",
-            "bio": "Gunjan received her masters degree in Economics and Finance from the University of Alberta. After stints in social market research and FX modelling, she ventured into risk management practice at ATB. Curious about applying her machine learning skills in industry, she later joined the Artificial Intelligence guild at ATB. She led the Real Time Triggers University of Alberta-ATB AI Lab focused on utilizing cutting edge Internet of Things (IOT) methodologies to effectively and efficiently analyze ATB data streams in real time. She also participated in specialized programs at Google and Fintech research at the University of Oxford. In her most recent role, she is leading experimentation analytics for a strategic initiative aimed at increasing customer engagement. She is passionate about data wizardry and problem solving expertise to big data challenges in the financial realm, helping transform ATB to make banking work for Albertans.   \r\n",
+            "bio": "Gunjan received her masters degree in Economics and Finance from the University of Alberta. After stints in social market research and FX modelling, she ventured into risk management practice at ATB. Curious about applying her machine learning skills in industry, she later joined the Artificial Intelligence guild at ATB. She led the Real Time Triggers University of Alberta-ATB AI Lab focused on utilizing cutting edge Internet of Things (IOT) methodologies to effectively and efficiently analyze ATB data streams in real time. She also participated in specialized programs at Google and Fintech research at the University of Oxford. She is passionate about data wizardry and problem solving expertise to big data challenges in the financial realm, helping transform ATB to make banking work for Albertans.   \r\n",
             "shortBio": "Director of Analytics",
             "title": "Director of Analytics",
             "order": "11",
@@ -2082,10 +1938,9 @@
             "socials": [
                 {
                     "icon": "linkedin",
-                    "link": "https://www.linkedin.com/in/sambarbeau/",
+                    "link": "https://www.linkedin.com/in/hanshegge/",
                     "name": "LinkedIn"
                 },
-                {},
                 {}
             ],
             "company": "Flexera (RISC Networks)",
@@ -3635,7 +3490,6 @@
         "7452": "Patricia A. Whelan Performance Hall",
         "9332": "Central Library Room 0-14",
         "7453": "BMO Financial Group Community Room",
-        "7454": "Central Library Room 0-13",
-        "10492": "ATB Experts Lounge"
+        "7454": "Central Library Room 0-13"
     }
 }
