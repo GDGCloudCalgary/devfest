@@ -500,17 +500,6 @@
                     ],
                     "startTime": "08.30"
                 },
-              {
-                    "endTime": "14.00",
-                    "sessions": [
-                        {
-                            "items": [
-                                2100
-                            ]
-                        }
-                    ],
-                    "startTime": "13.00"
-                },
                 {
                     "endTime": "09.30",
                     "sessions": [
@@ -668,6 +657,17 @@
                         }
                     ],
                     "startTime": "12.00"
+                },
+              {
+                    "endTime": "14.00",
+                    "sessions": [
+                        {
+                            "items": [
+                                2100
+                            ]
+                        }
+                    ],
+                    "startTime": "13.00"
                 },
                 {
                     "endTime": "13.15",
@@ -1734,8 +1734,8 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 9332,
-            "room": "",
+            "roomId": 7452,
+            "room": "Patricia A. Whelan Performance Hall",
             "tags": [
                 "Google Programs & Non-Technical"
             ]
@@ -2449,7 +2449,7 @@
                 }
             ],
             "company": "aminacorp",
-            "companyLogo": "/images/logos/amina.jpg",
+            "companyLogo": "/images/logos/amina.png",
             "companyLogoUrl": "https://www.aminacorp.ca/"
         }
     },
