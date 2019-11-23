@@ -500,6 +500,17 @@
                     ],
                     "startTime": "08.30"
                 },
+              {
+                    "endTime": "14.00",
+                    "sessions": [
+                        {
+                            "items": [
+                                2100
+                            ]
+                        }
+                    ],
+                    "startTime": "13.00"
+                },
                 {
                     "endTime": "09.30",
                     "sessions": [
@@ -1709,8 +1720,22 @@
             "videoID": "",
             "image": "",
             "presentation": "",
-            "roomId": 9332,
+            "roomId": 7454,
             "room": "Central Library Room 0-14",
+            "tags": [
+                "Google Programs & Non-Technical"
+            ]
+        },
+       "2100": {
+            "description": null,
+            "title": "Profiting from Privacy",
+            "speakers": ["Sharon Polsky"],
+            "icon": "",
+            "videoID": "",
+            "image": "",
+            "presentation": "",
+            "roomId": 9332,
+            "room": "",
             "tags": [
                 "Google Programs & Non-Technical"
             ]
@@ -2406,6 +2431,26 @@
             "company": "ATB Financial",
             "companyLogo": "/images/logos/atb.png",
             "companyLogoUrl": "https://www.devfestyyc.com/images/logos/atb.png"
+        },
+      "Sharon Polsky": {
+            "name": "Sharon Polsky",
+            "bio": "Sharon Polsky is president of AMINA Corp. and has spent her career advising corporations, governments and organizations about privacy and access implications and unintended consequences of emerging laws, technologies and global trends. She is also president of the Privacy and Access Council of Canada, a member of the Standards Council of Canada’s Canadian Advisory Committee on the General Data Protection Regulation , and former vice-president of the Rocky Mountain Civil Liberties Association. In 2007, Sharon founded The Winston Report, the country’s foremost quarterly journal of information access, privacy protection and data governance, and is Editor in Chief. Sharon’s deep understanding of the multidisciplinary complexities of data protection were recognized in her appointment as a Privacy by Design Ambassador by the Information and Privacy Commissioner of Ontario, and is evident in her submissions before legislative and Senate committees, and her numerous published articles. She was awarded Canada’s most senior professional privacy designation, Master Access and Privacy Professional (MAPP), and sits on numerous advisory committees. Ms. Polsky is frequently invited to comment about privacy, data governance, information security, cyberliability, civil liberties and the privacy implications of emerging laws and technologies. Her insights are frequently sought by conference organizers and by local and national media.",
+            "shortBio": "Data Protection Officer and Privacy by Design Ambassador",
+            "title": "Data Protection Officer and Privacy by Design Ambassador",
+            "order": "",
+            "photo": "/images/people/sharon.polsky.jpg",
+            "photoUrl": "https://www.devfestyyc.com/images/people/sharon.polsky.png",
+            "featured": true,
+            "socials": [
+                {
+                    "icon": "twitter",
+                    "link": "https://twitter.com/PolskySays",
+                    "name": "Twitter"
+                }
+            ],
+            "company": "aminacorp",
+            "companyLogo": "/images/logos/amina.jpg",
+            "companyLogoUrl": "https://www.aminacorp.ca/"
         }
     },
     "team": [
