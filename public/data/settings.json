@@ -1,0 +1,210 @@
+{
+  "organizer": {
+    "name": "GDGYYC",
+    "twitter": "gdgcloudyyc",
+    "blog": "https://medium.com/gdgyyc",
+    "url": "http://www.gdgyyc.com/"
+  },
+  "startDate": "2019-11-22T09:00:00+03:00",
+  "endDate": "2019-11-23T17:00:00+03:00",
+  "webapp": {
+    "shortName": "DevFestYYC",
+    "themeColor": "#673AB7",
+    "backgroundColor": "#673AB7"
+  },
+  "dateFormat": {
+    "locale": "en-US"
+  },
+  "hashtag": "DevFestYYC",
+  "disabledSchedule": false,
+  "navigation": [
+    {
+      "route": "home",
+      "permalink": "/",
+      "label": "Home"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers/",
+      "label": "Speakers"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/",
+      "label": "Schedule"
+    },
+    {
+      "route": "team",
+      "permalink": "/team/",
+      "label": "Team"
+    },
+    {
+      "route": "blog",
+      "permalink": "/blog/",
+      "label": "Blog"
+    }
+  ],
+  "heroSettings": {
+    "home": {
+      "description": "More Festival! More Fun!",
+      "background": {
+        "color": "#673ab7",
+        "image": "/images/backgrounds/AB.jpg"
+      },
+      "fontColor": "#FFF"
+    },
+    "blog": {
+      "title": "Blog",
+      "metaDescription": "Read stories from our team",
+      "background": {
+        "color": "#FFF"
+      },
+      "fontColor": "#424242"
+    },
+    "speakers": {
+      "title": "Speakers",
+      "metaDescription": "Learn from Googlers, world-class cloud experts and top local speakers. Meet and network with developers, cloud architects, data scientists who build and transform with Google Cloud and Cloud Native technology and techniques.",
+      "description": "Learn from Googlers, world-class cloud experts and top local speakers. Meet and network with developers, cloud architects, data scientists who build and transform with Google Cloud and Cloud Native technology and techniques.",
+      "background": {
+        "color": "#FFF"
+      },
+      "fontColor": "#424242"
+    },
+    "previousSpeakers": {
+      "title": "Previous Speakers",
+      "metaDescription": "Check our our rockstar 2018 lineup.",
+      "background": {
+        "color": "#FFF"
+      },
+      "fontColor": "#424242"
+    },
+    "schedule": {
+      "title": "Schedule",
+      "metaDescription": "Choose your sessions.",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "team": {
+      "title": "Team",
+      "metaDescription": "Learn about the DevFestYYC Team!",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "faq": {
+      "title": "FAQs",
+      "metaDescription": "Find you answer right here!",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "coc": {
+      "title": "DevFestYYC Code of Conduct and Anti-Harassment policy",
+      "metaDescription": "Learn more about our expectations for all those who participate in our community.",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "notFound": {
+      "title": "Not Found",
+      "metaDescription": "Page not found",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    }
+  },
+  "location": {
+    "label": "Location",
+    "name": "Calgary Public Library + PLATFORM Calgary",
+    "city": "Alberta",
+    "short": "Calgary, Alberta",
+    "address": "800 3 St SE",
+    "pointer": {
+      "latitude": 51.044948,
+      "longitude": -114.0551,
+      "zoom":17,
+      "name": "Calgary Public Library"
+    },
+    "secondPointer": {
+      "latitude": 51.044220,
+      "longitude": -114.055492,
+      "name": "PLATFORM Calgary"
+    },
+    "mapCenter": {
+      "latitude": 51.044948,
+      "longitude": -114.0551
+    },
+    "description": "The backdrop to DevFestYYC is the ultra-modern Calgary Public Library." 
+  },
+  "socialNetwork": {
+    "follow": [
+      {
+        "name": "meetup",
+        "url": "http://gdgyyc.link/meetup"
+      },
+      {
+        "name": "facebook",
+        "url": ""
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/gdgcloudyyc/"
+      },
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UCALXb4vyoj--zR_0q7oJUWg"
+      }
+    ],
+    "share": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/sharer.php?u="
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/intent/tweet?text=Join+me+at+DevFestYYC+and+learn+from+top+Google+Cloud+Developers!"
+      }
+    ]
+  },
+  "mailto": "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&su=Questions+about+DevFestYYC&to=info@gdgyyc.com&body=Hi,+%0D%0A%0D%0AI+was+on+the+DevFestYYC+site+and+have+a+few+questions.",
+  "mailchimp": {
+    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
+    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
+  },
+  "signInProviders": {
+    "providersData": [
+      {
+        "name": "google",
+        "label": "Sign in with Google",
+        "url": "https://accounts.google.com"
+      }
+    ],
+    "allowedProvidersUrl": [
+      "https://accounts.google.com"      
+    ]
+  },
+  "contentLoaders": {
+    "schedule": {
+      "itemsCount": 2
+    },
+    "blog": {
+      "itemsCount": 3
+    },
+    "speakers": {
+      "itemsCount": 4
+    },
+    "previousSpeakers": {
+      "itemsCount": 6
+    },
+    "tickets": {
+      "itemsCount": 5
+    }
+  },
+  "showForkMeBlockForProjectIds": []
+}

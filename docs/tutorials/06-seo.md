@@ -1,14 +1,18 @@
-⚠️ Works only on Blaze plan! (costs around $60/month)
-
 ## Setup
 
-1.  Deploy [rendertron](https://github.com/GoogleChrome/rendertron) on your AppEngine
-1.  Set the firebase config variables
-    ```console
-      firebase functions:config:set rendertron.server="https://devfest-yyc.appspot.com"
-      firebase functions:config:set site.domain="devfest-yyc.firebaseapp.com"
-    ```
-1.  Deploy Firebase functions
-    ```console
-      firebase deploy --only functions
-    ```
+Set the Firestore config documents through the [console](https://console.firebase.google.com/) or in `default-firebase-data.json` before initial data boostrap.
+
+```json
+{
+  "config": {
+    "rendertron": {
+      "server": "https://render-tron.appspot.com"
+    },
+    "site": {
+      "domain": "YOUR_SUB_DOMAIN_HERE.web.app"
+    }
+  }
+}
+```
+
+`https://render-tron.appspot.com` is provided without uptime guarantees so you may want to [deploy your own version](https://github.com/GoogleChrome/rendertron).

@@ -1,90 +1,75 @@
 # Deploy to Firebase
 
 1. Create [Firebase account](https://console.firebase.google.com) and login into [Firebase CLI](https://firebase.google.com/docs/cli/):
-    ```console
-      npx firebase login
-    ```
 
-1.  Build with `/config/development.json`
-    ```console
-      yarn build
-    ```
+   ```console
+     npx firebase login
+   ```
 
-    or with `/config/production.json`
-    ```console
-      yarn build:prod
-    ```
+1. Select the Firebase project to deploy to
 
-1.  Deploy
-    ```console
-      firebase deploy
-    ```
+   ```console
+     npx firebase use <projectId>
+   ```
 
-The URL to your live site is listed in the output.
+1. Build and deploy with `/config/production.json`
 
+   ```console
+     npm run deploy
+   ```
 
-### Continuous integration with Travis CI
+   or to deploy with a custom config pass the name of the config file. For example with `/config/custom.json`
 
-In the root folder you can find [.travis.yml](/.travis.yml) which configures
-[Travis CI][Travis CI] build and deployment on Firebase hosting:
+   ```console
+     BUILD_ENV=custom npm run deploy
+   ```
 
-```yaml
-...
- - provider: firebase
-   skip_cleanup: true
-   on:
-     branch: master      # on which branch trigger build
-   project: hoverboard   # Firebase project name
-   token:
-     secure: Quq/Ys1GKDYFjqMCD107saKj005L0RaM7Ian9yLIW/er4KdMzwjYw7TVXmtMeJPIfEy/e2/4WJ63K1SaXieBoFndoUcpGWqPOoTrnkkj5K7tzeZKM32XqIarF+BNmOoqW5M7+kuN8L7N3RLp00ywFDOgKgiZJeoaDV6sIRRAIFVh+xHWabVWpFCwCUSeBZpufOsZhMXkicyRe0XhMmkUvS1P5CI3AyZZdIfWG+sguFsPOWRjMFKWrbnsilDFDjf7N0Wd8Z1H2Z0LBn/V00bNb95MSIuOhkdk3a1wP0P5Eollet+Y8g+NpdWyFq0/C+6+ECvFLBjtvbtMY1BVfdxkCo5XlogZx31OmkMWVX6PXOD5Va8aFoJnwvjovUT8oZbSCWEuyMxI91jDsLxXZt542MNfUfQ1Q2+SpUShdcRlwoV2c/XOYvme95HnI1LSqzLubooKWxz8wpa/aovkdZbum54t/z5nA54AXN1lYKsi+hcAFHOeucqd/kHOLG0bx05Ev86wcvNH8qGx+v7S644YH37No7PGnKU3g3Jq/m6quo1B/bMEIaatVnR40D301wAi8tsNWnqEdWFKnAlGrTIDd1qek9OHnApmgBQI8o0FOy6WbzLMwl9PnMl+t+wew/ggSY0IdWhjFWR/S1d6xML8cYHXHVpE0wxkat5ETbIYXlg=
+   The URL to your live site is listed in the output.
+
+## Continuous integration with Github Actions
+
+In the [`.github/workflows`](.github/workflows) folder, you can find two workflows to help you develop and deploy Hoverboard to Firebase:
+
+- [`main.yaml`](.github/workflows/main.yaml) Builds the project, runs the linter and the tests on every push.
+- [`deploy-preview.yaml`](.github/workflows/deploy-preview.yaml) Deploys a preview of the website to Firebase after every push to a pull request. Functions and Firestore rules are not deployed.
+- [`deploy.yaml`](.github/workflows/deploy.yaml) Deploys the project to Firebase after every push to the `main` branch.
+
+The `main.yaml` workflow is already configured and will work out of the box, once you fork the hoverboard repo.
+To run the two `deploy` actions on your instance, you need to do a couple of small setup:
+
+### Deploying to Firebase with Github Actions
+
+Make sure you are acting on the correct Firebase project.
+
+```console
+  npx firebase use <projectId>
 ```
 
-To generate the `secure` value do the following steps:
+Add service account credentials as secrets to your GitHub repo.
 
-1. Login into Firebase console
-    ```console
-      npx firebase login:ci --interactive
-    ```
+```console
+npx firebase init hosting:github
+```
 
-    You will get your token:
-    ```console
-        ✔  Success! Use this token to login on a CI server:
+This will open GitHub in the browser were you should authorize Firebase CLI access. Back in the terminal you will then get a number of questions that should be answered like the following. Watch for a constant name that starts with `FIREBASE_SERVICE_ACCOUNT_` and remember it.
 
-        1/9YmsNEh87G3cRyt_FXQbsYI_uV4FUMmUBXkbl_CHANGED
-    ```
+> For which GitHub repository would you like to set up a GitHub workflow?
 
-1. Install travis tool to encrypt token
-    ```console
-      gem install travis
-    ```
+The username and reponame on GitHub. E.g. `gdg-x/hoverboard`.
 
-1. Login into your account
-    ```console
-      travis login --auto
-    ```
+> Set up the workflow to run a build script before every deploy?
 
-1. Encrypt your token
-    ```console
-      travis encrypt "1/9YmsNEh87G3cRyt_FXQbsYI_uV4FUMmUBXkbl_CHANGED"
-    ```
+Answer `no` as this has already been done.
 
-    Approximate output:
-    ```console
-      secure: "cioDQ571EZpnuGiDn7ofvEghNFP82vz7N+SqIL5ZjOK0CBgaWO3OoePoh1eO1dvIsdLDr7yNs5kBIx8NIuOqUA9YLyIIasC7ah1QLtiK5zRVaCcgwt4aBqRLKJVbXPl08MIyk9GFYl2+J+oLOzoEOnVUuCpUcGYWdmDRTKis5KP6naK1msRmTu5ymQn55cyxpmSZS2F+iEsAgV7d0/h+HGgPPd77M26j8wV9JEFJp3iMhudaCkWdoBf9z9WP0cpPzTHgSHEU/Mski4oMfU1BqCFRiaKfcw/uLzMcTpjcf+YG2dc3qTMcuBNKNvhANnaYrxePtuW1VWb+xl19qVQWrsGpQgyWIbp+icSXF3KGR1wfNrC9zNQWKm112BckYn6id8w4M3JeRdWRaCwWitG9C5CWQ3ZepPpgBu2SYSfZQg5heIbVSYOgbXUfeR8ByJqyAGCrYrB3lyyR49cr+GAnILbOgxE7FRYuHmagLD+xa8cHUFcZUu6CxgrhOFa+28Lvrtvod1WqbIioZfhWRcdIZNdJxR4gxXaGycp5n0qjJ0o1VDFAUcy93ImYyVZFY+OmqfVLFQChAD9NnPT1a0v3gHYR3IMd5aXXtbOo9e6cAjuXU/NQCry10Y0bNiMKkHbvnj3aGfAWlA34CRj3iOK2Nz1udDwBMdUKsgt1xiVh3h8="
-    ```
+_If the script creates the `.github/workflows/firebase-hosting-pull-request.yml` you can delete it as it's already handled in the `.github/workflows/deploy-preview.yml` file._
 
-1. Replace generated encrypted token with existing one
+> Set up automatic deployment to your site's live channel when a PR is merged?
 
-1. **Tip:** deploy different builds depending on the branch:
-    ```yaml
-      script:
-       - yarn lint
-       - echo "Building..."
-       - if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn build; fi
-       - if [ "$TRAVIS_BRANCH" == "master" ]; then yarn build:prod; fi
-    ```
-1. Push to a repository
+Answer `no` as this has already been done.
 
-1. Enjoy
+Update [`deploy-preview.yaml`](.github/workflows/deploy-preview.yaml) and [`deploy.yaml`](.github/workflows/deploy.yaml).
 
-[Travis CI]: https://travis-ci.com/
+1. Replace `FIREBASE_SERVICE_ACCOUNT_HOVERBOARD_MASTER` with the constant that was output to your terminal.
+1. Replace `hoverboard-master` to the Firebase Project ID you'll be deploying to. This should match the value used in `npx firebase use`.
+
+You can now push to your `main` branch and it'll deploy to the production (`live`) Firebase Hosting channel and pull requests will deploy a temporary preview.

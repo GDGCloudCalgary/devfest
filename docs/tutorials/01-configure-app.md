@@ -16,17 +16,18 @@ Configuration data is split into two files:
   "gallery": {..},
   ...
 ```
+
 and `data/resources.json` (texts and other configurations):
 
-### Pages configuration
+## Pages configuration
 
-Disable, reorder or modify blocks for individual page inside their individual files that can be found in `/pages` folder.
+Disable, reorder or modify blocks for individual pages inside their individual files that can be found in `/pages` folder.
 The top block (aka 'hero') view of the page can be adjusted via `heroSettings` in `data/settings.json`
 
 ```json
 "heroSettings": {
   "home": {
-    "description": "Be a hero. Be a GDG!",
+    "description": "Join the commuity, learn new things!",
     "background": {
       "color": "#673ab7",
       "image": "/images/backgrounds/home.jpg"
@@ -43,8 +44,8 @@ The top block (aka 'hero') view of the page can be adjusted via `heroSettings` i
   },
   "speakers": {
     "title": "Speakers",
-    "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
-    "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
+    "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of the cloud. Check back often as we add more speakers, including our customers and partners.",
+    "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of the cloud. Check back often as we add more speakers, including our customers and partners.",
     "background": {
       "color": "#FFF"
     },
@@ -55,28 +56,9 @@ The top block (aka 'hero') view of the page can be adjusted via `heroSettings` i
 ```
 
 If you don't need some pages, don't forget to remove them (or comment out)
-in `hoverboard-app.html`
+in `src/router.ts`
 
-```html
-<iron-lazy-pages>
-  <home-page
-    data-route="home"
-    data-path="pages/home-page.html"
-  ></home-page>
-  <blog-page
-    data-route="blog"
-    data-path="pages/blog-page.html"
-    route="[[subroute]]"
-  ></blog-page>
-  <speakers-page
-    data-route="speakers"
-    data-path="pages/speakers-page.html"
-    route="[[subroute]]"
-  ></speakers-page>
-</iron-lazy-pages>
-```
-
-### Toolbar Navigation
+## Toolbar Navigation
 
 Define a page's label and url in `navigation` in `data/settings.json`
 
@@ -96,12 +78,11 @@ Define a page's label and url in `navigation` in `data/settings.json`
 ]
 ```
 
-### "Become a partner" - how it works?
+## "Become a partner" - how it works?
 
-`Become a partner` button opens a form with `company name`, `name` and `email` fields. After a user (potential partner) filled a form, this data is saved into Firestore DB, `potentialPartners` node. It gives a possibility to contact back those people who are interested to be a partner with you and collaborate earlier.
+`Become a partner` button opens a form with `company name`, `name` and `email` fields. After a user (potential partner) filled a form, this data is saved into Firestore DB, `potentialPartners` node. It gives the possibility to contact back those people who are interested to be a partner with you and collaborate earlier.
 
-
-# Next steps
+## Next steps
 
 Now your Hoverboard is configured, learn how to integrate [firebase][firebase] with, [style][style app] and [deploy][deploy] your app.
 
