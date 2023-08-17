@@ -33,12 +33,13 @@
     }
   },
   "rules": {
-    "@typescript-eslint/unbound-method": false,
-    "jest/unbound-method": false,
+    "@typescript-eslint/unbound-method": "off",
+    "jest/unbound-method": "off",
     "jest/max-expects": ["warn", { "max": 10 }],
     "brace-style": "off",
     "new-cap": "off",
     "no-var": "error",
+    "no-global-assign": "off",
     "require-jsdoc": "off",
     "max-len": ["error", { "code": 120 }],
     "object-curly-spacing": ["error", "always"],

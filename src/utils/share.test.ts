@@ -14,9 +14,9 @@ describe('share', () => {
     const url = 'https://example.com/schedule';
     Object.defineProperty(window, 'location', {
       value: {
-        href: url
+        href: url,
       },
-      writable: true // possibility to override
+      writable: true, // possibility to override
     });
     document.title = 'Awesome Schedule';
     open = jest.spyOn(window, 'open').mockImplementation();

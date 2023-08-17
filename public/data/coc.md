@@ -1,6 +1,6 @@
 ### 1. Purpose
 
-A primary goal of [GDG Cloud Calgary](https://www.gdgyyc.com/welcome) is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). 
+A primary goal of [GDG Cloud Calgary](https://www.gdgyyc.com/welcome) is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
 GDG Cloud Calgary prides itself on being an open, respectful, and inclusive community; That means the [jerky behavior](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk) isn’t allowed at GDG meetings.
 
 This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
@@ -36,7 +36,7 @@ The following actions are considered harassment and are unacceptable within our 
 - Advocating for, or encouraging, any of the above behavior.
 - Sustained disruption of community events, including talks and, presentations.
 
-###  5. Consequences of Unacceptable Behavior
+### 5. Consequences of Unacceptable Behavior
 
 Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
 Anyone asked to stop unacceptable behavior is expected to comply immediately.

@@ -103,7 +103,11 @@ export class AboutBlock extends ThemedElement {
         <div class="statistics-block">
           <div class="item">
             <div>
-              <lazy-image class="statistics-image" src="/images/icons/Data_AI.png" alt="Data AI"></lazy-image>
+              <lazy-image
+                class="statistics-image"
+                src="/images/icons/Data_AI.png"
+                alt="Data AI"
+              ></lazy-image>
             </div>
             <div class="label">
               Data & AI Pipelines: Process and utilize data from ingestion to training ML models.
@@ -111,7 +115,11 @@ export class AboutBlock extends ThemedElement {
           </div>
           <div class="item">
             <div>
-              <lazy-image class="statistics-image" src="/images/icons/CICD.png" alt="CI/CD"></lazy-image>
+              <lazy-image
+                class="statistics-image"
+                src="/images/icons/CICD.png"
+                alt="CI/CD"
+              ></lazy-image>
             </div>
             <div class="label">
               CI/CD Pipelines: Deliver code and infrastructure changes more frequently and reliably.
@@ -119,23 +127,40 @@ export class AboutBlock extends ThemedElement {
           </div>
           <div class="item">
             <div>
-              <lazy-image class="statistics-image" src="/images/icons/Security.png" alt="Security"></lazy-image>
-            </div>
-            <div class="label">Security Pipelines: Secure your assets and reduce cost and complexity.</div>
-          </div>
-          <div class="item">
-            <div>
-              <lazy-image class="statistics-image" src="/images/icons/Migration.png" alt="Migration"></lazy-image>
+              <lazy-image
+                class="statistics-image"
+                src="/images/icons/Security.png"
+                alt="Security"
+              ></lazy-image>
             </div>
             <div class="label">
-              Migration Pipelines: Migrate data and workloads to cloud efficiently, at massive scale.
+              Security Pipelines: Secure your assets and reduce cost and complexity.
             </div>
           </div>
           <div class="item">
             <div>
-              <lazy-image class="statistics-image" src="/images/icons/Talent.png" alt="Talent"></lazy-image>
+              <lazy-image
+                class="statistics-image"
+                src="/images/icons/Migration.png"
+                alt="Migration"
+              ></lazy-image>
             </div>
-            <div class="label">Talent Pipelines: Advance your cloud career with programs from Google.</div>
+            <div class="label">
+              Migration Pipelines: Migrate data and workloads to cloud efficiently, at massive
+              scale.
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <lazy-image
+                class="statistics-image"
+                src="/images/icons/Talent.png"
+                alt="Talent"
+              ></lazy-image>
+            </div>
+            <div class="label">
+              Talent Pipelines: Advance your cloud career with programs from Google.
+            </div>
           </div>
         </div>
 

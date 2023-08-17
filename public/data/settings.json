@@ -128,11 +128,11 @@
     "pointer": {
       "latitude": 51.044948,
       "longitude": -114.0551,
-      "zoom":17,
+      "zoom": 17,
       "name": "Calgary Public Library"
     },
     "secondPointer": {
-      "latitude": 51.044220,
+      "latitude": 51.04422,
       "longitude": -114.055492,
       "name": "PLATFORM Calgary"
     },
@@ -140,7 +140,7 @@
       "latitude": 51.044948,
       "longitude": -114.0551
     },
-    "description": "The backdrop to DevFestYYC is the ultra-modern Calgary Public Library." 
+    "description": "The backdrop to DevFestYYC is the ultra-modern Calgary Public Library."
   },
   "socialNetwork": {
     "follow": [
@@ -185,9 +185,7 @@
         "url": "https://accounts.google.com"
       }
     ],
-    "allowedProvidersUrl": [
-      "https://accounts.google.com"      
-    ]
+    "allowedProvidersUrl": ["https://accounts.google.com"]
   },
   "contentLoaders": {
     "schedule": {

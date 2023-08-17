@@ -110,19 +110,12 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
         .neonText {
           color: #fff;
-          text-shadow:
-            0 0 7px #fff,
-            0 0 10px #fff,
-            0 0 21px #fff,
-            0 0 42px #0fa,
-            0 0 82px #0fa,
-            0 0 92px #0fa,
-            0 0 102px #0fa,
-            0 0 151px #0fa;
+          text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa,
+            0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
         }
 
         .pulsate {
-          animation: pulsate 1.5s infinite alternate;     
+          animation: pulsate 1.5s infinite alternate;
         }
 
         @keyframes updown {
@@ -139,26 +132,12 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
         @keyframes pulsate {
           100% {
-            text-shadow:
-            0 0 4px #fff,
-            0 0 11px #fff,
-            0 0 19px #fff,
-            0 0 40px #0fa,
-            0 0 80px #0fa,
-            0 0 90px #0fa,
-            0 0 100px #0fa,
-            0 0 150px #0fa;
+            text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa, 0 0 80px #0fa,
+              0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
           }
           0% {
-            text-shadow:
-            0 0 2px #fff,
-            0 0 4px #fff,
-            0 0 6px #fff,
-            0 0 10px #0fa,
-            0 0 45px #0fa,
-            0 0 55px #0fa,
-            0 0 70px #0fa,
-            0 0 80px #0fa;        
+            text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #0fa, 0 0 45px #0fa,
+              0 0 55px #0fa, 0 0 70px #0fa, 0 0 80px #0fa;
           }
         }
 
