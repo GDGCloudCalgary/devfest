@@ -33,8 +33,8 @@
     }
   },
   "rules": {
-    "@typescript-eslint/unbound-method": "warn",
-    "jest/unbound-method": "warn",
+    "@typescript-eslint/unbound-method": false,
+    "jest/unbound-method": false,
     "jest/max-expects": ["warn", { "max": 10 }],
     "brace-style": "off",
     "new-cap": "off",

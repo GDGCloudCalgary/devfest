@@ -105,13 +105,17 @@ export class AboutBlock extends ThemedElement {
             <div>
               <lazy-image class="statistics-image" src="/images/icons/Data_AI.png" alt="Data AI"></lazy-image>
             </div>
-            <div class="label">Data & AI Pipelines: Process and utilize data from ingestion to training ML models.</div>
+            <div class="label">
+              Data & AI Pipelines: Process and utilize data from ingestion to training ML models.
+            </div>
           </div>
           <div class="item">
             <div>
               <lazy-image class="statistics-image" src="/images/icons/CICD.png" alt="CI/CD"></lazy-image>
             </div>
-            <div class="label">CI/CD Pipelines: Deliver code and infrastructure changes more frequently and reliably.</div>
+            <div class="label">
+              CI/CD Pipelines: Deliver code and infrastructure changes more frequently and reliably.
+            </div>
           </div>
           <div class="item">
             <div>
@@ -123,7 +127,9 @@ export class AboutBlock extends ThemedElement {
             <div>
               <lazy-image class="statistics-image" src="/images/icons/Migration.png" alt="Migration"></lazy-image>
             </div>
-            <div class="label">Migration Pipelines: Migrate data and workloads to cloud efficiently, at massive scale.</div>
+            <div class="label">
+              Migration Pipelines: Migrate data and workloads to cloud efficiently, at massive scale.
+            </div>
           </div>
           <div class="item">
             <div>
