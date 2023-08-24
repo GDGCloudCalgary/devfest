@@ -10,7 +10,7 @@ export const syncSessionizeSpeakers = functions.pubsub
   .timeZone('America/Edmonton') // Set the time zone to Calgary, Canada (which is in the America/Edmonton time zone)
   .onRun(async (context) => {
     try {
-      const sessionizeApiKey = 'YOUR_SESSIONIZE_API_KEY';
+      const sessionizeApiKey = 'SESSIONIZE_API_KEY';
       const sessionizeUrl = 'https://sessionize.com/api/v2/devfestyyc-2023/speakers';
       const headers = {
         'Content-Type': 'application/json',
