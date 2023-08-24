@@ -18,8 +18,8 @@ export class FilterMenu extends PolymerElement {
         :host {
           display: block;
           width: 100%;
-          border-bottom: 1px solid var(--divider-color);
           position: relative;
+          font-family: montserrat;
         }
 
         .filters-board {
@@ -29,7 +29,7 @@ export class FilterMenu extends PolymerElement {
           left: 0;
           z-index: 2;
           background-color: var(--primary-background-color);
-          box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow-primary-color-hover);
           transform: translateY(100%);
           display: none;
         }
@@ -62,9 +62,22 @@ export class FilterMenu extends PolymerElement {
         }
 
         [selected] {
-          background-color: var(--color);
+          background-color: var(--secondary-text-color);
           border-color: var(--color);
-          color: white;
+          color: var(--default-primary-color);
+        }
+
+        .filter-button {
+          border-radius: 9999px;
+          border: 1px solid var(--default-primary-color);
+          color: var(--default-primary-color);
+          transition: background-color var(--animation);
+          background-color: transparent;
+          padding: 8px 30px;
+        }
+
+        .filter-icon {
+          margin-left: 10px;
         }
 
         .selected-filters {
@@ -102,9 +115,9 @@ export class FilterMenu extends PolymerElement {
             >
               [[filters.clear]]
             </span>
-            <paper-button class="icon-right" on-click="toggleBoard">
+            <paper-button class="filter-button" on-click="toggleBoard">
               [[filters.title]]
-              <iron-icon icon="hoverboard:[[icon]]"></iron-icon>
+              <iron-icon class="filter-icon" icon="hoverboard:[[icon]]"></iron-icon>
             </paper-button>
           </div>
         </div>
@@ -113,7 +126,7 @@ export class FilterMenu extends PolymerElement {
           <template is="dom-repeat" items="[[selectedFilters]]" as="selectedFilter">
             <div
               class="tag"
-              style$="--color: [[getVariableColor(selectedFilter.tag, 'primary-text-color')]]"
+              style$="--color: [[getVariableColor(selectedFilter.tag, 'default-primary-color')]]"
               filter-key$="[[selectedFilter.group]]"
               filter-value$="[[selectedFilter.tag]]"
               on-click="toggleFilter"
@@ -124,7 +137,7 @@ export class FilterMenu extends PolymerElement {
               center
             >
               <span>[[selectedFilter.tag]]</span>
-              <iron-icon icon="hoverboard:close"></iron-icon>
+              <iron-icon class="filter-icon" icon="hoverboard:close"></iron-icon>
             </div>
           </template>
         </div>
@@ -142,7 +155,7 @@ export class FilterMenu extends PolymerElement {
                   inline
                   center
                   class="tag"
-                  style$="--color: [[getVariableColor(filter.tag, 'primary-text-color')]]"
+                  style$="--color: [[getVariableColor(filter.tag, 'secondary-text-color')]]"
                   filter-key$="[[filterGroup.key]]"
                   filter-value$="[[filter.tag]]"
                   selected$="[[isSelected(selectedFilters, filter)]]"
@@ -176,7 +189,10 @@ export class FilterMenu extends PolymerElement {
 
   private isSelected(selectedFilters: Filter[], search: Filter) {
     return selectedFilters.some(
-      (filter) => filter.tag === search.tag.toLocaleLowerCase() && filter.group === search.group
+      (filter) =>
+        filter.tag.replaceAll('-', ' ') ===
+          search.tag.replace(' &', '').replace('-', ' ').toLocaleLowerCase() &&
+        filter.group === search.group
     );
   }
 

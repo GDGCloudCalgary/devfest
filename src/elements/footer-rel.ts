@@ -15,7 +15,7 @@ export class FooterRel extends PolymerElement {
           overflow: auto;
           overflow-y: hidden;
           padding: 10px 0;
-          color: var(--footer-text-color);
+          color: var(--primary-text-color);
           display: grid;
           grid-gap: 16px;
           grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -27,6 +27,7 @@ export class FooterRel extends PolymerElement {
           line-height: 21px;
           margin-top: 25px;
           margin-bottom: 10px;
+          color: var(--primary-text-color);
         }
 
         .nav {
@@ -36,7 +37,7 @@ export class FooterRel extends PolymerElement {
         }
 
         a {
-          color: var(--footer-text-color);
+          color: var(--primary-text-color);
           padding-bottom: 2px;
           text-decoration: none;
           pointer-events: all;

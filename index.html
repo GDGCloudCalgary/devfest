@@ -104,6 +104,21 @@
     <script src="./src/service-worker-registration.ts" type="module"></script>
 
     <style>
+      @font-face {
+        font-family: 'rocket-rinder';
+        src: url('/fonts/Rocket-Rinder.otf') format('opentype');
+      }
+
+      @font-face {
+        font-family: 'streamster';
+        src: url('/fonts/Streamster.ttf') format('trueType');
+      }
+
+      @font-face {
+        font-family: 'montserrat';
+        src: url('/fonts/Montserrat.ttf') format('trueType');
+      }
+
       html,
       body {
         min-height: 100%;
@@ -116,6 +131,16 @@
           sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
         font-size: 16px;
         line-height: 1.5;
+      }
+
+      ::-webkit-scrollbar {
+        background: #202124;
+        width: 15px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #555;
+        border-radius: 7px;
       }
 
       *,
@@ -141,7 +166,7 @@
   </head>
 
   <body>
-    <hoverboard-app unresolved>{{ title }}</hoverboard-app>
+    <hoverboard-app unresolved></hoverboard-app>
 
     <noscript>Please enable JavaScript to view this website.</noscript>
   </body>

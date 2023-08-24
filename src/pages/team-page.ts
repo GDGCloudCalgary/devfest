@@ -20,12 +20,13 @@ export class TeamPage extends ReduxMixin(PolymerElement) {
       <style include="shared-styles flex flex-alignment">
         :host {
           display: block;
+          font-family: montserrat;
         }
 
         .description-wrapper {
-          background-color: var(--secondary-background-color);
           width: 100%;
           overflow: hidden;
+          position: relative;
         }
 
         .team-title {
@@ -41,7 +42,9 @@ export class TeamPage extends ReduxMixin(PolymerElement) {
         }
 
         .member {
-          padding: 16px 0;
+          padding: 50px 30px;
+          border-radius: 20px;
+          background-color: #2b2c2f;
           min-width: 300px;
         }
 
@@ -82,7 +85,7 @@ export class TeamPage extends ReduxMixin(PolymerElement) {
             height: 32px;
           }
 
-          color: var(--secondary-text-color);
+          color: var(--primary-text-color);
           transition: transform var(--animation);
         }
 
@@ -93,10 +96,6 @@ export class TeamPage extends ReduxMixin(PolymerElement) {
         @media (min-width: 640px) {
           .team-block {
             grid-template-columns: repeat(2, 1fr);
-          }
-
-          .member {
-            padding: 32px 0;
           }
         }
 

@@ -9,8 +9,8 @@
   "endDate": "2019-11-23T17:00:00+03:00",
   "webapp": {
     "shortName": "DevFestYYC",
-    "themeColor": "#673AB7",
-    "backgroundColor": "#673AB7"
+    "themeColor": "#ff00ff",
+    "backgroundColor": "#202124"
   },
   "dateFormat": {
     "locale": "en-US"
@@ -46,9 +46,9 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "More Festival! More Fun!",
+      "description": "More Festival. More Fun.",
       "background": {
-        "color": "#673ab7",
+        "color": "#ff00ff",
         "image": "/images/backgrounds/AB.jpg"
       },
       "fontColor": "#FFF"
@@ -59,7 +59,7 @@
       "background": {
         "color": "#FFF"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "speakers": {
       "title": "Speakers",
@@ -68,7 +68,7 @@
       "background": {
         "color": "#FFF"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "previousSpeakers": {
       "title": "Previous Speakers",
@@ -76,7 +76,7 @@
       "background": {
         "color": "#FFF"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "schedule": {
       "title": "Schedule",
@@ -84,7 +84,7 @@
       "background": {
         "color": "#fff"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "team": {
       "title": "Team",
@@ -92,7 +92,7 @@
       "background": {
         "color": "#fff"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "faq": {
       "title": "FAQs",
@@ -100,7 +100,7 @@
       "background": {
         "color": "#fff"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "coc": {
       "title": "DevFestYYC Code of Conduct and Anti-Harassment policy",
@@ -108,7 +108,7 @@
       "background": {
         "color": "#fff"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "notFound": {
       "title": "Not Found",
@@ -116,7 +116,7 @@
       "background": {
         "color": "#fff"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     }
   },
   "location": {

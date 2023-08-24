@@ -25,6 +25,33 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
       <style include="shared-styles flex flex-alignment">
         :host {
           display: block;
+          font-family: montserrat;
+        }
+
+        .section {
+          padding-top: 6rem;
+          padding-bottom: 6rem;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .partners-wrapper {
+          text-align: center;
+        }
+
+        .action-button {
+          margin: 8px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          color: #fff;
+        }
+
+        .big-heading {
+          font-size: 40px;
+          line-height: 50px;
         }
 
         .block-title {
@@ -34,15 +61,26 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
         .logos-wrapper {
           display: grid;
           grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-          grid-gap: 8px;
+          grid-gap: 30px;
+          width: 80%;
+          align-self: center;
         }
 
         .logo-item {
-          padding: 12px;
+          padding: 50px 30px;
+          border-radius: 20px;
+          background-color: #2b2c2f;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .logo-title {
+          margin-top: 20px;
+          color: var(--primary-text-color);
         }
 
         .logo-img {
-          --lazy-image-width: 100%;
+          --lazy-image-width: 170px;
           --lazy-image-height: 84px;
           --lazy-image-fit: contain;
           width: var(--lazy-image-width);
@@ -54,21 +92,16 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
           color: var(--default-primary-color);
         }
 
-        @media (min-width: 640px) {
-          .logos-wrapper {
-            grid-template-columns: repeat(4, 1fr);
-          }
-        }
-
         @media (min-width: 812px) {
           .logos-wrapper {
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
           }
         }
       </style>
 
-      <div class="container">
-        <h1 class="container-title">[[partnersBlock.title]]</h1>
+      <div class="container section partners-wrapper">
+        <h1 class="container-title big-heading">[[partnersBlock.title]]</h1>
 
         <template is="dom-if" if="[[pending]]">
           <p>[[loading]]</p>
@@ -88,7 +121,6 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
                 target="_blank"
                 rel="noopener noreferrer"
                 layout
-                horizontal
                 center-center
               >
                 <lazy-image
@@ -96,15 +128,17 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
                   src="[[logo.logoUrl]]"
                   alt="[[logo.name]]"
                 ></lazy-image>
+                <span class="logo-title">[[logo.name]]</span>
               </a>
             </template>
           </div>
         </template>
 
-        <paper-button class="cta-button animated icon-right" on-click="addPotentialPartner">
-          <span>[[partnersBlock.button]]</span>
-          <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-        </paper-button>
+        <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
+          <paper-button class="action-button" on-click="addPotentialPartner">
+            <span>[[partnersBlock.button]]</span>
+          </paper-button>
+        </div>
       </div>
     `;
   }

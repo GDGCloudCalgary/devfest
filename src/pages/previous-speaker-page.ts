@@ -148,7 +148,7 @@ export class PreviousSpeakerPage extends ReduxMixin(PolymerElement) {
 
       <simple-hero page="speakers">
         <div class="dialog-container header-content" layout horizontal center>
-          <lazy-image class="photo" src="[[speaker.photoUrl]]" alt="[[speaker.name]]"></lazy-image>
+          <lazy-image class="photo" src="[[speaker.photo]]" alt="[[speaker.name]]"></lazy-image>
           <div>
             <h2 class="name" flex>[[speaker.name]]</h2>
             <div class="subtitle">[[subtitle]]</div>
@@ -294,7 +294,7 @@ export class PreviousSpeakerPage extends ReduxMixin(PolymerElement) {
         router.render('/404');
       } else {
         updateImageMetadata(this.speaker.name, this.speaker.bio, {
-          image: this.speaker.photoUrl,
+          image: this.speaker.photo,
           imageAlt: this.speaker.name,
         });
       }

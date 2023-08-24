@@ -3,14 +3,14 @@ import { css } from 'lit';
 export const theme = css`
   :host {
     --dark-primary-color: #512da8;
-    --default-primary-color: #673ab7;
+    --default-primary-color: #f0f;
     --focused-color: #311b92;
     --light-primary-color: #d1c4e9;
     --text-primary-color: #fff;
-    --accent-color: #ff5252;
-    --primary-background-color: #fff;
-    --primary-text-color: #424242;
-    --secondary-text-color: #757575;
+    --accent-color: #f0f;
+    --primary-background-color: #202124;
+    --primary-text-color: #ccc;
+    --secondary-text-color: #333;
     --disabled-text-color: #bdbdbd;
     --divider-color: #ededed;
     --footer-background-color: #f5f5f5;
@@ -19,9 +19,10 @@ export const theme = css`
     --facebook-color: #3b5998;
     --border-light-color: #e2e2e2;
     --error-color: #e64a19;
+    --paper-font-common-base_-_font-family: montserrat;
 
     /* Custom */
-    --default-background-color: #fff;
+    --default-background-color: #202124;
     --secondary-background-color: #f5f5f5;
     --additional-background-color: #f7f7f7;
     --contrast-additional-background-color: #e8e8e8;
@@ -40,6 +41,9 @@ export const theme = css`
     --primary-color-transparent: rgb(103 58 183 / 10%);
     --primary-color-light: rgb(103 58 183 / 80%);
     --primary-color-white: #ede7f6;
+    --mdc-theme-surface: #2b2c2f;
+    --mdc-dialog-heading-ink-color: #fff;
+    --mdc-theme-text-primary-on-background: #ccc;
 
     /* Labels */
     --gde: #3d5afe;
@@ -176,8 +180,9 @@ export const theme = css`
   .container-title {
     margin-bottom: 24px;
     padding: 0;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 30px;
+    color: var(--text-primary-color);
   }
 
   .big-icon {

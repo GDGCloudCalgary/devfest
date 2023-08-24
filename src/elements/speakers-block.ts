@@ -23,17 +23,76 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
       <style include="shared-styles flex flex-alignment positioning">
         :host {
           display: block;
+          font-family: montserrat;
+        }
+
+        .big-heading {
+          font-size: 40px;
+          line-height: 50px;
+        }
+
+        .section {
+          padding-top: 6rem;
+          padding-bottom: 6rem;
+          display: flex;
+          flex-direction: column;
         }
 
         .speakers-wrapper {
-          margin: 40px 0 32px;
+          margin-top: 60px;
           display: grid;
-          grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: repeat(1, 1fr);
           grid-gap: 32px 16px;
+          width: 80%;
+          align-self: center;
+        }
+
+        .action-button {
+          margin: 8px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          color: #fff;
+        }
+
+        .year-selection {
+          width: 60%;
+          margin-top: 30px;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          align-self: center;
+          justify-content: space-around;
+        }
+
+        .year-button {
+          width: 33%;
+          text-align: center;
+          padding-top: 0.7em;
+          padding-bottom: 0.7em;
+          transition: background-color var(--animation);
+        }
+
+        .year-button:hover {
+          background-color: var(--primary-color-transparent);
+        }
+
+        .border-right {
+          border-right: 1px solid #fff;
         }
 
         .speaker {
           text-align: center;
+          display: flex;
+          flex-direction: column;
+          padding: 50px 30px;
+          border-radius: 20px;
+          background-color: #2b2c2f;
         }
 
         .photo {
@@ -43,7 +102,7 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
           --lazy-image-fit: cover;
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
-          background-color: var(--accent-color);
+          background-color: var(--primary-background-color);
           border-radius: 50%;
           overflow: hidden;
           transform: translateZ(0);
@@ -83,12 +142,25 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
         }
 
         .company-logo {
-          margin-top: 6px;
           --lazy-image-width: 100%;
           --lazy-image-height: 16px;
           --lazy-image-fit: contain;
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
+        }
+
+        .company-logo-container {
+          position: absolute;
+          bottom: 10%;
+          right: 25%;
+          border: 1px solid #fff;
+          width: 40px;
+          height: 40px;
+          border-radius: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: var(--primary-background-color);
         }
 
         .description {
@@ -98,6 +170,7 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
         .name {
           margin-top: 8px;
           line-height: 1.1;
+          font-weight: 600;
         }
 
         .origin {
@@ -117,17 +190,20 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
           }
 
           .name {
-            font-size: 24px;
+            font-size: 20px;
+          }
+        }
+
+        @media (max-width: 640px) {
+          .company-logo-container {
+            bottom: 0%;
+            right: 20%;
           }
         }
 
         @media (min-width: 812px) {
           .speakers-wrapper {
             grid-template-columns: repeat(3, 1fr);
-          }
-
-          .speaker:last-of-type {
-            display: none;
           }
 
           .badges {
@@ -153,17 +229,19 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
 
         @media (min-width: 1024px) {
           .speakers-wrapper {
-            grid-template-columns: repeat(4, 1fr);
-          }
-
-          .speaker:last-of-type {
-            display: block;
+            grid-template-columns: repeat(3, 1fr);
           }
         }
       </style>
 
-      <div class="container">
-        <h1 class="container-title">[[speakersBlock.title]]</h1>
+      <div class="container section">
+        <h1 class="container-title big-heading">[[speakersBlock.title]]</h1>
+
+        <div class="year-selection">
+          <span class="year-button border-right">2019</span>
+          <span class="year-button border-right">2020</span>
+          <span class="year-button">2023</span>
+        </div>
 
         <div class="speakers-wrapper">
           <template is="dom-repeat" items="[[featuredSpeakers]]" as="speaker">
@@ -171,7 +249,7 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
               <div relative>
                 <lazy-image
                   class="photo"
-                  src="[[speaker.photoUrl]]"
+                  src="[[speaker.photo]]"
                   alt="[[speaker.name]]"
                 ></lazy-image>
                 <div class="badges" layout horizontal>
@@ -190,37 +268,32 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
                     </a>
                   </template>
                 </div>
+                <template is="dom-if" if="[[speaker.companyLogo]]">
+                  <div class="company-logo-container">
+                    <lazy-image
+                      class="company-logo"
+                      src="[[speaker.companyLogo]]"
+                      alt="[[speaker.company]]"
+                    ></lazy-image>
+                  </div>
+                </template>
               </div>
 
-              <template is="dom-if" if="[[speaker.companyLogoUrl]]">
-                <lazy-image
-                  class="company-logo"
-                  src="[[speaker.companyLogoUrl]]"
-                  alt="[[speaker.company]]"
-                ></lazy-image>
-              </template>
-              <template is="dom-if" if="[[!speaker.companyLogoUrl]]">
-                <div style="height: 16px; margin-top: 6px"></div>
-              </template>
-
               <div class="description">
-                <text-truncate lines="1">
-                  <h3 class="name">[[speaker.name]]</h3>
-                </text-truncate>
-                <text-truncate lines="1">
-                  <div class="origin">[[speaker.country]]</div>
-                </text-truncate>
+                <h3 class="name">[[speaker.name]]</h3>
+                <span class="origin" class="name">[[speaker.company]]</span>
               </div>
             </a>
           </template>
         </div>
 
-        <a href="[[speakersBlock.callToAction.link]]">
-          <paper-button class="cta-button animated icon-right">
-            <span>[[speakersBlock.callToAction.label]]</span>
-            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-          </paper-button>
-        </a>
+        <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
+          <a href="[[speakersBlock.callToAction.link]]">
+            <paper-button class="action-button">
+              <span>[[speakersBlock.callToAction.label]]</span>
+            </paper-button>
+          </a>
+        </div>
       </div>
     `;
   }
@@ -249,7 +322,7 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
       const { data } = this.speakers;
       const filteredSpeakers = data.filter((speaker) => speaker.featured);
       const randomSpeakers = randomOrder(filteredSpeakers.length ? filteredSpeakers : data);
-      return randomSpeakers.slice(0, 4);
+      return randomSpeakers.slice(0, 6);
     } else {
       return [];
     }

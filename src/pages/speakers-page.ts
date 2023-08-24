@@ -34,20 +34,58 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
         :host {
           display: block;
           height: 100%;
+          font-family: montserrat;
         }
 
         .container {
           display: grid;
           grid-template-columns: 1fr;
           grid-gap: 16px;
-          min-height: 80%;
+        }
+
+        .section {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .year-selection {
+          width: 60%;
+          margin-top: 30px;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          align-self: center;
+          justify-content: space-around;
+        }
+
+        .year-button {
+          width: 33%;
+          text-align: center;
+          padding-top: 0.7em;
+          padding-bottom: 0.7em;
+          transition: background-color var(--animation);
+        }
+
+        .year-button:hover {
+          background-color: var(--primary-color-transparent);
+        }
+
+        .border-right {
+          border-right: 1px solid #fff;
         }
 
         .speaker {
-          padding: 32px 24px;
           background: var(--primary-background-color);
           text-align: center;
           transition: box-shadow var(--animation);
+          padding: 50px 30px;
+          border-radius: 20px;
+          background-color: #2b2c2f;
         }
 
         .speaker:hover {
@@ -61,7 +99,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           --lazy-image-fit: cover;
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
-          background-color: var(--secondary-background-color);
+          background-color: var(--primary-background-color);
           border-radius: 50%;
           overflow: hidden;
           transform: translateZ(0);
@@ -116,6 +154,20 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           height: var(--lazy-image-height);
         }
 
+        .company-logo-container {
+          position: absolute;
+          bottom: 10%;
+          right: 25%;
+          border: 1px solid #fff;
+          width: 40px;
+          height: 40px;
+          border-radius: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: var(--primary-background-color);
+        }
+
         .description {
           color: var(--primary-text-color);
         }
@@ -123,6 +175,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
         .name {
           margin-top: 8px;
           line-height: 1;
+          font-weight: 600;
         }
 
         .origin {
@@ -133,7 +186,6 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
 
         .bio {
           margin-top: 16px;
-          color: var(--secondary-text-color);
         }
 
         .contacts {
@@ -146,7 +198,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
             width: 32px;
             height: 32px;
           }
-          color: var(--secondary-text-color);
+          color: var(--text-primary-color);
         }
 
         paper-progress {
@@ -169,7 +221,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
 
         @media (min-width: 1024px) {
           .container {
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(4, minmax(0, 1fr));
           }
         }
       </style>
@@ -197,15 +249,19 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
         hidden$="[[contentLoaderVisibility]]"
       ></content-loader>
 
+      <div class="section">
+        <div class="year-selection">
+          <span class="year-button border-right">2019</span>
+          <span class="year-button border-right">2020</span>
+          <span class="year-button">2023</span>
+        </div>
+      </div>
+
       <div class="container">
         <template is="dom-repeat" items="[[speakersToRender]]" as="speaker">
           <a class="speaker card" href$="[[speakerUrl(speaker.id)]]">
             <div relative>
-              <lazy-image
-                class="photo"
-                src="[[speaker.photoUrl]]"
-                alt="[[speaker.name]]"
-              ></lazy-image>
+              <lazy-image class="photo" src="[[speaker.photo]]" alt="[[speaker.name]]"></lazy-image>
               <div class="badges" layout horizontal>
                 <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
                   <a
@@ -222,18 +278,16 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
                   </a>
                 </template>
               </div>
+              <template is="dom-if" if="[[speaker.companyLogo]]">
+                <div class="company-logo-container">
+                  <lazy-image
+                    class="company-logo"
+                    src="[[speaker.companyLogo]]"
+                    alt="[[speaker.company]]"
+                  ></lazy-image>
+                </div>
+              </template>
             </div>
-
-            <template is="dom-if" if="[[speaker.companyLogoUrl]]">
-              <lazy-image
-                class="company-logo"
-                src="[[speaker.companyLogoUrl]]"
-                alt="[[speaker.company]]"
-              ></lazy-image>
-            </template>
-            <template is="dom-if" if="[[!speaker.companyLogoUrl]]">
-              <div style="height: 16px"></div>
-            </template>
 
             <div class="description">
               <h2 class="name">[[speaker.name]]</h2>
@@ -258,10 +312,10 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
         </template>
       </div>
 
-      <previous-speakers-block></previous-speakers-block>
-
       <footer-block></footer-block>
     `;
+
+    // <previous-speakers-block></previous-speakers-block>
   }
 
   private heroSettings = heroSettings.speakers;

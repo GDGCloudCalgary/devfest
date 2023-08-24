@@ -7,7 +7,6 @@ export class StickyElement extends PolymerElement {
     return html`
       <style>
         :host {
-          display: block;
         }
 
         #content::before {
@@ -21,7 +20,6 @@ export class StickyElement extends PolymerElement {
           transition: opacity 0.4s;
           pointer-events: none;
           opacity: 0;
-          box-shadow: inset 0 5px 6px -3px rgba(0, 0, 0, 0.4);
           will-change: opacity;
         }
 

@@ -10,6 +10,7 @@ export interface PreviousSpeaker {
   name: string;
   order: number;
   photoUrl: string;
+  photo: string;
   sessions: { [key: string]: PreviousSession[] };
   socials: Social[];
   title: string;

@@ -47,8 +47,8 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
           display: block;
           height: 100%;
           width: 100%;
-          background: #fff;
           color: var(--primary-text-color);
+          font-family: montserrat;
         }
 
         app-header {
@@ -65,7 +65,6 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
           cursor: pointer;
         }
 
-        .header-content,
         .content {
           padding: 24px;
         }
@@ -158,7 +157,6 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
             --iron-icon-fill-color: #fff;
           }
 
-          .header-content,
           .content {
             padding: 24px;
             width: 100%;
@@ -187,6 +185,16 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
         .tags {
           display: flex;
           flex-wrap: wrap;
+          margin-top: 14px;
+        }
+
+        .tag {
+          font-size: 14px;
+          color: #333333;
+        }
+
+        .heading {
+          font-weight: 600;
         }
 
         paper-progress {
@@ -201,7 +209,7 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
           <h2 class="name">[[session.title]]</h2>
           <div class="tags" hidden$="[[!session.tags.length]]">
             <template is="dom-repeat" items="[[session.tags]]" as="tag">
-              <span class="tag" style$="color: [[getVariableColor(tag)]]">[[tag]]</span>
+              <span class="tag">[[tag]]</span>
             </template>
           </div>
 
@@ -274,20 +282,21 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
         </div>
 
         <div class="additional-sections" hidden$="[[!session.speakers.length]]">
-          <h3>[[sessionDetails.speakers]]</h3>
+          <h2 class="heading">[[sessionDetails.speakers]]</h2>
           <template is="dom-repeat" items="[[session.speakers]]" as="speaker">
             <a class="section" href$="[[speakerUrl(speaker.id)]]">
               <div layout horizontal center>
                 <lazy-image
                   class="section-photo"
-                  src="[[speaker.photoUrl]]"
+                  src="[[speaker.photo]]"
                   alt="[[speaker.name]]"
                 ></lazy-image>
 
                 <div class="section-details" flex>
                   <div class="section-primary-text">[[speaker.name]]</div>
                   <div class="section-secondary-text">
-                    [[speaker.company]] / [[speaker.country]]
+                    [[speaker.company]]
+                    <template is="dom-if" if="[[speaker.country]]">/</template> [[speaker.country]]
                   </div>
                 </div>
               </div>
@@ -296,7 +305,7 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
         </div>
 
         <div id="feedback" class="additional-sections">
-          <h3>[[feedback.headline]]</h3>
+          <h2 class="heading">[[feedback.headline]]</h2>
 
           <auth-required hidden="[[!acceptingFeedback]]">
             <slot slot="prompt">[[feedback.leaveFeedback]]</slot>
@@ -397,7 +406,7 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
       } else {
         const speaker: Speaker = this.session?.speakers?.[0] as TempAny;
         updateImageMetadata(this.session.title, this.session.description, {
-          image: speaker.photoUrl,
+          image: speaker.photo,
           imageAlt: speaker.name,
         });
       }

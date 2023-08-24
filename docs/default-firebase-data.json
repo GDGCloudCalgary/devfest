@@ -2064,6 +2064,7 @@
       "id": "adrian_kajda",
       "name": "Adrian Kajda",
       "order": 6,
+      "photo": "/images/people/adrian_kajda.jpg",
       "photoUrl": "https://dfua16.web.app/images/people/adrian_kajda.jpg",
       "sessions": {
         "2016": [
@@ -2086,6 +2087,7 @@
       "id": "aleksander_piotrowski",
       "name": "Aleksander Piotrowski",
       "order": 0,
+      "photo": "/images/people/aleksander_piotrowski.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/aleksander_piotrowski.jpg",
       "sessions": {
         "2016": [
@@ -2137,6 +2139,7 @@
       "id": "anton_minashkin",
       "name": "Anton Minashkin",
       "order": 17,
+      "photo": "/images/people/minashkin_anton.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/minashkin_anton.jpg",
       "sessions": {
         "2015": [
@@ -2179,6 +2182,7 @@
       "id": "carmen_popovicu",
       "name": "Carmen Popovicu",
       "order": 3,
+      "photo": "/images/people/carmen_popovicu.jpg",
       "photoUrl": "https://dfua16.web.app/images/people/carmen_popovicu.jpg",
       "sessions": {
         "2016": [
@@ -2206,6 +2210,7 @@
       "id": "denis_radin",
       "name": "Denis Radin",
       "order": 7,
+      "photo": "/images/people/denis_radin.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/denis_radin.jpg",
       "sessions": {
         "2017": [
@@ -2234,6 +2239,7 @@
       "id": "dmytro_danylyk",
       "name": "Dmytro Danylyk",
       "order": 15,
+      "photo": "/images/people/dmytro_danylyk.jpg",
       "photoUrl": "https://dfua16.web.app/images/people/dmytro_danylyk.jpg",
       "sessions": {
         "2014": [
@@ -2284,6 +2290,7 @@
       "id": "ihor_dvoretskyi",
       "name": "Ihor Dvoretskyi",
       "order": 4,
+      "photo": "/images/people/ihor_dvoretskyi.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/ihor_dvoretskyi.jpg",
       "sessions": {
         "2015": [
@@ -2341,6 +2348,7 @@
       "id": "ivan_kutuzov",
       "name": "Ivan Kutuzov",
       "order": 21,
+      "photo": "/images/people/ivan_kutuzov.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/ivan_kutuzov.jpg",
       "sessions": {
         "2017": [
@@ -2379,6 +2387,7 @@
       "id": "jana_moudrá",
       "name": "Jana Moudrá",
       "order": 16,
+      "photo": "/images/people/jana_moudra.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/jana_moudra.jpg",
       "sessions": {
         "2015": [
@@ -2434,6 +2443,7 @@
       "id": "jaroslav_khorishchenko",
       "name": "Jaroslav Khorishchenko",
       "order": 13,
+      "photo": "/images/people/jaroslav_khorishchenko.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/jaroslav_khorishchenko.jpg",
       "sessions": {
         "2017": [
@@ -2478,6 +2488,7 @@
       "id": "juarez_filho",
       "name": "Juarez Filho",
       "order": 11,
+      "photo": "/images/people/juares_filho.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/juares_filho.jpg",
       "sessions": {
         "2015": [
@@ -2528,6 +2539,7 @@
       "id": "lesya_danylyuk",
       "name": "Lesya Danylyuk",
       "order": 2,
+      "photo": "/images/people/lesya_danylyuk.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/lesya_danylyuk.jpg",
       "sessions": {
         "2017": [
@@ -2578,6 +2590,7 @@
       "id": "mateusz_herych",
       "name": "Mateusz Herych",
       "order": 18,
+      "photo": "/images/people/mateusz_herych.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/mateusz_herych.jpg",
       "sessions": {
         "2014": [
@@ -2631,6 +2644,7 @@
       "id": "michael_pustovit",
       "name": "Michael Pustovit",
       "order": 8,
+      "photo": "/images/people/michael_pustovit.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/michael_pustovit.jpg",
       "sessions": {
         "2016": [
@@ -2676,6 +2690,7 @@
       "id": "roman_mazur",
       "name": "Roman Mazur",
       "order": 10,
+      "photo": "/images/people/roman_mazur.jpg",
       "photoUrl": "https://dfua15.web.app/images/people/roman_mazur.jpg",
       "sessions": {
         "2014": [
@@ -2714,6 +2729,7 @@
       "id": "sergiy_khomenko",
       "name": "Sergii Khomenko",
       "order": 12,
+      "photo": "/images/people/sergii_khomenko.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/sergii_khomenko.jpg",
       "sessions": {
         "2017": [
@@ -2742,6 +2758,7 @@
       "id": "sergiy_mokienko",
       "name": "Sergiy Mokienko",
       "order": 9,
+      "photo": "/images/people/sergiy_mokienko.jpg",
       "photoUrl": "https://dfua16.web.app/images/people/sergiy_mokienko.jpg",
       "sessions": {
         "2016": [
@@ -2775,6 +2792,7 @@
       "id": "shmuela_jacobs",
       "name": "Shmuela Jacobs",
       "order": 19,
+      "photo": "/images/people/shmuela_jacobs.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/shmuela_jacobs.jpg",
       "sessions": {
         "2017": [
@@ -2808,6 +2826,7 @@
       "id": "valentyn_shybanov",
       "name": "Valentyn Shybanov",
       "order": 14,
+      "photo": "/images/people/valentyn_shybanov.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/valentyn_shybanov.jpg",
       "sessions": {
         "2014": [
@@ -2862,6 +2881,7 @@
       "id": "vitaliy_zasadnyy",
       "name": "Vitaliy Zasadnyy",
       "order": 1,
+      "photo": "/images/people/vitaliy_zasadnyy.jpg",
       "photoUrl": "https://dfua16.web.app/images/people/vitaliy_zasadnyy.jpg",
       "sessions": {
         "2016": [
@@ -2900,6 +2920,7 @@
       "id": "yonatan_levin",
       "name": "Yonatan Levin",
       "order": 5,
+      "photo": "/images/people/yonatan_levin.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/yonatan_levin.jpg",
       "sessions": {
         "2016": [
@@ -2951,6 +2972,7 @@
       "id": "yuliya_kaleda",
       "name": "Yuliya Kaleda",
       "order": 20,
+      "photo": "/images/people/yuliya_kaleda.jpg",
       "photoUrl": "https://storage.googleapis.com/dfua17.appspot.com/images/people/yuliya_kaleda.jpg",
       "sessions": {
         "2017": [

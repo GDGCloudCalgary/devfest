@@ -7,6 +7,7 @@
       {
         "ignore": ["custom-elements"]
       }
-    ]
+    ],
+    "custom-property-pattern": null
   }
 }

@@ -16,10 +16,9 @@ export class FooterBlock extends PolymerElement {
           margin-top: 40px;
           display: block;
           position: relative;
-          color: var(--footer-text-color);
-          background: var(--footer-background-color);
           font-size: 14px;
           line-height: 1.5;
+          font-family: montserrat;
         }
 
         .container {

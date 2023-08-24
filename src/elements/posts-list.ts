@@ -47,13 +47,13 @@ export class PostsList extends PolymerElement {
 
         .description {
           padding-top: 8px;
-          color: var(--secondary-text-color);
+          color: var(--primary-text-color);
         }
 
         .date {
           font-size: 12px;
           text-transform: uppercase;
-          color: var(--secondary-text-color);
+          color: var(--primary-text-color);
         }
 
         @media (min-width: 640px) {
