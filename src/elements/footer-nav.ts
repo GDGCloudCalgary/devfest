@@ -37,7 +37,7 @@ export class FooterNav extends PolymerElement {
         }
 
         a {
-          color: var(--footer-text-color);
+          color: var(--text-primary-color);
           padding-bottom: 2px;
           text-decoration: none;
         }

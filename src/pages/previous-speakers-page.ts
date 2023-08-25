@@ -145,11 +145,7 @@ export class PreviousSpeakersPage extends ReduxMixin(PolymerElement) {
       <div class="container">
         <template is="dom-repeat" items="[[previousSpeakers.data]]" as="speaker">
           <a class="speaker" href$="[[previousSpeakerUrl(speaker.id)]]" layout horizontal>
-            <lazy-image
-              class="photo"
-              src="[[speaker.photoUrl]]"
-              alt="[[speaker.name]]"
-            ></lazy-image>
+            <lazy-image class="photo" src="[[speaker.photo]]" alt="[[speaker.name]]"></lazy-image>
 
             <div class="details" layout vertical center-justified start>
               <h2 class="name">[[speaker.name]]</h2>

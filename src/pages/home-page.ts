@@ -56,13 +56,34 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           --lazy-image-height: 76px;
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
-          max-width: 240px;
           max-height: 76px;
+        }
+
+        .hero-logo-text {
+          font-size: 50px;
+          font-family: rocket-rinder;
+          color: #131954;
+          text-shadow: magenta -2px -2px 0px, magenta 2px -2px 0px, magenta -2px 2px 0px,
+            magenta 2px 2px 0px;
+          animation: blink 12s infinite;
+          -webkit-animation: blink 12s infinite;
+        }
+
+        .hero-logo-subtext {
+          color: magenta;
+          text-shadow: #ccc -2px -2px 0px, #ccc 2px -2px 0px, #ccc -2px 2px 0px, #ccc 2px 2px 0px;
+        }
+
+        .description {
+          font-family: streamster;
+          font-size: 30px;
+          margin-top: -30px;
         }
 
         .info-items {
           margin: 24px auto;
-          font-size: 22px;
+          font-size: 20px;
+          font-family: montserrat;
         }
 
         .info-items > *:not(:first-of-type) {
@@ -76,6 +97,31 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
         .action-buttons paper-button {
           margin: 8px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          animation: button-pop 0.25s ease-out;
+          color: #fff;
+        }
+
+        .ping-span {
+          animation: custom-ping 1s cubic-bezier(0, 0, 0.2, 1) 1s infinite;
+          --tw-border-opacity: 1;
+          border-color: rgb(255 255 255 / var(--tw-border-opacity));
+          border-width: 1px;
+          border-radius: 9999px;
+          width: 100%;
+          position: absolute;
+          top: -0.25rem;
+          bottom: -0.25rem;
+        }
+
+        *,
+        *::before,
+        *::after {
+          border: 0 solid #fff;
         }
 
         .action-buttons .watch-video {
@@ -141,6 +187,118 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           }
         }
 
+        @-webkit-keyframes blink {
+          20%,
+          24%,
+          55% {
+            color: #111;
+            text-shadow: none;
+          }
+          0%,
+          19%,
+          21%,
+          23%,
+          25%,
+          54%,
+          56%,
+          100% {
+            color: #131954;
+            text-shadow: magenta -2px -2px 0px, magenta 2px -2px 0px, magenta -2px 2px 0px,
+              magenta 2px 2px 0px, 0 0 5px magenta, 0 0 15px magenta, 0 0 20px magenta,
+              0 0 40px magenta, 0 0 60px magenta, 0 0 10px magenta, 0 0 98px magenta;
+          }
+        }
+
+        @keyframes blink {
+          20%,
+          24%,
+          55% {
+            color: #111;
+            text-shadow: none;
+          }
+          0%,
+          19%,
+          21%,
+          23%,
+          25%,
+          54%,
+          56%,
+          100% {
+            color: #131954;
+            text-shadow: magenta -2px -2px 0px, magenta 2px -2px 0px, magenta -2px 2px 0px,
+              magenta 2px 2px 0px, 0 0 5px magenta, 0 0 15px magenta, 0 0 20px magenta,
+              0 0 40px magenta, 0 0 60px magenta, 0 0 10px magenta, 0 0 98px magenta;
+          }
+        }
+
+        .ocean {
+          height: 5%;
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background: #015871;
+        }
+
+        .wave {
+          background-image: url('/images/new/wave.svg');
+          background-repeat: repeat-x;
+          background-size: 500px auto;
+          background-position: bottom;
+          position: absolute;
+          bottom: 0%;
+          width: 100%;
+          height: 200px;
+          animation: wave 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+          z-index: 1;
+        }
+
+        .wave:nth-of-type(2) {
+          opacity: 0.7;
+          animation: swell 5s ease -1.25s infinite,
+            wave 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite;
+          z-index: 0;
+        }
+
+        @keyframes wave {
+          0% {
+            background-position-x: 0%;
+          }
+          100% {
+            background-position-x: -500px;
+          }
+        }
+
+        @keyframes swell {
+          0%,
+          100% {
+            background-position: right bottom 10px;
+          }
+          50% {
+            background-position: right bottom 0;
+          }
+        }
+
+        @keyframes button-pop {
+          0% {
+            transform: scale(var(--btn-focus-scale, 0.95));
+          }
+          40% {
+            transform: scale(1.02);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+
+        @keyframes custom-ping {
+          75%,
+          100% {
+            opacity: 0;
+            transform: scale(1.1);
+          }
+        }
+
         @media (min-height: 500px) {
           hero-block {
             height: calc(100vh + 57px);
@@ -158,6 +316,21 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             transform: translateX(-50%);
             z-index: 2;
           }
+
+          .hero-logo-text {
+            font-size: 30px;
+          }
+
+          .description {
+            font-size: 21px;
+            margin-top: -20px;
+          }
+
+          .info-items {
+            margin: 30px auto;
+            font-size: 16px;
+            margin-top: 40px;
+          }
         }
 
         @media (min-width: 812px) {
@@ -165,13 +338,18 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             height: calc(100vh + 65px);
           }
 
-          .hero-logo {
-            max-width: 320px;
+          .hero-logo-text {
+            font-size: 50px;
+          }
+
+          .description {
+            font-size: 30px;
+            margin-top: -30px;
           }
 
           .info-items {
             margin: 48px auto;
-            font-size: 28px;
+            font-size: 20px;
             line-height: 1.1;
           }
         }
@@ -185,19 +363,21 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         hide-logo
       >
         <div class="home-content" layout vertical center>
-          <lazy-image class="hero-logo" src="/images/logo.png" alt="[[siteTitle]]"></lazy-image>
+          <!--<lazy-image class="hero-logo" src="/images/logo.png" alt="[[siteTitle]]"></lazy-image>-->
+          <div class="hero-logo">
+            <span class="hero-logo-text"
+              >ᐳᐅ! DEVFEST<span class="hero-logo-subtext">YYC</span></span
+            >
+            <div class="description">[[heroSettings.description]]</div>
+          </div>
 
           <div class="info-items">
             <div class="info-item">[[city]]. [[dates]]</div>
-            <div class="info-item">[[heroSettings.description]]</div>
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
-            <paper-button class="watch-video" on-click="playVideo">
-              <iron-icon icon="hoverboard:movie"></iron-icon>
-              [[viewHighlights]]
-            </paper-button>
-            <paper-button on-click="scrollToTickets" primary invert>
+            <paper-button on-click="scrollToTickets" invert>
+              <span class="ping-span"></span>
               <iron-icon icon="hoverboard:ticket"></iron-icon>
               [[buyTicket]]
             </paper-button>

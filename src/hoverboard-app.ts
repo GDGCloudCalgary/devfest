@@ -114,6 +114,7 @@ export class HoverboardApp extends PolymerElement {
 
         app-header-layout {
           margin-top: -1px;
+          background-color: var(--primary-background-color);
         }
 
         app-header.remove-shadow::before {
@@ -122,6 +123,7 @@ export class HoverboardApp extends PolymerElement {
 
         main {
           background-color: var(--primary-background-color);
+          color: var(--primary-text-color);
           min-height: 100%;
           height: 100%;
         }
@@ -148,7 +150,11 @@ export class HoverboardApp extends PolymerElement {
       <app-drawer-layout drawer-width="300px" force-narrow fullbleed>
         <app-drawer id="drawer" slot="drawer" opened="{{drawerOpened}}" swipe-open>
           <app-toolbar layout vertical start>
-            <lazy-image class="toolbar-logo" src="/images/ablogo.svg" alt="[[alt]]"></lazy-image>
+            <lazy-image
+              class="toolbar-logo"
+              src="/images/new/gdgyyc_logo.png"
+              alt="[[alt]]"
+            ></lazy-image>
             <h2 class="dates">[[dates]]</h2>
             <h3 class="location">[[shortLocation]]</h3>
           </app-toolbar>

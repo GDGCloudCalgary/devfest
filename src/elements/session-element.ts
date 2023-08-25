@@ -26,20 +26,16 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
       <style include="shared-styles flex flex-alignment positioning">
         :host {
           display: block;
-          background-color: var(--primary-background-color);
-          border-bottom: 1px solid var(--border-light-color);
           height: 100%;
-          border-radius: var(--border-radius);
         }
 
         .session {
           height: 100%;
           color: var(--primary-text-color);
           overflow: hidden;
-        }
-
-        .session:hover {
-          background-color: var(--additional-background-color);
+          padding: 50px 30px;
+          border-radius: 20px;
+          background-color: #2b2c2f;
         }
 
         .session-icon {
@@ -74,11 +70,6 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
           padding-bottom: 40px;
         }
 
-        .bookmark-session,
-        .feedback-action {
-          color: var(--secondary-text-color);
-        }
-
         .session[featured] .bookmark-session {
           color: var(--default-primary-color);
         }
@@ -91,6 +82,7 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
         .session-title {
           font-size: 20px;
           line-height: 1.2;
+          font-weight: 600;
         }
 
         .session-description {
@@ -100,8 +92,6 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
         .session-meta {
           margin: 0;
           padding: 0;
-          font-size: 12px;
-          color: var(--secondary-text-color);
         }
 
         .session-footer {
@@ -144,17 +134,17 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
           flex-wrap: wrap;
         }
 
+        .tag {
+          color: #333333;
+          font-size: 14px;
+        }
+
         @media (min-width: 640px) {
-          :host {
-            border: 1px solid var(--border-light-color);
-            border-top: 0;
-          }
+          
         }
 
         @media (min-width: 812px) {
-          :host {
-            border: 1px solid var(--border-light-color);
-          }
+          
         }
       </style>
 
@@ -201,39 +191,38 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
         <div class="session-footer">
           <div layout horizontal justified center-aligned>
             <div class="session-meta" flex>
-              <span hidden$="[[!session.duration.hh]]">
-                [[session.duration.hh]] hour[[getEnding(session.duration.hh)]]
-              </span>
-              <span hidden$="[[!session.duration.mm]]">
-                [[session.duration.mm]] min[[getEnding(session.duration.mm)]]
-              </span>
+              <div class="speakers" hidden$="[[!session.speakers.length]]">
+                <template is="dom-repeat" items="[[session.speakers]]" as="speaker">
+                  <div class="speaker" layout horizontal center>
+                    <lazy-image
+                      class="speaker-photo"
+                      src="[[speaker.photo]]"
+                      alt="[[speaker.name]]"
+                    ></lazy-image>
+
+                    <div class="speaker-details" flex>
+                      <div class="speaker-name">[[speaker.name]]</div>
+                      <div class="speaker-title">[[join(speaker.company, speaker.country)]]</div>
+                    </div>
+                  </div>
+                </template>
+              </div>
             </div>
             <div class="tags" hidden$="[[!session.tags.length]]">
               <template is="dom-repeat" items="[[session.tags]]" as="tag">
-                <span class="tag" style$="color: [[getVariableColor(tag)]]">[[tag]]</span>
+                <span class="tag"">[[tag]]</span>
               </template>
             </div>
-          </div>
-
-          <div class="speakers" hidden$="[[!session.speakers.length]]">
-            <template is="dom-repeat" items="[[session.speakers]]" as="speaker">
-              <div class="speaker" layout horizontal center>
-                <lazy-image
-                  class="speaker-photo"
-                  src="[[speaker.photoUrl]]"
-                  alt="[[speaker.name]]"
-                ></lazy-image>
-
-                <div class="speaker-details" flex>
-                  <div class="speaker-name">[[speaker.name]]</div>
-                  <div class="speaker-title">[[join(speaker.company, speaker.country)]]</div>
-                </div>
-              </div>
-            </template>
           </div>
         </div>
       </a>
     `;
+    // <span hidden$="[[!session.duration.hh]]">
+    //   [[session.duration.hh]] hour[[getEnding(session.duration.hh)]]
+    // </span>
+    // <span hidden$="[[!session.duration.mm]]">
+    //   [[session.duration.mm]] min[[getEnding(session.duration.mm)]]
+    // </span>
   }
 
   @property({ type: Object })

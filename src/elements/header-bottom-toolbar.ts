@@ -18,8 +18,6 @@ export class HeaderBottomToolbar extends ReduxMixin(PolymerElement) {
     return html`
       <style include="shared-styles flex flex-alignment positioning">
         :host {
-          display: block;
-          background-color: var(--primary-background-color);
         }
 
         app-toolbar {

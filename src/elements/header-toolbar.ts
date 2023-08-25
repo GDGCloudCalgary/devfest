@@ -32,11 +32,9 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           --iron-icon-fill-color: currentColor;
           display: block;
           z-index: 1;
-          border-bottom: 1px solid var(--divider-color);
-          background-color: var(--primary-background-color);
-          transition: background-color var(--animation), border-bottom-color var(--animation),
-            color var(--animation);
           color: var(--primary-text-color);
+          padding-top: 40px;
+          transition: padding-top 0.5s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         :host([transparent]) {
@@ -60,25 +58,26 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
 
         .toolbar-logo {
           display: block;
-          width: 150px;
+          width: 210px;
           height: 32px;
-          background-color: var(--default-primary-color);
+          background-color: var(--text-primary-color);
           transition: background-color var(--animation);
-          -webkit-mask: url('/images/ablogo.svg') no-repeat;
+          -webkit-mask: url('/images/new/gdgyyc_logo.png') no-repeat;
+          -webkit-mask-size: 100%;
+          -webkit-mask-position: center;
         }
 
         .nav-items {
           --paper-tabs-selection-bar-color: var(--default-primary-color);
           --paper-tabs: {
-            height: 64px;
+            height: 48px;
           }
         }
 
         .nav-item a,
         .signin-tab {
-          padding: 0 14px;
           color: inherit;
-          text-transform: uppercase;
+          padding: 12px 24px;
         }
 
         .profile-image {
@@ -133,7 +132,9 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
         }
 
         .buy-button {
-          margin-top: 12px;
+          height: 100%;
+          padding: 0.5rem 1.5rem;
+          border-radius: 0.5rem;
         }
 
         @media (min-width: 640px) {
@@ -289,7 +290,16 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
   }
 
   private onScroll() {
-    this.transparent = document.documentElement.scrollTop === 0;
+    // this.transparent = document.documentElement.scrollTop === 0;
+    if (document.documentElement.scrollTop === 0) {
+      this.updateStyles({
+        'padding-top': '40px',
+      });
+    } else {
+      this.updateStyles({
+        'padding-top': '20px',
+      });
+    }
   }
 
   @observe('signedIn')

@@ -27,6 +27,7 @@ export class BlogListPage extends ReduxMixin(PolymerElement) {
       <style include="shared-styles flex flex-alignment positioning">
         :host {
           display: block;
+          font-family: montserrat;
         }
 
         .featured-posts-wrapper {
@@ -36,12 +37,12 @@ export class BlogListPage extends ReduxMixin(PolymerElement) {
         }
 
         .featured {
-          background-color: var(--secondary-background-color);
+          padding-bottom: 6em;
         }
 
         .featured-post {
           height: 200px;
-          border-radius: var(--border-radius);
+          border-radius: 20px;
           overflow: hidden;
         }
 

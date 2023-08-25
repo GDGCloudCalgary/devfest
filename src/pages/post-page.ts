@@ -38,6 +38,11 @@ export class PostPage extends ReduxMixin(PolymerElement) {
       <style include="shared-styles flex flex-alignment">
         :host {
           display: block;
+          font-family: montserrat;
+        }
+
+        .container-narrow {
+          position: relative;
         }
 
         .post {
@@ -47,7 +52,6 @@ export class PostPage extends ReduxMixin(PolymerElement) {
         .date {
           font-size: 12px;
           text-transform: uppercase;
-          color: var(--secondary-text-color);
         }
 
         .suggested-posts {

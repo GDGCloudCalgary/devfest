@@ -29,6 +29,17 @@ export class LongMarkdown extends Markdown {
           width: 100%;
         }
 
+        .markdown-html paper-button {
+          margin: 8px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          animation: button-pop 0.25s ease-out;
+          color: #fff;
+        }
+
         .markdown-html img {
           margin: 32px 0 8px -16px;
           width: calc(100% + 32px);

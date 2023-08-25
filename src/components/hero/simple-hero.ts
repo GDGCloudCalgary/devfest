@@ -30,9 +30,11 @@ const hasTitle = (setting: Title | {}): setting is Title => {
 export class SimpleHero extends ThemedElement {
   @property()
   page: SimpleHeroKeys = 'notFound';
+  @property()
+  hideHeading = false;
 
   private renderDescription() {
-    if (hasDescription(heroSettings[this.page])) {
+    if (hasDescription(heroSettings[this.page]) && !this.hideHeading) {
       return html`<p class="hero-description">
         ${(heroSettings[this.page] as Description).description}
       </p>`;
@@ -42,7 +44,7 @@ export class SimpleHero extends ThemedElement {
   }
 
   private renderTitle() {
-    if (hasTitle(heroSettings[this.page])) {
+    if (hasTitle(heroSettings[this.page]) && !this.hideHeading) {
       return html`<div class="hero-title">${(heroSettings[this.page] as Title).title}</div>`;
     } else {
       return nothing;

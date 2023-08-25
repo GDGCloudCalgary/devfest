@@ -32,6 +32,7 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
         :host {
           display: block;
           height: 100%;
+          font-family: montserrat;
         }
 
         .container {
@@ -51,9 +52,6 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
         }
 
         @media (min-width: 640px) {
-          :host {
-            background-color: #fff;
-          }
         }
       </style>
 

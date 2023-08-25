@@ -35,7 +35,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
         .start-time {
           margin-top: 16px;
           padding: 8px 16px;
-          color: var(--secondary-text-color);
+          color: var(--primary-text-color);
           letter-spacing: -0.04em;
           border-bottom: 1px solid var(--border-light-color);
         }

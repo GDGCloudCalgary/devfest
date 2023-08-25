@@ -19,15 +19,6 @@ declare global {
   }
 }
 
-window.firebaseConfig = {
-  apiKey: 'AIzaSyBCCqJFVV0OWVaa67DMekiJ6137sKhbADM',
-  authDomain: 'devfest-yyc.firebaseapp.com',
-  databaseURL: 'https://devfest-yyc.firebaseio.com',
-  projectId: 'devfest-yyc',
-  storageBucket: 'devfest-yyc.appspot.com',
-  messagingSenderId: '457908822319',
-  appId: '1:457908822319:web:efb85211493b4be17a81da',
-};
 const firebaseConfig = window.firebaseConfig;
 
 if (!firebaseConfig) {

@@ -23,9 +23,20 @@ export class SubscribeBlock extends ReduxMixin(PolymerElement) {
         :host {
           display: flex;
           width: 100%;
-          background: var(--default-primary-color);
+          background-color: #2b2c2f;
           color: #fff;
           padding: 16px 0;
+          font-family: montserrat;
+        }
+
+        .action-button {
+          margin: 8px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          color: #fff;
         }
 
         .description {
@@ -59,13 +70,8 @@ export class SubscribeBlock extends ReduxMixin(PolymerElement) {
       <div class="container" layout vertical center$="[[viewport.isTabletPlus]]">
         <div class="description">[[subscribeBlock.callToAction.description]]</div>
         <div class="cta-button">
-          <paper-button
-            class="animated icon-right"
-            disabled$="[[subscribed.data]]"
-            on-click="subscribe"
-          >
+          <paper-button class="action-button" disabled$="[[subscribed.data]]" on-click="subscribe">
             <span class="cta-label">[[ctaLabel]]</span>
-            <iron-icon icon$="hoverboard:[[ctaIcon]]"></iron-icon>
           </paper-button>
         </div>
       </div>

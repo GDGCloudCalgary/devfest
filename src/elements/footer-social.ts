@@ -28,7 +28,7 @@ export class FooterSocial extends PolymerElement {
           text-transform: uppercase;
           font-weight: 500;
           margin: 0;
-          color: var(--footer-text-color);
+          color: var(--primary-text-color);
         }
 
         .nav-inline li a {

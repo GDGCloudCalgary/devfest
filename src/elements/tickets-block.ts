@@ -18,6 +18,19 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
       <style include="shared-styles flex flex-alignment positioning">
         :host {
           display: block;
+          font-family: montserrat;
+        }
+
+        .section {
+          padding-top: 6rem;
+          padding-bottom: 6rem;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .big-heading {
+          font-size: 40px;
+          line-height: 50px;
         }
 
         .tickets-wrapper {
@@ -29,11 +42,29 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
         }
 
         .ticket-item {
-          margin: 16px 8px;
+          margin: 16px 16px;
           width: 100%;
           text-align: center;
+          border-radius: 20px;
+          border: 1px solid var(--primary-text-color);
           color: var(--primary-text-color);
           background-color: var(--default-background-color);
+          transition: box-shadow var(--animation), border var(--animation);
+        }
+
+        .action-button {
+          margin: 8px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          color: #fff;
+        }
+
+        .ticket-item:hover {
+          box-shadow: var(--box-shadow-primary-color);
+          border: 1px solid var(--default-primary-color);
         }
 
         .ticket-item[in-demand] {
@@ -68,7 +99,6 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
 
         .type-description {
           font-size: 12px;
-          color: var(--secondary-text-color);
         }
 
         .ticket-price-wrapper {
@@ -98,12 +128,13 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
           margin: 16px auto 0;
           max-width: 480px;
           font-size: 14px;
-          color: var(--secondary-text-color);
+          color: var(--primary-text-color);
         }
 
         .actions {
           padding: 24px;
           position: relative;
+          margin-top: 30px;
         }
 
         .tickets-placeholder {
@@ -122,7 +153,7 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
           }
 
           .ticket-item {
-            max-width: 200px;
+            max-width: 250px;
           }
 
           .ticket-item[in-demand] {
@@ -131,8 +162,8 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
         }
       </style>
 
-      <div class="tickets-wrapper container">
-        <h1 class="container-title">[[ticketsBlock.title]]</h1>
+      <div class="tickets-wrapper container section">
+        <h1 class="container-title big-heading">[[ticketsBlock.title]]</h1>
         <content-loader
           class="tickets-placeholder"
           card-padding="24px"
@@ -182,7 +213,7 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
               <div class="actions">
                 <div class="sold-out" block$="[[ticket.soldOut]]">[[ticketsBlock.soldOut]]</div>
                 <paper-button
-                  primary
+                  class="action-button"
                   hidden$="[[ticket.soldOut]]"
                   disabled$="[[!ticket.available]]"
                 >

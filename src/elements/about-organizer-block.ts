@@ -18,6 +18,25 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
       <style include="shared-styles flex flex-alignment positioning">
         :host {
           display: block;
+          font-family: montserrat;
+        }
+
+        .section {
+          padding-top: 6rem;
+          padding-bottom: 6rem;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .action-button {
+          margin: 8px;
+          margin-left: 0;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          color: #fff;
         }
 
         .block:not(:last-of-type) {
@@ -53,7 +72,7 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
         }
       </style>
 
-      <div class="container" layout horizontal>
+      <div class="container section" layout horizontal>
         <div layout horizontal center-center flex hidden$="[[viewport.isPhone]]">
           <a href="/team" class="image-link">
             <lazy-image
@@ -67,23 +86,21 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
         <div class="description-block" flex>
           <template is="dom-repeat" items="[[aboutOrganizerBlock.blocks]]" as="block">
             <div class="block">
-              <h2>[[block.title]]</h2>
+              <h1 class="container-title">[[block.title]]</h1>
 
-              <short-markdown class="description" content="[[block.description]]"></short-markdown>
+              <short-markdown content="[[block.description]]"></short-markdown>
 
               <template is="dom-if" if="[[block.callToAction.newTab]]">
                 <a href="[[block.callToAction.link]]" target="_blank" rel="noopener noreferrer">
-                  <paper-button class="cta-button animated icon-right">
+                  <paper-button class="action-button">
                     <span>[[block.callToAction.label]]</span>
-                    <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
                   </paper-button>
                 </a>
               </template>
               <template is="dom-if" if="[[!block.callToAction.newTab]]">
                 <a href="[[block.callToAction.link]]">
-                  <paper-button class="cta-button animated icon-right">
+                  <paper-button class="action-button">
                     <span>[[block.callToAction.label]]</span>
-                    <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
                   </paper-button>
                 </a>
               </template>

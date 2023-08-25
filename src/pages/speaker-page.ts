@@ -29,13 +29,13 @@ export class SpeakerPage extends ReduxMixin(PolymerElement) {
     return html`
       <style include="shared-styles flex flex-alignment positioning">
         :host {
-          background: #fff;
           box-shadow: var(--box-shadow);
           color: var(--primary-text-color);
           display: block;
           height: 100%;
           margin: 0;
           width: 100%;
+          font-family: montserrat;
         }
 
         .content {
@@ -98,7 +98,7 @@ export class SpeakerPage extends ReduxMixin(PolymerElement) {
 
         .action {
           margin-right: 16px;
-          color: var(--secondary-text-color);
+          color: var(--primary-text-color);
           cursor: pointer;
           user-select: none;
         }
@@ -129,14 +129,24 @@ export class SpeakerPage extends ReduxMixin(PolymerElement) {
           transform: translateZ(0);
         }
 
+        .header-content {
+          margin-top: 50px;
+        }
+
         .section-primary-text {
           margin-bottom: 4px;
-          line-height: 1.2;
         }
 
         .section-secondary-text {
           font-size: 12px;
-          line-height: 1;
+        }
+
+        .tag {
+          color: #333333;
+        }
+
+        .heading {
+          font-weight: 600;
         }
 
         paper-progress {
@@ -146,9 +156,9 @@ export class SpeakerPage extends ReduxMixin(PolymerElement) {
         }
       </style>
 
-      <simple-hero page="speakers">
+      <simple-hero page="speakers" hideHeading="true">
         <div class="dialog-container header-content" layout horizontal center>
-          <lazy-image class="photo" src="[[speaker.photoUrl]]" alt="[[speaker.name]]"></lazy-image>
+          <lazy-image class="photo" src="[[speaker.photo]]" alt="[[speaker.name]]"></lazy-image>
           <div>
             <h2 class="name" flex>[[speaker.name]]</h2>
             <div class="subtitle">[[subtitle]]</div>
@@ -196,7 +206,7 @@ export class SpeakerPage extends ReduxMixin(PolymerElement) {
         </div>
 
         <div class="additional-sections" hidden$="[[!speaker.sessions.length]]">
-          <h3>[[speakerDetails.sessions]]</h3>
+          <h2 class="heading">[[speakerDetails.sessions]]</h2>
 
           <template is="dom-repeat" items="[[speaker.sessions]]" as="session">
             <a href$="[[sessionUrl(session.id)]]" class="section">
@@ -211,7 +221,7 @@ export class SpeakerPage extends ReduxMixin(PolymerElement) {
                   </div>
                   <div class="tags" hidden$="[[!session.tags.length]]">
                     <template is="dom-repeat" items="[[session.tags]]" as="tag">
-                      <span class="tag" style$="color: [[getVariableColor(tag)]]">[[tag]]</span>
+                      <span class="tag">[[tag]]</span>
                     </template>
                   </div>
                 </div>
@@ -220,8 +230,6 @@ export class SpeakerPage extends ReduxMixin(PolymerElement) {
           </template>
         </div>
       </div>
-
-      <previous-speakers-block></previous-speakers-block>
 
       <footer-block></footer-block>
     `;
@@ -271,7 +279,7 @@ export class SpeakerPage extends ReduxMixin(PolymerElement) {
         router.render('/404');
       } else {
         updateImageMetadata(this.speaker.name, this.speaker.bio, {
-          image: this.speaker.photoUrl,
+          image: this.speaker.photo,
           imageAlt: this.speaker.name,
         });
       }
