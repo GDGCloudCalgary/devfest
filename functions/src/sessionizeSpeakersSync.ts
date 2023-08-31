@@ -1,12 +1,29 @@
 import * as functions from 'firebase-functions';
 import fetch from 'node-fetch';
-import * as admin from 'firebase-admin';
+import { getFirestore } from 'firebase-admin/firestore';
 
-admin.initializeApp();
-const db = admin.firestore();
+interface Speaker {
+  bio: string;
+  company: string;
+  companyLogo: string;
+  companyLogoUrl: string;
+  featured: boolean;
+  name: string;
+  order: number;
+  photo: string;
+  photoUrl: string;
+  shortBio: string;
+  socials: Social[];
+  title: string;
+}
+
+interface Social {
+  name: string;
+  link: string;
+}
 
 export const syncSessionizeSpeakers = functions.pubsub
-  .schedule('every 3 minutes')
+  .schedule('every 5 minutes')
   .timeZone('America/Edmonton')
   .onRun(async (context) => {
     try {
@@ -15,70 +32,46 @@ export const syncSessionizeSpeakers = functions.pubsub
         'Content-Type': 'application/json'
       };
 
-      interface Speaker {
-        // Define your Speaker properties here
-        bio: string;
-        company: string;
-        companyLogo: string;
-        companyLogoUrl: string;
-        featured: boolean;
-        name: string;
-        order: number;
-        photo: string;
-        photoUrl: string;
-        shortBio: string;
-        socials: Social[]; // Use the Social type here
-        title: string;
-      }
-
-      interface Social {
-        // Define your Social properties here
-        name: string;
-        link: string;
-        // ... other social properties
-      }
-
-      // Inside your function
       const response = await fetch(sessionizeUrl, { headers });
       const responseData = await response.json();
 
-      let speakers: Speaker[] = [];
+      const db = getFirestore();
+      const batch = db.batch();
 
       if (Array.isArray(responseData)) {
-        speakers = responseData.map((speakerData: any) => {
-          const socialsData = speakerData.socials || []; // Default to empty array if no socials
+        responseData.forEach((speakerData: any) => {
+          const socialsData = speakerData.links || [];
           const socials: Social[] = socialsData.map((socialData: any) => {
             return {
-              // Mapping for social properties
-              name: socialData.name,
-              link: socialData.link,
-              // ... other social properties
+              name: socialData.title,
+              link: socialData.url,
             };
           });
 
-          return {
-            // Mapping for speaker data
-            bio: speakerData.bio,
-            company: speakerData.company,
-            companyLogo: speakerData.companyLogo,
-            companyLogoUrl: speakerData.companyLogoUrl,
-            featured: speakerData.featured,
-            name: speakerData.name,
-            order: speakerData.order,
-            photo: speakerData.photo,
-            photoUrl: speakerData.photoUrl,
-            shortBio: speakerData.shortBio,
+          const companyLogo = speakerData.questionAnswers.find(
+            (answer: any) => answer.question === 'Logo'
+          )?.answer || '';
+
+
+          const speaker: Speaker = {
+            bio: speakerData.bio || '',
+            company: speakerData.questioNnAnswers.find((q: any) => q.question === "Current Company/ Organization Name")?.answer || '',
+            companyLogo: companyLogo|| '',
+            companyLogoUrl:'',
+            featured: speakerData.isTopSpeaker || false,
+            name: speakerData.fullName || '',
+            order: 0,
+            photo: speakerData.profilePicture || '',
+            photoUrl: speakerData.profilePicture || '',
+            shortBio: '',
             socials: socials,
-            title: speakerData.title,
+            title: speakerData.tagLine || '',
           };
+
+          const speakerRef = db.collection('speakers').doc();
+          batch.set(speakerRef, speaker);
         });
       }
-
-      const batch = db.batch();
-      speakers.forEach((speaker: Speaker) => {
-        const speakerRef = db.collection('speakers').doc();
-        batch.set(speakerRef, speaker);
-      });
 
       await batch.commit();
       console.log('Speakers synced successfully.');
