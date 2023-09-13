@@ -37,11 +37,16 @@ import {
   navigation,
   offlineMessage,
   signInProviders,
+  subscribeBlock,
   title,
 } from './utils/data';
 import './utils/icons';
 import './utils/media-query';
 import { Stickied } from './utils/stickied';
+import { initialUserState } from './store/user/state';
+import { DialogData } from './models/dialog-form';
+import { subscribe } from './store/subscribe/actions';
+import { openSubscribeDialog } from './store/dialogs/actions';
 
 setPassiveTouchGestures(true);
 setRemoveNestedTemplates(true);
@@ -67,18 +72,24 @@ export class HoverboardApp extends PolymerElement {
         app-drawer app-toolbar {
           padding: 36px 24px 24px;
           border-bottom: 1px solid var(--divider-color);
+          background-color: var(--primary-background-color);
         }
 
         app-drawer .dates {
           margin-top: 42px;
           font-size: 22px;
           line-height: 0.95;
+          color: var(--text-primary-color);
         }
 
         app-drawer .location {
           margin-top: 4px;
           font-size: 15px;
-          color: var(--secondary-text-color);
+          color: var(--text-primary-color);
+        }
+
+        app-drawer .drawer-content {
+          background-color: var(--primary-background-color);
         }
 
         .drawer-list {
@@ -150,11 +161,7 @@ export class HoverboardApp extends PolymerElement {
       <app-drawer-layout drawer-width="300px" force-narrow fullbleed>
         <app-drawer id="drawer" slot="drawer" opened="{{drawerOpened}}" swipe-open>
           <app-toolbar layout vertical start>
-            <lazy-image
-              class="toolbar-logo"
-              src="/images/new/gdgyyc_logo.png"
-              alt="[[alt]]"
-            ></lazy-image>
+            <lazy-image class="toolbar-logo" src="/images/new/logo.png" alt="[[alt]]"></lazy-image>
             <h2 class="dates">[[dates]]</h2>
             <h3 class="location">[[shortLocation]]</h3>
           </app-toolbar>
@@ -179,16 +186,13 @@ export class HoverboardApp extends PolymerElement {
 
               <a
                 class="bottom-drawer-link"
-                href$="[[ticketUrl]]"
-                target="_blank"
+                on-click="register"
                 rel="noopener noreferrer"
-                on-click="closeDrawer"
                 layout
                 horizontal
                 center
               >
                 <span>[[buyTicket]]</span>
-                <iron-icon icon="hoverboard:open-in-new"></iron-icon>
               </a>
             </div>
           </div>
@@ -217,6 +221,7 @@ export class HoverboardApp extends PolymerElement {
   private buyTicket = buyTicket;
   private navigation = navigation;
   private shortLocation = location.short;
+  private subscribeBlock = subscribeBlock;
 
   @query('#drawer')
   drawer!: AppDrawerElement;
@@ -234,10 +239,16 @@ export class HoverboardApp extends PolymerElement {
   private providerUrls = signInProviders.allowedProvidersUrl;
   @property({ type: String })
   private routeName = 'home';
+  @property({ type: Boolean })
+  private signedIn = false;
+  @property({ type: Object })
+  private user = initialUserState;
 
   stateChanged(state: RootState) {
     this.tickets = state.tickets;
     this.routeName = selectRouteName(window.location.pathname);
+    this.user = state.user;
+    this.signedIn = state.user instanceof Success;
   }
 
   constructor() {
@@ -265,6 +276,41 @@ export class HoverboardApp extends PolymerElement {
     this.drawerOpened = false;
   }
 
+  register() {
+    this.closeDrawer();
+
+    let userData = {
+      firstFieldValue: '',
+      secondFieldValue: '',
+    };
+
+    if (this.user instanceof Success) {
+      const name = this.user.data.displayName?.split(' ') || ['', ''];
+      userData = {
+        firstFieldValue: name[0] || '',
+        secondFieldValue: name[1] || '',
+      };
+
+      if (this.user.data.email) {
+        this.subscribeAction({ ...userData, email: this.user.data.email });
+      }
+    }
+
+    if (this.user instanceof Success && this.user.data.email) {
+      this.subscribeAction({ ...userData, email: this.user.data.email });
+    } else {
+      openSubscribeDialog({
+        title: this.subscribeBlock.formTitle,
+        submitLabel: this.subscribeBlock.subscribe,
+        firstFieldLabel: this.subscribeBlock.firstName,
+        secondFieldLabel: this.subscribeBlock.lastName,
+        firstFieldValue: userData.firstFieldValue,
+        secondFieldValue: userData.secondFieldValue,
+        submit: (data) => this.subscribeAction(data),
+      });
+    }
+  }
+
   private toggleHeaderShadow(e: CustomEvent<Stickied>) {
     this.header.classList.toggle('remove-shadow', e.detail.sticked);
   }
@@ -282,5 +328,9 @@ export class HoverboardApp extends PolymerElement {
     } else {
       return '';
     }
+  }
+
+  private subscribeAction(data: DialogData) {
+    store.dispatch(subscribe(data));
   }
 }

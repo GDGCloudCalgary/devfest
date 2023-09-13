@@ -25,11 +25,11 @@ interface Social {
 export const syncSessionizeSpeakers = functions.pubsub
   .schedule('every 5 minutes')
   .timeZone('America/Edmonton')
-  .onRun(async (context) => {
+  .onRun(async () => {
     try {
       const sessionizeUrl = 'https://sessionize.com/api/v2/o824blhv/view/Speakers';
       const headers = {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       };
 
       const response = await fetch(sessionizeUrl, { headers });
@@ -48,16 +48,18 @@ export const syncSessionizeSpeakers = functions.pubsub
             };
           });
 
-          const companyLogo = speakerData.questionAnswers.find(
-            (answer: any) => answer.question === 'Logo'
-          )?.answer || '';
-
+          const companyLogo =
+            speakerData.questionAnswers.find((answer: any) => answer.question === 'Logo')?.answer ||
+            '';
 
           const speaker: Speaker = {
             bio: speakerData.bio || '',
-            company: speakerData.questioNnAnswers.find((q: any) => q.question === "Current Company/ Organization Name")?.answer || '',
-            companyLogo: companyLogo|| '',
-            companyLogoUrl:'',
+            company:
+              speakerData.questionAnswers.find(
+                (q: any) => q.question === 'Current Company/ Organization Name'
+              )?.answer || '',
+            companyLogo: companyLogo || '',
+            companyLogoUrl: '',
             featured: speakerData.isTopSpeaker || false,
             name: speakerData.fullName || '',
             order: 0,

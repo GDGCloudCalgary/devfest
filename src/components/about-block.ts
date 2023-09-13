@@ -1,3 +1,4 @@
+/* eslint-disable */
 // TODO: enable imports
 // import '@polymer/iron-icon';
 import { css, html } from 'lit';
@@ -22,6 +23,10 @@ export class AboutBlock extends ThemedElement {
           font-family: montserrat;
         }
 
+        .container-sub-text {
+          margin-bottom: 20px;
+        }
+
         .big-heading {
           font-size: 40px;
           line-height: 50px;
@@ -40,6 +45,14 @@ export class AboutBlock extends ThemedElement {
           height: var(--lazy-image-height);
           max-width: 240px;
           max-height: 76px;
+        }
+
+        .about-image {
+          --lazy-image-width: none;
+          --lazy-image-height: 100px;
+          height: var(--lazy-image-height);
+          max-width: 240px;
+          max-height: 100px;
         }
 
         .numbers {
@@ -81,6 +94,12 @@ export class AboutBlock extends ThemedElement {
           width: 48%;
         }
 
+        @media (min-width: 814px) {
+          .about-info {
+            flex-direction: row;
+          }
+        }
+
         @media (min-width: 640px) {
           .content {
             grid-gap: 64px;
@@ -94,13 +113,9 @@ export class AboutBlock extends ThemedElement {
           .numbers {
             font-size: 56px;
           }
-
-          .about-info {
-            flex-direction: row;
-          }
         }
 
-        @media (max-width: 500px) {
+        @media (max-width: 814px) {
           .about-info {
             flex-direction: column;
           }
@@ -125,7 +140,19 @@ export class AboutBlock extends ThemedElement {
     return html`
       <div class="container">
         <div class="about-info section">
-          <div class="about-info-left"></div>
+          <div class="about-info-left">
+            <a target="_blank" href="https://go.devfestyyc.com/innovationweek">
+              <lazy-image
+                class="about-image"
+                src="/images/new/innovation_week_logo.png"
+                alt="Innovation Week Logo"
+              ></lazy-image>
+            </a>
+            <p style="width: 80%">
+              ᐳᐅ!DEVFESTYYC is the kick off to Calgary Innovation Week. Check out over 100 other
+              Innovation Week events!
+            </p>
+          </div>
           <div class="about-info-right">
             <h1 class="container-title">${aboutBlock.callToAction.featuredSessions.title}</h1>
             <p>${aboutBlock.callToAction.featuredSessions.description}</p>
@@ -150,71 +177,103 @@ export class AboutBlock extends ThemedElement {
         </div>
 
         <div class="section">
-          <h1 class="container-title big-heading">
-            Building What's Next: It's Clear. The Pipelines of the Future are Digital.
-          </h1>
+          <h1 class="container-title big-heading">Build smarter. Ship faster.</h1>
+          <h3>
+            Unlock creativity and simplify your workflow with open, integrated solutions,
+            frameworks, programs and diversity. Get to know the 2023 ᐳᐅ!DEVFESTYYC programming!
+          </h3>
           <div class="about-info">
             <div class="statistics-block about-info-half">
               <div class="item">
                 <div>
                   <lazy-image
                     class="statistics-image"
-                    src="/images/icons/Data_AI.png"
-                    alt="Data AI"
+                    src="/images/new/devfest_logo.png"
+                    alt="Devfest Logo"
                   ></lazy-image>
                 </div>
-                <div style="font-weight: bold;">Data & AI Pipelines</div>
+                <div style="font-weight: bold;">Leverage AI + Deep Learning</div>
                 <div class="label">
-                  Process and utilize data from ingestion to training ML models.
+                  Bring the power of responsible generative AI, ML and LLMs to apps and workflows.
                 </div>
               </div>
               <div class="item">
                 <div>
                   <lazy-image
                     class="statistics-image"
-                    src="/images/icons/CICD.png"
-                    alt="CI/CD"
+                    src="/images/new/devfest_logo.png"
+                    alt="Devfest Logo"
                   ></lazy-image>
                 </div>
-                <div style="font-weight: bold;">CI/CD Pipelines</div>
+                <div style="font-weight: bold;">Scale with Cloud</div>
                 <div class="label">
-                  Deliver code and infrastructure changes more frequently and reliably.
+                  Simplify and scale development and accelerate digital transformation without
+                  managing infrastructure.
                 </div>
               </div>
               <div class="item">
                 <div>
                   <lazy-image
                     class="statistics-image"
-                    src="/images/icons/Security.png"
-                    alt="Security"
+                    src="/images/new/devfest_logo.png"
+                    alt="Devfest Logo"
                   ></lazy-image>
                 </div>
-                <div style="font-weight: bold;">Security Pipelines</div>
-                <div class="label">Secure your assets and reduce cost and complexity.</div>
-              </div>
-              <div class="item">
-                <div>
-                  <lazy-image
-                    class="statistics-image"
-                    src="/images/icons/Migration.png"
-                    alt="Migration"
-                  ></lazy-image>
-                </div>
-                <div style="font-weight: bold;">Migration Pipelines</div>
+                <div style="font-weight: bold;">Build for Mobile</div>
                 <div class="label">
-                  Migrate data and workloads to cloud efficiently, at massive scale.
+                  Develop high quality mobile apps for all audiences and form factors.
                 </div>
               </div>
               <div class="item">
                 <div>
                   <lazy-image
                     class="statistics-image"
-                    src="/images/icons/Talent.png"
-                    alt="Talent"
+                    src="/images/new/devfest_logo.png"
+                    alt="Devfest Logo"
                   ></lazy-image>
                 </div>
-                <div style="font-weight: bold;">Talent Pipelines</div>
-                <div class="label">Advance your cloud career with programs from Google.</div>
+                <div style="font-weight: bold;">Build for Web</div>
+                <div class="label">Create fast and secure sites for the open web.</div>
+              </div>
+              <div class="item">
+                <div>
+                  <lazy-image
+                    class="statistics-image"
+                    src="/images/new/devfest_logo.png"
+                    alt="Devfest Logo"
+                  ></lazy-image>
+                </div>
+                <div style="font-weight: bold;">Advance with Frameworks</div>
+                <div class="label">
+                  Accelerate value creation using Open Source modern development frameworks.
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <lazy-image
+                    class="statistics-image"
+                    src="/images/new/devfest_logo.png"
+                    alt="Devfest Logo"
+                  ></lazy-image>
+                </div>
+                <div style="font-weight: bold;">Launch with Google</div>
+                <div class="label">
+                  Launch your developer career with Google-made programs and support.
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <lazy-image
+                    class="statistics-image"
+                    src="/images/new/devfest_logo.png"
+                    alt="Devfest Logo"
+                  ></lazy-image>
+                </div>
+                <div style="font-weight: bold;">Everyone is Welcome</div>
+                <div class="label">
+                  Co-create the future of tech by welcoming everyone to join us in building the
+                  future of technology
+                </div>
               </div>
             </div>
 
@@ -237,6 +296,11 @@ export class AboutBlock extends ThemedElement {
               <div class="item">
                 <div class="numbers">${aboutBlock.statisticsBlock.tracks.number}</div>
                 <div class="label">${aboutBlock.statisticsBlock.tracks.label}</div>
+              </div>
+
+              <div class="item">
+                <div class="numbers">${aboutBlock.statisticsBlock.venues.number}</div>
+                <div class="label">${aboutBlock.statisticsBlock.venues.label}</div>
               </div>
 
               <div class="item">

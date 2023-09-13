@@ -206,20 +206,20 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
 
       <simple-hero page="schedule">
         <div class="header-content" layout vertical end-justified>
-          <h2 class="name">[[session.title]]</h2>
+          <h2 class="name">[[session.title]] - [[session.year]]</h2>
           <div class="tags" hidden$="[[!session.tags.length]]">
             <template is="dom-repeat" items="[[session.tags]]" as="tag">
               <span class="tag">[[tag]]</span>
             </template>
           </div>
 
-          <div class="float-button" hidden$="[[!contentLoaderVisibility]]">
+          <!--<div class="float-button" hidden$="[[!contentLoaderVisibility]]">
             <paper-fab
               icon="hoverboard:[[featuredSessionIcon]]"
               hidden$="[[!viewport.isLaptopPlus]]"
               on-click="toggleFeaturedSession"
             ></paper-fab>
-          </div>
+          </div>-->
         </div>
       </simple-hero>
 
@@ -237,13 +237,13 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
       ></content-loader>
 
       <div class="container content">
-        <div class="float-button" hidden$="[[!contentLoaderVisibility]]">
+        <!--<div class="float-button" hidden$="[[!contentLoaderVisibility]]">
           <paper-fab
             icon="hoverboard:[[featuredSessionIcon]]"
             hidden$="[[viewport.isLaptopPlus]]"
             on-click="toggleFeaturedSession"
           ></paper-fab>
-        </div>
+        </div>-->
         <h3 class="meta-info" hidden$="[[disabledSchedule]]">
           [[session.dateReadable]], [[session.startTime]] - [[session.endTime]]
         </h3>

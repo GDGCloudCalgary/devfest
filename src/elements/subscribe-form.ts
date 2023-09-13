@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Failure, Initialized, Success } from '@abraham/remotedata';
 import { computed, customElement, property } from '@polymer/decorators';
 import '@polymer/iron-icon';
@@ -54,15 +55,15 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
         }
 
         .ping-span {
-            animation: custom-ping 1s cubic-bezier(0, 0, 0.2, 1) 1s infinite;
-            --tw-border-opacity: 1;
-            border-color: rgb(255 255 255 / var(--tw-border-opacity));
-            border-width: 1px;
-            border-radius: 9999px;
-            width: 100%;
-            position: absolute;
-            top: -0.25rem;
-            bottom: -0.25rem;
+          animation: custom-ping 1s cubic-bezier(0, 0, 0.2, 1) 1s infinite;
+          --tw-border-opacity: 1;
+          border-color: rgb(255 255 255 / var(--tw-border-opacity));
+          border-width: 1px;
+          border-radius: 9999px;
+          width: 100%;
+          position: absolute;
+          top: -0.25rem;
+          bottom: -0.25rem;
         }
 
         *,
@@ -72,23 +73,23 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
         }
 
         @keyframes custom-ping {
-            75%,
-            100% {
-              opacity: 0;
-              transform: scale(1.1);
-            }
+          75%,
+          100% {
+            opacity: 0;
+            transform: scale(1.1);
+          }
         }
 
         @keyframes button-pop {
-            0% {
-              transform: scale(var(--btn-focus-scale, 0.95));
-            }
-            40% {
-              transform: scale(1.02);
-            }
-            100% {
-              transform: scale(1);
-            }
+          0% {
+            transform: scale(var(--btn-focus-scale, 0.95));
+          }
+          40% {
+            transform: scale(1.02);
+          }
+          100% {
+            transform: scale(1);
+          }
         }
 
         paper-button:hover {
@@ -100,7 +101,7 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
         }
 
         paper-button[disabled] .ping-span {
-            border: 0 solid #fff;
+          border: 0 solid #fff;
         }
       </style>
 
@@ -123,7 +124,7 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
           ></iron-icon>
         </paper-input>
         <paper-button on-click="subscribe" disabled="[[disabled]]">
-            <span class="ping-span"></span>
+          <span class="ping-span"></span>
           [[ctaLabel]]
         </paper-button>
       </div>
@@ -162,7 +163,15 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
 
   @computed('email', 'subscribed')
   private get disabled() {
-    return !this.email || this.subscribed instanceof Success;
+    return (
+      !this.email ||
+      this.subscribed instanceof Success ||
+      !this.email
+        ?.toLowerCase()
+        .match(
+          /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        )
+    );
   }
 
   @computed('subscribed')

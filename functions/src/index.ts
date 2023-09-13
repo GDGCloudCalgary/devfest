@@ -29,5 +29,5 @@ export {
   sessionsWrite,
   speakersWrite,
   syncSessionizeSessions,
-  syncSessionizeSpeakers
+  syncSessionizeSpeakers,
 };

@@ -1,7 +1,10 @@
 import { customElement, property } from '@polymer/decorators';
 import { html, PolymerElement } from '@polymer/polymer';
-import { footerRelBlock, notifications, subscribeNote } from '../utils/data';
+import { footerRelBlock, notifications, partnersBlock, subscribeNote } from '../utils/data';
 import './subscribe-form-footer';
+import { openSubscribeDialog } from '../store/dialogs/actions';
+import { store } from '../store';
+import { addPotentialPartner } from '../store/potential-partners/actions';
 
 @customElement('footer-rel')
 export class FooterRel extends PolymerElement {
@@ -72,8 +75,11 @@ export class FooterRel extends PolymerElement {
           <ul class="nav">
             <template is="dom-repeat" items="[[footerRel.links]]" as="link">
               <li>
-                <template is="dom-if" if="[[!link.newTab]]">
+                <template is="dom-if" if="{{notDialogCondition(link.newTab, link.url)}}">
                   <a href="[[link.url]]">[[link.name]]</a>
+                </template>
+                <template is="dom-if" if="{{dialogCondition(link.newTab, link.url)}}">
+                  <a on-click="addPotentialPartner">[[link.name]]</a>
                 </template>
                 <template is="dom-if" if="[[link.newTab]]">
                   <a href="[[link.url]]" target="_blank" rel="noopener noreferrer">[[link.name]]</a>
@@ -92,10 +98,30 @@ export class FooterRel extends PolymerElement {
     `;
   }
 
+  private partnersBlock = partnersBlock;
+
   @property({ type: Array })
   private footerRelBlock = footerRelBlock;
   @property()
   private subscribeNote = subscribeNote;
   @property({ type: Object })
   private notifications = notifications;
+
+  private notDialogCondition(newTab: boolean, url: string) {
+    return !newTab && url !== 'dialog';
+  }
+
+  private dialogCondition(newTab: boolean, url: string) {
+    return !newTab && url === 'dialog';
+  }
+
+  private addPotentialPartner() {
+    openSubscribeDialog({
+      title: this.partnersBlock.form.title,
+      submitLabel: this.partnersBlock.form.submitLabel,
+      firstFieldLabel: this.partnersBlock.form.fullName,
+      secondFieldLabel: this.partnersBlock.form.companyName,
+      submit: (data) => store.dispatch(addPotentialPartner(data)),
+    });
+  }
 }

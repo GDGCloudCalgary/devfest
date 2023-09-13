@@ -29,19 +29,14 @@
       "label": "Speakers"
     },
     {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "label": "Schedule"
+      "route": "volunteers",
+      "permalink": "/volunteers/",
+      "label": "Volunteers"
     },
     {
       "route": "team",
       "permalink": "/team/",
       "label": "Team"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog/",
-      "label": "Blog"
     }
   ],
   "heroSettings": {
@@ -62,9 +57,18 @@
       "fontColor": "#FFF"
     },
     "speakers": {
-      "title": "Speakers",
-      "metaDescription": "Learn from Googlers, world-class cloud experts and top local speakers. Meet and network with developers, cloud architects, data scientists who build and transform with Google Cloud and Cloud Native technology and techniques.",
-      "description": "Learn from Googlers, world-class cloud experts and top local speakers. Meet and network with developers, cloud architects, data scientists who build and transform with Google Cloud and Cloud Native technology and techniques.",
+      "title": "Share. More.",
+      "metaDescription": "Do you have some awesome experience building with Google technology for AI, Cloud Web and Mobile? Do you have an awesome topic or unique insight that you know other developers would be interested in learning about? We are looking for proposals at all skill levels in line with our 7 tracks. Check out our Call for Proposals and submit your ideas before September 30th and showcase your expertise in front of an amazing local and international audience.",
+      "description": "Do you have some awesome experience building with Google technology for AI, Cloud Web and Mobile? Do you have an awesome topic or unique insight that you know other developers would be interested in learning about? We are looking for proposals at all skill levels in line with our 7 tracks. Check out our Call for Proposals and submit your ideas before September 30th and showcase your expertise in front of an amazing local and international audience.",
+      "background": {
+        "color": "#FFF"
+      },
+      "fontColor": "#FFF"
+    },
+    "volunteers": {
+      "title": "Get behind the action.",
+      "metaDescription": "Want to be in on the action? Volunteers make ᐳᐅ!DEVFESTYYC work!  Jump in and volunteer and get a load of awesome perks, including a FREE 2 day festival pass and back stage access.",
+      "description": "Want to be in on the action? Volunteers make ᐳᐅ!DEVFESTYYC work!  Jump in and volunteer and get a load of awesome perks, including a FREE 2 day festival pass and back stage access.",
       "background": {
         "color": "#FFF"
       },
@@ -87,8 +91,9 @@
       "fontColor": "#FFF"
     },
     "team": {
-      "title": "Team",
+      "title": "We make it tick!",
       "metaDescription": "Learn about the DevFestYYC Team!",
+      "description": "Our super-talented, all-volunteer team comes from all over. They are passionate hackers, hustlers, designers and developers launching ᐳᐅ!DEVFESTYYC on top of maintaining, careers, school, family, pets and hobbies. They're rad and they’d love to connect!",
       "background": {
         "color": "#fff"
       },
@@ -121,9 +126,9 @@
   },
   "location": {
     "label": "Location",
-    "name": "Calgary Public Library + PLATFORM Calgary",
+    "name": "Calgary Central Library + PLATFORM Innovation Center",
     "city": "Alberta",
-    "short": "Calgary, Alberta",
+    "short": "Calgary, AB",
     "address": "800 3 St SE",
     "pointer": {
       "latitude": 51.044948,
@@ -134,13 +139,13 @@
     "secondPointer": {
       "latitude": 51.04422,
       "longitude": -114.055492,
-      "name": "PLATFORM Calgary"
+      "name": "PLATFORM Innovation Center"
     },
     "mapCenter": {
       "latitude": 51.044948,
       "longitude": -114.0551
     },
-    "description": "The backdrop to DevFestYYC is the ultra-modern Calgary Public Library."
+    "description": "The backdrop to DevFestYYC is the ultra-modern Calgary Central Library and PLATFORM Innovation Center."
   },
   "socialNetwork": {
     "follow": [
@@ -195,6 +200,9 @@
       "itemsCount": 3
     },
     "speakers": {
+      "itemsCount": 4
+    },
+    "volunteers": {
       "itemsCount": 4
     },
     "previousSpeakers": {

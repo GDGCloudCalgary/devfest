@@ -125,6 +125,18 @@ const ROUTES: Route[] = [
     ],
   },
   {
+    path: '/volunteers',
+    children: [
+      {
+        path: '',
+        component: 'volunteers-page',
+        action: async () => {
+          await import('./pages/volunteers-page.js');
+        },
+      },
+    ],
+  },
+  {
     path: '/previous-speakers',
     children: [
       {

@@ -20,7 +20,6 @@ export class TocMarkdown extends Markdown {
         }
 
         .content-wrapper {
-          background-color: var(--secondary-background-color);
           width: 100%;
           overflow: hidden;
         }

@@ -18,6 +18,7 @@ export interface SpeakerData {
   shortBio: string;
   socials: Social[];
   title: string;
+  year?: string[];
 }
 
 export type Speaker = Id & SpeakerData;

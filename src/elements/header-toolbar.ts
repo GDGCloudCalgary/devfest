@@ -8,18 +8,27 @@ import '@polymer/paper-tabs';
 import { html, PolymerElement } from '@polymer/polymer';
 import { Hero } from '../models/hero';
 import { selectRouteName } from '../router';
-import { RootState } from '../store';
+import { RootState, store } from '../store';
 import { signOut as signOutAction } from '../store/auth/actions';
-import { closeDialog, openSigninDialog } from '../store/dialogs/actions';
+import { closeDialog, openSigninDialog, openSubscribeDialog } from '../store/dialogs/actions';
 import { selectIsDialogOpen } from '../store/dialogs/selectors';
 import { DIALOG } from '../store/dialogs/types';
 import { ReduxMixin } from '../store/mixin';
 import { initialTicketsState, TicketsState } from '../store/tickets/state';
 import { initialUiState } from '../store/ui/state';
 import { initialUserState } from '../store/user/state';
-import { buyTicket, navigation, signIn, signOut as signOutText, title } from '../utils/data';
+import {
+  buyTicket,
+  navigation,
+  signIn,
+  signOut as signOutText,
+  subscribeBlock,
+  title,
+} from '../utils/data';
 import './notification-toggle';
 import './shared-styles';
+import { DialogData } from '../models/dialog-form';
+import { subscribe } from '../store/subscribe/actions';
 
 export const HEADER_HEIGHT = 76;
 
@@ -62,7 +71,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           height: 32px;
           background-color: var(--text-primary-color);
           transition: background-color var(--animation);
-          -webkit-mask: url('/images/new/gdgyyc_logo.png') no-repeat;
+          -webkit-mask: url('/images/new/logo.png') no-repeat;
           -webkit-mask-size: 100%;
           -webkit-mask-position: center;
         }
@@ -179,16 +188,16 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             </paper-tab>
           </template>
 
-          <paper-tab class="signin-tab" on-click="signIn" link hidden$="[[signedIn]]">
+          <!--<paper-tab class="signin-tab" on-click="signIn" link hidden$="[[signedIn]]">
             [[signInText]]
-          </paper-tab>
+          </paper-tab>-->
 
-          <a href$="[[ticketUrl]]" target="_blank" rel="noopener noreferrer">
+          <a on-click="register" rel="noopener noreferrer">
             <paper-button class="buy-button" primary>[[buyTicket]]</paper-button>
           </a>
         </paper-tabs>
 
-        <notification-toggle></notification-toggle>
+        <!--<notification-toggle></notification-toggle>-->
 
         <paper-menu-button
           class="auth-menu"
@@ -234,6 +243,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
   private navigation = navigation;
   private signOutText = signOutText;
   private buyTicket = buyTicket;
+  private subscribeBlock = subscribeBlock;
 
   @property({ type: Boolean, notify: true })
   drawerOpened: boolean = false;
@@ -309,6 +319,39 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
     }
   }
 
+  private register() {
+    let userData = {
+      firstFieldValue: '',
+      secondFieldValue: '',
+    };
+
+    if (this.user instanceof Success) {
+      const name = this.user.data.displayName?.split(' ') || ['', ''];
+      userData = {
+        firstFieldValue: name[0] || '',
+        secondFieldValue: name[1] || '',
+      };
+
+      if (this.user.data.email) {
+        this.subscribeAction({ ...userData, email: this.user.data.email });
+      }
+    }
+
+    if (this.user instanceof Success && this.user.data.email) {
+      this.subscribeAction({ ...userData, email: this.user.data.email });
+    } else {
+      openSubscribeDialog({
+        title: this.subscribeBlock.formTitle,
+        submitLabel: this.subscribeBlock.subscribe,
+        firstFieldLabel: this.subscribeBlock.firstName,
+        secondFieldLabel: this.subscribeBlock.lastName,
+        firstFieldValue: userData.firstFieldValue,
+        secondFieldValue: userData.secondFieldValue,
+        submit: (data) => this.subscribeAction(data),
+      });
+    }
+  }
+
   private isAccountIconHidden(signedIn: boolean, isTabletPlus: boolean) {
     return signedIn || isTabletPlus;
   }
@@ -331,5 +374,9 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
       '--hero-logo-opacity': settings.hideLogo ? '0' : '1',
       '--hero-logo-color': settings.backgroundImage ? '#fff' : 'var(--default-primary-color)',
     });
+  }
+
+  private subscribeAction(data: DialogData) {
+    store.dispatch(subscribe(data));
   }
 }

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Initialized, Success } from '@abraham/remotedata';
 import { computed, customElement, property } from '@polymer/decorators';
 import '@polymer/iron-icon';
@@ -68,6 +69,7 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
           align-items: center;
           align-self: center;
           justify-content: space-around;
+          overflow: hidden;
         }
 
         .year-button {
@@ -76,6 +78,11 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
           padding-top: 0.7em;
           padding-bottom: 0.7em;
           transition: background-color var(--animation);
+          cursor: pointer;
+        }
+
+        .year-selected {
+          background-color: magenta;
         }
 
         .year-button:hover {
@@ -160,7 +167,7 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
           display: flex;
           align-items: center;
           justify-content: center;
-          background-color: var(--primary-background-color);
+          background-color: var(--text-primary-color);
         }
 
         .description {
@@ -236,20 +243,40 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
 
       <div class="container section">
         <h1 class="container-title big-heading">[[speakersBlock.title]]</h1>
+        <p>[[speakersBlock.subtitle]]</p>
 
         <div class="year-selection">
-          <span class="year-button border-right">2019</span>
-          <span class="year-button border-right">2020</span>
-          <span class="year-button">2023</span>
+          <template is="dom-if" if="[[_isEqualTo(year, '2019')]]">
+            <span year="2019" on-click="filterList" class="year-button border-right year-selected"
+              >2019</span
+            >
+          </template>
+          <template is="dom-if" if="[[!_isEqualTo(year, '2019')]]">
+            <span year="2019" on-click="filterList" class="year-button border-right">2019</span>
+          </template>
+          <template is="dom-if" if="[[_isEqualTo(year, '2020')]]">
+            <span year="2020" on-click="filterList" class="year-button border-right year-selected"
+              >2020</span
+            >
+          </template>
+          <template is="dom-if" if="[[!_isEqualTo(year, '2020')]]">
+            <span year="2020" on-click="filterList" class="year-button border-right">2020</span>
+          </template>
+          <template is="dom-if" if="[[_isEqualTo(year, '2023')]]">
+            <span year="2023" on-click="filterList" class="year-button year-selected">2023</span>
+          </template>
+          <template is="dom-if" if="[[!_isEqualTo(year, '2023')]]">
+            <span year="2023" on-click="filterList" class="year-button">2023</span>
+          </template>
         </div>
 
         <div class="speakers-wrapper">
-          <template is="dom-repeat" items="[[featuredSpeakers]]" as="speaker">
+          <template is="dom-repeat" items="{{filteredSpeakers}}" as="speaker">
             <a class="speaker" href$="[[speakerUrl(speaker.id)]]">
               <div relative>
                 <lazy-image
                   class="photo"
-                  src="[[speaker.photo]]"
+                  src="[[speaker.photoUrl]]"
                   alt="[[speaker.name]]"
                 ></lazy-image>
                 <div class="badges" layout horizontal>
@@ -268,11 +295,11 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
                     </a>
                   </template>
                 </div>
-                <template is="dom-if" if="[[speaker.companyLogo]]">
+                <template is="dom-if" if="[[speaker.companyLogoUrl]]">
                   <div class="company-logo-container">
                     <lazy-image
                       class="company-logo"
-                      src="[[speaker.companyLogo]]"
+                      src="[[speaker.companyLogoUrl]]"
                       alt="[[speaker.company]]"
                     ></lazy-image>
                   </div>
@@ -286,6 +313,9 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
             </a>
           </template>
         </div>
+        <template is="dom-if" if="[[!filteredSpeakers.length]]">
+          <h1 style="text-align: center">Coming Soon!</h1>
+        </template>
 
         <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
           <a href="[[speakersBlock.callToAction.link]]">
@@ -300,6 +330,12 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
 
   @property({ type: Object })
   speakers = initialSpeakersState;
+
+  @property({ type: Array })
+  filteredSpeakers: Speaker[] = [];
+
+  @property({ type: String })
+  year = '2020';
 
   private speakersBlock = speakersBlock;
 
@@ -318,17 +354,33 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
 
   @computed('speakers')
   get featuredSpeakers(): Speaker[] {
+    this.filterSpeakers();
+    return this.filteredSpeakers;
+  }
+
+  filterSpeakers() {
     if (this.speakers instanceof Success) {
       const { data } = this.speakers;
-      const filteredSpeakers = data.filter((speaker) => speaker.featured);
-      const randomSpeakers = randomOrder(filteredSpeakers.length ? filteredSpeakers : data);
-      return randomSpeakers.slice(0, 6);
+      const filteredSpeakers = data.filter(
+        (speaker) => speaker.featured && speaker.year && speaker.year.includes(this.year)
+      );
+      this.filteredSpeakers = randomOrder(filteredSpeakers).slice(0, 6);
     } else {
-      return [];
+      this.filteredSpeakers = [];
     }
+  }
+
+  filterList(event: any) {
+    const year = event.target.getAttribute('year');
+    this.year = year;
+    this.filterSpeakers();
   }
 
   speakerUrl(id: string) {
     return router.urlForName('speaker-page', { id });
+  }
+
+  _isEqualTo(year: string, selectedYear: string) {
+    return year === selectedYear;
   }
 }

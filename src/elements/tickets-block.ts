@@ -3,13 +3,17 @@ import { computed, customElement, property } from '@polymer/decorators';
 import '@polymer/paper-button';
 import { html, PolymerElement } from '@polymer/polymer';
 import { Ticket } from '../models/ticket';
-import { RootState } from '../store';
+import { RootState, store } from '../store';
 import { ReduxMixin } from '../store/mixin';
 import { initialTicketsState } from '../store/tickets/state';
-import { buyTicket, contentLoaders, ticketsBlock } from '../utils/data';
+import { buyTicket, contentLoaders, subscribeBlock, ticketsBlock } from '../utils/data';
 import '../utils/icons';
 import './content-loader';
 import './shared-styles';
+import { initialUserState } from '../store/user/state';
+import { DialogData } from '../models/dialog-form';
+import { subscribe } from '../store/subscribe/actions';
+import { openSubscribeDialog } from '../store/dialogs/actions';
 
 @customElement('tickets-block')
 export class TicketsBlock extends ReduxMixin(PolymerElement) {
@@ -109,6 +113,7 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
         .price {
           color: var(--default-primary-color);
           font-size: 40px;
+          filter: blur(10px);
         }
 
         .discount {
@@ -164,6 +169,11 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
 
       <div class="tickets-wrapper container section">
         <h1 class="container-title big-heading">[[ticketsBlock.title]]</h1>
+        <h2>Don’t miss out!</h2>
+        <p>
+          Limited Early Bird Tickets are launching soon with massive savings! Subscribe to get
+          notified!
+        </p>
         <content-loader
           class="tickets-placeholder"
           card-padding="24px"
@@ -200,7 +210,8 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
               </div>
               <div class="content" layout vertical flex-auto>
                 <div class="ticket-price-wrapper">
-                  <div class="price">[[ticket.currency]][[ticket.price]]</div>
+                  <!--<div class="price">[[ticket.currency]][[ticket.price]]</div>-->
+                  <div class="price">[[ticket.currency]]000</div>
                   <div class="discount">[[getDiscount(ticket)]]</div>
                 </div>
                 <div class="type-description" layout vertical flex-auto center-justified>
@@ -231,12 +242,17 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
 
   private ticketsBlock = ticketsBlock;
   private contentLoaders = contentLoaders.tickets;
+  private subscribeBlock = subscribeBlock;
 
   @property({ type: Object })
   tickets = initialTicketsState;
 
+  @property({ type: Object })
+  private user = initialUserState;
+
   override stateChanged(state: RootState) {
     this.tickets = state.tickets;
+    this.user = state.user;
   }
 
   @computed('tickets')
@@ -265,9 +281,44 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
       e.preventDefault();
       e.stopPropagation();
     }
+
+    let userData = {
+      firstFieldValue: '',
+      secondFieldValue: '',
+    };
+
+    if (this.user instanceof Success) {
+      const name = this.user.data.displayName?.split(' ') || ['', ''];
+      userData = {
+        firstFieldValue: name[0] || '',
+        secondFieldValue: name[1] || '',
+      };
+
+      if (this.user.data.email) {
+        this.subscribeAction({ ...userData, email: this.user.data.email });
+      }
+    }
+
+    if (this.user instanceof Success && this.user.data.email) {
+      this.subscribeAction({ ...userData, email: this.user.data.email });
+    } else {
+      openSubscribeDialog({
+        title: this.subscribeBlock.formTitle,
+        submitLabel: this.subscribeBlock.subscribe,
+        firstFieldLabel: this.subscribeBlock.firstName,
+        secondFieldLabel: this.subscribeBlock.lastName,
+        firstFieldValue: userData.firstFieldValue,
+        secondFieldValue: userData.secondFieldValue,
+        submit: (data) => this.subscribeAction(data),
+      });
+    }
   }
 
   private getButtonText(available: boolean) {
     return available ? buyTicket : this.ticketsBlock.notAvailableYet;
+  }
+
+  private subscribeAction(data: DialogData) {
+    store.dispatch(subscribe(data));
   }
 }

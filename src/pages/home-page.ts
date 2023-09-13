@@ -16,6 +16,7 @@ import '../elements/partners-block';
 import '../elements/speakers-block';
 import '../elements/subscribe-block';
 import '../elements/tickets-block';
+import '../elements/subscribe-form';
 import { firebaseApp } from '../firebase';
 import { store } from '../store';
 import { ReduxMixin } from '../store/mixin';
@@ -53,10 +54,11 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
         .hero-logo {
           --lazy-image-width: 100%;
-          --lazy-image-height: 76px;
+          --lazy-image-height: 440px;
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
-          max-height: 76px;
+          max-height: 356px;
+          pointer-events: none;
         }
 
         .hero-logo-text {
@@ -69,11 +71,6 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           -webkit-animation: blink 12s infinite;
         }
 
-        .hero-logo-subtext {
-          color: magenta;
-          text-shadow: #ccc -2px -2px 0px, #ccc 2px -2px 0px, #ccc -2px 2px 0px, #ccc 2px 2px 0px;
-        }
-
         .description {
           font-family: streamster;
           font-size: 30px;
@@ -84,10 +81,12 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           margin: 24px auto;
           font-size: 20px;
           font-family: montserrat;
+          margin-top: 0;
         }
 
-        .info-items > *:not(:first-of-type) {
-          margin-top: 4px;
+        .date-item {
+          font-size: 20px;
+          margin-top: 0;
         }
 
         .action-buttons {
@@ -122,6 +121,81 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         *::before,
         *::after {
           border: 0 solid #fff;
+        }
+
+        .triangle1 {
+          --lazy-image-width: none;
+          --lazy-image-height: 300px;
+          margin-top: -108px;
+          margin-left: -253px;
+          width: var(--lazy-image-width);
+          height: var(--lazy-image-height);
+          position: absolute;
+          z-index: -1;
+          transform: rotate(358deg);
+          filter: invert(1) drop-shadow(0px 0px 6px #fff);
+          animation: blinkTriangle 8s infinite;
+          -webkit-animation: blinkTriangle 8s infinite;
+          pointer-events: none;
+        }
+
+        .triangle2 {
+          --lazy-image-width: none;
+          --lazy-image-height: 290px;
+          margin-top: -84px;
+          margin-left: 289px;
+          width: var(--lazy-image-width);
+          height: var(--lazy-image-height);
+          position: absolute;
+          z-index: -1;
+          transform: rotate(173deg);
+          filter: invert(1) drop-shadow(0px 0px 6px #fff);
+          animation: blinkTriangle 12s infinite;
+          -webkit-animation: blinkTriangle 12s infinite;
+          pointer-events: none;
+        }
+
+        .triangle3 {
+          --lazy-image-width: none;
+          --lazy-image-height: 200px;
+          margin-top: 111px;
+          margin-left: -62px;
+          width: var(--lazy-image-width);
+          height: var(--lazy-image-height);
+          position: absolute;
+          z-index: -1;
+          transform: rotate(296deg);
+          filter: invert(1) drop-shadow(0px 0px 6px #fff);
+          animation: blinkTriangle 10s infinite;
+          -webkit-animation: blinkTriangle 10s infinite;
+          pointer-events: none;
+        }
+
+        .dots1 {
+          --lazy-image-width: none;
+          --lazy-image-height: 50px;
+          width: var(--lazy-image-width);
+          height: var(--lazy-image-height);
+          position: absolute;
+          left: 0;
+          top: 20%;
+          filter: drop-shadow(0px 0px 6px #fff);
+        }
+
+        .dots2 {
+          --lazy-image-width: none;
+          --lazy-image-height: 50px;
+          width: var(--lazy-image-width);
+          height: var(--lazy-image-height);
+          position: absolute;
+          right: 0;
+          transform: rotate(180deg);
+          top: 80%;
+          filter: drop-shadow(0px 0px 6px #fff);
+        }
+
+        .info-item:nth-of-type(2) {
+          margin-top: 10px;
         }
 
         .action-buttons .watch-video {
@@ -231,6 +305,42 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           }
         }
 
+        @-webkit-keyframes blinkTriangle {
+          20%,
+          24%,
+          55% {
+            filter: invert(0.5) drop-shadow(0px 0px 0px #000);
+          }
+          0%,
+          19%,
+          21%,
+          23%,
+          25%,
+          54%,
+          56%,
+          100% {
+            filter: invert(1) drop-shadow(0px 0px 6px #fff);
+          }
+        }
+
+        @keyframes blinkTriangle {
+          20%,
+          24%,
+          55% {
+            filter: invert(0.5) drop-shadow(0px 0px 0px #000);
+          }
+          0%,
+          19%,
+          21%,
+          23%,
+          25%,
+          54%,
+          56%,
+          100% {
+            filter: invert(1) drop-shadow(0px 0px 6px #fff);
+          }
+        }
+
         .ocean {
           height: 5%;
           width: 100%;
@@ -301,8 +411,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
         @media (min-height: 500px) {
           hero-block {
-            height: calc(100vh + 57px);
-            max-height: calc(100vh + 1px);
+            height: calc(100vh + 30px);
           }
 
           .home-content {
@@ -317,6 +426,12 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             z-index: 2;
           }
 
+          .hero-logo {
+            --lazy-image-height: 440px;
+            max-height: 356px;
+            margin-top: -150px;
+          }
+
           .hero-logo-text {
             font-size: 30px;
           }
@@ -329,28 +444,77 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           .info-items {
             margin: 30px auto;
             font-size: 16px;
-            margin-top: 40px;
+            margin-top: 60px;
+            margin-bottom: 0;
+          }
+
+          .date-item {
+            font-size: 25px;
+            margin-top: 10px;
           }
         }
 
-        @media (min-width: 812px) {
+        @media (max-width: 500px) {
+          .date-item {
+            font-size: 16px;
+            margin-top: 0;
+          }
+
+          .info-items {
+            font-size: 14px;
+          }
+        }
+
+        @media (min-width: 812px) and (min-height: 1024px) {
           hero-block {
-            height: calc(100vh + 65px);
+            height: calc(100vh + 30px);
+          }
+
+          .hero-logo {
+            --lazy-image-height: 750px;
+            max-height: 646px;
           }
 
           .hero-logo-text {
-            font-size: 50px;
+            font-size: 80px;
           }
 
           .description {
-            font-size: 30px;
-            margin-top: -30px;
+            font-size: 50px;
+            margin-top: -40px;
           }
 
           .info-items {
             margin: 48px auto;
             font-size: 20px;
             line-height: 1.1;
+            margin-top: 100px;
+          }
+
+          .triangle1 {
+            --lazy-image-height: 510px;
+            margin-top: -143px;
+            margin-left: -464px;
+          }
+
+          .triangle2 {
+            --lazy-image-height: 530px;
+            margin-top: -113px;
+            margin-left: 482px;
+          }
+
+          .triangle3 {
+            --lazy-image-height: 340px;
+            margin-top: 267px;
+            margin-left: -111px;
+          }
+
+          .dots1 {
+            --lazy-image-height: 100px;
+          }
+
+          .dots2 {
+            --lazy-image-height: 100px;
           }
         }
       </style>
@@ -363,25 +527,43 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         hide-logo
       >
         <div class="home-content" layout vertical center>
-          <!--<lazy-image class="hero-logo" src="/images/logo.png" alt="[[siteTitle]]"></lazy-image>-->
-          <div class="hero-logo">
-            <span class="hero-logo-text"
-              >ᐳᐅ! DEVFEST<span class="hero-logo-subtext">YYC</span></span
-            >
+          <lazy-image class="hero-logo" src="/images/new/icon.png" alt="[[siteTitle]]"></lazy-image>
+          <lazy-image
+            class="triangle1"
+            src="/images/new/triangle.png"
+            alt="[[siteTitle]]"
+          ></lazy-image>
+          <lazy-image
+            class="triangle2"
+            src="/images/new/triangle.png"
+            alt="[[siteTitle]]"
+          ></lazy-image>
+          <lazy-image
+            class="triangle3"
+            src="/images/new/triangle.png"
+            alt="[[siteTitle]]"
+          ></lazy-image>
+          <!--<lazy-image class="dots1" src="/images/new/dots.png" alt="[[siteTitle]]"></lazy-image>-->
+          <!--<lazy-image class="dots2" src="/images/new/dots.png" alt="[[siteTitle]]"></lazy-image>-->
+          <!--<div class="hero-logo">
+            <span class="hero-logo-text">DEVFESTYYC</span>
             <div class="description">[[heroSettings.description]]</div>
-          </div>
+          </div>-->
 
           <div class="info-items">
-            <div class="info-item">[[city]]. [[dates]]</div>
+            <div class="info-item">[[name]]</div>
+            <div class="info-item">[[short]]</div>
+            <div class="info-item date-item">[[dates]]</div>
           </div>
 
-          <div class="action-buttons" layout horizontal center-justified wrap>
+          <subscribe-form></subscribe-form>
+          <!--<div class="action-buttons" layout horizontal center-justified wrap>
             <paper-button on-click="scrollToTickets" invert>
               <span class="ping-span"></span>
               <iron-icon icon="hoverboard:ticket"></iron-icon>
               [[buyTicket]]
             </paper-button>
-          </div>
+          </div>-->
 
           <div class="scroll-down" on-click="scrollNextBlock">
             <svg
@@ -454,9 +636,9 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <speakers-block></speakers-block>
       <subscribe-block></subscribe-block>
       <tickets-block id="tickets-block"></tickets-block>
+      <partners-block></partners-block>
       <about-organizer-block></about-organizer-block>
       <map-block></map-block>
-      <partners-block></partners-block>
       <footer-block></footer-block>
     `;
   }
@@ -465,6 +647,8 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   // <latest-posts-block></latest-posts-block>
 
   private city = location.city;
+  private short = location.short;
+  private name = location.name;
   private siteTitle = title;
   private dates = dates;
   private viewHighlights = viewHighlights;

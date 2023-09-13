@@ -1,7 +1,7 @@
 {
-  "title": "DevFestYYC is here!",
-  "description": "Build What's Next. Transform Legacy. Together.",
-  "image": "images/social-share.jpg",
+  "title": "DevFestYYC: More Festival. More Fun.",
+  "description": "More Festival. More Fun.",
+  "image": "images/social-share.png",
   "keywords": "developer, data scientist, cloud architect, gdg, gdgyyc, gde, devfest, devfestyyc, google cloud, cloud native, infrastucture, data, artificial intelligence, machine learning, code, development android,",
   "dates": "November 17-18, 2023",
   "partnershipProposition": "devfestyyc.link/sponsorship",
@@ -49,19 +49,13 @@
           "newTab": true
         },
         {
-          "name": "GDG Cloud Edmonton | Edmonton's Google Developer Group",
-          "url": "https://gdg.community.dev/gdg-cloud-edmonton/",
-          "newTab": true
-        },
-        {
           "name": "Google Developer Groups",
           "url": "https://developers.google.com/groups/",
           "newTab": true
         },
         {
           "name": "Meet the Team",
-          "url": "https://devfestyyc.com/team",
-          "newTab": true
+          "url": "/team"
         }
       ]
     },
@@ -70,8 +64,7 @@
       "links": [
         {
           "name": "Sponsorship Proposition",
-          "url": "http://devfestyyc.link/sponsorship",
-          "newTab": true
+          "url": "dialog"
         },
         {
           "name": "Call for Speakers",
@@ -87,46 +80,50 @@
     "title": "DevFestYYC is here!",
     "callToAction": {
       "featuredSessions": {
-        "title": "First title",
-        "description": "DevFestYYC is Western Canada's largest Google Cloud and Cloud Native conference. We're bringing Alberta's Startup and Enterprise developers, architects, data scientists, operations professionals and IT decision makers together to learn with world-class cloud experts and top local speakers. Let's Build What’s Next and Transform Legacy. Together.",
+        "title": "Build what's next with Google!",
+        "description": "Join us at North America’s premiere developer festival for Google technology. Learn the secrets to building smarter and shipping faster from the Googlers, Google experts and Google developers shaping the future of Mobile, Web, AI and Cloud for billions of users worldwide, and advancing Calgary’s leading enterprises and startups!",
         "label": "Watch the 2019 Teaser Video!",
         "link": "https://devfestyyc.link/devfest2019teaser"
       },
       "howItWas": {
-        "title": "Second title",
-        "description": "With 2 full days of bootcamps, workshops, labs, demos, you’ll advance your expertise in Google Cloud and Cloud Native technology. Master the tools and techniques required to design, architect, develop, scale, launch, integrate and maintain today’s advanced cloud solutions.",
+        "title": "More Google! More Festival! More Fun!",
+        "description": "With 2 jam-packed days of keynotes, bootcamps, workshops, labs, demos and parties, ᐳᐅ!DEVFESTYYC will advance your expertise in Google Cloud and Cloud Native technology. Master the tools and techniques required to design, architect, develop, scale, launch, integrate and maintain today’s advanced technology solutions. Plus, you’ll enjoy an unparalleled festival experience with pop-ups, parties, music and fun around every corner!",
         "label": "DevFestYYC 2019 is coming!",
         "youtubeId": "hTJ_-MxHKMY"
       }
     },
     "statisticsBlock": {
       "attendees": {
-        "label": "Global Attendees",
-        "number": "500+"
+        "label": "Attendees",
+        "number": "1000+"
       },
       "days": {
-        "label": "Days",
-        "number": "2"
+        "label": "Keynotes",
+        "number": "4"
       },
       "sessions": {
-        "label": "Experts",
-        "number": "20+"
+        "label": "Speakers",
+        "number": "50+"
       },
       "tracks": {
-        "label": "Virtual Tracks",
-        "number": "3"
+        "label": "Tracks",
+        "number": "7"
       },
       "prizes": {
-        "label": "Digital Door Prizes",
-        "number": "Loads"
+        "label": "Rad Party",
+        "number": "1"
+      },
+      "venues": {
+        "label": "Iconic Venues",
+        "number": "2"
       }
     }
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Your pass grants you access to all keynotes, technical sessions, hands-on workshops and presentations. You'll also get opportunities to meet and network with speakers and community members. We'll provide non-stop coffee, fun and lunch on both days! Stay tuned for special pop-up events!",
+    "ticketsDetails": "Your pass grants you access to all keynotes, technical sessions, hands-on workshops and presentations. You'll also get opportunities to meet and network with speakers and community members. Stay tuned for special pop-up events!",
     "soldOut": "You missed it!",
-    "notAvailableYet": "Not available yet",
+    "notAvailableYet": "Subscribe!",
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
@@ -164,10 +161,11 @@
     "previousYear": "Year"
   },
   "speakersBlock": {
-    "title": "World-class and Top Local Speakers",
+    "title": "The best of the best.",
+    "subtitle": "ᐳᐅ!DEVFESTYYC is bringing world-class and top local speakers together in Calgary! We will announce our unparallelled speaker lineup shortly, but until then, check out past festival speakers!",
     "callToAction": {
       "label": "View All",
-      "link": "/previous-speakers/"
+      "link": "/speakers/"
     }
   },
   "previousSpeakersBlock": {
@@ -190,7 +188,7 @@
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Get notified about the important conference updates",
+      "description": "Get the latest festival updates!",
       "label": "Subscribe"
     },
     "yourEmail": "Your email",
@@ -204,10 +202,10 @@
     "subscribed": "Subscribed",
     "close": "Close",
     "generalError": "An error has occurred. Please, try again later.",
-    "toast": "Successfully subscribed!"
+    "toast": "Successfully subscribed! We will notify you when registration opens for the Early Bird Tickets with massive savings!"
   },
   "team": {
-    "description": "We are [GDGYYC](https://www.gdgyyc.com/), Calgary's Google Cloud Developer Group. We're here to Build What's Next and Transform Legacy with Google Cloud and Cloud Native technology.<br>DevFestYYC is bringing Alberta’s Startup and Enterprise developers, architects, data scientists and operations professionals together with world-class and top local speakers. We are also, Google Developers Group Cloud [Edmonton](https://gdgedmonton.com/). We're an official chapter of Google’s worldwide network of cloud enthusiasts, developers, data scientists and cloud engineers. Our goal is to become the largest community of developers in Edmonton, through various technology events, learning opportunities, and access to the latest Google products. We help our members to grow by advancing their skills, network and career. Find more about Cloud Edmonton [here](https://gdgedmonton.com/)."
+    "description": ""
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions."
@@ -273,19 +271,11 @@
     "image": "/images/team.png",
     "blocks": [
       {
-        "title": "Organizer",
-        "description": "<a href='https://www.gdgyyc.com/' target='_blank'>GDGYYC</a> and <a href='https://gdg.community.dev/gdg-cloud-edmonton/' target='_blank'>GDG Cloud Edmonton</a> are the proud organizers of DevFestAB. We're here to build a world-class developer community in Alberta.",
+        "title": "We build. Right Here.",
+        "description": "<a href='https://www.gdgyyc.com/' target='_blank'>GDGYYC</a> is Calgary’s Google Developer Community the proud organizer of ᐳᐅ!DEVFESTYYC! GDGYYC exists to build a world-class developer community in Calgary and holds regular events focussed on Google Developer technology, tooling, frameworks and programs. Become a member of the community today!",
         "callToAction": {
-          "label": "Get to know our team",
-          "link": "/team"
-        }
-      },
-      {
-        "title": "What is GDG?",
-        "description": "Google Developers Groups (GDG) are the world's largest network of technologists. GDG chapters can be found in over 1000 cities around the world. GDGs are committed to advancing developer knowledge of Google Cloud and Cloud Native technologies.",
-        "callToAction": {
-          "label": "Read more",
-          "link": "https://developers.google.com/groups/",
+          "label": "JOIN THE COMMUNITY",
+          "link": "https://go.gdgyyc.com/meetup",
           "newTab": true
         }
       }

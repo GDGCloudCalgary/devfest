@@ -5,11 +5,11 @@ import { getFirestore } from 'firebase-admin/firestore';
 export const syncSessionizeSessions = functions.pubsub
   .schedule('every 5 minutes')
   .timeZone('America/Edmonton')
-  .onRun(async (context) => {
+  .onRun(async () => {
     try {
       const sessionizeUrl = 'https://sessionize.com/api/v2/o824blhv/view/Sessions';
       const headers = {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       };
 
       interface SessionizeSession {

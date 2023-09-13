@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Failure, Success } from '@abraham/remotedata';
 import '@material/mwc-button';
 import '@material/mwc-dialog';
@@ -33,9 +34,9 @@ class SubscribeDialog extends ReduxMixin(PolymerElement) {
         :host {
           display: block;
           --paper-input-container-focus-color: var(--default-primary-color);
-          --paper-input-container-color: var(--secondary-text-color);
+          --paper-input-container-color: var(--text-primary-color);
           --mdc-theme-primary: var(--default-primary-color);
-          --mdc-theme-secondary: var(--secondary-text-color);
+          --mdc-theme-secondary: var(--text-primary-color);
         }
 
         paper-input {
@@ -221,7 +222,14 @@ class SubscribeDialog extends ReduxMixin(PolymerElement) {
   }
 
   private validateEmail(email: string) {
-    return validEmail(email);
+    return (
+      validEmail(email) &&
+      email
+        ?.toLowerCase()
+        .match(
+          /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        )
+    );
   }
 
   private validateField(value: string) {

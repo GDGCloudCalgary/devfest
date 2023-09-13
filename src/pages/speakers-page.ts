@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Initialized, Success } from '@abraham/remotedata';
 import { computed, customElement, property } from '@polymer/decorators';
 import '@polymer/iron-icon';
@@ -13,7 +14,7 @@ import '../elements/previous-speakers-block';
 import '../elements/shared-styles';
 import { Filter } from '../models/filter';
 import { FilterGroup, FilterGroupKey } from '../models/filter-group';
-import { SpeakerWithTags } from '../models/speaker';
+import { Speaker, SpeakerWithTags } from '../models/speaker';
 import { router } from '../router';
 import { RootState, store } from '../store';
 import { selectFilters } from '../store/filters/selectors';
@@ -48,6 +49,14 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           padding-bottom: 2rem;
           display: flex;
           flex-direction: column;
+          max-width: var(--max-container-width);
+          margin: 0 auto;
+        }
+
+        .button-container {
+          max-width: var(--max-container-width);
+          margin: 0 auto;
+          margin-top: -50px;
         }
 
         .year-selection {
@@ -61,6 +70,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           align-items: center;
           align-self: center;
           justify-content: space-around;
+          overflow: hidden;
         }
 
         .year-button {
@@ -69,6 +79,11 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           padding-top: 0.7em;
           padding-bottom: 0.7em;
           transition: background-color var(--animation);
+          cursor: pointer;
+        }
+
+        .year-selected {
+          background-color: magenta;
         }
 
         .year-button:hover {
@@ -77,6 +92,17 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
 
         .border-right {
           border-right: 1px solid #fff;
+        }
+
+        paper-button {
+          margin: 8px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          color: #fff;
+          margin-left: 32px;
         }
 
         .speaker {
@@ -228,12 +254,16 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
 
       <simple-hero page="speakers"></simple-hero>
 
+      <div class="button-container">
+        <paper-button on-click="openCFP"> Submit your idea! </paper-button>
+      </div>
+
       <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>
 
       <filter-menu
         filter-groups="[[filterGroups]]"
         selected-filters="[[selectedFilters]]"
-        results-count="[[speakersToRender.length]]"
+        results-count="[[filteredSpeakers.length]]"
       ></filter-menu>
 
       <content-loader
@@ -251,17 +281,40 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
 
       <div class="section">
         <div class="year-selection">
-          <span class="year-button border-right">2019</span>
-          <span class="year-button border-right">2020</span>
-          <span class="year-button">2023</span>
+          <template is="dom-if" if="[[_isEqualTo(year, '2019')]]">
+            <span year="2019" on-click="filterList" class="year-button border-right year-selected"
+              >2019</span
+            >
+          </template>
+          <template is="dom-if" if="[[!_isEqualTo(year, '2019')]]">
+            <span year="2019" on-click="filterList" class="year-button border-right">2019</span>
+          </template>
+          <template is="dom-if" if="[[_isEqualTo(year, '2020')]]">
+            <span year="2020" on-click="filterList" class="year-button border-right year-selected"
+              >2020</span
+            >
+          </template>
+          <template is="dom-if" if="[[!_isEqualTo(year, '2020')]]">
+            <span year="2020" on-click="filterList" class="year-button border-right">2020</span>
+          </template>
+          <template is="dom-if" if="[[_isEqualTo(year, '2023')]]">
+            <span year="2023" on-click="filterList" class="year-button year-selected">2023</span>
+          </template>
+          <template is="dom-if" if="[[!_isEqualTo(year, '2023')]]">
+            <span year="2023" on-click="filterList" class="year-button">2023</span>
+          </template>
         </div>
       </div>
 
       <div class="container">
-        <template is="dom-repeat" items="[[speakersToRender]]" as="speaker">
+        <template is="dom-repeat" items="{{filteredSpeakers}}" as="speaker">
           <a class="speaker card" href$="[[speakerUrl(speaker.id)]]">
             <div relative>
-              <lazy-image class="photo" src="[[speaker.photo]]" alt="[[speaker.name]]"></lazy-image>
+              <lazy-image
+                class="photo"
+                src="[[speaker.photoUrl]]"
+                alt="[[speaker.name]]"
+              ></lazy-image>
               <div class="badges" layout horizontal>
                 <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
                   <a
@@ -278,11 +331,11 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
                   </a>
                 </template>
               </div>
-              <template is="dom-if" if="[[speaker.companyLogo]]">
+              <template is="dom-if" if="[[speaker.companyLogoUrl]]">
                 <div class="company-logo-container">
                   <lazy-image
                     class="company-logo"
-                    src="[[speaker.companyLogo]]"
+                    src="[[speaker.companyLogoUrl]]"
                     alt="[[speaker.company]]"
                   ></lazy-image>
                 </div>
@@ -311,6 +364,9 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           </a>
         </template>
       </div>
+      <template is="dom-if" if="[[!filteredSpeakers.length]]">
+        <h1 style="text-align: center">Coming Soon!</h1>
+      </template>
 
       <footer-block></footer-block>
     `;
@@ -328,8 +384,12 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
   private filterGroups: FilterGroup[] = [];
   @property({ type: Array })
   private selectedFilters: Filter[] = [];
+
   @property({ type: Array })
-  private speakersToRender: SpeakerWithTags[] = [];
+  filteredSpeakers: Speaker[] = [];
+
+  @property({ type: String })
+  year = '2020';
 
   override connectedCallback() {
     super.connectedCallback();
@@ -345,7 +405,15 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
     this.speakers = state.speakers;
     this.filterGroups = selectFilterGroups(state, [FilterGroupKey.tags]);
     this.selectedFilters = selectFilters(state);
-    this.speakersToRender = selectFilteredSpeakers(state);
+    this.filteredSpeakers = selectFilteredSpeakers(state).filter(
+      (speaker) => speaker.year && speaker.year.includes(this.year)
+    );
+  }
+
+  @computed('speakers')
+  get featuredSpeakers(): Speaker[] {
+    this.filterSpeakers();
+    return this.filteredSpeakers;
   }
 
   @computed('speakers')
@@ -353,7 +421,33 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
     return this.speakers instanceof Success;
   }
 
+  filterSpeakers() {
+    if (this.speakers instanceof Success) {
+      const { data } = this.speakers;
+      const filteredSpeakers = data.filter(
+        (speaker) => speaker.year && speaker.year.includes(this.year)
+      );
+      this.filteredSpeakers = filteredSpeakers;
+    } else {
+      this.filteredSpeakers = [];
+    }
+  }
+
+  filterList(event: any) {
+    const year = event.target.getAttribute('year');
+    this.year = year;
+    this.filterSpeakers();
+  }
+
   speakerUrl(id: string) {
     return router.urlForName('speaker-page', { id });
+  }
+
+  private openCFP() {
+    window.open('https://www.go.devfestyyc.com/cfp', '_blank');
+  }
+
+  _isEqualTo(year: string, selectedYear: string) {
+    return year === selectedYear;
   }
 }

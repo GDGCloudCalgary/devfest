@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Failure, Initialized, Success } from '@abraham/remotedata';
 import { computed, customElement, property } from '@polymer/decorators';
 import '@polymer/iron-icon';
@@ -44,7 +45,7 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
 
         paper-button {
           margin-top: 8px;
-          color: var(--secondary-text-color);
+          color: var(--text-primary-color);
         }
 
         paper-button:hover {
@@ -114,7 +115,15 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
 
   @computed('email', 'subscribed')
   private get disabled() {
-    return !this.email || this.subscribed instanceof Success;
+    return (
+      !this.email ||
+      this.subscribed instanceof Success ||
+      !this.email
+        ?.toLowerCase()
+        .match(
+          /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        )
+    );
   }
 
   @computed('subscribed')

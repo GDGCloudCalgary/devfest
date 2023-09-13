@@ -69,6 +69,10 @@ export class HeroBlock extends ThemedElement {
           filter: blur(100px);
         }
 
+        .hero-block-star-canvas {
+          position: absolute;
+        }
+
         .container {
           padding: 0;
           width: 100%;
@@ -119,6 +123,7 @@ export class HeroBlock extends ThemedElement {
       >
         <!--${this.backgroundImage && this.image}-->
         <canvas id="heroBlockCanvas" class="hero-block-canvas"></canvas>
+        <!--<canvas id="heroBlockStarCanvas" class="hero-block-star-canvas"></canvas>-->
         <!--<div class="hero-image"></div>-->
         <!--<div class="hero-overlay" ?show="${!!this.backgroundImage}" fit></div>-->
         <div class="container">
@@ -144,6 +149,8 @@ export class HeroBlock extends ThemedElement {
 
   @query('#heroBlockCanvas')
   canvas!: HTMLCanvasElement;
+  // @query('#heroBlockStarCanvas')
+  // starCanvas!: HTMLCanvasElement;
 
   circles: Circle[] = [];
 
@@ -157,20 +164,39 @@ export class HeroBlock extends ThemedElement {
     });
 
     const ctx = this.canvas.getContext('2d') as CanvasRenderingContext2D;
+    // const starCtx = this.starCanvas.getContext('2d') as CanvasRenderingContext2D;
     if (ctx) {
+      // if (ctx && starCtx) {
       // create gradient for canvas
       const gradient = ctx.createLinearGradient(0, 0, 0, this.canvas.height);
       gradient.addColorStop(0, '#131954');
-      gradient.addColorStop(0.9, '#1318a2');
+      gradient.addColorStop(0.9, '#131954');
       gradient.addColorStop(1, '#202124');
       // fill canvas with gradient
       ctx.fillStyle = gradient;
       ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
 
+      // this.starCanvas.width = window.innerWidth - 30;
+      // this.starCanvas.height = this.offsetHeight;
+
+      // const arrStars: Star[] = [];
+
+      // for(let i = 0; i < 200; i++) {
+      //   var randX = Math.floor((Math.random() * this.starCanvas.width) + 1);
+      //   var randY = Math.floor((Math.random() * this.starCanvas.height) + 1);
+      //   var randR = Math.random() * 1.7 + .5;
+
+      //   var star = new Star(randX, randY, randR, '#ffffff');
+      //   arrStars.push(star);
+      // }
+
       // Create animation loop
       const animate = () => {
+        // this.starCanvas.width = window.innerWidth - 30;
+        // this.starCanvas.height = this.offsetHeight;
         // Clear canvas
         ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        // starCtx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 
         // Draw background gradient
         ctx.fillStyle = gradient;
@@ -189,6 +215,13 @@ export class HeroBlock extends ThemedElement {
 
         // Remove faded circles
         this.circles.filter((circle) => !circle.isFaded);
+
+        // for(let i = 0; i < arrStars.length; i ++){
+        //   arrStars[i]?.update();
+        // }
+        // for(var i = 0; i < arrStars.length; i++){
+        //   arrStars[i]?.draw(starCtx);
+        // }
 
         // Request next animation frame
         requestAnimationFrame(animate);
@@ -255,6 +288,37 @@ class Circle {
     return this.alpha <= 0;
   }
 }
+
+// class Star {
+//   x: number;
+//   y: number;
+//   color: string;
+//   r: number;
+//   rChange: number;
+//   constructor(x: number, y: number, r: number, color: string){
+//     this.x = x;
+//     this.y = y;
+//     this.r = r;
+//     this.rChange = 0.015;
+//     this.color = color;
+//   }
+
+//   draw(ctx: CanvasRenderingContext2D) {
+//     ctx.beginPath();
+//     ctx.arc(this.x, this.y, this.r, 0, 2*Math.PI, false);
+//     ctx.shadowBlur = 8;
+//     ctx.shadowColor = "white";
+//     ctx.fillStyle = this.color;
+//     ctx.fill();
+//   }
+
+//   update() {
+//     if (this.r > 2 || this.r < .8){
+//       this.rChange = - this.rChange;
+//     }
+//     this.r += this.rChange;
+//   }
+// }
 
 declare global {
   interface HTMLElementTagNameMap {

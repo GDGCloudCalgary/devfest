@@ -212,7 +212,7 @@ export class SpeakerPage extends ReduxMixin(PolymerElement) {
             <a href$="[[sessionUrl(session.id)]]" class="section">
               <div layout horizontal center>
                 <div class="section-details" flex>
-                  <div class="section-primary-text">[[session.title]]</div>
+                  <div class="section-primary-text">[[session.title]] - [[session.year]]</div>
                   <div class="section-secondary-text" hidden$="[[!session.dateReadable]]">
                     [[session.dateReadable]], [[session.startTime]] - [[session.endTime]]
                   </div>
