@@ -229,11 +229,11 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           </div>
         </paper-menu-button>
 
-        <paper-icon-button
+        <!--<paper-icon-button
           icon="hoverboard:account"
           on-click="signIn"
           hidden$="[[isAccountIconHidden(signedIn, viewport.isLaptopPlus)]]"
-        ></paper-icon-button>
+        ></paper-icon-button>-->
       </app-toolbar>
     `;
   }

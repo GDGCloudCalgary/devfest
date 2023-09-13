@@ -11,8 +11,8 @@ import { sendGeneralNotification } from './notifications.js';
 import { optimizeImages } from './optimize-images.js';
 import { prerender } from './prerender.js';
 import { scheduleNotifications } from './schedule-notifications.js';
-import { syncSessionizeSessions } from './sessionizeSessionsSync.js';
-import { syncSessionizeSpeakers } from './sessionizeSpeakersSync.js';
+// import { syncSessionizeSessions } from './sessionizeSessionsSync.js';
+// import { syncSessionizeSpeakers } from './sessionizeSpeakersSync.js';
 // TODO: Update `tsconfig.json`
 // - "noImplicitReturns": true,
 // - "strict": true,
@@ -28,6 +28,6 @@ export {
   scheduleWrite,
   sessionsWrite,
   speakersWrite,
-  syncSessionizeSessions,
-  syncSessionizeSpeakers,
+  // syncSessionizeSessions,
+  // syncSessionizeSpeakers,
 };

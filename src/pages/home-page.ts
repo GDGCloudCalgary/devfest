@@ -341,54 +341,6 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           }
         }
 
-        .ocean {
-          height: 5%;
-          width: 100%;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          background: #015871;
-        }
-
-        .wave {
-          background-image: url('/images/new/wave.svg');
-          background-repeat: repeat-x;
-          background-size: 500px auto;
-          background-position: bottom;
-          position: absolute;
-          bottom: 0%;
-          width: 100%;
-          height: 200px;
-          animation: wave 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-          z-index: 1;
-        }
-
-        .wave:nth-of-type(2) {
-          opacity: 0.7;
-          animation: swell 5s ease -1.25s infinite,
-            wave 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite;
-          z-index: 0;
-        }
-
-        @keyframes wave {
-          0% {
-            background-position-x: 0%;
-          }
-          100% {
-            background-position-x: -500px;
-          }
-        }
-
-        @keyframes swell {
-          0%,
-          100% {
-            background-position: right bottom 10px;
-          }
-          50% {
-            background-position: right bottom 0;
-          }
-        }
-
         @keyframes button-pop {
           0% {
             transform: scale(var(--btn-focus-scale, 0.95));

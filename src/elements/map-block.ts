@@ -25,9 +25,14 @@ export class MapBlock extends ReduxMixin(PolymerElement) {
         .description-card {
           margin: 0 -16px;
           padding: 16px;
-          background-color: #2b2c2f;
+          background-color: var(--primary-background-color);
           color: var(--text-primary-color);
           border-radius: 20px;
+          z-index: 1;
+        }
+
+        .link {
+          color: var(--text-primary-color);
         }
 
         .bottom-info {
@@ -50,6 +55,8 @@ export class MapBlock extends ReduxMixin(PolymerElement) {
           google-map {
             display: block;
             height: 640px;
+            max-width: 1280px;
+            margin: 0 auto;
           }
 
           .description-card {
@@ -94,23 +101,24 @@ export class MapBlock extends ReduxMixin(PolymerElement) {
 
       <div class="container" layout vertical end-justified fit$="[[viewport.isTabletPlus]]">
         <div class="description-card" layout vertical justified>
-          <div>
-            <h1 class="container-title">[[mapBlock.title]]</h1>
-            <p>[[location.description]]</p>
-          </div>
-          <div class="bottom-info" layout horizontal justified center>
-            <span class="address">[[location.address]]</span>
-            <a
-              href="https://www.google.com/maps/dir/?api=1&amp;destination=[[location.address]]"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          <a
+            class="link"
+            href="https://www.google.com/maps/dir/?api=1&amp;destination=[[location.address]]"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div>
+              <h1 class="container-title">[[mapBlock.title]]</h1>
+              <p>[[location.description]]</p>
+            </div>
+            <div class="bottom-info" layout horizontal justified center>
+              <span class="address">[[location.address]]</span>
               <paper-icon-button
                 class="directions"
                 icon="hoverboard:directions"
               ></paper-icon-button>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     `;

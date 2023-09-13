@@ -19,6 +19,7 @@ export class FooterBlock extends PolymerElement {
           font-size: 14px;
           line-height: 1.5;
           font-family: montserrat;
+          background: #2b2c2f;
         }
 
         .container {
@@ -42,12 +43,65 @@ export class FooterBlock extends PolymerElement {
           z-index: 1;
         }
 
+        .ocean {
+          height: 5%;
+          width: 100%;
+          position: absolute;
+          margin-top: -15px;
+          left: 0;
+          pointer-events: none;
+        }
+
+        .wave {
+          background-image: url('/images/new/wave.svg');
+          background-repeat: repeat-x;
+          background-size: 500px auto;
+          background-position: bottom;
+          position: absolute;
+          bottom: 0%;
+          width: 100%;
+          height: 200px;
+          animation: wave 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+          z-index: 1;
+        }
+
+        .wave:nth-of-type(2) {
+          opacity: 0.7;
+          animation: swell 5s ease -1.25s infinite,
+            wave 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite;
+          z-index: 0;
+        }
+
+        @keyframes swell {
+          0%,
+          100% {
+            background-position: right bottom 10px;
+          }
+          50% {
+            background-position: right bottom 0;
+          }
+        }
+
+        @keyframes wave {
+          0% {
+            background-position-x: 0%;
+          }
+          100% {
+            background-position-x: -500px;
+          }
+        }
+
         @media (min-width: 640px) {
           .container {
             padding: 15px 36px;
           }
         }
       </style>
+
+      <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave wave2"></div>
+      </div>
 
       <div class="container">
         <div class="fab">
