@@ -195,7 +195,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         }
 
         .info-item:nth-of-type(2) {
-          margin-top: 10px;
+          margin-top: 20px;
         }
 
         .action-buttons .watch-video {
@@ -397,7 +397,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             margin: 30px auto;
             font-size: 16px;
             margin-top: 60px;
-            margin-bottom: 0;
+          }
+
+          .info-item-description {
+            color: #ccc;
           }
 
           .date-item {
@@ -483,17 +486,17 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           <lazy-image
             class="triangle1"
             src="/images/new/triangle.png"
-            alt="[[siteTitle]]"
+            alt=""
           ></lazy-image>
           <lazy-image
             class="triangle2"
             src="/images/new/triangle.png"
-            alt="[[siteTitle]]"
+            alt=""
           ></lazy-image>
           <lazy-image
             class="triangle3"
             src="/images/new/triangle.png"
-            alt="[[siteTitle]]"
+            alt=""
           ></lazy-image>
           <!--<lazy-image class="dots1" src="/images/new/dots.png" alt="[[siteTitle]]"></lazy-image>-->
           <!--<lazy-image class="dots2" src="/images/new/dots.png" alt="[[siteTitle]]"></lazy-image>-->
@@ -502,20 +505,24 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             <div class="description">[[heroSettings.description]]</div>
           </div>-->
 
-          <div class="info-items">
+          <!--<div class="info-items">
             <div class="info-item">[[name]]</div>
             <div class="info-item">[[short]]</div>
             <div class="info-item date-item">[[dates]]</div>
-          </div>
+          </div>-->
 
-          <subscribe-form></subscribe-form>
-          <!--<div class="action-buttons" layout horizontal center-justified wrap>
+          <div class="info-items">
+            <div class="info-item">LIMITED EARLY BIRD PASSES AVAILABLE NOW!</div>
+            <div class="info-item info-item-description">Get your discounted early bird festival pass to ᐳᐅ!DEVFESTYYC before they sell out!</div>
+          </div>
+          <!--<subscribe-form></subscribe-form>-->
+          <div class="action-buttons" layout horizontal center-justified wrap>
             <paper-button on-click="scrollToTickets" invert>
               <span class="ping-span"></span>
               <iron-icon icon="hoverboard:ticket"></iron-icon>
-              [[buyTicket]]
+              GET EARLY BIRD
             </paper-button>
-          </div>-->
+          </div>
 
           <div class="scroll-down" on-click="scrollNextBlock">
             <svg

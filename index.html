@@ -1,173 +1,258 @@
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Event" lang="en">
-  <head>
-    <base href="{{ basepath }}" />
-    <meta charset="utf-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta
-      content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes"
-      name="viewport"
-    />
-    <meta content="{{ description }}" name="description" />
-    <meta content="{{ keywords }}" name="keywords" />
-    <meta content="{{ organizer.name }}" name="author" />
-    <meta content="Project Hoverboard" name="generator" />
 
-    <title>{{ title }}</title>
+<head>
+  <base href="{{ basepath }}" />
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes" name="viewport" />
+  <meta content="{{ description }}" name="description" />
+  <meta content="{{ keywords }}" name="keywords" />
+  <meta content="{{ organizer.name }}" name="author" />
+  <meta content="Project Hoverboard" name="generator" />
 
-    <!-- Config from compilation step -->
-    <meta content="{{ url }}" name="config-url" />
-    <meta content="{{ basepath }}" name="config-basepath" />
-    <meta content="{{ googleMapApiKey }}" name="config-google-maps-api-key" />
+  <title>{{ title }}</title>
 
-    <link href="{{ url }}" rel="canonical" />
+  <!-- Config from compilation step -->
+  <meta content="{{ url }}" name="config-url" />
+  <meta content="{{ basepath }}" name="config-basepath" />
+  <meta content="{{ googleMapApiKey }}" name="config-google-maps-api-key" />
 
-    <link href="images/favicon.ico" rel="icon" />
+  <link href="{{ url }}" rel="canonical" />
 
-    <meta content="{{ webapp.themeColor }}" name="theme-color" />
-    <link href="manifest.json" rel="manifest" />
+  <link href="images/favicon.ico" rel="icon" />
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta content="yes" name="mobile-web-app-capable" />
-    <!-- fallback for manifest.json -->
-    <meta content="{{ title }}" name="application-name" />
+  <meta content="{{ webapp.themeColor }}" name="theme-color" />
+  <link href="manifest.json" rel="manifest" />
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta content="yes" name="apple-mobile-web-app-capable" />
-    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
-    <meta content="{{ title }}" name="apple-mobile-web-app-title" />
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta content="yes" name="mobile-web-app-capable" />
+  <!-- fallback for manifest.json -->
+  <meta content="{{ title }}" name="application-name" />
 
-    <!-- Homescreen icons. -->
-    <link href="images/manifest/icon-48.png" rel="apple-touch-icon" />
-    <link href="images/manifest/icon-72.png" rel="apple-touch-icon" sizes="72x72" />
-    <link href="images/manifest/icon-96.png" rel="apple-touch-icon" sizes="96x96" />
-    <link href="images/manifest/icon-144.png" rel="apple-touch-icon" sizes="144x144" />
-    <link href="images/manifest/icon-192.png" rel="apple-touch-icon" sizes="192x192" />
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
+  <meta content="{{ title }}" name="apple-mobile-web-app-title" />
 
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta content="images/manifest/icon-144.png" name="msapplication-TileImage" />
-    <meta content="#00aba9" name="msapplication-TileColor" />
-    <meta content="no" name="msapplication-tap-highlight" />
+  <!-- Homescreen icons. -->
+  <link href="images/manifest/icon-48.png" rel="apple-touch-icon" />
+  <link href="images/manifest/icon-72.png" rel="apple-touch-icon" sizes="72x72" />
+  <link href="images/manifest/icon-96.png" rel="apple-touch-icon" sizes="96x96" />
+  <link href="images/manifest/icon-144.png" rel="apple-touch-icon" sizes="144x144" />
+  <link href="images/manifest/icon-192.png" rel="apple-touch-icon" sizes="192x192" />
 
-    <!-- Facebook sharing meta data -->
-    <meta content="{{ title }}" property="og:title" />
-    <meta content="{{ title }}" property="og:site_name" />
-    <meta content="website" property="og:type" />
-    <meta content="{{ url }}" property="og:url" />
-    <meta content="{{ description }}" property="og:description" />
-    <meta content="Event" property="og:type" />
-    <meta content="{{ image }}" property="og:image" />
-    <meta content="image/jpeg" property="og:image:type" />
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta content="images/manifest/icon-144.png" name="msapplication-TileImage" />
+  <meta content="#00aba9" name="msapplication-TileColor" />
+  <meta content="no" name="msapplication-tap-highlight" />
 
-    <!-- Twitter meta data -->
-    <meta content="summary_large_image" name="twitter:card" />
-    <meta content="@{{ organizer.twitter }}" name="twitter:creator" />
-    <meta content="{{ title }}" name="twitter:title" />
-    <meta content="{{ description }}" name="twitter:description" />
-    <meta content="{{ image }}" name="twitter:image" />
-    <meta name="twitter:label1" value="{{ location.label }}" />
-    <meta name="twitter:data1" value="{{ location.name }}" />
-    <meta name="twitter:label2" />
-    <meta name="twitter:data2" />
+  <!-- Facebook sharing meta data -->
+  <meta content="{{ title }}" property="og:title" />
+  <meta content="{{ title }}" property="og:site_name" />
+  <meta content="website" property="og:type" />
+  <meta content="{{ url }}" property="og:url" />
+  <meta content="{{ description }}" property="og:description" />
+  <meta content="Event" property="og:type" />
+  <meta content="{{ image }}" property="og:image" />
+  <meta content="image/jpeg" property="og:image:type" />
 
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://firestore.googleapis.com" rel="preconnect" />
+  <!-- Twitter meta data -->
+  <meta content="summary_large_image" name="twitter:card" />
+  <meta content="@{{ organizer.twitter }}" name="twitter:creator" />
+  <meta content="{{ title }}" name="twitter:title" />
+  <meta content="{{ description }}" name="twitter:description" />
+  <meta content="{{ image }}" name="twitter:image" />
+  <meta name="twitter:label1" value="{{ location.label }}" />
+  <meta name="twitter:data1" value="{{ location.name }}" />
+  <meta name="twitter:label2" />
+  <meta name="twitter:data2" />
 
-    <script>
-      // https://stackoverflow.com/a/50407571/26406
-      window.process = {
-        env: {
-          NODE_ENV: '{{ NODE_ENV }}',
-        },
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://firestore.googleapis.com" rel="preconnect" />
+
+  <script>
+    // https://stackoverflow.com/a/50407571/26406
+    window.process = {
+      env: {
+        NODE_ENV: '{{ NODE_ENV }}',
+      },
+    };
+
+    window.Polymer = {
+      rootPath: '{{ basepath }}',
+    };
+
+    // prettier-ignore
+    { { webVitalsPolyfill | safe } }
+
+    // Capture the config object from /__/firebase/init.js for src/firebase.ts
+    window.firebase = {
+      initializeApp: (config) => {
+        window.firebaseConfig = config;
+        // Delete fake Firebase global
+        delete window.firebase;
+      },
+    };
+  </script>
+
+  <script src="/__/firebase/init.js"></script>
+  <script src="./src/hoverboard-app.ts" type="module"></script>
+  <script src="./src/components/app-install.ts" type="module"></script>
+  <script src="./src/service-worker-registration.ts" type="module"></script>
+
+  <!-- SHOWPASS SDK HEADER -->
+  <script type="text/javascript">
+    /*
+    * Decorate iFrame for GA cross domain tracking
+    */
+    const mutationObserver = new MutationObserver(function (mutations) {
+      mutations.forEach(function (mutation) {
+        if (mutation.target.className.includes('showpass-widget-body')) {
+          let gobj = window[window.GoogleAnalyticsObject];
+          let tracker, linker;
+          let iFrame = document.getElementById('showpass-widget');
+          if (gobj) {
+            tracker = gobj.getAll()[0];
+            linker = new window.gaplugins.Linker(tracker);
+            iFrame.src = linker.decorate(iFrame.src);
+          }
+        }
+      });
+    });
+
+    mutationObserver.observe(document.documentElement, { attributes: true });
+
+    (function (window, document, src) {
+      var config = window.__shwps;
+      if (typeof config === "undefined") {
+        config = function () {
+          config.c(arguments)
+        };
+        config.q = [];
+        config.c = function (args) {
+          config.q.push(args)
+        };
+        window.__shwps = config;
+
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = src;
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+    })(window, document, 'https://www.showpass.com/static/dist/sdk.js');
+  </script>
+
+  <style>
+    @font-face {
+      font-family: 'rocket-rinder';
+      src: url('/fonts/Rocket-Rinder.otf') format('opentype');
+    }
+
+    @font-face {
+      font-family: 'streamster';
+      src: url('/fonts/Streamster.ttf') format('trueType');
+    }
+
+    @font-face {
+      font-family: 'montserrat';
+      src: url('/fonts/Montserrat.ttf') format('trueType');
+    }
+
+    html,
+    body {
+      min-height: 100%;
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    ::-webkit-scrollbar {
+      background: #202124;
+      width: 15px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #555;
+      border-radius: 7px;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* styling for render while resources are loading */
+    hoverboard-app[unresolved] {
+      padding: 0 16px;
+      display: block;
+      line-height: 68px;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      color: #202020;
+      overflow: visible;
+    }
+  </style>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1284257702233903');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1284257702233903&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
 
-      window.Polymer = {
-        rootPath: '{{ basepath }}',
-      };
+<body>
+  <hoverboard-app unresolved></hoverboard-app>
 
-      // prettier-ignore
-      {{ webVitalsPolyfill | safe }}
+  <noscript>Please enable JavaScript to view this website.</noscript>
 
-      // Capture the config object from /__/firebase/init.js for src/firebase.ts
-      window.firebase = {
-        initializeApp: (config) => {
-          window.firebaseConfig = config;
-          // Delete fake Firebase global
-          delete window.firebase;
-        },
-      };
-    </script>
-
-    <script src="/__/firebase/init.js"></script>
-    <script src="./src/hoverboard-app.ts" type="module"></script>
-    <script src="./src/components/app-install.ts" type="module"></script>
-    <script src="./src/service-worker-registration.ts" type="module"></script>
-
-    <style>
-      @font-face {
-        font-family: 'rocket-rinder';
-        src: url('/fonts/Rocket-Rinder.otf') format('opentype');
+  <script type="text/javascript">
+    _linkedin_partner_id = "5419940";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+  </script>
+  <script type="text/javascript">
+    (function (l) {
+      if (!l) {
+        window.lintrk = function (a, b) { window.lintrk.q.push([a, b]) };
+        window.lintrk.q = []
       }
+      var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript"; b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);
+    })(window.lintrk);
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none;" alt=""
+      src="https://px.ads.linkedin.com/collect/?pid=5419940&fmt=gif" />
+  </noscript>
+</body>
 
-      @font-face {
-        font-family: 'streamster';
-        src: url('/fonts/Streamster.ttf') format('trueType');
-      }
-
-      @font-face {
-        font-family: 'montserrat';
-        src: url('/fonts/Montserrat.ttf') format('trueType');
-      }
-
-      html,
-      body {
-        min-height: 100%;
-        height: 100%;
-      }
-
-      body {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
-          sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        font-size: 16px;
-        line-height: 1.5;
-      }
-
-      ::-webkit-scrollbar {
-        background: #202124;
-        width: 15px;
-      }
-
-      ::-webkit-scrollbar-thumb {
-        background: #555;
-        border-radius: 7px;
-      }
-
-      *,
-      *:before,
-      *:after {
-        box-sizing: border-box;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased;
-      }
-
-      /* styling for render while resources are loading */
-      hoverboard-app[unresolved] {
-        padding: 0 16px;
-        display: block;
-        line-height: 68px;
-        text-align: center;
-        font-weight: 600;
-        letter-spacing: 0.3em;
-        color: #202020;
-        overflow: visible;
-      }
-    </style>
-  </head>
-
-  <body>
-    <hoverboard-app unresolved></hoverboard-app>
-
-    <noscript>Please enable JavaScript to view this website.</noscript>
-  </body>
 </html>

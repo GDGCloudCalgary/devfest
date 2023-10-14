@@ -212,5 +212,12 @@
       "itemsCount": 5
     }
   },
-  "showForkMeBlockForProjectIds": []
+  "showForkMeBlockForProjectIds": [],
+  "showpass": {
+    "theme": {
+      "primary": "#202124",
+      "secondary": "#f0f",
+      "dark": true
+    }
+  }
 }

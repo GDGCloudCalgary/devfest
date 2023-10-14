@@ -1,6 +1,6 @@
 {
-  "title": "DevFestYYC: More Festival. More Fun.",
-  "description": "More Festival. More Fun.",
+  "title": "DEVFESTYYC | More Festival. More Google. More Fun!",
+  "description": "More Festival. More Google. More Fun!",
   "image": "images/social-share.png",
   "keywords": "developer, data scientist, cloud architect, gdg, gdgyyc, gde, devfest, devfestyyc, google cloud, cloud native, infrastucture, data, artificial intelligence, machine learning, code, development android,",
   "dates": "November 17-18, 2023",
@@ -11,7 +11,7 @@
   "emailUs": "Email us",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
-  "buyTicket": "Register",
+  "buyTicket": "Buy",
   "signIn": "Sign in",
   "signOut": "Sign out",
   "viewHighlights": "View Trailer",
@@ -68,7 +68,7 @@
         },
         {
           "name": "Call for Speakers",
-          "url": "https://sessionize.com/devfestyyc-2023",
+          "url": "https://go.devfestyyc.com/cfp",
           "newTab": true
         }
       ]
@@ -80,14 +80,20 @@
     "title": "DevFestYYC is here!",
     "callToAction": {
       "featuredSessions": {
-        "title": "Build what's next with Google!",
-        "description": "Join us at North America’s premiere developer festival for Google technology. Learn the secrets to building smarter and shipping faster from the Googlers, Google experts and Google developers shaping the future of Mobile, Web, AI and Cloud for billions of users worldwide, and advancing Calgary’s leading enterprises and startups!",
+        "title": "Build What’s Next with Google",
+        "description": " ᐳᐅ!DEVFESTYYC is bringing an unprecedented lineup of Google technology experts from around the globe to Calgary. Learn from the Googlers and Google Developer Experts shaping the future of AI, Cloud, Web and Mobile for billions of users worldwide and see how top international and local companies are building with Google.",
         "label": "Watch the 2019 Teaser Video!",
         "link": "https://devfestyyc.link/devfest2019teaser"
       },
       "howItWas": {
-        "title": "More Google! More Festival! More Fun!",
-        "description": "With 2 jam-packed days of keynotes, bootcamps, workshops, labs, demos and parties, ᐳᐅ!DEVFESTYYC will advance your expertise in Google Cloud and Cloud Native technology. Master the tools and techniques required to design, architect, develop, scale, launch, integrate and maintain today’s advanced technology solutions. Plus, you’ll enjoy an unparalleled festival experience with pop-ups, parties, music and fun around every corner!",
+        "title": "More Festival. More Networking. More Fun!",
+        "description": "Get 2 jam-packed days of keynotes, bootcamps, workshops, labs, demos and networking and enjoy an unparalleled festival experience with parties, pop-ups, music and fun around every corner!",
+        "label": "DevFestYYC 2019 is coming!",
+        "youtubeId": "hTJ_-MxHKMY"
+      },
+      "info": {
+        "title": "Advance Expertise. Master Technology. Learn More.",
+        "description": "ᐳᐅ!DEVFESTYYC will advance your expertise in Google Cloud and Cloud Native technology. Master the tools and techniques required to design, architect, develop, scale, launch, secure,  integrate and maintain today’s advanced technology solutions. Get to know our 4 technical and 3 non-technical content tracks!",
         "label": "DevFestYYC 2019 is coming!",
         "youtubeId": "hTJ_-MxHKMY"
       }
@@ -130,7 +136,7 @@
     "title": "Sponsors",
     "button": "Sponsor the tech event of the year!",
     "form": {
-      "title": "Become a Sponsor of DevFestYYC!",
+      "title": "Sponsor ᐳᐅ!DEVFESTYYC!",
       "submitLabel": "Submit",
       "fullName": "Full Name",
       "companyName": "Company Name"

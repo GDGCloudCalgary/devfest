@@ -62,4 +62,5 @@ export {
   showForkMeBlockForProjectIds,
   signInProviders,
   socialNetwork,
+  showpass
 } from '../../public/data/settings.json';

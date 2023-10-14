@@ -6,7 +6,7 @@ import { Ticket } from '../models/ticket';
 import { RootState, store } from '../store';
 import { ReduxMixin } from '../store/mixin';
 import { initialTicketsState } from '../store/tickets/state';
-import { buyTicket, contentLoaders, subscribeBlock, ticketsBlock } from '../utils/data';
+import { buyTicket, contentLoaders, showpass, subscribeBlock, ticketsBlock } from '../utils/data';
 import '../utils/icons';
 import './content-loader';
 import './shared-styles';
@@ -14,6 +14,7 @@ import { initialUserState } from '../store/user/state';
 import { DialogData } from '../models/dialog-form';
 import { subscribe } from '../store/subscribe/actions';
 import { openSubscribeDialog } from '../store/dialogs/actions';
+import { logTicketsClick } from '../utils/analytics';
 
 @customElement('tickets-block')
 export class TicketsBlock extends ReduxMixin(PolymerElement) {
@@ -94,6 +95,15 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
 
         .header {
           padding: 24px 0 0;
+          font-size: 30px;
+        }
+
+        .ticket-timer {
+          margin-bottom: 20px;
+          border: 1px solid #fff;
+          border-radius: 10px;
+          width: 60%;
+          align-self: center;
           font-size: 16px;
         }
 
@@ -113,7 +123,12 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
         .price {
           color: var(--default-primary-color);
           font-size: 40px;
-          filter: blur(10px);
+        }
+
+        .price-original {
+          text-decoration: line-through;
+          color: var(--primary-text-color);
+          font-size: 24px;
         }
 
         .discount {
@@ -197,7 +212,6 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
             <a
               class="ticket-item card"
               href$="[[ticket.url]]"
-              target="_blank"
               rel="noopener noreferrer"
               sold-out$="[[ticket.soldOut]]"
               in-demand$="[[ticket.inDemand]]"
@@ -210,11 +224,13 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
               </div>
               <div class="content" layout vertical flex-auto>
                 <div class="ticket-price-wrapper">
-                  <!--<div class="price">[[ticket.currency]][[ticket.price]]</div>-->
-                  <div class="price">[[ticket.currency]]000</div>
+                  <div class="price">[[ticket.currency]][[ticket.price]]</div>
+                  <div class="price-original" hidden$="[[!ticket.originalPrice]]">[[ticket.currency]][[ticket.originalPrice]]</div>
+                  <!--<div class="price">[[ticket.currency]]000</div>-->
                   <div class="discount">[[getDiscount(ticket)]]</div>
                 </div>
                 <div class="type-description" layout vertical flex-auto center-justified>
+                  <div class="ticket-timer" hidden$="[[!ticket.timer]]">[[getTimer(ticket.timer)]]</div>
                   <div class="ticket-dates" hidden$="[[!ticket.starts]]">
                     [[ticket.starts]] - [[ticket.ends]]
                   </div>
@@ -280,38 +296,49 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
     if (e.model.ticket.soldOut || !e.model.ticket.available) {
       e.preventDefault();
       e.stopPropagation();
+      return;
     }
 
-    let userData = {
-      firstFieldValue: '',
-      secondFieldValue: '',
-    };
+    logTicketsClick(e.model.ticket.name);
 
-    if (this.user instanceof Success) {
-      const name = this.user.data.displayName?.split(' ') || ['', ''];
-      userData = {
-        firstFieldValue: name[0] || '',
-        secondFieldValue: name[1] || '',
-      };
+    // (globalThis as any)?.showpass?.tickets.eventPurchaseWidget('devfestyyc2023', {
+    //   'theme-primary': showpass.theme.primary,
+    //   'theme-secondary': showpass.theme.secondary,
+    //   'theme-dark': showpass.theme.dark
+    // });
 
-      if (this.user.data.email) {
-        this.subscribeAction({ ...userData, email: this.user.data.email });
-      }
-    }
+    window.open('https://www.showpass.com/devfestyyc2023/', '_blank');
 
-    if (this.user instanceof Success && this.user.data.email) {
-      this.subscribeAction({ ...userData, email: this.user.data.email });
-    } else {
-      openSubscribeDialog({
-        title: this.subscribeBlock.formTitle,
-        submitLabel: this.subscribeBlock.subscribe,
-        firstFieldLabel: this.subscribeBlock.firstName,
-        secondFieldLabel: this.subscribeBlock.lastName,
-        firstFieldValue: userData.firstFieldValue,
-        secondFieldValue: userData.secondFieldValue,
-        submit: (data) => this.subscribeAction(data),
-      });
-    }
+    // let userData = {
+    //   firstFieldValue: '',
+    //   secondFieldValue: '',
+    // };
+
+    // if (this.user instanceof Success) {
+    //   const name = this.user.data.displayName?.split(' ') || ['', ''];
+    //   userData = {
+    //     firstFieldValue: name[0] || '',
+    //     secondFieldValue: name[1] || '',
+    //   };
+
+    //   if (this.user.data.email) {
+    //     this.subscribeAction({ ...userData, email: this.user.data.email });
+    //   }
+    // }
+
+    // if (this.user instanceof Success && this.user.data.email) {
+    //   this.subscribeAction({ ...userData, email: this.user.data.email });
+    // } else {
+    //   openSubscribeDialog({
+    //     title: this.subscribeBlock.formTitle,
+    //     submitLabel: this.subscribeBlock.subscribe,
+    //     firstFieldLabel: this.subscribeBlock.firstName,
+    //     secondFieldLabel: this.subscribeBlock.lastName,
+    //     firstFieldValue: userData.firstFieldValue,
+    //     secondFieldValue: userData.secondFieldValue,
+    //     submit: (data) => this.subscribeAction(data),
+    //   });
+    // }
   }
 
   private getButtonText(available: boolean) {
@@ -320,5 +347,12 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
 
   private subscribeAction(data: DialogData) {
     store.dispatch(subscribe(data));
+  }
+
+  private getTimer(timer: boolean) {
+    const now = new Date();
+    // get number of days left between dates
+    const daysLeft = Math.floor((new Date(2023, 10, 1).getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+    return timer ? daysLeft + ' days left' : '';
   }
 }

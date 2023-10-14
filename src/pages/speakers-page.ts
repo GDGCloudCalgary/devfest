@@ -444,7 +444,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
   }
 
   private openCFP() {
-    window.open('https://www.go.devfestyyc.com/cfp', '_blank');
+    window.open('https://go.devfestyyc.com/cfp', '_blank');
   }
 
   _isEqualTo(year: string, selectedYear: string) {

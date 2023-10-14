@@ -27,6 +27,7 @@ window.firebaseConfig = {
   storageBucket: 'devfest-yyc.appspot.com',
   messagingSenderId: '457908822319',
   appId: '1:457908822319:web:efb85211493b4be17a81da',
+  measurementId: "G-LD7QG4EBSC"
 };
 const firebaseConfig = window.firebaseConfig;
 

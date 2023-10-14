@@ -24,6 +24,8 @@ import {
   signOut as signOutText,
   subscribeBlock,
   title,
+  location,
+  dates
 } from '../utils/data';
 import './notification-toggle';
 import './shared-styles';
@@ -43,19 +45,15 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           z-index: 1;
           color: var(--primary-text-color);
           padding-top: 40px;
-          transition: padding-top 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+          padding-bottom: 20px;
+          transition: padding-top 0.5s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+          background-color: var(--primary-background-color);
         }
 
         :host([transparent]) {
           --iron-icon-fill-color: var(--hero-font-color, '#fff');
           background-color: transparent;
           border-bottom-color: transparent;
-          color: var(--hero-font-color, '#fff');
-        }
-
-        :host([transparent]) .toolbar-logo {
-          background-color: var(--hero-logo-color);
-          opacity: var(--hero-logo-opacity, 1);
         }
 
         app-toolbar {
@@ -146,6 +144,30 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           border-radius: 0.5rem;
         }
 
+        .innovation-week {
+          padding: 12px 24px;
+          font-family: var(--paper-font-common-base_-_font-family);
+          cursor: pointer;
+          color: #ccc;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .location {
+          font-size: 13px;
+          min-width: 200px;
+          max-width: 230px;
+          font-family: 'montserrat';
+          color: #fff;
+        }
+
+        .location-item {
+          width: 100%;
+        }
+
         @media (min-width: 640px) {
           app-toolbar {
             padding: 0 36px;
@@ -163,7 +185,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             on-click="openDrawer"
           ></paper-icon-button>
         </div>
-        <div layout horizontal center flex>
+        <div layout horizontal>
           <a
             class="toolbar-logo"
             href="/"
@@ -172,6 +194,11 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             horizontal
             title="[[logoTitle]]"
           ></a>
+        </div>
+        <div layout vertical center flex class="location">
+          <span class="location-item">[[location.name]]</span>
+          <span class="location-item">[[location.short]]</span>
+          <span class="location-item">[[dates]]</span>
         </div>
 
         <paper-tabs
@@ -187,6 +214,10 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
               <a href="[[nav.permalink]]" layout vertical center-center>[[nav.label]]</a>
             </paper-tab>
           </template>
+
+          <div class="nav-item innovation-week" on-click="goToInnovationWeek">
+            Innovation Week
+          </div>
 
           <!--<paper-tab class="signin-tab" on-click="signIn" link hidden$="[[signedIn]]">
             [[signInText]]
@@ -244,6 +275,8 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
   private signOutText = signOutText;
   private buyTicket = buyTicket;
   private subscribeBlock = subscribeBlock;
+  private location = location;
+  private dates = dates;
 
   @property({ type: Boolean, notify: true })
   drawerOpened: boolean = false;
@@ -300,7 +333,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
   }
 
   private onScroll() {
-    // this.transparent = document.documentElement.scrollTop === 0;
+    this.transparent = document.documentElement.scrollTop === 0;
     if (document.documentElement.scrollTop === 0) {
       this.updateStyles({
         'padding-top': '40px',
@@ -319,36 +352,45 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
     }
   }
 
+  private goToInnovationWeek() {
+    window.open('https://go.devfestyyc.com/innovationweek', '_blank');
+  }
+
   private register() {
-    let userData = {
-      firstFieldValue: '',
-      secondFieldValue: '',
-    };
+    // let userData = {
+    //   firstFieldValue: '',
+    //   secondFieldValue: '',
+    // };
 
-    if (this.user instanceof Success) {
-      const name = this.user.data.displayName?.split(' ') || ['', ''];
-      userData = {
-        firstFieldValue: name[0] || '',
-        secondFieldValue: name[1] || '',
-      };
+    // if (this.user instanceof Success) {
+    //   const name = this.user.data.displayName?.split(' ') || ['', ''];
+    //   userData = {
+    //     firstFieldValue: name[0] || '',
+    //     secondFieldValue: name[1] || '',
+    //   };
 
-      if (this.user.data.email) {
-        this.subscribeAction({ ...userData, email: this.user.data.email });
-      }
-    }
+    //   if (this.user.data.email) {
+    //     this.subscribeAction({ ...userData, email: this.user.data.email });
+    //   }
+    // }
 
-    if (this.user instanceof Success && this.user.data.email) {
-      this.subscribeAction({ ...userData, email: this.user.data.email });
-    } else {
-      openSubscribeDialog({
-        title: this.subscribeBlock.formTitle,
-        submitLabel: this.subscribeBlock.subscribe,
-        firstFieldLabel: this.subscribeBlock.firstName,
-        secondFieldLabel: this.subscribeBlock.lastName,
-        firstFieldValue: userData.firstFieldValue,
-        secondFieldValue: userData.secondFieldValue,
-        submit: (data) => this.subscribeAction(data),
-      });
+    // if (this.user instanceof Success && this.user.data.email) {
+    //   this.subscribeAction({ ...userData, email: this.user.data.email });
+    // } else {
+    //   openSubscribeDialog({
+    //     title: this.subscribeBlock.formTitle,
+    //     submitLabel: this.subscribeBlock.subscribe,
+    //     firstFieldLabel: this.subscribeBlock.firstName,
+    //     secondFieldLabel: this.subscribeBlock.lastName,
+    //     firstFieldValue: userData.firstFieldValue,
+    //     secondFieldValue: userData.secondFieldValue,
+    //     submit: (data) => this.subscribeAction(data),
+    //   });
+    // }
+    // scroll to tickets section
+    const hoverboardApp = document.getElementsByTagName('hoverboard-app')[0];
+    if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6]) {
+      hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot.children[6].scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
     }
   }
 

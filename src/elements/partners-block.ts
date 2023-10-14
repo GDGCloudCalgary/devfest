@@ -223,14 +223,14 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
   // }
 
   private openCFP() {
-    window.open('https://www.go.devfestyyc.com/cfp', '_blank');
+    window.open('https://go.devfestyyc.com/cfp', '_blank');
   }
 
   private openSponsorIntake() {
-    window.open('https://www.go.gdgyyc.com/sponsorshipintake', '_blank');
+    window.open('https://go.gdgyyc.com/sponsorshipintake', '_blank');
   }
 
   private openVolunteerIntake() {
-    window.open('https://www.go.devfestyyc.com/volunteerintake', '_blank');
+    window.open('https://go.devfestyyc.com/volunteerintake', '_blank');
   }
 }

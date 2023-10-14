@@ -279,35 +279,39 @@ export class HoverboardApp extends PolymerElement {
   register() {
     this.closeDrawer();
 
-    let userData = {
-      firstFieldValue: '',
-      secondFieldValue: '',
-    };
+    // let userData = {
+    //   firstFieldValue: '',
+    //   secondFieldValue: '',
+    // };
 
-    if (this.user instanceof Success) {
-      const name = this.user.data.displayName?.split(' ') || ['', ''];
-      userData = {
-        firstFieldValue: name[0] || '',
-        secondFieldValue: name[1] || '',
-      };
+    // if (this.user instanceof Success) {
+    //   const name = this.user.data.displayName?.split(' ') || ['', ''];
+    //   userData = {
+    //     firstFieldValue: name[0] || '',
+    //     secondFieldValue: name[1] || '',
+    //   };
 
-      if (this.user.data.email) {
-        this.subscribeAction({ ...userData, email: this.user.data.email });
-      }
-    }
+    //   if (this.user.data.email) {
+    //     this.subscribeAction({ ...userData, email: this.user.data.email });
+    //   }
+    // }
 
-    if (this.user instanceof Success && this.user.data.email) {
-      this.subscribeAction({ ...userData, email: this.user.data.email });
-    } else {
-      openSubscribeDialog({
-        title: this.subscribeBlock.formTitle,
-        submitLabel: this.subscribeBlock.subscribe,
-        firstFieldLabel: this.subscribeBlock.firstName,
-        secondFieldLabel: this.subscribeBlock.lastName,
-        firstFieldValue: userData.firstFieldValue,
-        secondFieldValue: userData.secondFieldValue,
-        submit: (data) => this.subscribeAction(data),
-      });
+    // if (this.user instanceof Success && this.user.data.email) {
+    //   this.subscribeAction({ ...userData, email: this.user.data.email });
+    // } else {
+    //   openSubscribeDialog({
+    //     title: this.subscribeBlock.formTitle,
+    //     submitLabel: this.subscribeBlock.subscribe,
+    //     firstFieldLabel: this.subscribeBlock.firstName,
+    //     secondFieldLabel: this.subscribeBlock.lastName,
+    //     firstFieldValue: userData.firstFieldValue,
+    //     secondFieldValue: userData.secondFieldValue,
+    //     submit: (data) => this.subscribeAction(data),
+    //   });
+    // }
+    const hoverboardApp = document.getElementsByTagName('hoverboard-app')[0];
+    if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6]) {
+      hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot.children[6].scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
     }
   }
 

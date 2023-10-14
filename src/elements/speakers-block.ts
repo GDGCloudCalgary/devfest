@@ -335,7 +335,7 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
   filteredSpeakers: Speaker[] = [];
 
   @property({ type: String })
-  year = '2020';
+  year = '2019';
 
   private speakersBlock = speakersBlock;
 

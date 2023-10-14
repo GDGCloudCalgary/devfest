@@ -94,6 +94,28 @@ export class AboutBlock extends ThemedElement {
           width: 48%;
         }
 
+        .center-heading {
+          text-align: center;
+          padding: 0 20%;
+        }
+
+        .bottom-margin {
+          margin-bottom: 60px;
+        }
+
+        .blob-image {
+          position: absolute;
+          --lazy-image-width: none;
+          --lazy-image-height: 100px;
+          height: var(--lazy-image-height);
+          max-width: 240px;
+          max-height: 100px;
+        }
+
+        .image-text {
+          width: 80%;
+        }
+
         @media (min-width: 814px) {
           .about-info {
             flex-direction: row;
@@ -122,6 +144,11 @@ export class AboutBlock extends ThemedElement {
 
           .about-info-left {
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
           }
 
           .about-info-right {
@@ -129,6 +156,20 @@ export class AboutBlock extends ThemedElement {
           }
 
           .about-info-half {
+            width: 100%;
+          }
+
+          .image-link {
+            display: flex;
+            justify-content: center;
+            width: inherit;
+          }
+
+          .about-image {
+            width: 138px;
+          }
+
+          .image-text {
             width: 100%;
           }
         }
@@ -139,40 +180,47 @@ export class AboutBlock extends ThemedElement {
   override render() {
     return html`
       <div class="container">
-        <div class="about-info section">
-          <div class="about-info-left">
-            <a target="_blank" href="https://go.devfestyyc.com/innovationweek">
-              <lazy-image
-                class="about-image"
-                src="/images/new/innovation_week_logo.png"
-                alt="Innovation Week Logo"
-              ></lazy-image>
-            </a>
-            <p style="width: 80%">
-              ᐳᐅ!DEVFESTYYC is the kick off to Calgary Innovation Week. Check out over 100 other
-              Innovation Week events!
-            </p>
-          </div>
-          <div class="about-info-right">
-            <h1 class="container-title">${aboutBlock.callToAction.featuredSessions.title}</h1>
-            <p>${aboutBlock.callToAction.featuredSessions.description}</p>
-            <!--<a
-              href="${aboutBlock.callToAction.featuredSessions.link}"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <paper-button class="animated icon-right">
-                <span class="cta-label">${aboutBlock.callToAction.featuredSessions.label}</span>
-                <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-              </paper-button>
-            </a>-->
+        <div class="section">
+          <h1 class="container-title big-heading center-heading">Build for AI, Cloud, Mobile and Web with Google.</h1>
+          <p class="center-heading bottom-margin">North America’s premiere Google technology developer festival is back!</p>
+          <div class="about-info">  
+            <div class="about-info-left">
+              <a target="_blank" href="https://go.devfestyyc.com/innovationweek" class="image-link">
+                <lazy-image
+                  class="about-image"
+                  src="/images/new/innovation_week_logo.png"
+                  alt="Innovation Week Logo"
+                ></lazy-image>
+              </a>
+              <p class="image-text">
+                ᐳᐅ!DEVFESTYYC is the kick off to Calgary Innovation Week. Check out over 100 other
+                Innovation Week events!
+              </p>
+            </div>
+            <div class="about-info-right">
+              <h1 class="container-title">${aboutBlock.callToAction.featuredSessions.title}</h1>
+              <p>${aboutBlock.callToAction.featuredSessions.description}</p>
+              <!--<a
+                href="${aboutBlock.callToAction.featuredSessions.link}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <paper-button class="animated icon-right">
+                  <span class="cta-label">${aboutBlock.callToAction.featuredSessions.label}</span>
+                  <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+                </paper-button>
+              </a>-->
 
-            <h1 class="container-title">${aboutBlock.callToAction.howItWas.title}</h1>
-            <p>${aboutBlock.callToAction.howItWas.description}</p>
-            <!--<paper-button class="animated icon-right" @click="${this.playVideo}">
-              <span>${aboutBlock.callToAction.howItWas.label}</span>
-              <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-            </paper-button>-->
+              <h1 class="container-title">${aboutBlock.callToAction.howItWas.title}</h1>
+              <p>${aboutBlock.callToAction.howItWas.description}</p>
+              <!--<paper-button class="animated icon-right" @click="${this.playVideo}">
+                <span>${aboutBlock.callToAction.howItWas.label}</span>
+                <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+              </paper-button>-->
+
+              <h1 class="container-title">${aboutBlock.callToAction.info.title}</h1>
+              <p>${aboutBlock.callToAction.info.description}</p>
+            </div>
           </div>
         </div>
 
