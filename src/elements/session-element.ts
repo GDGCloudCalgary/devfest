@@ -137,6 +137,10 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
         .tag {
           color: #333333;
           font-size: 14px;
+          height: fit-content;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
 
         @media (min-width: 640px) {
@@ -172,7 +176,7 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
           <div class="session-meta">
             <div hidden$="[[!session.complexity]]">[[session.complexity]]</div>
           </div>
-          <div class="session-actions">
+          <!--<div class="session-actions">
             <iron-icon
               icon="hoverboard:insert-comment"
               class="feedback-action"
@@ -185,10 +189,16 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
               hidden="[[acceptingFeedback()]]"
               on-click="toggleFeaturedSession"
             ></iron-icon>
-          </div>
+          </div>-->
         </div>
 
         <div class="session-footer">
+          <div layout horizontal justified center-aligned>
+            <div class="speaker-name">[[session.startTime]] - [[session.endTime]]</div>
+          </div>
+          <div layout horizontal justified center-aligned>
+            <div class="speaker-name">[[session.room]]</div>
+          </div>
           <div layout horizontal justified center-aligned>
             <div class="session-meta" flex>
               <div class="speakers" hidden$="[[!session.speakers.length]]">

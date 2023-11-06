@@ -129,7 +129,7 @@ export class TeamPage extends ReduxMixin(PolymerElement) {
           <p>Error loading teams.</p>
         </template>
 
-        <!--<template is="dom-repeat" items="[[teamsMembers.data]]" as="team">
+        <template is="dom-repeat" items="[[teamsMembers.data]]" as="team">
           <div class="team-title">[[team.title]]</div>
 
           <div class="team-block">
@@ -158,7 +158,7 @@ export class TeamPage extends ReduxMixin(PolymerElement) {
               </div>
             </template>
           </div>
-        </template>-->
+        </template>
       </div>
 
       <footer-block></footer-block>

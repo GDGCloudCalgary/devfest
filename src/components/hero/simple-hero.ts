@@ -14,12 +14,20 @@ interface Description {
   description: string;
 }
 
+interface SubDescription {
+  subDescription: string;
+}
+
 interface Title {
   title: string;
 }
 
 const hasDescription = (setting: Description | {}): setting is Description => {
   return 'description' in setting;
+};
+
+const hasSubDescription = (setting: SubDescription | {}): setting is SubDescription => {
+  return 'subDescription' in setting;
 };
 
 const hasTitle = (setting: Title | {}): setting is Title => {
@@ -43,6 +51,16 @@ export class SimpleHero extends ThemedElement {
     }
   }
 
+  private renderSubDescription() {
+    if (hasSubDescription(heroSettings[this.page]) && !this.hideHeading) {
+      return html`<p class="hero-description">
+        ${(heroSettings[this.page] as any).subDescription}
+      </p>`;
+    } else {
+      return nothing;
+    }
+  }
+
   private renderTitle() {
     if (hasTitle(heroSettings[this.page]) && !this.hideHeading) {
       return html`<div class="hero-title">${(heroSettings[this.page] as Title).title}</div>`;
@@ -57,7 +75,7 @@ export class SimpleHero extends ThemedElement {
         background-color="${heroSettings[this.page].background.color}"
         font-color="${heroSettings[this.page].fontColor}"
       >
-        ${this.renderTitle()} ${this.renderDescription()}
+        ${this.renderTitle()} ${this.renderDescription()} ${this.renderSubDescription()}
 
         <slot></slot>
       </hero-block>

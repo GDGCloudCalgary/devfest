@@ -101,7 +101,7 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
         }
       </style>
 
-      <div class="container section partners-wrapper">
+      <!--<div class="container section partners-wrapper">
         <h1 class="container-title big-heading">Speakers</h1>
         <h1 class="container-title">[[speakersData.title]]</h1>
         <p>[[speakersData.description]]</p>
@@ -111,7 +111,7 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
             <span>Submit your idea!</span>
           </paper-button>
         </div>
-      </div>
+      </div>-->
 
       <div class="container section partners-wrapper">
         <h1 class="container-title big-heading">[[partnersBlock.title]]</h1>

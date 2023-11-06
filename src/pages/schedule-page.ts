@@ -39,6 +39,16 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
           min-height: 80%;
         }
 
+        .subject {
+          margin: 0 auto;
+          padding: 16px 32px;
+          max-width: var(--max-container-width);
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+        }
+
         paper-progress {
           width: 100%;
           --paper-progress-active-color: var(--default-primary-color);
@@ -73,6 +83,12 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
         filter-groups="[[filterGroups]]"
         selected-filters="[[selectedFilters]]"
       ></filter-menu>
+
+      <template is="dom-if" if="[[latestYear]]">
+        <div class="subject">
+          <p>Subject to change</p>
+        </div>
+      </template>
 
       <div class="container">
         <content-loader
@@ -115,7 +131,7 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
   @property({ type: Array })
   private selectedFilters: Filter[] = [];
   @property({ type: Object })
-  private location: RouterLocation | undefined;
+  location: RouterLocation | undefined;
 
   override connectedCallback() {
     super.connectedCallback();
@@ -137,6 +153,23 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
     this.sessions = state.sessions;
     this.filterGroups = selectFilterGroups(state);
     this.selectedFilters = selectFilters(state);
+  }
+
+  @computed('location', 'schedule')
+  private get latestYear() {
+    if (this.location && this.schedule instanceof Success) {
+      const {
+        params: { id },
+        pathname,
+      } = this.location;
+      if (pathname.endsWith('schedule/')) {
+        return true;
+      } else {
+        return id ? id.includes('2023') : false;
+      }
+    } else {
+      return undefined;
+    }
   }
 
   onAfterEnter(location: RouterLocation) {

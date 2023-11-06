@@ -33,6 +33,9 @@ export function sessionsSpeakersScheduleMap(sessionsRaw, speakersRaw, scheduleRa
         for (let subSessionIndex = 0; subSessionIndex < subSessionsLen; subSessionIndex++) {
           const sessionId = timeslot.sessions[sessionIndex].items[subSessionIndex];
           const subsession = sessionsRaw[sessionId];
+          if (!subsession) {
+            console.error('session not found:', sessionId);
+          }
           const mainTag = pickMainTag(subsession?.tags);
           const endTime = calculateEndTime(
             subSessionsLen,

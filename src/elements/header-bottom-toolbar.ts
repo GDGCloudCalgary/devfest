@@ -78,7 +78,7 @@ export class HeaderBottomToolbar extends ReduxMixin(PolymerElement) {
           hide-scroll-buttons
           noink
         >
-          <template is="dom-repeat" items="[[schedule.data]]" as="day">
+          <template is="dom-repeat" items="[[dates]]" as="day">
             <paper-tab class="nav-item" day="[[day.date]]" link>
               <a href$="[[addQueryParams(day.date, location.search)]]" layout vertical center-center
                 >[[day.dateReadable]]</a
@@ -104,6 +104,8 @@ export class HeaderBottomToolbar extends ReduxMixin(PolymerElement) {
 
   @property({ type: Object })
   schedule = initialScheduleState;
+  @property({ type: Array })
+  dates: any[] = [];
   @property({ type: Object })
   location: RouterLocation | undefined;
   @property({ type: Boolean })
@@ -111,6 +113,7 @@ export class HeaderBottomToolbar extends ReduxMixin(PolymerElement) {
 
   override stateChanged(state: RootState) {
     this.schedule = state.schedule;
+    this.dates = (state.schedule as any)?.data?.filter((i: any) => i.date.includes('2023')) ?? [];
     this.signedIn = state.user instanceof Success;
   }
 
@@ -136,7 +139,7 @@ export class HeaderBottomToolbar extends ReduxMixin(PolymerElement) {
       if (pathname.endsWith('my-schedule')) {
         return 'my-schedule';
       } else {
-        return id || this.schedule.data[0]?.date;
+        return id || this.schedule.data.filter(i => i.date.includes('2023'))?.[0]?.date;
       }
     } else {
       return undefined;

@@ -17,6 +17,8 @@ interface Social {
   icon: string;
 }
 
+const teams: any[] = [];
+
 export const importSchedule = () => {
   for (const scheduleData of sessionizeSchedule) {
     const scheduleId = scheduleData.date.substring(0, 10);
@@ -29,7 +31,7 @@ export const importSchedule = () => {
         tracks.push(room.name);
         if (
           !timeslotMap[
-            room.session.startsAt.substring(11, 16) + '/' + room.session.endsAt.substring(11, 16)
+          room.session.startsAt.substring(11, 16) + '/' + room.session.endsAt.substring(11, 16)
           ]
         ) {
           timeslotMap[
@@ -102,9 +104,9 @@ export const importSessions = () => {
       tags: sessionData.categories?.find((c: any) => c.name.includes('Track'))?.categoryItems?.[0]
         ?.name
         ? [
-            sessionData.categories?.find((c: any) => c.name.includes('Track'))?.categoryItems?.[0]
-              ?.name,
-          ]
+          sessionData.categories?.find((c: any) => c.name.includes('Track'))?.categoryItems?.[0]
+            ?.name,
+        ]
         : [],
       title: sessionData.title || '',
       id: sessionId || '',
@@ -113,7 +115,7 @@ export const importSessions = () => {
       status: sessionData.status || '',
       startsAt: sessionData.startsAt,
       endsAt: sessionData.endsAt,
-      year: ['2020'],
+      year: ['2023'],
     };
   }
   const docs: { [key: string]: object } = newSessions;
@@ -165,7 +167,7 @@ export const importSpeakers = async () => {
       title: speakerData.tagLine || '',
       id: speakerId || '',
       sessionizeId: speakerData.id || '',
-      year: speakerDoc.exists ? [...(speakerDoc.data() as any).year, '2020'] : ['2020'],
+      year: speakerDoc.exists ? [...new Set([...(speakerDoc.data() as any).year, '2023'])] : ['2023'],
     };
   }
   const speakers: { [key: string]: object } = newSpeakers;
@@ -188,10 +190,37 @@ export const importSpeakers = async () => {
   });
 };
 
+export const importTeams = async () => {
+  const batch = firestore.batch();
+
+  Object.keys(teams).forEach((teamId) => {
+    const team = teams[Number(teamId)];
+    if (team) {
+      batch.set(firestore.collection('team').doc(teamId), {
+        title: team.title,
+      });
+
+      team.members.forEach((member: any, id: number) => {
+        batch.set(
+          firestore.collection('team').doc(`${teamId}`).collection('members').doc(`${id}`),
+          member
+        );
+      });
+    } else {
+      console.warn(`Skipping missing team ${teamId}`);
+    }
+  });
+
+  return batch.commit().then((results) => {
+    console.log('Imported data for', results.length, 'documents');
+  });
+}
+
 importConfig() // Should always be first
   .then(() => importSchedule())
   .then(() => importSessions())
   .then(() => importSpeakers())
+  // .then(() => importTeams())
   .then(() => {
     console.log('Finished');
     process.exit();

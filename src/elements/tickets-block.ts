@@ -46,6 +46,10 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
           margin: 32px 0 24px;
         }
 
+        .laid-off {
+          margin-top: 50px;
+        }
+
         .ticket-item {
           margin: 16px 16px;
           width: 100%;
@@ -252,6 +256,9 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
         </div>
 
         <div class="additional-info">*[[ticketsBlock.ticketsDetails]]</div>
+        <h2 class="laid-off">Have you been recently laid off?</h2>
+        <p>ᐳᐅ!DEVFESTYYC is proud to offer one (1) complimentary Festival pass.</p>
+        <div class="additional-info">*This is a limited quantity, first-come first-served offer. Once we run out of free passes they won't be available anymore. Certain conditions apply. Go to <a href="https://go.devfestyyc.com/LAIDOFFLIFTOFF" target="_blank">go.devfestyyc.com/LAIDOFFLIFTOFF</a> to get your ticket.</div>
       </div>
     `;
   }
@@ -352,7 +359,7 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
   private getTimer(timer: boolean) {
     const now = new Date();
     // get number of days left between dates
-    const daysLeft = Math.floor((new Date(2023, 10, 1).getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+    const daysLeft = Math.floor((new Date(2023, 10, 6).getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
     return timer ? daysLeft + ' days left' : '';
   }
 }

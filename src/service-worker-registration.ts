@@ -13,7 +13,8 @@ import {
 register('service-worker.js', {
   registrationOptions: { scope: getConfig(CONFIG.BASEPATH) },
   cached() {
-    store.dispatch(queueSnackbar(serviceWorkerInstalled));
+    // store.dispatch(queueSnackbar(serviceWorkerInstalled));
+    console.log(serviceWorkerInstalled);
   },
   updated() {
     store.dispatch(
@@ -27,10 +28,12 @@ register('service-worker.js', {
     );
   },
   updatefound() {
-    store.dispatch(queueSnackbar(serviceWorkerInstalling));
+    // store.dispatch(queueSnackbar(serviceWorkerInstalling));
+    console.log(serviceWorkerInstalling);
   },
   error(e) {
     console.error('Service worker registration failed:', e);
-    store.dispatch(queueSnackbar(serviceWorkerError));
+    console.log(serviceWorkerError);
+    // store.dispatch(queueSnackbar(serviceWorkerError));
   },
 });

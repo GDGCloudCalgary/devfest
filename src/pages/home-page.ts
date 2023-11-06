@@ -4,6 +4,7 @@ import '@polymer/paper-button';
 import { html, PolymerElement } from '@polymer/polymer';
 import '@power-elements/lazy-image';
 import '../components/about-block';
+import '../components/statistics-block';
 import '../components/hero/hero-block';
 import { HeroBlock } from '../components/hero/hero-block';
 import '../elements/about-organizer-block';
@@ -226,6 +227,12 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         .scroll-down .scroller {
           fill: currentColor;
           animation: updown 2s infinite;
+        }
+
+        .limited-deal {
+          font-size: 20px;
+          margin-top: 20px;
+          color: #ccc;
         }
 
         .neonText {
@@ -523,6 +530,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
               GET EARLY BIRD
             </paper-button>
           </div>
+          <div class="limited-deal">Limited Early Bird Tickets available until November 5th. Don't miss out! </div>
 
           <div class="scroll-down" on-click="scrollNextBlock">
             <svg
@@ -593,6 +601,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       </template>
       <about-block></about-block>
       <speakers-block></speakers-block>
+      <statistics-block></statistics-block>
       <subscribe-block></subscribe-block>
       <tickets-block id="tickets-block"></tickets-block>
       <partners-block></partners-block>
@@ -633,7 +642,8 @@ export class HomePage extends ReduxMixin(PolymerElement) {
     if (element) {
       scrollToElement(element);
     } else {
-      store.dispatch(queueSnackbar('Error scrolling to section.'));
+      console.error('Error scrolling to section.');
+      // store.dispatch(queueSnackbar('Error scrolling to section.'));
     }
   }
 

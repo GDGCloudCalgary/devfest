@@ -310,8 +310,10 @@ export class HoverboardApp extends PolymerElement {
     //   });
     // }
     const hoverboardApp = document.getElementsByTagName('hoverboard-app')[0];
-    if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6]) {
+    if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6] && window?.location?.pathname === '/') {
       hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot.children[6].scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
+    } else {
+      window.open('https://www.showpass.com/devfestyyc2023/', '_blank');
     }
   }
 

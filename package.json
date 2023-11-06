@@ -16,6 +16,7 @@
     "firestore:add-data": "ts-node-script ./scripts/add-data",
     "firestore:copy": "ts-node-script ./scripts/firestore-copy",
     "firestore:init": "ts-node-script ./scripts/firestore-init",
+    "firestore:get-data": "ts-node-script ./scripts/get-data",
     "fix": "concurrently npm:fix:*",
     "fix:eslint": "eslint . --ext .ts --ext .js --fix",
     "fix:markdownlint": "markdownlint '**/*.md' --fix",

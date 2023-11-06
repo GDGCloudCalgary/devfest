@@ -247,6 +247,9 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
         <h3 class="meta-info" hidden$="[[disabledSchedule]]">
           [[session.dateReadable]], [[session.startTime]] - [[session.endTime]]
         </h3>
+        <h3 class="meta-info" hidden$="[[disabledSchedule]]">
+          [[session.room]]
+        </h3>
         <h3 class="meta-info" hidden$="[[disabledSchedule]]">[[session.track.title]]</h3>
         <h3 class="meta-info" hidden$="[[!session.complexity]]">
           [[sessionDetails.contentLevel]]: [[session.complexity]]
@@ -406,8 +409,8 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
       } else {
         const speaker: Speaker = this.session?.speakers?.[0] as TempAny;
         updateImageMetadata(this.session.title, this.session.description, {
-          image: speaker.photo,
-          imageAlt: speaker.name,
+          image: speaker?.photo,
+          imageAlt: speaker?.name,
         });
       }
     }

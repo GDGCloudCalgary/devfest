@@ -29,6 +29,11 @@
       "label": "Speakers"
     },
     {
+      "route": "schedule",
+      "permalink": "/schedule/",
+      "label": "Schedule"
+    },
+    {
       "route": "volunteers",
       "permalink": "/volunteers/",
       "label": "Volunteers"
@@ -57,9 +62,10 @@
       "fontColor": "#FFF"
     },
     "speakers": {
-      "title": "Share. More.",
-      "metaDescription": "Do you have some awesome experience building with Google technology for AI, Cloud Web and Mobile? Do you have an awesome topic or unique insight that you know other developers would be interested in learning about? We are looking for proposals at all skill levels in line with our 7 tracks. Check out our Call for Proposals and submit your ideas before September 30th and showcase your expertise in front of an amazing local and international audience.",
-      "description": "Do you have some awesome experience building with Google technology for AI, Cloud Web and Mobile? Do you have an awesome topic or unique insight that you know other developers would be interested in learning about? We are looking for proposals at all skill levels in line with our 7 tracks. Check out our Call for Proposals and submit your ideas before September 30th and showcase your expertise in front of an amazing local and international audience.",
+      "title": "Speakers",
+      "metaDescription": "We have an unprecedented lineup for 2023! Check out the Google technology experts shaping the future of AI, Cloud, Web and Mobile for billions of users worldwide.",
+      "description": "We have an unprecedented lineup for 2023! Check out the Google technology experts shaping the future of AI, Cloud, Web and Mobile for billions of users worldwide.",
+      "subDescription": "Thanks for getting the team up!",
       "background": {
         "color": "#FFF"
       },

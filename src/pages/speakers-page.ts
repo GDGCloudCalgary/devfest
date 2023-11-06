@@ -191,7 +191,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           display: flex;
           align-items: center;
           justify-content: center;
-          background-color: var(--primary-background-color);
+          background-color: var(--text-primary-color);
         }
 
         .description {
@@ -253,10 +253,6 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
       </style>
 
       <simple-hero page="speakers"></simple-hero>
-
-      <div class="button-container">
-        <paper-button on-click="openCFP"> Submit your idea! </paper-button>
-      </div>
 
       <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>
 
@@ -389,7 +385,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
   filteredSpeakers: Speaker[] = [];
 
   @property({ type: String })
-  year = '2020';
+  year = '2023';
 
   override connectedCallback() {
     super.connectedCallback();

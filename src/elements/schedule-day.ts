@@ -240,7 +240,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
       if (pathname.endsWith('my-schedule')) {
         return 'my-schedule';
       } else {
-        return id || this.schedule.data[0]?.date;
+        return id || this.schedule.data.filter(i => i.date.includes('2023'))?.[0]?.date;
       }
     } else {
       return undefined;
