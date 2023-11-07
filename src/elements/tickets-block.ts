@@ -190,8 +190,7 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
         <h1 class="container-title big-heading">[[ticketsBlock.title]]</h1>
         <h2>Don’t miss out!</h2>
         <p>
-          Limited Early Bird Tickets are launching soon with massive savings! Subscribe to get
-          notified!
+          
         </p>
         <content-loader
           class="tickets-placeholder"
@@ -259,6 +258,19 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
         <h2 class="laid-off">Have you been recently laid off?</h2>
         <p>ᐳᐅ!DEVFESTYYC is proud to offer one (1) complimentary Festival pass.</p>
         <div class="additional-info">*This is a limited quantity, first-come first-served offer. Once we run out of free passes they won't be available anymore. Certain conditions apply. Go to <a href="https://go.devfestyyc.com/LAIDOFFLIFTOFF" target="_blank">go.devfestyyc.com/LAIDOFFLIFTOFF</a> to get your ticket.</div>
+        <h2 class="laid-off">JUSTIFY YOUR ATTENDANCE</h2>
+        <p>
+          Want to get your manager or organization to support your attendance at ᐳᐅ!DEVFESTYYC?
+            <br/>Use our handy template to get you letter started and sent!
+        </p>
+        <div>
+          <paper-button
+            class="action-button"
+            on-click="openJustificationLetter"
+          >
+            GET THE JUSTIFICATION LETTER
+          </paper-button>
+        </div>
       </div>
     `;
   }
@@ -361,5 +373,9 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
     // get number of days left between dates
     const daysLeft = Math.floor((new Date(2023, 10, 6).getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
     return timer ? daysLeft + ' days left' : '';
+  }
+
+  openJustificationLetter() {
+    window.open('https://docs.google.com/document/d/1SAO3tXOG7ZGZTWLKtxtN1yr35f5Tg4x-SM9IuRvS0VQ/edit', '_blank');
   }
 }

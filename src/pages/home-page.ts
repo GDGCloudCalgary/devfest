@@ -519,18 +519,18 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           </div>-->
 
           <div class="info-items">
-            <div class="info-item">LIMITED EARLY BIRD PASSES AVAILABLE NOW!</div>
-            <div class="info-item info-item-description">Get your discounted early bird festival pass to ᐳᐅ!DEVFESTYYC before they sell out!</div>
+            <div class="info-item">LIMITED SPONSORED PASSES AVAILABLE NOW!</div>
+            <div class="info-item info-item-description">Save up to $50 on festival pass to ᐳᐅ!DEVFESTYYC thanks to our Sponsors Badal.io and AIRIA. </div>
           </div>
           <!--<subscribe-form></subscribe-form>-->
           <div class="action-buttons" layout horizontal center-justified wrap>
             <paper-button on-click="scrollToTickets" invert>
               <span class="ping-span"></span>
               <iron-icon icon="hoverboard:ticket"></iron-icon>
-              GET EARLY BIRD
+              GET YOUR DISCOUNTS NOW
             </paper-button>
           </div>
-          <div class="limited-deal">Limited Early Bird Tickets available until November 5th. Don't miss out! </div>
+          <!--<div class="limited-deal">Limited Early Bird Tickets available until November 5th. Don't miss out! </div>-->
 
           <div class="scroll-down" on-click="scrollNextBlock">
             <svg
@@ -602,8 +602,8 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <about-block></about-block>
       <speakers-block></speakers-block>
       <statistics-block></statistics-block>
-      <subscribe-block></subscribe-block>
       <tickets-block id="tickets-block"></tickets-block>
+      <subscribe-block></subscribe-block>
       <partners-block></partners-block>
       <about-organizer-block></about-organizer-block>
       <map-block></map-block>
