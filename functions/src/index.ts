@@ -11,12 +11,7 @@ import { sendGeneralNotification } from './notifications.js';
 import { optimizeImages } from './optimize-images.js';
 import { prerender } from './prerender.js';
 import { scheduleNotifications } from './schedule-notifications.js';
-import { showpassWebhookHandler } from './showpass-webhook-handler.js';
-// import { syncSessionizeSessions } from './sessionizeSessionsSync.js';
-// import { syncSessionizeSpeakers } from './sessionizeSpeakersSync.js';
-// TODO: Update `tsconfig.json`
-// - "noImplicitReturns": true,
-// - "strict": true,
+import { sessionizeSync } from './sessionizeSync.js';
 
 initializeApp();
 
@@ -29,7 +24,5 @@ export {
   scheduleWrite,
   sessionsWrite,
   speakersWrite,
-  showpassWebhookHandler,
-  // syncSessionizeSessions,
-  // syncSessionizeSpeakers,
+  sessionizeSync
 };
