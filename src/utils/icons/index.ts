@@ -48,6 +48,10 @@ import { website } from './website';
 import { work } from './work';
 import { wtm } from './wtm';
 import { youtube } from './youtube';
+import { companyWebsite } from './company-website';
+import { sessionize } from './sessionize';
+import { blog } from './blog';
+import { other } from './other';
 
 // prettier-ignore
 const template = html`
@@ -62,6 +66,7 @@ const template = html`
         ${bell}
         ${bellOff}
         ${bellOutline}
+        ${blog}
         ${bookmarkCheck}
         ${bookmarkPlus}
         ${calendar}
@@ -70,6 +75,7 @@ const template = html`
         ${chevronRight}
         ${close}
         ${coffeeBreak}
+        ${companyWebsite}
         ${directions}
         ${document}
         ${facebook}
@@ -88,11 +94,13 @@ const template = html`
         ${microphone}
         ${opening}
         ${openInNew}
+        ${other}
         ${party}
         ${people}
         ${play}
         ${presentation}
         ${registration}
+        ${sessionize}
         ${ticket}
         ${tracks}
         ${twitter}

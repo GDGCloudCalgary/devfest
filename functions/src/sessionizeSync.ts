@@ -39,7 +39,7 @@ export const sessionizeSync = functions.pubsub
             await importSessions(sessionizeSessions);
             await importSpeakers(sessionizeSpeakers);
         } catch (error) {
-            functions.logger.error('Error syncing speakers:', error);
+            functions.logger.error('Error syncing:', error);
             return null;
         }
     });
@@ -84,7 +84,7 @@ const importSchedule = async (sessionizeSchedule: any[] = []) => {
         const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
         newSchedule[scheduleId] = {
             date: scheduleId,
-            dateReadable: `${DAYS[date.getDay() - 1]} ${date.getUTCDate()}, ${date.getFullYear()}`,
+            dateReadable: `${DAYS[date.getUTCDay() - 1]} ${date.getUTCDate()}, ${date.getUTCFullYear()}`,
             timeslots,
             tracks,
         };
@@ -195,7 +195,11 @@ const importSpeakers = async (sessionizeSpeakers: any[] = []) => {
                 name: socialData.title,
                 link: socialData.url,
             };
-        });
+        }).filter((value: any, index: number, self: any[]) =>
+            index === self.findIndex((t) => (
+                t.link === value.link
+            ))
+        );
         newSpeakers[speakerId] = {
             bio: speakerData.bio || '',
             company:
