@@ -3,24 +3,30 @@ import fetch from 'node-fetch';
 import { getFirestore } from 'firebase-admin/firestore';
 
 interface Speaker {
-  bio: string;
-  company: string;
-  companyLogo: string;
-  companyLogoUrl: string;
-  featured: boolean;
-  name: string;
-  order: number;
-  photo: string;
-  photoUrl: string;
-  shortBio: string;
+  bio:string;
+  company:string;
+  companyLogo:string;
+  companyLogoUrl:string;
+  featured:boolean;
+  id:string;
+  name:string;
+  order:number;
+  photo:string;
+  photoUrl:string;
+  sessionizeId:string;
+  shortBio:string;
   socials: Social[];
-  title: string;
+  title:string;
+  year:string[];
+
 }
 
 interface Social {
+  icon:string;
+  link:string
   name: string;
-  link: string;
 }
+
 
 export const syncSessionizeSpeakers = functions.pubsub
   .schedule('every 5 minutes')
@@ -37,37 +43,36 @@ export const syncSessionizeSpeakers = functions.pubsub
 
       const db = getFirestore();
       const batch = db.batch();
+      
 
       if (Array.isArray(responseData)) {
         responseData.forEach((speakerData: any) => {
           const socialsData = speakerData.links || [];
           const socials: Social[] = socialsData.map((socialData: any) => {
             return {
-              name: socialData.title,
+              icon: socialData.linkType,
               link: socialData.url,
+              name: socialData.title,
             };
           });
 
-          const companyLogo =
-            speakerData.questionAnswers.find((answer: any) => answer.question === 'Logo')?.answer ||
-            '';
 
           const speaker: Speaker = {
-            bio: speakerData.bio || '',
-            company:
-              speakerData.questionAnswers.find(
-                (q: any) => q.question === 'Current Company/ Organization Name'
-              )?.answer || '',
-            companyLogo: companyLogo || '',
-            companyLogoUrl: '',
+            bio:speakerData.bio || '',
+            company: speakerData.questionAnswers.find((q: any) => q.question === 'Current Company/ Organization Name')?.answer || '',
+            companyLogo: speakerData.questionAnswers.find((answerExtra: any) => answerExtra.question === 'Logo')?.answerExtra ||'',
+            companyLogoUrl: speakerData.questionAnswers.find((answer: any) => answer.question === 'Logo')?.answer ||'',
             featured: speakerData.isTopSpeaker || false,
+            id: speakerData.firstName+'_'+speakerData.lastName || '',
             name: speakerData.fullName || '',
             order: 0,
             photo: speakerData.profilePicture || '',
             photoUrl: speakerData.profilePicture || '',
-            shortBio: '',
+            sessionizeId: speakerData.id,
+            shortBio: speakerData.bio || '',
             socials: socials,
             title: speakerData.tagLine || '',
+            year:["2023"]
           };
 
           const speakerRef = db.collection('speakers').doc();
