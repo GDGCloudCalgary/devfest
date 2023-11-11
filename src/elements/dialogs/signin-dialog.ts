@@ -62,6 +62,7 @@ class SigninDialog extends ReduxMixin(PolymerElement) {
               <iron-icon
                 icon="hoverboard:[[provider.name]]"
                 class="icon-[[provider.name]]"
+                provider-url$="[[provider.url]]"
               ></iron-icon>
               <span provider-url$="[[provider.url]]">[[provider.label]]</span>
             </paper-button>

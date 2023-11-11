@@ -22,7 +22,10 @@ export const parseFilters = (): Filter[] => {
   const complexities = searchParams.getAll(FilterGroupKey.complexity).map((tag) => {
     return { group: FilterGroupKey.complexity, tag };
   });
-  return [...tags, ...complexities];
+  const rooms = searchParams.getAll(FilterGroupKey.room).map((tag) => {
+    return { group: FilterGroupKey.room, tag };
+  });
+  return [...tags, ...complexities, ...rooms];
 };
 
 const matchingFilter = (filterA: Filter, filterB: Filter) => {

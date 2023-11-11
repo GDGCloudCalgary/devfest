@@ -16,7 +16,7 @@ const buildFilters = (sessions: Session[], filterGroupKey: FilterGroupKey): Filt
 
   sessions.forEach((session) => {
     const value = session[filterGroupKey];
-    if (value === undefined) {
+    if (!value) {
       return;
     } else if (typeof value === 'string') {
       tags.add(value.trim());
@@ -49,7 +49,7 @@ export const selectSession = createSelector(
 
 const selectGroups = (
   _state: RootState,
-  groups: FilterGroupKey[] = [FilterGroupKey.tags, FilterGroupKey.complexity]
+  groups: FilterGroupKey[] = [FilterGroupKey.tags, FilterGroupKey.complexity, FilterGroupKey.room]
 ) => groups;
 
 export const selectFilterGroups = createSelector(
@@ -67,6 +67,11 @@ export const selectFilterGroups = createSelector(
         key: FilterGroupKey.complexity,
         filters: buildFilters(sessions, FilterGroupKey.complexity),
       },
+      {
+        title: filters.rooms,
+        key: FilterGroupKey.room,
+        filters: buildFilters(sessions, FilterGroupKey.room),
+      }
     ].filter((filterGroup) => groups.includes(filterGroup.key));
   }
 );

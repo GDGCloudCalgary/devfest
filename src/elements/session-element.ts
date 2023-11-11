@@ -176,7 +176,7 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
           <div class="session-meta">
             <div hidden$="[[!session.complexity]]">[[session.complexity]]</div>
           </div>
-          <!--<div class="session-actions">
+          <div class="session-actions">
             <iron-icon
               icon="hoverboard:insert-comment"
               class="feedback-action"
@@ -189,7 +189,7 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
               hidden="[[acceptingFeedback()]]"
               on-click="toggleFeaturedSession"
             ></iron-icon>
-          </div>-->
+          </div>
         </div>
 
         <div class="session-footer">

@@ -53,13 +53,13 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
           padding: 8px;
           grid-column-end: -1 !important;
           background-color: var(--primary-background-color);
-          border-bottom: 1px solid var(--border-light-color);
           font-size: 14px;
-          color: var(--secondary-text-color);
+          color: var(--text-primary-color);
         }
 
         .add-session:hover {
           background-color: var(--additional-background-color);
+          color: var(--primary-background-color);
         }
 
         .add-session-icon {
@@ -95,10 +95,6 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
 
           .subsession:not(:last-of-type) {
             margin-bottom: 16px;
-          }
-
-          .add-session {
-            border: 1px solid var(--border-light-color);
           }
         }
       </style>

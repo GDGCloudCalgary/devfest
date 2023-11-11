@@ -29,6 +29,7 @@ export class MapBlock extends ReduxMixin(PolymerElement) {
           color: var(--text-primary-color);
           border-radius: 20px;
           z-index: 1;
+          border: 1px solid var(--text-primary-color);
         }
 
         .link {

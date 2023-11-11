@@ -33,6 +33,21 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
           text-align: center;
         }
 
+        .location-wrapper {
+          text-align: center;
+          padding-bottom: 0;
+        }
+
+        .locations {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+
+        .location-block {
+          max-width: 49%;
+        }
+
         .action-button {
           margin: 8px;
           margin-left: 0;
@@ -80,6 +95,16 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
 
         paper-button {
           margin: 0;
+        }
+
+        @media (max-width: 640px) {
+          .locations {
+            flex-direction: column;
+          }
+
+          .location-block {
+            max-width: 100%;
+          }
         }
       </style>
 
@@ -158,6 +183,48 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
               <a href="https://gdg.community.dev/" target="_blank">
                 <paper-button class="action-button">
                   <span>FIND A COMMUNITY</span>
+                </paper-button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container section location-wrapper">
+        <h1 class="container-title big-heading">Location</h1>
+        <div class="locations">
+          <div class="location-block" flex>
+            <div class="block">
+              <short-markdown
+                content="Central Library is located at 800 3 Street SE, directly east of City Hall.<br/>
+                The closest CTrain stop is City Hall, on both the Red and Blue lines.<br/>
+                There is parking in the City Hall parkade, paid parking lots on the east side of the Library, and paid street parking in the East Village."
+              ></short-markdown>
+            </div>
+            <div
+              style="display: flex; align-items: center; justify-content: center; margin-top: 32px;"
+            >
+              <a href="https://calgarylibrary.ca/your-library/locations/cent/" target="_blank">
+                <paper-button class="action-button">
+                  <span>Central Library</span>
+                </paper-button>
+              </a>
+            </div>
+          </div>
+
+          <div class="location-block" flex>
+            <div class="block">
+              <short-markdown
+                content="Platform Innovation Centre is located at 407 9th Avenue SE, south of the Central Library.<br/>
+                There is paid parking provided by Calgary Parking."
+              ></short-markdown>
+            </div>
+            <div
+              style="display: flex; align-items: center; justify-content: center; margin-top: 32px;"
+            >
+              <a href="https://www.calgaryparking.com/find-parking/lots/platform-parkade-lot-62.html" target="_blank">
+                <paper-button class="action-button">
+                  <span>Platform Parkade</span>
                 </paper-button>
               </a>
             </div>

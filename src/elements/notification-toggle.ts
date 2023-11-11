@@ -75,7 +75,7 @@ export class NotificationToggle extends ReduxMixin(PolymerElement) {
             <p>[[notifications.default]]</p>
             <div class="panel-actions" layout horizontal end-justified>
               <paper-button primary-text on-click="requestPermission">
-                [[notifications.enable]]
+                [[notifications.enable.label]]
               </paper-button>
             </div>
           </template>

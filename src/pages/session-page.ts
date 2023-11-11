@@ -213,13 +213,13 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
             </template>
           </div>
 
-          <!--<div class="float-button" hidden$="[[!contentLoaderVisibility]]">
+          <div class="float-button" hidden$="[[!contentLoaderVisibility]]">
             <paper-fab
               icon="hoverboard:[[featuredSessionIcon]]"
               hidden$="[[!viewport.isLaptopPlus]]"
               on-click="toggleFeaturedSession"
             ></paper-fab>
-          </div>-->
+          </div>
         </div>
       </simple-hero>
 
@@ -237,13 +237,13 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
       ></content-loader>
 
       <div class="container content">
-        <!--<div class="float-button" hidden$="[[!contentLoaderVisibility]]">
+        <div class="float-button" hidden$="[[!contentLoaderVisibility]]">
           <paper-fab
             icon="hoverboard:[[featuredSessionIcon]]"
             hidden$="[[viewport.isLaptopPlus]]"
             on-click="toggleFeaturedSession"
           ></paper-fab>
-        </div>-->
+        </div>
         <h3 class="meta-info" hidden$="[[disabledSchedule]]">
           [[session.dateReadable]], [[session.startTime]] - [[session.endTime]]
         </h3>

@@ -12,7 +12,7 @@ import { fetchSchedule } from './actions';
 
 const selectSchedule = (state: RootState): Day[] => {
   if (state.schedule instanceof Success) {
-    return state.schedule.data;
+    return state.schedule.data.filter(i => i.date.includes('2023'));
   } else if (state.schedule instanceof Initialized) {
     store.dispatch(fetchSchedule);
   }
@@ -24,7 +24,7 @@ export const selectFeaturedSchedule = createSelector(
   selectFeaturedSessions,
   (schedule: Day[], featuredSessions: FeaturedSessions): Day[] => {
     // TODO: Cleanup
-    return schedule.map((day: Day) => {
+    return schedule.filter(i => i.date.includes('2023')).map((day: Day) => {
       return {
         ...day,
         timeslots: day.timeslots.map((timeslot: Timeslot) => {

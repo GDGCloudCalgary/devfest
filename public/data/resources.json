@@ -190,7 +190,7 @@
     }
   },
   "mapBlock": {
-    "title": "Location"
+    "title": "Directions"
   },
   "subscribeBlock": {
     "callToAction": {
@@ -300,7 +300,8 @@
     "results": "Results",
     "tags": "Tags",
     "complexity": "Complexity",
-    "clear": "Clear all"
+    "clear": "Clear all",
+    "rooms": "Rooms"
   },
   "addToHomeScreen": {
     "cta": "Add to Home Screen"

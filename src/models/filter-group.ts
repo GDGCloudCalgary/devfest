@@ -3,6 +3,7 @@ import { Filter } from './filter';
 export enum FilterGroupKey {
   tags = 'tags',
   complexity = 'complexity',
+  room = 'room'
 }
 
 export interface FilterGroup {

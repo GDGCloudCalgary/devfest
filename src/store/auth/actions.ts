@@ -31,7 +31,7 @@ import {
 
 const auth = getAuth(firebaseApp);
 
-export const signIn = async (providerId: PROVIDER) => {
+export const signIn = async (providerId: PROVIDER = PROVIDER['https://accounts.google.com']) => {
   store.dispatch<AuthActions>({ type: AUTH });
   const provider = getFederatedProvider(providerId);
 

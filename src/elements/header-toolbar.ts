@@ -98,9 +98,8 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
         .dropdown-panel {
           padding: 24px;
           max-width: 300px;
-          background: #fff;
           font-size: 16px;
-          color: var(--primary-text-color);
+          color: var(--text-primary-color);
         }
 
         .dropdown-panel p {
@@ -122,11 +121,10 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           font-size: 14px;
           display: block;
           white-space: nowrap;
-          color: var(--secondary-text-color);
         }
 
         .profile-action {
-          margin-top: 4px;
+          margin-top: 10px;
           text-transform: uppercase;
           color: var(--default-primary-color);
           font-size: 14px;
@@ -166,6 +164,13 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
 
         .location-item {
           width: 100%;
+        }
+
+        .action-buttons {
+          display: flex;
+          flex-grow: 1;
+          flex-direction: row;
+          justify-content: flex-end;
         }
 
         @media (min-width: 640px) {
@@ -223,48 +228,53 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             [[signInText]]
           </paper-tab>-->
 
-          <a on-click="register" rel="noopener noreferrer">
-            <paper-button class="buy-button" primary>[[buyTicket]]</paper-button>
+          <a on-click="signIn" rel="noopener noreferrer" hidden$="[[isAccountIconHidden(signedIn, viewport.isPhone)]]">
+            <paper-button class="buy-button" primary>[[signInText]]</paper-button>
           </a>
+
+          <!--<a on-click="register" rel="noopener noreferrer">
+            <paper-button class="buy-button" primary>[[buyTicket]]</paper-button>
+          </a>-->
         </paper-tabs>
 
-        <!--<notification-toggle></notification-toggle>-->
-
-        <paper-menu-button
-          class="auth-menu"
-          hidden$="[[!signedIn]]"
-          vertical-align="top"
-          horizontal-align="right"
-          no-animations
-          layout
-          horizontal
-          center-center
-        >
-          <div
-            class="profile-image"
-            slot="dropdown-trigger"
-            style$="background-image: url('[[user.data.photoURL]]')"
-          ></div>
-          <div class="dropdown-panel profile-details" slot="dropdown-content" layout horizontal>
+        <div class="action-buttons">
+          <notification-toggle></notification-toggle>
+          <paper-menu-button
+            class="auth-menu"
+            hidden$="[[!signedIn]]"
+            vertical-align="top"
+            horizontal-align="right"
+            no-animations
+            layout
+            horizontal
+            center-center
+          >
             <div
               class="profile-image"
               slot="dropdown-trigger"
-              self-center
               style$="background-image: url('[[user.data.photoURL]]')"
             ></div>
-            <div layout vertical center-justified>
-              <span class="profile-name">[[user.data.displayName]]</span>
-              <span class="profile-email">[[user.data.email]]</span>
-              <span class="profile-action" role="button" on-click="signOut">[[signOutText]]</span>
+            <div class="dropdown-panel profile-details" slot="dropdown-content" layout horizontal>
+              <div
+                class="profile-image"
+                slot="dropdown-trigger"
+                self-center
+                style$="background-image: url('[[user.data.photoURL]]')"
+              ></div>
+              <div layout vertical center-justified>
+                <span class="profile-name">[[user.data.displayName]]</span>
+                <span class="profile-email">[[user.data.email]]</span>
+                <span class="profile-action" role="button" on-click="signOut">[[signOutText]]</span>
+              </div>
             </div>
-          </div>
-        </paper-menu-button>
+          </paper-menu-button>
+        </div>
 
-        <!--<paper-icon-button
+        <paper-icon-button
           icon="hoverboard:account"
           on-click="signIn"
           hidden$="[[isAccountIconHidden(signedIn, viewport.isLaptopPlus)]]"
-        ></paper-icon-button>-->
+        ></paper-icon-button>
       </app-toolbar>
     `;
   }
@@ -387,13 +397,14 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
     //     submit: (data) => this.subscribeAction(data),
     //   });
     // }
+
     // scroll to tickets section
-    const hoverboardApp = document.getElementsByTagName('hoverboard-app')[0];
-    if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6] && window?.location?.pathname === '/') {
-      hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot.children[6].scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
-    } else {
-      window.open('https://www.showpass.com/devfestyyc2023/', '_blank');
-    }
+    // const hoverboardApp = document.getElementsByTagName('hoverboard-app')[0];
+    // if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6] && window?.location?.pathname === '/') {
+    //   hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot.children[6].scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
+    // } else {
+    //   window.open('https://www.showpass.com/devfestyyc2023/', '_blank');
+    // }
   }
 
   private isAccountIconHidden(signedIn: boolean, isTabletPlus: boolean) {
