@@ -70,6 +70,21 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
           padding-bottom: 40px;
         }
 
+        .session-live {
+          color: #333333; 
+          font-size: 14px;
+          height: fit-content;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid currentcolor;
+          border-radius: 32px;
+          margin: 1px;
+          background: white;
+          padding: 8px 12px;
+          margin-bottom: 10px;
+        }
+
         .session[featured] .bookmark-session {
           color: var(--default-primary-color);
         }
@@ -193,6 +208,9 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
         </div>
 
         <div class="session-footer">
+          <div layout horizontal justified center-aligned hidden$="[[!session.liveUrl]]">
+            <div class="session-live" on-click="openLiveUrl">Watch it Live!</div>
+          </div>
           <div layout horizontal justified center-aligned>
             <div class="speaker-name">[[session.startTime]] - [[session.endTime]]</div>
           </div>
@@ -334,5 +352,11 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
 
   private sessionUrl(id: string) {
     return router.urlForName('session-page', { id });
+  }
+
+  private openLiveUrl(e: PointerEvent) {
+    e.preventDefault();
+    e.stopPropagation();
+    window.open(this.session?.liveUrl, '_blank');
   }
 }

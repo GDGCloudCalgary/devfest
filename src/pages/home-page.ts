@@ -230,7 +230,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         }
 
         .limited-deal {
-          font-size: 20px;
+          font-size: 16px;
           margin-top: 20px;
           color: #ccc;
         }
@@ -530,7 +530,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
               GET YOUR DISCOUNTS NOW
             </paper-button>
           </div>
-          <!--<div class="limited-deal">Limited Early Bird Tickets available until November 5th. Don't miss out! </div>-->
+          <div class="limited-deal">Come meet us at the 1st floor of Platform Calgary for registration before heading to the Central Library!</div>
 
           <div class="scroll-down" on-click="scrollNextBlock">
             <svg
@@ -604,9 +604,9 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <statistics-block></statistics-block>
       <tickets-block id="tickets-block"></tickets-block>
       <subscribe-block></subscribe-block>
-      <partners-block></partners-block>
       <about-organizer-block></about-organizer-block>
       <map-block></map-block>
+      <partners-block></partners-block>
       <footer-block></footer-block>
     `;
   }

@@ -115,21 +115,15 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
 
       <div class="container section partners-wrapper">
         <h1 class="container-title big-heading">[[partnersBlock.title]]</h1>
-        <h1 class="container-title">Your brand. Elevated.</h1>
-        <p>
-          Sponsors and partners get involved in ᐳᐅ!DEVFESTYYC to maximize their impact in the
-          developer community, attract new talent and position their brands with our local and
-          international audience.
-        </p>
 
-        <!--<template is="dom-if" if="[[pending]]">
+        <template is="dom-if" if="[[pending]]">
           <p>[[loading]]</p>
-        </template>-->
-        <!--<template is="dom-if" if="[[failure]]">
+        </template>
+        <template is="dom-if" if="[[failure]]">
           <p>Error loading partners.</p>
-        </template>-->
+        </template>
 
-        <!--<template is="dom-repeat" items="[[partners.data]]" as="block">
+        <template is="dom-repeat" items="[[partners.data]]" as="block">
           <h4 class="block-title">[[block.title]]</h4>
           <div class="logos-wrapper">
             <template is="dom-repeat" items="[[block.items]]" as="logo">
@@ -151,30 +145,13 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
               </a>
             </template>
           </div>
-        </template>-->
+        </template>
 
         <!--<div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
           <paper-button class="action-button" on-click="addPotentialPartner">
             <span>[[partnersBlock.button]]</span>
           </paper-button>
         </div>-->
-        <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
-          <paper-button class="action-button" on-click="openSponsorIntake">
-            <span>SPONSOR ᐳᐅ!DEVFESTYYC</span>
-          </paper-button>
-        </div>
-      </div>
-
-      <div class="container section partners-wrapper">
-        <h1 class="container-title big-heading">Volunteers</h1>
-        <h1 class="container-title">[[volunteersData.title]]</h1>
-        <p>[[volunteersData.description]]</p>
-
-        <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
-          <paper-button class="action-button" on-click="openVolunteerIntake">
-            <span>VOLUNTEER TODAY!</span>
-          </paper-button>
-        </div>
       </div>
     `;
   }
@@ -189,20 +166,20 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
   @property({ type: Object })
   partners: PartnerGroupsState = new Initialized();
 
-  // @computed('partners')
-  // get pending() {
-  //   return this.partners instanceof Pending;
-  // }
+  @computed('partners')
+  get pending() {
+    return this.partners instanceof Pending;
+  }
 
-  // @computed('partners')
-  // get failure() {
-  //   return this.partners instanceof Failure;
-  // }
+  @computed('partners')
+  get failure() {
+    return this.partners instanceof Failure;
+  }
 
-  // override stateChanged(state: RootState) {
-  //   this.partners = selectPartnerGroups(state);
-  //   this.potentialPartners = state.potentialPartners;
-  // }
+  override stateChanged(state: RootState) {
+    this.partners = selectPartnerGroups(state);
+    this.potentialPartners = state.potentialPartners;
+  }
 
   private addPotentialPartner() {
     openSubscribeDialog({
@@ -214,23 +191,15 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
     });
   }
 
-  // @observe('potentialPartners')
-  // private onPotentialPartners(potentialPartners: PotentialPartnersState) {
-  //   if (potentialPartners instanceof Success) {
-  //     closeDialog();
-  //     store.dispatch(queueSnackbar(this.partnersBlock.toast));
-  //   }
-  // }
+  @observe('potentialPartners')
+  private onPotentialPartners(potentialPartners: PotentialPartnersState) {
+    if (potentialPartners instanceof Success) {
+      closeDialog();
+      store.dispatch(queueSnackbar(this.partnersBlock.toast));
+    }
+  }
 
   private openCFP() {
     window.open('https://go.devfestyyc.com/cfp', '_blank');
-  }
-
-  private openSponsorIntake() {
-    window.open('https://go.gdgyyc.com/sponsorshipintake', '_blank');
-  }
-
-  private openVolunteerIntake() {
-    window.open('https://go.devfestyyc.com/volunteerintake', '_blank');
   }
 }

@@ -21,24 +21,40 @@ const isScheduleEnabled = async (): Promise<boolean> => {
 
 export const sessionsWrite = functions.firestore
   .document('sessions/{sessionId}')
-  .onWrite(() => generateAndSaveData());
+  .onWrite(async () => {
+    try {
+      await generateAndSaveData();
+    } catch (error) {
+      functions.logger.error(error);
+    }
+    return;
+  });
 
 export const scheduleWrite = functions.firestore
   .document('schedule/{scheduleId}')
   .onWrite(async () => {
-    if (await isScheduleEnabled()) {
-      return generateAndSaveData();
+    try {
+      if (await isScheduleEnabled()) {
+        await generateAndSaveData();
+      }
+    } catch (error) {
+      functions.logger.error(error);
     }
-    return null;
+    return;
   });
 
 export const speakersWrite = functions.firestore
   .document('speakers/{speakerId}')
   .onWrite(async (change, context) => {
-    const changedSpeaker = change.after.exists
-      ? { id: context.params.speakerId, ...change.after.data() }
-      : null;
-    return generateAndSaveData(changedSpeaker);
+    try {
+      const changedSpeaker = change.after.exists
+        ? { id: context.params.speakerId, ...change.after.data() }
+        : null;
+      await generateAndSaveData(changedSpeaker);
+    } catch (error) {
+      functions.logger.error(error);
+    }
+    return;
   });
 
 const fetchData = () => {
@@ -49,7 +65,7 @@ const fetchData = () => {
   return Promise.all([sessionsPromise, schedulePromise, speakersPromise]);
 };
 
-async function generateAndSaveData(changedSpeaker?) {
+async function generateAndSaveData(changedSpeaker?: any) {
   const [sessionsSnapshot, scheduleSnapshot, speakersSnapshot] = await fetchData();
 
   const sessions = snapshotToObject(sessionsSnapshot);

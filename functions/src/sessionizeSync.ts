@@ -1,6 +1,9 @@
 import * as functions from 'firebase-functions';
-import fetch, { Response } from 'node-fetch';
+import fetch, { Response, HeadersInit } from 'node-fetch';
 import { getFirestore } from 'firebase-admin/firestore';
+import { sessionsSpeakersMap } from './schedule-generator/speakers-sessions-map.js';
+import { sessionsSpeakersScheduleMap } from './schedule-generator/speakers-sessions-schedule-map.js';
+import { isEmpty, ScheduleMap, SessionMap, snapshotToObject, SpeakerMap } from './utils.js';
 
 interface Social {
     name: string;
@@ -16,8 +19,9 @@ export const sessionizeSync = functions.pubsub
             const scheduleUrl = 'https://sessionize.com/api/v2/o824blhv/view/GridSmart';
             const sessionsUrl = 'https://sessionize.com/api/v2/o824blhv/view/Sessions';
             const speakersUrl = 'https://sessionize.com/api/v2/o824blhv/view/Speakers';
-            const headers = {
+            const headers: HeadersInit = {
                 'Content-Type': 'application/json',
+                cache: "no-store"
             };
 
             const responses: Promise<Response>[] = [];
@@ -38,6 +42,7 @@ export const sessionizeSync = functions.pubsub
             await importSchedule(sessionizeSchedule);
             await importSessions(sessionizeSessions);
             await importSpeakers(sessionizeSpeakers);
+            await generateAndSaveData();
         } catch (error) {
             functions.logger.error('Error syncing:', error);
             return null;
@@ -112,6 +117,14 @@ const importSchedule = async (sessionizeSchedule: any[] = []) => {
 const importSessions = async (sessionizeSessions: any[] = []) => {
     const newSessions: { [key: string]: object } = {};
     const db = getFirestore();
+    const batch = db.batch();
+    const existingSessions = await db.collection('sessions').where('year', 'array-contains', '2023').get();
+    const removedSessions = existingSessions.docs.filter((doc) => !sessionizeSessions.find((s) => s.id === doc.id));
+
+    for (const session of removedSessions) {
+        batch.delete(session.ref);
+        batch.delete(db.doc(`${session.ref.path.replace('sessions', 'generatedSessions')}`));
+    }
 
     for (const sessionData of sessionizeSessions) {
         const sessionId = sessionData.id;
@@ -157,6 +170,7 @@ const importSessions = async (sessionizeSessions: any[] = []) => {
             status: sessionData.status || '',
             startsAt: sessionData.startsAt,
             endsAt: sessionData.endsAt,
+            liveUrl: sessionData.liveUrl || null,
             year: [`${new Date(sessionData.startsAt).getUTCFullYear()}`]
         };
 
@@ -170,14 +184,13 @@ const importSessions = async (sessionizeSessions: any[] = []) => {
     }
     functions.logger.log('Importing sessions...');
 
-    const batch = db.batch();
-
     Object.keys(docs).forEach((docId) => {
         batch.set(db.collection('sessions').doc(docId), docs[docId]);
     });
 
     return batch.commit().then((results) => {
         functions.logger.log('Imported data for', results.length, 'sessions');
+        functions.logger.log('Removed data for', removedSessions.length, 'sessions');
     });
 };
 
@@ -241,4 +254,69 @@ const importSpeakers = async (sessionizeSpeakers: any[] = []) => {
     return batch.commit().then((results) => {
         functions.logger.log('Imported data for', results.length, 'speakers');
     });
+};
+
+const fetchData = () => {
+    const sessionsPromise = getFirestore().collection('sessions').get();
+    const schedulePromise = getFirestore().collection('schedule').orderBy('date', 'desc').get();
+    const speakersPromise = getFirestore().collection('speakers').get();
+
+    return Promise.all([sessionsPromise, schedulePromise, speakersPromise]);
+};
+
+async function generateAndSaveData(changedSpeaker?: any) {
+    const [sessionsSnapshot, scheduleSnapshot, speakersSnapshot] = await fetchData();
+
+    const sessions = snapshotToObject(sessionsSnapshot);
+    const schedule = snapshotToObject(scheduleSnapshot);
+    const speakers = snapshotToObject(speakersSnapshot);
+
+    let generatedData: {
+        sessions?: {};
+        speakers?: {};
+        schedule?: {};
+    } = {};
+    if (!Object.keys(sessions).length) {
+        generatedData.speakers = { ...speakers };
+    } else if (!(await isScheduleEnabled()) || !Object.keys(schedule).length) {
+        generatedData = sessionsSpeakersMap(sessions, speakers);
+    } else {
+        generatedData = sessionsSpeakersScheduleMap(sessions, speakers, schedule);
+    }
+
+    // If changed speaker does not have assigned session(s) yet
+    if (changedSpeaker && !generatedData.speakers[changedSpeaker.id]) {
+        generatedData.speakers[changedSpeaker.id] = changedSpeaker;
+    }
+
+    saveGeneratedData(generatedData.sessions, 'generatedSessions');
+    saveGeneratedData(generatedData.speakers, 'generatedSpeakers');
+    saveGeneratedData(generatedData.schedule, 'generatedSchedule');
+}
+
+function saveGeneratedData(data: SessionMap | SpeakerMap | ScheduleMap, collectionName: string) {
+    if (isEmpty(data)) {
+        functions.logger.error(
+            `Attempting to write empty data to Firestore collection: "${collectionName}".`
+        );
+        return;
+    }
+
+    for (let index = 0; index < Object.keys(data).length; index++) {
+        const key = Object.keys(data)[index];
+        getFirestore().collection(collectionName).doc(key).set(data[key]);
+    }
+}
+
+const isScheduleEnabled = async (): Promise<boolean> => {
+    const doc = await getFirestore().collection('config').doc('schedule').get();
+
+    if (doc.exists) {
+        return doc.data().enabled === 'true' || doc.data().enabled === true;
+    } else {
+        functions.logger.error(
+            'Schedule config is not set. Set the `config/schedule.enabled=true` Firestore value.'
+        );
+        return false;
+    }
 };

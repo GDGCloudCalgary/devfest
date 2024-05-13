@@ -14,7 +14,7 @@ const buildFilter = (group: FilterGroupKey, tag: string): Filter => {
 const buildFilters = (sessions: Session[], filterGroupKey: FilterGroupKey): Filter[] => {
   const tags = new Set<string>();
 
-  sessions.forEach((session) => {
+  sessions.filter(session => session.year?.includes('2023')).forEach((session) => {
     const value = session[filterGroupKey];
     if (!value) {
       return;
@@ -25,7 +25,7 @@ const buildFilters = (sessions: Session[], filterGroupKey: FilterGroupKey): Filt
     }
   });
 
-  return [...tags].map((value) => buildFilter(FilterGroupKey[filterGroupKey], value));
+  return [...tags].sort().map((value) => buildFilter(FilterGroupKey[filterGroupKey], value));
 };
 
 const selectSessionId = (_state: RootState, sessionId: string) => sessionId;

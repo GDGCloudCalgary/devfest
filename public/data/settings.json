@@ -90,6 +90,7 @@
     },
     "schedule": {
       "title": "Schedule",
+      "description": "You can create your personalized schedule by signing in and simply clicking on the bookmark button on the session you would like to attend. You can also get notified about upcoming sessions by enabling schedule notifications in notification settings.",
       "metaDescription": "Choose your sessions.",
       "background": {
         "color": "#fff"

@@ -49,6 +49,25 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
           font-size: 20px;
         }
 
+        .button-container {
+          max-width: var(--max-container-width);
+          margin: 0 auto;
+          margin-top: -20px;
+          position: absolute;
+          margin-left: -30px;
+        }
+
+        paper-button {
+          margin: 8px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          color: #fff;
+          margin-left: 32px;
+        }
+
         paper-progress {
           width: 100%;
           --paper-progress-active-color: var(--default-primary-color);
@@ -72,6 +91,9 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
       >
         <div class="hero-title">[[heroSettings.title]]</div>
         <p class="hero-description">[[heroSettings.description]]</p>
+        <div class="button-container">
+          <paper-button on-click="openCFP"> Share your photos </paper-button>
+        </div>
         <sticky-element slot="bottom">
           <header-bottom-toolbar location="[[location]]"></header-bottom-toolbar>
         </sticky-element>
@@ -190,5 +212,9 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
   @computed('schedule')
   get pending() {
     return this.schedule instanceof Pending;
+  }
+
+  private openCFP() {
+    window.open('https://go.devfestyyc.com/photos', '_blank');
   }
 }

@@ -15,6 +15,8 @@ export interface SessionData {
   title: string;
   videoId?: string;
   room?: string;
+  year?: string[];
+  liveUrl?: string;
 }
 
 export type Session = Id & SessionData;

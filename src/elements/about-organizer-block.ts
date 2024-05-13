@@ -29,6 +29,10 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
           flex-direction: column;
         }
 
+        .partners-wrapper {
+          text-align: center;
+        }
+
         .team-wrapper {
           text-align: center;
         }
@@ -107,6 +111,34 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
           }
         }
       </style>
+
+      <div class="container section partners-wrapper">
+        <h1 class="container-title big-heading">Sponsors</h1>
+        <h1 class="container-title">Your brand. Elevated.</h1>
+        <p>
+          Sponsors and partners get involved in ᐳᐅ!DEVFESTYYC to maximize their impact in the
+          developer community, attract new talent and position their brands with our local and
+          international audience.
+        </p>
+
+        <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
+          <paper-button class="action-button" on-click="openSponsorIntake">
+            <span>SPONSOR ᐳᐅ!DEVFESTYYC</span>
+          </paper-button>
+        </div>
+      </div>
+
+      <div class="container section partners-wrapper">
+        <h1 class="container-title big-heading">Volunteers</h1>
+        <h1 class="container-title">[[volunteersData.title]]</h1>
+        <p>[[volunteersData.description]]</p>
+
+        <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
+          <paper-button class="action-button" on-click="openVolunteerIntake">
+            <span>VOLUNTEER TODAY!</span>
+          </paper-button>
+        </div>
+      </div>
 
       <div class="container section">
         <h1 class="container-title big-heading">Organizer</h1>
@@ -192,6 +224,7 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
 
       <div class="container section location-wrapper">
         <h1 class="container-title big-heading">Location</h1>
+        <p>Come meet us at the 1st floor of Platform Calgary for registration before heading to the Central Library!</p>
         <div class="locations">
           <div class="location-block" flex>
             <div class="block">
@@ -236,11 +269,20 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
 
   private aboutOrganizerBlock = aboutOrganizerBlock;
   private team = heroSettings.team;
+  private volunteersData = heroSettings.volunteers;
 
   @property({ type: Object })
   private viewport = initialUiState.viewport;
 
   override stateChanged(state: RootState) {
     this.viewport = state.ui.viewport;
+  }
+
+  private openSponsorIntake() {
+    window.open('https://go.gdgyyc.com/sponsorshipintake', '_blank');
+  }
+
+  private openVolunteerIntake() {
+    window.open('https://go.devfestyyc.com/volunteerintake', '_blank');
   }
 }

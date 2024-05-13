@@ -125,6 +125,27 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
           color: var(--primary-text-color);
         }
 
+        .session-link {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 14px;
+        }
+
+        .session-live {
+          color: #333333; 
+          font-size: 14px;
+          height: fit-content;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid currentcolor;
+          border-radius: 32px;
+          margin: 1px;
+          background: white;
+          padding: 8px 12px;
+          cursor: pointer;
+        }
+
         .section-photo {
           margin-right: 16px;
           --lazy-image-width: 48px;
@@ -204,7 +225,7 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
         }
       </style>
 
-      <simple-hero page="schedule">
+      <simple-hero page="schedule" hideHeading="true">
         <div class="header-content" layout vertical end-justified>
           <h2 class="name">[[session.title]] - [[session.year]]</h2>
           <div class="tags" hidden$="[[!session.tags.length]]">
@@ -254,6 +275,9 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
         <h3 class="meta-info" hidden$="[[!session.complexity]]">
           [[sessionDetails.contentLevel]]: [[session.complexity]]
         </h3>
+        <div class="session-link" hidden$="[[!session.liveUrl]]">
+          <div class="session-live" on-click="openLiveUrl">Watch it Live!</div>
+        </div>
 
         <short-markdown class="description" content="[[session.description]]"></short-markdown>
 
@@ -461,5 +485,9 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
 
   private speakerUrl(id: string) {
     return router.urlForName('speaker-page', { id });
+  }
+
+  private openLiveUrl() {
+    window.open(this.session?.liveUrl, '_blank');
   }
 }
