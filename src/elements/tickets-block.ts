@@ -188,10 +188,8 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
 
       <div class="tickets-wrapper container section">
         <h1 class="container-title big-heading">[[ticketsBlock.title]]</h1>
-        <h2>Don’t miss out!</h2>
-        <p>
-          
-        </p>
+        <h2>Early Bird Tickets go on sale Friday July 12, 2024. Don't miss out! Sign up to get notifications when Early Bird Tickets go on sale!.</h2>
+
         <content-loader
           class="tickets-placeholder"
           card-padding="24px"
@@ -209,68 +207,14 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
         </content-loader>
 
         <div class="tickets" layout horizontal wrap center-justified>
-          <template is="dom-if" if="[[tickets.error]]"> Error loading tickets </template>
-
-          <template is="dom-repeat" items="[[tickets.data]]" as="ticket">
-            <a
-              class="ticket-item card"
-              href$="[[ticket.url]]"
-              rel="noopener noreferrer"
-              sold-out$="[[ticket.soldOut]]"
-              in-demand$="[[ticket.inDemand]]"
-              on-click="onTicketTap"
-              layout
-              vertical
-            >
-              <div class="header">
-                <h4>[[ticket.name]]</h4>
-              </div>
-              <div class="content" layout vertical flex-auto>
-                <div class="ticket-price-wrapper">
-                  <div class="price">[[ticket.currency]][[ticket.price]]</div>
-                  <div class="price-original" hidden$="[[!ticket.originalPrice]]">[[ticket.currency]][[ticket.originalPrice]]</div>
-                  <!--<div class="price">[[ticket.currency]]000</div>-->
-                  <div class="discount">[[getDiscount(ticket)]]</div>
-                </div>
-                <div class="type-description" layout vertical flex-auto center-justified>
-                  <div class="ticket-timer" hidden$="[[!ticket.timer]]">[[getTimer(ticket.timer)]]</div>
-                  <div class="ticket-dates" hidden$="[[!ticket.starts]]">
-                    [[ticket.starts]] - [[ticket.ends]]
-                  </div>
-                  <div class="ticket-info">[[ticket.info]]</div>
-                </div>
-              </div>
-              <div class="actions">
-                <div class="sold-out" block$="[[ticket.soldOut]]">[[ticketsBlock.soldOut]]</div>
-                <paper-button
-                  class="action-button"
-                  hidden$="[[ticket.soldOut]]"
-                  disabled$="[[!ticket.available]]"
-                >
-                  [[getButtonText(ticket.available)]]
-                </paper-button>
-              </div>
-            </a>
-          </template>
-        </div>
-
-        <div class="additional-info">*[[ticketsBlock.ticketsDetails]]</div>
-        <h2 class="laid-off">Have you been recently laid off?</h2>
-        <p>ᐳᐅ!DEVFESTYYC is proud to offer one (1) complimentary Festival pass.</p>
-        <div class="additional-info">*This is a limited quantity, first-come first-served offer. Once we run out of free passes they won't be available anymore. Certain conditions apply. Go to <a href="https://go.devfestyyc.com/LAIDOFFLIFTOFF" target="_blank">go.devfestyyc.com/LAIDOFFLIFTOFF</a> to get your ticket.</div>
-        <h2 class="laid-off">JUSTIFY YOUR ATTENDANCE</h2>
-        <p>
-          Want to get your manager or organization to support your attendance at ᐳᐅ!DEVFESTYYC?
-            <br/>Use our handy template to get you letter started and sent!
-        </p>
-        <div>
           <paper-button
             class="action-button"
-            on-click="openJustificationLetter"
+            on-click="onTicketTap"
           >
-            GET THE JUSTIFICATION LETTER
+            Subscribe
           </paper-button>
         </div>
+
       </div>
     `;
   }
@@ -311,14 +255,15 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
     return this.ticketsBlock.save.replace('${discount}', discount);
   }
 
-  private onTicketTap(e: PointerEvent & { model: { ticket: Ticket } }) {
-    if (e.model.ticket.soldOut || !e.model.ticket.available) {
-      e.preventDefault();
-      e.stopPropagation();
-      return;
-    }
+  // private onTicketTap(e: PointerEvent & { model: { ticket: Ticket } }) {
+  private onTicketTap() {
+    // if (e?.model?.ticket.soldOut || !e?.model?.ticket.available) {
+    //   e.preventDefault();
+    //   e.stopPropagation();
+    //   return;
+    // }
 
-    logTicketsClick(e.model.ticket.name);
+    // logTicketsClick(e.model.ticket.name);
 
     // (globalThis as any)?.showpass?.tickets.eventPurchaseWidget('devfestyyc2023', {
     //   'theme-primary': showpass.theme.primary,
@@ -326,38 +271,38 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
     //   'theme-dark': showpass.theme.dark
     // });
 
-    window.open('https://www.showpass.com/devfestyyc2023/', '_blank');
+    // window.open('https://www.showpass.com/devfestyyc2023/', '_blank');
 
-    // let userData = {
-    //   firstFieldValue: '',
-    //   secondFieldValue: '',
-    // };
+    let userData = {
+      firstFieldValue: '',
+      secondFieldValue: '',
+    };
 
-    // if (this.user instanceof Success) {
-    //   const name = this.user.data.displayName?.split(' ') || ['', ''];
-    //   userData = {
-    //     firstFieldValue: name[0] || '',
-    //     secondFieldValue: name[1] || '',
-    //   };
+    if (this.user instanceof Success) {
+      const name = this.user.data.displayName?.split(' ') || ['', ''];
+      userData = {
+        firstFieldValue: name[0] || '',
+        secondFieldValue: name[1] || '',
+      };
 
-    //   if (this.user.data.email) {
-    //     this.subscribeAction({ ...userData, email: this.user.data.email });
-    //   }
-    // }
+      if (this.user.data.email) {
+        this.subscribeAction({ ...userData, email: this.user.data.email });
+      }
+    }
 
-    // if (this.user instanceof Success && this.user.data.email) {
-    //   this.subscribeAction({ ...userData, email: this.user.data.email });
-    // } else {
-    //   openSubscribeDialog({
-    //     title: this.subscribeBlock.formTitle,
-    //     submitLabel: this.subscribeBlock.subscribe,
-    //     firstFieldLabel: this.subscribeBlock.firstName,
-    //     secondFieldLabel: this.subscribeBlock.lastName,
-    //     firstFieldValue: userData.firstFieldValue,
-    //     secondFieldValue: userData.secondFieldValue,
-    //     submit: (data) => this.subscribeAction(data),
-    //   });
-    // }
+    if (this.user instanceof Success && this.user.data.email) {
+      this.subscribeAction({ ...userData, email: this.user.data.email });
+    } else {
+      openSubscribeDialog({
+        title: this.subscribeBlock.formTitle,
+        submitLabel: this.subscribeBlock.subscribe,
+        firstFieldLabel: this.subscribeBlock.firstName,
+        secondFieldLabel: this.subscribeBlock.lastName,
+        firstFieldValue: userData.firstFieldValue,
+        secondFieldValue: userData.secondFieldValue,
+        submit: (data) => this.subscribeAction(data),
+      });
+    }
   }
 
   private getButtonText(available: boolean) {
@@ -371,7 +316,7 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
   private getTimer(timer: boolean) {
     const now = new Date();
     // get number of days left between dates
-    const daysLeft = Math.floor((new Date(2023, 10, 6).getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+    const daysLeft = Math.floor((new Date(2024, 10, 6).getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
     return timer ? daysLeft + ' days left' : '';
   }
 
@@ -379,3 +324,70 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
     window.open('https://docs.google.com/document/d/1SAO3tXOG7ZGZTWLKtxtN1yr35f5Tg4x-SM9IuRvS0VQ/edit', '_blank');
   }
 }
+
+/**
+ * 
+        <div class="tickets" layout horizontal wrap center-justified>
+          <template is="dom-if" if="[[tickets.error]]"> Error loading tickets </template>
+
+          <template is="dom-repeat" items="[[tickets.data]]" as="ticket">
+            <a
+              class="ticket-item card"
+              href$="[[ticket.url]]"
+              rel="noopener noreferrer"
+              sold-out$="[[ticket.soldOut]]"
+              in-demand$="[[ticket.inDemand]]"
+              on-click="onTicketTap"
+              layout
+              vertical
+            >
+              <div class="header">
+                <h4>[[ticket.name]]</h4>
+              </div>
+              <div class="content" layout vertical flex-auto>
+                <div class="ticket-price-wrapper">
+                  <div class="price">[[ticket.currency]][[ticket.price]]</div>
+                  <div class="price-original" hidden$="[[!ticket.originalPrice]]">[[ticket.currency]][[ticket.originalPrice]]</div>
+                  <!--<div class="price">[[ticket.currency]]000</div>-->
+                  <div class="discount">[[getDiscount(ticket)]]</div>
+                </div>
+                <!--<div class="type-description" layout vertical flex-auto center-justified>
+                  <div class="ticket-timer" hidden$="[[!ticket.timer]]">[[getTimer(ticket.timer)]]</div>
+                  <div class="ticket-dates" hidden$="[[!ticket.starts]]">
+                    [[ticket.starts]] - [[ticket.ends]]
+                  </div>
+                  <div class="ticket-info">[[ticket.info]]</div>
+                </div>-->
+              </div>
+              <!--<div class="actions">
+                <div class="sold-out" block$="[[ticket.soldOut]]">[[ticketsBlock.soldOut]]</div>
+                <paper-button
+                  class="action-button"
+                  hidden$="[[ticket.soldOut]]"
+                  disabled$="[[!ticket.available]]"
+                >
+                  [[getButtonText(ticket.available)]]
+                </paper-button>
+              </div>-->
+            </a>
+          </template>
+        </div>
+
+        <!--<div class="additional-info">*[[ticketsBlock.ticketsDetails]]</div>-->
+        <!--<h2 class="laid-off">Have you been recently laid off?</h2>-->
+        <!--<p>ᐳᐅ!DEVFESTYYC is proud to offer one (1) complimentary Festival pass.</p>-->
+        <!--<div class="additional-info">*This is a limited quantity, first-come first-served offer. Once we run out of free passes they won't be available anymore. Certain conditions apply. Go to <a href="https://go.devfestyyc.com/LAIDOFFLIFTOFF" target="_blank">go.devfestyyc.com/LAIDOFFLIFTOFF</a> to get your ticket.</div>-->
+        <!--<h2 class="laid-off">JUSTIFY YOUR ATTENDANCE</h2>-->
+        <!--<p>
+          Want to get your manager or organization to support your attendance at ᐳᐅ!DEVFESTYYC?
+            <br/>Use our handy template to get you letter started and sent!
+        </p>-->
+        <!--<div>
+          <paper-button
+            class="action-button"
+            on-click="openJustificationLetter"
+          >
+            GET THE JUSTIFICATION LETTER
+          </paper-button>
+        </div>-->
+ */

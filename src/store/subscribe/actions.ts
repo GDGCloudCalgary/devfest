@@ -15,11 +15,17 @@ import {
 
 const setSubscribe = async (data: DialogData): Promise<true> => {
   const id = data.email.replace(/[^\w\s]/gi, '');
-  const subscriber = {
+  const subscriber: any = {
     email: data.email,
     firstName: data.firstFieldValue || '',
     lastName: data.secondFieldValue || '',
   };
+
+  if (data.speaking) subscriber.speaking = data.speaking;
+  if (data.attending) subscriber.attending = data.attending;
+  if (data.sponsoring) subscriber.sponsoring = data.sponsoring;
+  if (data.exhibiting) subscriber.exhibiting = data.exhibiting;
+  if (data.volunteering) subscriber.volunteering = data.volunteering;
 
   await setDoc(doc(db, 'subscribers', id), subscriber);
 

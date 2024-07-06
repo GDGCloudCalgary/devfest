@@ -3,7 +3,7 @@
   "description": "More Festival. More Google. More Fun!",
   "image": "images/social-share.png",
   "keywords": "developer, data scientist, cloud architect, gdg, gdgyyc, gde, devfest, devfestyyc, google cloud, cloud native, infrastucture, data, artificial intelligence, machine learning, code, development android,",
-  "dates": "November 17-18, 2023",
+  "dates": "November 15-16, 2024",
   "partnershipProposition": "devfestyyc.link/sponsorship",
   "share": "Share",
   "followOur": "Follow our",
@@ -93,7 +93,7 @@
       },
       "info": {
         "title": "Advance Expertise. Master Technology. Learn More.",
-        "description": "ᐳᐅ!DEVFESTYYC will advance your expertise in Google Cloud and Cloud Native technology. Master the tools and techniques required to design, architect, develop, scale, launch, secure,  integrate and maintain today’s advanced technology solutions. Get to know our 4 technical and 3 non-technical content tracks!",
+        "description": "ᐳᐅ!DEVFESTYYC will advance your expertise in Google Cloud and Cloud Native technology. Master the tools and techniques required to design, architect, develop, scale, launch, secure,  integrate and maintain today’s advanced technology solutions.",
         "label": "DevFestYYC 2019 is coming!",
         "youtubeId": "hTJ_-MxHKMY"
       }
@@ -101,7 +101,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "1000+"
+        "number": "700+"
       },
       "days": {
         "label": "Keynotes",
@@ -133,7 +133,7 @@
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Sponsors",
+    "title": "2023 Sponsors",
     "button": "Sponsor the tech event of the year!",
     "form": {
       "title": "Sponsor ᐳᐅ!DEVFESTYYC!",
@@ -168,7 +168,7 @@
   },
   "speakersBlock": {
     "title": "The best of the best.",
-    "subtitle": "ᐳᐅ!DEVFESTYYC is bringing world-class and top local speakers together in Calgary! We will announce our unparallelled speaker lineup shortly, but until then, check out past festival speakers!",
+    "subtitle": "ᐳᐅ!DEVFESTYYC brings world-class and top local speakers together in Calgary! We will announce our unparallelled speaker lineup on September 1st, but until then, check out past festival speakers!",
     "callToAction": {
       "label": "View All",
       "link": "/speakers/"
@@ -274,7 +274,7 @@
     }
   },
   "aboutOrganizerBlock": {
-    "image": "/images/team.png",
+    "image": "/images/team.jpg",
     "blocks": [
       {
         "title": "We build. Right Here.",

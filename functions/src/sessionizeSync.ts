@@ -118,7 +118,7 @@ const importSessions = async (sessionizeSessions: any[] = []) => {
     const newSessions: { [key: string]: object } = {};
     const db = getFirestore();
     const batch = db.batch();
-    const existingSessions = await db.collection('sessions').where('year', 'array-contains', '2023').get();
+    const existingSessions = await db.collection('sessions').where('year', 'array-contains', '2024').get();
     const removedSessions = existingSessions.docs.filter((doc) => !sessionizeSessions.find((s) => s.id === doc.id));
 
     for (const session of removedSessions) {
@@ -233,7 +233,7 @@ const importSpeakers = async (sessionizeSpeakers: any[] = []) => {
             title: speakerData.tagLine || '',
             id: speakerId || '',
             sessionizeId: speakerData.id || '',
-            year: speakerDoc.exists ? [...new Set([...(speakerDoc.data() as any).year, '2023'])] : ['2023'],
+            year: speakerDoc.exists ? [...new Set([...(speakerDoc.data() as any).year, '2024'])] : ['2024'],
         };
     }
     const speakers: { [key: string]: object } = newSpeakers;

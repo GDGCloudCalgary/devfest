@@ -1,16 +1,22 @@
 /* eslint-disable */
-import { customElement, property } from '@polymer/decorators';
+import { computed, customElement, property } from '@polymer/decorators';
 import '@polymer/iron-icon';
 import '@polymer/paper-button';
 import { html, PolymerElement } from '@polymer/polymer';
 import '@power-elements/lazy-image';
 import '../components/markdown/short-markdown';
-import { RootState } from '../store';
+import { RootState, store } from '../store';
 import { ReduxMixin } from '../store/mixin';
 import { initialUiState } from '../store/ui/state';
-import { aboutOrganizerBlock, heroSettings } from '../utils/data';
+import { aboutOrganizerBlock, heroSettings, subscribeBlock } from '../utils/data';
 import '../utils/icons';
 import './shared-styles';
+import { initialUserState } from '../store/user/state';
+import { Success } from '@abraham/remotedata';
+import { DialogData } from '../models/dialog-form';
+import { subscribe } from '../store/subscribe/actions';
+import { openSubscribeDialog } from '../store/dialogs/actions';
+import { SubscribeState, initialSubscribeState } from '../store/subscribe/state';
 
 @customElement('about-organizer-block')
 export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
@@ -91,6 +97,20 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
           color: var(--secondary-text-color);
         }
 
+        .subscribe-description {
+          font-size: 24px;
+          line-height: 1.5;
+          margin: 0 0 16px;
+        }
+
+        .subscribe-banner {
+          display: flex;
+          width: 100%;
+          background-color: #2b2c2f;
+          color: #fff;
+          padding: 48px 0;
+        }
+
         .big-heading {
           font-size: 40px;
           line-height: 50px;
@@ -101,6 +121,11 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
           margin: 0;
         }
 
+        .cta-button {
+          display: flex;
+          justify-content: center;
+        }
+
         @media (max-width: 640px) {
           .locations {
             flex-direction: column;
@@ -108,6 +133,16 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
 
           .location-block {
             max-width: 100%;
+          }
+
+          .subscribe-banner {
+            padding: 16px 0;
+          }
+
+          .subscribe-description {
+            font-size: 32px;
+            margin: 0 0 24px;
+            text-align: center;
           }
         }
       </style>
@@ -122,7 +157,7 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
         </p>
 
         <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
-          <paper-button class="action-button" on-click="openSponsorIntake">
+          <paper-button class="action-button" on-click="openForm">
             <span>SPONSOR ᐳᐅ!DEVFESTYYC</span>
           </paper-button>
         </div>
@@ -134,8 +169,17 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
         <p>[[volunteersData.description]]</p>
 
         <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
-          <paper-button class="action-button" on-click="openVolunteerIntake">
-            <span>VOLUNTEER TODAY!</span>
+          <paper-button class="action-button" on-click="openForm">
+            <span>Sign up to get notified!</span>
+          </paper-button>
+        </div>
+      </div>
+
+      <div class="container subscribe-banner" layout vertical center$="[[viewport.isTabletPlus]]">
+        <div class="subscribe-description">[[subscribeBlock.callToAction.description]]</div>
+        <div class="cta-button">
+          <paper-button class="action-button" disabled$="[[subscribed.data]]" on-click="openForm">
+            <span class="cta-label">[[ctaLabel]]</span>
           </paper-button>
         </div>
       </div>
@@ -206,7 +250,7 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
         <div class="description-block" flex>
           <div class="block">
             <short-markdown
-              content="Google Developer Groups (GDG) are the world’s largest network of technologists. GDG chapters can be found in over 1000 cities worldwide (with 27 chapters across Canada). GDGs are committed to advancing developer knowledge and expertise of Google technology to build for AI, Cloud, Mobile and Web."
+              content="Google Developer Groups (GDG) are the world’s largest network of technologists. GDG chapters can be found in over 1000 cities worldwide (with 27 chapters across Canada). GDGs are committed to advancing developer knowledge and expertise of Google technology."
             ></short-markdown>
 
             <div
@@ -224,7 +268,7 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
 
       <div class="container section location-wrapper">
         <h1 class="container-title big-heading">Location</h1>
-        <p>Come meet us at the 1st floor of Platform Calgary for registration before heading to the Central Library!</p>
+        <!--<p>Come meet us at the 1st floor of Platform Calgary for registration before heading to the Central Library!</p>-->
         <div class="locations">
           <div class="location-block" flex>
             <div class="block">
@@ -270,12 +314,33 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
   private aboutOrganizerBlock = aboutOrganizerBlock;
   private team = heroSettings.team;
   private volunteersData = heroSettings.volunteers;
+  private subscribeBlock = subscribeBlock;
+
+  @property({ type: Object })
+  subscribed: SubscribeState = initialSubscribeState;
 
   @property({ type: Object })
   private viewport = initialUiState.viewport;
+  
+  @property({ type: Object })
+  private user = initialUserState;
 
   override stateChanged(state: RootState) {
     this.viewport = state.ui.viewport;
+    this.user = state.user;
+    this.subscribed = state.subscribed;
+  }
+
+  @computed('subscribed')
+  private get ctaIcon() {
+    return this.subscribed instanceof Success ? 'checked' : 'arrow-right-circle';
+  }
+
+  @computed('subscribed')
+  private get ctaLabel() {
+    return this.subscribed instanceof Success
+      ? this.subscribeBlock.subscribed
+      : this.subscribeBlock.callToAction.label;
   }
 
   private openSponsorIntake() {
@@ -284,5 +349,42 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
 
   private openVolunteerIntake() {
     window.open('https://go.devfestyyc.com/volunteerintake', '_blank');
+  }
+
+  private openForm() {
+    let userData = {
+      firstFieldValue: '',
+      secondFieldValue: '',
+    };
+
+    if (this.user instanceof Success) {
+      const name = this.user.data.displayName?.split(' ') || ['', ''];
+      userData = {
+        firstFieldValue: name[0] || '',
+        secondFieldValue: name[1] || '',
+      };
+
+      if (this.user.data.email) {
+        this.subscribeAction({ ...userData, email: this.user.data.email });
+      }
+    }
+
+    if (this.user instanceof Success && this.user.data.email) {
+      this.subscribeAction({ ...userData, email: this.user.data.email });
+    } else {
+      openSubscribeDialog({
+        title: this.subscribeBlock.formTitle,
+        submitLabel: this.subscribeBlock.subscribe,
+        firstFieldLabel: this.subscribeBlock.firstName,
+        secondFieldLabel: this.subscribeBlock.lastName,
+        firstFieldValue: userData.firstFieldValue,
+        secondFieldValue: userData.secondFieldValue,
+        submit: (data) => this.subscribeAction(data),
+      });
+    }
+  }
+
+  private subscribeAction(data: DialogData) {
+    store.dispatch(subscribe(data));
   }
 }

@@ -184,8 +184,7 @@ export class StatisticsBlock extends ThemedElement {
         <div class="section">
           <h1 class="container-title big-heading">Build smarter. Ship faster.</h1>
           <h3>
-            Unlock creativity and simplify your workflow with open, integrated solutions,
-            frameworks, programs and diversity. Get to know the 2023 ᐳᐅ!DEVFESTYYC programming!
+            Highlights of ᐳᐅ!DEVFESTYYC 2023!
           </h3>
           <div class="about-info">
             <div class="statistics-block about-info-half">

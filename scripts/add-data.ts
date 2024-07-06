@@ -115,7 +115,7 @@ export const importSessions = () => {
       status: sessionData.status || '',
       startsAt: sessionData.startsAt,
       endsAt: sessionData.endsAt,
-      year: ['2023'],
+      year: ['2024'],
     };
   }
   const docs: { [key: string]: object } = newSessions;
@@ -167,7 +167,7 @@ export const importSpeakers = async () => {
       title: speakerData.tagLine || '',
       id: speakerId || '',
       sessionizeId: speakerData.id || '',
-      year: speakerDoc.exists ? [...new Set([...(speakerDoc.data() as any).year, '2023'])] : ['2023'],
+      year: speakerDoc.exists ? [...new Set([...(speakerDoc.data() as any).year, '2024'])] : ['2024'],
     };
   }
   const speakers: { [key: string]: object } = newSpeakers;

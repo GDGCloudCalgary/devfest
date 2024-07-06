@@ -74,7 +74,8 @@ export class AboutBlock extends ThemedElement {
         .about-info {
           display: flex;
           flex-direction: row;
-          justify-content: space-between;
+          justify-content: center;
+          align-items: center;
         }
 
         .section {
@@ -184,7 +185,7 @@ export class AboutBlock extends ThemedElement {
           <h1 class="container-title big-heading center-heading">Build for AI, Cloud, Mobile and Web with Google.</h1>
           <p class="center-heading bottom-margin">North America’s premiere Google technology developer festival is back!</p>
           <div class="about-info">  
-            <div class="about-info-left">
+            <!--<div class="about-info-left">
               <a target="_blank" href="https://go.devfestyyc.com/innovationweek" class="image-link">
                 <lazy-image
                   class="about-image"
@@ -196,7 +197,7 @@ export class AboutBlock extends ThemedElement {
                 ᐳᐅ!DEVFESTYYC is the kick off to Calgary Innovation Week. Check out over 100 other
                 Innovation Week events!
               </p>
-            </div>
+            </div>-->
             <div class="about-info-right">
               <h1 class="container-title">${aboutBlock.callToAction.featuredSessions.title}</h1>
               <p>${aboutBlock.callToAction.featuredSessions.description}</p>

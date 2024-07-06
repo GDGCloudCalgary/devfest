@@ -519,18 +519,18 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           </div>-->
 
           <div class="info-items">
-            <div class="info-item">LIMITED SPONSORED PASSES AVAILABLE NOW!</div>
-            <div class="info-item info-item-description">Save up to $50 on festival pass to ᐳᐅ!DEVFESTYYC thanks to our Sponsors Badal.io and AIRIA. </div>
+            <div class="info-item">JOIN US AT NORTH AMERICA'S RADDEST DEVELOPER FESTIVAL.</div>
+            <div class="info-item info-item-description">ᐳᐅ!DEVFESTYYC 2024 Call for Speakers and Exhibitors is now open!</div>
           </div>
           <!--<subscribe-form></subscribe-form>-->
           <div class="action-buttons" layout horizontal center-justified wrap>
             <paper-button on-click="scrollToTickets" invert>
               <span class="ping-span"></span>
-              <iron-icon icon="hoverboard:ticket"></iron-icon>
-              GET YOUR DISCOUNTS NOW
+              <!--<iron-icon icon="hoverboard:ticket"></iron-icon>-->
+              SPEAK AT ᐳᐅ!DEVFESTYYC!
             </paper-button>
           </div>
-          <div class="limited-deal">Come meet us at the 1st floor of Platform Calgary for registration before heading to the Central Library!</div>
+          <!--<div class="limited-deal">Come meet us at the 1st floor of Platform Calgary for registration before heading to the Central Library!</div>-->
 
           <div class="scroll-down" on-click="scrollNextBlock">
             <svg
@@ -603,7 +603,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <speakers-block></speakers-block>
       <statistics-block></statistics-block>
       <tickets-block id="tickets-block"></tickets-block>
-      <subscribe-block></subscribe-block>
+      <!--<subscribe-block></subscribe-block>-->
       <about-organizer-block></about-organizer-block>
       <map-block></map-block>
       <partners-block></partners-block>
@@ -638,13 +638,14 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   }
 
   private scrollToTickets() {
-    const element = this.$['tickets-block'];
-    if (element) {
-      scrollToElement(element);
-    } else {
-      console.error('Error scrolling to section.');
-      // store.dispatch(queueSnackbar('Error scrolling to section.'));
-    }
+    window.open('https://go.devfestyyc.com/cfp', '_blank');
+    // const element = this.$['tickets-block'];
+    // if (element) {
+    //   scrollToElement(element);
+    // } else {
+    //   console.error('Error scrolling to section.');
+    //   // store.dispatch(queueSnackbar('Error scrolling to section.'));
+    // }
   }
 
   private scrollNextBlock() {

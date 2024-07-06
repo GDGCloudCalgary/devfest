@@ -29,16 +29,6 @@
       "label": "Speakers"
     },
     {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "label": "Schedule"
-    },
-    {
-      "route": "volunteers",
-      "permalink": "/volunteers/",
-      "label": "Volunteers"
-    },
-    {
       "route": "team",
       "permalink": "/team/",
       "label": "Team"
@@ -184,7 +174,7 @@
       }
     ]
   },
-  "mailto": "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&su=Questions+about+DevFestYYC&to=info@gdgyyc.com&body=Hi,+%0D%0A%0D%0AI+was+on+the+DevFestYYC+site+and+have+a+few+questions.",
+  "mailto": "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&su=Questions+about+DevFestYYC&to=info@devfestyyc.com&body=Hi,+%0D%0A%0D%0AI+was+on+the+DevFestYYC+site+and+have+a+few+questions.",
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"

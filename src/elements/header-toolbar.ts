@@ -142,7 +142,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           border-radius: 0.5rem;
         }
 
-        .innovation-week {
+        .nav-link-button {
           padding: 12px 24px;
           font-family: var(--paper-font-common-base_-_font-family);
           cursor: pointer;
@@ -220,8 +220,8 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             </paper-tab>
           </template>
 
-          <div class="nav-item innovation-week" on-click="goToInnovationWeek">
-            Innovation Week
+          <div class="nav-item nav-link-button" on-click="register">
+            Get notified!
           </div>
 
           <!--<paper-tab class="signin-tab" on-click="signIn" link hidden$="[[signedIn]]">
@@ -362,41 +362,41 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
     }
   }
 
-  private goToInnovationWeek() {
+  private navLinkButtonAction() {
     window.open('https://go.devfestyyc.com/innovationweek', '_blank');
   }
 
   private register() {
-    // let userData = {
-    //   firstFieldValue: '',
-    //   secondFieldValue: '',
-    // };
+    let userData = {
+      firstFieldValue: '',
+      secondFieldValue: '',
+    };
 
-    // if (this.user instanceof Success) {
-    //   const name = this.user.data.displayName?.split(' ') || ['', ''];
-    //   userData = {
-    //     firstFieldValue: name[0] || '',
-    //     secondFieldValue: name[1] || '',
-    //   };
+    if (this.user instanceof Success) {
+      const name = this.user.data.displayName?.split(' ') || ['', ''];
+      userData = {
+        firstFieldValue: name[0] || '',
+        secondFieldValue: name[1] || '',
+      };
 
-    //   if (this.user.data.email) {
-    //     this.subscribeAction({ ...userData, email: this.user.data.email });
-    //   }
-    // }
+      if (this.user.data.email) {
+        this.subscribeAction({ ...userData, email: this.user.data.email });
+      }
+    }
 
-    // if (this.user instanceof Success && this.user.data.email) {
-    //   this.subscribeAction({ ...userData, email: this.user.data.email });
-    // } else {
-    //   openSubscribeDialog({
-    //     title: this.subscribeBlock.formTitle,
-    //     submitLabel: this.subscribeBlock.subscribe,
-    //     firstFieldLabel: this.subscribeBlock.firstName,
-    //     secondFieldLabel: this.subscribeBlock.lastName,
-    //     firstFieldValue: userData.firstFieldValue,
-    //     secondFieldValue: userData.secondFieldValue,
-    //     submit: (data) => this.subscribeAction(data),
-    //   });
-    // }
+    if (this.user instanceof Success && this.user.data.email) {
+      this.subscribeAction({ ...userData, email: this.user.data.email });
+    } else {
+      openSubscribeDialog({
+        title: this.subscribeBlock.formTitle,
+        submitLabel: this.subscribeBlock.subscribe,
+        firstFieldLabel: this.subscribeBlock.firstName,
+        secondFieldLabel: this.subscribeBlock.lastName,
+        firstFieldValue: userData.firstFieldValue,
+        secondFieldValue: userData.secondFieldValue,
+        submit: (data) => this.subscribeAction(data),
+      });
+    }
 
     // scroll to tickets section
     // const hoverboardApp = document.getElementsByTagName('hoverboard-app')[0];

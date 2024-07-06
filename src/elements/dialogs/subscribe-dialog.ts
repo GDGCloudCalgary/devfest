@@ -6,6 +6,8 @@ import { Dialog } from '@material/mwc-dialog';
 import { observe, property, query } from '@polymer/decorators';
 import '@polymer/paper-button';
 import '@polymer/paper-input/paper-input';
+import '@polymer/paper-checkbox';
+import '@polymer/paper-checkbox/paper-checkbox';
 import { PaperInputElement } from '@polymer/paper-input/paper-input';
 import { html, PolymerElement } from '@polymer/polymer';
 import { DialogForm } from '../../models/dialog-form';
@@ -24,6 +26,7 @@ import { subscribeBlock } from '../../utils/data';
 import '../../utils/icons';
 import { notEmpty, validEmail } from '../../utils/strings';
 import '../shared-styles';
+import { PaperCheckboxElement } from '@polymer/paper-checkbox';
 
 // Used for adding documents to both `subscribers` and `potentialPartners` collections
 
@@ -50,6 +53,21 @@ class SubscribeDialog extends ReduxMixin(PolymerElement) {
         .general-error {
           margin: 0 32px;
           color: var(--error-color);
+        }
+
+        .label {
+          color: var(--text-primary-color);
+          width: 100%;
+        }
+
+        .container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .checkbox-input {
+          margin-top: 4px;
         }
       </style>
 
@@ -90,6 +108,42 @@ class SubscribeDialog extends ReduxMixin(PolymerElement) {
           autocomplete="off"
         >
         </paper-input>
+
+        <div class="container">
+          <div class="label">I am interested in:</div>
+
+          <paper-checkbox
+          id="speaking"
+          class="label"
+          style="margin-top: 10px"
+          checked="{{speakingValue}}">
+            Speaking
+          </paper-checkbox>
+          <paper-checkbox
+          id="attending"
+          class="label checkbox-input"
+          checked="{{attendingValue}}">
+            Attending
+          </paper-checkbox>
+          <paper-checkbox
+          id="sponsoring"
+          class="label checkbox-input"
+          checked="{{sponsoringValue}}">
+            Sponsoring
+          </paper-checkbox>
+          <paper-checkbox
+          id="exhibiting"
+          class="label checkbox-input"
+          checked="{{exhibitingValue}}">
+            Exhibiting
+            </paper-checkbox>
+          <paper-checkbox
+          id="volunteering"
+          class="label checkbox-input"
+          checked="{{volunteeringValue}}">
+            Volunteering
+          </paper-checkbox>
+        </div>
 
         <mwc-button on-click="subscribe" slot="primaryAction"> [[submitLabel]] </mwc-button>
         <mwc-button on-click="close" slot="secondaryAction" dialogAction="cancel">
@@ -132,6 +186,16 @@ class SubscribeDialog extends ReduxMixin(PolymerElement) {
   private email = '';
   @property({ type: Number })
   private initialHeight = 0;
+  @property({ type: Boolean })
+  private speakingValue = false;
+  @property({ type: Boolean })
+  private attendingValue = false;
+  @property({ type: Boolean })
+  private sponsoringValue = false;
+  @property({ type: Boolean })
+  private exhibitingValue = false;
+  @property({ type: Boolean })
+  private volunteeringValue = false;
 
   private subscribeBlock = subscribeBlock;
 
@@ -143,6 +207,16 @@ class SubscribeDialog extends ReduxMixin(PolymerElement) {
   firstFieldInput!: PaperInputElement;
   @query('#secondFieldInput')
   secondFieldInput!: PaperInputElement;
+  @query('#speaking')
+  speaking!: PaperCheckboxElement;
+  @query('#attending')
+  attending!: PaperCheckboxElement;
+  @query('#sponsoring')
+  sponsoring!: PaperCheckboxElement;
+  @query('#exhibiting')
+  exhibiting!: PaperCheckboxElement;
+  @query('#volunteering')
+  volunteering!: PaperCheckboxElement;
 
   override stateChanged(state: RootState) {
     this.subscribed = state.subscribed;
@@ -213,10 +287,25 @@ class SubscribeDialog extends ReduxMixin(PolymerElement) {
         return;
       }
 
+      if (!this.speaking.checked && !this.attending.checked && !this.sponsoring.checked && !this.exhibiting.checked
+        && !this.volunteering.checked) {
+        this.speaking.invalid = true;
+        this.attending.invalid = true;
+        this.sponsoring.invalid = true;
+        this.exhibiting.invalid = true;
+        this.volunteering.invalid = true;
+        return;
+      }
+
       this.dialog.data.data.submit({
         email: this.email,
         firstFieldValue: this.firstFieldValue,
         secondFieldValue: this.secondFieldValue,
+        speaking: this.speakingValue,
+        attending: this.attendingValue,
+        sponsoring: this.sponsoringValue,
+        exhibiting: this.exhibitingValue,
+        volunteering: this.volunteeringValue
       });
     }
   }
@@ -240,6 +329,11 @@ class SubscribeDialog extends ReduxMixin(PolymerElement) {
     this.validate = false;
     this.firstFieldInput.value = userData ? userData.firstFieldValue : '';
     this.secondFieldInput.value = userData ? userData.secondFieldValue : '';
+    this.speaking.checked = userData ? userData.speaking : false;
+    this.attending.checked = userData ? userData.attending : false;
+    this.sponsoring.checked = userData ? userData.sponsoring : false;
+    this.exhibiting.checked = userData ? userData.exhibiting : false;
+    this.volunteering.checked = userData ? userData.volunteering : false;
     this.firstFieldInput.focus();
     this.firstFieldInput.blur();
     this.secondFieldInput.focus();

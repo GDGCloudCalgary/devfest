@@ -247,26 +247,31 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
 
         <div class="year-selection">
           <template is="dom-if" if="[[_isEqualTo(year, '2019')]]">
-            <span year="2019" on-click="filterList" class="year-button border-right year-selected"
-              >2019</span
-            >
+            <span year="2019" on-click="filterList" class="year-button border-right year-selected">2019</span>
           </template>
           <template is="dom-if" if="[[!_isEqualTo(year, '2019')]]">
             <span year="2019" on-click="filterList" class="year-button border-right">2019</span>
           </template>
+        
           <template is="dom-if" if="[[_isEqualTo(year, '2020')]]">
-            <span year="2020" on-click="filterList" class="year-button border-right year-selected"
-              >2020</span
-            >
+            <span year="2020" on-click="filterList" class="year-button border-right year-selected">2020</span>
           </template>
           <template is="dom-if" if="[[!_isEqualTo(year, '2020')]]">
             <span year="2020" on-click="filterList" class="year-button border-right">2020</span>
           </template>
+
           <template is="dom-if" if="[[_isEqualTo(year, '2023')]]">
             <span year="2023" on-click="filterList" class="year-button year-selected">2023</span>
           </template>
           <template is="dom-if" if="[[!_isEqualTo(year, '2023')]]">
             <span year="2023" on-click="filterList" class="year-button">2023</span>
+          </template>
+
+          <template is="dom-if" if="[[_isEqualTo(year, '2024')]]">
+            <span year="2024" on-click="filterList" class="year-button year-selected">2024</span>
+          </template>
+          <template is="dom-if" if="[[!_isEqualTo(year, '2024')]]">
+            <span year="2024" on-click="filterList" class="year-button">2024</span>
           </template>
         </div>
 
@@ -314,16 +319,25 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
           </template>
         </div>
         <template is="dom-if" if="[[!filteredSpeakers.length]]">
-          <h1 style="text-align: center">Coming Soon!</h1>
-        </template>
-
-        <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
-          <a href="[[speakersBlock.callToAction.link]]">
+          <!--<h1 style="text-align: center">Coming Soon!</h1>-->
+          <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
+          <a href="https://go.devfestyyc.com/cfp" target="blank">
             <paper-button class="action-button">
-              <span>[[speakersBlock.callToAction.label]]</span>
+              <span>Call for Speakers</span>
             </paper-button>
           </a>
         </div>
+        </template>
+
+        <template is="dom-if" if="[[filteredSpeakers.length]]">
+          <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
+            <a href="[[speakersBlock.callToAction.link]]">
+              <paper-button class="action-button">
+                <span>[[speakersBlock.callToAction.label]]</span>
+              </paper-button>
+            </a>
+          </div>
+        </template>
       </div>
     `;
   }
