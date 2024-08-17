@@ -6,7 +6,13 @@ import { Ticket } from '../models/ticket';
 import { RootState, store } from '../store';
 import { ReduxMixin } from '../store/mixin';
 import { initialTicketsState } from '../store/tickets/state';
-import { buyTicket, contentLoaders, showpass, subscribeBlock, ticketsBlock } from '../utils/data';
+import {
+  buyTicket,
+  contentLoaders,
+  // showpass,
+  subscribeBlock,
+  ticketsBlock
+} from '../utils/data';
 import '../utils/icons';
 import './content-loader';
 import './shared-styles';
@@ -14,7 +20,7 @@ import { initialUserState } from '../store/user/state';
 import { DialogData } from '../models/dialog-form';
 import { subscribe } from '../store/subscribe/actions';
 import { openSubscribeDialog } from '../store/dialogs/actions';
-import { logTicketsClick } from '../utils/analytics';
+import { initialContentStateState } from '../store/content-state/state';
 
 @customElement('tickets-block')
 export class TicketsBlock extends ReduxMixin(PolymerElement) {
@@ -188,7 +194,7 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
 
       <div class="tickets-wrapper container section">
         <h1 class="container-title big-heading">[[ticketsBlock.title]]</h1>
-        <h2>Early Bird Tickets go on sale Friday July 12, 2024. Don't miss out! Sign up to get notifications when Early Bird Tickets go on sale!.</h2>
+        <h2>[[ticketsBlockDescription]]</h2>
 
         <content-loader
           class="tickets-placeholder"
@@ -211,7 +217,7 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
             class="action-button"
             on-click="onTicketTap"
           >
-            Subscribe
+          [[ticketsBlockCallToAction]]
           </paper-button>
         </div>
 
@@ -222,6 +228,8 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
   private ticketsBlock = ticketsBlock;
   private contentLoaders = contentLoaders.tickets;
   private subscribeBlock = subscribeBlock;
+  private ticketsBlockDescription = ticketsBlock.description;
+  private ticketsBlockCallToAction = ticketsBlock.callToAction;
 
   @property({ type: Object })
   tickets = initialTicketsState;
@@ -229,9 +237,18 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
   @property({ type: Object })
   private user = initialUserState;
 
+  @property({ type: Object })
+  contentState = initialContentStateState;
+
   override stateChanged(state: RootState) {
     this.tickets = state.tickets;
     this.user = state.user;
+    this.contentState = state.contentState;
+    if (this.contentState instanceof Success) {
+      const contentStateTicketsBlock = this.contentState.data['ticketsBlock'] ?? {};
+      this.ticketsBlockDescription = contentStateTicketsBlock.description ?? ticketsBlock.description;
+      this.ticketsBlockCallToAction = contentStateTicketsBlock.callToAction ?? ticketsBlock.callToAction;
+    }
   }
 
   @computed('tickets')
@@ -347,7 +364,8 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
               <div class="content" layout vertical flex-auto>
                 <div class="ticket-price-wrapper">
                   <div class="price">[[ticket.currency]][[ticket.price]]</div>
-                  <div class="price-original" hidden$="[[!ticket.originalPrice]]">[[ticket.currency]][[ticket.originalPrice]]</div>
+                  <div class="price-original" hidden$="[[!ticket.originalPrice]]">
+                  [[ticket.currency]][[ticket.originalPrice]]</div>
                   <!--<div class="price">[[ticket.currency]]000</div>-->
                   <div class="discount">[[getDiscount(ticket)]]</div>
                 </div>
@@ -376,7 +394,11 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
         <!--<div class="additional-info">*[[ticketsBlock.ticketsDetails]]</div>-->
         <!--<h2 class="laid-off">Have you been recently laid off?</h2>-->
         <!--<p>ᐳᐅ!DEVFESTYYC is proud to offer one (1) complimentary Festival pass.</p>-->
-        <!--<div class="additional-info">*This is a limited quantity, first-come first-served offer. Once we run out of free passes they won't be available anymore. Certain conditions apply. Go to <a href="https://go.devfestyyc.com/LAIDOFFLIFTOFF" target="_blank">go.devfestyyc.com/LAIDOFFLIFTOFF</a> to get your ticket.</div>-->
+        <!--<div class="additional-info">*This is a limited quantity, first-come first-served offer.
+        Once we run out of free passes they won't be available anymore. Certain conditions apply.
+        Go to 
+        <a href="https://go.devfestyyc.com/LAIDOFFLIFTOFF" target="_blank">go.devfestyyc.com/LAIDOFFLIFTOFF</a>
+         to get your ticket.</div>-->
         <!--<h2 class="laid-off">JUSTIFY YOUR ATTENDANCE</h2>-->
         <!--<p>
           Want to get your manager or organization to support your attendance at ᐳᐅ!DEVFESTYYC?

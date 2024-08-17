@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { authReducer } from './auth/reducers';
 import { blogReducer } from './blog/reducers';
+import { contentStateReducer } from './content-state/reducers';
 import { dialogsReducer } from './dialogs/reducers';
 import { featuredSessionsReducer } from './featured-sessions/reducers';
 import feedback from './feedback';
@@ -34,6 +35,7 @@ export const store = configureStore({
   reducer: {
     auth: authReducer,
     blog: blogReducer,
+    contentState: contentStateReducer,
     dialogs: dialogsReducer,
     featuredSessions: featuredSessionsReducer,
     feedback,

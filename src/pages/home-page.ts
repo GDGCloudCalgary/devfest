@@ -19,24 +19,28 @@ import '../elements/subscribe-block';
 import '../elements/tickets-block';
 import '../elements/subscribe-form';
 import { firebaseApp } from '../firebase';
-import { store } from '../store';
+// import { store } from '../store';
 import { ReduxMixin } from '../store/mixin';
-import { queueSnackbar } from '../store/snackbars';
+// import { queueSnackbar } from '../store/snackbars';
 import { openVideoDialog } from '../store/ui/actions';
 import {
   aboutBlock,
-  buyTicket,
-  dates,
+  // buyTicket,
+  // dates,
   description,
   heroSettings,
-  location,
+  // location,
   showForkMeBlockForProjectIds,
   title,
-  viewHighlights,
+  // viewHighlights,
+  homePage
 } from '../utils/data';
 import '../utils/icons';
 import { INCLUDE_SITE_TITLE, updateMetadata } from '../utils/metadata';
 import { POSITION, scrollToElement } from '../utils/scrolling';
+import { initialContentStateState } from '../store/content-state/state';
+import { RootState } from '../store';
+import { Success } from '@abraham/remotedata';
 
 @customElement('home-page')
 export class HomePage extends ReduxMixin(PolymerElement) {
@@ -519,18 +523,20 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           </div>-->
 
           <div class="info-items">
-            <div class="info-item">JOIN US AT NORTH AMERICA'S RADDEST DEVELOPER FESTIVAL.</div>
-            <div class="info-item info-item-description">ᐳᐅ!DEVFESTYYC 2024 Call for Speakers and Exhibitors is now open!</div>
+            <div class="info-item">[[homePageTitle]]</div>
+            <div class="info-item info-item-description">[[homePageDescription]]</div>
           </div>
           <!--<subscribe-form></subscribe-form>-->
           <div class="action-buttons" layout horizontal center-justified wrap>
             <paper-button on-click="scrollToTickets" invert>
               <span class="ping-span"></span>
               <!--<iron-icon icon="hoverboard:ticket"></iron-icon>-->
-              SPEAK AT ᐳᐅ!DEVFESTYYC!
+              [[homePageCallToAction]]
             </paper-button>
           </div>
-          <!--<div class="limited-deal">Come meet us at the 1st floor of Platform Calgary for registration before heading to the Central Library!</div>-->
+          <!--<div class="limited-deal">
+            Come meet us at the 1st floor of Platform Calgary for registration before heading to the Central Library!
+          </div>-->
 
           <div class="scroll-down" on-click="scrollNextBlock">
             <svg
@@ -614,21 +620,37 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   // <featured-videos></featured-videos>
   // <latest-posts-block></latest-posts-block>
 
-  private city = location.city;
-  private short = location.short;
-  private name = location.name;
+  // private city = location.city;
+  // private short = location.short;
+  // private name = location.name;
   private siteTitle = title;
-  private dates = dates;
-  private viewHighlights = viewHighlights;
-  private buyTicket = buyTicket;
+  // private dates = dates;
+  // private viewHighlights = viewHighlights;
+  // private buyTicket = buyTicket;
   private heroSettings = heroSettings.home;
   private aboutBlock = aboutBlock;
+  private homePageTitle = homePage.title;
+  private homePageDescription = description;
+  private homePageCallToAction = homePage.callToAction;
 
   @query('#hero')
   hero!: HeroBlock;
 
   @property({ type: Boolean })
   private showForkMeBlock: boolean = false;
+
+  @property({ type: Object })
+  contentState = initialContentStateState;
+
+  override stateChanged(state: RootState) {
+    this.contentState = state.contentState;
+    if (this.contentState instanceof Success) {
+      const contentStateHomePage = this.contentState.data['homePage'] ?? {};
+      this.homePageTitle = contentStateHomePage.title ?? homePage.title;
+      this.homePageDescription = contentStateHomePage.description ?? homePage.description;
+      this.homePageCallToAction = contentStateHomePage.callToAction ?? homePage.callToAction;
+    }
+  }
 
   private playVideo() {
     openVideoDialog({

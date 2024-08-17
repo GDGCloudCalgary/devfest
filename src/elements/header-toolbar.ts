@@ -31,6 +31,7 @@ import './notification-toggle';
 import './shared-styles';
 import { DialogData } from '../models/dialog-form';
 import { subscribe } from '../store/subscribe/actions';
+import { initialContentStateState } from '../store/content-state/state';
 
 export const HEADER_HEIGHT = 76;
 
@@ -201,8 +202,8 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           ></a>
         </div>
         <div layout vertical center flex class="location">
-          <span class="location-item">[[location.name]]</span>
-          <span class="location-item">[[location.short]]</span>
+          <span class="location-item">[[locationName]]</span>
+          <span class="location-item">[[locationShort]]</span>
           <span class="location-item">[[dates]]</span>
         </div>
 
@@ -285,7 +286,8 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
   private signOutText = signOutText;
   private buyTicket = buyTicket;
   private subscribeBlock = subscribeBlock;
-  private location = location;
+  private locationName = location.name;
+  private locationShort = location.short;
   private dates = dates;
 
   @property({ type: Boolean, notify: true })
@@ -308,6 +310,9 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
   @property({ type: Boolean })
   private isDialogOpen = false;
 
+  @property({ type: Object })
+  contentState = initialContentStateState;
+
   override stateChanged(state: RootState) {
     this.user = state.user;
     this.signedIn = state.user instanceof Success;
@@ -316,6 +321,13 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
     this.viewport = state.ui.viewport;
     this.routeName = selectRouteName(window.location.pathname);
     this.isDialogOpen = selectIsDialogOpen(state, DIALOG.SIGNIN);
+    this.contentState = state.contentState;
+    if (this.contentState instanceof Success) {
+      const contentStateLocation = this.contentState.data['location'] ?? {};
+      this.locationName = contentStateLocation.name ?? location.name;
+      this.locationShort = contentStateLocation.short ?? location.short;
+      this.dates = this.contentState.data['dates'] ?? dates;
+    }
   }
 
   override connectedCallback() {
@@ -400,8 +412,10 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
 
     // scroll to tickets section
     // const hoverboardApp = document.getElementsByTagName('hoverboard-app')[0];
-    // if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6] && window?.location?.pathname === '/') {
-    //   hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot.children[6].scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
+    // if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6]
+    //   && window?.location?.pathname === '/') {
+    //   hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot.children[6]
+    //     .scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
     // } else {
     //   window.open('https://www.showpass.com/devfestyyc2023/', '_blank');
     // }

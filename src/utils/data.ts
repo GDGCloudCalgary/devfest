@@ -19,6 +19,7 @@ export {
   footer,
   footerRelBlock,
   galleryBlock,
+  homePage,
   latestPostsBlock,
   loading,
   mapBlock,

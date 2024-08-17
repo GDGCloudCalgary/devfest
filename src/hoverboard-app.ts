@@ -46,7 +46,9 @@ import { Stickied } from './utils/stickied';
 import { initialUserState } from './store/user/state';
 import { DialogData } from './models/dialog-form';
 import { subscribe } from './store/subscribe/actions';
-import { openSubscribeDialog } from './store/dialogs/actions';
+// import { openSubscribeDialog } from './store/dialogs/actions';
+import { fetchContentState } from './store/content-state/actions';
+import { initialContentStateState } from './store/content-state/state';
 
 setPassiveTouchGestures(true);
 setRemoveNestedTemplates(true);
@@ -150,6 +152,18 @@ export class HoverboardApp extends PolymerElement {
           cursor: pointer;
         }
 
+        .loading {
+          height: 100vh;
+          width: 100%;
+          display: flex;
+          background-color: var(--primary-background-color);
+          position: absolute;
+          top: 0;
+          left: 0;
+          justify-content: center;
+          align-items: center;
+        }
+
         @media (min-width: 640px) {
           app-toolbar {
             padding: 0 36px;
@@ -213,6 +227,10 @@ export class HoverboardApp extends PolymerElement {
       <video-dialog></video-dialog>
 
       <snack-bar></snack-bar>
+      
+      <template is="dom-if" if="[[!contentStateSuccess]]">
+        <div class="loading"></div>
+      </template>
     `;
   }
 
@@ -244,8 +262,17 @@ export class HoverboardApp extends PolymerElement {
   @property({ type: Object })
   private user = initialUserState;
 
+  @property({ type: Object })
+  contentState = initialContentStateState;
+  
+  @computed('contentState')
+  private get contentStateSuccess() {
+    return this.contentState instanceof Success;
+  }
+
   stateChanged(state: RootState) {
     this.tickets = state.tickets;
+    this.contentState = state.contentState;
     this.routeName = selectRouteName(window.location.pathname);
     this.user = state.user;
     this.signedIn = state.user instanceof Success;
@@ -262,6 +289,7 @@ export class HoverboardApp extends PolymerElement {
     window.addEventListener('offline', () => store.dispatch(queueSnackbar(offlineMessage)));
     this.drawer.addEventListener('opened-changed', (event) => this.toggleDrawer(event));
     store.dispatch(fetchTickets);
+    store.dispatch(fetchContentState);
   }
 
   override ready() {
@@ -310,8 +338,10 @@ export class HoverboardApp extends PolymerElement {
     //   });
     // }
     const hoverboardApp = document.getElementsByTagName('hoverboard-app')[0];
-    if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6] && window?.location?.pathname === '/') {
-      hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot.children[6].scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
+    if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6]
+      && window?.location?.pathname === '/') {
+      hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot
+        .children[6].scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
     } else {
       window.open('https://www.showpass.com/devfestyyc2023/', '_blank');
     }

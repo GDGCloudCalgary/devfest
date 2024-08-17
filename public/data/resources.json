@@ -28,6 +28,11 @@
   "coc": "/data/coc.md",
   "timezoneOffset": "-180",
   "loading": "Loading...",
+  "homePage": {
+    "title": "JOIN US AT NORTH AMERICA'S RADDEST DEVELOPER FESTIVAL.",
+    "description": "ᐳᐅ!DEVFESTYYC 2024 Call for Speakers and Exhibitors is now open!",
+    "callToAction": "SPEAK AT ᐳᐅ!DEVFESTYYC!"
+  },
   "footer": {
     "blog": "Blog"
   },
@@ -127,10 +132,12 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
+    "description": "Early Bird Tickets go on sale Saturday August 31, 2024. Don't miss out! Sign up to get notifications when Early Bird Tickets go on sale!.",
     "ticketsDetails": "Your pass grants you access to all keynotes, technical sessions, hands-on workshops and presentations. You'll also get opportunities to meet and network with speakers and community members. Stay tuned for special pop-up events!",
     "soldOut": "You missed it!",
     "notAvailableYet": "Subscribe!",
-    "save": "Save ${discount}% today"
+    "save": "Save ${discount}% today",
+    "callToAction": "Subscribe"
   },
   "partnersBlock": {
     "title": "2023 Sponsors",

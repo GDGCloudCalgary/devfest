@@ -1,4 +1,4 @@
-import * as functions from 'firebase-functions';
+import * as functions from 'firebase-functions/v1';
 import fetch, { Response, HeadersInit } from 'node-fetch';
 import { getFirestore } from 'firebase-admin/firestore';
 import { sessionsSpeakersMap } from './schedule-generator/speakers-sessions-map.js';
