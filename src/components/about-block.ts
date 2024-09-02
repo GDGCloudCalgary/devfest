@@ -183,7 +183,7 @@ export class AboutBlock extends ThemedElement {
       <div class="container">
         <div class="section">
           <h1 class="container-title big-heading center-heading">Build for AI, Cloud, Mobile and Web with Google.</h1>
-          <p class="center-heading bottom-margin">North America’s premiere Google technology developer festival is back!</p>
+          <p class="center-heading bottom-margin">North America’s raddest Google technology developer festival is back!</p>
           <div class="about-info">  
             <!--<div class="about-info-left">
               <a target="_blank" href="https://go.devfestyyc.com/innovationweek" class="image-link">

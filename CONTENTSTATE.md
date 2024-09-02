@@ -4,7 +4,7 @@ The website has a snapshot listener to firestore reference `/config/site/States/
 
 The state is a JSON object with the following structure, the `current` document can be updated manually to change the content of the website immediately, other documents can be created to schedule future changes:
 
-```json
+```js
 {
     // The date of the state change in the format MM-DD
     "date": "04-28",
@@ -28,7 +28,9 @@ The state is a JSON object with the following structure, the `current` document 
         // The description of the home page to display on the website
         "description": "ᐳᐅ!DEVFESTYYC 2024 Call for Speakers and Exhibitors is now open!",
         // The call to action button text of the home page to display on the website
-        "callToAction": "SPEAK AT ᐳᐅ!DEVFESTYYC!"
+        "callToAction": "SPEAK AT ᐳᐅ!DEVFESTYYC!",
+        // The limited deal to display on the website
+        "limitedDeal": "Super Early Bird Tickets on sale till September 15, while supplies last."
     }
 }
 ```

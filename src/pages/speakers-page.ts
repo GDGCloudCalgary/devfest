@@ -131,6 +131,13 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           transform: translateZ(0);
         }
 
+        .data-container {
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
         .badges {
           position: absolute;
           top: 0;
@@ -173,25 +180,24 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
         }
 
         .company-logo {
-          --lazy-image-width: 100%;
-          --lazy-image-height: 16px;
+          --lazy-image-width: 90%;
+          --lazy-image-height: 90%;
+          transform: translate(5%, 5%);
           --lazy-image-fit: contain;
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
         }
 
         .company-logo-container {
-          position: absolute;
-          bottom: 10%;
-          right: 25%;
           border: 1px solid #fff;
-          width: 40px;
+          width: 200px;
           height: 40px;
           border-radius: 30px;
           display: flex;
           align-items: center;
           justify-content: center;
           background-color: var(--text-primary-color);
+          margin-top: 20px;
         }
 
         .description {
@@ -310,7 +316,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
       <div class="container">
         <template is="dom-repeat" items="{{filteredSpeakers}}" as="speaker">
           <a class="speaker card" href$="[[speakerUrl(speaker.id)]]">
-            <div relative>
+            <div class="data-container" relative>
               <lazy-image
                 class="photo"
                 src="[[speaker.photoUrl]]"
@@ -368,11 +374,12 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
       <template is="dom-if" if="[[!filteredSpeakers.length]]">
         <!--<h1 style="text-align: center">Coming Soon!</h1>-->
         <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 100px">
-          <a href="https://go.devfestyyc.com/cfp" target="blank">
+          <!-- <a href="https://go.devfestyyc.com/cfp" target="blank">
             <paper-button class="action-button">
               <span>Call for Speakers</span>
             </paper-button>
-          </a>
+          </a> -->
+          <span>2024 Speaker Lineup launching September 15th</span>
         </div>
       </template>
 

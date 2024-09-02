@@ -151,14 +151,14 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
         <h1 class="container-title big-heading">Sponsors</h1>
         <h1 class="container-title">Your brand. Elevated.</h1>
         <p>
-          Sponsors and partners get involved in ᐳᐅ!DEVFESTYYC to maximize their impact in the
-          developer community, attract new talent and position their brands with our local and
-          international audience.
+          Ready to connect with top developers and technologists in one of the fastest growing tech ecosystems on the planet?
         </p>
-
+        <p>
+          Sponsors get involved in ᐳᐅ!DEVFESTYYC to reach developers, technologists and decision influencers with powerful activations.
+        </p>
         <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
           <paper-button class="action-button" on-click="openForm">
-            <span>SPONSOR ᐳᐅ!DEVFESTYYC</span>
+            <span>Request our Audience Data</span>
           </paper-button>
         </div>
       </div>
@@ -167,6 +167,7 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
         <h1 class="container-title big-heading">Volunteers</h1>
         <h1 class="container-title">[[volunteersData.title]]</h1>
         <p>[[volunteersData.description]]</p>
+        <p>ᐳᐅ!DEVFESTYYC is produced by GDGYYC, an all volunteer-led, not-for-profit chapter of Google’s world-wide developer ecosystem of 1 million developers, known as Google Developer Groups (GDG).</p>
 
         <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
           <paper-button class="action-button" on-click="openForm">
@@ -185,7 +186,7 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
       </div>
 
       <div class="container section">
-        <h1 class="container-title big-heading">Organizer</h1>
+        <h1 class="container-title big-heading">Festival Organizer</h1>
         <div layout horizontal>
           <div layout horizontal center-center flex hidden$="[[viewport.isPhone]]">
             <a href="/team" class="image-link">
@@ -203,6 +204,8 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
                 <h1 class="container-title">[[block.title]]</h1>
 
                 <short-markdown content="[[block.description]]"></short-markdown>
+                <span style="font-weight: bold;">[[block.highlight]]</span>
+                <short-markdown content="[[block.text]]"></short-markdown>
 
                 <template is="dom-if" if="[[block.callToAction.newTab]]">
                   <a href="[[block.callToAction.link]]" target="_blank" rel="noopener noreferrer">

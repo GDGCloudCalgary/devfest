@@ -10,7 +10,7 @@ import { Hero } from '../models/hero';
 import { selectRouteName } from '../router';
 import { RootState, store } from '../store';
 import { signOut as signOutAction } from '../store/auth/actions';
-import { closeDialog, openSigninDialog, openSubscribeDialog } from '../store/dialogs/actions';
+import { closeDialog, openSigninDialog } from '../store/dialogs/actions';
 import { selectIsDialogOpen } from '../store/dialogs/selectors';
 import { DIALOG } from '../store/dialogs/types';
 import { ReduxMixin } from '../store/mixin';
@@ -221,21 +221,22 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             </paper-tab>
           </template>
 
-          <div class="nav-item nav-link-button" on-click="register">
+          <!-- <div class="nav-item nav-link-button" on-click="register">
             Get notified!
-          </div>
+          </div> -->
 
-          <!--<paper-tab class="signin-tab" on-click="signIn" link hidden$="[[signedIn]]">
+          <paper-tab class="signin-tab" on-click="signIn" link hidden$="[[signedIn]]">
             [[signInText]]
-          </paper-tab>-->
+          </paper-tab>
 
-          <a on-click="signIn" rel="noopener noreferrer" hidden$="[[isAccountIconHidden(signedIn, viewport.isPhone)]]">
+          <!-- <a on-click="signIn" rel="noopener noreferrer"
+            hidden$="[[isAccountIconHidden(signedIn, viewport.isPhone)]]">
             <paper-button class="buy-button" primary>[[signInText]]</paper-button>
-          </a>
+          </a> -->
 
-          <!--<a on-click="register" rel="noopener noreferrer">
+          <a on-click="register" rel="noopener noreferrer">
             <paper-button class="buy-button" primary>[[buyTicket]]</paper-button>
-          </a>-->
+          </a>
         </paper-tabs>
 
         <div class="action-buttons">
@@ -379,46 +380,46 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
   }
 
   private register() {
-    let userData = {
-      firstFieldValue: '',
-      secondFieldValue: '',
-    };
+    // let userData = {
+    //   firstFieldValue: '',
+    //   secondFieldValue: '',
+    // };
 
-    if (this.user instanceof Success) {
-      const name = this.user.data.displayName?.split(' ') || ['', ''];
-      userData = {
-        firstFieldValue: name[0] || '',
-        secondFieldValue: name[1] || '',
-      };
+    // if (this.user instanceof Success) {
+    //   const name = this.user.data.displayName?.split(' ') || ['', ''];
+    //   userData = {
+    //     firstFieldValue: name[0] || '',
+    //     secondFieldValue: name[1] || '',
+    //   };
 
-      if (this.user.data.email) {
-        this.subscribeAction({ ...userData, email: this.user.data.email });
-      }
-    }
+    //   if (this.user.data.email) {
+    //     this.subscribeAction({ ...userData, email: this.user.data.email });
+    //   }
+    // }
 
-    if (this.user instanceof Success && this.user.data.email) {
-      this.subscribeAction({ ...userData, email: this.user.data.email });
-    } else {
-      openSubscribeDialog({
-        title: this.subscribeBlock.formTitle,
-        submitLabel: this.subscribeBlock.subscribe,
-        firstFieldLabel: this.subscribeBlock.firstName,
-        secondFieldLabel: this.subscribeBlock.lastName,
-        firstFieldValue: userData.firstFieldValue,
-        secondFieldValue: userData.secondFieldValue,
-        submit: (data) => this.subscribeAction(data),
-      });
-    }
+    // if (this.user instanceof Success && this.user.data.email) {
+    //   this.subscribeAction({ ...userData, email: this.user.data.email });
+    // } else {
+    //   openSubscribeDialog({
+    //     title: this.subscribeBlock.formTitle,
+    //     submitLabel: this.subscribeBlock.subscribe,
+    //     firstFieldLabel: this.subscribeBlock.firstName,
+    //     secondFieldLabel: this.subscribeBlock.lastName,
+    //     firstFieldValue: userData.firstFieldValue,
+    //     secondFieldValue: userData.secondFieldValue,
+    //     submit: (data) => this.subscribeAction(data),
+    //   });
+    // }
 
     // scroll to tickets section
-    // const hoverboardApp = document.getElementsByTagName('hoverboard-app')[0];
-    // if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6]
-    //   && window?.location?.pathname === '/') {
-    //   hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot.children[6]
-    //     .scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
-    // } else {
-    //   window.open('https://www.showpass.com/devfestyyc2023/', '_blank');
-    // }
+    const hoverboardApp = document.getElementsByTagName('hoverboard-app')[0];
+    if (hoverboardApp?.shadowRoot?.children[1]?.children[1]?.children[1]?.children[0]?.shadowRoot?.children[6]
+      && window?.location?.pathname === '/') {
+      hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot.children[6]
+        .scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
+    } else {
+      window.open('https://go.devfestyyc.com/FESTIVALPASS', '_blank');
+    }
   }
 
   private isAccountIconHidden(signedIn: boolean, isTabletPlus: boolean) {

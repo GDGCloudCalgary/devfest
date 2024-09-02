@@ -343,7 +343,7 @@ export class HoverboardApp extends PolymerElement {
       hoverboardApp.shadowRoot.children[1].children[1].children[1].children[0].shadowRoot
         .children[6].scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
     } else {
-      window.open('https://www.showpass.com/devfestyyc2023/', '_blank');
+      window.open('https://go.devfestyyc.com/FESTIVALPASS', '_blank');
     }
   }
 

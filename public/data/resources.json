@@ -31,7 +31,8 @@
   "homePage": {
     "title": "JOIN US AT NORTH AMERICA'S RADDEST DEVELOPER FESTIVAL.",
     "description": "ᐳᐅ!DEVFESTYYC 2024 Call for Speakers and Exhibitors is now open!",
-    "callToAction": "SPEAK AT ᐳᐅ!DEVFESTYYC!"
+    "callToAction": "GET TICKETS",
+    "limitedDeal": "Super Early Bird Tickets on sale till September 15, while supplies last."
   },
   "footer": {
     "blog": "Blog"
@@ -59,6 +60,11 @@
           "newTab": true
         },
         {
+          "name": "Google for developers",
+          "url": "https://developers.google.com/",
+          "newTab": true
+        },
+        {
           "name": "Meet the Team",
           "url": "/team"
         }
@@ -68,7 +74,7 @@
       "title": "Event Resources",
       "links": [
         {
-          "name": "Sponsorship Proposition",
+          "name": "Sponsorship Proposal",
           "url": "dialog"
         },
         {
@@ -98,7 +104,7 @@
       },
       "info": {
         "title": "Advance Expertise. Master Technology. Learn More.",
-        "description": "ᐳᐅ!DEVFESTYYC will advance your expertise in Google Cloud and Cloud Native technology. Master the tools and techniques required to design, architect, develop, scale, launch, secure,  integrate and maintain today’s advanced technology solutions.",
+        "description": "ᐳᐅ!DEVFESTYYC will advance your expertise in Google developer platforms and technologies like Gemini, Android Studio, Chrome, Firebase, AR Core, IDX and many more. Master the tools and techniques required to design, architect, develop, scale, launch, secure, integrate and maintain today’s advanced technology solutions.",
         "label": "DevFestYYC 2019 is coming!",
         "youtubeId": "hTJ_-MxHKMY"
       }
@@ -106,19 +112,23 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "700+"
+        "number": "1100+"
       },
       "days": {
-        "label": "Keynotes",
+        "label": "Developer Keynotes",
         "number": "4"
       },
+      "speakers": {
+        "label": "Speakers, Artists and Exhibitors",
+        "number": "70+"
+      },
       "sessions": {
-        "label": "Speakers",
-        "number": "50+"
+        "label": "Sessions, workshops, labs and demos",
+        "number": "100+"
       },
       "tracks": {
         "label": "Tracks",
-        "number": "7"
+        "number": "10"
       },
       "prizes": {
         "label": "Rad Party",
@@ -132,7 +142,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "description": "Early Bird Tickets go on sale Saturday August 31, 2024. Don't miss out! Sign up to get notifications when Early Bird Tickets go on sale!.",
+    "description": "Super Early Bird Tickets available (while supplies last) until September 15th, 2024. Don't miss out!",
     "ticketsDetails": "Your pass grants you access to all keynotes, technical sessions, hands-on workshops and presentations. You'll also get opportunities to meet and network with speakers and community members. Stay tuned for special pop-up events!",
     "soldOut": "You missed it!",
     "notAvailableYet": "Subscribe!",
@@ -175,7 +185,7 @@
   },
   "speakersBlock": {
     "title": "The best of the best.",
-    "subtitle": "ᐳᐅ!DEVFESTYYC brings world-class and top local speakers together in Calgary! We will announce our unparallelled speaker lineup on September 1st, but until then, check out past festival speakers!",
+    "subtitle": "ᐳᐅ!DEVFESTYYC brings world-class and top local speakers together in Calgary! We will announce our unparallelled speaker lineup on September 15th, but until then, check out past festival speakers!",
     "callToAction": {
       "label": "View All",
       "link": "/speakers/"
@@ -284,8 +294,10 @@
     "image": "/images/team.jpg",
     "blocks": [
       {
-        "title": "We build. Right Here.",
-        "description": "<a href='https://www.gdgyyc.com/' target='_blank'>GDGYYC</a> is Calgary’s Google Developer Community the proud organizer of ᐳᐅ!DEVFESTYYC! GDGYYC exists to build a world-class developer community in Calgary and holds regular events focussed on Google Developer technology, tooling, frameworks and programs. Become a member of the community today!",
+        "title": "World-Class Developers. Right Here.",
+        "description": "ᐳᐅ!DEVFESTYYC is produced by <a href='https://www.gdgyyc.com/' target='_blank'>GDGYYC</a>, an all volunteer-led, not-for-profit chapter of Google’s world-wide developer ecosystem of 1 million developers, known as Google Developer Groups (GDG).",
+        "highlight": "100% of the proceeds from ᐳᐅ!DEVFESTYYC go back to the developer community.",
+        "text": "Our mission is to help developers, data scientists and technologists utilize Google technology to create, design, code and build for everyone. Since our founding in 2017, we have delivered and supported over 100 developer focused events locally and across North America.",
         "callToAction": {
           "label": "JOIN THE COMMUNITY",
           "link": "https://go.gdgyyc.com/meetup",
