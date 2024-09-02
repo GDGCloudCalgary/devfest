@@ -114,6 +114,8 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           border: 1px solid #fff;
           animation: button-pop 0.25s ease-out;
           color: #fff;
+          display: flex;
+          flex-direction: column;
         }
 
         .ping-span {
@@ -538,14 +540,18 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
           <div class="info-items">
             <div class="info-item">[[homePageTitle]]</div>
-            <div class="info-item info-item-description">[[homePageDescription]]</div>
+            <!-- <div class="info-item info-item-description">[[homePageDescription]]</div> -->
           </div>
           <!--<subscribe-form></subscribe-form>-->
           <div class="action-buttons" layout horizontal center-justified wrap>
             <paper-button on-click="scrollToTickets" invert>
               <span class="ping-span"></span>
-              <iron-icon icon="hoverboard:ticket"></iron-icon>
+              <!-- <iron-icon icon="hoverboard:ticket"></iron-icon> -->
               [[homePageCallToAction]]
+              <div style="display: flex; flex-direction: row; align-items: center;">
+                <span style="color: var(--default-primary-color); font-weight: bold; font-size: 20px;">$75</span>
+                <span style="text-decoration: line-through; margin-left: 10px; color: #ccc">$149</span>
+              </div>
             </paper-button>
           </div>
           <div class="limited-deal">
@@ -676,14 +682,14 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   }
 
   private scrollToTickets() {
-    // window.open('https://go.devfestyyc.com/cfp', '_blank');
-    const element = this.$['tickets-block'];
-    if (element) {
-      scrollToElement(element);
-    } else {
-      console.error('Error scrolling to section.');
-      // store.dispatch(queueSnackbar('Error scrolling to section.'));
-    }
+    window.open('https://go.devfestyyc.com/FESTIVALPASS', '_blank');
+    // const element = this.$['tickets-block'];
+    // if (element) {
+    //   scrollToElement(element);
+    // } else {
+    //   console.error('Error scrolling to section.');
+    //   // store.dispatch(queueSnackbar('Error scrolling to section.'));
+    // }
   }
 
   private scrollNextBlock() {

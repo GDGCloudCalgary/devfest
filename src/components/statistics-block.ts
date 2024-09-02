@@ -62,7 +62,6 @@ export class StatisticsBlock extends ThemedElement {
           content: '';
           display: block;
           height: 2px;
-          width: 64px;
           background-color: var(--default-primary-color);
         }
 

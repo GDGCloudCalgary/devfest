@@ -157,7 +157,7 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
           Sponsors get involved in ᐳᐅ!DEVFESTYYC to reach developers, technologists and decision influencers with powerful activations.
         </p>
         <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
-          <paper-button class="action-button" on-click="openForm">
+          <paper-button class="action-button" on-click="openMailer">
             <span>Request our Audience Data</span>
           </paper-button>
         </div>
@@ -385,6 +385,10 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
         submit: (data) => this.subscribeAction(data),
       });
     }
+  }
+
+  private openMailer() {
+    window.open('mailto:sponsor@devfestyyc.com?subject=Audience%20Data%20Request&body=Hi%2C%20%0D%0A%0D%0AI%20am%20interested%20in%20learning%20more%20about%20you%20audience%20Data.', '_blank');
   }
 
   private subscribeAction(data: DialogData) {
