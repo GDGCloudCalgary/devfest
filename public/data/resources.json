@@ -32,7 +32,7 @@
     "title": "JOIN US AT NORTH AMERICA'S RADDEST DEVELOPER FESTIVAL.",
     "description": "ᐳᐅ!DEVFESTYYC 2024 Call for Speakers and Exhibitors is now open!",
     "callToAction": "Super Early Bird Festival Pass",
-    "limitedDeal": "Super Early Bird Tickets on sale till September 15, while supplies last."
+    "limitedDeal": "Super Early Bird Tickets on sale till September 30th, while supplies last."
   },
   "footer": {
     "blog": "Blog"
@@ -142,7 +142,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "description": "Super Early Bird Tickets available (while supplies last) until September 15th, 2024. Don't miss out!",
+    "description": "Super Early Bird Tickets available (while supplies last) until September 30th, 2024. Don't miss out!",
     "ticketsDetails": "Your pass grants you access to all keynotes, technical sessions, hands-on workshops and presentations. You'll also get opportunities to meet and network with speakers and community members. Stay tuned for special pop-up events!",
     "soldOut": "You missed it!",
     "notAvailableYet": "Subscribe!",
@@ -185,7 +185,7 @@
   },
   "speakersBlock": {
     "title": "The best of the best.",
-    "subtitle": "ᐳᐅ!DEVFESTYYC brings world-class and top local speakers together in Calgary! We will announce our unparallelled speaker lineup on September 15th, but until then, check out past festival speakers!",
+    "subtitle": "ᐳᐅ!DEVFESTYYC brings world-class and top local speakers together in Calgary! We will announce our unparallelled speaker lineup on September 30th, but until then, check out past festival speakers!",
     "callToAction": {
       "label": "View All",
       "link": "/speakers/"

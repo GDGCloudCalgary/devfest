@@ -550,7 +550,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
               [[homePageCallToAction]]
               <div style="display: flex; flex-direction: row; align-items: center;">
                 <span style="color: var(--default-primary-color); font-weight: bold; font-size: 20px;">$75</span>
-                <span style="text-decoration: line-through; margin-left: 10px; color: #ccc">$149</span>
+                <span style="text-decoration: line-through; margin-left: 10px; color: #ccc">$199</span>
               </div>
             </paper-button>
           </div>

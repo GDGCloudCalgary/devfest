@@ -379,7 +379,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
               <span>Call for Speakers</span>
             </paper-button>
           </a> -->
-          <span>2024 Speaker Lineup launching September 15th.</span>
+          <span>2024 Speaker Lineup launching September 30th.</span>
         </div>
       </template>
 

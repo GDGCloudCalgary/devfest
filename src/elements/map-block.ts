@@ -7,6 +7,7 @@ import { ReduxMixin } from '../store/mixin';
 import { initialUiState } from '../store/ui/state';
 import { CONFIG, getConfig } from '../utils/config';
 import { location, mapBlock } from '../utils/data';
+// import { Viewer } from '@photo-sphere-viewer/core';
 import '../utils/icons';
 import './shared-styles';
 
@@ -47,6 +48,11 @@ export class MapBlock extends ReduxMixin(PolymerElement) {
             color: var(--text-primary-color);
           }
         }
+
+        /* #viewer {
+          height: 500px;
+          width: 100%;
+        } */
 
         @media (min-width: 640px) {
           :host {
@@ -122,12 +128,15 @@ export class MapBlock extends ReduxMixin(PolymerElement) {
           </a>
         </div>
       </div>
+
+      <!-- <div id="viewer"></div> -->
     `;
   }
 
   private location = location;
   private mapBlock = mapBlock;
   private googleMapApiKey = getConfig(CONFIG.GOOGLE_MAPS_API_KEY);
+  // private viewer: Viewer | null = null;
 
   @property({ type: Object })
   private viewport = initialUiState.viewport;
@@ -658,6 +667,27 @@ export class MapBlock extends ReduxMixin(PolymerElement) {
       },
     ],
   };
+
+  // override connectedCallback() {
+  //   super.connectedCallback();
+
+  //   // Initialize the Photo Sphere Viewer when the component is added to the DOM
+  //   const viewerElement = this.shadowRoot!.querySelector('#viewer') as HTMLElement;
+  //   this.viewer = new Viewer({
+  //     container: viewerElement,
+  //     panorama: 'https://photo-sphere-viewer-data.netlify.app/assets/sphere.jpg'
+  //   });
+  // }
+
+  // override disconnectedCallback() {
+  //   super.disconnectedCallback();
+
+  //   // Clean up the viewer when the component is removed from the DOM
+  //   if (this.viewer) {
+  //     this.viewer.destroy();
+  //     this.viewer = null;
+  //   }
+  // }
 
   override stateChanged(state: RootState) {
     this.viewport = state.ui.viewport;

@@ -403,7 +403,7 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
   private getTimer(timer: boolean) {
     const now = new Date();
     // get number of days left between dates
-    const daysLeft = Math.floor((new Date(2024, 8, 15).getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+    const daysLeft = Math.floor((new Date(2024, 9, 1).getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
     return timer ? daysLeft + ' days left' : '';
   }
 

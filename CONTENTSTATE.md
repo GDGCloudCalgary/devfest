@@ -30,7 +30,7 @@ The state is a JSON object with the following structure, the `current` document 
         // The call to action button text of the home page to display on the website
         "callToAction": "SPEAK AT ᐳᐅ!DEVFESTYYC!",
         // The limited deal to display on the website
-        "limitedDeal": "Super Early Bird Tickets on sale till September 15, while supplies last."
+        "limitedDeal": "Super Early Bird Tickets on sale till September 30th, while supplies last."
     }
 }
 ```
