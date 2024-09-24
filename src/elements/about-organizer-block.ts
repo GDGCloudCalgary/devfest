@@ -170,8 +170,8 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
         <p>ᐳᐅ!DEVFESTYYC is produced by GDGYYC, an all volunteer-led, not-for-profit chapter of Google’s world-wide developer ecosystem of 1 million developers, known as Google Developer Groups (GDG).</p>
 
         <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
-          <paper-button class="action-button" on-click="openForm">
-            <span>Sign up to get notified!</span>
+          <paper-button class="action-button" on-click="openVolunteerIntake">
+            <span>VOLUNTEER TODAY!</span>
           </paper-button>
         </div>
       </div>
@@ -388,7 +388,7 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
   }
 
   private openMailer() {
-    window.open('mailto:sponsor@devfestyyc.com?subject=Audience%20Data%20Request&body=Hi%2C%20%0D%0A%0D%0AI%20am%20interested%20in%20learning%20more%20about%20you%20audience%20Data.', '_blank');
+    window.open('https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=Audience+Data+Request&to=sponsor@devfestyyc.com&body=Hi,+%0D%0A%0D%0AI+am+interested+in+your+audience+Data', '_blank');
   }
 
   private subscribeAction(data: DialogData) {
