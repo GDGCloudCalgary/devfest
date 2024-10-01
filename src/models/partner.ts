@@ -5,6 +5,7 @@ export interface PartnerData {
   name: string;
   order: number;
   url: string;
+  year: string[];
 }
 
 export type Partner = Id & ParentId & PartnerData;

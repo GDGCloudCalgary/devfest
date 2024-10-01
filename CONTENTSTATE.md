@@ -24,7 +24,7 @@ The state is a JSON object with the following structure, the `current` document 
     },
     "homePage": {
         // The title of the home page to display on the website
-        "title": "JOIN US AT NORTH AMERICA'S RADDEST DEVELOPER FESTIVAL.",
+        "title": "JOIN US AT NORTH AMERICA'S RADDEST DEVELOPER FESTIVAL!",
         // The description of the home page to display on the website
         "description": "ᐳᐅ!DEVFESTYYC 2024 Call for Speakers and Exhibitors is now open!",
         // The call to action button text of the home page to display on the website

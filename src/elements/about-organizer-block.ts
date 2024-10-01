@@ -149,16 +149,16 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
 
       <div class="container section partners-wrapper">
         <h1 class="container-title big-heading">Sponsors</h1>
-        <h1 class="container-title">Your brand. Elevated.</h1>
+        <h1 class="container-title">Reach Our Audience!</h1>
         <p>
-          Ready to connect with top developers and technologists in one of the fastest growing tech ecosystems on the planet?
+          ᐳᐅ!DEVFESTYYC attracts Western Canada’s top emerging and established developers and technologists driving technical decisions for their organizations!
         </p>
         <p>
-          Sponsors get involved in ᐳᐅ!DEVFESTYYC to reach developers, technologists and decision influencers with powerful activations.
+          Want to access our audience with your product, service or educational offering?
         </p>
         <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
           <paper-button class="action-button" on-click="openMailer">
-            <span>Request our Audience Data</span>
+            <span>GET OUR AUDIENCE DATA</span>
           </paper-button>
         </div>
       </div>
@@ -295,8 +295,7 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
           <div class="location-block" flex>
             <div class="block">
               <short-markdown
-                content="Platform Innovation Centre is located at 407 9th Avenue SE, south of the Central Library.<br/>
-                There is paid parking provided by Calgary Parking."
+                content="Platform Innovation Centre is located at 407 9th Avenue SE, south of the Central Library.<br/>"
               ></short-markdown>
             </div>
             <div

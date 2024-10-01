@@ -12,6 +12,7 @@ import { initialTicketsState } from '../store/tickets/state';
 import {
   // buyTicket,
   contentLoaders,
+  homePage,
   // showpass,
   subscribeBlock,
   ticketsBlock
@@ -24,7 +25,7 @@ import { initialUserState } from '../store/user/state';
 // import { subscribe } from '../store/subscribe/actions';
 // import { openSubscribeDialog } from '../store/dialogs/actions';
 import { initialContentStateState } from '../store/content-state/state';
-import { logTicketsClick } from '../utils/analytics';
+// import { logTicketsClick } from '../utils/analytics';
 
 @customElement('tickets-block')
 export class TicketsBlock extends ReduxMixin(PolymerElement) {
@@ -175,9 +176,96 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
           width: 100%;
         }
 
+        .call-to-actions-container {
+          display: flex;
+          flex-direction: row;
+          width: 60%;
+          justify-content: space-around;
+          align-items: center;
+          margin-top: 40px;
+        }
+
+        .main-call-to-action-pill {
+          border-radius: 9999px;
+          padding: 10px 30px;
+          border: 4px solid var(--default-primary-color);
+          background-color: var(--default-primary-color);
+          color: #fff;
+          font-size: 34px;
+          font-weight: bold;
+          width: 144px;
+        }
+
+        .student-call-to-action-pill {
+          border-radius: 9999px;
+          padding: 10px 30px;
+          border: 4px solid var(--default-primary-color);
+          color: var(--default-primary-color);
+          font-size: 34px;
+          font-weight: bold;
+          width: 144px;
+        }
+
+        .call-to-action-pill {
+          border-radius: 9999px;
+          padding: 5px 20px;
+          border: 1px solid var(--error-color);
+          background-color: var(--error-color);
+          font-size: 14px;
+          font-weight: bold;
+          margin-top: 20px;
+          opacity: 0.6;
+          background-image: repeating-linear-gradient(
+            163deg, transparent 0%, transparent 48%, #fff 50%, transparent 52%, transparent 100%);
+        }
+
+        .call-to-action-text {
+          margin-bottom: 20px;
+          font-size: 18px;
+        }
+
+        .call-to-action-sub-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          min-width: 165px;
+        }
+
+        .discount-logo {
+          --lazy-image-width: 70px;
+          --lazy-image-height: 70px;
+          width: var(--lazy-image-width);
+          height: var(--lazy-image-height);
+          margin-top: 20px;
+          position: absolute;
+          margin-left: 150px;
+          z-index: 1;
+          cursor: pointer;
+        }
+
         paper-button[disabled] {
           background-color: var(--primary-color-transparent);
           font-size: 12px;
+        }
+
+        @media (max-width: 812px) {
+          .main-call-to-action-pill {
+            font-size: unset;
+            width: unset;
+          }
+
+          .student-call-to-action-pill {
+            font-size: unset;
+            width: unset;
+          }
+
+          .discount-logo {
+            margin-left: 120px;
+          }
+
+          .call-to-actions-container {
+            width: 100%;
+          }
         }
 
         @media (min-width: 640px) {
@@ -216,50 +304,24 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
         </content-loader>
 
         <div class="tickets" layout horizontal wrap center-justified>
-          <template is="dom-if" if="[[tickets.error]]"> Error loading tickets </template>
+          <template is="dom-if" if="[[tickets.error]]"> Error loading Festival Passes </template>
 
-          <template is="dom-repeat" items="[[tickets.data]]" as="ticket">
-            <a
-              class="ticket-item card"
-              href$="[[ticket.url]]"
-              rel="noopener noreferrer"
-              sold-out$="[[ticket.soldOut]]"
-              in-demand$="[[ticket.inDemand]]"
-              on-click="onTicketTap"
-              layout
-              vertical
-            >
-              <div class="header">
-                <h4>[[ticket.name]]</h4>
-              </div>
-              <div class="content" layout vertical flex-auto>
-                <div class="ticket-price-wrapper">
-                  <div class="price">[[ticket.currency]][[ticket.price]]</div>
-                  <div class="price-original" hidden$="[[!ticket.originalPrice]]">
-                  [[ticket.currency]][[ticket.originalPrice]]</div>
-                  <!--<div class="price">[[ticket.currency]]000</div>-->
-                  <div class="discount">[[getDiscount(ticket)]]</div>
-                </div>
-                <div class="type-description" layout vertical flex-auto center-justified>
-                  <div class="ticket-timer" hidden$="[[!ticket.timer]]">[[getTimer(ticket.timer)]]</div>
-                  <!-- <div class="ticket-dates" hidden$="[[!ticket.starts]]">
-                    [[ticket.starts]] - [[ticket.ends]]
-                  </div> -->
-                  <!-- <div class="ticket-info">[[ticket.info]]</div> -->
-                </div>
-              </div>
-              <!--<div class="actions">
-                <div class="sold-out" block$="[[ticket.soldOut]]">[[ticketsBlock.soldOut]]</div>
-                <paper-button
-                  class="action-button"
-                  hidden$="[[ticket.soldOut]]"
-                  disabled$="[[!ticket.available]]"
-                >
-                  [[getButtonText(ticket.available)]]
-                </paper-button>
-              </div>-->
-            </a>
-          </template>
+          <div class="call-to-actions-container">
+            <div class="call-to-action-sub-container">
+              <div class="call-to-action-text">[[homePageCallToAction]]</div>
+              <lazy-image on-click="onTicketTap" data-name="Early Bird" class="discount-logo"
+                src="/images/new/discount.png" alt="[[siteTitle]]"></lazy-image>
+              <paper-button on-click="onTicketTap" data-name="Early Bird"
+                class="main-call-to-action-pill">$99</paper-button>
+              <div class="call-to-action-pill">$199</div>
+            </div>
+            <div class="call-to-action-sub-container">
+              <div class="call-to-action-text">[[homePageCallToAction2]]</div>
+              <paper-button on-click="onTicketTap" data-name="Student Early Bird"
+                class="student-call-to-action-pill">$39</paper-button>
+              <div class="call-to-action-pill">$59</div>
+            </div>
+          </div>
         </div>
         <!--<div class="additional-info">*[[ticketsBlock.ticketsDetails]]</div>-->
         <!--<h2 class="laid-off">Have you been recently laid off?</h2>-->
@@ -300,6 +362,8 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
   private subscribeBlock = subscribeBlock;
   private ticketsBlockDescription = ticketsBlock.description;
   private ticketsBlockCallToAction = ticketsBlock.callToAction;
+  private homePageCallToAction = homePage.callToAction;
+  private homePageCallToAction2 = homePage.callToAction2;
 
   @property({ type: Object })
   tickets = initialTicketsState;
@@ -342,15 +406,16 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
     return this.ticketsBlock.save.replace('${discount}', discount);
   }
 
-  private onTicketTap(e: PointerEvent & { model: { ticket: Ticket } }) {
-  // private onTicketTap() {
-    if (e?.model?.ticket.soldOut || !e?.model?.ticket.available) {
-      e.preventDefault();
-      e.stopPropagation();
-      return;
-    }
+  // private onTicketTap(e: PointerEvent & { model: { ticket: Ticket } }) {
+  private onTicketTap() {
+    // private onTicketTap() {
+    // if (e?.model?.ticket.soldOut || !e?.model?.ticket.available) {
+    //   e.preventDefault();
+    //   e.stopPropagation();
+    //   return;
+    // }
 
-    logTicketsClick(e.model.ticket.name);
+    // logTicketsClick(e.model.ticket.name);
 
     // (globalThis as any)?.showpass?.tickets.eventPurchaseWidget('devfestyyc2023', {
     //   'theme-primary': showpass.theme.primary,
@@ -411,3 +476,47 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
   //   window.open('https://docs.google.com/document/d/1SAO3tXOG7ZGZTWLKtxtN1yr35f5Tg4x-SM9IuRvS0VQ/edit', '_blank');
   // }
 }
+
+
+// <template is="dom-repeat" items="[[tickets.data]]" as="ticket">
+//   <a
+//     class="ticket-item card"
+//     href$="[[ticket.url]]"
+//     rel="noopener noreferrer"
+//     sold-out$="[[ticket.soldOut]]"
+//     in-demand$="[[ticket.inDemand]]"
+//     on-click="onTicketTap"
+//     layout
+//     vertical
+//   >
+//     <div class="header">
+//       <h4>[[ticket.name]]</h4>
+//     </div>
+//     <div class="content" layout vertical flex-auto>
+//       <div class="ticket-price-wrapper">
+//         <div class="price">[[ticket.currency]][[ticket.price]]</div>
+//         <div class="price-original" hidden$="[[!ticket.originalPrice]]">
+//         [[ticket.currency]][[ticket.originalPrice]]</div>
+//         <!--<div class="price">[[ticket.currency]]000</div>-->
+//         <div class="discount">[[getDiscount(ticket)]]</div>
+//       </div>
+//       <div class="type-description" layout vertical flex-auto center-justified>
+//         <!-- <div class="ticket-timer" hidden$="[[!ticket.timer]]">[[getTimer(ticket.timer)]]</div> -->
+//         <!-- <div class="ticket-dates" hidden$="[[!ticket.starts]]">
+//           [[ticket.starts]] - [[ticket.ends]]
+//         </div> -->
+//         <!-- <div class="ticket-info">[[ticket.info]]</div> -->
+//       </div>
+//     </div>
+//     <!--<div class="actions">
+//       <div class="sold-out" block$="[[ticket.soldOut]]">[[ticketsBlock.soldOut]]</div>
+//       <paper-button
+//         class="action-button"
+//         hidden$="[[ticket.soldOut]]"
+//         disabled$="[[!ticket.available]]"
+//       >
+//         [[getButtonText(ticket.available)]]
+//       </paper-button>
+//     </div>-->
+//   </a>
+// </template>

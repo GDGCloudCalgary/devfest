@@ -97,6 +97,12 @@ export class HeroBlock extends ThemedElement {
           max-width: 600px;
         }
 
+        @media (max-width: 500px) {
+          .hero-content {
+            padding: 80px 12px 32px;
+          }
+        }
+
         @media (min-width: 812px) {
           :host {
             margin-top: -64px;

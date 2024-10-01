@@ -79,7 +79,8 @@
           "order": 0,
           "logoUrl": "../images/logos/gdg-Calgary.svg",
           "name": "GDG Calgary",
-          "url": "https://www.meetup.com/GDG-Calgary/"
+          "url": "https://www.meetup.com/GDG-Calgary/",
+          "year": ["2023"]
         }
       ],
       "order": 0,
@@ -91,67 +92,78 @@
           "order": 0,
           "logoUrl": "../images/logos/google.svg",
           "name": "Google",
-          "url": "https://www.google.com.ua/intl/en/about/"
+          "url": "https://www.google.com.ua/intl/en/about/",
+          "year": ["2023"]
         },
         {
           "order": 1,
           "logoUrl": "../images/logos/gdg-x.svg",
           "name": "GDG[x]",
-          "url": "https://github.com/gdg-x"
+          "url": "https://github.com/gdg-x",
+          "year": ["2023"]
         },
         {
           "order": 2,
           "logoUrl": "../images/logos/google.svg",
           "name": "Google",
-          "url": "https://www.google.com.ua/intl/en/about/"
+          "url": "https://www.google.com.ua/intl/en/about/",
+          "year": ["2023"]
         },
         {
           "order": 3,
           "logoUrl": "../images/logos/gdg-x.svg",
           "name": "GDG[x]",
-          "url": "https://github.com/gdg-x"
+          "url": "https://github.com/gdg-x",
+          "year": ["2023"]
         },
         {
           "order": 4,
           "logoUrl": "../images/logos/google.svg",
           "name": "Google",
-          "url": "https://www.google.com.ua/intl/en/about/"
+          "url": "https://www.google.com.ua/intl/en/about/",
+          "year": ["2023"]
         },
         {
           "order": 5,
           "logoUrl": "../images/logos/gdg-x.svg",
           "name": "GDG[x]",
-          "url": "https://github.com/gdg-x"
+          "url": "https://github.com/gdg-x",
+          "year": ["2023"]
         },
         {
           "order": 6,
           "logoUrl": "../images/logos/google.svg",
           "name": "Google",
-          "url": "https://www.google.com.ua/intl/en/about/"
+          "url": "https://www.google.com.ua/intl/en/about/",
+          "year": ["2023"]
         },
         {
           "order": 7,
           "logoUrl": "../images/logos/gdg-x.svg",
           "name": "GDG[x]",
-          "url": "https://github.com/gdg-x"
+          "url": "https://github.com/gdg-x",
+          "year": ["2023"]
         },
         {
           "order": 8,
           "logoUrl": "../images/logos/google.svg",
           "name": "Google",
-          "url": "https://www.google.com.ua/intl/en/about/"
+          "url": "https://www.google.com.ua/intl/en/about/",
+          "year": ["2023"]
         },
         {
           "order": 9,
           "logoUrl": "../images/logos/gdg-x.svg",
           "name": "GDG[x]",
-          "url": "https://github.com/gdg-x"
+          "url": "https://github.com/gdg-x",
+          "year": ["2023"]
         },
         {
           "order": 10,
           "logoUrl": "../images/logos/google.svg",
           "name": "Google",
-          "url": "https://www.google.com.ua/intl/en/about/"
+          "url": "https://www.google.com.ua/intl/en/about/",
+          "year": ["2023"]
         }
       ],
       "order": 1,

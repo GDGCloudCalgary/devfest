@@ -63,7 +63,6 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
           pointer-events: none;
-          margin-top: 10vh;
         }
 
         .hero-logo-text {
@@ -78,7 +77,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         }
 
         .home-content {
-          margin-top: -30vh;
+          margin-top: -20vh;
           overflow: hidden;
         }
 
@@ -102,7 +101,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         .action-buttons {
           margin: 0 -8px;
           font-size: 14px;
-          margin-top: 40px;
+          margin-top: 10px;
         }
 
         .action-buttons paper-button {
@@ -134,6 +133,73 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         *::before,
         *::after {
           border: 0 solid #fff;
+        }
+
+        .call-to-actions-container {
+          display: flex;
+          flex-direction: row;
+          width: 60%;
+          justify-content: space-around;
+          align-items: center;
+          margin-top: 40px;
+        }
+
+        .main-call-to-action-pill {
+          border-radius: 9999px;
+          padding: 10px 30px;
+          border: 4px solid var(--default-primary-color);
+          background-color: var(--default-primary-color);
+          color: #fff;
+          font-size: 34px;
+          font-weight: bold;
+          width: 144px;
+        }
+
+        .student-call-to-action-pill {
+          border-radius: 9999px;
+          padding: 10px 30px;
+          border: 4px solid var(--default-primary-color);
+          color: var(--default-primary-color);
+          font-size: 34px;
+          font-weight: bold;
+          width: 144px;
+        }
+
+        .call-to-action-pill {
+          border-radius: 9999px;
+          padding: 5px 20px;
+          border: 1px solid var(--error-color);
+          background-color: var(--error-color);
+          font-size: 14px;
+          font-weight: bold;
+          margin-top: 20px;
+          opacity: 0.6;
+          background-image: repeating-linear-gradient(
+            163deg, transparent 0%, transparent 48%, #fff 50%, transparent 52%, transparent 100%);
+        }
+
+        .call-to-action-text {
+          margin-bottom: 20px;
+          font-size: 18px;
+        }
+
+        .call-to-action-sub-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          min-width: 165px;
+        }
+
+        .discount-logo {
+          --lazy-image-width: 70px;
+          --lazy-image-height: 70px;
+          width: var(--lazy-image-width);
+          height: var(--lazy-image-height);
+          margin-top: 20px;
+          position: absolute;
+          margin-left: 150px;
+          z-index: 1;
+          cursor: pointer;
         }
 
         /* .triangle1 {
@@ -241,8 +307,13 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         }
 
         .limited-deal {
-          font-size: 16px;
+          font-size: 18px;
           margin-top: 20px;
+          color: #ccc;
+        }
+
+        .limited-deal-2 {
+          font-size: 18px;
           color: #ccc;
         }
 
@@ -398,11 +469,11 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           }
 
           .hero-logo-text {
-            top: 46vh;
+            top: 33vh;
           }
 
           .hero-logo-tagline {
-            top: 52vh;
+            top: 39vh;
             height: 8vh;
           }
 
@@ -413,16 +484,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
           .info-items {
             font-size: 16px;
-            margin-top: 100px;
+            margin-top: 120px;
           }
 
           .info-item-description {
-            color: #ccc;
-          }
-
-          .limited-deal {
-            font-size: 14px;
-            margin-top: 20px;
             color: #ccc;
           }
 
@@ -440,7 +505,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
           .info-items {
             font-size: 14px;
-            margin-top: 80px;
+            margin-top: 20px;
           }
 
           .action-buttons {
@@ -449,6 +514,43 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
           .scroll-down {
             bottom: 50px;
+          }
+
+          .limited-deal {
+            font-size: 14px;
+          }
+
+          .limited-deal-2 {
+            font-size: 14px;
+          }
+
+          .discount-logo {
+            margin-left: 120px;
+            --lazy-image-width: 50px;
+            --lazy-image-height: 50px;
+          }
+        }
+
+        @media (max-width: 812px) {
+          .main-call-to-action-pill {
+            font-size: unset;
+            width: unset;
+            padding: 5px 10px;
+          }
+
+          .student-call-to-action-pill {
+            font-size: unset;
+            width: unset;
+            padding: 5px 10px;
+          }
+
+          .discount-logo {
+            margin-left: 120px;
+          }
+
+          .call-to-actions-container {
+            width: 100%;
+            margin-top: 20px;
           }
         }
 
@@ -463,11 +565,11 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           }
 
           .hero-logo-text {
-            top: 58vh;
+            top: 49vh;
           }
 
           .hero-logo-tagline {
-            top: 64vh;
+            top: 55vh;
             height: 10vh;
           }
 
@@ -477,9 +579,9 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           }
 
           .info-items {
-            font-size: 20px;
+            font-size: 24px;
             line-height: 1.1;
-            margin-top: 40px;
+            margin-top: -40px;
           }
 
           /* .triangle1 {
@@ -543,22 +645,43 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             <!-- <div class="info-item info-item-description">[[homePageDescription]]</div> -->
           </div>
           <!--<subscribe-form></subscribe-form>-->
-          <div class="action-buttons" layout horizontal center-justified wrap>
+          <!-- <div class="action-buttons" layout horizontal center-justified wrap>
             <paper-button on-click="scrollToTickets" invert>
               <span class="ping-span"></span>
-              <!-- <iron-icon icon="hoverboard:ticket"></iron-icon> -->
               [[homePageCallToAction]]
               <div style="display: flex; flex-direction: row; align-items: center;">
-                <span style="color: var(--default-primary-color); font-weight: bold; font-size: 20px;">$75</span>
+                <span style="color: var(--default-primary-color); font-weight: bold; font-size: 20px;">$99</span>
                 <span style="text-decoration: line-through; margin-left: 10px; color: #ccc">$199</span>
               </div>
             </paper-button>
+          </div> -->
+          <div class="call-to-actions-container">
+            <div class="call-to-action-sub-container">
+              <div class="call-to-action-text">[[homePageCallToAction]]</div>
+              <lazy-image on-click="scrollToTickets" class="discount-logo" src="/images/new/discount.png"
+                alt="[[siteTitle]]"></lazy-image>
+              <paper-button on-click="scrollToTickets" class="main-call-to-action-pill">$99</paper-button>
+              <div class="call-to-action-pill">$199</div>
+            </div>
+            <div class="call-to-action-sub-container">
+              <div class="call-to-action-text">[[homePageCallToAction2]]</div>
+              <paper-button on-click="scrollToTickets" class="student-call-to-action-pill">$39</paper-button>
+              <div class="call-to-action-pill">$59</div>
+            </div>
           </div>
           <div class="limited-deal">
             [[homePageLimitedDeal]]
           </div>
+          <div class="limited-deal-2">
+            Our Justification Letter can help! Click here to get your letter started.
+          </div>
+          <div class="action-buttons" layout horizontal center-justified wrap>
+            <paper-button on-click="openForm" invert>
+              JUSTIFY YOUR TRIP
+            </paper-button>
+          </div>
 
-          <div class="scroll-down" on-click="scrollNextBlock">
+          <!-- <div class="scroll-down" on-click="scrollNextBlock">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               version="1.1"
@@ -619,7 +742,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
               ></path>
             </svg>
             <i class="icon icon-arrow-down"></i>
-          </div>
+          </div> -->
         </div>
       </hero-block>
       <template is="dom-if" if="{{showForkMeBlock}}">
@@ -652,6 +775,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   private homePageTitle = homePage.title;
   private homePageDescription = description;
   private homePageCallToAction = homePage.callToAction;
+  private homePageCallToAction2 = homePage.callToAction2;
   private homePageLimitedDeal = homePage.limitedDeal;
 
   @query('#hero')
@@ -694,6 +818,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
   private scrollNextBlock() {
     scrollToElement(this.hero, POSITION.BOTTOM);
+  }
+
+  private openForm() {
+    window.open('https://go.devfestyyc.com/attendeejustification', '_blank');
   }
 
   private shouldShowForkMeBlock(): boolean {

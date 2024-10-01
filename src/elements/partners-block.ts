@@ -18,6 +18,7 @@ import { queueSnackbar } from '../store/snackbars';
 import { heroSettings, loading, partnersBlock } from '../utils/data';
 import '../utils/icons';
 import './shared-styles';
+import { PartnerGroup } from '../models/partner-group';
 
 @customElement('partners-block')
 export class PartnersBlock extends ReduxMixin(PolymerElement) {
@@ -93,6 +94,41 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
           color: var(--default-primary-color);
         }
 
+        .year-selection {
+          width: 30%;
+          margin-top: 30px;
+          border-radius: 9999px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          align-self: center;
+          justify-content: space-around;
+          overflow: hidden;
+        }
+
+        .year-button {
+          width: 50%;
+          text-align: center;
+          padding-top: 0.7em;
+          padding-bottom: 0.7em;
+          transition: background-color var(--animation);
+          cursor: pointer;
+        }
+
+        .year-selected {
+          background-color: magenta;
+        }
+
+        .year-button:hover {
+          background-color: var(--primary-color-transparent);
+        }
+
+        .border-right {
+          border-right: 1px solid #fff;
+        }
+
         @media (min-width: 812px) {
           .logos-wrapper {
             grid-template-columns: repeat(3, 1fr);
@@ -116,6 +152,22 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
       <div class="container section partners-wrapper">
         <h1 class="container-title big-heading">[[partnersBlock.title]]</h1>
 
+        <div class="year-selection">
+          <template is="dom-if" if="[[_isEqualTo(year, '2023')]]">
+            <span year="2023" on-click="filterList" class="year-button border-right year-selected">2023</span>
+          </template>
+          <template is="dom-if" if="[[!_isEqualTo(year, '2023')]]">
+            <span year="2023" on-click="filterList" class="year-button border-right">2023</span>
+          </template>
+
+          <template is="dom-if" if="[[_isEqualTo(year, '2024')]]">
+            <span year="2024" on-click="filterList" class="year-button year-selected">2024</span>
+          </template>
+          <template is="dom-if" if="[[!_isEqualTo(year, '2024')]]">
+            <span year="2024" on-click="filterList" class="year-button">2024</span>
+          </template>
+        </div>
+
         <template is="dom-if" if="[[pending]]">
           <p>[[loading]]</p>
         </template>
@@ -123,7 +175,7 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
           <p>Error loading partners.</p>
         </template>
 
-        <template is="dom-repeat" items="[[partners.data]]" as="block">
+        <template is="dom-repeat" items="[[filteredPartners]]" as="block">
           <h4 class="block-title">[[block.title]]</h4>
           <div class="logos-wrapper">
             <template is="dom-repeat" items="[[block.items]]" as="logo">
@@ -146,6 +198,17 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
             </template>
           </div>
         </template>
+        <template is="dom-if" if="[[!filteredPartners.length]]">
+          <!--<h1 style="text-align: center">Coming Soon!</h1>-->
+          <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
+            <!-- <a href="https://go.devfestyyc.com/cfp" target="blank">
+              <paper-button class="action-button">
+                <span>Call for Speakers</span>
+              </paper-button>
+            </a> -->
+            <span>Announcing 2024 Sponsors and Partners soon!</span>
+          </div>
+        </template>
 
         <!--<div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
           <paper-button class="action-button" on-click="addPotentialPartner">
@@ -165,6 +228,10 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
   potentialPartners = initialPotentialPartnersState;
   @property({ type: Object })
   partners: PartnerGroupsState = new Initialized();
+  @property({ type: Array })
+  filteredPartners: PartnerGroup[] = [];
+  @property({ type: String })
+  year = '2024';
 
   @computed('partners')
   get pending() {
@@ -179,6 +246,25 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
   override stateChanged(state: RootState) {
     this.partners = selectPartnerGroups(state);
     this.potentialPartners = state.potentialPartners;
+    this.filterPartners();
+  }
+
+  filterPartners() {
+    if (this.partners instanceof Success) {
+      const { data } = this.partners;
+      const filteredPartners = data.filter(
+        (partner) => partner.items.find(i => i.year && i.year.includes(this.year))
+      );
+      this.filteredPartners = filteredPartners;
+    } else {
+      this.filteredPartners = [];
+    }
+  }
+
+  filterList(event: any) {
+    const year = event.target.getAttribute('year');
+    this.year = year;
+    this.filterPartners();
   }
 
   private addPotentialPartner() {
@@ -201,5 +287,9 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
 
   private openCFP() {
     window.open('https://go.devfestyyc.com/cfp', '_blank');
+  }
+
+  _isEqualTo(year: string, selectedYear: string) {
+    return year === selectedYear;
   }
 }

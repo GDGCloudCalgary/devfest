@@ -29,10 +29,11 @@
   "timezoneOffset": "-180",
   "loading": "Loading...",
   "homePage": {
-    "title": "JOIN US AT NORTH AMERICA'S RADDEST DEVELOPER FESTIVAL.",
+    "title": "JOIN US AT NORTH AMERICA'S RADDEST DEVELOPER FESTIVAL!",
     "description": "ᐳᐅ!DEVFESTYYC 2024 Call for Speakers and Exhibitors is now open!",
-    "callToAction": "Super Early Bird Festival Pass",
-    "limitedDeal": "Super Early Bird Tickets on sale till September 30th, while supplies last."
+    "callToAction": "Early Bird",
+    "callToAction2": "Student Early Bird",
+    "limitedDeal": "Need to convince your boss that you need to attend ᐳᐅ!DEVFESTYYC?"
   },
   "footer": {
     "blog": "Blog"
@@ -141,8 +142,8 @@
     }
   },
   "ticketsBlock": {
-    "title": "Tickets",
-    "description": "Super Early Bird Tickets available (while supplies last) until September 30th, 2024. Don't miss out!",
+    "title": "Festival Passes",
+    "description": "EARLY BIRD passes ON SALE NOW! Get 50% OFF your festival pass while supplies last.",
     "ticketsDetails": "Your pass grants you access to all keynotes, technical sessions, hands-on workshops and presentations. You'll also get opportunities to meet and network with speakers and community members. Stay tuned for special pop-up events!",
     "soldOut": "You missed it!",
     "notAvailableYet": "Subscribe!",
@@ -150,7 +151,7 @@
     "callToAction": "Subscribe"
   },
   "partnersBlock": {
-    "title": "2023 Sponsors",
+    "title": "Sponsors",
     "button": "Sponsor the tech event of the year!",
     "form": {
       "title": "Sponsor ᐳᐅ!DEVFESTYYC!",
@@ -185,7 +186,7 @@
   },
   "speakersBlock": {
     "title": "The best of the best.",
-    "subtitle": "ᐳᐅ!DEVFESTYYC brings world-class and top local speakers together in Calgary! We will announce our unparallelled speaker lineup on September 30th, but until then, check out past festival speakers!",
+    "subtitle": "Our unprecedented 2024 Lineup curates North America’s top Google Experts in AI, Cloud, Web and Mobile. We’re giving you more opportunities to meet and learn from the best of the best.",
     "callToAction": {
       "label": "View All",
       "link": "/speakers/"
@@ -225,7 +226,7 @@
     "subscribed": "Subscribed",
     "close": "Close",
     "generalError": "An error has occurred. Please, try again later.",
-    "toast": "Successfully subscribed! We will notify you when registration opens for the Early Bird Tickets with massive savings!"
+    "toast": "Successfully subscribed! We will notify you when registration opens for the Early Bird Festival Passes with massive savings!"
   },
   "team": {
     "description": ""

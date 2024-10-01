@@ -298,10 +298,10 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           </template>
 
           <template is="dom-if" if="[[_isEqualTo(year, '2023')]]">
-            <span year="2023" on-click="filterList" class="year-button year-selected">2023</span>
+            <span year="2023" on-click="filterList" class="year-button border-right year-selected">2023</span>
           </template>
           <template is="dom-if" if="[[!_isEqualTo(year, '2023')]]">
-            <span year="2023" on-click="filterList" class="year-button">2023</span>
+            <span year="2023" on-click="filterList" class="year-button border-right">2023</span>
           </template>
 
           <template is="dom-if" if="[[_isEqualTo(year, '2024')]]">
@@ -379,7 +379,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
               <span>Call for Speakers</span>
             </paper-button>
           </a> -->
-          <span>2024 Speaker Lineup launching September 30th.</span>
+          <span>Announcing 2024 Speaker lineup soon!</span>
         </div>
       </template>
 
@@ -404,7 +404,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
   filteredSpeakers: Speaker[] = [];
 
   @property({ type: String })
-  year = '2023';
+  year = '2024';
 
   override connectedCallback() {
     super.connectedCallback();
