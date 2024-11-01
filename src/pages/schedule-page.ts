@@ -187,7 +187,7 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
       if (pathname.endsWith('schedule/')) {
         return true;
       } else {
-        return id ? id.includes('2023') : false;
+        return id ? id.includes('2024') : false;
       }
     } else {
       return undefined;

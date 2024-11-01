@@ -376,7 +376,14 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
       const { data } = this.speakers;
       const filteredSpeakers = data.filter(
         (speaker) => speaker.featured && speaker.year && speaker.year.includes(this.year)
-      );
+      ).map(i => {
+        return {
+          ...i,
+          companyLogoUrl: (!i.companyLogoUrl
+            || i.companyLogoUrl?.endsWith('.svg')
+            || i.companyLogoUrl?.endsWith('.pdf')) ? 'images/new/devfest_logo_text.png' : i.companyLogoUrl
+        };
+      });
       this.filteredSpeakers = randomOrder(filteredSpeakers).slice(0, 6);
     } else {
       this.filteredSpeakers = [];

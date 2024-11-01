@@ -75,10 +75,26 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
           }
 
           .grid {
-            display: grid;
+            /* display: grid;
             grid-column-gap: 16px;
             grid-row-gap: 32px;
-            grid-template-columns: repeat(var(--tracks-number), 1fr);
+            grid-template-columns: repeat(var(--tracks-number), 1fr); */
+            display: flex;
+            flex-direction: column;
+          }
+
+          .grid-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2%;
+            margin-top: -2%;
+          }
+
+          .session {
+            flex: 1 1 0px;
+            margin-top: 2%;
           }
 
           .start-time {
@@ -123,6 +139,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
             <span>[[mySchedule.browseSession]]</span>
           </a>
 
+          <div class="grid-row">
           <template
             is="dom-repeat"
             items="[[timeslot.sessions]]"
@@ -144,6 +161,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
               </template>
             </div>
           </template>
+        </div>
         </template>
       </div>
     `;
@@ -236,7 +254,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
       if (pathname.endsWith('my-schedule')) {
         return 'my-schedule';
       } else {
-        return id || this.schedule.data.filter(i => i.date.includes('2023'))?.[0]?.date;
+        return id || this.schedule.data.filter(i => i.date.includes('2024'))?.[0]?.date;
       }
     } else {
       return undefined;

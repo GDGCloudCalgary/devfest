@@ -262,11 +262,11 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
 
       <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>
 
-      <filter-menu
+      <!-- <filter-menu
         filter-groups="[[filterGroups]]"
         selected-filters="[[selectedFilters]]"
         results-count="[[filteredSpeakers.length]]"
-      ></filter-menu>
+      ></filter-menu> -->
 
       <content-loader
         class="container"
@@ -422,7 +422,14 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
     this.selectedFilters = selectFilters(state);
     this.filteredSpeakers = selectFilteredSpeakers(state).filter(
       (speaker) => speaker.year && speaker.year.includes(this.year)
-    );
+    ).map(i => {
+      return {
+        ...i,
+        companyLogoUrl: (!i.companyLogoUrl
+          || i.companyLogoUrl?.endsWith('.svg')
+          || i.companyLogoUrl?.endsWith('.pdf')) ? 'images/new/devfest_logo_text.png' : i.companyLogoUrl
+      };
+    });
   }
 
   @computed('speakers')
@@ -441,7 +448,14 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
       const { data } = this.speakers;
       const filteredSpeakers = data.filter(
         (speaker) => speaker.year && speaker.year.includes(this.year)
-      );
+      ).map(i => {
+        return {
+          ...i,
+          companyLogoUrl: (!i.companyLogoUrl
+            || i.companyLogoUrl?.endsWith('.svg')
+            || i.companyLogoUrl?.endsWith('.pdf')) ? 'images/new/devfest_logo_text.png' : i.companyLogoUrl
+        };
+      });
       this.filteredSpeakers = filteredSpeakers;
     } else {
       this.filteredSpeakers = [];
