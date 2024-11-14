@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <style>
+    @font-face {
+      font-family: montserrat;
+      src: url('./public/fonts/Montserrat.ttf');
+    }
+
+    body {
+      font-family: montserrat;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    const day1Sessions = {};
+
+    const day2Sessions = {};
+
+    const body = document.querySelector('body');
+    const timeslots = day1Sessions.timeslots;
+
+    timeslots.forEach((timeslot) => {
+      const sessions = timeslot.sessions;
+      sessions.forEach((session) => {
+        const items = session.items;
+        items.forEach((item) => {
+          const room = item.room;
+          const startTime = item.startTime;
+          const endTime = item.endTime;
+          const speakers = item.speakers;
+          const sessionName = item.title;
+          const sessionDescription = item.description;
+
+          const sessionElement = document.createElement('div');
+          sessionElement.style.pageBreakAfter = 'always';
+          sessionElement.innerHTML = `
+            <div style="padding: 20px; height: 200vh; margin-bottom: 20px;">
+            <p><strong>Room:</strong> ${room}</p>
+            ${startTime && endTime ? `<hr/><p><strong>Time:</strong> ${startTime} - ${endTime}</p>` : ''}
+            ${sessionName ? `<hr/><h2>${sessionName}</h2>` : ''}
+            ${sessionDescription ? `<hr/><p>${sessionDescription}</p>` : ''}
+            ${speakers.length > 0 ? `
+            <hr/>
+            <div>
+              <h3>Speakers:</h3>
+              ${speakers.map(speaker => `
+              <div style="margin-bottom: 10px;">
+                <h4>${speaker.name}</h4>
+                <p>${speaker.bio}</p>
+              </div>
+              `).join('')}
+            </div>
+            ` : ''}
+            </div>
+          `;
+          body.appendChild(sessionElement);
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

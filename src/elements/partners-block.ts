@@ -206,7 +206,7 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
                 <span>Call for Speakers</span>
               </paper-button>
             </a> -->
-            <span>Announcing 2024 Sponsors and Partners soon!</span>
+            <span>Announcing soon!</span>
           </div>
         </template>
 
@@ -252,9 +252,10 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
   filterPartners() {
     if (this.partners instanceof Success) {
       const { data } = this.partners;
-      const filteredPartners = data.filter(
-        (partner) => partner.items.find(i => i.year && i.year.includes(this.year))
-      );
+      const filteredPartners: any[] = JSON.parse(JSON.stringify(data));
+      filteredPartners.map(partner => {
+        partner.items = partner.items.filter((i: any) => i.year && i.year.includes(this.year));
+      });
       this.filteredPartners = filteredPartners;
     } else {
       this.filteredPartners = [];
