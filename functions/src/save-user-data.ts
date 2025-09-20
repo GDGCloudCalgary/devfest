@@ -1,4 +1,4 @@
-import { auth } from 'firebase-functions';
+import { auth } from 'firebase-functions/v1';
 import { getFirestore } from 'firebase-admin/firestore';
 
 export const saveUserData = auth.user().onCreate((userRecord) => {

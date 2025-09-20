@@ -3,7 +3,7 @@
 import { getFirestore } from 'firebase-admin/firestore';
 // https://github.com/import-js/eslint-plugin-import/issues/1810
 // eslint-disable-next-line import/no-unresolved
-import { getMessaging, MessagingPayload } from 'firebase-admin/messaging';
+import { getMessaging, Message, MessagingPayload } from 'firebase-admin/messaging';
 import * as functions from 'firebase-functions/v1';
 
 const REMOVE_TOKEN_ERROR = [
@@ -56,8 +56,12 @@ export const sendGeneralNotification = functions.firestore
     }
 
     const tokensToRemove = [];
-    const messagingResponse = await getMessaging().sendToDevice(tokens, payload);
-    messagingResponse.results.forEach((result, index) => {
+    const messages: Message[] = tokens.map((token) => ({
+      token,
+      ...payload
+    }));
+    const messagingResponse = await getMessaging().sendEach(messages);
+    messagingResponse.responses.forEach((result, index) => {
       const error = result.error;
       if (error) {
         functions.logger.error(`Failure sending notification to ${tokens[index]}`, error);

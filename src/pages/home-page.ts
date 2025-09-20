@@ -655,7 +655,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
               </div>
             </paper-button>
           </div> -->
-          <div class="call-to-actions-container">
+          <!-- <div class="call-to-actions-container">
             <div class="call-to-action-sub-container">
               <div class="call-to-action-text">[[homePageCallToAction]]</div>
               <lazy-image on-click="scrollToTickets" class="discount-logo" src="/images/new/discount.png"
@@ -668,7 +668,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
               <paper-button on-click="scrollToTickets" class="student-call-to-action-pill">$39</paper-button>
               <div class="call-to-action-pill">$59</div>
             </div>
-          </div>
+          </div> -->
           <div class="limited-deal">
             [[homePageLimitedDeal]]
           </div>
@@ -751,11 +751,11 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <about-block></about-block>
       <speakers-block></speakers-block>
       <statistics-block></statistics-block>
-      <tickets-block id="tickets-block"></tickets-block>
+      <!--<tickets-block id="tickets-block"></tickets-block>-->
       <!--<subscribe-block></subscribe-block>-->
       <about-organizer-block></about-organizer-block>
       <map-block></map-block>
-      <partners-block></partners-block>
+      <!--<partners-block></partners-block>-->
       <footer-block></footer-block>
     `;
   }

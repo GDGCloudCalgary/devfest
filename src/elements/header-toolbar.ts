@@ -234,9 +234,9 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             <paper-button class="buy-button" primary>[[signInText]]</paper-button>
           </a> -->
 
-          <a on-click="register" rel="noopener noreferrer">
+          <!--<a on-click="register" rel="noopener noreferrer">
             <paper-button class="buy-button" primary>[[buyTicket]]</paper-button>
-          </a>
+          </a>-->
         </paper-tabs>
 
         <div class="action-buttons">

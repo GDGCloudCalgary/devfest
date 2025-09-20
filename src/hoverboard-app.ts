@@ -198,7 +198,7 @@ export class HoverboardApp extends PolymerElement {
             <div>
               <app-install></app-install>
 
-              <a
+              <!-- <a
                 class="bottom-drawer-link"
                 on-click="register"
                 rel="noopener noreferrer"
@@ -207,7 +207,7 @@ export class HoverboardApp extends PolymerElement {
                 center
               >
                 <span>[[buyTicket]]</span>
-              </a>
+              </a>-->
             </div>
           </div>
         </app-drawer>
@@ -264,7 +264,7 @@ export class HoverboardApp extends PolymerElement {
 
   @property({ type: Object })
   contentState = initialContentStateState;
-  
+
   @computed('contentState')
   private get contentStateSuccess() {
     return this.contentState instanceof Success;
