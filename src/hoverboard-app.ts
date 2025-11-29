@@ -1,4 +1,4 @@
-import { Success } from '@abraham/remotedata';
+import { Failure, Success } from '@abraham/remotedata';
 import '@polymer/app-layout/app-drawer-layout/app-drawer-layout';
 import '@polymer/app-layout/app-drawer/app-drawer';
 import { AppDrawerElement } from '@polymer/app-layout/app-drawer/app-drawer';
@@ -267,7 +267,9 @@ export class HoverboardApp extends PolymerElement {
 
   @computed('contentState')
   private get contentStateSuccess() {
-    return this.contentState instanceof Success;
+    // Allow the app to load even if contentState fails or doesn't exist
+    // This prevents the loading screen from staying indefinitely
+    return this.contentState instanceof Success || this.contentState instanceof Failure;
   }
 
   stateChanged(state: RootState) {
@@ -276,6 +278,11 @@ export class HoverboardApp extends PolymerElement {
     this.routeName = selectRouteName(window.location.pathname);
     this.user = state.user;
     this.signedIn = state.user instanceof Success;
+
+    // Debug logging for content state
+    if (this.contentState instanceof Failure) {
+      console.warn('Content state failed to load:', this.contentState.error);
+    }
   }
 
   constructor() {
@@ -290,6 +297,15 @@ export class HoverboardApp extends PolymerElement {
     this.drawer.addEventListener('opened-changed', (event) => this.toggleDrawer(event));
     store.dispatch(fetchTickets);
     store.dispatch(fetchContentState);
+
+    // Safety timeout: hide loading screen after 5 seconds even if content state hasn't loaded
+    setTimeout(() => {
+      if (!(this.contentState instanceof Success) && !(this.contentState instanceof Failure)) {
+        console.warn('Content state timed out, allowing app to load anyway');
+        // Force a state update to hide the loading screen
+        this.contentState = new Failure(new Error('Content state load timeout'));
+      }
+    }, 5000);
   }
 
   override ready() {
